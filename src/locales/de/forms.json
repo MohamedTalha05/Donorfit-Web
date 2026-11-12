@@ -1,0 +1,113 @@
+{
+  "bookDemo": {
+    "eyebrow": "Live-Demo",
+    "title": "Persönliche Produktdemo vereinbaren",
+    "closeDialog": "Dialog schließen",
+    "intro": "Erfahren Sie, wie Donorfit regelmäßige Spenden, Patenschaften und die Betreuung Ihrer Spender:innen vereinfacht – zugeschnitten auf europäische NGOs und gemeinnützige Organisationen.",
+    "fields": {
+      "fullName": "Ihr vollständiger Name *",
+      "fullNamePlaceholder": "z. B. Max Mustermann",
+      "workEmail": "E-Mail (beruflich / NGO) *",
+      "workEmailPlaceholder": "max@beispiel.de",
+      "organizationName": "Name der Organisation *",
+      "organizationNamePlaceholder": "z. B. Stiftung Saubere Meere",
+      "orgType": "Art der Organisation",
+      "interest": "Hauptinteresse",
+      "annualVolume": "Jährliches Spendenvolumen",
+      "preferredDate": "Wunschtermin",
+      "preferredTime": "Bevorzugtes Zeitfenster"
+    },
+    "orgTypeOptions": {
+      "ngo": "Nichtregierungsorganisation (NGO)",
+      "charity": "Gemeinnütziger Verein / e.V.",
+      "foundation": "Öffentliche / private Stiftung",
+      "sponsorship": "Patenschafts- / Kinderhilfsorganisation",
+      "membership": "Mitgliederverband",
+      "humanitarian": "Internationale humanitäre Hilfe"
+    },
+    "interestOptions": {
+      "general": "Komplette Donorfit-Plattform",
+      "sponsorship": "Patenschaftsverwaltung",
+      "orphan-sponsorship": "Waisenpatenschaftsprogramm",
+      "recurring-giving": "Regelmäßiges Spenden & SEPA",
+      "donor-management": "Spenderverwaltung (CRM)",
+      "money-pool": "Money Pool & Gruppenspenden",
+      "membership": "Automatisierte Mitgliedsbeiträge",
+      "campaigns": "Nothilfe- & Zielkampagnen"
+    },
+    "volumeOptions": {
+      "under-100k": "Unter {{amount}}",
+      "100k-500k": "{{min}} – {{max}}",
+      "500k-2m": "{{min}} – 2 Mio. €",
+      "2m-10m": "2 Mio. € – 10 Mio. €",
+      "over-10m": "Über 10 Mio. €"
+    },
+    "timeOptions": {
+      "09:00 AM CET": "09:00 – 11:00 Uhr MEZ",
+      "11:00 AM CET": "11:00 – 13:00 Uhr MEZ",
+      "02:00 PM CET": "14:00 – 16:00 Uhr MEZ",
+      "04:00 PM CET": "16:00 – 18:00 Uhr MEZ"
+    },
+    "trustNote": "DSGVO-konform · Unverbindlich",
+    "submit": "Demo anfragen",
+    "success": {
+      "title": "Demo-Anfrage bestätigt",
+      "thanksBefore": "Vielen Dank, ",
+      "nameFallback": "liebe Interessentin, lieber Interessent",
+      "thanksMiddle": ". Ein:e Donorfit-Spezialist:in für gemeinnützige Organisationen meldet sich innerhalb von 4 Arbeitsstunden unter ",
+      "thanksAfter": " bei Ihnen, um Ihre Kalendereinladung zu bestätigen.",
+      "organization": "Organisation:",
+      "focus": "Gewünschter Schwerpunkt:",
+      "window": "Gewähltes Zeitfenster:",
+      "nextAvailable": "Nächster freier Termin",
+      "close": "Schließen & zurück zur Website"
+    }
+  },
+  "getStarted": {
+    "eyebrow": "Onboarding für Non-Profits",
+    "title": "Jetzt mit Donorfit starten",
+    "closeDialog": "Dialog schließen",
+    "step1": "1. Wählen Sie die Lösungen, die Ihre Organisation benötigt:",
+    "step2": "2. Organisation & Kontaktdaten:",
+    "modules": {
+      "donations": "Online-Spenden",
+      "recurring": "Regelmäßige Spenden & SEPA",
+      "sponsorship": "Patenschaftsverwaltung",
+      "orphan": "Waisenhilfe-Programme",
+      "moneypool": "Money Pool & Gruppen",
+      "membership": "Mitgliedsbeiträge",
+      "crm": "Spender-CRM & Belege",
+      "reporting": "Analysen & Auswertungen"
+    },
+    "fields": {
+      "namePlaceholder": "Ihr Name *",
+      "emailPlaceholder": "Geschäftliche E-Mail *",
+      "orgNamePlaceholder": "Offizieller Name der Organisation *"
+    },
+    "countries": {
+      "DE": "Deutschland (DE)",
+      "FR": "Frankreich (FR)",
+      "NL": "Niederlande (NL)",
+      "BE": "Belgien (BE)",
+      "AT": "Österreich (AT)",
+      "CH": "Schweiz (CH)",
+      "GB": "Vereinigtes Königreich (UK)",
+      "OTHER": "Sonstiges Europa / weltweit"
+    },
+    "supportNote": "Onboarding-Support innerhalb von 48 Std.",
+    "submit": "Einrichtung anfragen",
+    "success": {
+      "title": "Einrichtung des Arbeitsbereichs angefordert",
+      "receivedBefore": "Wir haben Ihre Konfiguration für ",
+      "receivedMiddle": " erhalten. Ihr:e Onboarding-Spezialist:in meldet sich innerhalb eines Werktags unter ",
+      "receivedAfter": " mit Sandbox-Zugangsdaten und den Schritten zur Verifizierung Ihres Zahlungsanbieters.",
+      "selectedModules": "Ausgewählte Module:",
+      "modulesActive": "{{count}} Module aktiv",
+      "modulesActiveOne": "{{count}} Modul aktiv",
+      "jurisdiction": "Land & Währung:",
+      "dataResidency": "Datenspeicherort:",
+      "dataResidencyValue": "Europäische Union (Frankfurt / Dublin)",
+      "done": "Fertig"
+    }
+  }
+}

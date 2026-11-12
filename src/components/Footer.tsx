@@ -1,253 +1,198 @@
 import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
+import { productByRoute } from '../data/productPages.ts';
+import { useT } from '../i18n/index.tsx';
 import BrandLogo from './BrandLogo.tsx';
-import { ArrowRight, ShieldCheck, Heart, Globe, Lock } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Lock } from 'lucide-react';
+
+/** A link is either a footer label key ('links.x') or a product name ('common:products.x'). */
+type FooterLink = { route: string; key: string; product?: boolean };
+
+const COLUMNS: { title: string; links: FooterLink[] }[] = [
+  {
+    title: 'product',
+    links: [
+      { route: '/', key: 'platform' },
+      { route: '/pricing', key: 'pricing' },
+      { route: '/sponsorship', key: 'sponsorship', product: true },
+      { route: '/orphan-sponsorship', key: 'orphanSponsorship' },
+      { route: '/money-pool', key: 'money-pool', product: true },
+      { route: '/membership', key: 'membership', product: true },
+      { route: '/water-well', key: 'water-well', product: true },
+      { route: '/qurbani', key: 'qurbani', product: true },
+      { route: '/school-management', key: 'school-management', product: true },
+      { route: '/donations', key: 'donations' },
+      { route: '/recurring-giving', key: 'recurringGiving' },
+      { route: '/donor-management', key: 'donorManagement' },
+      { route: '/reporting-and-insights', key: 'reporting' },
+    ],
+  },
+  {
+    title: 'solutions',
+    links: [
+      { route: '/solutions/ngos', key: 'ngos' },
+      { route: '/solutions/charities', key: 'charities' },
+      { route: '/solutions/foundations', key: 'foundations' },
+      { route: '/solutions/sponsorship-organizations', key: 'sponsorshipOrgs' },
+      { route: '/solutions/membership-organizations', key: 'membershipOrgs' },
+      { route: '/solutions/international-organizations', key: 'internationalOrgs' },
+    ],
+  },
+];
+
+const RESOURCE_LINKS: FooterLink[] = [
+  { route: '/blog', key: 'blog' },
+  { route: '/guides', key: 'guides' },
+  { route: '/case-studies', key: 'caseStudies' },
+  { route: '/faqs', key: 'faqs' },
+];
+const COMPANY_LINKS: FooterLink[] = [
+  { route: '/about', key: 'about' },
+  { route: '/contact', key: 'contact' },
+  { route: '/partners', key: 'partners' },
+];
+const LEGAL_LINKS: FooterLink[] = [
+  { route: '/privacy-policy', key: 'privacy' },
+  { route: '/cookie-policy', key: 'cookies' },
+  { route: '/terms', key: 'terms' },
+  { route: '/impressum', key: 'impressum' },
+  { route: '/accessibility', key: 'accessibility' },
+];
+
+const linkClass = 'text-brand-300 hover:text-white transition-colors cursor-pointer text-left';
+const headingClass = 'text-xs font-bold uppercase tracking-wider text-white';
 
 export default function Footer() {
-  const { openGetStarted, openBookDemo, navigateTo, openCookieSettings } = useModal();
+  const { openGetStarted, openBookDemo, navigateTo, openCookieSettings, currentRoute, localize } = useModal();
+  const t = useT('footer');
+  const tc = useT('common');
+  // The homepage and product landing pages end with their own CTA, so skip the duplicate banner there.
+  const showPreCta = currentRoute !== '/' && currentRoute !== '' && !productByRoute(currentRoute);
 
-  const handleNavigate = (path: string) => {
-    navigateTo(path);
-  };
+  /** Real <a href> (language-prefixed) so Cmd/Ctrl-click works; plain clicks use SPA navigation. */
+  const NavLink = ({ link, className = linkClass, children }: { link: FooterLink; className?: string; children?: React.ReactNode }) => (
+    <a
+      href={localize(link.route)}
+      onClick={(e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        navigateTo(link.route);
+      }}
+      className={className}
+    >
+      {children ?? (link.product ? tc(`products.${link.key}`) : t(`links.${link.key}`))}
+    </a>
+  );
 
   return (
-    <footer className="relative overflow-hidden bg-neutral-900 bg-dark-glow text-neutral-300 pt-16 pb-12 border-t border-neutral-800">
+    <footer className="relative overflow-hidden bg-navy-950 bg-dark-glow text-white/80 pt-16 pb-12 border-t border-neutral-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Footer Pre-CTA Banner */}
+        {showPreCta && (
         <div className="relative rounded-2xl bg-neutral-800/80 border border-neutral-700/80 p-8 sm:p-12 mb-16 overflow-hidden">
           <div aria-hidden="true" className="accent-hairline absolute inset-x-8 top-0 h-px pointer-events-none" />
           <div aria-hidden="true" className="absolute -top-24 -right-16 h-72 w-72 rounded-full bg-emerald-500/10 blur-3xl animate-glow-slow pointer-events-none" />
           <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="max-w-2xl space-y-2">
-              <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">
-                Built specifically for NGOs and charities
-              </span>
-              <h3 className="text-2xl sm:text-3xl font-bold text-white font-display">
-                Ready to modernize your fundraising?
-              </h3>
-              <p className="text-sm text-neutral-300 leading-relaxed">
-                Bring donations, sponsorships, memberships, and donor relationships together into one connected platform. Less administrative work. Stronger donor relationships. More impact.
-              </p>
+              <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">{t('preCta.eyebrow')}</span>
+              <h3 className="text-2xl sm:text-3xl font-bold text-white font-display">{t('preCta.title')}</h3>
+              <p className="text-sm text-neutral-300 leading-relaxed">{t('preCta.body')}</p>
             </div>
 
             <div className="flex flex-wrap items-center gap-3 shrink-0">
               <button
                 onClick={() => openBookDemo()}
-                className="px-5 py-2.5 bg-neutral-700 hover:bg-neutral-600 text-white rounded-lg text-sm font-semibold transition-colors cursor-pointer"
+                className="px-5 py-2.5 border border-white/30 bg-white/5 hover:bg-white/10 hover:border-brand-300 text-white rounded-lg text-sm font-semibold transition-colors cursor-pointer"
               >
-                Book a Demo
+                {tc('actions.bookDemo')}
               </button>
               <button
                 onClick={() => openGetStarted()}
                 className="btn-gradient-light inline-flex items-center gap-2 px-6 py-2.5 text-neutral-950 font-bold rounded-lg cursor-pointer"
               >
-                <span>Get Started</span>
+                <span>{tc('actions.getStarted')}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>
         </div>
+        )}
 
         {/* Navigation Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 pb-12 border-b border-neutral-800 text-xs">
           {/* Col 1: Brand & Positioning */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 space-y-4">
-            <button
-              onClick={() => handleNavigate('/')}
+            <NavLink
+              link={{ route: '/', key: 'platform' }}
               className="inline-flex cursor-pointer rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400"
-              aria-label="Donorfit — go to homepage"
             >
-              <BrandLogo onDark className="h-8 sm:h-9" alt="Donorfit" />
-            </button>
-            <p className="text-neutral-400 leading-relaxed">
-              Fundraising technology built specifically for non-governmental organizations, registered charities, and foundations across Europe and worldwide.
-            </p>
+              <BrandLogo onDark className="h-8 sm:h-9" alt={t('homeAria')} />
+            </NavLink>
+            <p className="text-neutral-400 leading-relaxed">{t('tagline')}</p>
             <div className="pt-2 flex items-center gap-2 text-xs text-neutral-400">
               <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>EU Sovereign Data Hosting · GDPR Compliant</span>
+              <span>{t('hosting')}</span>
             </div>
           </div>
 
-          {/* Col 2: Products */}
-          <div className="space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-white">Product</div>
-            <ul className="space-y-2">
-              <li>
-                <button onClick={() => handleNavigate('/')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Donorfit Platform
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/pricing')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Pricing
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/sponsorship')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Sponsorship
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/orphan-sponsorship')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Orphan Sponsorship
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/money-pool')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Money Pool
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/membership')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Membership
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/donations')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Donations
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/recurring-giving')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Recurring Giving
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/donor-management')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Donor Management
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/reporting-and-insights')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Reporting & Insights
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 3: Solutions */}
-          <div className="space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-white">Solutions</div>
-            <ul className="space-y-2">
-              <li>
-                <button onClick={() => handleNavigate('/solutions/ngos')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For NGOs
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/solutions/charities')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For Charities
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/solutions/foundations')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For Foundations
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/solutions/sponsorship-organizations')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For Sponsorship Orgs
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/solutions/membership-organizations')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For Membership Orgs
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/solutions/international-organizations')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  For International Orgs
-                </button>
-              </li>
-            </ul>
-          </div>
+          {/* Cols 2–3: Product, Solutions */}
+          {COLUMNS.map((col) => (
+            <div key={col.title} className="space-y-3">
+              <div className={headingClass}>{t(`columns.${col.title}`)}</div>
+              <ul className="space-y-2">
+                {col.links.map((link) => (
+                  <li key={link.route}>
+                    <NavLink link={link} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
 
           {/* Col 4: Resources & Company */}
           <div className="space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-white">Resources</div>
+            <div className={headingClass}>{t('columns.resources')}</div>
             <ul className="space-y-2">
-              <li>
-                <button onClick={() => handleNavigate('/blog')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Blog & Resource Center
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/guides')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Guides & Toolkits
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/case-studies')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Case Studies
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/faqs')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  FAQs
-                </button>
-              </li>
-              <li className="pt-2 text-xs font-bold uppercase tracking-wider text-white">Company</li>
-              <li>
-                <button onClick={() => handleNavigate('/about')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  About Donorfit
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/contact')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Contact
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/partners')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Partners
-                </button>
-              </li>
+              {RESOURCE_LINKS.map((link) => (
+                <li key={link.route}>
+                  <NavLink link={link} />
+                </li>
+              ))}
+              <li className={`pt-2 ${headingClass}`}>{t('columns.company')}</li>
+              {COMPANY_LINKS.map((link) => (
+                <li key={link.route}>
+                  <NavLink link={link} />
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* Col 5: Trust and Legal */}
           <div className="space-y-3">
-            <div className="text-xs font-bold uppercase tracking-wider text-white">Trust & Legal</div>
+            <div className={headingClass}>{t('columns.trust')}</div>
             <ul className="space-y-2">
               <li>
-                <button onClick={() => handleNavigate('/security')} className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-1.5 font-medium text-emerald-400">
+                <NavLink
+                  link={{ route: '/security', key: 'security' }}
+                  className="hover:text-white transition-colors cursor-pointer text-left flex items-center gap-1.5 font-medium text-emerald-400"
+                >
                   <Lock className="w-3.5 h-3.5" />
-                  <span>Security & Trust</span>
-                </button>
+                  <span>{t('links.security')}</span>
+                </NavLink>
               </li>
-              <li>
-                <button onClick={() => handleNavigate('/privacy-policy')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Privacy Policy
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/cookie-policy')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Cookie Policy
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/terms')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Terms & Conditions
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/impressum')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Impressum / Legal Notice
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleNavigate('/accessibility')} className="hover:text-white transition-colors cursor-pointer text-left">
-                  Accessibility Statement
-                </button>
-              </li>
+              {LEGAL_LINKS.map((link) => (
+                <li key={link.route}>
+                  <NavLink link={link} />
+                </li>
+              ))}
               <li className="pt-2">
                 <button
                   type="button"
                   onClick={openCookieSettings}
-                  className="text-neutral-400 hover:text-white underline underline-offset-2 transition-colors cursor-pointer"
+                  className="text-brand-300 hover:text-white underline underline-offset-2 transition-colors cursor-pointer"
                 >
-                  Cookie Preferences
+                  {t('links.cookiePreferences')}
                 </button>
               </li>
             </ul>
@@ -256,13 +201,11 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400">
-          <div>
-            © {new Date().getFullYear()} Donorfit. All rights reserved. Technology + Humanity + Trust.
-          </div>
-          <div className="flex items-center gap-4 text-xs">
-            <span>Primary Focus: European Union & International Nonprofits</span>
-            <span>·</span>
-            <span>Headquarters: Frankfurt am Main, Germany</span>
+          <div>{t('bottom.rights', { year: new Date().getFullYear() })}</div>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs">
+            <span>{t('bottom.focus')}</span>
+            <span aria-hidden="true">·</span>
+            <span>{t('bottom.hq')}</span>
           </div>
         </div>
       </div>

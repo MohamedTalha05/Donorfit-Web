@@ -1,0 +1,128 @@
+{
+  "routes": {
+    "/sponsorship": {
+      "title": "Software für Patenschaftsverwaltung für Non-Profit-Organisationen | Donorfit",
+      "description": "Verwalten Sie Kinder-, Gemeinschafts- und Projektpatenschaften mit lückenloser Nachverfolgung der Beiträge und regelmäßigen Updates für Pat:innen – auf einer transparenten Plattform."
+    },
+    "/orphan-sponsorship": {
+      "title": "Würdevolle Verwaltung von Waisenpatenschaften | Donorfit",
+      "description": "Speziell entwickelte Software für humanitäre Waisenhilfe – mit respektvollem Kinderschutz und verlässlicher, regelmäßiger Unterstützung."
+    },
+    "/money-pool": {
+      "title": "Money Pool & Gruppenspenden für Non-Profit-Organisationen | Donorfit",
+      "description": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moscheen, Kirchen und Ehrenamtsgruppen."
+    },
+    "/membership": {
+      "title": "Mitgliederverwaltung & automatisierte Mitgliedsbeiträge | Donorfit",
+      "description": "Mitgliederaufnahme, Beitragseinzug, automatische Verlängerungserinnerungen und Mitgliederkommunikation – übersichtlich an einem Ort."
+    },
+    "/donations": {
+      "title": "Moderne Spendentechnologie für NGOs und gemeinnützige Organisationen | Donorfit",
+      "description": "Konversionsstarke Spendenseiten in Ihrem Design – mit SEPA-Lastschrift, Karten, Apple Pay, automatischen Zuwendungsbestätigungen und ohne Lock-in."
+    },
+    "/recurring-giving": {
+      "title": "Planbare regelmäßige Spenden & SEPA-Spenderbindung | Donorfit",
+      "description": "Sichern Sie nachhaltige monatliche Einnahmen mit automatischer Rückgewinnung fehlgeschlagener Zahlungen, intelligentem Mahnwesen und Self-Service-Konten für Spender:innen."
+    },
+    "/donor-management": {
+      "title": "Zentrale Spenderverwaltung & CRM für Non-Profit-Organisationen | Donorfit",
+      "description": "Schluss mit verstreuten Tabellen: Pflegen Sie vollständige Spenderhistorien, Kommunikationsverläufe und eine DSGVO-konforme Datenhaltung."
+    },
+    "/campaign-management": {
+      "title": "Wirkungsvolles Management von Fundraising-Kampagnen | Donorfit",
+      "description": "Starten Sie Nothilfeaufrufe, saisonale Kampagnen und Community-Spendenaktionen in kürzester Zeit – mit Fortschrittsanalysen in Echtzeit."
+    },
+    "/reporting-and-insights": {
+      "title": "Fundraising-Analysen & aussagekräftige Auswertungen für Non-Profits | Donorfit",
+      "description": "Verstehen Sie Spenderbindung, Lifetime Value und Kampagnenrendite – ganz ohne Data-Science-Kenntnisse."
+    },
+    "/solutions/ngos": {
+      "title": "Fundraising-Technologie für Nichtregierungsorganisationen (NGOs) | Donorfit",
+      "description": "Skalieren Sie grenzüberschreitende Arbeit, verwalten Sie internationale Patenschaften und erfüllen Sie strenge europäische Datenschutzvorgaben – in einem System."
+    },
+    "/solutions/charities": {
+      "title": "Fundraising-Lösungen für gemeinnützige Organisationen | Donorfit",
+      "description": "Begeistern Sie lokale und überregionale Spender:innen, automatisieren Sie Zuwendungsbestätigungen und steigern Sie regelmäßige Spenden mit passenden Werkzeugen."
+    },
+    "/solutions/foundations": {
+      "title": "Mittelverwaltung & Governance für Stiftungen | Donorfit",
+      "description": "Organisieren Sie Stiftungsvorhaben, verfolgen Sie zweckgebundene Zuwendungen und schaffen Sie lückenlose Transparenz für Gremien und Behörden."
+    },
+    "/solutions/sponsorship-organizations": {
+      "title": "Infrastruktur für Kinder- und Gemeinschaftspatenschaften | Donorfit",
+      "description": "Verbinden Sie Pat:innen mit Begünstigten, verfolgen Sie monatliche Beiträge und versenden Sie würdevolle Fortschrittsberichte in großem Umfang."
+    },
+    "/solutions/membership-organizations": {
+      "title": "Automatisierte Mitgliedsbeiträge & Mitgliederverzeichnis | Donorfit",
+      "description": "Organisieren Sie Mitgliederdaten, automatisieren Sie die jährliche Beitragsabrechnung und erleichtern Sie die Mitgliederkommunikation – in einem verlässlichen System."
+    },
+    "/solutions/international-organizations": {
+      "title": "Grenzüberschreitende Fundraising-Infrastruktur für internationale Hilfe | Donorfit",
+      "description": "Vereinen Sie Fundraising-Standorte weltweit, verwalten Sie mehrere Währungen und Rechtsträger und sichern Sie europäische Datensouveränität."
+    },
+    "/about": {
+      "title": "Über Donorfit – Fundraising-Technologie für Non-Profit-Organisationen",
+      "description": "Erfahren Sie mehr über die Mission von Donorfit, unsere europäischen Wurzeln und unser Bekenntnis zu Technologie, Menschlichkeit, Vertrauen und Einfachheit."
+    },
+    "/contact": {
+      "title": "Kontakt – Vertrieb, Support & europäisches Büro | Donorfit",
+      "description": "Sprechen Sie direkt mit unseren Non-Profit-Spezialist:innen in Frankfurt am Main – für Produktdemos, Vertrieb und Partnerschaften."
+    },
+    "/security": {
+      "title": "Sicherheit, Datenschutz und DSGVO-Konformität | Donorfit",
+      "description": "Erfahren Sie, wie Donorfit europäische Datensouveränität, ISO-27001-zertifizierte Rechenzentren, Verschlüsselung, sichere Zahlungsabwicklung und Kinderschutz umsetzt."
+    },
+    "/blog": {
+      "title": "Ressourcen & Praxisleitfäden für das Non-Profit-Fundraising | Donorfit",
+      "description": "Praxisnahe Fundraising-Leitfäden, Best Practices zur SEPA-Lastschrift, Rahmenwerke zum Kinderschutz und Strategien zur Spenderbindung für gemeinnützige Organisationen."
+    },
+    "/guides": {
+      "title": "Praxisleitfäden & Toolkits für europäische NGOs | Donorfit",
+      "description": "Handbücher zum Herunterladen, Kompendien zum Spendenrecht und SEPA-Lastschrift-Playbooks für Führungskräfte im Non-Profit-Bereich."
+    },
+    "/case-studies": {
+      "title": "Wirkungsgeschichten & Fallstudien aus dem Non-Profit-Bereich | Donorfit",
+      "description": "Erfahren Sie, wie europäische Hilfsorganisationen und internationale NGOs mit Donorfit die Abwanderung um 42 % gesenkt und Hunderte Verwaltungsstunden eingespart haben."
+    },
+    "/faqs": {
+      "title": "Häufige Fragen – Non-Profit-Plattform & Zahlungen | Donorfit",
+      "description": "Antworten auf häufige Fragen zur Einführung von Donorfit, zur SEPA-Lastschrift, zur DSGVO, zu Zuwendungsbestätigungen und zu den Preisen."
+    },
+    "/pricing": {
+      "title": "Preise – keine Plattform- und keine Transaktionsgebühren | Donorfit",
+      "description": "Donorfit ist eine All-in-one-Fundraising-Plattform für 0 € pro Monat: keine Plattformgebühr und keine Transaktionsgebühr. Sammeln Sie Spenden, verwalten Sie Spender:innen und ergänzen Sie CRM-, Dauerspenden-, Patenschafts- und Mitgliedermodule, wenn Sie wachsen."
+    },
+    "/partners": {
+      "title": "Das Donorfit-Partnernetzwerk – Agenturen, Berater:innen & Integrationen",
+      "description": "Werden Sie Teil des Partnernetzwerks, das europäische Non-Profit-Organisationen mit Technologie, Implementierungsunterstützung und strategischer Fundraising-Beratung stärkt."
+    },
+    "/privacy-policy": {
+      "title": "Datenschutzerklärung – DSGVO & europäischer Datenschutz | Donorfit",
+      "description": "Informationen darüber, wie Donorfit personenbezogene Daten nach der Datenschutz-Grundverordnung (EU 2016/679) verarbeitet und schützt."
+    },
+    "/cookie-policy": {
+      "title": "Cookie-Richtlinie – Transparenz & Einwilligungsverwaltung | Donorfit",
+      "description": "Verständliche Erläuterung der von Donorfit eingesetzten Cookies und lokalen Speicher gemäß ePrivacy-Richtlinie und DSGVO."
+    },
+    "/impressum": {
+      "title": "Impressum | Donorfit Technologies",
+      "description": "Anbieterkennzeichnung von Donorfit gemäß § 5 Digitale-Dienste-Gesetz (DDG)."
+    },
+    "/terms": {
+      "title": "Allgemeine Geschäftsbedingungen – Nutzungsbedingungen der Plattform | Donorfit",
+      "description": "Allgemeine Nutzungsbedingungen für den Zugang gemeinnütziger Organisationen, die Zahlungsabwicklung und die Nutzungsrechte auf der Donorfit-Plattform."
+    },
+    "/accessibility": {
+      "title": "Erklärung zur Barrierefreiheit – WCAG 2.2 AA | Donorfit",
+      "description": "Das Engagement von Donorfit für inklusive, barrierefreie digitale Fundraising-Werkzeuge gemäß WCAG 2.2 Stufe AA."
+    },
+    "/": {
+      "title": "Donorfit – Fundraising-Technologie für Non-Profit-Organisationen",
+      "description": "Verwalten Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer vernetzten Plattform für NGOs und gemeinnützige Organisationen. Weniger Verwaltungsaufwand. Stärkere Spenderbeziehungen. Mehr Wirkung."
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden | Donorfit",
+    "description": "Die gesuchte Seite konnte leider nicht gefunden werden."
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "pages": {
+    "membership": {
+      "name": "Membership",
+      "navDescription": "Plans, registration, dues and renewals",
+      "seo": {
+        "title": "Membership Management Software for Associations & Nonprofits | Donorfit",
+        "description": "Register members, configure membership plans, collect dues by SEPA or card and automate renewals — all in one membership workspace built for associations and nonprofits."
+      },
+      "headline": "Simplify Membership Management for Your Organisation.",
+      "subheadline": "Register members, set up plans and categories, collect dues and run renewals from one organised workspace — so your team stops chasing fees.",
+      "intro": {
+        "title": "One place for every member, plan and payment",
+        "body": "Donorfit Membership replaces paper forms, invoice spreadsheets and reminder emails with a single member record. Members sign up online, choose their plan and authorise dues; your team sees who is active, who is due and who needs a reminder."
+      },
+      "problems": [
+        {
+          "problem": "Annual dues are chased by hand with invoices and reminder emails.",
+          "solution": "Recurring SEPA Direct Debit or card billing collects dues automatically, with renewal reminders sent for you."
+        },
+        {
+          "problem": "Member details live in several spreadsheets and quickly go out of date.",
+          "solution": "Members update their own contact details in a self-service portal, so every record stays current."
+        },
+        {
+          "problem": "Student, family and organisational rates are hard to keep track of.",
+          "solution": "Configure as many membership tiers as you need, each with its own fee and renewal cycle."
+        }
+      ],
+      "features": [
+        {
+          "title": "Member registration",
+          "description": "Online sign-up forms with custom application fields and the documents your organisation needs."
+        },
+        {
+          "title": "Plans and categories",
+          "description": "Standard, student, senior, family, organisational or patron plans — annual, monthly or lifetime."
+        },
+        {
+          "title": "Member records",
+          "description": "Contact details, plan, join date, status and payment history together on one profile."
+        },
+        {
+          "title": "Dues collection",
+          "description": "SEPA Direct Debit mandates (B2C and B2B) and card billing, with automatic retries for failed payments."
+        },
+        {
+          "title": "Renewal workflows",
+          "description": "Automatic renewal reminders, payment method updates and confirmation notices."
+        },
+        {
+          "title": "Directory and segments",
+          "description": "Filter members by status, join date, voting eligibility or regional chapter."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Create your plans",
+          "description": "Define membership categories, fees and renewal cycles."
+        },
+        {
+          "title": "Open registration",
+          "description": "Share your sign-up form; members choose a plan and authorise dues."
+        },
+        {
+          "title": "Let renewals run",
+          "description": "Donorfit sends reminders, collects dues and keeps every status up to date."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Less time chasing fees",
+          "description": "Recurring billing and reminders replace manual invoices and follow-ups."
+        },
+        {
+          "title": "Reliable member lists",
+          "description": "Up-to-date lists of active, dues-paid members for general assemblies and governance."
+        },
+        {
+          "title": "A better member experience",
+          "description": "Instant receipts and a simple portal for members to manage their own details."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "Associations and societies",
+          "description": "Professional bodies, clubs and cultural associations with annual dues."
+        },
+        {
+          "title": "Community organisations",
+          "description": "Masjid committees, community centres and volunteer groups with regular members."
+        },
+        {
+          "title": "Charities with supporter membership",
+          "description": "Organisations offering friends, patron or supporter schemes."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we collect membership fees by SEPA Direct Debit?",
+          "answer": "Yes. Donorfit creates compliant SEPA Direct Debit mandates with pre-notifications and bank file exports, and also supports card billing."
+        },
+        {
+          "question": "Can corporate and individual members pay different rates?",
+          "answer": "Yes. You can configure unlimited membership tiers with their own pricing, renewal cycles and application fields."
+        },
+        {
+          "question": "Can members update their own details?",
+          "answer": "Yes. Members can update contact details, download membership contribution statements and manage their status through the self-service portal."
+        },
+        {
+          "question": "Can we see who is eligible to vote at our general assembly?",
+          "answer": "Yes. Filter members by status and voting eligibility to produce a current list of active, dues-paid members."
+        }
+      ],
+      "cta": {
+        "title": "Bring your members into one place",
+        "body": "Set up your plans and open registration — your first renewals can run on autopilot."
+      }
+    },
+    "sponsorship": {
+      "name": "Sponsorship",
+      "navDescription": "Sponsors, beneficiaries and contributions",
+      "seo": {
+        "title": "Sponsorship Management Software for Charities | Donorfit",
+        "description": "Link sponsors to students, beneficiaries and projects, collect recurring contributions and share progress updates — with role-based safeguarding for sensitive records."
+      },
+      "headline": "Make Sponsorship Management Simple and Transparent.",
+      "subheadline": "Connect sponsors with students, beneficiaries and projects, track every contribution and share progress — without a single spreadsheet.",
+      "intro": {
+        "title": "Every sponsor linked to the person or project they support",
+        "body": "Donorfit Sponsorship keeps sponsors, beneficiaries and recurring contributions connected in one system. Your team always knows who sponsors whom, what has been paid and which update is due next — and sponsors see the difference they make."
+      },
+      "problems": [
+        {
+          "problem": "Sponsor assignments, payments and updates are spread across spreadsheets.",
+          "solution": "Each sponsorship links a sponsor, a beneficiary or project, and their contributions in one record with a full history."
+        },
+        {
+          "problem": "Failed or expired payments go unnoticed until a sponsor lapses.",
+          "solution": "SEPA Direct Debit and card payments with expiry reminders and automatic retries keep support uninterrupted."
+        },
+        {
+          "problem": "Preparing progress reports for sponsors takes weeks of manual work.",
+          "solution": "Send education milestones, progress reports and thank-you updates through a secure sponsor portal."
+        }
+      ],
+      "features": [
+        {
+          "title": "Education sponsorship",
+          "description": "Fund tuition, books and uniforms for students and track progress through the school year."
+        },
+        {
+          "title": "Student sponsorship",
+          "description": "Dignified student profiles with consent and privacy safeguards built in."
+        },
+        {
+          "title": "Individual initiatives",
+          "description": "Sponsor a person, a family or a community project — one-to-one, co-sponsorship or pooled."
+        },
+        {
+          "title": "Sponsor and beneficiary management",
+          "description": "Sponsor profiles, beneficiary records and allocation history with audit trails."
+        },
+        {
+          "title": "Contribution tracking",
+          "description": "See every monthly contribution, missed payment and allocation per sponsorship."
+        },
+        {
+          "title": "Safeguarding controls",
+          "description": "Role-based access protects sensitive beneficiary information, locations and identity records."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Create beneficiary or programme profiles",
+          "description": "Add students, beneficiaries or projects with consent and privacy settings."
+        },
+        {
+          "title": "Sponsors choose and commit",
+          "description": "Sponsors select who or what to support and set up a SEPA or card commitment."
+        },
+        {
+          "title": "Share progress, keep support going",
+          "description": "Send updates and milestones while contributions continue automatically."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Transparent allocation",
+          "description": "Every contribution is traced from the sponsor to the designated beneficiary or initiative."
+        },
+        {
+          "title": "Stronger sponsor relationships",
+          "description": "Timely updates and smooth recurring giving keep sponsors involved."
+        },
+        {
+          "title": "Protected beneficiary data",
+          "description": "Field workers and administrators only see what their role allows."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "Education charities",
+          "description": "Organisations funding school places, scholarships and learning materials."
+        },
+        {
+          "title": "Orphan and child care programmes",
+          "description": "Charities running one-to-one or co-sponsorship schemes."
+        },
+        {
+          "title": "Community development NGOs",
+          "description": "Teams sponsoring families, villages or community projects."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we run one-to-one and pooled sponsorships?",
+          "answer": "Yes. Donorfit supports one-to-one sponsorships, co-sponsorships with several sponsors per beneficiary, and community project sponsorships."
+        },
+        {
+          "question": "How are sensitive beneficiary records protected?",
+          "answer": "Records are protected with granular, role-based permissions so field workers and administrators only access what they need, and unauthorised export is prevented."
+        },
+        {
+          "question": "Does Sponsorship support SEPA Direct Debit?",
+          "answer": "Yes. Sponsors can give by SEPA Direct Debit or card, with mandates handled for you and automatic retries for failed payments."
+        },
+        {
+          "question": "How do sponsors receive progress updates?",
+          "answer": "Your team sends education milestones, progress reports and thank-you updates through a secure digital portal."
+        }
+      ],
+      "cta": {
+        "title": "Give every sponsor a clear connection",
+        "body": "Add your first beneficiaries and invite sponsors to commit in minutes."
+      }
+    },
+    "water-well": {
+      "name": "Water Well",
+      "navDescription": "Fund and report on water well projects",
+      "seo": {
+        "title": "Water Well Fundraising Software for NGOs & Charities | Donorfit",
+        "description": "Create water well campaigns, collect donations, show fundraising targets and progress, and share project updates from survey to handover."
+      },
+      "headline": "Bring Clean Water Within Reach Through Digital Fundraising.",
+      "subheadline": "Present each water well project, collect donations online and keep donors updated from the first survey to the day the village draws water.",
+      "intro": {
+        "title": "Turn every well into a project donors can follow",
+        "body": "Donorfit Water Well gives each well its own campaign: where it is, what it costs, how much has been raised and what stage the build has reached. Donors give with confidence because they can see exactly what their money is building."
+      },
+      "problems": [
+        {
+          "problem": "Water well appeals are a single donate button with no detail about the project.",
+          "solution": "Each well gets a project page with its location, purpose, budget and photos."
+        },
+        {
+          "problem": "Donors never hear what happened after they gave.",
+          "solution": "Post project updates as the well moves from survey to drilling, installation and handover."
+        },
+        {
+          "problem": "It is hard to see which wells are fully funded and which still need support.",
+          "solution": "Every campaign shows its fundraising target and live progress for your team and your donors."
+        }
+      ],
+      "features": [
+        {
+          "title": "Project presentation",
+          "description": "A dedicated page per well with location, purpose, budget and photos."
+        },
+        {
+          "title": "Campaign creation",
+          "description": "Create and manage water well campaigns from one dashboard."
+        },
+        {
+          "title": "Donation collection",
+          "description": "Accept donations online with the payment methods your supporters use."
+        },
+        {
+          "title": "Targets and progress",
+          "description": "Set a fundraising target per well and show progress as donations arrive."
+        },
+        {
+          "title": "Project updates",
+          "description": "Share stage-by-stage updates so donors can follow the build."
+        },
+        {
+          "title": "Project information",
+          "description": "Keep project details, documents and status together for your team."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Create the well campaign",
+          "description": "Add the project details, target and photos."
+        },
+        {
+          "title": "Collect donations",
+          "description": "Share the campaign and watch progress toward the target."
+        },
+        {
+          "title": "Update donors",
+          "description": "Post updates as the project moves to completion."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Donors see their impact",
+          "description": "Clear project information and updates build trust in every appeal."
+        },
+        {
+          "title": "One view of every project",
+          "description": "Your team sees all wells, targets and stages in one place."
+        },
+        {
+          "title": "Easier reporting",
+          "description": "Project information and donations stay together for trustees and partners."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "NGOs",
+          "description": "Organisations delivering water projects with local partners."
+        },
+        {
+          "title": "Charitable trusts",
+          "description": "Trusts funding wells and needing clear project accountability."
+        },
+        {
+          "title": "Masjids and community groups",
+          "description": "Communities raising money together for a well in someone’s name."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can each water well have its own campaign?",
+          "answer": "Yes. Every well is created as its own campaign with project information, a fundraising target and progress."
+        },
+        {
+          "question": "Can donors follow the project after donating?",
+          "answer": "Yes. You can publish project updates as the well moves through each stage, so donors can see what their donation achieved."
+        },
+        {
+          "question": "Can we run several water well campaigns at once?",
+          "answer": "Yes. Create and manage as many water well campaigns as you need from one dashboard."
+        }
+      ],
+      "cta": {
+        "title": "Start your next water well campaign",
+        "body": "Create the project page, set the target and start collecting donations today."
+      }
+    },
+    "qurbani": {
+      "name": "Qurbani",
+      "navDescription": "Qurbani options, contributions and tracking",
+      "seo": {
+        "title": "Qurbani Fundraising & Management Software | Donorfit",
+        "description": "Collect Qurbani contributions online, offer your Qurbani options, manage donor information and track payments for every share — all in one place for Eid al-Adha."
+      },
+      "headline": "Simplify Your Qurbani Fundraising and Management.",
+      "subheadline": "Offer your Qurbani options online, collect contributions with the details you need and track every payment through Eid al-Adha.",
+      "intro": {
+        "title": "Your whole Qurbani season, organised",
+        "body": "Donorfit Qurbani brings the Qurbani options you offer, the donor details you need and every payment into one place — so your team can focus on carrying out each Qurbani rather than reconciling forms and transfers."
+      },
+      "problems": [
+        {
+          "problem": "Qurbani orders arrive by phone, email and paper forms in the busiest weeks of the year.",
+          "solution": "One online Qurbani page collects every contribution with the information you need."
+        },
+        {
+          "problem": "Tracking who has paid for which share is done in spreadsheets.",
+          "solution": "Payment tracking shows the status of every contribution as it comes in."
+        },
+        {
+          "problem": "Donor details needed to carry out each Qurbani get lost between systems.",
+          "solution": "Donor information is stored with each contribution, ready for your team."
+        }
+      ],
+      "features": [
+        {
+          "title": "Qurbani options",
+          "description": "Offer the Qurbani options your organisation provides, each with its own price."
+        },
+        {
+          "title": "Contribution collection",
+          "description": "Donors choose an option and pay online in a few steps."
+        },
+        {
+          "title": "Contribution management",
+          "description": "See and manage every Qurbani contribution in one list."
+        },
+        {
+          "title": "Donor information",
+          "description": "Keep the donor details you need with each contribution."
+        },
+        {
+          "title": "Payment tracking",
+          "description": "Follow each payment from received to confirmed."
+        },
+        {
+          "title": "Campaign progress",
+          "description": "See how many contributions you have received across the season."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Set up your options",
+          "description": "Add the Qurbani options you offer and their prices."
+        },
+        {
+          "title": "Open your Qurbani page",
+          "description": "Donors choose, add their details and pay online."
+        },
+        {
+          "title": "Track and fulfil",
+          "description": "Follow payments and contributions through to completion."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "A calmer Eid season",
+          "description": "One system replaces phone orders, paper forms and spreadsheets."
+        },
+        {
+          "title": "Every share accounted for",
+          "description": "Payment tracking shows exactly what has been received."
+        },
+        {
+          "title": "Donor confidence",
+          "description": "A clear online process reassures donors their Qurbani is in good hands."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "Islamic charities",
+          "description": "Organisations running Qurbani programmes at home and abroad."
+        },
+        {
+          "title": "Masjids",
+          "description": "Masjids collecting Qurbani contributions from their community."
+        },
+        {
+          "title": "Community organisations",
+          "description": "Local groups organising Qurbani on behalf of families."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we offer different Qurbani options?",
+          "answer": "Yes. You set up the Qurbani options your organisation provides, each with its own price."
+        },
+        {
+          "question": "Can we collect donor details with each contribution?",
+          "answer": "Yes. Donor information is collected and stored with every Qurbani contribution."
+        },
+        {
+          "question": "Can we see which contributions have been paid?",
+          "answer": "Yes. Payment tracking shows the status of each contribution so your team knows what has been received."
+        }
+      ],
+      "cta": {
+        "title": "Get ready for Eid al-Adha",
+        "body": "Set up your Qurbani options now and open contributions when you are ready."
+      }
+    },
+    "school-management": {
+      "name": "School Management",
+      "navDescription": "Students, administration, fees and reports",
+      "seo": {
+        "title": "School Management Software for Schools & Education Charities | Donorfit",
+        "description": "Manage student information, school administration, fees and education sponsorship, with school reports in one system built for schools and education charities."
+      },
+      "headline": "Manage Your School Operations More Efficiently.",
+      "subheadline": "Keep student records, administration, fees and education sponsorship together — so staff spend less time on paperwork and more time with students.",
+      "intro": {
+        "title": "Your school’s records and payments in one system",
+        "body": "Donorfit School Management connects student information, day-to-day administration and fee payments, and links naturally with education sponsorship — ideal for schools supported by charities and donors."
+      },
+      "problems": [
+        {
+          "problem": "Student records are kept in registers, folders and spreadsheets.",
+          "solution": "Each student has one record with class, guardian contact and history."
+        },
+        {
+          "problem": "Fee payments are hard to follow and reconcile.",
+          "solution": "Fee management shows what is paid, pending and overdue for every student."
+        },
+        {
+          "problem": "Sponsored students are managed separately from the school.",
+          "solution": "Education sponsorship links sponsors directly to students in the same system."
+        }
+      ],
+      "features": [
+        {
+          "title": "Student information",
+          "description": "Student records with class, guardian contacts and history."
+        },
+        {
+          "title": "School administration",
+          "description": "Organise classes and daily attendance in one place."
+        },
+        {
+          "title": "Fee and payment management",
+          "description": "Track fees per student and term: paid, pending and overdue."
+        },
+        {
+          "title": "Education sponsorship",
+          "description": "Connect sponsors to students and track their contributions."
+        },
+        {
+          "title": "School reporting",
+          "description": "Reports on students, attendance and fees for leadership and funders."
+        },
+        {
+          "title": "Role-based access",
+          "description": "Staff see the records and tools that match their role."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Add your classes and students",
+          "description": "Import or enter student records and guardian details."
+        },
+        {
+          "title": "Run daily administration",
+          "description": "Record attendance and manage fees each term."
+        },
+        {
+          "title": "Report and fund",
+          "description": "Share reports and connect sponsors with students."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Less paperwork",
+          "description": "Registers, fee books and spreadsheets come together in one system."
+        },
+        {
+          "title": "Clear finances",
+          "description": "Know at a glance which fees are outstanding."
+        },
+        {
+          "title": "Funders stay informed",
+          "description": "Reports and sponsorship records make reporting to donors easier."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "Schools supported by charities",
+          "description": "Schools funded partly through donors and sponsors."
+        },
+        {
+          "title": "Education charities",
+          "description": "Charities running or supporting schools and learning centres."
+        },
+        {
+          "title": "Madrasahs and community schools",
+          "description": "Community-run schools managing students and fees."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we manage school fees?",
+          "answer": "Yes. Track fees per student and term, and see which payments are paid, pending or overdue."
+        },
+        {
+          "question": "Does it work with education sponsorship?",
+          "answer": "Yes. Sponsors can be linked directly to students, and their contributions are tracked alongside the school records."
+        },
+        {
+          "question": "Can we record attendance?",
+          "answer": "Yes. Classes and daily attendance are managed as part of school administration."
+        }
+      ],
+      "cta": {
+        "title": "Run your school from one system",
+        "body": "Add your classes and students and see your school in one dashboard."
+      }
+    },
+    "money-pool": {
+      "name": "Money Pool",
+      "navDescription": "Group fundraising with shared targets",
+      "seo": {
+        "title": "Money Pool & Group Fundraising for Nonprofits | Donorfit",
+        "description": "Create fundraising pools with shared targets, collect contributions by link, card or SEPA, manage contributors and track payments — with funds paid straight to your charity."
+      },
+      "headline": "Bring People Together to Fund What Matters.",
+      "subheadline": "Create a pool, share it with your community and watch contributions add up toward a shared target — with every payment going straight to your organisation.",
+      "intro": {
+        "title": "Group fundraising your community can see",
+        "body": "Donorfit Money Pool lets supporters, committees and community groups rally around one goal. Everyone sees the target and the progress, organisers stay involved without handling money, and every contributor receives their own receipt."
+      },
+      "problems": [
+        {
+          "problem": "Collections are made in cash or to personal bank accounts.",
+          "solution": "Contributions go directly to your organisation’s verified account — organisers never hold the money."
+        },
+        {
+          "problem": "A standard donation form feels solitary, so momentum fades.",
+          "solution": "A live progress bar and contributor wall let the group celebrate milestones together."
+        },
+        {
+          "problem": "It is unclear which organiser or group raised what.",
+          "solution": "Organiser and team roles attribute contributions to the people who drove them."
+        }
+      ],
+      "features": [
+        {
+          "title": "Create and manage pools",
+          "description": "Branded pools with a target, a cost breakdown and a deadline."
+        },
+        {
+          "title": "Contribution collection",
+          "description": "Quick mobile payment links, SEPA Direct Debit and cards."
+        },
+        {
+          "title": "Targets and progress",
+          "description": "A live progress bar and contributor wall with optional anonymous giving."
+        },
+        {
+          "title": "Contributor management",
+          "description": "Organiser and team roles without access to your backend finances."
+        },
+        {
+          "title": "Payment tracking",
+          "description": "Every contribution recorded and receipted individually."
+        },
+        {
+          "title": "Easy sharing",
+          "description": "Share by WhatsApp, email or QR code at community events."
+        }
+      ],
+      "steps": [
+        {
+          "title": "Launch a pool",
+          "description": "Set the goal, explain the costs and choose a deadline."
+        },
+        {
+          "title": "Supporters contribute",
+          "description": "People give by link, SEPA or card and leave words of encouragement."
+        },
+        {
+          "title": "Funds reach your organisation",
+          "description": "Money goes directly to you and each contributor gets a receipt."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Grassroots momentum",
+          "description": "Passionate supporters can rally their own networks around a shared goal."
+        },
+        {
+          "title": "Clean accounting",
+          "description": "Every contribution has its own receipt and maps to your ledger."
+        },
+        {
+          "title": "New supporters",
+          "description": "Reach first-time donors through people they already trust."
+        }
+      ],
+      "audiences": [
+        {
+          "title": "Masjids and places of worship",
+          "description": "Building funds, repairs and community projects."
+        },
+        {
+          "title": "Schools and parent groups",
+          "description": "Class trips, equipment and renovations."
+        },
+        {
+          "title": "Volunteer and community groups",
+          "description": "Wells, emergency packages and local causes."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the organiser hold the money?",
+          "answer": "Never. All funds go directly to the verified nonprofit organisation, which protects organisers and ensures contributors receive receipts."
+        },
+        {
+          "question": "Can contributors stay anonymous?",
+          "answer": "Yes. Contributors can hide their name or amount from the public wall and still receive their private receipt."
+        },
+        {
+          "question": "How can people contribute?",
+          "answer": "Through quick mobile payment links, SEPA Direct Debit or card."
+        }
+      ],
+      "cta": {
+        "title": "Start a pool for your next project",
+        "body": "Set the target, share the link and let your community do the rest."
+      }
+    }
+  },
+  "ui": {
+    "badge": "Donorfit {{name}}",
+    "withoutDonorfit": "Without Donorfit",
+    "withDonorfit": "With Donorfit {{name}}",
+    "faqTitle": "{{name}} questions",
+    "faqSub": "Can’t find your answer? Our team is happy to help.",
+    "relatedTitle": "Works well with",
+    "relatedSub": "Products organisations often use alongside {{name}}.",
+    "exampleNote": "Preview shows example data.",
+    "builtFor": "Built for"
+  },
+  "photos": {
+    "membership": "Community members gathered under a tree for an outdoor association meeting",
+    "sponsorship": "A schoolboy writing carefully in his notebook at his desk",
+    "water-well": "Children filling yellow jerrycans at a village hand-pump well",
+    "qurbani": "Goats and rams at a livestock market ahead of Eid al-Adha",
+    "school-management": "A teacher leading a lesson with uniformed students in a classroom",
+    "money-pool": "Volunteers standing together behind donation tubs at a community collection drive"
+  },
+  "sections": {
+    "membership": {
+      "featuresTitle": "From sign-up to renewal",
+      "featuresSub": "Everything you need to run memberships, in the order your members experience it.",
+      "previewTitle": "Your members at a glance",
+      "previewSub": "See who is active, whose renewal is due and who has lapsed — and export an up-to-date list for your general assembly.",
+      "benefitsTitle": "What changes for your organisation",
+      "hero": {
+        "card": "Member card",
+        "status": "Active",
+        "plan": "Individual plan · member since {{year}}",
+        "renews": "Renews"
+      }
+    },
+    "sponsorship": {
+      "featuresTitle": "Sponsorship for education, individuals and communities",
+      "previewTitle": "Every contribution, month by month",
+      "previewSub": "See each sponsor’s commitment next to the student or project they support.",
+      "benefitsTitle": "Why charities choose Donorfit Sponsorship",
+      "hero": {
+        "sponsor": "Sponsor",
+        "monthly": "{{amount}} every month",
+        "student": "Student",
+        "studentName": "{{name}}, age {{age}}",
+        "funded": "Grade {{grade}} · {{funded}} of {{total}} months funded"
+      }
+    },
+    "water-well": {
+      "featuresTitle": "Everything a water well appeal needs",
+      "previewTitle": "What your donors see",
+      "previewSub": "A campaign page that explains the project, shows the target and follows each stage of the build.",
+      "stepsTitle": "From first survey to first water",
+      "benefitsTitle": "Benefits for NGOs and charitable trusts",
+      "audiencesTitle": "Who uses Water Well",
+      "hero": {
+        "project": "Village water well",
+        "of": "of {{amount}}",
+        "stages": [
+          "Survey",
+          "Drilling",
+          "Pump",
+          "Handover"
+        ],
+        "note": "Example campaign"
+      }
+    },
+    "qurbani": {
+      "featuresTitle": "Built around the Qurbani season",
+      "featuresSub": "From the options you offer to the payment for every share.",
+      "previewTitle": "Every contribution in one list",
+      "previewSub": "See contributions per option, the donor behind each one and whether it has been paid.",
+      "benefitsTitle": "Benefits for your organisation",
+      "audiencesTitle": "Who uses Qurbani",
+      "hero": {
+        "choose": "Choose your Qurbani",
+        "options": [
+          {
+            "name": "Sheep or goat",
+            "note": "One share"
+          },
+          {
+            "name": "Cow",
+            "note": "One-seventh share"
+          },
+          {
+            "name": "Camel",
+            "note": "One-seventh share"
+          }
+        ],
+        "note": "Example options — you set your own"
+      }
+    },
+    "school-management": {
+      "featuresTitle": "School administration, fees and sponsorship together",
+      "stepsTitle": "Up and running in three steps",
+      "benefitsTitle": "Benefits for educational institutions",
+      "audiencesTitle": "Who it is for"
+    },
+    "money-pool": {
+      "previewTitle": "A pool your whole community can follow",
+      "previewSub": "A live progress ring, words of encouragement and one-tap sharing.",
+      "featuresTitle": "Everything to run a pool",
+      "stepsTitle": "How a pool works",
+      "audiencesTitle": "Use cases for organisations and communities",
+      "benefitsTitle": "Why pools work",
+      "hero": {
+        "of": "of {{amount}}",
+        "contributors": "{{count}} contributors · example pool"
+      }
+    }
+  },
+  "previews": {
+    "membership": {
+      "label": "Membership dashboard preview listing members with plan, status and renewal date",
+      "title": "Members",
+      "search": "Search members…",
+      "filter": "Plan",
+      "export": "Assembly list",
+      "stats": {
+        "active": "Active",
+        "renewalDue": "Renewal due",
+        "lapsed": "Lapsed"
+      },
+      "status": {
+        "active": "Active",
+        "renewalDue": "Renewal due",
+        "lapsed": "Lapsed"
+      },
+      "cols": {
+        "member": "Member",
+        "plan": "Plan",
+        "status": "Status",
+        "renews": "Renews"
+      },
+      "plans": {
+        "individual": "Individual",
+        "family": "Family",
+        "student": "Student",
+        "organisational": "Organisational"
+      }
+    },
+    "sponsorship": {
+      "label": "Sponsorship dashboard preview linking sponsors to beneficiaries with a twelve-month contribution record",
+      "title": "Sponsorships",
+      "period": "School year",
+      "perMonth": "{{amount}} / month",
+      "beneficiary": "{{name}}, {{age}} · Grade {{grade}}",
+      "coSponsors": "Co-sponsors ({{count}})",
+      "library": "Village school library",
+      "monthStart": "Sep",
+      "monthEnd": "Aug",
+      "legend": {
+        "paid": "Paid",
+        "retried": "Retried and paid",
+        "upcoming": "Upcoming"
+      }
+    },
+    "water-well": {
+      "label": "Water well campaign page preview with project photo, fundraising target, progress and build stages",
+      "eyebrow": "Water well project",
+      "title": "Village water well",
+      "description": "A hand-pump well serving the village school and surrounding homes.",
+      "target": "target {{amount}}",
+      "stages": [
+        "Site survey",
+        "Drilling",
+        "Pump installation",
+        "Handover to village"
+      ],
+      "status": {
+        "done": "Completed",
+        "now": "In progress",
+        "todo": "Planned"
+      },
+      "donate": "Donate to this well"
+    },
+    "qurbani": {
+      "label": "Qurbani management preview with contribution counts per option and a list of contributions with payment status",
+      "title": "Qurbani contributions",
+      "season": "Eid al-Adha",
+      "options": {
+        "sheep": "Sheep or goat",
+        "cow": "Cow share",
+        "camel": "Camel share"
+      },
+      "cols": {
+        "ref": "Ref",
+        "donor": "Donor",
+        "option": "Option",
+        "qty": "Qty",
+        "payment": "Payment"
+      },
+      "status": {
+        "paid": "Paid",
+        "pending": "Pending"
+      }
+    },
+    "school-management": {
+      "label": "School dashboard preview with weekly attendance, term fee summary and a student list",
+      "app": "School",
+      "nav": {
+        "overview": "Overview",
+        "students": "Students",
+        "attendance": "Attendance",
+        "fees": "Fees"
+      },
+      "title": "Term {{term}} overview",
+      "attendance": "Attendance this week",
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "fees": "Term fees",
+      "status": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "overdue": "Overdue"
+      },
+      "sponsored": "Sponsored"
+    },
+    "money-pool": {
+      "label": "Money pool page preview with a progress ring, contributor wall and sharing options",
+      "ofTarget": "of target",
+      "raised": "{{raised}} of {{target}}",
+      "meta": "{{count}} contributors · {{days}} days left",
+      "title": "Masjid roof repair",
+      "organiser": "Organised by the youth committee · paid directly to the masjid’s account",
+      "anonymous": "Anonymous",
+      "messages": {
+        "parents": "For my parents",
+        "accepted": "May it be accepted"
+      },
+      "quote": "“{{text}}”",
+      "share": {
+        "whatsapp": "WhatsApp",
+        "link": "Share link",
+        "qr": "QR code"
+      }
+    }
+  }
+}

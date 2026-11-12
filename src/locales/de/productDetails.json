@@ -1,0 +1,956 @@
+{
+  "items": {
+    "sponsorship": {
+      "title": "Patenschaftsverwaltung",
+      "shortDescription": "Verwalten Sie Kinder-, Gemeinde- und Projektpatenschaften mit lückenloser Nachverfolgung aller Beiträge und regelmäßigen Updates für Ihre Pat:innen.",
+      "h1": "Patenschaftsverwaltung für gemeinnützige Organisationen und humanitäre Teams",
+      "subheadline": "Pat:innen, Begünstigte, regelmäßige Zusagen und Fortschrittsberichte – transparent organisiert auf einer einheitlichen Plattform.",
+      "heroKicker": "Patenschaften ganzheitlich steuern",
+      "problemsAddressed": [
+        {
+          "title": "Verstreute Tabellen und verlorene Datensätze von Begünstigten",
+          "description": "Viele NGOs jonglieren mit Tabellen für Patenschaftszuordnungen, Zahlungen und jährliche Kinder-Updates – das führt zu kritischen Kommunikationslücken und Verzögerungen in der Verwaltung."
+        },
+        {
+          "title": "Hohe Abwanderung bei regelmäßigen Zahlungen und fehlgeschlagene Lastschriften",
+          "description": "Abgelaufene Kreditkarten oder fehlgeschlagene SEPA-Lastschriftmandate führen zu nicht eingezogenen Beträgen – ohne automatische Benachrichtigung der Spender:innen oder erneute Einzugsversuche."
+        },
+        {
+          "title": "Aufwendige Berichte für Pat:innen und Wirkungsnachweise",
+          "description": "Mitarbeiter:innen verbringen Hunderte Stunden damit, Briefe, Schulnoten und Fotos zur gesundheitlichen Entwicklung manuell aufzubereiten, statt Hilfe vor Ort zu leisten."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Profile für Begünstigte und Programme strukturieren",
+          "description": "Legen Sie einheitliche Profile für Begünstigte, Bildungsfonds oder Gemeindeprojekte an – mit würdewahrender Einwilligung und Datenschutzvorkehrungen."
+        },
+        {
+          "step": "02",
+          "title": "Nahtloses Onboarding von Pat:innen und automatisierte Zusagen",
+          "description": "Pat:innen wählen ein Projekt oder ein Kind aus, erteilen ein rechtskonformes SEPA-Lastschriftmandat oder zahlen per Karte und erhalten automatisch ein Willkommenspaket."
+        },
+        {
+          "step": "03",
+          "title": "Kontinuierliche Wirkungsberichte und automatische Verlängerungen",
+          "description": "Versenden Sie strukturierte Jahresberichte, verfolgen Sie erreichte Meilensteine und sichern Sie ununterbrochene monatliche Beiträge – automatisch."
+        }
+      ],
+      "features": [
+        {
+          "title": "Verknüpfung von Begünstigten und Pat:innen",
+          "description": "Bilden Sie 1:1- oder 1:n-Patenschaftsmodelle ab – mit vollständigem Prüfpfad aller Zuordnungen und historischen Datensätzen."
+        },
+        {
+          "title": "Automatisierte Lastschriften und Kartenzahlungen",
+          "description": "Native SEPA-Lastschrift und Kartenzahlung mit proaktiven Ablauf-Erinnerungen und automatischen Wiederholungsplänen."
+        },
+        {
+          "title": "Würdevolle Fortschrittsberichte",
+          "description": "Sicheres digitales Portal für Bildungsmeilensteine, Fortschrittsberichte aus Gemeinden und persönliche Dankesnachrichten."
+        },
+        {
+          "title": "Strenger Datenschutz und Kinderschutz",
+          "description": "Rollenbasierter Zugriffsschutz für sensible Informationen, Standorte und Identitätsdaten von Begünstigten."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Verwaltungsaufwand um 65 % senken",
+          "description": "Schluss mit dem manuellen Abgleich monatlicher Banküberweisungen und mit Tabellen zur Zuordnung von Pat:innen."
+        },
+        {
+          "title": "Pat:innen langfristig binden",
+          "description": "Halten Sie Pat:innen emotional verbunden – durch zeitnahe Updates und reibungsloses regelmäßiges Spenden."
+        },
+        {
+          "title": "Transparente Mittelverwendung",
+          "description": "Jeder Euro und jedes Pfund wird direkt von der Zahlung der Pat:innen bis zum vorgesehenen Gemeindeprojekt nachverfolgt."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir sowohl 1:1-Kinderpatenschaften als auch gebündelte Projektpatenschaften abbilden?",
+          "answer": "Ja. Donorfit unterstützt Einzelpatenschaften, Mehrfachpatenschaften (mehrere Pat:innen pro Kind) sowie umfassende Patenschaften für Gemeindeprojekte."
+        },
+        {
+          "question": "Wie werden sensible Daten von Begünstigten geschützt?",
+          "answer": "Alle Datensätze von Begünstigten sind durch fein abgestufte Berechtigungen geschützt. Für Feldmitarbeiter:innen und Administrator:innen gelten strikte Zugriffsebenen, die unbefugte Exporte oder eine öffentliche Preisgabe verhindern."
+        },
+        {
+          "question": "Unterstützt Donorfit SEPA-Lastschriften für Spender:innen in Europa?",
+          "answer": "Ja. Donorfit erzeugt gültige SEPA-XML-Formate (CAMT / pain.008) und ist an moderne europäische Zahlungsanbieter angebunden – für automatisierte SEPA-Lastschriftmandate."
+        }
+      ]
+    },
+    "orphan-sponsorship": {
+      "title": "Waisenpatenschaften",
+      "shortDescription": "Spezialisierte Software für humanitäre Waisenhilfeprogramme – respektvoller Kinderschutz verbunden mit nachvollziehbarer, regelmäßiger Unterstützung.",
+      "h1": "Würdevolle Verwaltung von Waisenpatenschaften für humanitäre Organisationen",
+      "subheadline": "Bringen Sie engagierte Pat:innen mit schutzbedürftigen Kindern zusammen – mit ethischem Datenschutz, transparenter Mittelverwendung und langfristig gesicherter Versorgung.",
+      "heroKicker": "Ethische Lösungen für Kinder- und Waisenhilfe",
+      "problemsAddressed": [
+        {
+          "title": "Risiken für den Kinderschutz und Offenlegung sensibler Daten",
+          "description": "Ausweisdokumente, Gesundheitsdaten und Kontakte von Vormündern per E-Mail zu verwalten, birgt erhebliche Risiken für Datenschutz und Kinderschutz."
+        },
+        {
+          "title": "Schwankende Spenderbindung bei Schulwechseln",
+          "description": "Pat:innen springen häufig ab, wenn Kinder die Schulstufe oder die Betreuungseinrichtung wechseln – weil zeitnahe Informationen über Meilensteine fehlen."
+        },
+        {
+          "title": "Komplexe grenzüberschreitende Hilfe in mehreren Währungen",
+          "description": "Europäische Pat:innen, die in EUR/GBP spenden, erwarten einen transparenten Nachweis, wie ihre Mittel die lokalen Partnerbüros vor Ort erreichen."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Geschützte Aufnahme von Vormündern und Begünstigten",
+          "description": "Feldteams registrieren Kinder sicher – mit Einwilligung der Vormünder, geprüftem Versorgungsbedarf und verschlüsselten Notizen der lokalen Fallbetreuung."
+        },
+        {
+          "step": "02",
+          "title": "Ethische Vermittlung von Pat:innen",
+          "description": "Spender:innen richten monatliche regelmäßige Zusagen über würdevolle Profile ein, die die Würde der Kinder und Datenschutzvorgaben achten."
+        },
+        {
+          "step": "03",
+          "title": "Transparente Berichte und nachhaltige Versorgung",
+          "description": "Pat:innen erhalten geprüfte Schulberichte, Bestätigungen ärztlicher Untersuchungen und saisonale Grüße – die Anonymität des Kindes bleibt gewahrt."
+        }
+      ],
+      "features": [
+        {
+          "title": "Profile gemäß Kinderschutzstandards",
+          "description": "Stellen Sie die genaue Einhaltung internationaler Kinderschutzstandards sicher – inklusive automatischer Fotoschwärzung und anonymisierter Kennungen."
+        },
+        {
+          "title": "Nachverfolgung von Versorgungsmeilensteinen",
+          "description": "Erfassen Sie pro Begünstigtem Schulanmeldung, Gesundheitsuntersuchungen, Ernährungshilfe und die Sicherheit der Unterkunft."
+        },
+        {
+          "title": "Abgleich mit Vormündern und Feldmitarbeiter:innen",
+          "description": "Regionale Feldkoordinator:innen aktualisieren Versorgungsdaten über mobile Webformulare – ohne Zugriff auf die gesamte Systemdatenbank."
+        },
+        {
+          "title": "Zuwendungsbestätigungen zum Jahresende",
+          "description": "Erstellen Sie mit einem Klick rechtskonforme Zuwendungsbestätigungen für verschiedene europäische Länder."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Die Würde des Kindes zuerst",
+          "description": "Stellen Sie sicher, dass Marketingmaterialien und der Austausch mit Pat:innen schutzbedürftige Kinder niemals ausnutzen – im Einklang mit ethischen Fundraising-Standards."
+        },
+        {
+          "title": "Planbare monatliche Versorgungsmittel",
+          "description": "Sichern Sie regelmäßige Zusagen, damit Waisenhäuser, Pflegeeinrichtungen und Familien verlässliche monatliche Unterstützung erhalten."
+        },
+        {
+          "title": "Prüfungssichere Rechenschaft",
+          "description": "Erstellen Sie lückenlose Dokumentationen für Aufsichtsbehörden, Wirtschaftsprüfer:innen und Vorstand – ohne mühsame Suche nach Unterlagen."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wie geht Donorfit mit dem Schutz von Kinderfotos um?",
+          "answer": "Donorfit bietet integrierte Datenschutzeinstellungen: öffentlich unscharfe Vorschauen oder geschützte, nur für Pat:innen sichtbare Galerien – gesteuert über die Einwilligungen der Vormünder."
+        },
+        {
+          "question": "Können lokale Feldkoordinator:innen Berichte aus Entwicklungsregionen hochladen?",
+          "answer": "Ja. Feldmitarbeiter:innen erhalten über schlanke mobile Oberflächen einen auf ihre Region beschränkten Zugang, um Zeugnisse, Gesundheitsnotizen und Belege hochzuladen."
+        },
+        {
+          "question": "Was passiert, wenn ein Waisenkind das Programm abschließt?",
+          "answer": "Donorfit bietet strukturierte Abschluss-Workflows: Der Erfolg wird gewürdigt, und die Pat:innen werden an ein neu aufgenommenes Kind übergeleitet."
+        }
+      ]
+    },
+    "money-pool": {
+      "title": "Money Pool & Gruppenspenden",
+      "shortDescription": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moscheegemeinden, Kirchen und Ehrenamtsgruppen.",
+      "h1": "Money Pool und gemeinsames Spenden für gemeinnützige Organisationen",
+      "subheadline": "Ermöglichen Sie Unterstützer:innen, Gremien und Gemeinschaften, sich hinter gemeinsamen Spendenzielen zu versammeln – bei voller finanzieller Transparenz.",
+      "heroKicker": "Gemeinsam spenden, gemeinsam bewegen",
+      "problemsAddressed": [
+        {
+          "title": "Undurchsichtige Sammelbüchsen und private Überweisungen",
+          "description": "Wer Bargeld oder Überweisungen auf private Konten sammelt, kann keine offiziellen Zuwendungsbestätigungen ausstellen – das schafft Misstrauen und Chaos in der Buchhaltung."
+        },
+        {
+          "title": "Fehlende gemeinsame Dynamik und Meilensteine",
+          "description": "Klassische Spendenformulare wirken vereinzelt; Gruppen sammeln erfolgreicher, wenn sie gemeinsame Meilensteine zusammen feiern können."
+        },
+        {
+          "title": "Schwierige Zuordnung von Organisator:innen und Teams",
+          "description": "Organisationen wissen oft nicht, welche Ehrenamtlichen, Gemeinden oder Gemeinschaftsleitungen bestimmte gemeinsame Beiträge angestoßen haben."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Verifizierten Money Pool starten",
+          "description": "Erstellen Sie eine Gruppenspendenkampagne in Ihrem Design – mit Spendenziel, transparenter Kostenaufstellung und Frist."
+        },
+        {
+          "step": "02",
+          "title": "Unterstützer:innen spenden und hinterlassen ermutigende Worte",
+          "description": "Mitglieder der Gemeinschaft spenden über schnelle mobile Zahlungslinks, per SEPA oder Karte und sehen den Fortschrittsbalken in Echtzeit wachsen."
+        },
+        {
+          "step": "03",
+          "title": "Direkte Auszahlung an die Organisation und automatische Zuwendungsbestätigungen",
+          "description": "Die Mittel fließen sicher auf das verifizierte Bankkonto der Organisation; jede:r Spender:in erhält automatisch eine offizielle, steuerlich absetzbare Zuwendungsbestätigung."
+        }
+      ],
+      "features": [
+        {
+          "title": "Live-Zielfortschritt und Spenderwand",
+          "description": "Übersichtliche Fortschrittsanzeige mit optional anonymem Spenden, persönlichen Widmungen und Animationen für erreichte Meilensteine."
+        },
+        {
+          "title": "Rollen für Organisator:innen und Teams",
+          "description": "Berechtigen Sie ehrenamtliche Botschafter:innen oder Gemeinschaftsorganisator:innen, den Pool zu betreuen – ohne Zugriff auf die Finanzdaten im Backend."
+        },
+        {
+          "title": "Direkte Zahlung an die Organisation",
+          "description": "Kein Treuhandrisiko durch Dritte. Alle Gelder werden direkt über das Zahlungskonto der eingetragenen Organisation eingezogen."
+        },
+        {
+          "title": "Teilen über viele Kanäle",
+          "description": "Mit einem Tipp teilen – in WhatsApp-Gruppen, E-Mail-Newslettern und per QR-Code bei Veranstaltungen im Gemeindezentrum."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Engagement von der Basis nutzen",
+          "description": "Ermöglichen Sie Ihren engagiertesten Botschafter:innen, gezielt für Wasserbrunnen, Nothilfepakete oder Schulsanierungen zu sammeln."
+        },
+        {
+          "title": "100 % konforme Buchhaltung",
+          "description": "Für jeden im Gruppenpool gesammelten Euro wird eine eigene Zuwendungsbestätigung ausgestellt, und er wird direkt Ihrem Finanzbuch zugeordnet."
+        },
+        {
+          "title": "Neue Spender:innen gewinnen",
+          "description": "Gewinnen Sie neue Erstspender:innen über deren vertraute persönliche Kontakte und Initiativen in der Gemeinschaft."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Verwahren die Organisator:innen das Geld auf ihrem privaten Bankkonto?",
+          "answer": "Niemals. Donorfit stellt sicher, dass alle Mittel direkt an die verifizierte gemeinnützige Organisation fließen. So sind Organisator:innen vor persönlichen steuerlichen Pflichten geschützt, und Spender:innen erhalten ihre Zuwendungsbestätigungen."
+        },
+        {
+          "question": "Können Spender:innen auf der öffentlichen Spenderwand anonym bleiben?",
+          "answer": "Ja. Mit einem einfachen Häkchen lassen sich Name oder Spendenbetrag auf der öffentlichen Wand ausblenden – die private Zuwendungsbestätigung kommt trotzdem an."
+        }
+      ]
+    },
+    "membership": {
+      "title": "Mitgliederverwaltung",
+      "shortDescription": "Moderne Mitgliederverwaltung, automatische Verlängerungen, gestaffelte Mitgliedsbeiträge und Mitgliederkommunikation für Vereine und Verbände.",
+      "h1": "Mitgliederverwaltung und automatisierte Mitgliedsbeiträge für gemeinnützige Organisationen",
+      "subheadline": "Vereinfachen Sie Mitgliederaufnahme, Beitragseinzug, automatische Verlängerungserinnerungen und Mitgliederkommunikation in einem übersichtlichen Arbeitsbereich.",
+      "heroKicker": "Vereinsarbeit und Mitgliederlebenszyklus",
+      "problemsAddressed": [
+        {
+          "title": "Hoher Verwaltungsaufwand beim Eintreiben jährlicher Mitgliedsbeiträge",
+          "description": "Papierrechnungen oder manuelle Zahlungserinnerungen führen zu verspäteten Zahlungen und vielen Austritten."
+        },
+        {
+          "title": "Getrennte Mitgliederdatenbanken und veraltete Kontaktdaten",
+          "description": "Mitglieder ändern Adresse oder E-Mail, ohne ihre Daten selbst aktualisieren zu können – die Folge sind fehlerhafte Verteiler."
+        },
+        {
+          "title": "Komplexe Beitragsstufen, Ermäßigungen für Studierende und Familientarife",
+          "description": "Unterschiedliche Beiträge, Stimmrechte und Verlängerungszyklen in getrennten Systemen zu verfolgen, sorgt für Durcheinander im Betrieb."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Mitgliedschaftsstufen und Beitragsmodelle festlegen",
+          "description": "Richten Sie jährliche, monatliche oder lebenslange Mitgliedschaften ein – mit automatisierten wiederkehrenden SEPA-Lastschriftmandaten oder Kartenzahlung."
+        },
+        {
+          "step": "02",
+          "title": "Selbstständige Anmeldung und Prüfung",
+          "description": "Interessierte füllen intuitive Anmeldeformulare aus, reichen erforderliche Nachweise ein und erteilen die Einzugsermächtigung für ihre Beiträge."
+        },
+        {
+          "step": "03",
+          "title": "Automatisierter Lebenszyklus und Verlängerungen",
+          "description": "Das System verschickt automatisch Verlängerungserinnerungen, aktualisiert Zahlungsarten und versendet Bestätigungen an Mitglieder."
+        }
+      ],
+      "features": [
+        {
+          "title": "Gestaffelte Mitgliedschaftsmodelle",
+          "description": "Konfigurieren Sie Standard-, Studierenden-, Senior:innen-, Organisations- oder Fördermitgliedschaften mit individuellen Beitragsstrukturen."
+        },
+        {
+          "title": "Automatischer Einzug von Mitgliedsbeiträgen",
+          "description": "Verwaltung von SEPA-Lastschriftmandaten (Basis/Firmen) und Kreditkarten-Abos mit automatischen Wiederholungsversuchen."
+        },
+        {
+          "title": "Self-Service-Portal für Mitglieder",
+          "description": "Mitglieder aktualisieren selbst ihre Kontaktdaten, laden jährliche Beitragsbescheinigungen herunter und verwalten ihren Status."
+        },
+        {
+          "title": "Mitgliederverzeichnis und Segmente",
+          "description": "Filtern Sie Mitglieder nach Status, Eintrittsdatum, Stimmberechtigung oder Regionalgruppe für gezielte Kommunikation."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Nie mehr Jahresbeiträgen hinterherlaufen",
+          "description": "Automatisieren Sie Verlängerungen und wiederkehrende Lastschriften und senken Sie den Anteil überfälliger Zahlungen um bis zu 78 %."
+        },
+        {
+          "title": "Korrekte Listen für Versammlungen und Abstimmungen",
+          "description": "Erstellen Sie Echtzeitberichte über aktive Mitglieder mit bezahltem Beitrag – für Mitgliederversammlungen und eine satzungskonforme Vereinsführung."
+        },
+        {
+          "title": "Zufriedenere Mitglieder",
+          "description": "Bieten Sie reibungslose digitale Abläufe mit sofortigen Belegen und einfacher Selbstverwaltung des Profils."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir jährliche Mitgliedsbeiträge per SEPA-Lastschrift einziehen?",
+          "answer": "Ja. Donorfit erstellt rechtskonforme SEPA-Lastschriftmandate mit Vorabankündigung (Pre-Notification) und Bankdatei-Exporten gemäß den europäischen Bankvorschriften."
+        },
+        {
+          "question": "Können wir für Firmenmitglieder andere Beiträge festlegen als für Einzelmitglieder?",
+          "answer": "Ja. Sie können beliebig viele Mitgliedschaftsstufen mit unterschiedlichen Beiträgen, Verlängerungszyklen und individuellen Antragsfeldern anlegen."
+        }
+      ]
+    },
+    "donations": {
+      "title": "Spendenmanagement",
+      "shortDescription": "Konversionsstarke Spendenseiten in Ihrem Design und eingebettete Spenden-Widgets – entwickelt für europäische und internationale Organisationen.",
+      "h1": "Moderne Spendentechnologie für NGOs und gemeinnützige Organisationen",
+      "subheadline": "Bieten Sie schnelle, ansprechende und barrierearme Spendenerlebnisse auf allen Geräten – mit europäischen Zahlungsarten und automatischen Zuwendungsbestätigungen.",
+      "heroKicker": "Reibungslose Online-Spenden",
+      "problemsAddressed": [
+        {
+          "title": "Umständliche, veraltete Spendenformulare",
+          "description": "Viele Spender:innen brechen ab, wenn Formulare langsam sind, nicht für Mobilgeräte optimiert sind oder vertraute regionale Zahlungsarten fehlen."
+        },
+        {
+          "title": "Chaotische Erstellung von Gift Aid und Zuwendungsbestätigungen",
+          "description": "Finanzteams verlieren zum Jahresende Wochen damit, einzelne PDF-Zuwendungsbestätigungen für das Finanzamt zusammenzustellen."
+        },
+        {
+          "title": "Hohe Transaktions- und Plattformgebühren",
+          "description": "Viele allgemeine Plattformen behalten 5–10 % jeder Spende ein – Geld, das der eigentlichen Arbeit der Organisation fehlt."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Spendenformulare in Ihrem Design erstellen",
+          "description": "Binden Sie Formulare ein oder nutzen Sie eigenständige Kampagnenseiten – exakt in den Farben, Schriften und Bildern Ihrer Organisation."
+        },
+        {
+          "step": "02",
+          "title": "Moderne europäische Zahlungsarten akzeptieren",
+          "description": "Spender:innen spenden in Sekunden per SEPA, iDEAL, Bancontact, Apple Pay, Google Pay, Karte oder PayPal."
+        },
+        {
+          "step": "03",
+          "title": "Automatische Zuwendungsbestätigungen und Synchronisierung",
+          "description": "Spender:innen erhalten sofort offizielle Zuwendungsbestätigungen gemäß den Vorgaben der lokalen Finanzbehörden – automatisch mit Ihrem CRM synchronisiert."
+        }
+      ],
+      "features": [
+        {
+          "title": "Mehrere Währungen und lokalisierter Checkout",
+          "description": "Unterstützung für EUR, GBP, USD, CHF und weitere europäische Währungen mit Checkout-Seiten in der jeweiligen Landessprache."
+        },
+        {
+          "title": "Voreingestellte Beträge mit Wirkung",
+          "description": "Machen Sie konkrete Wirkung sichtbar – mit individuellen Betragsbuttons (z. B. 25 € = Schulmaterial für 2 Schüler:innen)."
+        },
+        {
+          "title": "Übernahme der Gebühren durch Spender:innen",
+          "description": "Unterstützer:innen können optional die Transaktionsgebühren übernehmen – so werden bis zu 85 % der Gebühren gedeckt."
+        },
+        {
+          "title": "Eingebettete Widgets und ganzseitige Kampagnen",
+          "description": "Binden Sie Spenden-Widgets nahtlos in WordPress, Webflow, Squarespace oder individuelle React-/statische Websites ein."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Spendenkonversion um 34 % steigern",
+          "description": "Ein moderner Checkout in 2 Schritten verzichtet auf unnötige Felder und ermöglicht sofortige Zahlungen per Mobile Wallet."
+        },
+        {
+          "title": "Steuerliche Vorgaben automatisch erfüllen",
+          "description": "Stellen Sie deutsche Zuwendungsbestätigungen, französische Reçus fiscaux oder britische Gift-Aid-Nachweise automatisch aus."
+        },
+        {
+          "title": "Volle Datenhoheit",
+          "description": "Ihre Spender:innen gehören zu Ihrer Organisation. Exportieren Sie vollständige Spenderdaten jederzeit – ganz ohne Lock-in."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Zahlungsarten können unsere Spender:innen nutzen?",
+          "answer": "Donorfit unterstützt SEPA-Lastschrift, Kredit- und Debitkarten (Visa, Mastercard, Amex), Apple Pay, Google Pay, PayPal, iDEAL (Niederlande), Bancontact (Belgien) sowie Sofort/Klarna."
+        },
+        {
+          "question": "Können wir länderspezifische Zuwendungsbestätigungen erstellen?",
+          "answer": "Ja. Donorfit bietet offizielle Vorlagen für Zuwendungsbestätigungen gemäß europäischem Gemeinnützigkeitsrecht, u. a. für Deutschland (Bestätigung über Geldzuwendungen), Österreich, Frankreich und Großbritannien."
+        }
+      ]
+    },
+    "recurring-giving": {
+      "title": "Regelmäßige Spenden & Spenderbindung",
+      "shortDescription": "Schaffen Sie planbare monatliche Einnahmen und langfristige Spenderbeziehungen – mit automatischer Rückgewinnung ausgefallener Zahlungen und intelligenten Upgrades auf regelmäßiges Spenden.",
+      "h1": "Planbares regelmäßiges Spenden für nachhaltige Wirkung",
+      "subheadline": "Machen Sie aus einmaligen Unterstützer:innen engagierte monatliche Förder:innen – mit automatisierten Lastschriften, Schutz vor Kartenausfällen und guter Spenderbetreuung.",
+      "heroKicker": "Nachhaltige Liquidität für gemeinnützige Organisationen",
+      "problemsAddressed": [
+        {
+          "title": "Starke Abhängigkeit von saisonalen Spendenaufrufen zum Jahresende",
+          "description": "Organisationen, die sich allein auf Spenden zur Weihnachtszeit verlassen, erleben im Frühjahr und Sommer oft deutliche Liquiditätseinbrüche."
+        },
+        {
+          "title": "Stille Abwanderung durch abgelaufene Karten und fehlgeschlagene Überweisungen",
+          "description": "Bis zu 15 % der monatlichen Spender:innen gehen jährlich verloren – nur weil Karten ablaufen und niemand proaktiv nachfasst."
+        },
+        {
+          "title": "Manueller Support bei Betragsänderungen",
+          "description": "Wer seine Spende erhöhen oder seine Adresse ändern möchte, muss dem Team schreiben – das führt zu Verzögerungen und Kündigungen."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Reibungslose Anmeldung zur regelmäßigen Spende",
+          "description": "Stellen Sie die monatliche Spende an allen Kontaktpunkten als Standardoption heraus – mit klaren Beschreibungen ihrer monatlichen Wirkung."
+        },
+        {
+          "step": "02",
+          "title": "Automatisiertes Mahnwesen und Aktualisierung abgelaufener Karten",
+          "description": "Das System erinnert Spender:innen automatisch vor Kartenablauf und wiederholt fehlgeschlagene Bankeinzüge behutsam."
+        },
+        {
+          "step": "03",
+          "title": "Self-Service-Portal für Spender:innen",
+          "description": "Spender:innen aktualisieren Zahlungsdaten, passen Beträge an oder pausieren ihre Spende sicher – ganz ohne Kontakt zum Team."
+        }
+      ],
+      "features": [
+        {
+          "title": "Intelligente Upgrades auf regelmäßiges Spenden",
+          "description": "Laden Sie einmalige Spender:innen genau im Moment größter Dankbarkeit ein, monatliche Förder:innen zu werden."
+        },
+        {
+          "title": "Automatische Aktualisierung von Kartendaten",
+          "description": "Abgelaufene oder neu ausgestellte Kartendaten werden nahtlos über die Bankinfrastruktur aktualisiert – ohne manuelle Kontaktaufnahme."
+        },
+        {
+          "title": "Flexibel pausieren und anpassen",
+          "description": "Unterstützer:innen in vorübergehenden Notlagen können ihre Spende 1–3 Monate pausieren, statt sie ganz zu kündigen."
+        },
+        {
+          "title": "Kohortenanalysen für regelmäßige Spenden",
+          "description": "Verfolgen Sie Spender-Lifetime-Value (LTV), Bindungskurven nach Kohorten und die monatliche Entwicklung der Netto-Dauerspendeneinnahmen."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Planbare monatliche Arbeit",
+          "description": "Stabilisieren Sie Ihr Budget, damit Programmverantwortliche sich auf langfristige Gemeinschaftsprojekte festlegen können."
+        },
+        {
+          "title": "Über 60 % gefährdeter Daueraufträge zurückgewinnen",
+          "description": "Automatische Mahn-E-Mails und intelligente Wiederholungslogik holen fehlgeschlagene regelmäßige Spenden zurück – ohne unangenehme Anrufe."
+        },
+        {
+          "title": "5-fach höherer Lifetime Value",
+          "description": "Regelmäßige Spender:innen geben über ihre gesamte Spendendauer im Schnitt 5,4-mal mehr als Einmalspender:innen."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wie verhindert Donorfit fehlgeschlagene regelmäßige Zahlungen?",
+          "answer": "Donorfit nutzt Erinnerungen vor dem Einzug, automatische Kartendaten-Updates der Kartennetzwerke und intelligente Wiederholungspläne (Einzugsversuche an typischen europäischen Zahltagen), um die Einzugsquote zu maximieren."
+        },
+        {
+          "question": "Können Spender:innen ihre regelmäßige Spende einfach kündigen oder ändern?",
+          "answer": "Ja. Im Einklang mit europäischem Verbraucherrecht und der DSGVO erhalten Spender:innen per Magic Link sicheren Zugang zu ihrem persönlichen Spenderportal, um ihre Spende jederzeit zu ändern oder zu pausieren."
+        }
+      ]
+    },
+    "donor-management": {
+      "title": "Spenderverwaltung & CRM",
+      "shortDescription": "Bündeln Sie Spenderprofile, vollständige Spendenhistorien, automatisierte Kommunikation und Beziehungsnotizen in einem übersichtlichen europäischen CRM.",
+      "h1": "Zentrale Spenderverwaltung, speziell für gemeinnützige Organisationen",
+      "subheadline": "Schluss mit verstreuten Tabellen. Pflegen Sie aussagekräftige Spenderhistorien und persönliche Kommunikationsverläufe – vollständig DSGVO-konform.",
+      "heroKicker": "Vernetztes CRM für gemeinnützige Organisationen",
+      "problemsAddressed": [
+        {
+          "title": "Spenderdaten verstreut über 5 verschiedene Tools und Postfächer",
+          "description": "Kontoauszüge, Newsletter-Tools, Veranstaltungslisten und Offline-Spendenlisten verhindern eine zentrale, verlässliche Datenquelle."
+        },
+        {
+          "title": "Fehlende Personalisierung und unpersönliche Massenaufrufe",
+          "description": "Großspender:innen, die Standard-Spendenbriefe erhalten, fühlen sich nicht wertgeschätzt – während treue monatliche Spender:innen überflüssige Bitten bekommen."
+        },
+        {
+          "title": "Kopfzerbrechen bei DSGVO-Konformität und Einwilligungsnachweisen",
+          "description": "Wer Opt-ins, Kommunikationspräferenzen und Löschanfragen nicht dokumentiert, riskiert hohe Bußgelder in Europa."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Einheitliche 360°-Spenderakte",
+          "description": "Online-Spenden, Patenschaften und Veranstaltungsteilnahmen werden automatisch zu einer umfassenden Spender-Zeitleiste zusammengeführt."
+        },
+        {
+          "step": "02",
+          "title": "Intelligente Segmentierung und Tags",
+          "description": "Filtern Sie Unterstützer:innen nach Gesamtspendensumme, Kampagnenteilnahme, Region oder Status bei Unternehmens-Matching."
+        },
+        {
+          "step": "03",
+          "title": "Persönliche Spenderbetreuung",
+          "description": "Dokumentieren Sie Gespräche, weisen Sie Folgeaufgaben an Beziehungsverantwortliche zu und automatisieren Sie Dankesnachrichten zu Jahrestagen."
+        }
+      ],
+      "features": [
+        {
+          "title": "Zusammengeführte Spenden-Zeitleiste",
+          "description": "Sehen Sie jede Spende, jede Patenschaftszusage, jede Zuwendungsbestätigung und jede E-Mail-Interaktion in einem chronologischen Verlauf."
+        },
+        {
+          "title": "Individuelle Attribute und Tags",
+          "description": "Erfassen Sie Vorstandszugehörigkeiten, Förderausschüsse, ehrenamtliche Interessen und Sprachpräferenzen."
+        },
+        {
+          "title": "DSGVO-Datenschutz und Prüfprotokoll",
+          "description": "Speichern Sie Zeitstempel ausdrücklicher Einwilligungen, exportieren Sie vollständige Datenpakete und führen Sie geprüfte Löschanfragen durch."
+        },
+        {
+          "title": "Dublettenbereinigung und Adresspflege",
+          "description": "Erkennen Sie doppelte Profile anhand von E-Mail-Adressen und europäischen IBANs und führen Sie Historien mit einem Klick sauber zusammen."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Über 10 Stunden pro Woche sparen",
+          "description": "Kein manueller CSV-Export mehr zwischen Buchhaltung, Marketing und Spendensystemen."
+        },
+        {
+          "title": "Großspenden gezielt fördern",
+          "description": "Erkennen Sie aufstrebende Unterstützer:innen, deren Gesamtspenden sie für eine persönliche Großspenderbetreuung qualifizieren."
+        },
+        {
+          "title": "Garantierte DSGVO-Konformität",
+          "description": "Von Grund auf nach europäischen Datenschutzvorgaben entwickelt – für die Gewissheit von Vorstand und Stiftungsrat."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir unsere bestehende Spenderdatenbank aus Excel oder unserem alten CRM importieren?",
+          "answer": "Ja. Donorfit bietet geführte CSV-Import-Assistenten mit Spaltenzuordnung und Dublettenerkennung, damit Sie Ihre bestehenden Spenderdaten sicher übernehmen."
+        },
+        {
+          "question": "Werden Spenderdaten innerhalb der Europäischen Union gespeichert?",
+          "answer": "Ja. Alle Kundendaten von Donorfit werden in ISO-27001-zertifizierten europäischen Rechenzentren gehostet – streng DSGVO-konform und ohne unbefugte Datenübermittlungen."
+        }
+      ]
+    },
+    "campaign-management": {
+      "title": "Kampagnenmanagement",
+      "shortDescription": "Planen, starten und überwachen Sie Nothilfe-Spendenaufrufe, saisonale Kampagnen und Peer-to-Peer-Aktionen mit Live-Verfolgung Ihrer Spendenziele.",
+      "h1": "Wirkungsstarkes Management von Fundraising-Kampagnen",
+      "subheadline": "Starten Sie Nothilfeaufrufe, saisonale Kampagnen und Spendenaktionen in der Gemeinschaft – schnell einsatzbereit und mit Fortschrittsanalysen in Echtzeit.",
+      "heroKicker": "Zielorientierte Fundraising-Kampagnen",
+      "problemsAddressed": [
+        {
+          "title": "Langsame Reaktion bei humanitären Notlagen",
+          "description": "Wenn Erdbeben oder Krisen eintreten, kostet das tagelange Warten auf Entwickler:innen für Aufrufseiten Menschenleben und die Spendenbereitschaft geht verloren."
+        },
+        {
+          "title": "Keine Zuordnung über mehrere Kanäle hinweg",
+          "description": "Unklar bleibt, ob die Mittel aus Social Media, E-Mail-Newslettern, Postwurfsendungen oder dem Matching von Partnerunternehmen stammen."
+        },
+        {
+          "title": "Fehlende sichtbare Zwischenziele für Unterstützer:innen",
+          "description": "Spender:innen möchten sehen, wie ihre einzelne Spende dem Ziel näherkommt – etwa dem Kauf eines Krankenwagens oder dem Bau einer Schule."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Kampagne in 5 Minuten starten",
+          "description": "Wählen Sie ein bewährtes Kampagnenlayout, legen Sie Spendenziele fest, ergänzen Sie Nothilfe-Updates und veröffentlichen Sie sofort."
+        },
+        {
+          "step": "02",
+          "title": "Über alle Kanäle verbreiten – mit Tracking",
+          "description": "Erzeugen Sie eindeutige Tracking-Links und QR-Codes für Briefe, Pressemitteilungen, Social-Media-Anzeigen und Newsletter."
+        },
+        {
+          "step": "03",
+          "title": "Dynamik live verfolgen und Meilensteine feiern",
+          "description": "Verfolgen Sie eingehende Spenden in Echtzeit, lösen Sie automatische Meilenstein-E-Mails aus und danken Sie Spender:innen öffentlich."
+        }
+      ],
+      "features": [
+        {
+          "title": "Modus für schnelle Nothilfeaufrufe",
+          "description": "Vorkonfigurierte, mobil optimierte Nothilfevorlagen, die wenige Minuten nach Eintritt einer Krise live gehen können."
+        },
+        {
+          "title": "Matching-Zusagen von Unternehmen",
+          "description": "Richten Sie 1:1- oder 2:1-Matching durch Unternehmen ein, das Spenden im Fortschrittsbalken sichtbar verdoppelt."
+        },
+        {
+          "title": "Kanalzuordnung und UTM-Tracking",
+          "description": "Ermitteln Sie den genauen Return on Investment (ROI) Ihrer Google Ad Grants, Newsletter und Presseberichte."
+        },
+        {
+          "title": "Aufschlüsselung des Spendenziels",
+          "description": "Zeigen Sie greifbare Teilziele, z. B. 10.000 € für medizinische Ausrüstung, 15.000 € für Notrationen, 25.000 € für Unterkünfte."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Schnelle humanitäre Reaktion",
+          "description": "Gewinnen Sie die öffentliche Aufmerksamkeit bei aktuellen Ereignissen, bevor die Spendenbereitschaft nachlässt."
+        },
+        {
+          "title": "Dringlichkeit durch Matching erzeugen",
+          "description": "Kampagnen mit sichtbarem Matching durch Unternehmen erzielen bis zu 51 % mehr Spenden insgesamt."
+        },
+        {
+          "title": "Marketingbudget optimieren",
+          "description": "Erfahren Sie genau, welche Kommunikationskanäle Spenden bringen, und investieren Sie nicht länger in Kanäle mit schwacher Leistung."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir beliebig viele Kampagnen erstellen?",
+          "answer": "Ja. Gemeinnützige Organisationen können saisonale Spendenaufrufe, laufende Bauprojekte und schnelle Nothilfefonds parallel betreiben – jeweils mit eigenen Spendenzielen und URLs."
+        },
+        {
+          "question": "Können Kampagnen Matching-Partner haben?",
+          "answer": "Ja. Sie können einen Matching-Fonds eines Unternehmens oder einer Förderperson hinterlegen, der Spenden automatisch bis zu einer festgelegten Obergrenze verdoppelt."
+        }
+      ]
+    },
+    "reporting-and-insights": {
+      "title": "Reporting & Analysen",
+      "shortDescription": "Aussagekräftige Fundraising-Analysen, Bindungskurven nach Kohorten, Einnahmeprognosen und exportierbare Finanzberichte.",
+      "h1": "Fundraising-Analysen und umsetzbare Erkenntnisse für gemeinnützige Organisationen",
+      "subheadline": "Verstehen Sie Spenderbindung, Lifetime Value und den ROI Ihrer Kampagnen – ganz ohne Data-Science-Kenntnisse.",
+      "heroKicker": "Intelligente Fundraising-Analysen",
+      "problemsAddressed": [
+        {
+          "title": "Stundenlange manuelle Berichte für Vorstand und Prüfung",
+          "description": "Finanz- und Fundraising-Leitungen verbringen am Monatsende ganze Tage damit, Zahlen aus verschiedenen Tabellen zusammenzutragen."
+        },
+        {
+          "title": "Blinde Flecken bei Abwanderung und Rückgang von Spender:innen",
+          "description": "Organisationen erkennen oft erst Monate nach sinkenden Einnahmen, wann und warum regelmäßige Spender:innen abspringen."
+        },
+        {
+          "title": "Schwierigkeiten mit gesetzlichen Rechnungslegungsstandards für gemeinnützige Organisationen",
+          "description": "Herkömmliche Zahlungssysteme bereiten Exporte nicht in den üblichen Buchhaltungs- und Steuerstrukturen für gemeinnützige Organisationen auf."
+        }
+      ],
+      "howItWorks": [
+        {
+          "step": "01",
+          "title": "Automatische Datenzusammenführung",
+          "description": "Transaktionen aus allen Kanälen (Karte, SEPA, Überweisung, Barspende) werden in Echtzeit abgeglichen."
+        },
+        {
+          "step": "02",
+          "title": "Interaktive, visuelle Dashboards",
+          "description": "Analysieren Sie Spenderwachstum, durchschnittliche Spendenhöhe, Kampagnen-ROI und die Entwicklung der monatlich wiederkehrenden Einnahmen (MRR)."
+        },
+        {
+          "step": "03",
+          "title": "Exporte für Prüfung und Vorstand mit einem Klick",
+          "description": "Exportieren Sie übersichtliche PDF-Zusammenfassungen für Vorstands- und Stiftungsratssitzungen sowie detaillierte CSV-/Excel-Daten für externe Wirtschaftsprüfer:innen."
+        }
+      ],
+      "features": [
+        {
+          "title": "Spenderbindung und Kohortenkurven",
+          "description": "Verfolgen Sie, wie Unterstützer:innen, die über bestimmte Kampagnen oder in bestimmten Jahren gewonnen wurden, über 12, 24 und 36 Monate weiter spenden."
+        },
+        {
+          "title": "Bankabgleich und Auszahlungsberichte",
+          "description": "Übersichtliche Abgleichsberichte, die Bankgutschriften den einzelnen Transaktions-IDs und Gebühren zuordnen."
+        },
+        {
+          "title": "Zweckgebundene und freie Mittel getrennt",
+          "description": "Trennen Sie freie Mittel und zweckgebundene Projektzuschüsse sauber nach den Buchhaltungsregeln für gemeinnützige Organisationen."
+        },
+        {
+          "title": "Automatisch geplante E-Mail-Berichte",
+          "description": "Senden Sie wöchentliche oder monatliche Fundraising-Zusammenfassungen direkt an Geschäftsführung und Vorstand."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Datenbasierte Fundraising-Strategie",
+          "description": "Investieren Sie die knappe Zeit und das begrenzte Budget Ihres Teams in genau die Kanäle und Spendenaufrufe mit dem höchsten Spender-Lifetime-Value."
+        },
+        {
+          "title": "Mühelose Vorbereitung der Jahresprüfung",
+          "description": "Übergeben Sie externen Prüfer:innen saubere, geprüfte Transaktionsjournale – ohne manuelle Nacharbeit oder hektische Suche nach fehlenden Belegen."
+        },
+        {
+          "title": "Volles Vertrauen des Vorstands",
+          "description": "Präsentieren Sie professionelle, ansprechend visualisierte Wirkungskennzahlen, die eine verantwortungsvolle Organisationsführung belegen."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir in Berichten zweckgebundene und freie Spenden trennen?",
+          "answer": "Ja. Jede Spende und jede Kampagne in Donorfit lässt sich als zweckgebunden oder frei kennzeichnen – so entspricht Ihre Finanzberichterstattung dem Gemeinnützigkeitsrecht."
+        },
+        {
+          "question": "Können wir Berichte für Buchhaltungssoftware wie DATEV, Xero oder QuickBooks exportieren?",
+          "answer": "Ja. Donorfit bietet saubere CSV- und API-Exporte, die für führende Buchhaltungs- und ERP-Systeme formatiert sind."
+        }
+      ]
+    }
+  },
+  "ui": {
+    "notFound": {
+      "title": "Produkt nicht gefunden",
+      "body": "Das angeforderte Produkt existiert nicht oder wurde verschoben.",
+      "cta": "Zur Startseite"
+    },
+    "hero": {
+      "getStartedWith": "{{product}} jetzt starten",
+      "trustGdpr": "EU-DSGVO-konform",
+      "trustTax": "Automatische Zuwendungsbestätigungen"
+    },
+    "visual": {
+      "appTab": "Echtzeit-Grafik: {{product}}",
+      "photoTab": "Wirkung vor Ort",
+      "kicker": "Mission in Aktion",
+      "title": "Wir verbinden großzügige Spender:innen in Europa mit nachweisbarer, greifbarer Wirkung."
+    },
+    "images": {
+      "sponsorship": "Selbstbewusste Kinder lernen in einem hellen Gemeinde- und Bildungszentrum",
+      "foodRelief": "Engagierte Ehrenamtliche packen Lebensmittelpakete in einem Gemeindesaal",
+      "gala": "Benefizgala mit Unterstützer:innen gemeinnütziger Arbeit, die gemeinsame Fortschritte feiern",
+      "recurring": "Leitungsteam einer gemeinnützigen Organisation prüft Kennzahlen zur Bindung regelmäßiger Spender:innen",
+      "team": "Engagiertes Team einer gemeinnützigen Organisation arbeitet in einem modernen Büro zusammen"
+    },
+    "problems": {
+      "kicker": "Reibungsverluste im Alltag",
+      "title": "Die Fundraising-Herausforderungen, die {{product}} löst.",
+      "challenge": "Herausforderung {{n}}"
+    },
+    "workflow": {
+      "kicker": "Klarer Ablauf",
+      "title": "So funktioniert {{product}} in drei Schritten."
+    },
+    "capabilities": {
+      "kicker": "Produktfunktionen",
+      "title": "Speziell für die Abläufe gemeinnütziger Organisationen entwickelt."
+    },
+    "benefits": {
+      "kicker": "Messbarer Mehrwert",
+      "title": "Vorteile für Ihre Organisation, auf die Sie sich verlassen können."
+    },
+    "faq": {
+      "kicker": "Fragen & Antworten",
+      "title": "Häufige Fragen zu {{product}}"
+    },
+    "cta": {
+      "title": "Bereit, {{product}} kennenzulernen?",
+      "body": "Vereinbaren Sie eine kompakte 20-minütige Demo mit unseren Expert:innen für gemeinnützige Organisationen in Europa – oder starten Sie direkt mit dem Onboarding."
+    },
+    "related": {
+      "kicker": "Passende Lösungen für gemeinnützige Organisationen"
+    },
+    "mockup": {
+      "hero": {
+        "railsLive": "SEPA & Direktzahlungen live",
+        "runRate": "Monatliche Dauerspenden",
+        "yoy": "{{pct}} gegenüber Vorjahr",
+        "activeSponsorships": "Aktive Patenschaften",
+        "retention": "{{pct}} Bindungsrate",
+        "autoTax": "Automatische Steuerkonformität",
+        "certificates": "Bescheinigungen für DE / FR & UK",
+        "velocity": "Spendendynamik in Echtzeit (30 Tage)",
+        "reconciled": "Abgeglichen per SEPA CAMT.053",
+        "chartStart": "1. Okt. · 182 Tsd. €",
+        "chartMid": "15. Okt. · 214 Tsd. €",
+        "chartPeak": "Heute · Höchstwert 248,5 Tsd. €",
+        "batchTitle": "SEPA-Basislastschrift ausgeführt",
+        "batchBody": "{{count}} Mandate reibungslos eingezogen",
+        "cleanPass": "{{pct}} fehlerfrei"
+      },
+      "checkout": {
+        "title": "Reibungsloser Spenden-Checkout",
+        "badge": "2 Schritte · mobil optimiert",
+        "monthly": "Monatliche Spende (empfohlen)",
+        "single": "Einmalige Spende",
+        "selectAmount": "Betrag wählen:",
+        "impact": {
+          "25": "Ermöglicht einen Monat lang nahrhafte Mahlzeiten für 5 Kinder aus der Gemeinde.",
+          "50": "Finanziert komplettes Schulmaterial, Schuluniformen und Bücher für 2 Schüler:innen.",
+          "100": "Stellt solarbetriebene Wasserfilter für 10 ländliche Haushalte bereit.",
+          "250": "Stattet eine mobile Krankenstation mit wichtigen Notfallsets aus."
+        },
+        "methodsLabel": "Direkte Zahlungsarten:",
+        "zeroRedirect": "Ohne Weiterleitung",
+        "methods": {
+          "sepa": "SEPA-Lastschrift",
+          "applePay": "Apple Pay",
+          "cards": "Visa / Mastercard",
+          "paypal": "PayPal"
+        },
+        "confirmMonthly": "{{amount}} monatlich bestätigen",
+        "confirmSingle": "Spende über {{amount}} bestätigen",
+        "ssl": "SSL 256-Bit",
+        "receipt": "Zuwendungsbestätigung wird sofort erstellt"
+      },
+      "sponsorship": {
+        "title": "Dossier: Begünstigte:r & Pat:in",
+        "badge": "Aktive Patenschaft #SP-4902",
+        "beneficiaryLabel": "Begünstigtes Kind",
+        "beneficiaryName": "Amina K. (9 Jahre)",
+        "beneficiaryMeta": "Grundschule · 4. Klasse",
+        "sponsorLabel": "Pat:innen",
+        "sponsorLocation": "Frankfurt am Main, Deutschland",
+        "fundingLabel": "Versorgung im Schuljahr 2026/2027",
+        "funded": "{{raised}} / {{goal}} finanziert",
+        "auditTitle": "Geprüfte Meilensteine",
+        "milestone1": "Gesundheits- und Zahnuntersuchung bestanden",
+        "milestone1Date": "12. Okt. 2026",
+        "milestone2": "Zeugnis für das 1. Halbjahr versendet",
+        "milestone2Date": "28. Sept. 2026",
+        "privacy": "Datenschutz-Einwilligung der Vormünder geprüft. Sensible Standortdaten gemäß EU-Kinderschutzrichtlinien verschlüsselt."
+      },
+      "moneyPool": {
+        "title": "Verifizierter Gruppen-Money-Pool",
+        "ofGoal": "{{pct}} des Ziels",
+        "campaign": "Initiative für solare Wasserentsalzung",
+        "organizer": "Organisiert von der Kölner Gemeinschaftshilfe · Direkte Abrechnung mit der NGO",
+        "collectedFrom": "Gesammelt von {{count}} Spender:innen",
+        "recent": "Letzte Gruppenspende",
+        "quote": "„Von den Schüler:innen des Albertus-Magnus-Gymnasiums. Wir stehen an Ihrer Seite!“",
+        "receipts": "Zuwendungsbestätigungen werden automatisch ausgestellt",
+        "wall": "Spenderwand ansehen →"
+      },
+      "crm": {
+        "title": "Spender-CRM & Kohortenbindung",
+        "sync": "Live-Datensync",
+        "ltv": "Ø Spender-LTV",
+        "ltvDelta": "{{pct}} ggü. Einmalspenden",
+        "recovery": "Rückgewinnung fehlgeschlagener SEPA-Einzüge",
+        "recoveryNote": "Per automatischer Wiederholungslogik",
+        "timeline": "Aktuelle Unterstützer-Zeitleiste",
+        "majorGift": "{{amount}} Großspende",
+        "tagged": "Tag: Stiftungsfonds Sauberes Wasser · Zuwendungsbestätigung #DE-8810 versendet"
+      }
+    },
+    "live": {
+      "engineActive": "Echtzeit-Engine aktiv",
+      "todayInflow": "Heutige Live-Eingänge",
+      "vsYesterday": "{{pct}} ggü. gestern",
+      "sepaClearance": "SEPA-Clearing",
+      "cleared": "{{pct}} verrechnet",
+      "batchVerified": "pain.008-XML-Stapel geprüft",
+      "activeRecurring": "Aktive Dauerspender:innen",
+      "activeCount": "{{count}} aktiv",
+      "retention": "{{pct}} Bindungsrate",
+      "autoReceipts": "Automatische Zuwendungsbestätigungen",
+      "instantPdf": "Sofort als PDF",
+      "estdv": "konform mit § 50 Abs. 1 EStDV",
+      "tabs": {
+        "feed": "Live-Spendenfeed",
+        "crm": "360°-Unterstützerkarte",
+        "sponsorship": "Patenschaftszuordnung"
+      },
+      "lastEvent": "Letztes Ereignis: {{time}}",
+      "now": "Jetzt",
+      "justNow": "Gerade eben",
+      "secondsAgo": "vor {{n}} s",
+      "minutesAgo": "vor {{n}} Min.",
+      "cols": {
+        "supporter": "Unterstützer:in / Programm",
+        "method": "Zahlungsart & Ort",
+        "amount": "Betrag / Status"
+      },
+      "badgeMonthly": "Monatlich",
+      "badgeSponsorship": "Patenschaft",
+      "settled": "Verbucht",
+      "card": "Karte",
+      "securityNote": "Alle Zahlungen werden mit 256-Bit-TLS-Verschlüsselung und nach ISO-27001-Standards verarbeitet.",
+      "receiptAutomation": "{{pct}} automatisierte Zuwendungsbestätigungen",
+      "locations": {
+        "munich": "München, Deutschland",
+        "lyon": "Lyon, Frankreich",
+        "london": "London, Großbritannien",
+        "utrecht": "Utrecht, Niederlande",
+        "zurich": "Zürich, Schweiz",
+        "frankfurt": "Frankfurt, DE",
+        "brussels": "Brüssel, BE",
+        "vienna": "Wien, AT"
+      },
+      "campaigns": {
+        "cleanWater": "Initiative Sauberes Wasser",
+        "eastAfrica": "Bildungsfonds Ostafrika",
+        "winterRelief": "Winter-Nothilfe",
+        "healthClinics": "Gesundheitszentren vor Ort",
+        "endowment": "Stiftungsvermögen",
+        "orphanCare": "Schutz für Waisenkinder",
+        "schoolNutrition": "Schulverpflegung Grundschule",
+        "fieldClinic": "Mobile Notfallklinik"
+      },
+      "crm": {
+        "tier": "Großspender:in",
+        "memberMeta": "Mitglieds-ID: DF-EU-98214 · Unterstützerin seit März 2021",
+        "taxCertificate": "Zuwendungsbestätigung 2026 (PDF)",
+        "lifetime": "Gesamtwirkung bisher",
+        "contributions": "{{count}} Spenden insgesamt",
+        "recurring": "Regelmäßige Spende",
+        "perMonth": "{{amount}} / Monat",
+        "sepaMandate": "SEPA-Lastschrift (DE89...)",
+        "gdpr": "DSGVO & Kommunikation",
+        "optIn": "Opt-in bestätigt",
+        "doubleOptIn": "Double-Opt-in geprüft · DB Frankfurt"
+      },
+      "allocation": {
+        "kicker": "Geschützte Liste der Begünstigten",
+        "title": "Zuordnung von Gemeinde- und Kinderpatenschaften",
+        "roleView": "Rollenbasierte Ansicht für Fallbetreuung",
+        "activeCare": "Aktive Betreuung",
+        "child1": {
+          "name": "Amara K. (9 Jahre)",
+          "meta": "Bildungsmission Nairobi · Grundschule, 3. Klasse",
+          "body": "Pat:innen: Marc & Sophie Laurent ({{amount}}/Monat). Schulgeld, Gutscheine für Schulbücher und wöchentliche ärztliche Kontrollen aktiv.",
+          "footer": "Letzter Besuch der Fallbetreuung: vor 12 Tagen",
+          "status": "Zeugnis hochgeladen"
+        },
+        "child2": {
+          "name": "Zainab M. (11 Jahre)",
+          "meta": "Jugendzentrum Amman · MINT-Bildung",
+          "body": "Patin: Dr. Helena Weber ({{amount}}/Monat). Lernmaterial, Hygienesets und Winterkleidung verteilt.",
+          "footer": "Nächstes geplantes Update: 20. Nov. 2026",
+          "status": "Kinderschutzprüfung OK"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "about": {
+    "hero": {
+      "eyebrow": "Über Donorfit",
+      "title": "Fundraising-Technologie, speziell für gemeinnützige Organisationen entwickelt.",
+      "intro": "Donorfit wurde aus einer festen Überzeugung heraus gegründet: Organisationen, die die wichtigste Arbeit der Welt leisten, sollten nicht durch zersplitterte Software, umständliche Spendentools oder mühsame manuelle Verwaltungsarbeit ausgebremst werden.",
+      "formulaLabel": "Unsere Kernformel:",
+      "formula": "Technologie + Menschlichkeit + Vertrauen + Einfachheit."
+    },
+    "photos": {
+      "teamAlt": "Engagiertes Team einer gemeinnützigen Organisation bei der Zusammenarbeit in einem modernen europäischen Büro",
+      "teamCaption": "Mit Empathie für die Arbeit europäischer gemeinnütziger Organisationen entwickelt",
+      "fieldAlt": "Humanitäre Entwicklungshelfer:innen im Austausch mit Menschen aus der Gemeinde neben einer Wasserversorgungsanlage",
+      "fieldCaption": "Direkte Unterstützung der Wirkung vor Ort"
+    },
+    "purpose": {
+      "eyebrow": "Warum es uns gibt",
+      "title": "Wir verbinden moderne Finanztechnologie mit humanitärem Auftrag.",
+      "p1": "Kommerzielle SaaS-Anbieter entwickeln Tools für den gewinnorientierten E-Commerce. Gemeinnützige Organisationen haben jedoch grundlegend andere Anforderungen: komplexe, mehrjährige Kinderpatenschaften, gemeinschaftlich finanzierte Brunnenprojekte, gesetzlich vorgeschriebene Zuwendungsbestätigungen und Schutzstandards für besonders schutzbedürftige Begünstigte.",
+      "p2": "Wenn gemeinnützige Organisationen gezwungen sind, 5 verschiedene Standardtools zusammenzustückeln – einen Zahlungsdienstleister, ein Newsletter-Tool, eine Tabellenkalkulation und eine Offline-Spenderdatenbank –, gehen Stunden verloren und Unterstützer:innen wenden sich ab.",
+      "p3Before": "Donorfit vereint diese Abläufe auf einer durchgängigen, europäisch konformen Plattform. Das Ergebnis?",
+      "p3Bold": "Weniger Verwaltungsaufwand. Stärkere Beziehungen zu Spender:innen. Mehr Wirkung."
+    },
+    "principles": {
+      "eyebrow": "Unsere Leitprinzipien",
+      "title": "Die Grundsätze, nach denen wir Donorfit entwickeln.",
+      "items": [
+        {
+          "title": "Die Mission zuerst",
+          "text": "Wir messen unseren Erfolg an den Verwaltungsstunden, die wir Leitungen gemeinnütziger Organisationen zurückgeben, und an den Mitteln, die wir für die humanitäre Arbeit vor Ort freisetzen."
+        },
+        {
+          "title": "Kompromissloses Vertrauen",
+          "text": "Wir setzen auf souveränes Hosting in Europa, konsequente DSGVO-Disziplin, volle Datenhoheit ohne Lock-in sowie transparente, faire Preise ohne überzogene Transaktionsabzüge."
+        },
+        {
+          "title": "Menschlichkeit & Würde",
+          "text": "Ob bei Waisenpatenschaften oder Nothilfe-Spendenaufrufen: Unsere Software stärkt Würde, respektvolles Storytelling und aufrichtige Dankbarkeit gegenüber Spender:innen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Entdecken Sie, was vernetztes Fundraising für Ihre Organisation leisten kann.",
+      "text": "Sprechen Sie mit unserem Team für Nonprofit-Technologie über Ihre aktuellen Spendenprozesse, Patenschaftsprogramme oder Ziele zur Spenderbindung.",
+      "discoveryCall": "Erstgespräch vereinbaren"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Direkter Kontakt",
+      "title": "Nehmen Sie Kontakt mit dem Donorfit-Team auf.",
+      "intro": "Ob Sie Fragen zur Einführung regelmäßiger Spenden per SEPA-Lastschrift haben, Unterstützung bei Abläufen für Kinderpatenschaften benötigen oder über eine Partnerschaft sprechen möchten – wir helfen Ihnen gerne weiter."
+    },
+    "success": {
+      "title": "Anfrage erhalten",
+      "thanksBefore": "Vielen Dank für Ihre Nachricht,",
+      "nameFallback": "liebe Interessentin, lieber Interessent",
+      "thanksMiddle": ". Ihre Anfrage wurde an unseren Bereich",
+      "thanksAfter": "weitergeleitet.",
+      "nextTitle": "So geht es weiter:",
+      "step1": "1. Unser europäisches Team prüft die Angaben zu Ihrer Organisation.",
+      "step2": "2. Eine Fachperson antwortet an {{email}} innerhalb von 4 bis 8 Geschäftsstunden.",
+      "step3": "3. Kein Spam, kein Verkaufsdruck – nur direkte, hilfreiche Beratung.",
+      "again": "Weitere Anfrage senden"
+    },
+    "desks": {
+      "sales": "Vertrieb",
+      "general": "Allgemeine Anfragen",
+      "product": "Produkt & Technik",
+      "partnership": "Partnerschaften",
+      "support": "Support"
+    },
+    "form": {
+      "title": "Schreiben Sie uns",
+      "intro": "Füllen Sie die folgenden Felder aus – unser europäisches Team für gemeinnützige Organisationen meldet sich zeitnah bei Ihnen.",
+      "nameLabel": "Ihr Name *",
+      "namePlaceholder": "z. B. Max Mustermann",
+      "emailLabel": "Geschäftliche E-Mail / NGO-E-Mail *",
+      "emailPlaceholder": "max@beispiel.de",
+      "orgLabel": "Name der Organisation",
+      "orgPlaceholder": "z. B. Rettet die Feuchtgebiete e.V.",
+      "typeLabel": "Art der Anfrage *",
+      "types": {
+        "sales": "Vertrieb & Produktdemo",
+        "general": "Allgemeine Anfrage",
+        "product": "Produkt- & technische Fragen",
+        "partnership": "Partnerschafts- & Agenturanfragen",
+        "support": "Weiterleitung an den Kundensupport"
+      },
+      "messageLabel": "Wie können wir Ihnen helfen? *",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrer Organisation, Ihrer aktuellen Fundraising-Software oder Ihren konkreten Fragen …",
+      "consentBefore": "Ich bin damit einverstanden, dass Donorfit meine übermittelten Kontaktdaten gemäß der",
+      "consentLink": "Datenschutzerklärung",
+      "consentAfter": "verarbeitet, um diese Anfrage zu beantworten. Wir geben Ihre Daten niemals weiter.",
+      "submit": "Anfrage senden"
+    },
+    "desksPanel": {
+      "title": "Direkte Ansprechpartner",
+      "general": "Allgemeine & Produktanfragen",
+      "sales": "Vertrieb & Demos für gemeinnützige Organisationen",
+      "security": "Sicherheits- & DSGVO-Anfragen",
+      "support": "Support",
+      "supportTextBefore": "Bestehende Organisationen erreichen ihren persönlichen Support über den Hilfe-Link in ihrem Verwaltungsbereich oder per E-Mail an",
+      "supportTextAfter": "."
+    },
+    "office": {
+      "title": "Europäischer Hauptsitz",
+      "country": "Deutschland",
+      "hours": "Bürozeiten: Mo.–Fr., 09:00–18:00 Uhr MEZ"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "eyebrow": "Preise",
+      "titleLead": "Mehr Spenden für Ihre Mission.",
+      "titleHighlight": "Weniger Gebühren.",
+      "intro": "Alles, was Ihre gemeinnützige Organisation braucht, um Spenden zu sammeln, Spender:innen zu verwalten und Fundraising zu vereinfachen – alles an einem Ort.",
+      "badges": ["0 % Plattformgebühr", "0 % Transaktionsgebühr"],
+      "startFree": "Kostenlos mit dem Fundraising starten"
+    },
+    "plan": {
+      "eyebrow": "Einfache, transparente Preise",
+      "title": "Umfassende Fundraising-Lösungen, die mit Organisationen jeder Größe mitwachsen.",
+      "badge": "Null Gebühren",
+      "name": "All-in-one-Fundraising-Plattform ohne Gebühren",
+      "perMonth": "/ Monat",
+      "cta": "Jetzt starten",
+      "noteCoverFee": "*Option, Spender:innen die Transaktionsgebühren übernehmen zu lassen, damit Ihre Organisation den vollen Betrag erhält.",
+      "noteExclusiveBefore": "*Für die exklusiven Funktionen",
+      "noteExclusiveLink": "kontaktieren Sie uns",
+      "noteExclusiveAfter": ".",
+      "includedTitle": "Alles inklusive",
+      "seeNote": "siehe Hinweis",
+      "features": [
+        "Keine Plattformgebühr",
+        "Keine Transaktionsgebühr",
+        "Zugriff auf grundlegende Berichte und Dashboards",
+        "Eingebettete Spendenformulare mit Anpassungsmöglichkeiten",
+        "Zahlreiche Zahlungsarten wie PayPal, Kreditkarte, Google Pay, Apple Pay, SEPA, Bancontact, EPS, iDEAL",
+        "Touchpoints für alle Ihre Kanäle erstellen",
+        "QR-Codes zum Aufrufen der Spendenbox erstellen",
+        "Grundlegende E-Mail-Funktionen für Systembenachrichtigungen (ein/aus)",
+        "Vordefinierte Vorlagen für die automatische Erstellung von Zuwendungsbestätigungen",
+        "Flexibles „Cover the Fee“-Modell",
+        "Zugriff auf API + Webhooks für Integrations-Workflows in Echtzeit",
+        "Möglichkeiten zum automatisierten Abgleich",
+        "Eigener E-Mail-Anbieter",
+        "Importfunktion",
+        "Eigenes Spenderportal",
+        "Mehrere Teamnutzer:innen",
+        "Support über internen Team-Chat",
+        "Integration mit Brevo und Mailchimp für Newsletter",
+        "Kommunikation per WhatsApp und SMS",
+        "5 Sprachen – 39 Währungen"
+      ]
+    },
+    "addons": {
+      "eyebrow": "Add-ons",
+      "title": "Erweitern Sie Ihre Plattform, wenn Sie wachsen.",
+      "intro": "Ergänzen Sie die kostenlose Plattform um spezialisierte Module, sobald Ihre Organisation sie benötigt. Add-ons werden separat erworben.",
+      "askPricing": "Preise für Add-ons anfragen",
+      "badge": "Add-on",
+      "items": {
+        "crm": { "name": "CRM", "description": "Zentrale Spenderdaten, Interaktionsverlauf und Segmentierung." },
+        "recurring": { "name": "Regelmäßige Spenden", "description": "Monatliche und jährliche Spenden mit automatisiertem Einzug." },
+        "sponsorship": { "name": "Sponsorship", "description": "Pat:innen, Begünstigte und Fortschrittsberichte verwalten." },
+        "membership": { "name": "Membership", "description": "Mitgliederregistrierung, Beitragseinzug und Verlängerungen." },
+        "school": { "name": "Schule", "description": "Fundraising und Gebühreneinzug für Schulprojekte." },
+        "qurbani": { "name": "Qurbani", "description": "Saisonale Qurbani-Spendenkampagnen und deren Zuteilung." }
+      }
+    },
+    "stats": {
+      "ariaLabel": "Donorfit in Zahlen",
+      "members": { "value": "1.000+", "label": "Aktive Mitglieder" },
+      "volume": { "value": "{{amount}}+", "label": "Transaktionsvolumen" },
+      "users": { "value": "1.000+", "label": "Aktive Nutzer:innen insgesamt" }
+    },
+    "billing": {
+      "eyebrow": "Starten Sie mit Donorfit",
+      "title": "Gewinnen Sie mehr Spender:innen und wachsen Sie.",
+      "items": {
+        "automatedBilling": "Automatisierte Abrechnung",
+        "paymentProcessing": "Einfache Zahlungsabwicklung",
+        "dunning": "Intelligentes Mahnwesen",
+        "invoicing": "Rechnungsstellung",
+        "subscriptions": "Abonnementverwaltung",
+        "recurringBilling": "Wiederkehrende Abrechnung",
+        "scalability": "Skalierbarkeit",
+        "compliance": "Globale Compliance"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Was ist Donorfit und welchen Nutzen hat es für uns?",
+          "a": "Donorfit ist eine Fundraising-Plattform, mit der gemeinnützige Organisationen Spenden sammeln, Spender:innen verwalten, Interaktionen nachverfolgen und ihre Ansprache personalisieren – damit Sie das Spendenaufkommen steigern und Unterstützer:innen länger binden."
+        },
+        {
+          "q": "Wie einfach lässt sich Donorfit einrichten und nutzen?",
+          "a": "Der Einstieg gelingt in drei Schritten: Projekteinstellungen konfigurieren, ein Zahlungs-Gateway verbinden und die Spendenbox auf Ihrer Website einbinden."
+        },
+        {
+          "q": "Welche Zahlungsarten stehen für Spenden in Donorfit zur Verfügung?",
+          "a": "Donorfit unterstützt über Zahlungs-Gateways wie Stripe, GoCardless, Mollie und PayPal mehr als 15 Zahlungsarten für Spenden."
+        },
+        {
+          "q": "Kann ich mit Donorfit internationale Spenden annehmen?",
+          "a": "Ja. Über dieselben Zahlungs-Gateways können Sie Zuwendungen in mehr als 135 Währungen annehmen."
+        }
+      ],
+      "moreBefore": "Weitere Fragen?",
+      "moreLink": "Zu allen FAQ",
+      "moreAfter": "."
+    },
+    "closing": {
+      "title": "Behalten Sie mehr von jeder Spende für Ihre Mission.",
+      "text": "Keine Plattformgebühr. Keine Transaktionsgebühr. Sammeln Sie noch heute Spenden.",
+      "contactSales": "Vertrieb kontaktieren"
+    }
+  },
+  "security": {
+    "hero": {
+      "eyebrow": "Vertrauen & Compliance",
+      "title": "Sicherheit, Privatsphäre und Datenschutz bei Donorfit",
+      "intro": "Gemeinnützige Organisationen schützen besonders verletzliche Gemeinschaften und gehen verantwortungsvoll mit großzügiger öffentlicher Unterstützung um. Wir verpflichten uns zu höchsten Standards bei Transparenz, Datenschutz und technischer Ausfallsicherheit.",
+      "badges": ["Souveränes Hosting in der EU", "Vollständiger AVV nach Art. 28 DSGVO", "Gateway-Architektur nach PCI-DSS Level 1"]
+    },
+    "pillars": {
+      "sovereignty": {
+        "title": "Europäische Datensouveränität",
+        "text": "Die gesamte zentrale Anwendungsinfrastruktur und alle relationalen Datenbanken werden ausschließlich innerhalb der Europäischen Union gehostet. Wir übermitteln Unterstützerdatenbanken gemeinnütziger Organisationen oder Akten von Begünstigten nicht ohne ausdrückliche Garantien für ein angemessenes Schutzniveau in Drittländer."
+      },
+      "access": {
+        "title": "Strenge Zugriffskontrollen",
+        "text": "Wir setzen auf strikte rollenbasierte Zugriffskontrolle (RBAC), Multi-Faktor-Authentifizierung (MFA) und verbindliche Sitzungs-Timeouts. Ihre Organisation legt genau fest, welche Mitarbeiter:innen, Ehrenamtlichen oder Prüfer:innen auf bestimmte Datensätze zugreifen dürfen."
+      },
+      "portability": {
+        "title": "Kein Lock-in & volle Portabilität",
+        "text": "Die Daten Ihrer Organisation gehören vollständig Ihnen. Gemäß Art. 20 DSGVO können Sie vollständige Spenderakten, Spendenhistorien und aktive SEPA-Lastschriftmandate jederzeit in offenen Standardformaten exportieren."
+      }
+    },
+    "architecture": {
+      "eyebrow": "Technische Absicherung",
+      "title": "Unsere Sicherheitsarchitektur & Schutzmaßnahmen der Infrastruktur",
+      "intro": "Wir verfolgen über den gesamten Anwendungslebenszyklus einen mehrschichtigen Sicherheitsansatz (Defense in Depth), um die Arbeit gemeinnütziger Organisationen vor unbefugtem Zugriff, Störungen und Datenverlust zu schützen.",
+      "encryption": {
+        "title": "Verschlüsselung bei Übertragung & Speicherung",
+        "text": "Alle Daten, die zwischen Browsern, Mobilgeräten und Donorfit-Servern übertragen werden, sind durch Transport Layer Security (TLS 1.3) geschützt. Sensible Datenbanken und Backup-Snapshots werden mit Schlüsseln nach dem AES-256-Standard verschlüsselt."
+      },
+      "payments": {
+        "title": "Sicherheit im Zahlungs- & Bankverkehr",
+        "text": "Spenden und regelmäßige Spendenzusagen werden über PCI-DSS-zertifizierte europäische Zahlungsdienstleister abgewickelt. Lastschriften folgen den Regeln des europäischen EPC-Verfahrens für SEPA-Lastschriften, mit validierten IBAN-Prüfsummen und kryptografisch sicheren Mandatsreferenzen."
+      },
+      "redundancy": {
+        "title": "Redundanz & automatisierte Backups",
+        "text": "Der Anwendungszustand wird kontinuierlich gesichert – mit Point-in-Time-Recovery über isolierte Verfügbarkeitszonen in der EU. Notfallwiederherstellungspläne und Simulationen zur Datenwiederherstellung werden regelmäßig durchgeführt."
+      },
+      "safeguarding": {
+        "title": "Schutz von Kindern & Begünstigten",
+        "text": "Bei Waisen- und Kinderpatenschaften werden sensible Standortangaben und Familienidentitäten durch strikte Rollengrenzen abgeschirmt. Öffentlich sichtbare Profile erfordern dokumentierte ausdrückliche Einwilligungen und eine automatisierte Schwärzung identifizierender Merkmale."
+      }
+    },
+    "gdpr": {
+      "eyebrow": "Rechtliche Compliance",
+      "title": "DSGVO-Rechte & Rollenverteilung als Verantwortlicher",
+      "intro": "Nach europäischem Datenschutzrecht (Verordnung (EU) 2016/679) ist Ihre gemeinnützige Organisation der Verantwortliche und Donorfit der Auftragsverarbeiter. Wir stellen Ihnen die technischen Werkzeuge bereit, die Sie benötigen, um alle gesetzlichen Betroffenenrechte zu erfüllen.",
+      "rights": [
+        { "title": "Auskunftsrecht (Art. 15)", "text": "Umfassende Datenauskünfte zu Spender:innen mit einem Klick erstellen." },
+        { "title": "Recht auf Löschung (Art. 17)", "text": "Werkzeuge zur endgültigen Löschung unter Wahrung gesetzlicher steuerlicher Aufbewahrungspflichten." },
+        { "title": "Datenübertragbarkeit (Art. 20)", "text": "Saubere, strukturierte CSV- und JSON-Pakete exportieren – ohne Anbieterbindung." },
+        { "title": "Einwilligungsnachweise (Art. 7)", "text": "Unveränderliche, mit Zeitstempel versehene Nachweise über Einwilligungen in Kommunikation und Marketing." }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Volle Transparenz",
+      "title": "Fragen zu Sicherheit & Vertrauen",
+      "items": [
+        {
+          "question": "Wo werden die Daten der Donorfit-Plattform physisch gehostet?",
+          "answer": "Alle Produktionsdatenbanken, Anwendungsserver und Backups werden innerhalb der Europäischen Union (Deutschland und Irland) in Rechenzentren gehostet, die ISO/IEC 27001, SOC 2 Type II und PCI-DSS erfüllen. Wir wahren konsequent die Datensouveränität in der EU."
+        },
+        {
+          "question": "Speichert Donorfit Kreditkartennummern oder Bankpasswörter von Spender:innen?",
+          "answer": "Nein. Donorfit speichert niemals unverschlüsselte Kreditkartennummern oder sensible Zahlungs-Authentifizierungsdaten auf unseren Anwendungsservern. Die gesamte Zahlungsabwicklung erfolgt tokenisiert über zertifizierte Zahlungs-Gateways nach PCI-DSS Level 1 (etwa Stripe sowie europäische Lastschriftverfahren der Banken)."
+        },
+        {
+          "question": "Wie handhaben Sie Auftragsverarbeitungsverträge (AVV)?",
+          "answer": "Jede gemeinnützige Organisation, die Donorfit nutzt, schließt einen rechtsverbindlichen Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO ab, in dem standardisierte technische und organisatorische Maßnahmen (TOM) klar festgelegt sind."
+        },
+        {
+          "question": "Wie schützen Sie sensible Daten von Kindern und Begünstigten in Patenschaftsprogrammen?",
+          "answer": "Die Patenschaftsmodule setzen eine strikte rollenbasierte Zugriffskontrolle (RBAC) durch. Fallbetreuer:innen vor Ort, Länderdirektor:innen und Finanzteams haben klar getrennte Berechtigungen. Sensible Datensätze wie medizinische Notizen oder genaue Aufenthaltsorte von Erziehungsberechtigten können so eingeschränkt werden, dass nur autorisierte Kinderschutzbeauftragte sie einsehen können."
+        },
+        {
+          "question": "Wie sieht Ihr Verfahren zur Reaktion auf Sicherheitsvorfälle aus?",
+          "answer": "Im unwahrscheinlichen Fall einer Verletzung der Sicherheit oder des Schutzes personenbezogener Daten sieht unser Incident-Response-Plan vor, die betroffenen Verantwortlichen innerhalb von 24 bis 72 Stunden in strikter Übereinstimmung mit den gesetzlichen Vorgaben der DSGVO zu benachrichtigen und sofortige Eindämmungsmaßnahmen zu ergreifen."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Sicherheitsanfragen & Meldung von Schwachstellen",
+      "text": "Wenn Ihr Sicherheits- oder Compliance-Team einen individuellen Sicherheitsfragebogen oder eine Prüfung des AVV benötigt oder eine mögliche Schwachstelle melden möchte, wenden Sie sich direkt an unser Sicherheitsteam:",
+      "pgp": "PGP-Schlüssel auf Anfrage erhältlich",
+      "button": "Compliance-Team kontaktieren"
+    }
+  },
+  "partners": {
+    "hero": {
+      "eyebrow": "Donorfit-Partnernetzwerk",
+      "title": "Gemeinsam den gemeinnützigen Sektor stärken",
+      "intro": "Wir arbeiten mit Digitalagenturen, Fundraising-Berater:innen und Integrationsspezialist:innen zusammen, die unser Engagement für gemeinnützige Wirkung, europäische Datensouveränität und ethisches Fundraising teilen."
+    },
+    "perksLabel": "Partnervorteile:",
+    "types": [
+      {
+        "title": "Digitalagenturen für gemeinnützige Organisationen",
+        "description": "Webagenturen und Digitalstrateg:innen, die individuelle Spendenseiten und Kampagnenarchitekturen für gemeinnützige Organisationen in ganz Europa umsetzen.",
+        "benefits": ["Eigene Sandbox-Umgebungen", "Direkter technischer Eskalationskanal", "Gemeinsame Marketingmöglichkeiten mit Partnern"]
+      },
+      {
+        "title": "Fundraising-Berater:innen",
+        "description": "Unabhängige Fundraising-Berater:innen, die NGOs bei der Optimierung von Strategien für regelmäßiges Spenden, Mailing-Kampagnen und Programmen zur Spenderbetreuung unterstützen.",
+        "benefits": ["Umfassende Plattform-Zertifizierungen", "Vorteile bei Kundenempfehlungen", "Toolkits für Strategie & Kohortenbindung"]
+      },
+      {
+        "title": "Technologie- & CRM-Integratoren",
+        "description": "Spezialist:innen, die Donorfit mit Buchhaltungssystemen für Unternehmen (DATEV, SAP), CRM-Plattformen (Salesforce Non-Profit Cloud) und Marketing-Automatisierung verbinden.",
+        "benefits": ["Offener Zugang zu REST-API und Webhooks", "Unterstützung individueller Datenschemata", "Beirat für gemeinsame Entwicklung"]
+      }
+    ],
+    "integrations": {
+      "eyebrow": "Geprüfte Integrationen",
+      "title": "Nahtlos verbunden mit den Tools, auf die Sie bereits setzen.",
+      "intro": "Donorfit unterstützt bidirektionale Integrationen und Exportformate für führende Buchhaltungs-, CRM- und Marketingplattformen im gemeinnützigen Sektor.",
+      "items": [
+        "SEPA-Lastschrift (EPC)",
+        "Stripe & Apple Pay",
+        "PayPal für gemeinnützige Organisationen",
+        "DATEV-Buchhaltung",
+        "Mailchimp & Brevo",
+        "Salesforce Nonprofit Cloud",
+        "Zapier & Webhooks"
+      ]
+    },
+    "cta": {
+      "title": "Werden Sie Teil des Donorfit-Partnernetzwerks",
+      "text": "Helfen Sie Ihren gemeinnützigen Kund:innen beim Umstieg von manuellen Tabellen und veralteter Software auf moderne, vernetzte Fundraising-Technologie.",
+      "button": "Partnerschaft anfragen"
+    }
+  },
+  "notFound": {
+    "code": "Fehler 404",
+    "title": "Seite nicht gefunden",
+    "text": "Die angeforderte Seite oder Fundraising-Ressource konnte nicht gefunden werden. Möglicherweise wurde sie im Zuge der Neugestaltung unserer Website verschoben oder aktualisiert.",
+    "home": "Zurück zur Startseite",
+    "sponsorship": "Sponsorship entdecken",
+    "faqs": "FAQ durchsuchen",
+    "helpBefore": "Sie suchen eine bestimmte Lösung? Sehen Sie sich unsere",
+    "helpLink1": "Lösungen für NGOs",
+    "helpMiddle": "an oder",
+    "helpLink2": "kontaktieren Sie unser Support-Team",
+    "helpAfter": "."
+  }
+}

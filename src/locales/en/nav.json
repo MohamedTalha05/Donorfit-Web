@@ -1,0 +1,31 @@
+{
+  "homeAria": "Donorfit — go to homepage",
+  "mainNav": "Main",
+  "mobileNav": "Mobile",
+  "products": "Products",
+  "integrations": "Integrations",
+  "resources": "Resources",
+  "pricing": "Pricing",
+  "pricingSoon": "Pricing page coming soon",
+  "soon": "Soon",
+  "comingSoon": "Coming soon",
+  "notSure": "Not sure which product fits your organisation?",
+  "bookDemoLink": "Book a demo",
+  "login": "Log In",
+  "signup": "Sign Up",
+  "openMenu": "Open navigation menu",
+  "closeMenu": "Close navigation menu",
+  "language": "Language",
+  "languages": {
+    "en": { "name": "English", "short": "EN" },
+    "de": { "name": "Deutsch", "short": "DE" }
+  },
+  "currentLanguage": "{{name}} (current)",
+  "switchTo": "Switch to {{name}}",
+  "resourceItems": {
+    "blog": { "label": "Blog", "description": "Fundraising guides & retention strategies" },
+    "videos": { "label": "Videos", "description": "Walkthroughs and product tutorials" },
+    "docs": { "label": "Product Documentation", "description": "Setup guides and feature reference" }
+  },
+  "skipToContent": "Skip to main content"
+}

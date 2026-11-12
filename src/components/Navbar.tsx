@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useId } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import BrandLogo from './BrandLogo.tsx';
 import { APP_LOGIN_URL, APP_SIGNUP_URL } from '../data/links.ts';
+import { useT, useTx, type Lang } from '../i18n/index.tsx';
 import {
   ChevronDown,
   Menu,
@@ -34,20 +35,21 @@ interface NavItem {
   href: string | null;
 }
 
-const PRODUCT_ITEMS: NavItem[] = [
-  { label: 'Qurbani', description: 'Seasonal Qurbani & Udhiyah giving campaigns', icon: Moon, href: null },
-  { label: 'Membership', description: 'Automated annual dues and member rolls', icon: IdCard, href: '/membership' },
-  { label: 'Sponsorship', description: 'Manage sponsors, beneficiaries & milestones', icon: HeartHandshake, href: '/sponsorship' },
-  { label: 'Money Pool', description: 'Group giving and collective fundraising', icon: PiggyBank, href: '/money-pool' },
-  { label: 'Water Well', description: 'Fund and report on water well projects', icon: Droplets, href: null },
-  { label: 'School', description: 'Education and school project fundraising', icon: GraduationCap, href: null },
-];
+/** The six Donorfit products (labels/descriptions come from the 'common' and 'products' namespaces). */
+const PRODUCT_NAV = [
+  { slug: 'membership', icon: IdCard, href: '/membership' },
+  { slug: 'sponsorship', icon: HeartHandshake, href: '/sponsorship' },
+  { slug: 'water-well', icon: Droplets, href: '/water-well' },
+  { slug: 'qurbani', icon: Moon, href: '/qurbani' },
+  { slug: 'school-management', icon: GraduationCap, href: '/school-management' },
+  { slug: 'money-pool', icon: PiggyBank, href: '/money-pool' },
+] as const;
 
-const RESOURCE_ITEMS: NavItem[] = [
-  { label: 'Blog', description: 'Fundraising guides & retention strategies', icon: Newspaper, href: '/blog' },
-  { label: 'Videos', description: 'Walkthroughs and product tutorials', icon: CirclePlay, href: null },
-  { label: 'Product Documentation', description: 'Setup guides and feature reference', icon: BookOpenText, href: null },
-];
+const RESOURCE_NAV = [
+  { key: 'blog', icon: Newspaper, href: '/blog' },
+  { key: 'videos', icon: CirclePlay, href: null },
+  { key: 'docs', icon: BookOpenText, href: null },
+] as const;
 
 /** Integrations content currently lives in a section of the Partners page. */
 const INTEGRATIONS = { path: '/partners', sectionId: 'integrations' };
@@ -61,15 +63,17 @@ type MenuId = 'products' | 'resources';
 
 /* ------------------------------------------------------------------ */
 
-function FlagUS({ className = '' }: { className?: string }) {
+function FlagGB({ className = '' }: { className?: string }) {
   return (
-    <svg viewBox="0 0 19 10" className={className} aria-hidden="true" preserveAspectRatio="none">
-      <rect width="19" height="10" fill="#B22234" />
-      {[1, 3, 5, 7, 9].map((i) => (
-        <rect key={i} y={(i * 10) / 13} width="19" height={10 / 13} fill="#fff" />
-      ))}
-      <rect y={(11 * 10) / 13} width="19" height={10 / 13} fill="#fff" />
-      <rect width="7.6" height={(7 * 10) / 13} fill="#3C3B6E" />
+    <svg viewBox="0 0 60 30" className={className} aria-hidden="true" preserveAspectRatio="none">
+      <clipPath id="gb-flag-clip">
+        <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+      </clipPath>
+      <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+      <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6" />
+      <path d="M0,0 L60,30 M60,0 L0,30" clipPath="url(#gb-flag-clip)" stroke="#C8102E" strokeWidth="4" />
+      <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10" />
+      <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" strokeWidth="6" />
     </svg>
   );
 }
@@ -85,12 +89,15 @@ function FlagDE({ className = '' }: { className?: string }) {
 }
 
 function SoonBadge() {
+  const t = useT('nav');
   return (
     <span className="ml-1.5 inline-flex items-center rounded-full bg-neutral-100 px-1.5 py-px text-[11px] leading-4 font-semibold uppercase tracking-wide text-neutral-600 ring-1 ring-neutral-200">
-      Soon
+      {t('soon')}
     </span>
   );
 }
+
+const FLAGS: Record<Lang, (p: { className?: string }) => React.JSX.Element> = { en: FlagGB, de: FlagDE };
 
 const focusRing =
   'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600';
@@ -103,7 +110,23 @@ function isPlainLeftClick(e: React.MouseEvent) {
 /* ------------------------------------------------------------------ */
 
 export default function Navbar() {
-  const { openBookDemo, navigateTo, currentRoute } = useModal();
+  const { openBookDemo, navigateTo, currentRoute, lang, setLang, localize } = useModal();
+  const t = useT('nav');
+  const tc = useT('common');
+  const tp = useTx('products');
+
+  const PRODUCT_ITEMS: NavItem[] = PRODUCT_NAV.map((p) => ({
+    label: tc(`products.${p.slug}`),
+    description: tp<string>(`pages.${p.slug}.navDescription`) ?? '',
+    icon: p.icon,
+    href: p.href,
+  }));
+  const RESOURCE_ITEMS: NavItem[] = RESOURCE_NAV.map((r) => ({
+    label: t(`resourceItems.${r.key}.label`),
+    description: t(`resourceItems.${r.key}.description`),
+    icon: r.icon,
+    href: r.href,
+  }));
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSection, setMobileSection] = useState<MenuId | null>(null);
   const [openMenu, setOpenMenu] = useState<MenuId | null>(null);
@@ -264,7 +287,7 @@ export default function Navbar() {
 
     if (!item.href) {
       return (
-        <span className={`${base} cursor-default`} aria-disabled="true" title="Coming soon">
+        <span className={`${base} cursor-default`} aria-disabled="true" title={t('comingSoon')}>
           {inner}
         </span>
       );
@@ -272,7 +295,7 @@ export default function Navbar() {
     const href = item.href;
     return (
       <a
-        href={href}
+        href={localize(href)}
         aria-current={active ? 'page' : undefined}
         onClick={(e) => {
           if (!isPlainLeftClick(e)) return;
@@ -287,9 +310,9 @@ export default function Navbar() {
   };
 
   const triggerClass = (id: MenuId, active: boolean) =>
-    `flex items-center gap-1 rounded-lg px-3 py-2 whitespace-nowrap transition-colors cursor-pointer hover:bg-neutral-100/70 hover:text-neutral-950 ${focusRing} ${
-      openMenu === id || active ? 'text-neutral-950' : ''
-    } ${openMenu === id ? 'bg-neutral-100/70' : ''}`;
+    `flex items-center gap-1 rounded-lg px-3 py-2 whitespace-nowrap transition-colors cursor-pointer hover:bg-brand-50 hover:text-brand-700 ${focusRing} ${
+      openMenu === id || active ? 'text-brand-700' : ''
+    } ${openMenu === id ? 'bg-brand-50' : ''}`;
 
   const panelClass = (id: MenuId) =>
     `absolute left-0 top-full z-40 pt-2.5 origin-top transition duration-200 ease-out motion-reduce:transition-none ${
@@ -341,19 +364,19 @@ export default function Navbar() {
   /* ---------- render ---------- */
 
   return (
-    <header className="sticky top-0 z-30 w-full border-b border-neutral-200/80 bg-white/85 shadow-xs backdrop-blur-xl transition-all">
+    <header className="sticky top-0 z-30 w-full border-b border-neutral-200/80 bg-white/85 shadow-xs backdrop-blur-xl transition-[background-color,box-shadow,border-color]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between gap-4 lg:gap-8">
           {/* Logo */}
           <a
-            href="/"
+            href={localize('/')}
             onClick={(e) => {
               if (!isPlainLeftClick(e)) return;
               e.preventDefault();
               go('/');
             }}
             className={`flex shrink-0 items-center rounded-lg transition-opacity hover:opacity-90 ${focusRing}`}
-            aria-label="Donorfit — go to homepage"
+            aria-label={t('homeAria')}
           >
             <BrandLogo priority className="h-8 sm:h-9 lg:h-10" alt="Donorfit" />
           </a>
@@ -361,12 +384,12 @@ export default function Navbar() {
           {/* Desktop navigation */}
           <nav
             ref={navRef}
-            aria-label="Main"
-            className="hidden items-center gap-1 text-sm font-medium text-neutral-700 lg:flex xl:gap-2"
+            aria-label={t('mainNav')}
+            className="hidden items-center gap-1 text-sm font-medium text-navy-950 lg:flex xl:gap-2"
           >
             {renderDesktopDropdown(
               'products',
-              'Products',
+              t('products'),
               PRODUCT_ITEMS,
               <div className="w-[34rem] overflow-hidden rounded-2xl border border-neutral-200/90 bg-white shadow-xl shadow-neutral-900/10 ring-1 ring-black/[0.02]">
                 <ul className="grid grid-cols-2 gap-1 p-3">
@@ -375,7 +398,7 @@ export default function Navbar() {
                   ))}
                 </ul>
                 <div className="flex items-center justify-between gap-4 border-t border-neutral-100 bg-neutral-50/80 px-5 py-3 text-xs">
-                  <span className="text-neutral-500">Not sure which product fits your organisation?</span>
+                  <span className="text-neutral-500">{t('notSure')}</span>
                   <button
                     type="button"
                     onClick={() => {
@@ -384,30 +407,30 @@ export default function Navbar() {
                     }}
                     className={`inline-flex shrink-0 cursor-pointer items-center gap-1 rounded-md font-semibold text-emerald-700 hover:text-emerald-800 ${focusRing}`}
                   >
-                    Book a demo <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                    {t('bookDemoLink')} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                   </button>
                 </div>
               </div>,
             )}
 
             <a
-              href={INTEGRATIONS.path}
+              href={localize(INTEGRATIONS.path)}
               onClick={(e) => {
                 if (!isPlainLeftClick(e)) return;
                 e.preventDefault();
                 go(INTEGRATIONS.path, INTEGRATIONS.sectionId);
               }}
               aria-current={currentRoute === INTEGRATIONS.path ? 'page' : undefined}
-              className={`rounded-lg px-3 py-2 whitespace-nowrap transition-colors hover:bg-neutral-100/70 hover:text-neutral-950 ${focusRing} ${
+              className={`rounded-lg px-3 py-2 whitespace-nowrap transition-colors hover:bg-brand-50 hover:text-brand-700 ${focusRing} ${
                 currentRoute === INTEGRATIONS.path ? 'text-neutral-950' : ''
               }`}
             >
-              Integrations
+              {t('integrations')}
             </a>
 
             {renderDesktopDropdown(
               'resources',
-              'Resources',
+              t('resources'),
               RESOURCE_ITEMS,
               <div className="w-80 rounded-2xl border border-neutral-200/90 bg-white p-2.5 shadow-xl shadow-neutral-900/10 ring-1 ring-black/[0.02]">
                 <ul className="space-y-0.5">
@@ -420,47 +443,51 @@ export default function Navbar() {
 
             {PRICING_HREF ? (
               <a
-                href={PRICING_HREF}
+                href={localize(PRICING_HREF)}
                 onClick={(e) => {
                   if (!isPlainLeftClick(e)) return;
                   e.preventDefault();
                   go(PRICING_HREF);
                 }}
-                className={`rounded-lg px-3 py-2 whitespace-nowrap transition-colors hover:bg-neutral-100/70 hover:text-neutral-950 ${focusRing}`}
+                className={`rounded-lg px-3 py-2 whitespace-nowrap transition-colors hover:bg-brand-50 hover:text-brand-700 ${focusRing}`}
               >
-                Pricing
+                {t('pricing')}
               </a>
             ) : (
               <span
                 className="flex cursor-default items-center rounded-lg px-3 py-2 whitespace-nowrap text-neutral-400"
                 aria-disabled="true"
-                title="Pricing page coming soon"
+                title={t('pricingSoon')}
               >
-                Pricing
+                {t('pricing')}
                 <SoonBadge />
               </span>
             )}
 
             {/* Language selector */}
-            <div role="group" aria-label="Language" className="ml-1 flex items-center gap-1 border-l border-neutral-200 pl-3">
-              <button
-                type="button"
-                aria-pressed="true"
-                aria-label="English (current)"
-                title="English"
-                className={`rounded-md p-1.5 ring-1 ring-emerald-600/40 bg-emerald-50 ${focusRing}`}
-              >
-                <FlagUS className="block h-3.5 w-5 rounded-[2px] shadow-[0_0_0_0.5px_rgba(0,0,0,0.15)]" />
-              </button>
-              <button
-                type="button"
-                disabled
-                aria-label="Deutsch (coming soon)"
-                title="Deutsche Version folgt in Kürze"
-                className="cursor-not-allowed rounded-md p-1.5 opacity-50 grayscale-[30%]"
-              >
-                <FlagDE className="block h-3.5 w-5 rounded-[2px] shadow-[0_0_0_0.5px_rgba(0,0,0,0.15)]" />
-              </button>
+            <div role="group" aria-label={t('language')} className="ml-1 flex items-center gap-1 border-l border-neutral-200 pl-3">
+              {(['en', 'de'] as const).map((l) => {
+                const Flag = FLAGS[l];
+                const on = lang === l;
+                const name = t(`languages.${l}.name`);
+                return (
+                  <button
+                    key={l}
+                    type="button"
+                    lang={l}
+                    aria-pressed={on}
+                    aria-label={on ? t('currentLanguage', { name }) : t('switchTo', { name })}
+                    title={name}
+                    onClick={() => setLang(l)}
+                    className={`inline-flex cursor-pointer items-center gap-1.5 rounded-md px-1.5 py-1 text-xs font-bold transition-colors ${
+                      on ? 'bg-emerald-50 text-emerald-800 ring-1 ring-emerald-600/40' : 'text-neutral-500 hover:bg-neutral-100 hover:text-navy-950'
+                    } ${focusRing}`}
+                  >
+                    <Flag className="block h-3.5 w-5 rounded-[2px] shadow-[0_0_0_0.5px_rgba(0,0,0,0.15)]" />
+                    {t(`languages.${l}.short`)}
+                  </button>
+                );
+              })}
             </div>
           </nav>
 
@@ -468,15 +495,15 @@ export default function Navbar() {
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             <a
               href={LOGIN_URL}
-              className={`hidden rounded-full px-4 py-2 text-sm font-semibold text-neutral-800 transition-colors hover:bg-neutral-100 hover:text-neutral-950 lg:inline-flex ${focusRing}`}
+              className={`hidden rounded-full px-4 py-2 text-sm font-semibold text-navy-950 transition-colors hover:bg-brand-50 hover:text-brand-700 lg:inline-flex ${focusRing}`}
             >
-              Log In
+              {t('login')}
             </a>
             <a
               href={SIGNUP_URL}
               className={`btn-gradient hidden rounded-full px-5 py-2.5 text-sm font-semibold whitespace-nowrap sm:inline-flex ${focusRing}`}
             >
-              Sign Up
+              {t('signup')}
             </a>
 
             {/* Mobile / tablet menu trigger */}
@@ -485,7 +512,7 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen((v) => !v)}
               aria-expanded={mobileMenuOpen}
               aria-controls={`${uid}-mobile`}
-              aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-label={mobileMenuOpen ? t('closeMenu') : t('openMenu')}
               className={`cursor-pointer rounded-lg p-2 text-neutral-700 hover:bg-neutral-100 hover:text-neutral-900 lg:hidden ${focusRing}`}
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -502,11 +529,11 @@ export default function Navbar() {
         }`}
       >
         <div className="overflow-hidden">
-          <nav aria-label="Mobile" className="max-h-[calc(100dvh-4.5rem)] space-y-1 overflow-y-auto px-4 pt-2 pb-6 sm:px-6">
+          <nav aria-label={t('mobileNav')} className="max-h-[calc(100dvh-4.5rem)] space-y-1 overflow-y-auto px-4 pt-2 pb-6 sm:px-6">
             {(
               [
-                ['products', 'Products', PRODUCT_ITEMS],
-                ['resources', 'Resources', RESOURCE_ITEMS],
+                ['products', t('products'), PRODUCT_ITEMS],
+                ['resources', t('resources'), RESOURCE_ITEMS],
               ] as const
             ).map(([id, label, items]) => {
               const expanded = mobileSection === id;
@@ -542,7 +569,7 @@ export default function Navbar() {
             })}
 
             <a
-              href={INTEGRATIONS.path}
+              href={localize(INTEGRATIONS.path)}
               onClick={(e) => {
                 if (!isPlainLeftClick(e)) return;
                 e.preventDefault();
@@ -550,12 +577,12 @@ export default function Navbar() {
               }}
               className={`block rounded-lg border-b border-neutral-100 px-3 py-3 text-base font-semibold text-neutral-900 hover:bg-neutral-50 ${focusRing}`}
             >
-              Integrations
+              {t('integrations')}
             </a>
 
             {PRICING_HREF ? (
               <a
-                href={PRICING_HREF}
+                href={localize(PRICING_HREF)}
                 onClick={(e) => {
                   if (!isPlainLeftClick(e)) return;
                   e.preventDefault();
@@ -563,35 +590,37 @@ export default function Navbar() {
                 }}
                 className={`block rounded-lg border-b border-neutral-100 px-3 py-3 text-base font-semibold text-neutral-900 hover:bg-neutral-50 ${focusRing}`}
               >
-                Pricing
+                {t('pricing')}
               </a>
             ) : (
               <span
                 aria-disabled="true"
                 className="flex items-center border-b border-neutral-100 px-3 py-3 text-base font-semibold text-neutral-400"
               >
-                Pricing <SoonBadge />
+                {t('pricing')} <SoonBadge />
               </span>
             )}
 
-            <div role="group" aria-label="Language" className="flex items-center gap-2 px-3 py-3">
-              <span className="mr-1 text-xs font-semibold uppercase tracking-wider text-neutral-400">Language</span>
-              <button
-                type="button"
-                aria-pressed="true"
-                className={`inline-flex items-center gap-2 rounded-lg bg-emerald-50 px-2.5 py-1.5 text-sm font-medium text-neutral-900 ring-1 ring-emerald-600/40 ${focusRing}`}
-              >
-                <FlagUS className="block h-3.5 w-5 rounded-[2px]" /> English
-              </button>
-              <button
-                type="button"
-                disabled
-                title="Deutsche Version folgt in Kürze"
-                className="inline-flex cursor-not-allowed items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm font-medium text-neutral-400 opacity-70"
-              >
-                <FlagDE className="block h-3.5 w-5 rounded-[2px]" /> Deutsch
-                <SoonBadge />
-              </button>
+            <div role="group" aria-label={t('language')} className="flex flex-wrap items-center gap-2 px-3 py-3">
+              <span className="mr-1 text-xs font-semibold uppercase tracking-wider text-neutral-500">{t('language')}</span>
+              {(['en', 'de'] as const).map((l) => {
+                const Flag = FLAGS[l];
+                const on = lang === l;
+                return (
+                  <button
+                    key={l}
+                    type="button"
+                    lang={l}
+                    aria-pressed={on}
+                    onClick={() => setLang(l)}
+                    className={`inline-flex cursor-pointer items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors ${
+                      on ? 'bg-emerald-50 text-neutral-900 ring-1 ring-emerald-600/40' : 'text-neutral-600 hover:bg-neutral-50'
+                    } ${focusRing}`}
+                  >
+                    <Flag className="block h-3.5 w-5 rounded-[2px]" /> {t(`languages.${l}.name`)} ({t(`languages.${l}.short`)})
+                  </button>
+                );
+              })}
             </div>
 
             <div className="flex flex-col gap-2 pt-3 sm:flex-row">
@@ -599,13 +628,13 @@ export default function Navbar() {
                 href={LOGIN_URL}
                 className={`w-full rounded-full border border-neutral-300 py-2.5 text-center text-sm font-semibold text-neutral-800 transition-colors hover:bg-neutral-50 ${focusRing}`}
               >
-                Log In
+                {t('login')}
               </a>
               <a
                 href={SIGNUP_URL}
                 className={`btn-gradient w-full rounded-full py-2.5 text-center text-sm font-semibold ${focusRing}`}
               >
-                Sign Up
+                {t('signup')}
               </a>
             </div>
           </nav>

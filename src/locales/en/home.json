@@ -1,0 +1,340 @@
+{
+  "hero": {
+    "badge": "Fundraising technology built for nonprofits",
+    "titleLine1": "Raise more for your mission.",
+    "titleLine2": "Spend less time on admin.",
+    "description": "Donation forms, recurring giving, campaigns and donor management in one connected platform — built for NGOs, charitable trusts, masjids and nonprofits.",
+    "trust": {
+      "euHosted": "Hosted in the EU, GDPR-compliant",
+      "taxReceipts": "Automated tax receipts",
+      "exportData": "Export your data anytime"
+    }
+  },
+  "overview": {
+    "srTitle": "Product overview",
+    "highlights": [
+      { "title": "Every gift, one view", "text": "Donations, recurring plans and campaigns update in a single dashboard." },
+      { "title": "Receipts on autopilot", "text": "Compliant donation receipts are generated and sent for you." },
+      { "title": "Reports in a click", "text": "Share clear numbers with trustees, boards and auditors." }
+    ]
+  },
+  "trusted": {
+    "verifiedTitle": "Trusted by organisations doing vital work",
+    "fallbackTitle": "Built for organisations that serve their communities",
+    "segments": [
+      "NGOs",
+      "Charities",
+      "Charitable trusts & foundations",
+      "Masjids",
+      "Sponsorship programmes",
+      "Membership associations"
+    ]
+  },
+  "platform": {
+    "eyebrow": "Platform",
+    "titleBefore": "Everything you need to fundraise,",
+    "titleHighlight": "in one place",
+    "description": "Stop stitching together forms, spreadsheets and payment tools. Donorfit connects every part of your fundraising.",
+    "features": [
+      { "title": "Online donations", "description": "Branded donation forms and campaign pages that work beautifully on every device." },
+      { "title": "Recurring giving", "description": "Monthly and annual giving with SEPA mandates, automatic retries and donor self-service." },
+      { "title": "Campaigns & appeals", "description": "Goal-based appeals with live progress, milestones, QR codes and matched giving." },
+      { "title": "Donor management", "description": "One profile per supporter with full giving history, consent records and notes." },
+      { "title": "Sponsorship", "description": "Manage sponsors, beneficiaries and progress updates with role-based safeguarding." },
+      { "title": "Reporting & insights", "description": "Retention, campaign and fund reports ready for your board, trustees and auditors." }
+    ],
+    "alsoAvailable": {
+      "before": "Also available:",
+      "and": "and",
+      "after": "for group fundraising."
+    }
+  },
+  "forms": {
+    "eyebrow": "Online donations",
+    "title": "Donation forms that donors actually finish",
+    "description": "A clear two-step checkout with your branding, the payment methods your supporters prefer and receipts sent automatically.",
+    "features": [
+      { "title": "Your brand", "text": "Match your colours, fonts and imagery." },
+      { "title": "Embed anywhere", "text": "WordPress, Webflow, Squarespace or custom sites." },
+      { "title": "Donors cover fees", "text": "Optional fee cover so you receive the full gift." },
+      { "title": "Instant receipts", "text": "Country-specific tax receipts, sent automatically." }
+    ],
+    "link": "Explore online donations"
+  },
+  "recurring": {
+    "eyebrow": "Recurring giving",
+    "title": "Predictable income, without chasing payments",
+    "description": "Turn one-off supporters into monthly donors and let Donorfit handle the collections, retries and changes.",
+    "points": [
+      { "bold": "SEPA mandates handled for you", "after": " — including pre-notifications and bank file exports." },
+      { "bold": "Failed payments retried automatically", "after": ", with card details refreshed when cards are replaced." },
+      { "bold": "Donor self-service", "after": " — supporters update bank details, change amounts or pause instead of cancelling." },
+      { "bold": "Upgrade prompts", "after": " that invite loyal donors to increase their gift." }
+    ],
+    "link": "Explore recurring giving"
+  },
+  "campaigns": {
+    "eyebrow": "Campaigns",
+    "title": "Appeals that build momentum",
+    "description": "Launch a campaign page in minutes, show live progress toward your goal and give supporters a reason to share.",
+    "link": "Explore campaigns",
+    "examples": [
+      { "title": "Ramadan Food Packs", "tag": "Seasonal appeal" },
+      { "title": "Emergency Winter Appeal", "tag": "Emergency" },
+      { "title": "Build a Classroom", "tag": "Project fund" }
+    ],
+    "stats": {
+      "funded": "funded",
+      "supporters": "supporters",
+      "daysLeft": "days left"
+    },
+    "progressLabel": "{{title}} progress",
+    "sampleBadge": "Example campaigns · sample data",
+    "features": [
+      "Goals & live progress bars",
+      "Automatic milestone emails",
+      "Matched giving from sponsors",
+      "Tracking links & QR codes"
+    ]
+  },
+  "payments": {
+    "eyebrow": "Payments",
+    "title": "Every way your supporters want to give",
+    "description": "Accept bank payments, cards and wallets through trusted gateways, with funds paid directly to your organisation’s bank account.",
+    "points": [
+      "No Donorfit platform fee or transaction fee on the core platform.",
+      "Donors can choose to cover processing fees.",
+      "Multi-currency checkout in EUR, GBP, USD, CHF and more."
+    ],
+    "gatewaysLabel": "Payment gateways:",
+    "link": "See pricing",
+    "groups": [
+      { "title": "Bank payments", "items": ["SEPA Direct Debit", "iDEAL", "Bancontact", "Sofort / Klarna"] },
+      { "title": "Cards", "items": ["Visa", "Mastercard", "American Express"] },
+      { "title": "Wallets", "items": ["Apple Pay", "Google Pay", "PayPal"] }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrations",
+    "title": "Works with the tools you already use",
+    "description": "Connect payments, accounting and your website — and take your data with you whenever you need it.",
+    "link": "See partners & integrations",
+    "groups": [
+      { "title": "Payments", "items": ["Stripe", "PayPal", "SEPA Direct Debit"] },
+      { "title": "Accounting & exports", "items": ["DATEV export", "CSV", "Excel", "JSON"] },
+      { "title": "CRM", "items": ["Salesforce Nonprofit Cloud"] },
+      { "title": "Your website", "items": ["WordPress", "Webflow", "Squarespace", "Drupal", "TYPO3", "Custom HTML / React"] }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Made for the way your organisation works",
+    "description": "Whether you run international programmes or serve a local community, Donorfit adapts to you.",
+    "items": [
+      {
+        "title": "NGOs",
+        "description": "Run appeals across countries and currencies while keeping every gift accountable to your field programmes.",
+        "points": ["Multi-currency, localised checkout", "Restricted fund tracking", "Audit-ready exports"]
+      },
+      {
+        "title": "Charitable trusts & foundations",
+        "description": "Give trustees clear visibility of restricted allocations, donors and governance reporting.",
+        "points": ["Trustee & board reports", "Read-only auditor access", "Restricted allocations"]
+      },
+      {
+        "title": "Masjids & faith communities",
+        "description": "Collect regular giving, seasonal appeals and building funds from your community in one place.",
+        "points": ["Recurring community giving", "Seasonal appeal pages", "QR codes for in-person events"]
+      },
+      {
+        "title": "Charities & nonprofits",
+        "description": "Replace spreadsheets and disconnected tools with one platform your whole team can use.",
+        "points": ["Automated tax receipts", "Donor CRM", "Membership & sponsorship"]
+      }
+    ],
+    "alsoFor": {
+      "before": "Also for",
+      "sponsorship": "sponsorship organisations",
+      "membership": "membership associations",
+      "international": "international organisations",
+      "and": "and",
+      "after": "."
+    }
+  },
+  "stories": {
+    "eyebrow": "Customer stories",
+    "title": "Stories from the organisations we serve",
+    "emptyTitle": "Customer stories are on their way",
+    "emptyText": "We’re preparing our first stories together with the organisations behind them, and we only publish results they’ve confirmed. In the meantime, see how Donorfit would work for your own organisation.",
+    "shareStory": "Share Your Story With Us"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered",
+    "description": "Everything you need to know before getting started.",
+    "allFaqs": "All FAQs"
+  },
+  "cta": {
+    "titleBefore": "Give your team more time for",
+    "titleHighlight": "the mission",
+    "description": "Register your organisation and start accepting donations — most charities are live within one to two business days.",
+    "points": {
+      "price": "{{price}} per month core platform",
+      "noFees": "No platform or transaction fee",
+      "exportData": "Export your data anytime"
+    }
+  },
+  "photos": {
+    "donateOnline": "A smiling supporter making a donation on her phone with her bank card",
+    "recurring": "A woman at her desk at home setting up a monthly payment on her laptop with her bank card",
+    "campaignFood": "A volunteer handing out food to women at a Ramadan community charity event",
+    "campaignWinter": "Volunteers in winter coats sorting donated warm clothing outdoors",
+    "campaignClassroom": "A smiling student inside a village classroom that is being built",
+    "payments": "A bank card being tapped on a contactless payment terminal",
+    "solutionNgo": "An aid worker handing cooking oil to an elder at a village distribution",
+    "solutionTrust": "Three people reviewing documents together around a table",
+    "solutionMasjid": "Worshippers gathered outside a white masjid with two minarets",
+    "solutionCharities": "Three schoolgirls reading a book together in a colourful classroom",
+    "ctaCommunity": ""
+  },
+  "mock": {
+    "of": "of {{amount}}",
+    "xOfY": "{{done}} of {{total}}",
+    "oneTime": "One-time",
+    "monthly": "Monthly",
+    "perYear": "{{price}} / year",
+    "perMonth": "{{price}} / month",
+    "card": "Card"
+  },
+  "dashboard": {
+    "figureLabel": "Donorfit dashboard preview showing fundraising totals, a donations chart, campaign progress and recent donations, using sample data",
+    "nav": {
+      "overview": "Overview",
+      "donations": "Donations",
+      "recurring": "Recurring",
+      "campaigns": "Campaigns",
+      "donors": "Donors",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "greeting": "Good morning, {{name}}",
+    "search": "Search donors…",
+    "range": "Last 30 days",
+    "export": "Export",
+    "kpis": [
+      { "label": "Raised this month", "sub": "All channels" },
+      { "label": "Donations", "sub": "One-time & recurring" },
+      { "label": "Active recurring donors", "sub": "Monthly & annual" },
+      { "label": "Average gift", "sub": "Last 30 days" }
+    ],
+    "chartTitle": "Donations over time",
+    "chartSub": "Daily total, all campaigns",
+    "chartLegend": "Donations",
+    "activeCampaigns": "Active campaigns",
+    "campaignNames": {
+      "winterRelief": "Winter Relief Appeal",
+      "cleanWater": "Clean Water Wells",
+      "schoolMeals": "School Meals Programme",
+      "generalFund": "General Fund"
+    },
+    "recentTitle": "Recent donations",
+    "sampleBadge": "Illustrative dashboard · sample data"
+  },
+  "donationForm": {
+    "figureLabel": "Example Donorfit donation form with monthly giving selected, suggested amounts, an option to cover fees and several payment methods",
+    "organisation": "Your organisation",
+    "campaign": "Clean Water Appeal",
+    "otherAmount": "Other amount…",
+    "coverFees": "I’d like to cover the processing fee so 100% of my gift goes to the cause.",
+    "donateCta": "Donate {{amount}} monthly",
+    "secure": "Secure checkout · Cancel anytime",
+    "receiptTitle": "Tax receipt sent",
+    "receiptSub": "Automatically, by email",
+    "sepaTitle": "SEPA mandate created",
+    "sepaSub": "Monthly debit scheduled",
+    "badge": "Example form"
+  },
+  "recurringPreview": {
+    "figureLabel": "Example recurring donations list showing active, retrying and paused plans, with a donor self-service card",
+    "title": "Recurring plans",
+    "nextRun": "Next collection run · {{date}}",
+    "schedule": "Schedule",
+    "plans": [
+      "Monthly · General Fund",
+      "Monthly · Water Wells",
+      "Monthly · Sponsorship",
+      "Annual · Membership"
+    ],
+    "status": {
+      "active": "Active",
+      "retry": "Retry scheduled",
+      "paused": "Paused"
+    },
+    "selfServiceTitle": "Donor self-service",
+    "selfServiceSub": "Secure link, no password",
+    "selfServiceActions": ["Update IBAN", "Change amount", "Pause plan", "Receipts"]
+  },
+  "showcase": {
+    "sectionLabel": "Donorfit products",
+    "stageLabel": "{{name}}, product {{n}} of {{total}}. Use the left and right arrow keys to browse.",
+    "slideLabel": "{{n}} of {{total}}: {{name}}",
+    "slides": {
+      "membership": { "name": "Membership", "alt": "Community members gathered under a tree for an outdoor association meeting" },
+      "sponsorship": { "name": "Sponsorship", "alt": "A schoolboy writing carefully in his notebook at his desk" },
+      "waterwell": { "name": "Water Well", "alt": "Children filling yellow jerrycans at a village hand-pump well" },
+      "qurbani": { "name": "Qurbani", "alt": "Goats and rams at a livestock market ahead of Eid al-Adha" },
+      "school": { "name": "School", "alt": "A teacher leading a lesson with uniformed students in a classroom" },
+      "moneypool": { "name": "Money Pool", "alt": "Volunteers standing together behind donation tubs at a community collection drive" }
+    },
+    "membership": {
+      "plansTitle": "Membership plans",
+      "plans": ["Individual", "Family", "Student"],
+      "memberRole": "Individual member",
+      "active": "Active",
+      "renews": "Renews {{date}}",
+      "benefits": ["Voting rights", "Event access", "Newsletter"],
+      "activeMembers": "Active members"
+    },
+    "sponsorship": {
+      "title": "Student sponsorship",
+      "child": "{{name}}, age {{age}}",
+      "details": "Grade 5 · Tuition, books & uniform",
+      "contribution": "Your contribution",
+      "yearFunded": "School year funded",
+      "progress": "{{done}} of {{total}} months · next report in June"
+    },
+    "waterwell": {
+      "title": "Village water well",
+      "raised": "{{pct}}% of target raised",
+      "status": "Project status",
+      "steps": ["Site survey", "Drilling", "Pump installation", "Handover to village"]
+    },
+    "qurbani": {
+      "title": "Eid al-Adha Qurbani",
+      "options": [
+        { "animal": "Sheep or goat", "share": "1 share" },
+        { "animal": "Cow", "share": "1/7 share" },
+        { "animal": "Camel", "share": "1/7 share" }
+      ],
+      "order": "Order {{id}}",
+      "allocated": "Allocated",
+      "orderDetail": "2 sheep shares · {{amount}} · on behalf of the family",
+      "sharesAllocated": "Shares allocated"
+    },
+    "school": {
+      "title": "Class 4B · today",
+      "present": "Present",
+      "fees": "Term 2 fees",
+      "feeStatus": ["Paid", "Pending", "Overdue"],
+      "students": "{{n}} students",
+      "record": "{{name}} · Grade 4B",
+      "recordSub": "Student record · guardian contact on file"
+    },
+    "moneypool": {
+      "title": "Community winter appeal",
+      "contributors": "{{n}} contributors",
+      "latest": "Latest contributions",
+      "anonymous": "Anonymous"
+    }
+  }
+}

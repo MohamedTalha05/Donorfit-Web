@@ -71,7 +71,7 @@ export default function CaseStudiesPage() {
               </div>
 
               <div className="p-5 rounded-2xl bg-neutral-50 border border-neutral-200/80 space-y-2">
-                <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">The Solution</span>
+                <span className="text-xs font-bold text-brand-700 uppercase tracking-wider">The Solution</span>
                 <p className="text-xs text-neutral-600 leading-relaxed">{cs.solution}</p>
               </div>
 

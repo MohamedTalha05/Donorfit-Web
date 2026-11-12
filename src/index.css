@@ -128,8 +128,8 @@
     font-family: var(--font-body);
     font-size: 1rem;
     line-height: 1.7;
-    color: #171717;
-    background-color: #fafafa;
+    color: #202b3c;
+    background-color: #f5f8fc;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -150,7 +150,7 @@
 
 /* Custom scrollbar and focus utilities */
 :focus-visible {
-  outline: 2px solid #059669;
+  outline: 2px solid #007a80;
   outline-offset: 2px;
 }
 
@@ -192,3 +192,192 @@
   animation: pulseSlow 8s ease-in-out infinite;
 }
 
+
+
+/* ==================================================================
+ * OFFICIAL LOGO COLOUR THEME (site-wide, approved 2026-11-11)
+ * Deep navy #001840 + turquoise #00A0A0 from the DonorFit logo.
+ * `brand` is the turquoise scale; `navy` is the logo navy scale.
+ * The site's existing `emerald` classes now resolve to `brand`, and
+ * the darkest `neutral` steps resolve to navy, so every page shares
+ * one navy-and-turquoise identity without markup changes.
+ * White text sits on brand-700 (#007A80, ~5:1) or darker for AA contrast;
+ * brand-500 (#00A0A0) is used for highlights, icons and large accents.
+ * ================================================================== */
+@theme {
+  --color-brand-50: #e8f8f7;
+  --color-brand-100: #c8eeec;
+  --color-brand-200: #97ddda;
+  --color-brand-300: #5ccac6;
+  --color-brand-400: #22b3b0;
+  --color-brand-500: #00a0a0;
+  --color-brand-600: #008f96;
+  --color-brand-700: #007a80;
+  --color-brand-800: #00636a;
+  --color-brand-900: #004f57;
+  --color-brand-950: #00343b;
+
+  --color-navy-500: #2f5b85;
+  --color-navy-600: #1a4b75;
+  --color-navy-700: #003b65;
+  --color-navy-800: #002e57;
+  --color-navy-900: #00234b;
+  --color-navy-950: #001840;
+
+  --color-aqua: #e8f8f7;
+  --color-soft: #f5f8fc;
+  --color-ink: #202b3c;
+
+  /* Existing emerald usages -> logo turquoise. */
+  --color-emerald-50: #e8f8f7;
+  --color-emerald-100: #c8eeec;
+  --color-emerald-200: #97ddda;
+  --color-emerald-300: #5ccac6;
+  --color-emerald-400: #22b3b0;
+  --color-emerald-500: #00a0a0;
+  --color-emerald-600: #008f96;
+  --color-emerald-700: #007a80;
+  --color-emerald-800: #00636a;
+  --color-emerald-900: #004f57;
+  --color-emerald-950: #00343b;
+
+  /* Darkest neutrals -> logo navy (headings, dark sections, footer). */
+  --color-neutral-800: #202b3c;
+  --color-neutral-900: #00234b;
+  --color-neutral-950: #001840;
+
+  --font-home-display: 'Bricolage Grotesque', 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ---------------- Homepage visual system (.home-v2) ---------------- */
+.home-v2 :is(h1, h2, h3, .hv-display) {
+  font-family: var(--font-home-display);
+  letter-spacing: -0.035em;
+  font-optical-sizing: auto;
+}
+.home-v2 h3 { letter-spacing: -0.02em; }
+.home-v2 { -webkit-tap-highlight-color: transparent; }
+.home-v2 :is(a, button, summary) { touch-action: manipulation; }
+
+/* Navy surfaces with subtle turquoise light (#001840 -> #003B65). */
+.hv-hero-bg {
+  background-color: var(--color-navy-950);
+  background-image:
+    radial-gradient(60% 55% at 85% 20%, color-mix(in oklab, var(--color-brand-600) 38%, transparent), transparent 70%),
+    radial-gradient(45% 50% at 5% 95%, color-mix(in oklab, var(--color-navy-700) 90%, transparent), transparent 70%),
+    linear-gradient(160deg, var(--color-navy-950) 30%, var(--color-navy-700));
+}
+.hv-dark-bg {
+  background-color: var(--color-navy-950);
+  background-image:
+    radial-gradient(50% 60% at 0% 0%, color-mix(in oklab, var(--color-brand-600) 22%, transparent), transparent 70%),
+    radial-gradient(40% 50% at 100% 100%, color-mix(in oklab, var(--color-navy-700) 85%, transparent), transparent 70%);
+}
+.hv-grid-dark {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.045) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(70% 70% at 50% 30%, black, transparent 80%);
+  -webkit-mask-image: radial-gradient(70% 70% at 50% 30%, black, transparent 80%);
+}
+/* Feature gradient panel: #001840 -> #008F96. */
+.hv-vibrant-bg {
+  background-color: var(--color-navy-950);
+  background-image:
+    radial-gradient(45% 55% at 100% 0%, color-mix(in oklab, var(--color-brand-500) 35%, transparent), transparent 70%),
+    linear-gradient(135deg, var(--color-navy-950) 15%, var(--color-navy-700) 55%, var(--color-brand-600));
+}
+.hv-aqua-bg {
+  background-image: linear-gradient(180deg, var(--color-aqua), #fff 85%);
+}
+
+.hv-glass {
+  background: rgb(255 255 255 / 0.06);
+  border: 1px solid rgb(255 255 255 / 0.12);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Turquoise highlight text on navy. */
+.hv-gradient-text {
+  background-image: linear-gradient(100deg, var(--color-brand-300), var(--color-brand-500));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Teal -> navy highlight text on light backgrounds. */
+.hv-gradient-text-light {
+  background-image: linear-gradient(100deg, var(--color-brand-700), var(--color-navy-950));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Buttons */
+.hv-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  border-radius: 9999px; padding: 0.95rem 1.75rem;
+  font-size: 0.9375rem; font-weight: 700; cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.25s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.hv-btn:hover { transform: translateY(-2px); }
+.hv-btn:active { transform: translateY(0); }
+/* Primary: teal with white text (#008F96 -> #007A80). */
+.hv-btn-primary {
+  color: #fff;
+  background-color: var(--color-brand-700);
+  background-image: linear-gradient(135deg, var(--color-brand-600), var(--color-brand-700) 60%);
+  box-shadow: 0 10px 28px -10px color-mix(in oklab, var(--color-brand-500) 70%, transparent), inset 0 1px 0 rgb(255 255 255 / 0.18);
+}
+.hv-btn-primary:hover {
+  background-color: var(--color-brand-800);
+  background-image: linear-gradient(135deg, var(--color-brand-700), var(--color-brand-800));
+  box-shadow: 0 16px 36px -12px color-mix(in oklab, var(--color-brand-500) 85%, transparent), inset 0 1px 0 rgb(255 255 255 / 0.2);
+}
+.hv-btn-ghost { color: #fff; border: 1px solid rgb(255 255 255 / 0.3); background: rgb(255 255 255 / 0.06); backdrop-filter: blur(10px); }
+.hv-btn-ghost:hover { border-color: var(--color-brand-300); background: rgb(255 255 255 / 0.12); }
+.hv-btn-navy {
+  color: #fff;
+  background-color: var(--color-navy-950);
+  background-image: linear-gradient(120deg, var(--color-navy-950), var(--color-navy-700));
+  box-shadow: 0 10px 28px -12px color-mix(in oklab, var(--color-navy-950) 70%, transparent);
+}
+.hv-btn-navy:hover { box-shadow: 0 16px 36px -12px color-mix(in oklab, var(--color-navy-700) 90%, transparent); }
+/* Secondary on light: navy border + navy text. */
+.hv-btn-outline { color: var(--color-navy-950); border: 1.5px solid var(--color-navy-950); background: #fff; }
+.hv-btn-outline:hover { border-color: var(--color-brand-700); color: var(--color-brand-700); }
+
+.hv-lift { transition: transform 0.3s cubic-bezier(.2,.7,.2,1), box-shadow 0.3s ease, border-color 0.3s ease; }
+.hv-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 28px 60px -28px color-mix(in oklab, var(--color-navy-950) 45%, transparent);
+}
+
+@keyframes hv-drift { from { transform: translate3d(0, 0, 0) scale(1); } to { transform: translate3d(40px, -30px, 0) scale(1.08); } }
+@keyframes hv-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.hv-drift { animation: hv-drift 16s ease-in-out infinite alternate; }
+.hv-float { animation: hv-float 7s ease-in-out infinite; }
+.hv-float-delayed { animation: hv-float 8s ease-in-out 1.5s infinite; }
+
+.hv-reveal-ready [data-reveal] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.8s cubic-bezier(.2,.7,.2,1), transform 0.8s cubic-bezier(.2,.7,.2,1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.hv-reveal-ready [data-reveal].is-visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hv-drift, .hv-float, .hv-float-delayed { animation: none; }
+  .hv-btn, .hv-lift { transition: none; }
+  .hv-btn:hover, .hv-lift:hover { transform: none; }
+  .hv-reveal-ready [data-reveal] { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------------- Hero product showcase (rolling carousel) ----------------
+ * Motion is driven from JS (ProductShowcase.tsx); reduced motion disables autoplay there. */
+.ps-stage { -webkit-user-select: none; user-select: none; }
+.ps-slide { transform-origin: 50% 55%; backface-visibility: hidden; }
+.ps-slide img { transform-origin: 50% 45%; }
+.ps-stage img { -webkit-user-drag: none; pointer-events: none; }

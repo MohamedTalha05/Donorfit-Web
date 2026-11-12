@@ -1,0 +1,51 @@
+{
+  "preCta": {
+    "eyebrow": "Built specifically for NGOs and charities",
+    "title": "Ready to modernize your fundraising?",
+    "body": "Bring donations, sponsorships, memberships, and donor relationships together into one connected platform. Less administrative work. Stronger donor relationships. More impact."
+  },
+  "homeAria": "Donorfit — go to homepage",
+  "tagline": "Fundraising technology built specifically for non-governmental organizations, registered charities, and foundations across Europe and worldwide.",
+  "hosting": "EU Sovereign Data Hosting · GDPR Compliant",
+  "columns": {
+    "product": "Product",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "company": "Company",
+    "trust": "Trust & Legal"
+  },
+  "links": {
+    "platform": "Donorfit Platform",
+    "pricing": "Pricing",
+    "orphanSponsorship": "Orphan Sponsorship",
+    "donations": "Donations",
+    "recurringGiving": "Recurring Giving",
+    "donorManagement": "Donor Management",
+    "reporting": "Reporting & Insights",
+    "ngos": "For NGOs",
+    "charities": "For Charities",
+    "foundations": "For Foundations",
+    "sponsorshipOrgs": "For Sponsorship Orgs",
+    "membershipOrgs": "For Membership Orgs",
+    "internationalOrgs": "For International Orgs",
+    "blog": "Blog & Resource Center",
+    "guides": "Guides & Toolkits",
+    "caseStudies": "Case Studies",
+    "faqs": "FAQs",
+    "about": "About Donorfit",
+    "contact": "Contact",
+    "partners": "Partners",
+    "security": "Security & Trust",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms & Conditions",
+    "impressum": "Impressum / Legal Notice",
+    "accessibility": "Accessibility Statement",
+    "cookiePreferences": "Cookie Preferences"
+  },
+  "bottom": {
+    "rights": "© {{year}} Donorfit. All rights reserved. Technology + Humanity + Trust.",
+    "focus": "Primary Focus: European Union & International Nonprofits",
+    "hq": "Headquarters: Frankfurt am Main, Germany"
+  }
+}

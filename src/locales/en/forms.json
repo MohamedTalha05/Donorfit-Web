@@ -1,0 +1,113 @@
+{
+  "bookDemo": {
+    "eyebrow": "Live Demonstration",
+    "title": "Schedule a 1-on-1 Product Demo",
+    "closeDialog": "Close dialog",
+    "intro": "See how Donorfit streamlines recurring donations, sponsorships, and donor stewardship for your organization. Tailored to European NGOs and charities.",
+    "fields": {
+      "fullName": "Your Full Name *",
+      "fullNamePlaceholder": "e.g. Sarah Jansen",
+      "workEmail": "Work / NGO Email *",
+      "workEmailPlaceholder": "sarah@charity-initiative.org",
+      "organizationName": "Organization Name *",
+      "organizationNamePlaceholder": "e.g. Clean Oceans Foundation",
+      "orgType": "Organization Type",
+      "interest": "Primary Interest",
+      "annualVolume": "Annual Fundraising Volume",
+      "preferredDate": "Preferred Date",
+      "preferredTime": "Preferred Time Window"
+    },
+    "orgTypeOptions": {
+      "ngo": "Non-Governmental Org (NGO)",
+      "charity": "Registered Charity / e.V.",
+      "foundation": "Public / Private Foundation",
+      "sponsorship": "Sponsorship / Child Care Org",
+      "membership": "Membership Association",
+      "humanitarian": "International Humanitarian Aid"
+    },
+    "interestOptions": {
+      "general": "Complete Donorfit Platform",
+      "sponsorship": "Sponsorship Management",
+      "orphan-sponsorship": "Orphan Sponsorship Program",
+      "recurring-giving": "Recurring Giving & SEPA",
+      "donor-management": "Donor Management CRM",
+      "money-pool": "Money Pool & Group Giving",
+      "membership": "Membership Dues Automation",
+      "campaigns": "Emergency & Goal Campaigns"
+    },
+    "volumeOptions": {
+      "under-100k": "Under {{amount}}",
+      "100k-500k": "{{min}} – {{max}}",
+      "500k-2m": "{{min}} – €2 Million",
+      "2m-10m": "€2 Million – €10 Million",
+      "over-10m": "Over €10 Million"
+    },
+    "timeOptions": {
+      "09:00 AM CET": "09:00 AM – 11:00 AM CET",
+      "11:00 AM CET": "11:00 AM – 01:00 PM CET",
+      "02:00 PM CET": "02:00 PM – 04:00 PM CET",
+      "04:00 PM CET": "04:00 PM – 06:00 PM CET"
+    },
+    "trustNote": "GDPR Compliant · No Obligation",
+    "submit": "Confirm Demo Request",
+    "success": {
+      "title": "Demo Request Confirmed",
+      "thanksBefore": "Thank you, ",
+      "nameFallback": "there",
+      "thanksMiddle": ". A Donorfit non-profit specialist will connect with you at ",
+      "thanksAfter": " within 4 business hours to confirm your calendar invite.",
+      "organization": "Organization:",
+      "focus": "Requested Focus:",
+      "window": "Selected Window:",
+      "nextAvailable": "Next available slot",
+      "close": "Close & Return to Website"
+    }
+  },
+  "getStarted": {
+    "eyebrow": "Nonprofit Onboarding",
+    "title": "Get Started with Donorfit",
+    "closeDialog": "Close dialog",
+    "step1": "1. Select the solutions your organization requires:",
+    "step2": "2. Organization & Contact Details:",
+    "modules": {
+      "donations": "Online Donations",
+      "recurring": "Recurring Giving & SEPA",
+      "sponsorship": "Sponsorship Management",
+      "orphan": "Orphan Care Programs",
+      "moneypool": "Money Pool & Groups",
+      "membership": "Membership Dues",
+      "crm": "Donor CRM & Receipts",
+      "reporting": "Analytics & Insights"
+    },
+    "fields": {
+      "namePlaceholder": "Your Name *",
+      "emailPlaceholder": "Work Email *",
+      "orgNamePlaceholder": "Organization Legal Name *"
+    },
+    "countries": {
+      "DE": "Germany (DE)",
+      "FR": "France (FR)",
+      "NL": "Netherlands (NL)",
+      "BE": "Belgium (BE)",
+      "AT": "Austria (AT)",
+      "CH": "Switzerland (CH)",
+      "GB": "United Kingdom (UK)",
+      "OTHER": "Other European / Global"
+    },
+    "supportNote": "Fast 48h onboarding support",
+    "submit": "Request Platform Setup",
+    "success": {
+      "title": "Workspace Initialization Requested",
+      "receivedBefore": "We have received your configuration for ",
+      "receivedMiddle": ". Your onboarding specialist will contact ",
+      "receivedAfter": " with sandbox credentials and payment gateway verification steps within one business day.",
+      "selectedModules": "Selected Modules:",
+      "modulesActive": "{{count}} Modules Active",
+      "modulesActiveOne": "{{count}} Modules Active",
+      "jurisdiction": "Jurisdiction & Currency:",
+      "dataResidency": "Data Residency:",
+      "dataResidencyValue": "European Union (Frankfurt / Dublin)",
+      "done": "Done"
+    }
+  }
+}

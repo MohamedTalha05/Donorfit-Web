@@ -1,0 +1,33 @@
+{
+  "brand": "Donorfit",
+  "actions": {
+    "getStarted": "Jetzt starten",
+    "getStartedFree": "Kostenlos starten",
+    "bookDemo": "Demo vereinbaren",
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Kontaktieren Sie uns",
+    "contactTeam": "Unser Team kontaktieren",
+    "exploreProducts": "Produkte entdecken",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle anzeigen",
+    "backToHome": "Zurück zur Startseite",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "submit": "Absenden",
+    "send": "Senden"
+  },
+  "products": {
+    "membership": "Membership",
+    "sponsorship": "Sponsorship",
+    "water-well": "Water Well",
+    "qurbani": "Qurbani",
+    "school-management": "School Management",
+    "money-pool": "Money Pool"
+  },
+  "labels": {
+    "exampleData": "Beispieldaten",
+    "sampleData": "Beispieldaten",
+    "comingSoon": "Demnächst",
+    "required": "Pflichtfeld"
+  }
+}

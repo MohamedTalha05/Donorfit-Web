@@ -1,212 +1,669 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://donorfit.com/</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/" />
   </url>
-  <!-- Products -->
+  <url>
+    <loc>https://donorfit.com/de</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/" />
+  </url>
   <url>
     <loc>https://donorfit.com/sponsorship</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/sponsorship" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/sponsorship</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/sponsorship" />
   </url>
   <url>
     <loc>https://donorfit.com/orphan-sponsorship</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/orphan-sponsorship" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/orphan-sponsorship" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/orphan-sponsorship" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/orphan-sponsorship</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/orphan-sponsorship" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/orphan-sponsorship" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/orphan-sponsorship" />
   </url>
   <url>
     <loc>https://donorfit.com/money-pool</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/money-pool" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/money-pool" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/money-pool" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/money-pool</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/money-pool" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/money-pool" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/money-pool" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/water-well</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/water-well" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/water-well" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/water-well" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/water-well</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/water-well" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/water-well" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/water-well" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/qurbani</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/qurbani" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/qurbani" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/qurbani" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/qurbani</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/qurbani" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/qurbani" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/qurbani" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/school-management</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/school-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/school-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/school-management" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/school-management</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/school-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/school-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/school-management" />
   </url>
   <url>
     <loc>https://donorfit.com/membership</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/membership" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/membership" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/membership" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/membership</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/membership" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/membership" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/membership" />
   </url>
   <url>
     <loc>https://donorfit.com/donations</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/donations</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donations" />
   </url>
   <url>
     <loc>https://donorfit.com/recurring-giving</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/recurring-giving" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/recurring-giving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/recurring-giving" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/recurring-giving</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/recurring-giving" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/recurring-giving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/recurring-giving" />
   </url>
   <url>
     <loc>https://donorfit.com/donor-management</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-management" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/donor-management</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-management" />
   </url>
   <url>
     <loc>https://donorfit.com/campaign-management</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/campaign-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/campaign-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/campaign-management" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/campaign-management</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/campaign-management" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/campaign-management" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/campaign-management" />
   </url>
   <url>
     <loc>https://donorfit.com/reporting-and-insights</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/reporting-and-insights" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/reporting-and-insights" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/reporting-and-insights" />
   </url>
-  <!-- Solutions -->
+  <url>
+    <loc>https://donorfit.com/de/reporting-and-insights</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/reporting-and-insights" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/reporting-and-insights" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/reporting-and-insights" />
+  </url>
   <url>
     <loc>https://donorfit.com/solutions/ngos</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/ngos" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/ngos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/ngos" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/solutions/ngos</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/ngos" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/ngos" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/ngos" />
   </url>
   <url>
     <loc>https://donorfit.com/solutions/charities</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/charities" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/charities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/charities" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/solutions/charities</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/charities" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/charities" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/charities" />
   </url>
   <url>
     <loc>https://donorfit.com/solutions/foundations</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/foundations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/foundations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/foundations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/solutions/foundations</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/foundations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/foundations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/foundations" />
   </url>
   <url>
     <loc>https://donorfit.com/solutions/sponsorship-organizations</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/sponsorship-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/sponsorship-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/sponsorship-organizations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/solutions/sponsorship-organizations</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/sponsorship-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/sponsorship-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/sponsorship-organizations" />
   </url>
   <url>
     <loc>https://donorfit.com/solutions/membership-organizations</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/membership-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/membership-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/membership-organizations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/solutions/membership-organizations</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/membership-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/membership-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/membership-organizations" />
   </url>
   <url>
     <loc>https://donorfit.com/solutions/international-organizations</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/international-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/international-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/international-organizations" />
   </url>
-  <!-- Trust & Company -->
+  <url>
+    <loc>https://donorfit.com/de/solutions/international-organizations</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/solutions/international-organizations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/solutions/international-organizations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/solutions/international-organizations" />
+  </url>
   <url>
     <loc>https://donorfit.com/security</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/security" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/security" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/security" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/security</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/security" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/security" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/security" />
   </url>
   <url>
     <loc>https://donorfit.com/about</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/about" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/about</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/about" />
   </url>
   <url>
     <loc>https://donorfit.com/contact</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/contact" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/contact</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/contact" />
   </url>
   <url>
     <loc>https://donorfit.com/partners</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/partners" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/partners" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/partners" />
   </url>
-  <!-- Resources -->
+  <url>
+    <loc>https://donorfit.com/de/partners</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/partners" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/partners" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/partners" />
+  </url>
   <url>
     <loc>https://donorfit.com/blog</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/blog</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog" />
   </url>
   <url>
     <loc>https://donorfit.com/blog/reducing-administrative-work-in-nonprofit-fundraising</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/reducing-administrative-work-in-nonprofit-fundraising" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/reducing-administrative-work-in-nonprofit-fundraising" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/reducing-administrative-work-in-nonprofit-fundraising" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/blog/reducing-administrative-work-in-nonprofit-fundraising</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/reducing-administrative-work-in-nonprofit-fundraising" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/reducing-administrative-work-in-nonprofit-fundraising" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/reducing-administrative-work-in-nonprofit-fundraising" />
   </url>
   <url>
     <loc>https://donorfit.com/blog/retaining-recurring-donors-sepa-guide</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/retaining-recurring-donors-sepa-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/retaining-recurring-donors-sepa-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/retaining-recurring-donors-sepa-guide" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/blog/retaining-recurring-donors-sepa-guide</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/retaining-recurring-donors-sepa-guide" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/retaining-recurring-donors-sepa-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/retaining-recurring-donors-sepa-guide" />
   </url>
   <url>
     <loc>https://donorfit.com/blog/ethical-orphan-sponsorship-safeguarding</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/ethical-orphan-sponsorship-safeguarding" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/ethical-orphan-sponsorship-safeguarding" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/ethical-orphan-sponsorship-safeguarding" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/blog/ethical-orphan-sponsorship-safeguarding</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/ethical-orphan-sponsorship-safeguarding" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/ethical-orphan-sponsorship-safeguarding" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/ethical-orphan-sponsorship-safeguarding" />
   </url>
   <url>
     <loc>https://donorfit.com/blog/measuring-fundraising-roi-cohort-retention</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/measuring-fundraising-roi-cohort-retention" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/measuring-fundraising-roi-cohort-retention" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/measuring-fundraising-roi-cohort-retention" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/blog/measuring-fundraising-roi-cohort-retention</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/blog/measuring-fundraising-roi-cohort-retention" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/blog/measuring-fundraising-roi-cohort-retention" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/blog/measuring-fundraising-roi-cohort-retention" />
   </url>
   <url>
     <loc>https://donorfit.com/guides</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/guides" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/guides</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/guides" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/guides" />
   </url>
   <url>
     <loc>https://donorfit.com/case-studies</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/case-studies" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/case-studies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/case-studies" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/case-studies</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/case-studies" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/case-studies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/case-studies" />
   </url>
   <url>
     <loc>https://donorfit.com/pricing</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/pricing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/pricing" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/pricing</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/pricing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/pricing" />
   </url>
   <url>
     <loc>https://donorfit.com/faqs</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/faqs" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/faqs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/faqs" />
   </url>
-  <!-- Legal -->
+  <url>
+    <loc>https://donorfit.com/de/faqs</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/faqs" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/faqs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/faqs" />
+  </url>
   <url>
     <loc>https://donorfit.com/privacy-policy</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/privacy-policy</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/privacy-policy" />
   </url>
   <url>
     <loc>https://donorfit.com/cookie-policy</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/cookie-policy" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/cookie-policy</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/cookie-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/cookie-policy" />
   </url>
   <url>
     <loc>https://donorfit.com/terms</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/terms" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/terms</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/terms" />
   </url>
   <url>
     <loc>https://donorfit.com/impressum</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/impressum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/impressum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/impressum" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/impressum</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/impressum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/impressum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/impressum" />
   </url>
   <url>
     <loc>https://donorfit.com/accessibility</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/accessibility" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/accessibility</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/accessibility" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/accessibility" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/accessibility" />
   </url>
 </urlset>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { PRODUCTS_DATA } from '../data/content.ts';
+import { PRODUCT_DETAILS, type ProductText } from '../data/productDetails.ts';
+import { useT, useTx } from '../i18n/index.tsx';
 import ProductMockup from '../components/ProductMockup.tsx';
 import RealtimeAppGraphic from '../components/RealtimeAppGraphic.tsx';
 import { 
@@ -14,7 +15,8 @@ import {
   ArrowUpRight,
   Lock,
   TrendingUp,
-  Check
+  Check,
+  Building2,
 } from 'lucide-react';
 
 interface ProductPageProps {
@@ -22,7 +24,15 @@ interface ProductPageProps {
 }
 
 export default function ProductPage({ slug }: ProductPageProps) {
-  const product = PRODUCTS_DATA[slug];
+  const t = useT('productDetails');
+  const tx = useTx('productDetails');
+  const tc = useT('common');
+  const getProduct = (key: string) => {
+    const structure = PRODUCT_DETAILS[key];
+    const text = tx<ProductText | undefined>(`items.${key}`);
+    return structure && text ? { ...structure, ...text } : undefined;
+  };
+  const product = getProduct(slug);
   const { openBookDemo, openGetStarted, navigateTo } = useModal();
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
   const [visualMode, setVisualMode] = useState<'app' | 'photo'>('app');
@@ -30,13 +40,13 @@ export default function ProductPage({ slug }: ProductPageProps) {
   if (!product) {
     return (
       <div className="py-24 text-center max-w-xl mx-auto px-4">
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Product Not Found</h1>
-        <p className="text-sm text-neutral-600 mb-6">The product you requested does not exist or has been relocated.</p>
+        <h1 className="text-2xl font-bold text-neutral-900 mb-2">{t('ui.notFound.title')}</h1>
+        <p className="text-sm text-neutral-600 mb-6">{t('ui.notFound.body')}</p>
         <button
           onClick={() => navigateTo('/')}
           className="px-4 py-2 bg-neutral-900 text-white rounded-lg text-xs font-semibold cursor-pointer"
         >
-          Return to Platform Home
+          {t('ui.notFound.cta')}
         </button>
       </div>
     );
@@ -51,30 +61,30 @@ export default function ProductPage({ slug }: ProductPageProps) {
     if (slug === 'sponsorship' || slug === 'orphan-sponsorship') {
       return {
         src: '/src/assets/images/sponsorship_community_1793444726701.jpg',
-        alt: 'Empowered children learning in bright educational community center'
+        alt: t('ui.images.sponsorship')
       };
     }
     if (slug === 'money-pool' || slug === 'donations') {
       return {
         src: '/src/assets/images/community_food_relief_aid_1793682091868.jpg',
-        alt: 'Dedicated volunteers packaging food hampers in community hall'
+        alt: t('ui.images.foodRelief')
       };
     }
     if (slug === 'membership' || slug === 'campaign-management') {
       return {
         src: '/src/assets/images/nonprofit_gala_fundraising_1793682093614.jpg',
-        alt: 'Philanthropic gala reception with nonprofit champions celebrating community progress'
+        alt: t('ui.images.gala')
       };
     }
     if (slug === 'recurring-giving') {
       return {
         src: '/src/assets/images/saas_hero_fundraising_platform_1793682092168.jpg',
-        alt: 'Nonprofit leadership reviewing recurring donor retention metrics'
+        alt: t('ui.images.recurring')
       };
     }
     return {
       src: '/src/assets/images/donor_relationships_1793444728253.jpg',
-      alt: 'Thoughtful nonprofit team collaborating in modern office'
+      alt: t('ui.images.team')
     };
   };
 
@@ -106,25 +116,25 @@ export default function ProductPage({ slug }: ProductPageProps) {
                 onClick={() => openGetStarted(product.id)}
                 className="btn-gradient inline-flex items-center gap-2 px-7 py-3.5 font-bold text-xs sm:text-sm rounded-xl cursor-pointer"
               >
-                <span>Get Started with {product.title}</span>
+                <span>{t('ui.hero.getStartedWith', { product: product.title })}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
               <button
                 onClick={() => openBookDemo(product.id)}
                 className="px-6 py-3.5 bg-white hover:bg-neutral-50 text-neutral-900 font-semibold text-xs sm:text-sm rounded-xl border border-neutral-300 transition-colors cursor-pointer"
               >
-                Book a Demo
+                {tc('actions.bookDemo')}
               </button>
             </div>
 
             <div className="pt-2 flex items-center gap-6 text-xs text-neutral-500">
               <div className="flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                <span>EU GDPR Compliant</span>
+                <span>{t('ui.hero.trustGdpr')}</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Automated Tax Certificates</span>
+                <span>{t('ui.hero.trustTax')}</span>
               </div>
             </div>
           </div>
@@ -152,7 +162,7 @@ export default function ProductPage({ slug }: ProductPageProps) {
               }`}
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span>Real-Time {product.title} Graphic</span>
+              <span>{t('ui.visual.appTab', { product: product.title })}</span>
             </button>
             <button
               type="button"
@@ -164,13 +174,13 @@ export default function ProductPage({ slug }: ProductPageProps) {
               }`}
             >
               <Building2 className="w-3.5 h-3.5" />
-              <span>Field Impact View</span>
+              <span>{t('ui.visual.photoTab')}</span>
             </button>
           </div>
         </div>
 
         {visualMode === 'app' ? (
-          <RealtimeAppGraphic productSlug={slug} />
+          <RealtimeAppGraphic />
         ) : (
           <div className="rounded-3xl overflow-hidden border border-neutral-200 relative shadow-xl">
             <img
@@ -181,9 +191,9 @@ export default function ProductPage({ slug }: ProductPageProps) {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/85 via-neutral-950/30 to-transparent flex items-end p-6 sm:p-10">
               <div className="text-white max-w-2xl space-y-2">
-                <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">Mission in Action</span>
+                <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">{t('ui.visual.kicker')}</span>
                 <h2 className="text-xl sm:text-3xl font-bold font-display text-balance">
-                  Connecting generous European donors with verified, tangible impact.
+                  {t('ui.visual.title')}
                 </h2>
               </div>
             </div>
@@ -196,17 +206,17 @@ export default function ProductPage({ slug }: ProductPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-14">
             <span className="text-xs font-bold text-rose-700 uppercase tracking-wider">
-              Operational Friction
+              {t('ui.problems.kicker')}
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display text-balance">
-              The fundraising challenges {product.title} resolves.
+              {t('ui.problems.title', { product: product.title })}
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {product.problemsAddressed.map((p, i) => (
               <div key={i} className="hover-lift p-8 rounded-3xl bg-white border border-neutral-200/90 shadow-xs space-y-3">
-                <div className="text-xs tabular-nums font-bold text-rose-600">Challenge 0{i + 1}</div>
+                <div className="text-xs tabular-nums font-bold text-rose-600">{t('ui.problems.challenge', { n: `0${i + 1}` })}</div>
                 <h3 className="text-lg font-bold text-neutral-900 font-display">{p.title}</h3>
                 <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">{p.description}</p>
               </div>
@@ -219,10 +229,10 @@ export default function ProductPage({ slug }: ProductPageProps) {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
           <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">
-            Clear Workflow
+            {t('ui.workflow.kicker')}
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display text-balance">
-            How {product.title} works in three steps.
+            {t('ui.workflow.title', { product: product.title })}
           </h2>
         </div>
 
@@ -246,10 +256,10 @@ export default function ProductPage({ slug }: ProductPageProps) {
           <div>
             <div className="max-w-2xl space-y-3 mb-10">
               <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">
-                Product Capabilities
+                {t('ui.capabilities.kicker')}
               </span>
               <h2 className="text-2xl sm:text-3xl font-extrabold font-display">
-                Engineered specifically for non-profit operational workflows.
+                {t('ui.capabilities.title')}
               </h2>
             </div>
 
@@ -269,10 +279,10 @@ export default function ProductPage({ slug }: ProductPageProps) {
           <div className="pt-8 border-t border-neutral-800">
             <div className="max-w-2xl space-y-3 mb-8">
               <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">
-                Measurable Value
+                {t('ui.benefits.kicker')}
               </span>
               <h3 className="text-xl sm:text-2xl font-bold font-display">
-                Organizational benefits you can rely on.
+                {t('ui.benefits.title')}
               </h3>
             </div>
 
@@ -293,10 +303,10 @@ export default function ProductPage({ slug }: ProductPageProps) {
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-3 mb-10">
           <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">
-            Questions & Answers
+            {t('ui.faq.kicker')}
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display">
-            Common questions about {product.title}
+            {t('ui.faq.title', { product: product.title })}
           </h2>
         </div>
 
@@ -328,10 +338,10 @@ export default function ProductPage({ slug }: ProductPageProps) {
         <div className="p-8 sm:p-12 rounded-3xl bg-neutral-100 border border-neutral-200 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 max-w-xl">
             <h3 className="text-xl sm:text-2xl font-bold text-neutral-900 font-display">
-              Ready to explore {product.title}?
+              {t('ui.cta.title', { product: product.title })}
             </h3>
             <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">
-              Schedule a focused 20-minute demonstration with our European nonprofit specialists or request instant platform onboarding.
+              {t('ui.cta.body')}
             </p>
           </div>
 
@@ -340,13 +350,13 @@ export default function ProductPage({ slug }: ProductPageProps) {
               onClick={() => openBookDemo(product.id)}
               className="px-6 py-3 bg-white hover:bg-neutral-50 text-neutral-900 font-semibold text-xs rounded-xl border border-neutral-300 cursor-pointer"
             >
-              Book a Demo
+              {tc('actions.bookDemo')}
             </button>
             <button
               onClick={() => openGetStarted(product.id)}
               className="inline-flex items-center gap-1.5 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl cursor-pointer"
             >
-              <span>Get Started</span>
+              <span>{tc('actions.getStarted')}</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
@@ -355,11 +365,11 @@ export default function ProductPage({ slug }: ProductPageProps) {
         {/* Related products */}
         <div className="pt-12 border-t border-neutral-200 mt-12">
           <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider block mb-4">
-            Related Non-Profit Solutions
+            {t('ui.related.kicker')}
           </span>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {product.relatedProductIds.map((relId) => {
-              const rel = PRODUCTS_DATA[relId];
+              const rel = getProduct(relId);
               if (!rel) return null;
               return (
                 <button

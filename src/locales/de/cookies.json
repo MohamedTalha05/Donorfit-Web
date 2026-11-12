@@ -1,0 +1,39 @@
+{
+  "banner": {
+    "ariaLabel": "Hinweis zur Cookie-Einwilligung",
+    "title": "Ihre Privatsphäre und Cookie-Einstellungen",
+    "text": "Donorfit verwendet technisch notwendige Cookies, um den sicheren Betrieb der Plattform zu gewährleisten. Mit Ihrer Einwilligung verwenden wir zusätzlich funktionale und datenschutzfreundliche Analyse-Cookies, um die Website-Nutzung auszuwerten und unsere Fundraising-Angebote zu optimieren. Sie können Ihre Einstellungen jederzeit anpassen.",
+    "manage": "Einstellungen verwalten",
+    "rejectNonEssential": "Nicht notwendige ablehnen",
+    "acceptAll": "Alle akzeptieren"
+  },
+  "dialog": {
+    "title": "Cookie-Einstellungen",
+    "closeAria": "Einstellungen schließen",
+    "introBefore": "Der Schutz Ihrer Privatsphäre hat für uns Vorrang; wir halten die DSGVO und die ePrivacy-Richtlinie der Europäischen Union strikt ein. Wählen Sie aus, welche Cookie-Kategorien Donorfit verwenden darf. Weitere Informationen finden Sie in unserer vollständigen",
+    "introLink": "Cookie-Richtlinie",
+    "introAfter": ".",
+    "alwaysActive": "Immer aktiv",
+    "rejectAll": "Alle nicht notwendigen ablehnen",
+    "save": "Auswahl speichern",
+    "acceptAll": "Alle akzeptieren"
+  },
+  "categories": {
+    "necessary": {
+      "name": "Unbedingt erforderliche Cookies",
+      "description": "Erforderlich für die grundlegende Sicherheit der Plattform, Sitzungstokens, Lastverteilung und CSRF-Schutz. Können nicht deaktiviert werden."
+    },
+    "preferences": {
+      "name": "Funktionale und Präferenz-Cookies",
+      "description": "Speichern Ihre gewählte Sprache, Ihre Länderauswahl und den Bearbeitungsstand von Formularen."
+    },
+    "analytics": {
+      "name": "Leistungs- und Analyse-Cookies",
+      "description": "Aggregierte, datenschutzfreundliche Kennzahlen zur Messung der Seitenleistung und von Abbrüchen im Spendenprozess – ohne Speicherung von IP-Adressen."
+    },
+    "marketing": {
+      "name": "Marketing- und Reichweiten-Cookies",
+      "description": "Ermöglichen es uns, unsere digitalen Kampagnen für gemeinnützige Organisationen auszuwerten und die Kanäle eingehender Demo-Anfragen zu messen."
+    }
+  }
+}

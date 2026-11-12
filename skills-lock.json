@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "taste": {
+      "source": "senlindesign/taste-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "15a7b9f6502ebcc7ff8515cd4f919df373614b260e94dce64e3ab64a0a5b0cad"
+    }
+  }
+}

@@ -1,45 +1,39 @@
 import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { Handshake, CheckCircle2, ArrowRight, Building2, ShieldCheck, Globe } from 'lucide-react';
+import { useT, useTx } from '../i18n/index.tsx';
+
+interface PartnerType {
+  title: string;
+  description: string;
+  benefits: string[];
+}
 
 export default function PartnersPage() {
   const { navigateTo, openBookDemo } = useModal();
+  const t = useT('company');
+  const tx = useTx('company');
 
-  const partnerTypes = [
-    {
-      title: 'Digital Non-Profit Agencies',
-      description: 'Web development agencies and digital strategists implementing custom donation sites and campaign architectures for charities across Europe.',
-      benefits: ['Dedicated sandbox environments', 'Direct technical escalation channel', 'Partner co-marketing opportunities']
-    },
-    {
-      title: 'Fundraising Consultants',
-      description: 'Independent fundraising advisors helping NGOs optimize recurring giving strategies, direct mail campaigns, and donor stewardship programs.',
-      benefits: ['Comprehensive platform certifications', 'Client referral benefits', 'Strategy & cohort retention toolkits']
-    },
-    {
-      title: 'Technology & CRM Integrators',
-      description: 'Specialists connecting Donorfit with enterprise accounting ledgers (DATEV, SAP), CRM hubs (Salesforce Non-Profit Cloud), and marketing automation.',
-      benefits: ['Open REST API and webhook access', 'Custom data schema support', 'Co-development advisory board']
-    }
-  ];
+  const partnerTypes = tx<PartnerType[]>('partners.types');
+  const integrations = tx<string[]>('partners.integrations.items');
 
   return (
     <div className="space-y-24 sm:space-y-32 lg:space-y-36 pb-24">
-      
+
       {/* Hero */}
       <section className="pt-12 sm:pt-20 lg:pt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold">
             <Handshake className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Donorfit Partner Network</span>
+            <span>{t('partners.hero.eyebrow')}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-neutral-950 font-display leading-[1.12]">
-            Partnering to Empower the Non-Profit Sector
+            {t('partners.hero.title')}
           </h1>
 
           <p className="text-base sm:text-lg text-neutral-600 leading-relaxed">
-            We collaborate with digital agencies, fundraising advisors, and integration specialists who share our dedication to nonprofit impact, European data sovereignty, and ethical fundraising.
+            {t('partners.hero.intro')}
           </p>
         </div>
       </section>
@@ -58,7 +52,7 @@ export default function PartnersPage() {
               </div>
 
               <div className="pt-4 border-t border-neutral-100 space-y-2">
-                <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider block">Partner Perks:</span>
+                <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider block">{t('partners.perksLabel')}</span>
                 <ul className="space-y-1.5 text-xs text-neutral-700">
                   {pt.benefits.map((b, i) => (
                     <li key={i} className="flex items-center gap-2">
@@ -77,23 +71,19 @@ export default function PartnersPage() {
       <section id="integrations" className="scroll-mt-24 bg-neutral-900 bg-dark-glow text-white py-16 rounded-3xl mx-4 sm:mx-6 lg:mx-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider block">
-            Verified Ecosystem Integrations
+            {t('partners.integrations.eyebrow')}
           </span>
           <h2 className="text-3xl font-extrabold font-display">
-            Built to connect with the tools you already rely on.
+            {t('partners.integrations.title')}
           </h2>
           <p className="text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-            Donorfit supports bidirectional integrations and export formats for leading non-profit accounting, CRM, and marketing platforms.
+            {t('partners.integrations.intro')}
           </p>
 
           <div className="pt-4 flex flex-wrap justify-center gap-3 text-xs font-medium text-neutral-300">
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">SEPA Direct Debit (EPC)</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">Stripe & Apple Pay</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">PayPal for Nonprofits</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">DATEV Accounting</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">Mailchimp & Brevo</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">Salesforce Nonprofit Cloud</span>
-            <span className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">Zapier & Webhooks</span>
+            {integrations.map((name) => (
+              <span key={name} className="px-3.5 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700">{name}</span>
+            ))}
           </div>
         </div>
       </section>
@@ -101,17 +91,17 @@ export default function PartnersPage() {
       {/* Become a Partner CTA */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display">
-          Join the Donorfit Partner Network
+          {t('partners.cta.title')}
         </h2>
         <p className="text-xs sm:text-sm text-neutral-600 max-w-lg mx-auto leading-relaxed">
-          Help your non-profit clients transition away from manual spreadsheets and legacy software to modern, connected fundraising technology.
+          {t('partners.cta.text')}
         </p>
         <div>
           <button
             onClick={() => navigateTo('/contact')}
             className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer"
           >
-            <span>Inquire About Partnership</span>
+            <span>{t('partners.cta.button')}</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>

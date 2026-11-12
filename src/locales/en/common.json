@@ -1,0 +1,33 @@
+{
+  "brand": "Donorfit",
+  "actions": {
+    "getStarted": "Get Started",
+    "getStartedFree": "Get Started Free",
+    "bookDemo": "Book a Demo",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "contactTeam": "Contact our team",
+    "exploreProducts": "Explore products",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "backToHome": "Back to homepage",
+    "close": "Close",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "send": "Send"
+  },
+  "products": {
+    "membership": "Membership",
+    "sponsorship": "Sponsorship",
+    "water-well": "Water Well",
+    "qurbani": "Qurbani",
+    "school-management": "School Management",
+    "money-pool": "Money Pool"
+  },
+  "labels": {
+    "exampleData": "Example data",
+    "sampleData": "Sample data",
+    "comingSoon": "Coming soon",
+    "required": "Required"
+  }
+}

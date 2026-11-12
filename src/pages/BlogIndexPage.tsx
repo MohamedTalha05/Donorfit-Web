@@ -1,25 +1,34 @@
 import React, { useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { BLOG_POSTS } from '../data/content.ts';
+import { useT, useTx, useFormat } from '../i18n/index.tsx';
+import type { BlogPost } from '../types.ts';
 import { Search, ArrowRight, BookOpen, Clock, Tag } from 'lucide-react';
 
-const CATEGORIES = [
-  'All',
-  'Charity Operations',
-  'Recurring Giving',
-  'Sponsorship',
-  'Fundraising',
-  'NGO Technology',
-  'Donor Retention',
+/** Translated blog post (category is a localized display label). */
+export type LocalizedBlogPost = Omit<BlogPost, 'category'> & { category: string };
+
+/** Category keys in display order; labels live in blog.json → categories. */
+const CATEGORY_KEYS = [
+  'all',
+  'charityOperations',
+  'recurringGiving',
+  'sponsorship',
+  'fundraising',
+  'ngoTechnology',
+  'donorRetention',
 ] as const;
 
 export default function BlogIndexPage() {
   const { navigateTo } = useModal();
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const t = useT('blog');
+  const tx = useTx('blog');
+  const { date } = useFormat();
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  const filteredPosts = BLOG_POSTS.filter((post) => {
-    const matchesCategory = selectedCategory === 'All' || post.category === selectedCategory;
+  const posts = tx<LocalizedBlogPost[]>('posts');
+  const filteredPosts = posts.filter((post) => {
+    const matchesCategory = selectedCategory === 'all' || post.category === t(`categories.${selectedCategory}`);
     const matchesSearch = 
       post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -35,15 +44,15 @@ export default function BlogIndexPage() {
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold">
             <BookOpen className="w-3.5 h-3.5 text-emerald-600" />
-            <span>Fundraising Intelligence & Guides</span>
+            <span>{t('ui.index.badge')}</span>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-neutral-950 font-display leading-[1.12]">
-            Resources, Guides & Articles for Nonprofits
+            {t('ui.index.title')}
           </h1>
 
           <p className="text-base sm:text-lg text-neutral-600 leading-relaxed">
-            Practical knowledge, retention frameworks, and regulatory playbooks for European and international charities.
+            {t('ui.index.subtitle')}
           </p>
         </div>
 
@@ -51,7 +60,7 @@ export default function BlogIndexPage() {
         <div className="pt-8 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 border-b border-neutral-200 pb-6">
           {/* Categories */}
           <div className="flex flex-wrap items-center gap-1.5">
-            {CATEGORIES.map((cat) => (
+            {CATEGORY_KEYS.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
@@ -61,7 +70,7 @@ export default function BlogIndexPage() {
                     : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                 }`}
               >
-                {cat}
+                {t(`categories.${cat}`)}
               </button>
             ))}
           </div>
@@ -71,7 +80,7 @@ export default function BlogIndexPage() {
             <Search className="w-4 h-4 text-neutral-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search articles & topics..."
+              placeholder={t('ui.index.searchPlaceholder')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-9 pr-3 py-1.5 text-xs rounded-lg border border-neutral-300 focus:border-emerald-600 focus:ring-1 focus:ring-emerald-600 outline-hidden bg-white"
@@ -84,7 +93,7 @@ export default function BlogIndexPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {filteredPosts.length === 0 ? (
           <div className="p-12 text-center text-neutral-500 text-sm bg-white rounded-2xl border border-neutral-200">
-            No articles found matching &ldquo;{searchQuery}&rdquo;.
+            {t('ui.index.noResults', { query: searchQuery })}
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -100,7 +109,7 @@ export default function BlogIndexPage() {
                     <span aria-hidden="true">·</span>
                     <span>{post.readingTime}</span>
                     <span aria-hidden="true">·</span>
-                    <span>{post.publishedAt}</span>
+                    <span>{date(post.publishedAt)}</span>
                   </div>
 
                   <h2 className="text-xl sm:text-2xl font-bold text-neutral-950 font-display group-hover:text-emerald-700 transition-colors leading-snug">
@@ -118,7 +127,7 @@ export default function BlogIndexPage() {
                     <span className="text-xs text-neutral-500">{post.author.role}</span>
                   </div>
                   <span className="text-xs font-semibold text-emerald-700 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
-                    <span>Read Article</span>
+                    <span>{t('ui.readArticle')}</span>
                     <ArrowRight className="w-3.5 h-3.5" />
                   </span>
                 </div>

@@ -1,0 +1,51 @@
+{
+  "preCta": {
+    "eyebrow": "Speziell für NGOs und gemeinnützige Organisationen entwickelt",
+    "title": "Bereit, Ihr Fundraising zu modernisieren?",
+    "body": "Bringen Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer vernetzten Plattform zusammen. Weniger Verwaltungsaufwand. Stärkere Spenderbeziehungen. Mehr Wirkung."
+  },
+  "homeAria": "Donorfit – zur Startseite",
+  "tagline": "Fundraising-Technologie, speziell entwickelt für Nichtregierungsorganisationen, gemeinnützige Vereine und Stiftungen in Europa und weltweit.",
+  "hosting": "Datenhosting in der EU · DSGVO-konform",
+  "columns": {
+    "product": "Produkt",
+    "solutions": "Lösungen",
+    "resources": "Ressourcen",
+    "company": "Unternehmen",
+    "trust": "Vertrauen & Rechtliches"
+  },
+  "links": {
+    "platform": "Donorfit-Plattform",
+    "pricing": "Preise",
+    "orphanSponsorship": "Waisenpatenschaften",
+    "donations": "Spenden",
+    "recurringGiving": "Regelmäßige Spenden",
+    "donorManagement": "Spenderverwaltung",
+    "reporting": "Berichte & Auswertungen",
+    "ngos": "Für NGOs",
+    "charities": "Für gemeinnützige Organisationen",
+    "foundations": "Für Stiftungen",
+    "sponsorshipOrgs": "Für Patenschaftsorganisationen",
+    "membershipOrgs": "Für Mitgliederorganisationen",
+    "internationalOrgs": "Für internationale Organisationen",
+    "blog": "Blog & Ressourcen",
+    "guides": "Leitfäden & Toolkits",
+    "caseStudies": "Fallstudien",
+    "faqs": "Häufige Fragen",
+    "about": "Über Donorfit",
+    "contact": "Kontakt",
+    "partners": "Partner",
+    "security": "Sicherheit & Vertrauen",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "AGB",
+    "impressum": "Impressum",
+    "accessibility": "Erklärung zur Barrierefreiheit",
+    "cookiePreferences": "Cookie-Einstellungen"
+  },
+  "bottom": {
+    "rights": "© {{year}} Donorfit. Alle Rechte vorbehalten. Technologie + Menschlichkeit + Vertrauen.",
+    "focus": "Schwerpunkt: Europäische Union & internationale Non-Profit-Organisationen",
+    "hq": "Hauptsitz: Frankfurt am Main, Deutschland"
+  }
+}

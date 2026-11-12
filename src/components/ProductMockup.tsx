@@ -69,28 +69,28 @@ export default function ProductMockup({ type, className = '' }: MockupProps) {
               </div>
             </div>
 
-            <div className="p-3.5 rounded-xl bg-gradient-to-br from-neutral-50 to-blue-50/30 border border-neutral-200/80">
+            <div className="p-3.5 rounded-xl bg-gradient-to-br from-neutral-50 to-brand-50/30 border border-neutral-200/80">
               <div className="flex items-center justify-between text-xs text-neutral-500">
                 <span>Active Sponsorships</span>
-                <Users className="w-3.5 h-3.5 text-blue-600" />
+                <Users className="w-3.5 h-3.5 text-brand-600" />
               </div>
               <div className="text-2xl font-extrabold text-neutral-950 tabular-nums tracking-tight mt-1 tabular-nums">
                 3,842
               </div>
-              <div className="text-[11px] text-blue-700 font-semibold mt-1">
+              <div className="text-[11px] text-brand-700 font-semibold mt-1">
                 99.2% retention rate
               </div>
             </div>
 
-            <div className="p-3.5 rounded-xl bg-gradient-to-br from-neutral-50 to-purple-50/30 border border-neutral-200/80">
+            <div className="p-3.5 rounded-xl bg-gradient-to-br from-neutral-50 to-brand-50/30 border border-neutral-200/80">
               <div className="flex items-center justify-between text-xs text-neutral-500">
                 <span>Auto-Tax Compliance</span>
-                <ShieldCheck className="w-3.5 h-3.5 text-purple-600" />
+                <ShieldCheck className="w-3.5 h-3.5 text-brand-600" />
               </div>
               <div className="text-2xl font-extrabold text-neutral-950 tabular-nums tracking-tight mt-1 tabular-nums">
                 100%
               </div>
-              <div className="text-[11px] text-purple-700 font-semibold mt-1">
+              <div className="text-[11px] text-brand-700 font-semibold mt-1">
                 German / French & UK certificates
               </div>
             </div>
@@ -315,8 +315,8 @@ export default function ProductMockup({ type, className = '' }: MockupProps) {
             </div>
           </div>
 
-          <div className="p-3 rounded-lg bg-blue-50/70 border border-blue-100 text-[11px] text-blue-900 flex items-start gap-2">
-            <ShieldCheck className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+          <div className="p-3 rounded-lg bg-brand-50/70 border border-brand-100 text-[11px] text-brand-900 flex items-start gap-2">
+            <ShieldCheck className="w-4 h-4 text-brand-600 shrink-0 mt-0.5" />
             <span>Guardian privacy consent verified. Sensitive location data encrypted under EU child safeguarding guidelines.</span>
           </div>
         </div>
@@ -348,7 +348,7 @@ export default function ProductMockup({ type, className = '' }: MockupProps) {
               <span className="tabular-nums font-bold text-neutral-900">€22,150 / €25,000</span>
             </div>
             <div className="w-full h-3 bg-neutral-100 rounded-full overflow-hidden p-0.5">
-              <div className="h-full bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full w-[88%]"></div>
+              <div className="h-full bg-gradient-to-r from-emerald-500 to-brand-500 rounded-full w-[88%]"></div>
             </div>
           </div>
 

@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { SOLUTIONS_DATA } from '../data/content.ts';
+import { SOLUTIONS } from '../data/solutions.ts';
+import { useT, useTx } from '../i18n/index.tsx';
+import type { SolutionItem } from '../types.ts';
+
+/** Translated text fields of a solution (structural fields live in src/data/solutions.ts). */
+type SolutionText = Omit<SolutionItem, 'id' | 'slug' | 'recommendedProducts'> & {
+  audienceName: string;
+  recommendedProducts: { name: string }[];
+};
 import { 
   ArrowRight, 
   CheckCircle2, 
@@ -18,24 +26,35 @@ interface SolutionPageProps {
 }
 
 export default function SolutionPage({ slug }: SolutionPageProps) {
-  const solution = SOLUTIONS_DATA[slug];
+  const config = SOLUTIONS[slug];
+  const t = useT('solutions');
+  const tx = useTx('solutions');
+  const text = config ? tx<SolutionText | undefined>(`items.${slug}`) : undefined;
   const { openBookDemo, openGetStarted, navigateTo } = useModal();
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
 
-  if (!solution) {
+  if (!config || !text) {
     return (
       <div className="py-24 text-center max-w-xl mx-auto px-4">
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Solution Not Found</h1>
-        <p className="text-sm text-neutral-600 mb-6">The requested audience solution could not be found.</p>
+        <h1 className="text-2xl font-bold text-neutral-900 mb-2">{t('ui.notFound.title')}</h1>
+        <p className="text-sm text-neutral-600 mb-6">{t('ui.notFound.text')}</p>
         <button
           onClick={() => navigateTo('/')}
           className="px-4 py-2 bg-neutral-900 text-white rounded-lg text-xs font-semibold cursor-pointer"
         >
-          Return to Platform Home
+          {t('ui.notFound.button')}
         </button>
       </div>
     );
   }
+
+  const solution = {
+    ...text,
+    id: config.slug,
+    recommendedProducts: config.recommendedProducts.map((p, i) => ({ ...p, name: text.recommendedProducts[i]?.name ?? p.id })),
+  };
+  /** English templates use {{audience}} ("For NGOs"); German uses {{name}} ("NGOs") for natural grammar. */
+  const audienceVars = { audience: solution.targetAudience, name: solution.audienceName };
 
   const toggleFaq = (idx: number) => {
     setOpenFaqIndex(openFaqIndex === idx ? null : idx);
@@ -45,18 +64,18 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
     if (slug === 'ngos' || slug === 'international-organizations') {
       return {
         src: '/src/assets/images/humanitarian_field_aid_1793444727541.jpg',
-        alt: 'Humanitarian development workers collaborating with community members in field'
+        alt: t('ui.images.field')
       };
     }
     if (slug === 'foundations' || slug === 'membership-organizations') {
       return {
         src: '/src/assets/images/nonprofit_gala_fundraising_1793682093614.jpg',
-        alt: 'Philanthropic gala reception and community leaders'
+        alt: t('ui.images.gala')
       };
     }
     return {
       src: '/src/assets/images/donor_relationships_1793444728253.jpg',
-      alt: 'Dedicated nonprofit leadership team in modern European office'
+      alt: t('ui.images.office')
     };
   };
 
@@ -88,14 +107,14 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
                 onClick={() => openGetStarted(solution.id)}
                 className="btn-gradient inline-flex items-center gap-2 px-7 py-3.5 font-bold text-xs sm:text-sm rounded-xl cursor-pointer"
               >
-                <span>Get Started {solution.targetAudience}</span>
+                <span>{t('ui.hero.getStarted', audienceVars)}</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
               <button
                 onClick={() => openBookDemo(solution.id)}
                 className="px-6 py-3.5 bg-white hover:bg-neutral-50 text-neutral-900 font-semibold text-xs sm:text-sm rounded-xl border border-neutral-300 transition-colors cursor-pointer"
               >
-                Book an Audience Walkthrough
+                {t('ui.hero.walkthrough')}
               </button>
             </div>
           </div>
@@ -110,7 +129,7 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/70 via-transparent to-transparent flex items-end p-6">
                 <span className="text-xs font-bold text-white uppercase tracking-wider">
-                  Tailored for {solution.targetAudience}
+                  {t('ui.hero.tailoredFor', audienceVars)}
                 </span>
               </div>
             </div>
@@ -124,7 +143,7 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           <div className="max-w-3xl space-y-4">
             <span className="text-xs font-semibold text-emerald-400 uppercase tracking-wider">
-              Strategic Impact
+              {t('ui.impact.kicker')}
             </span>
             <p className="text-base sm:text-xl text-neutral-200 leading-relaxed font-normal text-balance">
               {solution.overview}
@@ -148,17 +167,17 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
         <div>
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
             <span className="text-xs font-bold text-rose-700 uppercase tracking-wider">
-              Specific Pain Points
+              {t('ui.challenges.kicker')}
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display">
-              Challenges addressed for {solution.targetAudience}
+              {t('ui.challenges.title', audienceVars)}
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {solution.keyChallenges.map((c, i) => (
               <div key={i} className="hover-lift p-8 rounded-3xl bg-white border border-neutral-200/90 shadow-xs space-y-3">
-                <div className="text-xs tabular-nums font-bold text-rose-600">Challenge 0{i + 1}</div>
+                <div className="text-xs tabular-nums font-bold text-rose-600">{t('ui.challenges.label', { n: i + 1 })}</div>
                 <h3 className="text-lg font-bold text-neutral-900 font-display">{c.title}</h3>
                 <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed">{c.description}</p>
               </div>
@@ -169,10 +188,10 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
         <div className="pt-8">
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
             <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">
-              Tailored Architecture
+              {t('ui.features.kicker')}
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display">
-              Capabilities designed around your operational flow
+              {t('ui.features.title')}
             </h2>
           </div>
 
@@ -195,10 +214,10 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto space-y-2 mb-10">
             <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider">
-              Recommended Products
+              {t('ui.products.kicker')}
             </span>
             <h3 className="text-2xl font-bold text-neutral-950 font-display">
-              Recommended modules for {solution.targetAudience}
+              {t('ui.products.title', audienceVars)}
             </h3>
           </div>
 
@@ -213,7 +232,7 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
                   <span>{p.name}</span>
                   <ArrowRight className="w-4 h-4 text-neutral-400 group-hover:text-emerald-600" />
                 </div>
-                <p className="text-xs text-neutral-500 mt-2">Explore dedicated specifications & workflows →</p>
+                <p className="text-xs text-neutral-500 mt-2">{t('ui.products.explore')}</p>
               </button>
             ))}
           </div>
@@ -224,10 +243,10 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-3 mb-10">
           <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">
-            Audience Questions
+            {t('ui.faqs.kicker')}
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-neutral-950 font-display">
-            Common questions {solution.targetAudience}
+            {t('ui.faqs.title', audienceVars)}
           </h2>
         </div>
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
+import { useT } from '../i18n/index.tsx';
 import { Shield, Check, X, Settings2 } from 'lucide-react';
 
 interface CookiePreferences {
@@ -13,6 +14,7 @@ const STORAGE_KEY = 'donorfit_cookie_consent_v1';
 
 export default function CookieConsent() {
   const { isCookieSettingsOpen, closeCookieSettings, openCookieSettings, navigateTo } = useModal();
+  const t = useT('cookies');
   const [showBanner, setShowBanner] = useState(false);
   const [preferences, setPreferences] = useState<CookiePreferences>({
     necessary: true,
@@ -74,7 +76,7 @@ export default function CookieConsent() {
       {/* Bottom Sticky Banner */}
       {showBanner && !isCookieSettingsOpen && (
         <aside 
-          aria-label="Cookie consent banner"
+          aria-label={t('banner.ariaLabel')}
           className="fixed bottom-0 inset-x-0 z-40 p-4 sm:p-6 bg-white/95 backdrop-blur-md border-t border-neutral-200 shadow-xl"
         >
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
@@ -82,11 +84,11 @@ export default function CookieConsent() {
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4 text-emerald-600 shrink-0" />
                 <h3 className="text-sm font-semibold text-neutral-900 font-display">
-                  Your Privacy & Cookie Preferences
+                  {t('banner.title')}
                 </h3>
               </div>
               <p className="text-xs text-neutral-600 leading-relaxed">
-                Donorfit uses essential cookies to ensure secure platform functionality. With your consent, we also use functional and privacy-focused analytics cookies to evaluate website traffic and optimize our fundraising resources. You can customize your preferences anytime.
+                {t('banner.text')}
               </p>
             </div>
 
@@ -95,19 +97,19 @@ export default function CookieConsent() {
                 onClick={openCookieSettings}
                 className="px-3 py-1.5 text-xs font-medium text-neutral-700 bg-neutral-100 hover:bg-neutral-200 rounded-lg transition-colors cursor-pointer"
               >
-                Manage Preferences
+                {t('banner.manage')}
               </button>
               <button
                 onClick={handleRejectAll}
                 className="px-3.5 py-1.5 text-xs font-medium text-neutral-800 bg-white border border-neutral-300 hover:bg-neutral-50 rounded-lg transition-colors cursor-pointer"
               >
-                Reject Non-Essential
+                {t('banner.rejectNonEssential')}
               </button>
               <button
                 onClick={handleAcceptAll}
                 className="px-4 py-1.5 text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-xs transition-colors cursor-pointer"
               >
-                Accept All
+                {t('banner.acceptAll')}
               </button>
             </div>
           </div>
@@ -127,13 +129,13 @@ export default function CookieConsent() {
               <div className="flex items-center gap-2">
                 <Settings2 className="w-4 h-4 text-emerald-600" />
                 <h2 id="cookie-settings-title" className="text-base font-bold text-neutral-900 font-display">
-                  Cookie Preferences Manager
+                  {t('dialog.title')}
                 </h2>
               </div>
               <button
                 onClick={closeCookieSettings}
                 className="p-1.5 text-neutral-400 hover:text-neutral-700 rounded-lg hover:bg-neutral-100 transition-colors cursor-pointer"
-                aria-label="Close preferences"
+                aria-label={t('dialog.closeAria')}
               >
                 <X className="w-4 h-4" />
               </button>
@@ -141,7 +143,7 @@ export default function CookieConsent() {
 
             <div className="p-6 space-y-4 max-h-[70vh] overflow-y-auto text-xs">
               <p className="text-neutral-600 leading-relaxed">
-                We prioritize user privacy and comply strictly with the European Union GDPR and ePrivacy Directive. Choose which cookie categories you permit Donorfit to employ. Read our full{' '}
+                {t('dialog.introBefore')}{' '}
                 <button
                   type="button"
                   onClick={() => {
@@ -150,19 +152,19 @@ export default function CookieConsent() {
                   }}
                   className="text-emerald-700 hover:underline font-medium inline"
                 >
-                  Cookie Policy
+                  {t('dialog.introLink')}
                 </button>
-                .
+                {t('dialog.introAfter')}
               </p>
 
               {/* Necessary */}
               <div className="p-3.5 rounded-xl border border-neutral-200 bg-neutral-50/60 space-y-1">
                 <div className="flex items-center justify-between">
-                  <span className="font-semibold text-neutral-900">Strictly Necessary Cookies</span>
-                  <span className="px-2 py-0.5 bg-neutral-200 text-neutral-700 rounded text-[11px] font-semibold">Always Active</span>
+                  <span className="font-semibold text-neutral-900">{t('categories.necessary.name')}</span>
+                  <span className="px-2 py-0.5 bg-neutral-200 text-neutral-700 rounded text-[11px] font-semibold">{t('dialog.alwaysActive')}</span>
                 </div>
                 <p className="text-neutral-500 leading-relaxed">
-                  Required for core platform security, session tokens, load balancing, and CSRF protection. Cannot be disabled.
+                  {t('categories.necessary.description')}
                 </p>
               </div>
 
@@ -170,9 +172,9 @@ export default function CookieConsent() {
               <div className="p-3.5 rounded-xl border border-neutral-200 bg-white space-y-2">
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="font-semibold text-neutral-900">Functional & Preference Cookies</span>
+                    <span className="font-semibold text-neutral-900">{t('categories.preferences.name')}</span>
                     <p className="text-neutral-500 mt-0.5 leading-relaxed">
-                      Remembers your chosen language, country selection, and form completion state.
+                      {t('categories.preferences.description')}
                     </p>
                   </div>
                   <input
@@ -188,9 +190,9 @@ export default function CookieConsent() {
               <div className="p-3.5 rounded-xl border border-neutral-200 bg-white space-y-2">
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="font-semibold text-neutral-900">Performance & Analytics Cookies</span>
+                    <span className="font-semibold text-neutral-900">{t('categories.analytics.name')}</span>
                     <p className="text-neutral-500 mt-0.5 leading-relaxed">
-                      Aggregated, privacy-respecting metrics to measure page performance and donation flow drop-off without storing IP addresses.
+                      {t('categories.analytics.description')}
                     </p>
                   </div>
                   <input
@@ -206,9 +208,9 @@ export default function CookieConsent() {
               <div className="p-3.5 rounded-xl border border-neutral-200 bg-white space-y-2">
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="font-semibold text-neutral-900">Marketing & Outreach Cookies</span>
+                    <span className="font-semibold text-neutral-900">{t('categories.marketing.name')}</span>
                     <p className="text-neutral-500 mt-0.5 leading-relaxed">
-                      Allows us to assess our non-profit digital outreach campaigns and measure inbound demo inquiry channels.
+                      {t('categories.marketing.description')}
                     </p>
                   </div>
                   <input
@@ -221,28 +223,28 @@ export default function CookieConsent() {
               </div>
             </div>
 
-            <div className="flex items-center justify-between px-6 py-4 bg-neutral-50 border-t border-neutral-200">
+            <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3 px-6 py-4 bg-neutral-50 border-t border-neutral-200">
               <button
                 type="button"
                 onClick={handleRejectAll}
                 className="text-xs text-neutral-600 hover:text-neutral-900 font-medium"
               >
-                Reject All Non-Essential
+                {t('dialog.rejectAll')}
               </button>
-              <div className="flex items-center gap-2">
+              <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
                 <button
                   type="button"
                   onClick={handleSaveCustom}
                   className="px-4 py-1.5 text-xs font-semibold text-neutral-800 bg-white border border-neutral-300 hover:bg-neutral-50 rounded-lg transition-colors cursor-pointer"
                 >
-                  Save Choices
+                  {t('dialog.save')}
                 </button>
                 <button
                   type="button"
                   onClick={handleAcceptAll}
                   className="px-4 py-1.5 text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg shadow-xs transition-colors cursor-pointer"
                 >
-                  Accept All
+                  {t('dialog.acceptAll')}
                 </button>
               </div>
             </div>

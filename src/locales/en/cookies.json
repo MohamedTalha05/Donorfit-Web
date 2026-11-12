@@ -1,0 +1,39 @@
+{
+  "banner": {
+    "ariaLabel": "Cookie consent banner",
+    "title": "Your Privacy & Cookie Preferences",
+    "text": "Donorfit uses essential cookies to ensure secure platform functionality. With your consent, we also use functional and privacy-focused analytics cookies to evaluate website traffic and optimize our fundraising resources. You can customize your preferences anytime.",
+    "manage": "Manage Preferences",
+    "rejectNonEssential": "Reject Non-Essential",
+    "acceptAll": "Accept All"
+  },
+  "dialog": {
+    "title": "Cookie Preferences Manager",
+    "closeAria": "Close preferences",
+    "introBefore": "We prioritize user privacy and comply strictly with the European Union GDPR and ePrivacy Directive. Choose which cookie categories you permit Donorfit to employ. Read our full",
+    "introLink": "Cookie Policy",
+    "introAfter": ".",
+    "alwaysActive": "Always Active",
+    "rejectAll": "Reject All Non-Essential",
+    "save": "Save Choices",
+    "acceptAll": "Accept All"
+  },
+  "categories": {
+    "necessary": {
+      "name": "Strictly Necessary Cookies",
+      "description": "Required for core platform security, session tokens, load balancing, and CSRF protection. Cannot be disabled."
+    },
+    "preferences": {
+      "name": "Functional & Preference Cookies",
+      "description": "Remembers your chosen language, country selection, and form completion state."
+    },
+    "analytics": {
+      "name": "Performance & Analytics Cookies",
+      "description": "Aggregated, privacy-respecting metrics to measure page performance and donation flow drop-off without storing IP addresses."
+    },
+    "marketing": {
+      "name": "Marketing & Outreach Cookies",
+      "description": "Allows us to assess our non-profit digital outreach campaigns and measure inbound demo inquiry channels."
+    }
+  }
+}

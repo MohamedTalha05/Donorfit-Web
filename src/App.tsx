@@ -11,6 +11,7 @@ import BookDemoModal from './components/BookDemoModal.tsx';
 import GetStartedModal from './components/GetStartedModal.tsx';
 import CookieConsent from './components/CookieConsent.tsx';
 import SEOHead from './components/SEOHead.tsx';
+import { useT } from './i18n/index.tsx';
 
 import HomePage from './pages/HomePage.tsx';
 import ProductPage from './pages/ProductPage.tsx';
@@ -27,9 +28,16 @@ import PartnersPage from './pages/PartnersPage.tsx';
 import PricingPage from './pages/PricingPage.tsx';
 import LegalPage from './pages/LegalPage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
+import MembershipPage from './pages/products/MembershipPage.tsx';
+import SponsorshipPage from './pages/products/SponsorshipPage.tsx';
+import WaterWellPage from './pages/products/WaterWellPage.tsx';
+import QurbaniPage from './pages/products/QurbaniPage.tsx';
+import SchoolManagementPage from './pages/products/SchoolManagementPage.tsx';
+import MoneyPoolPage from './pages/products/MoneyPoolPage.tsx';
 
 function AppContent() {
   const { currentRoute } = useModal();
+  const t = useT('nav');
 
   const renderCurrentPage = () => {
     // 1. Homepage
@@ -38,10 +46,13 @@ function AppContent() {
     }
 
     // 2. Product Landing Pages
-    if (currentRoute === '/sponsorship') return <ProductPage slug="sponsorship" />;
+    if (currentRoute === '/sponsorship') return <SponsorshipPage />;
     if (currentRoute === '/orphan-sponsorship') return <ProductPage slug="orphan-sponsorship" />;
-    if (currentRoute === '/money-pool') return <ProductPage slug="money-pool" />;
-    if (currentRoute === '/membership') return <ProductPage slug="membership" />;
+    if (currentRoute === '/money-pool') return <MoneyPoolPage />;
+    if (currentRoute === '/membership') return <MembershipPage />;
+    if (currentRoute === '/water-well') return <WaterWellPage />;
+    if (currentRoute === '/qurbani') return <QurbaniPage />;
+    if (currentRoute === '/school-management') return <SchoolManagementPage />;
     if (currentRoute === '/donations') return <ProductPage slug="donations" />;
     if (currentRoute === '/recurring-giving') return <ProductPage slug="recurring-giving" />;
     if (currentRoute === '/donor-management') return <ProductPage slug="donor-management" />;
@@ -93,7 +104,7 @@ function AppContent() {
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 z-50 px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg shadow-lg focus:outline-hidden"
       >
-        Skip to main content
+        {t('skipToContent')}
       </a>
 
       <Navbar />

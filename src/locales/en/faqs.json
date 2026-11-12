@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "question": "What is Donorfit and who is it designed for?",
+      "answer": "Donorfit is fundraising and donor management software built specifically for non-governmental organizations (NGOs), registered charities, foundations, sponsorship initiatives, and membership associations. It provides a connected platform to manage online giving, recurring donations, sponsorships, group pools, memberships, and donor records.",
+      "category": "General",
+      "categoryKey": "general"
+    },
+    {
+      "question": "Is Donorfit an application for donors to log in, or is it a platform for organizations?",
+      "answer": "Donorfit is an organizational technology platform that powers your nonprofit’s public donation forms, campaign pages, and back-office fundraising operations. Donors receive seamless, branded checkout flows and secure self-service links without needing complex password accounts.",
+      "category": "General",
+      "categoryKey": "general"
+    },
+    {
+      "question": "Where is Donorfit data hosted and is it GDPR-compliant?",
+      "answer": "All Donorfit systems and databases are hosted exclusively within the European Union in ISO/IEC 27001-certified data facilities. We operate under strict compliance with the General Data Protection Regulation (GDPR), enforce encryption at rest and in transit, and never sell or transfer donor data.",
+      "category": "Security & Compliance",
+      "categoryKey": "security"
+    },
+    {
+      "question": "Which payment methods does Donorfit support?",
+      "answer": "Donorfit supports native European payment methods including SEPA Direct Debit (single and recurring), Credit and Debit Cards (Visa, Mastercard, American Express), Apple Pay, Google Pay, PayPal, iDEAL (Netherlands), Bancontact (Belgium), and Sofort/Klarna.",
+      "category": "Payments & Banking",
+      "categoryKey": "payments"
+    },
+    {
+      "question": "How does Donorfit handle charitable tax receipts in Europe?",
+      "answer": "Donorfit automatically generates legally compliant charitable donation tax receipts according to national regulations, including the German Geldzuwendungsbestätigung, the French Reçu Fiscal, and UK Gift Aid documentation. Receipts can be issued instantly per transaction or aggregated as an annual statement.",
+      "category": "Payments & Banking",
+      "categoryKey": "payments"
+    },
+    {
+      "question": "How long does it take to implement Donorfit for our organization?",
+      "answer": "Most charities can begin accepting donations and launch their first campaigns within 1 to 2 business days. Organizations migrating extensive historical donor databases, sponsorship records, or existing SEPA mandates typically complete full onboarding within 1 to 2 weeks with our dedicated support.",
+      "category": "Implementation",
+      "categoryKey": "implementation"
+    },
+    {
+      "question": "Can we embed Donorfit giving widgets into our existing website?",
+      "answer": "Yes. Donorfit forms and campaign widgets can be embedded cleanly into any existing website CMS including WordPress, Webflow, Squarespace, Drupal, Typo3, or custom React/HTML sites.",
+      "category": "Implementation",
+      "categoryKey": "implementation"
+    },
+    {
+      "question": "Can we export our donor data at any time?",
+      "answer": "Yes. You retain 100% ownership of your donor records and financial history. You can export complete CSV, Excel, or JSON data packages at any time with zero lock-in.",
+      "category": "Implementation",
+      "categoryKey": "implementation"
+    },
+    {
+      "question": "How does Donorfit pricing work?",
+      "answer": "The all-in-one Donorfit fundraising platform is €0 per month, with no platform fee and no transaction fee. Donors can optionally cover payment processing fees so your organization receives the full amount. Specialised add-ons such as CRM, recurring subscriptions, sponsorship, membership, school and Qurbani are purchased separately — see our Pricing page or contact our team for details.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    }
+  ],
+  "categories": {
+    "all": "All",
+    "general": "General",
+    "security": "Security & Compliance",
+    "payments": "Payments & Banking",
+    "implementation": "Implementation",
+    "pricing": "Pricing"
+  },
+  "page": {
+    "kicker": "Support & Documentation",
+    "title": "Frequently Asked Questions",
+    "intro": "Everything you need to know about Donorfit’s platform, SEPA direct debits, security architecture, data migration, and pricing.",
+    "searchPlaceholder": "Filter questions...",
+    "empty": "No questions found matching your query.",
+    "categoryLabel": "Category: {{category}}",
+    "cta": {
+      "title": "Still have questions?",
+      "text": "Our team is always happy to discuss specific banking setups, migration from legacy tools, or complex sponsorship workflows.",
+      "button": "Contact Our Support Desk"
+    }
+  }
+}

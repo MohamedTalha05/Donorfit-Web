@@ -1,0 +1,195 @@
+{
+  "guides": {
+    "items": [
+      {
+        "id": "european-ngo-sepa-guide",
+        "title": "The European NGO Direct Debit Playbook",
+        "category": "Payments & Banking",
+        "description": "A comprehensive, step-by-step technical and operational manual for setting up compliant SEPA Direct Debit collections, managing mandates, and preventing donor churn across the EU.",
+        "format": "PDF Guide & Checklist",
+        "pageCount": 28,
+        "keyTopics": [
+          "SEPA Mandate Legality",
+          "Pre-Notification Rules",
+          "XML CAMT / pain.008 Formats",
+          "Payday Scheduling Strategies",
+          "Failed Charge Recovery"
+        ]
+      },
+      {
+        "id": "child-sponsorship-safeguarding-manual",
+        "title": "Safeguarding and Data Protection in Sponsorship Programs",
+        "category": "Sponsorship & Safeguarding",
+        "description": "How humanitarian nonprofits can balance emotional, impactful sponsor storytelling with strict international child protection frameworks and GDPR requirements.",
+        "format": "Operational Framework",
+        "pageCount": 34,
+        "keyTopics": [
+          "Dignity-First Media Guidelines",
+          "Role-Based Data Access",
+          "Parental/Guardian Consent Logs",
+          "Moderated Sponsor Correspondence",
+          "Audit Trails"
+        ]
+      },
+      {
+        "id": "nonprofit-tax-receipting-compendium",
+        "title": "Cross-Border European Charitable Tax Receipting",
+        "category": "Legal & Tax Compliance",
+        "description": "An essential reference guide detailing statutory tax deduction certificate rules across Germany, France, the UK, Austria, Switzerland, and the Netherlands.",
+        "format": "Regulatory Compendium",
+        "pageCount": 22,
+        "keyTopics": [
+          "German Geldzuwendungsbestätigung",
+          "French Reçu Fiscal Cerfa 11580",
+          "UK Gift Aid Declarations",
+          "Single vs Annual Aggregated Receipts",
+          "Digital Signature Standards"
+        ]
+      },
+      {
+        "id": "fundraising-cohort-analytics-workbook",
+        "title": "The Non-Profit Cohort Retention & LTV Workbook",
+        "category": "Analytics & Strategy",
+        "description": "Practical formulas, Excel templates, and strategic frameworks for measuring donor acquisition cost (CAC), lifetime value (LTV), and multi-year retention curves.",
+        "format": "Strategic Workbook & Model",
+        "pageCount": 19,
+        "keyTopics": [
+          "Cohort Heatmap Construction",
+          "Involuntary vs Voluntary Churn",
+          "Channel ROI Comparison",
+          "Board Presentation Templates"
+        ]
+      }
+    ],
+    "ui": {
+      "kicker": "Operational Toolkits & Frameworks",
+      "title": "Comprehensive Fundraising Toolkits & Guides",
+      "intro": "In-depth operational manuals, statutory compliance templates, and retention frameworks prepared by European nonprofit specialists.",
+      "pages": "{{count}} Pages",
+      "keyTopics": "Key Topics Covered:",
+      "freeToolkit": "Free PDF Toolkit for NGOs",
+      "download": "Download Guide",
+      "modal": {
+        "label": "Download Resource",
+        "successTitle": "Guide Delivered",
+        "deliveredBefore": "We have dispatched ",
+        "deliveredMiddle": " to ",
+        "deliveredAfter": ". You can also download the PDF directly below:",
+        "save": "Save PDF Document",
+        "simulatedAlert": "Simulated download: PDF successfully generated for non-profit study.",
+        "prompt": "Enter your work email to receive the full toolkit and implementation checklist:",
+        "emailLabel": "Work / Non-Profit Email *",
+        "emailPlaceholder": "director@charity-initiative.org",
+        "note": "Instant access · No spam",
+        "submit": "Receive PDF Guide"
+      }
+    }
+  },
+  "caseStudies": {
+    "items": [
+      {
+        "id": "hope-horizon-europe",
+        "organization": "Horizon Aid International",
+        "type": "International Humanitarian NGO",
+        "location": "Munich & Geneva",
+        "headline": "Transitioning 4,200 Monthly Donors to Automated SEPA and Reducing Churn by 42%",
+        "summary": "Horizon Aid coordinates emergency medical aid and sustainable water infrastructure. Before Donorfit, they managed thousands of individual bank transfers across multiple European countries using disparate spreadsheets.",
+        "results": [
+          {
+            "metric": "42%",
+            "label": "Reduction in Recurring Churn"
+          },
+          {
+            "metric": "18 hrs",
+            "label": "Admin Time Saved Weekly"
+          },
+          {
+            "metric": "100%",
+            "label": "GDPR & SEPA Compliance"
+          }
+        ],
+        "challenge": "Managing over 4,000 monthly donors across Germany, Austria, and Switzerland via manual bank reconciliations resulted in unrecovered failed payments, lost records, and significant administrative fatigue.",
+        "solution": "Implemented Donorfit’s Recurring Giving and Donor Management modules with automated SEPA Direct Debit handling, automated dunning notifications, and localized tax receipting.",
+        "outcome": "Eliminated manual CSV reconciliation, reduced involuntary donor churn to under 2.8%, and enabled staff to focus on critical field coordination in East Africa.",
+        "quote": {
+          "text": "Donorfit brought calm and precision to our operations. Our monthly recurring giving is predictable, and our supporters love the seamless digital experience.",
+          "author": "Katharina Lindemann",
+          "role": "Operations & Finance Director"
+        }
+      },
+      {
+        "id": "kinderzukunft-stiftung",
+        "organization": "Kinderbrücke Foundation",
+        "type": "Child Welfare & Sponsorship Charity",
+        "location": "Frankfurt, Germany",
+        "headline": "Scaling Orphan & Child Sponsorship Programs While Upholding Strict Safeguarding Standards",
+        "summary": "Dedicated to providing educational scholarships and medical checkups for orphaned children, Kinderbrücke required an audit-compliant platform to manage sponsor relationships with complete dignity.",
+        "results": [
+          {
+            "metric": "1,850+",
+            "label": "Active Child Sponsorships"
+          },
+          {
+            "metric": "88%",
+            "label": "Multi-Year Retention Rate"
+          },
+          {
+            "metric": "Zero",
+            "label": "Manual PDF Certificates"
+          }
+        ],
+        "challenge": "Annual progress report cards and school updates were being formatted manually in Word documents, taking caseworkers months to deliver while risking data privacy breaches.",
+        "solution": "Adopted Donorfit Orphan Sponsorship and Donor Management, enabling encrypted field casework uploads and automated sponsor progress notifications.",
+        "outcome": "Delivered school updates to sponsors in days rather than months, achieved an 88% sponsor retention rate, and met all European child protection privacy criteria.",
+        "quote": {
+          "text": "Our sponsors feel genuinely connected to the children they support, and our caseworkers in the field spend their time on care rather than document reformatting.",
+          "author": "Dr. Michael Brandt",
+          "role": "Managing Trustee"
+        }
+      },
+      {
+        "id": "alliance-sustainable-action",
+        "organization": "European Association for Clean Waters",
+        "type": "Membership & Environmental NGO",
+        "location": "Brussels, Belgium",
+        "headline": "Automating Annual Membership Renewals and Streamlining General Assembly Roll Calls",
+        "summary": "Representing over 650 institutional and individual environmental members across the EU, this association struggled with delayed dues payments and out-of-date voter registries.",
+        "results": [
+          {
+            "metric": "78%",
+            "label": "Decrease in Overdue Dues"
+          },
+          {
+            "metric": "650+",
+            "label": "Active Verified Members"
+          },
+          {
+            "metric": "100%",
+            "label": "Voting Roll Accuracy"
+          }
+        ],
+        "challenge": "Annual membership dues required paper invoicing and weeks of phone follow-ups, causing severe delays in establishing official voter eligibility for general assemblies.",
+        "solution": "Deployed Donorfit Membership Management with automated annual SEPA direct debit renewals and self-service member accounts.",
+        "outcome": "Over 85% of members transitioned to automated direct debits, delinquent dues plummeted, and assembly roll calls are now compiled with one click.",
+        "quote": {
+          "text": "Chasing membership dues was the bane of our administrative calendar. Donorfit completely eliminated the problem in a single renewal cycle.",
+          "author": "Sophie Dumont",
+          "role": "Secretary General"
+        }
+      }
+    ],
+    "ui": {
+      "kicker": "Proven Impact & Case Studies",
+      "title": "How European Nonprofits Scale Impact with Donorfit",
+      "intro": "Real stories of humanitarian agencies, child welfare foundations, and membership associations transforming their fundraising and donor stewardship.",
+      "challenge": "The Challenge",
+      "solution": "The Solution",
+      "outcome": "The Outcome",
+      "cta": {
+        "title": "Ready to achieve similar outcomes for your organization?",
+        "text": "Book a tailored consultation with our European non-profit technology team.",
+        "button": "Schedule a Demo"
+      }
+    }
+  }
+}

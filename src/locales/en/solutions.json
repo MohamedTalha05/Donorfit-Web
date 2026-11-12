@@ -1,0 +1,486 @@
+{
+  "items": {
+    "ngos": {
+      "targetAudience": "For NGOs",
+      "audienceName": "NGOs",
+      "h1": "Fundraising Technology Built for Non-Governmental Organizations",
+      "subheadline": "Scale cross-border operations, manage international sponsorships, and maintain strict European data compliance in one unified system.",
+      "heroKicker": "Scalable Operations for Non-Governmental Organizations",
+      "overview": "Non-governmental organizations operate in high-stakes environments balancing fieldwork with donor accountability. Donorfit provides the infrastructure to streamline contributions across multiple countries, languages, and currencies.",
+      "keyChallenges": [
+        {
+          "title": "Cross-Border Multi-Currency Giving",
+          "description": "Collecting contributions across the EU, UK, and global supporters without losing massive percentages to currency conversions."
+        },
+        {
+          "title": "Field Worker Data Coordination",
+          "description": "Safely receiving project milestones and beneficiary updates from remote locations without risking data breaches."
+        },
+        {
+          "title": "High Scrutiny and Transparent Allocation",
+          "description": "Institutional donors and private supporters demand proof that every dollar or euro reached designated aid projects."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Multi-Currency & International Banking Rails",
+          "description": "Native SEPA Direct Debit, SWIFT reconciliation, and localized digital payment methods for global donors."
+        },
+        {
+          "title": "Role-Based Field Worker Access",
+          "description": "Safely collect field updates, progress photos, and community metrics with granular access controls."
+        },
+        {
+          "title": "Full Audit Trail & Ledger Separation",
+          "description": "Strict separation of program funds and transparent reporting ready for governmental and institutional grant audits."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "65%",
+          "label": "Admin Time Saved",
+          "context": "Across cross-border payment reconciliation and donor updates"
+        },
+        {
+          "metric": "99.4%",
+          "label": "Pledge Fulfillment Rate",
+          "context": "Using automated dunning and smart SEPA retry schedules"
+        },
+        {
+          "metric": "100%",
+          "label": "GDPR Compliance",
+          "context": "All data stored in European ISO 27001-certified data centers"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can our international offices use Donorfit in different languages?",
+          "answer": "Yes. Donorfit supports multi-lingual public donation forms and administrative workspaces for cross-border NGO teams."
+        },
+        {
+          "question": "How does Donorfit handle institutional grants alongside individual gifts?",
+          "answer": "Our reporting suite allows you to track both major institutional grant milestones and individual recurring donor streams side-by-side."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Sponsorship Management"
+        },
+        {
+          "name": "Donor Management CRM"
+        },
+        {
+          "name": "Reporting & Insights"
+        }
+      ]
+    },
+    "charities": {
+      "targetAudience": "For Charities",
+      "audienceName": "Charities",
+      "h1": "Fundraising Solutions Engineered for Registered Charities",
+      "subheadline": "Delight local and national donors, automate tax receipts, and increase recurring giving with purpose-built charity tools.",
+      "heroKicker": "Modern Giving for Registered Charities",
+      "overview": "Charities rely on the goodwill of compassionate individuals. Donorfit removes friction from the giving experience, making it simple for supporters to set up recurring pledges and receive compliant tax certificates automatically.",
+      "keyChallenges": [
+        {
+          "title": "Cumbersome Tax Receipt Management",
+          "description": "Manually issuing thousands of tax certificates at year-end consumes staff hours and causes donor complaints."
+        },
+        {
+          "title": "High Churn on Annual Appeals",
+          "description": "Relying exclusively on holiday appeals creates seasonal financial volatility."
+        },
+        {
+          "title": "Outdated Giving Pages with Low Conversion",
+          "description": "Slow, non-mobile donation forms cause potential donors to abandon their gifts halfway through."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Automated Tax Certificate Dispatch",
+          "description": "Compliant German Geldzuwendungsbestätigung, French Reçu Fiscal, and UK Gift Aid receipts issued with zero manual work."
+        },
+        {
+          "title": "Smart Monthly Giving Upsell",
+          "description": "Convert one-time donors into steady monthly champions during the initial donation flow."
+        },
+        {
+          "title": "Modern Mobile-First Checkout",
+          "description": "One-tap giving via Apple Pay, Google Pay, PayPal, and European direct debit."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "34%",
+          "label": "Higher Donation Conversion",
+          "context": "Compared to traditional multi-page charity checkout forms"
+        },
+        {
+          "metric": "82%",
+          "label": "Donors Covering Processing Fees",
+          "context": "Voluntarily opting in to cover payment transaction costs"
+        },
+        {
+          "metric": "1000s",
+          "label": "Hours Saved Annually",
+          "context": "Automating tax receipt distribution at tax season"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does Donorfit support UK Gift Aid or German tax receipts?",
+          "answer": "Yes. Donorfit supports official tax receipt generation tailored to specific European charity regulations, including German Spendenbescheinigung and UK Gift Aid declarations."
+        },
+        {
+          "question": "Can we embed donation forms directly on our WordPress or Webflow site?",
+          "answer": "Yes. Donorfit provides clean embed snippets and iframe options that fit seamlessly into any CMS without redirecting donors off your domain."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Online Donations"
+        },
+        {
+          "name": "Recurring Giving"
+        },
+        {
+          "name": "Campaign Management"
+        }
+      ]
+    },
+    "foundations": {
+      "targetAudience": "For Foundations",
+      "audienceName": "Foundations",
+      "h1": "Transparent Fund Stewardship for Philanthropic Foundations",
+      "subheadline": "Organize endowment initiatives, track restricted donor allocations, and provide spotless accountability to trustees and public authorities.",
+      "heroKicker": "Governance & Fund Stewardship for Foundations",
+      "overview": "Foundations and public trusts require rigorous governance, transparent allocation tracking, and impeccable financial documentation. Donorfit delivers institutional-grade security and clarity for foundation boards.",
+      "keyChallenges": [
+        {
+          "title": "Strict Fund Restriction Audits",
+          "description": "Ensuring designated endowment gifts cannot be inadvertently mingled with unrestricted administrative accounts."
+        },
+        {
+          "title": "Trustee and Board Reporting",
+          "description": "Compiling quarterly governance packets with verified capital preservation and project disbursement figures."
+        },
+        {
+          "title": "Major Philanthropist Stewardship",
+          "description": "Maintaining discreet, high-touch communication histories with principal benefactors."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Earmarked & Restricted Ledger Tracking",
+          "description": "Tag each endowment or fund with strict legal restriction flags to ensure audit-compliant disbursements."
+        },
+        {
+          "title": "Executive Board Analytics",
+          "description": "Generate high-level visual PDF briefs detailing fund growth, disbursement ratios, and donor retention."
+        },
+        {
+          "title": "Confidential Benefactor Profiles",
+          "description": "Encrypted donor files with restricted permissions for foundation directors and principal gift officers."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "100%",
+          "label": "Audit-Ready Separation",
+          "context": "Clear categorization of restricted and unrestricted endowment capital"
+        },
+        {
+          "metric": "1-Click",
+          "label": "Board Brief Generation",
+          "context": "Instant compilation of quarterly trustee performance reports"
+        },
+        {
+          "metric": "ISO 27001",
+          "label": "Hosting Standard",
+          "context": "Enterprise-grade European server infrastructure and data isolation"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we manage multiple separate endowment funds in one Donorfit account?",
+          "answer": "Yes. Foundations can establish dedicated sub-funds and capital accounts with distinct financial reporting and custom allocation goals."
+        },
+        {
+          "question": "Can our board members view read-only dashboards?",
+          "answer": "Yes. Donorfit supports read-only auditor and trustee access roles with zero risk of accidental data modification."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Reporting & Insights"
+        },
+        {
+          "name": "Donor Management CRM"
+        },
+        {
+          "name": "Money Pool & Group Giving"
+        }
+      ]
+    },
+    "sponsorship-organizations": {
+      "targetAudience": "For Sponsorship Organizations",
+      "audienceName": "Sponsorship Organizations",
+      "h1": "Complete Infrastructure for Child & Community Sponsorship Programs",
+      "subheadline": "Connect sponsors with beneficiaries, track recurring monthly contributions, and deliver dignified progress reports at scale.",
+      "heroKicker": "End-to-End Sponsorship Operations",
+      "overview": "Managing hundreds or thousands of ongoing sponsorships requires specialized software. Donorfit handles beneficiary safeguarding, automated recurring direct debit billing, and annual milestone reporting without manual spreadsheets.",
+      "keyChallenges": [
+        {
+          "title": "Beneficiary Allocation Confusion",
+          "description": "Tracking which sponsor is supporting which child or project across years of school transitions."
+        },
+        {
+          "title": "High Churn on Recurring Direct Debits",
+          "description": "Failed bank transfers and expired credit cards causing silent cancellations and interrupted beneficiary funding."
+        },
+        {
+          "title": "Dignified Content & Progress Delivery",
+          "description": "Gathering, reviewing, and dispatching progress reports, grades, and letters without exposing private child information."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Integrated Beneficiary-Sponsor Mapping",
+          "description": "Maintain strict 1:1 or 1:Many relationships with complete historical logs of past sponsors."
+        },
+        {
+          "title": "Automated European Direct Debit Handling",
+          "description": "Generate SEPA XML batches and connect directly to automated payment gateways with smart retries."
+        },
+        {
+          "title": "Digital Sponsor Update Portal",
+          "description": "Publish dignified, privacy-vetted updates, letters, and progress milestones directly to the sponsor’s private portal."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "72%",
+          "label": "Long-Term Retention",
+          "context": "Average multi-year sponsor retention achieved through automated updates"
+        },
+        {
+          "metric": "Zero",
+          "label": "Spreadsheet Errors",
+          "context": "Single source of truth replacing scattered Excel beneficiary files"
+        },
+        {
+          "metric": "48h",
+          "label": "Faster Update Turnaround",
+          "context": "Dispatching annual school report cards to thousands of sponsors"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can sponsors write messages to their sponsored children?",
+          "answer": "Yes. Donorfit includes an admin-moderated messaging portal where letters can be vetted by safeguarding coordinators before transmission."
+        },
+        {
+          "question": "What happens if a sponsor defaults on payment?",
+          "answer": "Donorfit alerts the team, initiates gentle automated retry reminders, and provides grace periods so children’s schooling is never suddenly interrupted."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Sponsorship Platform"
+        },
+        {
+          "name": "Orphan Sponsorship"
+        },
+        {
+          "name": "Recurring Giving"
+        }
+      ]
+    },
+    "membership-organizations": {
+      "targetAudience": "For Membership Organizations",
+      "audienceName": "Membership Organizations",
+      "h1": "Automated Membership Dues and Directory Management for Nonprofits",
+      "subheadline": "Organize member records, automate annual renewal billing, and facilitate member communications in one reliable system.",
+      "heroKicker": "Modern Association & Guild Management",
+      "overview": "Nonprofit associations, professional societies, and community leagues thrive on active membership. Donorfit eliminates the administrative headache of chasing annual dues and sending paper invoices.",
+      "keyChallenges": [
+        {
+          "title": "Unpaid Annual Membership Dues",
+          "description": "Volunteers and staff spending weeks emailing and phoning members whose dues are months overdue."
+        },
+        {
+          "title": "Outdated Member Contact Information",
+          "description": "Returned mail, bounced newsletters, and outdated corporate affiliations."
+        },
+        {
+          "title": "Complex Multi-Tier Fee Structures",
+          "description": "Handling varying rates for students, institutions, retired members, and corporate sponsors."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Automated Renewal Direct Debits",
+          "description": "SEPA B2C/B2B automated recurring renewals that collect annual fees without manual intervention."
+        },
+        {
+          "title": "Self-Service Member Accounts",
+          "description": "Members log in securely via magic link to update their postal address, download payment receipts, or change plans."
+        },
+        {
+          "title": "Voting & Assembly Roll Call Reports",
+          "description": "Instantly generate certified lists of members in good standing for statutory annual general meetings."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "78%",
+          "label": "Reduction in Late Dues",
+          "context": "When transitioning to automated recurring direct debit mandates"
+        },
+        {
+          "metric": "100%",
+          "label": "Accurate Assembly Rolls",
+          "context": "Real-time verification of active dues-paying voting members"
+        },
+        {
+          "metric": "15 min",
+          "label": "Average Onboarding Time",
+          "context": "From prospective member registration to dues authorization"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we collect dues once per year or monthly?",
+          "answer": "Yes. You can configure annual, quarterly, or monthly billing schedules with automatic recurring collections."
+        },
+        {
+          "question": "Can members download official proof of membership for tax purposes?",
+          "answer": "Yes. Self-service accounts allow members to download official annual membership fee deduction statements."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Membership Management"
+        },
+        {
+          "name": "Donor Management CRM"
+        },
+        {
+          "name": "Online Donations"
+        }
+      ]
+    },
+    "international-organizations": {
+      "targetAudience": "For International Organizations",
+      "audienceName": "International Organizations",
+      "h1": "Cross-Border Fundraising Infrastructure for International Aid Nonprofits",
+      "subheadline": "Unite global fundraising chapters, manage multiple currencies and legal entities, and ensure sovereign European data compliance.",
+      "heroKicker": "Global Aid & Cross-Border Governance",
+      "overview": "International aid agencies face complex operational demands across multiple jurisdictions. Donorfit provides unified data architecture with localized checkout experiences, multi-entity accounting, and strict compliance with EU and international standards.",
+      "keyChallenges": [
+        {
+          "title": "Multi-Entity Financial Consolidation",
+          "description": "Operating distinct legal entities in Germany, France, the UK, and Switzerland while maintaining central visibility."
+        },
+        {
+          "title": "Currency Fluctuation and High Transfer Fees",
+          "description": "Loss of critical aid funds when converting regional donor payments into central disaster relief funds."
+        },
+        {
+          "title": "International Data Sovereignty & GDPR",
+          "description": "Ensuring data gathered in Europe strictly adheres to GDPR while enabling global field coordination."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Multi-Entity & Chapter Management",
+          "description": "Manage distinct national fundraising branches with localized tax receipts, separate bank accounts, and central reporting."
+        },
+        {
+          "title": "Global Multi-Currency Rails",
+          "description": "Collect in EUR, GBP, USD, CHF, and regional currencies with real-time exchange reconciliation."
+        },
+        {
+          "title": "Strict EU Sovereign Cloud Hosting",
+          "description": "Guaranteed European server hosting, robust encryption, and full compliance with international humanitarian standards."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "12+",
+          "label": "Currencies Supported",
+          "context": "Accepting local payments across European and global corridors"
+        },
+        {
+          "metric": "Zero",
+          "label": "Data Transfer Violations",
+          "context": "Strict European data boundary guarantees and GDPR alignment"
+        },
+        {
+          "metric": "Real-Time",
+          "label": "Global Consolidated View",
+          "context": "Instant executive oversight across all regional branches"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can each national branch have its own bank account and branding?",
+          "answer": "Yes. Donorfit supports multi-entity configurations where different branches retain their own local bank routing, language, and legal footer."
+        },
+        {
+          "question": "How does Donorfit handle emergency disaster response spikes?",
+          "answer": "Our cloud architecture autoscales to process millions of requests during sudden humanitarian crisis appeals without downtime."
+        }
+      ],
+      "recommendedProducts": [
+        {
+          "name": "Campaign Management"
+        },
+        {
+          "name": "Sponsorship Platform"
+        },
+        {
+          "name": "Reporting & Insights"
+        }
+      ]
+    }
+  },
+  "ui": {
+    "notFound": {
+      "title": "Solution Not Found",
+      "text": "The requested audience solution could not be found.",
+      "button": "Return to Platform Home"
+    },
+    "hero": {
+      "getStarted": "Get Started {{audience}}",
+      "walkthrough": "Book an Audience Walkthrough",
+      "tailoredFor": "Tailored for {{audience}}"
+    },
+    "images": {
+      "field": "Humanitarian development workers collaborating with community members in field",
+      "gala": "Philanthropic gala reception and community leaders",
+      "office": "Dedicated nonprofit leadership team in modern European office"
+    },
+    "impact": {
+      "kicker": "Strategic Impact"
+    },
+    "challenges": {
+      "kicker": "Specific Pain Points",
+      "title": "Challenges addressed for {{audience}}",
+      "label": "Challenge 0{{n}}"
+    },
+    "features": {
+      "kicker": "Tailored Architecture",
+      "title": "Capabilities designed around your operational flow"
+    },
+    "products": {
+      "kicker": "Recommended Products",
+      "title": "Recommended modules for {{audience}}",
+      "explore": "Explore dedicated specifications & workflows →"
+    },
+    "faqs": {
+      "kicker": "Audience Questions",
+      "title": "Common questions {{audience}}"
+    }
+  }
+}

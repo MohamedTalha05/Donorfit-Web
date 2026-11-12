@@ -1,0 +1,168 @@
+{
+  "guides": {
+    "items": [
+      {
+        "id": "european-ngo-sepa-guide",
+        "title": "Das Lastschrift-Handbuch für europäische NGOs",
+        "category": "Zahlungen & Banking",
+        "description": "Ein umfassendes technisches und organisatorisches Schritt-für-Schritt-Handbuch, um rechtskonforme SEPA-Lastschrifteinzüge einzurichten, Mandate zu verwalten und die Abwanderung von Spender:innen in der gesamten EU zu verhindern.",
+        "format": "PDF-Leitfaden & Checkliste",
+        "pageCount": 28,
+        "keyTopics": [
+          "Rechtsgültigkeit von SEPA-Mandaten",
+          "Regeln zur Vorabankündigung (Pre-Notification)",
+          "XML-Formate CAMT / pain.008",
+          "Einzugstermine rund um den Zahltag",
+          "Rückgewinnung fehlgeschlagener Einzüge"
+        ]
+      },
+      {
+        "id": "child-sponsorship-safeguarding-manual",
+        "title": "Kinderschutz und Datenschutz in Patenschaftsprogrammen",
+        "category": "Patenschaften & Kinderschutz",
+        "description": "Wie humanitäre Organisationen bewegendes, wirkungsvolles Storytelling für Pat:innen mit strengen internationalen Kinderschutzstandards und den Anforderungen der DSGVO in Einklang bringen.",
+        "format": "Organisatorisches Rahmenwerk",
+        "pageCount": 34,
+        "keyTopics": [
+          "Richtlinien für würdevolle Bildsprache",
+          "Rollenbasierter Datenzugriff",
+          "Protokolle zur Einwilligung von Eltern/Vormund",
+          "Moderierte Korrespondenz mit Pat:innen",
+          "Prüfpfade"
+        ]
+      },
+      {
+        "id": "nonprofit-tax-receipting-compendium",
+        "title": "Grenzüberschreitende Zuwendungsbestätigungen in Europa",
+        "category": "Recht & Steuern",
+        "description": "Ein unverzichtbares Nachschlagewerk zu den gesetzlichen Regeln für Zuwendungsbestätigungen in Deutschland, Frankreich, dem Vereinigten Königreich, Österreich, der Schweiz und den Niederlanden.",
+        "format": "Regulatorisches Kompendium",
+        "pageCount": 22,
+        "keyTopics": [
+          "Deutsche Geldzuwendungsbestätigung",
+          "Französischer Reçu Fiscal Cerfa 11580",
+          "Gift-Aid-Erklärungen (Vereinigtes Königreich)",
+          "Einzel- vs. Sammelbestätigungen",
+          "Standards für digitale Signaturen"
+        ]
+      },
+      {
+        "id": "fundraising-cohort-analytics-workbook",
+        "title": "Das Arbeitsbuch zu Kohortenbindung & LTV für gemeinnützige Organisationen",
+        "category": "Analysen & Strategie",
+        "description": "Praxisnahe Formeln, Excel-Vorlagen und strategische Rahmenwerke zur Messung von Akquisekosten (CAC), Lifetime Value (LTV) und mehrjährigen Bindungskurven von Spender:innen.",
+        "format": "Strategisches Arbeitsbuch & Modell",
+        "pageCount": 19,
+        "keyTopics": [
+          "Aufbau von Kohorten-Heatmaps",
+          "Unfreiwillige vs. freiwillige Abwanderung",
+          "ROI-Vergleich nach Kanälen",
+          "Vorlagen für Präsentationen vor dem Vorstand"
+        ]
+      }
+    ],
+    "ui": {
+      "kicker": "Praxis-Toolkits & Rahmenwerke",
+      "title": "Umfassende Fundraising-Toolkits & Leitfäden",
+      "intro": "Ausführliche Praxishandbücher, Vorlagen zur Einhaltung gesetzlicher Vorgaben und Rahmenwerke zur Spenderbindung – erstellt von Fachleuten für europäische gemeinnützige Organisationen.",
+      "pages": "{{count}} Seiten",
+      "keyTopics": "Behandelte Themen:",
+      "freeToolkit": "Kostenloses PDF-Toolkit für NGOs",
+      "download": "Leitfaden herunterladen",
+      "modal": {
+        "label": "Ressource herunterladen",
+        "successTitle": "Leitfaden versendet",
+        "deliveredBefore": "Wir haben ",
+        "deliveredMiddle": " an ",
+        "deliveredAfter": " gesendet. Sie können das PDF auch direkt hier herunterladen:",
+        "save": "PDF speichern",
+        "simulatedAlert": "Simulierter Download: PDF für die Studie erfolgreich erstellt.",
+        "prompt": "Geben Sie Ihre berufliche E-Mail-Adresse ein, um das vollständige Toolkit und die Checkliste zur Umsetzung zu erhalten:",
+        "emailLabel": "Berufliche E-Mail-Adresse *",
+        "emailPlaceholder": "leitung@ihre-organisation.de",
+        "note": "Sofortiger Zugriff · Kein Spam",
+        "submit": "PDF-Leitfaden anfordern"
+      }
+    }
+  },
+  "caseStudies": {
+    "items": [
+      {
+        "id": "hope-horizon-europe",
+        "organization": "Horizon Aid International",
+        "type": "Internationale humanitäre NGO",
+        "location": "München & Genf",
+        "headline": "4.200 monatliche Spender:innen auf automatisierte SEPA-Lastschrift umgestellt – und die Abwanderung um 42 % gesenkt",
+        "summary": "Horizon Aid koordiniert medizinische Nothilfe und nachhaltige Wasserinfrastruktur. Vor Donorfit verwaltete die Organisation Tausende Einzelüberweisungen aus mehreren europäischen Ländern in verstreuten Tabellen.",
+        "results": [
+          { "metric": "42 %", "label": "Weniger Abwanderung bei regelmäßigen Spenden" },
+          { "metric": "18 Std.", "label": "Weniger Verwaltungsaufwand pro Woche" },
+          { "metric": "100 %", "label": "DSGVO- & SEPA-Konformität" }
+        ],
+        "challenge": "Über 4.000 monatliche Spender:innen in Deutschland, Österreich und der Schweiz wurden per manuellem Bankabgleich verwaltet. Die Folge: nicht eingeholte Fehlzahlungen, verlorene Datensätze und eine erhebliche Belastung des Verwaltungsteams.",
+        "solution": "Einführung der Donorfit-Module für regelmäßiges Spenden und Spenderverwaltung mit automatisierter SEPA-Lastschriftabwicklung, automatischen Zahlungserinnerungen und lokalisierten Zuwendungsbestätigungen.",
+        "outcome": "Der manuelle CSV-Abgleich entfiel, die unfreiwillige Abwanderung sank auf unter 2,8 %, und das Team kann sich auf die wichtige Koordination der Einsätze in Ostafrika konzentrieren.",
+        "quote": {
+          "text": "Donorfit hat Ruhe und Präzision in unsere Abläufe gebracht. Unsere monatlichen Spenden sind planbar, und unsere Unterstützer:innen schätzen das reibungslose digitale Erlebnis.",
+          "author": "Katharina Lindemann",
+          "role": "Leiterin Operations & Finanzen"
+        }
+      },
+      {
+        "id": "kinderzukunft-stiftung",
+        "organization": "Kinderbrücke Foundation",
+        "type": "Kinderhilfs- & Patenschaftsorganisation",
+        "location": "Frankfurt, Deutschland",
+        "headline": "Waisen- und Kinderpatenschaften ausbauen – bei konsequent hohen Kinderschutzstandards",
+        "summary": "Kinderbrücke ermöglicht Waisenkindern Bildungsstipendien und medizinische Untersuchungen und benötigte eine prüfungssichere Plattform, um die Beziehungen zu Pat:innen mit größtmöglicher Würde zu gestalten.",
+        "results": [
+          { "metric": "1.850+", "label": "Aktive Kinderpatenschaften" },
+          { "metric": "88 %", "label": "Mehrjährige Bindungsquote" },
+          { "metric": "Null", "label": "Manuell erstellte PDF-Bescheinigungen" }
+        ],
+        "challenge": "Jährliche Fortschrittsberichte und Schulupdates wurden manuell in Word-Dokumenten formatiert. Das kostete die Fallbetreuer:innen Monate und barg Datenschutzrisiken.",
+        "solution": "Einführung des Donorfit-Moduls für Waisenpatenschaften und der Spenderverwaltung – mit verschlüsseltem Hochladen von Falldaten vor Ort und automatischen Fortschrittsbenachrichtigungen für Pat:innen.",
+        "outcome": "Schulupdates erreichen Pat:innen nun in Tagen statt Monaten, die Bindungsquote liegt bei 88 %, und alle europäischen Datenschutzkriterien für den Kinderschutz werden erfüllt.",
+        "quote": {
+          "text": "Unsere Pat:innen fühlen sich den Kindern, die sie unterstützen, wirklich verbunden – und unsere Fallbetreuer:innen vor Ort verbringen ihre Zeit mit Betreuung statt mit dem Umformatieren von Dokumenten.",
+          "author": "Dr. Michael Brandt",
+          "role": "Geschäftsführender Vorstand"
+        }
+      },
+      {
+        "id": "alliance-sustainable-action",
+        "organization": "European Association for Clean Waters",
+        "type": "Mitgliederverband & Umwelt-NGO",
+        "location": "Brüssel, Belgien",
+        "headline": "Jährliche Beitragsverlängerungen automatisiert und Stimmlisten für die Generalversammlung vereinfacht",
+        "summary": "Der Verband vertritt über 650 institutionelle und individuelle Mitglieder aus dem Umweltbereich in der gesamten EU und kämpfte mit verspäteten Beitragszahlungen und veralteten Wählerverzeichnissen.",
+        "results": [
+          { "metric": "78 %", "label": "Weniger überfällige Beiträge" },
+          { "metric": "650+", "label": "Aktive, verifizierte Mitglieder" },
+          { "metric": "100 %", "label": "Korrekte Stimmlisten" }
+        ],
+        "challenge": "Jahresbeiträge erforderten Papierrechnungen und wochenlanges Nachtelefonieren. Dadurch verzögerte sich die offizielle Feststellung der Stimmberechtigung für die Generalversammlungen erheblich.",
+        "solution": "Einführung der Donorfit-Mitgliederverwaltung (Membership) mit automatischer jährlicher Verlängerung per SEPA-Lastschrift und Self-Service-Konten für Mitglieder.",
+        "outcome": "Über 85 % der Mitglieder sind auf automatische Lastschrift umgestiegen, überfällige Beiträge gingen drastisch zurück, und Stimmlisten für die Versammlung entstehen jetzt mit einem Klick.",
+        "quote": {
+          "text": "Das Hinterherlaufen hinter Mitgliedsbeiträgen war der Fluch unseres Verwaltungskalenders. Donorfit hat das Problem innerhalb eines einzigen Verlängerungszyklus vollständig gelöst.",
+          "author": "Sophie Dumont",
+          "role": "Generalsekretärin"
+        }
+      }
+    ],
+    "ui": {
+      "kicker": "Nachweisbare Wirkung & Fallstudien",
+      "title": "Wie europäische gemeinnützige Organisationen ihre Wirkung mit Donorfit steigern",
+      "intro": "Echte Geschichten von humanitären Hilfsorganisationen, Kinderhilfsstiftungen und Mitgliederverbänden, die ihr Fundraising und ihre Spenderbetreuung neu aufgestellt haben.",
+      "challenge": "Die Herausforderung",
+      "solution": "Die Lösung",
+      "outcome": "Das Ergebnis",
+      "cta": {
+        "title": "Bereit für ähnliche Ergebnisse in Ihrer Organisation?",
+        "text": "Vereinbaren Sie eine persönliche Beratung mit unserem Team für Non-Profit-Technologie in Europa.",
+        "button": "Demo vereinbaren"
+      }
+    }
+  }
+}

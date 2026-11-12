@@ -1,0 +1,588 @@
+{
+  "pages": {
+    "membership": {
+      "name": "Membership",
+      "navDescription": "Tarife, Anmeldung, Beiträge und Verlängerungen",
+      "seo": {
+        "title": "Mitgliederverwaltung für Vereine & gemeinnützige Organisationen | Donorfit",
+        "description": "Mitglieder registrieren, Mitgliedschaftstarife einrichten, Beiträge per SEPA-Lastschrift oder Karte einziehen und Verlängerungen automatisieren – alles in einem Arbeitsbereich für Vereine und gemeinnützige Organisationen."
+      },
+      "headline": "Mitgliederverwaltung für Ihre Organisation – ganz einfach.",
+      "subheadline": "Registrieren Sie Mitglieder, richten Sie Tarife und Kategorien ein, ziehen Sie Beiträge ein und steuern Sie Verlängerungen in einem übersichtlichen Arbeitsbereich – damit Ihr Team keinen Beiträgen mehr hinterherlaufen muss.",
+      "intro": {
+        "title": "Ein Ort für alle Mitglieder, Tarife und Zahlungen",
+        "body": "Donorfit Membership ersetzt Papierformulare, Rechnungstabellen und Erinnerungs-E-Mails durch einen einzigen Mitgliederdatensatz. Mitglieder melden sich online an, wählen ihren Tarif und erteilen die Einzugsermächtigung; Ihr Team sieht, wer aktiv ist, wessen Beitrag fällig ist und wer eine Erinnerung braucht."
+      },
+      "problems": [
+        {
+          "problem": "Jahresbeiträge werden mühsam per Rechnung und Erinnerungs-E-Mail eingefordert.",
+          "solution": "Wiederkehrender Einzug per SEPA-Lastschrift oder Karte erhebt die Beiträge automatisch – Erinnerungen zur Verlängerung werden für Sie verschickt."
+        },
+        {
+          "problem": "Mitgliederdaten liegen in mehreren Tabellen und sind schnell veraltet.",
+          "solution": "Mitglieder aktualisieren ihre Kontaktdaten selbst im Self-Service-Portal, sodass jeder Datensatz aktuell bleibt."
+        },
+        {
+          "problem": "Tarife für Studierende, Familien und Organisationen sind schwer zu überblicken.",
+          "solution": "Richten Sie beliebig viele Mitgliedschaftsstufen ein – jede mit eigenem Beitrag und eigenem Verlängerungszyklus."
+        }
+      ],
+      "features": [
+        { "title": "Mitgliederanmeldung", "description": "Online-Anmeldeformulare mit individuellen Antragsfeldern und den Unterlagen, die Ihre Organisation benötigt." },
+        { "title": "Tarife und Kategorien", "description": "Standard-, Studierenden-, Senioren-, Familien-, Organisations- oder Fördertarife – jährlich, monatlich oder auf Lebenszeit." },
+        { "title": "Mitgliederdatensätze", "description": "Kontaktdaten, Tarif, Eintrittsdatum, Status und Zahlungshistorie gebündelt in einem Profil." },
+        { "title": "Beitragseinzug", "description": "SEPA-Lastschriftmandate (Basis- und Firmenlastschrift) und Kartenzahlung, mit automatischem erneutem Einzug bei fehlgeschlagenen Zahlungen." },
+        { "title": "Verlängerungsabläufe", "description": "Automatische Erinnerungen zur Verlängerung, Aktualisierung der Zahlungsart und Bestätigungen." },
+        { "title": "Verzeichnis und Segmente", "description": "Filtern Sie Mitglieder nach Status, Eintrittsdatum, Stimmberechtigung oder Regionalgruppe." }
+      ],
+      "steps": [
+        { "title": "Tarife anlegen", "description": "Legen Sie Mitgliedskategorien, Beiträge und Verlängerungszyklen fest." },
+        { "title": "Anmeldung öffnen", "description": "Teilen Sie Ihr Anmeldeformular; Mitglieder wählen einen Tarif und erteilen die Einzugsermächtigung." },
+        { "title": "Verlängerungen laufen lassen", "description": "Donorfit verschickt Erinnerungen, zieht Beiträge ein und hält jeden Status aktuell." }
+      ],
+      "benefits": [
+        { "title": "Weniger Aufwand beim Beitragseinzug", "description": "Wiederkehrende Abrechnung und Erinnerungen ersetzen manuelle Rechnungen und Nachfassen." },
+        { "title": "Verlässliche Mitgliederlisten", "description": "Aktuelle Listen aktiver, beitragszahlender Mitglieder für Mitgliederversammlungen und Gremienarbeit." },
+        { "title": "Ein besseres Mitgliedererlebnis", "description": "Sofortige Belege und ein einfaches Portal, in dem Mitglieder ihre Daten selbst verwalten." }
+      ],
+      "audiences": [
+        { "title": "Vereine und Verbände", "description": "Berufsverbände, Clubs und Kulturvereine mit Jahresbeiträgen." },
+        { "title": "Gemeinschaftsorganisationen", "description": "Moscheevorstände, Gemeindezentren und ehrenamtliche Gruppen mit festen Mitgliedern." },
+        { "title": "Gemeinnützige Organisationen mit Fördermitgliedschaft", "description": "Organisationen mit Freundeskreis-, Förder- oder Unterstützerprogrammen." }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir Mitgliedsbeiträge per SEPA-Lastschrift einziehen?",
+          "answer": "Ja. Donorfit erstellt rechtskonforme SEPA-Lastschriftmandate mit Vorabankündigung (Pre-Notification) und Bankdatei-Export und unterstützt außerdem Kartenzahlungen."
+        },
+        {
+          "question": "Können Firmen- und Einzelmitglieder unterschiedliche Beiträge zahlen?",
+          "answer": "Ja. Sie können beliebig viele Mitgliedschaftsstufen mit eigenen Preisen, Verlängerungszyklen und Antragsfeldern einrichten."
+        },
+        {
+          "question": "Können Mitglieder ihre Daten selbst aktualisieren?",
+          "answer": "Ja. Über das Self-Service-Portal können Mitglieder ihre Kontaktdaten aktualisieren, Beitragsbescheinigungen herunterladen und ihren Status verwalten."
+        },
+        {
+          "question": "Können wir sehen, wer bei unserer Mitgliederversammlung stimmberechtigt ist?",
+          "answer": "Ja. Filtern Sie Mitglieder nach Status und Stimmberechtigung, um eine aktuelle Liste aktiver, beitragszahlender Mitglieder zu erstellen."
+        }
+      ],
+      "cta": {
+        "title": "Alle Mitglieder an einem Ort",
+        "body": "Richten Sie Ihre Tarife ein und öffnen Sie die Anmeldung – Ihre ersten Verlängerungen laufen dann automatisch."
+      }
+    },
+    "sponsorship": {
+      "name": "Sponsorship",
+      "navDescription": "Pat:innen, Begünstigte und Beiträge",
+      "seo": {
+        "title": "Patenschaftsverwaltung für gemeinnützige Organisationen | Donorfit",
+        "description": "Verbinden Sie Pat:innen mit Schüler:innen, Begünstigten und Projekten, ziehen Sie regelmäßige Beiträge ein und teilen Sie Fortschrittsberichte – mit rollenbasiertem Schutz sensibler Daten."
+      },
+      "headline": "Patenschaften einfach und transparent verwalten.",
+      "subheadline": "Verbinden Sie Pat:innen mit Schüler:innen, Begünstigten und Projekten, behalten Sie jeden Beitrag im Blick und teilen Sie Fortschritte – ganz ohne Tabellen.",
+      "intro": {
+        "title": "Jede Patenschaft direkt mit der Person oder dem Projekt verknüpft",
+        "body": "Donorfit Sponsorship verknüpft Pat:innen, Begünstigte und regelmäßige Beiträge in einem System. Ihr Team weiß jederzeit, wer wen unterstützt, was bezahlt wurde und welches Update als Nächstes fällig ist – und die Pat:innen sehen, was sie bewirken."
+      },
+      "problems": [
+        {
+          "problem": "Patenschaftszuordnungen, Zahlungen und Updates sind über verschiedene Tabellen verstreut.",
+          "solution": "Jede Patenschaft verbindet Pat:in, Begünstigte:n oder Projekt und die zugehörigen Beiträge in einem Datensatz mit vollständiger Historie."
+        },
+        {
+          "problem": "Fehlgeschlagene oder abgelaufene Zahlungen fallen erst auf, wenn eine Patenschaft bereits ausgelaufen ist.",
+          "solution": "SEPA-Lastschrift und Kartenzahlungen mit Ablauferinnerungen und automatischem erneutem Einzug sorgen für lückenlose Unterstützung."
+        },
+        {
+          "problem": "Fortschrittsberichte für Pat:innen kosten Wochen an Handarbeit.",
+          "solution": "Versenden Sie Lernerfolge, Fortschrittsberichte und Dankesnachrichten über ein sicheres Patenportal."
+        }
+      ],
+      "features": [
+        { "title": "Bildungspatenschaften", "description": "Finanzieren Sie Schulgeld, Bücher und Schuluniformen und verfolgen Sie den Fortschritt der Schüler:innen über das Schuljahr." },
+        { "title": "Schülerpatenschaften", "description": "Würdevolle Schülerprofile mit integrierten Vorkehrungen für Einwilligung und Datenschutz." },
+        { "title": "Individuelle Initiativen", "description": "Unterstützen Sie eine Person, eine Familie oder ein Gemeinschaftsprojekt – als Einzel-, Mit- oder Sammelpatenschaft." },
+        { "title": "Pat:innen und Begünstigte verwalten", "description": "Patenprofile, Daten der Begünstigten und Zuordnungsverlauf mit Prüfprotokollen." },
+        { "title": "Beiträge nachverfolgen", "description": "Sehen Sie jeden Monatsbeitrag, jede ausgefallene Zahlung und jede Zuordnung pro Patenschaft." },
+        { "title": "Schutzmechanismen", "description": "Rollenbasierter Zugriff schützt sensible Informationen zu Begünstigten, Aufenthaltsorten und Identitätsdaten." }
+      ],
+      "steps": [
+        { "title": "Profile für Begünstigte oder Programme anlegen", "description": "Fügen Sie Schüler:innen, Begünstigte oder Projekte mit Einwilligungs- und Datenschutzeinstellungen hinzu." },
+        { "title": "Pat:innen wählen aus und sagen zu", "description": "Pat:innen wählen, wen oder was sie unterstützen, und richten eine Zahlung per SEPA oder Karte ein." },
+        { "title": "Fortschritte teilen, Unterstützung sichern", "description": "Versenden Sie Updates und Meilensteine, während die Beiträge automatisch weiterlaufen." }
+      ],
+      "benefits": [
+        { "title": "Transparente Zuordnung", "description": "Jeder Beitrag lässt sich von der Patenschaft bis zur vorgesehenen begünstigten Person oder Initiative nachverfolgen." },
+        { "title": "Stärkere Bindung der Pat:innen", "description": "Zeitnahe Updates und reibungsloses regelmäßiges Spenden halten Pat:innen eingebunden." },
+        { "title": "Geschützte Daten der Begünstigten", "description": "Mitarbeiter:innen vor Ort und Administrator:innen sehen nur, was ihre Rolle erlaubt." }
+      ],
+      "audiences": [
+        { "title": "Bildungsorganisationen", "description": "Organisationen, die Schulplätze, Stipendien und Lernmaterialien finanzieren." },
+        { "title": "Waisen- und Kinderhilfsprogramme", "description": "Gemeinnützige Organisationen mit Einzel- oder Mitpatenschaften." },
+        { "title": "NGOs in der Gemeindeentwicklung", "description": "Teams, die Patenschaften für Familien, Dörfer oder Gemeinschaftsprojekte vermitteln." }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir Einzel- und Sammelpatenschaften anbieten?",
+          "answer": "Ja. Donorfit unterstützt Einzelpatenschaften, Mitpatenschaften mit mehreren Pat:innen pro begünstigter Person sowie Patenschaften für Gemeinschaftsprojekte."
+        },
+        {
+          "question": "Wie werden sensible Daten von Begünstigten geschützt?",
+          "answer": "Die Daten sind durch fein abgestufte, rollenbasierte Berechtigungen geschützt: Mitarbeiter:innen vor Ort und Administrator:innen sehen nur, was sie benötigen, und unbefugte Exporte werden verhindert."
+        },
+        {
+          "question": "Unterstützt Sponsorship die SEPA-Lastschrift?",
+          "answer": "Ja. Pat:innen können per SEPA-Lastschrift oder Karte zahlen – die Mandate werden für Sie verwaltet, fehlgeschlagene Zahlungen automatisch erneut eingezogen."
+        },
+        {
+          "question": "Wie erhalten Pat:innen Fortschrittsberichte?",
+          "answer": "Ihr Team versendet Lernerfolge, Fortschrittsberichte und Dankesnachrichten über ein sicheres digitales Portal."
+        }
+      ],
+      "cta": {
+        "title": "Eine klare Verbindung für alle Pat:innen",
+        "body": "Legen Sie Ihre ersten Begünstigten an – Pat:innen können in wenigen Minuten zusagen."
+      }
+    },
+    "water-well": {
+      "name": "Water Well",
+      "navDescription": "Brunnenprojekte finanzieren und darüber berichten",
+      "seo": {
+        "title": "Fundraising-Software für Brunnenprojekte von NGOs & Hilfsorganisationen | Donorfit",
+        "description": "Erstellen Sie Brunnen-Kampagnen, sammeln Sie Spenden, zeigen Sie Spendenziel und Fortschritt und teilen Sie Projekt-Updates – von der Standortprüfung bis zur Übergabe."
+      },
+      "headline": "Sauberes Wasser in Reichweite – mit digitalem Fundraising.",
+      "subheadline": "Stellen Sie jedes Brunnenprojekt vor, sammeln Sie Spenden online und halten Sie Spender:innen auf dem Laufenden – von der ersten Standortprüfung bis zu dem Tag, an dem das Dorf Wasser schöpft.",
+      "intro": {
+        "title": "Jeder Brunnen wird zum Projekt, das Spender:innen verfolgen können",
+        "body": "Donorfit Water Well gibt jedem Brunnen eine eigene Kampagne: wo er liegt, was er kostet, wie viel bereits gesammelt wurde und wie weit der Bau ist. Spender:innen geben mit gutem Gefühl, weil sie genau sehen, was mit ihrem Geld entsteht."
+      },
+      "problems": [
+        {
+          "problem": "Brunnen-Spendenaufrufe bestehen nur aus einem Spenden-Button ohne Projektdetails.",
+          "solution": "Jeder Brunnen erhält eine Projektseite mit Standort, Zweck, Budget und Fotos."
+        },
+        {
+          "problem": "Spender:innen erfahren nie, was nach ihrer Spende passiert ist.",
+          "solution": "Veröffentlichen Sie Projekt-Updates, während der Brunnen von der Standortprüfung über Bohrung und Installation bis zur Übergabe voranschreitet."
+        },
+        {
+          "problem": "Es ist schwer zu erkennen, welche Brunnen voll finanziert sind und welche noch Unterstützung brauchen.",
+          "solution": "Jede Kampagne zeigt ihr Spendenziel und den aktuellen Fortschritt – für Ihr Team und Ihre Spender:innen."
+        }
+      ],
+      "features": [
+        { "title": "Projektdarstellung", "description": "Eine eigene Seite pro Brunnen mit Standort, Zweck, Budget und Fotos." },
+        { "title": "Kampagnen erstellen", "description": "Erstellen und verwalten Sie Brunnen-Kampagnen in einem zentralen Dashboard." },
+        { "title": "Spenden sammeln", "description": "Nehmen Sie Online-Spenden mit den Zahlungsarten an, die Ihre Unterstützer:innen nutzen." },
+        { "title": "Ziele und Fortschritt", "description": "Legen Sie pro Brunnen ein Spendenziel fest und zeigen Sie den Fortschritt, sobald Spenden eingehen." },
+        { "title": "Projekt-Updates", "description": "Teilen Sie Updates zu jeder Bauphase, damit Spender:innen den Bau verfolgen können." },
+        { "title": "Projektinformationen", "description": "Halten Sie Projektdetails, Dokumente und Status für Ihr Team an einem Ort zusammen." }
+      ],
+      "steps": [
+        { "title": "Brunnen-Kampagne anlegen", "description": "Fügen Sie Projektdetails, Spendenziel und Fotos hinzu." },
+        { "title": "Spenden sammeln", "description": "Teilen Sie die Kampagne und verfolgen Sie den Fortschritt zum Ziel." },
+        { "title": "Spender:innen informieren", "description": "Veröffentlichen Sie Updates, bis das Projekt abgeschlossen ist." }
+      ],
+      "benefits": [
+        { "title": "Spender:innen sehen ihre Wirkung", "description": "Klare Projektinformationen und Updates schaffen Vertrauen in jeden Spendenaufruf." },
+        { "title": "Alle Projekte auf einen Blick", "description": "Ihr Team sieht alle Brunnen, Ziele und Bauphasen an einem Ort." },
+        { "title": "Einfacheres Reporting", "description": "Projektinformationen und Spenden bleiben gebündelt – für Vorstand bzw. Stiftungsrat und Partner." }
+      ],
+      "audiences": [
+        { "title": "NGOs", "description": "Organisationen, die Wasserprojekte gemeinsam mit lokalen Partnern umsetzen." },
+        { "title": "Stiftungen", "description": "Stiftungen, die Brunnen finanzieren und klare Rechenschaft über ihre Projekte benötigen." },
+        { "title": "Moscheen und Gemeinschaftsgruppen", "description": "Gemeinschaften, die gemeinsam Geld für einen Brunnen im Namen eines Menschen sammeln." }
+      ],
+      "faqs": [
+        {
+          "question": "Kann jeder Brunnen eine eigene Kampagne haben?",
+          "answer": "Ja. Jeder Brunnen wird als eigene Kampagne mit Projektinformationen, Spendenziel und Fortschritt angelegt."
+        },
+        {
+          "question": "Können Spender:innen das Projekt nach ihrer Spende verfolgen?",
+          "answer": "Ja. Sie können Projekt-Updates zu jeder Bauphase veröffentlichen, sodass Spender:innen sehen, was ihre Spende bewirkt hat."
+        },
+        {
+          "question": "Können wir mehrere Brunnen-Kampagnen gleichzeitig durchführen?",
+          "answer": "Ja. Erstellen und verwalten Sie beliebig viele Brunnen-Kampagnen in einem zentralen Dashboard."
+        }
+      ],
+      "cta": {
+        "title": "Starten Sie Ihre nächste Brunnen-Kampagne",
+        "body": "Erstellen Sie die Projektseite, legen Sie das Ziel fest und sammeln Sie noch heute Spenden."
+      }
+    },
+    "qurbani": {
+      "name": "Qurbani",
+      "navDescription": "Qurbani-Optionen, Beiträge und Nachverfolgung",
+      "seo": {
+        "title": "Software für Qurbani-Fundraising & -Verwaltung | Donorfit",
+        "description": "Sammeln Sie Qurbani-Beiträge online, bieten Sie Ihre Qurbani-Optionen an, verwalten Sie Spenderdaten und verfolgen Sie die Zahlung für jeden Anteil – alles an einem Ort für das Opferfest (Eid al-Adha)."
+      },
+      "headline": "Qurbani-Fundraising und -Verwaltung – ganz einfach.",
+      "subheadline": "Bieten Sie Ihre Qurbani-Optionen online an, sammeln Sie Beiträge mit allen nötigen Angaben und verfolgen Sie jede Zahlung bis zum Opferfest.",
+      "intro": {
+        "title": "Ihre gesamte Qurbani-Saison – gut organisiert",
+        "body": "Donorfit Qurbani bündelt Ihre Qurbani-Optionen, die benötigten Spenderdaten und jede Zahlung an einem Ort – damit sich Ihr Team auf die Durchführung jedes Qurbani konzentrieren kann, statt Formulare und Überweisungen abzugleichen."
+      },
+      "problems": [
+        {
+          "problem": "Qurbani-Bestellungen kommen in den arbeitsreichsten Wochen des Jahres per Telefon, E-Mail und Papierformular.",
+          "solution": "Eine einzige Online-Qurbani-Seite erfasst jeden Beitrag mit allen benötigten Angaben."
+        },
+        {
+          "problem": "Wer welchen Anteil bezahlt hat, wird in Tabellen nachgehalten.",
+          "solution": "Die Zahlungsverfolgung zeigt den Status jedes Beitrags, sobald er eingeht."
+        },
+        {
+          "problem": "Spenderdaten, die für die Durchführung jedes Qurbani nötig sind, gehen zwischen verschiedenen Systemen verloren.",
+          "solution": "Die Spenderdaten werden mit jedem Beitrag gespeichert – griffbereit für Ihr Team."
+        }
+      ],
+      "features": [
+        { "title": "Qurbani-Optionen", "description": "Bieten Sie die Qurbani-Optionen Ihrer Organisation an – jede mit eigenem Preis." },
+        { "title": "Beiträge sammeln", "description": "Spender:innen wählen eine Option und bezahlen in wenigen Schritten online." },
+        { "title": "Beiträge verwalten", "description": "Sehen und verwalten Sie alle Qurbani-Beiträge in einer Liste." },
+        { "title": "Spenderdaten", "description": "Speichern Sie die benötigten Spenderdaten zu jedem Beitrag." },
+        { "title": "Zahlungsverfolgung", "description": "Verfolgen Sie jede Zahlung vom Eingang bis zur Bestätigung." },
+        { "title": "Kampagnenfortschritt", "description": "Sehen Sie, wie viele Beiträge Sie in der gesamten Saison erhalten haben." }
+      ],
+      "steps": [
+        { "title": "Optionen einrichten", "description": "Fügen Sie Ihre Qurbani-Optionen und deren Preise hinzu." },
+        { "title": "Qurbani-Seite öffnen", "description": "Spender:innen wählen aus, ergänzen ihre Angaben und bezahlen online." },
+        { "title": "Verfolgen und durchführen", "description": "Behalten Sie Zahlungen und Beiträge bis zum Abschluss im Blick." }
+      ],
+      "benefits": [
+        { "title": "Eine ruhigere Festzeit", "description": "Ein System ersetzt telefonische Bestellungen, Papierformulare und Tabellen." },
+        { "title": "Jeder Anteil erfasst", "description": "Die Zahlungsverfolgung zeigt genau, was eingegangen ist." },
+        { "title": "Vertrauen der Spender:innen", "description": "Ein klarer Online-Ablauf gibt Spender:innen die Sicherheit, dass ihr Qurbani in guten Händen ist." }
+      ],
+      "audiences": [
+        { "title": "Islamische Hilfsorganisationen", "description": "Organisationen, die Qurbani-Programme im In- und Ausland durchführen." },
+        { "title": "Moscheen", "description": "Moscheegemeinden, die Qurbani-Beiträge aus ihrer Gemeinde sammeln." },
+        { "title": "Gemeinschaftsorganisationen", "description": "Lokale Gruppen, die Qurbani im Auftrag von Familien organisieren." }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir verschiedene Qurbani-Optionen anbieten?",
+          "answer": "Ja. Sie richten die Qurbani-Optionen Ihrer Organisation ein – jede mit eigenem Preis."
+        },
+        {
+          "question": "Können wir zu jedem Beitrag Spenderdaten erfassen?",
+          "answer": "Ja. Spenderdaten werden mit jedem Qurbani-Beitrag erfasst und gespeichert."
+        },
+        {
+          "question": "Können wir sehen, welche Beiträge bezahlt wurden?",
+          "answer": "Ja. Die Zahlungsverfolgung zeigt den Status jedes Beitrags, sodass Ihr Team weiß, was eingegangen ist."
+        }
+      ],
+      "cta": {
+        "title": "Bereit für das Opferfest",
+        "body": "Richten Sie Ihre Qurbani-Optionen jetzt ein und nehmen Sie Beiträge an, sobald Sie bereit sind."
+      }
+    },
+    "school-management": {
+      "name": "School Management",
+      "navDescription": "Schüler:innen, Verwaltung, Gebühren und Berichte",
+      "seo": {
+        "title": "Schulverwaltungssoftware für Schulen & Bildungsorganisationen | Donorfit",
+        "description": "Verwalten Sie Schülerdaten, Schulverwaltung, Gebühren und Bildungspatenschaften – mit Schulberichten in einem System für Schulen und gemeinnützige Bildungsorganisationen."
+      },
+      "headline": "Schulabläufe effizienter organisieren.",
+      "subheadline": "Bündeln Sie Schülerdaten, Verwaltung, Gebühren und Bildungspatenschaften – damit Ihr Kollegium weniger Zeit mit Papierkram und mehr Zeit mit den Schüler:innen verbringt.",
+      "intro": {
+        "title": "Daten und Zahlungen Ihrer Schule in einem System",
+        "body": "Donorfit School Management verbindet Schülerdaten, die tägliche Verwaltung und Gebührenzahlungen und lässt sich nahtlos mit Bildungspatenschaften verknüpfen – ideal für Schulen, die von gemeinnützigen Organisationen und Spender:innen unterstützt werden."
+      },
+      "problems": [
+        {
+          "problem": "Schülerdaten liegen in Klassenbüchern, Ordnern und Tabellen.",
+          "solution": "Für jede:n Schüler:in gibt es einen Datensatz mit Klasse, Kontakt der Erziehungsberechtigten und Verlauf."
+        },
+        {
+          "problem": "Gebührenzahlungen sind schwer nachzuverfolgen und abzugleichen.",
+          "solution": "Die Gebührenverwaltung zeigt für alle Schüler:innen, was bezahlt, offen oder überfällig ist."
+        },
+        {
+          "problem": "Schüler:innen mit Patenschaft werden getrennt von der Schule verwaltet.",
+          "solution": "Bildungspatenschaften verknüpfen Pat:innen direkt mit Schüler:innen – im selben System."
+        }
+      ],
+      "features": [
+        { "title": "Schülerdaten", "description": "Schülerakten mit Klasse, Kontakten der Erziehungsberechtigten und Verlauf." },
+        { "title": "Schulverwaltung", "description": "Organisieren Sie Klassen und die tägliche Anwesenheit an einem Ort." },
+        { "title": "Gebühren- und Zahlungsverwaltung", "description": "Verfolgen Sie Gebühren pro Schüler:in und Halbjahr: bezahlt, offen und überfällig." },
+        { "title": "Bildungspatenschaften", "description": "Verknüpfen Sie Pat:innen mit Schüler:innen und verfolgen Sie deren Beiträge." },
+        { "title": "Schulberichte", "description": "Berichte zu Schüler:innen, Anwesenheit und Gebühren für Schulleitung und Geldgeber." },
+        { "title": "Rollenbasierter Zugriff", "description": "Mitarbeiter:innen sehen die Daten und Werkzeuge, die zu ihrer Rolle passen." }
+      ],
+      "steps": [
+        { "title": "Klassen und Schüler:innen anlegen", "description": "Importieren oder erfassen Sie Schülerdaten und Angaben der Erziehungsberechtigten." },
+        { "title": "Täglich verwalten", "description": "Erfassen Sie die Anwesenheit und verwalten Sie die Gebühren für jedes Halbjahr." },
+        { "title": "Berichten und fördern", "description": "Teilen Sie Berichte und verbinden Sie Pat:innen mit Schüler:innen." }
+      ],
+      "benefits": [
+        { "title": "Weniger Papierkram", "description": "Klassenbücher, Gebührenhefte und Tabellen kommen in einem System zusammen." },
+        { "title": "Klare Finanzen", "description": "Sehen Sie auf einen Blick, welche Gebühren noch offen sind." },
+        { "title": "Geldgeber bleiben informiert", "description": "Berichte und Patenschaftsdaten erleichtern die Berichterstattung an Spender:innen." }
+      ],
+      "audiences": [
+        { "title": "Von gemeinnützigen Organisationen geförderte Schulen", "description": "Schulen, die teilweise durch Spender:innen und Pat:innen finanziert werden." },
+        { "title": "Bildungsorganisationen", "description": "Gemeinnützige Organisationen, die Schulen und Lernzentren betreiben oder unterstützen." },
+        { "title": "Madrasas und Gemeinschaftsschulen", "description": "Gemeinschaftlich getragene Schulen, die Schüler:innen und Gebühren verwalten." }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir Schulgebühren verwalten?",
+          "answer": "Ja. Verfolgen Sie Gebühren pro Schüler:in und Halbjahr und sehen Sie, welche Zahlungen bezahlt, offen oder überfällig sind."
+        },
+        {
+          "question": "Funktioniert es mit Bildungspatenschaften?",
+          "answer": "Ja. Pat:innen lassen sich direkt mit Schüler:innen verknüpfen, und ihre Beiträge werden zusammen mit den Schuldaten erfasst."
+        },
+        {
+          "question": "Können wir die Anwesenheit erfassen?",
+          "answer": "Ja. Klassen und tägliche Anwesenheit werden als Teil der Schulverwaltung geführt."
+        }
+      ],
+      "cta": {
+        "title": "Ihre Schule in einem System",
+        "body": "Legen Sie Ihre Klassen und Schüler:innen an und sehen Sie Ihre Schule in einem Dashboard."
+      }
+    },
+    "money-pool": {
+      "name": "Money Pool",
+      "navDescription": "Gemeinsames Fundraising mit geteiltem Ziel",
+      "seo": {
+        "title": "Money Pool & Gruppen-Fundraising für gemeinnützige Organisationen | Donorfit",
+        "description": "Erstellen Sie Spendenpools mit gemeinsamem Ziel, sammeln Sie Beiträge per Link, Karte oder SEPA, verwalten Sie Beitragende und verfolgen Sie Zahlungen – das Geld fließt direkt an Ihre Organisation."
+      },
+      "headline": "Gemeinsam finanzieren, was wirklich zählt.",
+      "subheadline": "Erstellen Sie einen Pool, teilen Sie ihn mit Ihrer Gemeinschaft und sehen Sie zu, wie die Beiträge zum gemeinsamen Ziel anwachsen – jede Zahlung geht direkt an Ihre Organisation.",
+      "intro": {
+        "title": "Gemeinsames Fundraising, das Ihre Gemeinschaft mitverfolgen kann",
+        "body": "Mit Donorfit Money Pool versammeln sich Unterstützer:innen, Komitees und Gemeinschaftsgruppen hinter einem gemeinsamen Ziel. Alle sehen Ziel und Fortschritt, Organisator:innen bleiben eingebunden, ohne selbst Geld zu verwalten, und alle Beitragenden erhalten einen eigenen Beleg."
+      },
+      "problems": [
+        {
+          "problem": "Sammlungen erfolgen in bar oder auf private Bankkonten.",
+          "solution": "Beiträge gehen direkt auf das verifizierte Konto Ihrer Organisation – Organisator:innen verwalten nie das Geld."
+        },
+        {
+          "problem": "Ein gewöhnliches Spendenformular wirkt einsam – und der Schwung lässt nach.",
+          "solution": "Ein Live-Fortschrittsbalken und eine Unterstützerwand lassen die Gruppe Meilensteine gemeinsam feiern."
+        },
+        {
+          "problem": "Unklar bleibt, welche Organisator:innen oder Gruppen wie viel gesammelt haben.",
+          "solution": "Rollen für Organisator:innen und Teams ordnen Beiträge den Menschen zu, die sie angestoßen haben."
+        }
+      ],
+      "features": [
+        { "title": "Pools erstellen und verwalten", "description": "Pools in Ihrem Branding mit Ziel, Kostenaufstellung und Frist." },
+        { "title": "Beiträge sammeln", "description": "Schnelle mobile Zahlungslinks, SEPA-Lastschrift und Karten." },
+        { "title": "Ziele und Fortschritt", "description": "Ein Live-Fortschrittsbalken und eine Unterstützerwand – auf Wunsch auch mit anonymen Beiträgen." },
+        { "title": "Beitragende verwalten", "description": "Rollen für Organisator:innen und Teams – ohne Zugriff auf Ihre internen Finanzen." },
+        { "title": "Zahlungsverfolgung", "description": "Jeder Beitrag wird einzeln erfasst und quittiert." },
+        { "title": "Einfach teilen", "description": "Teilen per WhatsApp, E-Mail oder QR-Code bei Gemeindeveranstaltungen." }
+      ],
+      "steps": [
+        { "title": "Pool starten", "description": "Legen Sie das Ziel fest, erläutern Sie die Kosten und wählen Sie eine Frist." },
+        { "title": "Unterstützer:innen tragen bei", "description": "Beiträge kommen per Link, SEPA oder Karte – oft mit ermutigenden Worten." },
+        { "title": "Das Geld erreicht Ihre Organisation", "description": "Das Geld geht direkt an Sie, und alle Beitragenden erhalten einen Beleg." }
+      ],
+      "benefits": [
+        { "title": "Engagement von der Basis", "description": "Engagierte Unterstützer:innen mobilisieren ihr eigenes Umfeld für ein gemeinsames Ziel." },
+        { "title": "Saubere Buchhaltung", "description": "Jeder Beitrag hat einen eigenen Beleg und lässt sich Ihrer Buchhaltung zuordnen." },
+        { "title": "Neue Unterstützer:innen", "description": "Erreichen Sie Erstspender:innen über Menschen, denen sie bereits vertrauen." }
+      ],
+      "audiences": [
+        { "title": "Moscheen und Gotteshäuser", "description": "Baufonds, Reparaturen und Gemeinschaftsprojekte." },
+        { "title": "Schulen und Elterngruppen", "description": "Klassenfahrten, Ausstattung und Renovierungen." },
+        { "title": "Ehrenamtliche und Gemeinschaftsgruppen", "description": "Brunnen, Nothilfepakete und lokale Anliegen." }
+      ],
+      "faqs": [
+        {
+          "question": "Verwalten Organisator:innen das Geld?",
+          "answer": "Niemals. Alle Gelder gehen direkt an die verifizierte gemeinnützige Organisation – das schützt die Organisator:innen und stellt sicher, dass Beitragende ihre Belege erhalten."
+        },
+        {
+          "question": "Können Beitragende anonym bleiben?",
+          "answer": "Ja. Beitragende können ihren Namen oder Betrag auf der öffentlichen Unterstützerwand ausblenden und erhalten trotzdem ihren persönlichen Beleg."
+        },
+        {
+          "question": "Wie kann man beitragen?",
+          "answer": "Über schnelle mobile Zahlungslinks, SEPA-Lastschrift oder Karte."
+        }
+      ],
+      "cta": {
+        "title": "Starten Sie einen Pool für Ihr nächstes Projekt",
+        "body": "Legen Sie das Ziel fest, teilen Sie den Link und überlassen Sie den Rest Ihrer Gemeinschaft."
+      }
+    }
+  },
+  "ui": {
+    "badge": "Donorfit {{name}}",
+    "withoutDonorfit": "Ohne Donorfit",
+    "withDonorfit": "Mit Donorfit {{name}}",
+    "faqTitle": "Fragen zu {{name}}",
+    "faqSub": "Keine passende Antwort gefunden? Unser Team hilft Ihnen gern weiter.",
+    "relatedTitle": "Passt gut zu",
+    "relatedSub": "Produkte, die Organisationen häufig zusammen mit {{name}} nutzen.",
+    "exampleNote": "Die Vorschau zeigt Beispieldaten.",
+    "builtFor": "Entwickelt für"
+  },
+  "photos": {
+    "membership": "Mitglieder einer Gemeinschaft versammeln sich unter einem Baum zu einer Vereinsversammlung im Freien",
+    "sponsorship": "Ein Schüler schreibt an seinem Pult sorgfältig in sein Heft",
+    "water-well": "Kinder füllen gelbe Kanister an einem Handpumpenbrunnen im Dorf",
+    "qurbani": "Ziegen und Widder auf einem Viehmarkt vor dem Opferfest (Eid al-Adha)",
+    "school-management": "Eine Lehrkraft unterrichtet Schüler:innen in Schuluniform in einem Klassenzimmer",
+    "money-pool": "Ehrenamtliche stehen bei einer Spendensammlung in der Gemeinde gemeinsam hinter Spendenbehältern"
+  },
+  "sections": {
+    "membership": {
+      "featuresTitle": "Von der Anmeldung bis zur Verlängerung",
+      "featuresSub": "Alles, was Sie für die Mitgliederverwaltung brauchen – in der Reihenfolge, in der Ihre Mitglieder es erleben.",
+      "previewTitle": "Ihre Mitglieder auf einen Blick",
+      "previewSub": "Sehen Sie, wer aktiv ist, wessen Verlängerung ansteht und wessen Mitgliedschaft ausgelaufen ist – und exportieren Sie eine aktuelle Liste für Ihre Mitgliederversammlung.",
+      "benefitsTitle": "Was sich für Ihre Organisation ändert",
+      "hero": {
+        "card": "Mitgliedsausweis",
+        "status": "Aktiv",
+        "plan": "Einzelmitgliedschaft · Mitglied seit {{year}}",
+        "renews": "Verlängerung"
+      }
+    },
+    "sponsorship": {
+      "featuresTitle": "Patenschaften für Bildung, Einzelpersonen und Gemeinschaften",
+      "previewTitle": "Jeder Beitrag, Monat für Monat",
+      "previewSub": "Sehen Sie die Zusage jeder Patenschaft direkt neben den unterstützten Schüler:innen oder Projekten.",
+      "benefitsTitle": "Warum gemeinnützige Organisationen Donorfit Sponsorship wählen",
+      "hero": {
+        "sponsor": "Pat:in",
+        "monthly": "{{amount}} jeden Monat",
+        "student": "Schüler",
+        "studentName": "{{name}}, {{age}} Jahre",
+        "funded": "{{grade}}. Klasse · {{funded}} von {{total}} Monaten finanziert"
+      }
+    },
+    "water-well": {
+      "featuresTitle": "Alles, was ein Brunnen-Spendenaufruf braucht",
+      "previewTitle": "Was Ihre Spender:innen sehen",
+      "previewSub": "Eine Kampagnenseite, die das Projekt erklärt, das Ziel zeigt und jede Bauphase begleitet.",
+      "stepsTitle": "Von der ersten Prüfung bis zum ersten Wasser",
+      "benefitsTitle": "Vorteile für NGOs und Stiftungen",
+      "audiencesTitle": "Wer Water Well nutzt",
+      "hero": {
+        "project": "Dorfbrunnen",
+        "of": "von {{amount}}",
+        "stages": ["Prüfung", "Bohrung", "Pumpe", "Übergabe"],
+        "note": "Beispielkampagne"
+      }
+    },
+    "qurbani": {
+      "featuresTitle": "Ganz auf die Qurbani-Saison ausgerichtet",
+      "featuresSub": "Von den Optionen, die Sie anbieten, bis zur Zahlung für jeden Anteil.",
+      "previewTitle": "Alle Beiträge in einer Liste",
+      "previewSub": "Sehen Sie die Beiträge je Option, die Spender:innen dahinter und ob bezahlt wurde.",
+      "benefitsTitle": "Vorteile für Ihre Organisation",
+      "audiencesTitle": "Wer Qurbani nutzt",
+      "hero": {
+        "choose": "Wählen Sie Ihr Qurbani",
+        "options": [
+          { "name": "Schaf oder Ziege", "note": "Ein Anteil" },
+          { "name": "Rind", "note": "Ein Siebtel-Anteil" },
+          { "name": "Kamel", "note": "Ein Siebtel-Anteil" }
+        ],
+        "note": "Beispieloptionen – Sie legen Ihre eigenen fest"
+      }
+    },
+    "school-management": {
+      "featuresTitle": "Schulverwaltung, Gebühren und Patenschaften vereint",
+      "stepsTitle": "In drei Schritten startklar",
+      "benefitsTitle": "Vorteile für Bildungseinrichtungen",
+      "audiencesTitle": "Für wen es geeignet ist"
+    },
+    "money-pool": {
+      "previewTitle": "Ein Pool, den Ihre ganze Gemeinschaft verfolgen kann",
+      "previewSub": "Ein Live-Fortschrittsring, ermutigende Worte und Teilen mit einem Fingertipp.",
+      "featuresTitle": "Alles für Ihren Pool",
+      "stepsTitle": "So funktioniert ein Pool",
+      "audiencesTitle": "Einsatzbereiche für Organisationen und Gemeinschaften",
+      "benefitsTitle": "Warum Pools funktionieren",
+      "hero": {
+        "of": "von {{amount}}",
+        "contributors": "{{count}} Beitragende · Beispiel-Pool"
+      }
+    }
+  },
+  "previews": {
+    "membership": {
+      "label": "Vorschau des Mitglieder-Dashboards mit Tarif, Status und Verlängerungsdatum der Mitglieder",
+      "title": "Mitglieder",
+      "search": "Mitglieder suchen…",
+      "filter": "Tarif",
+      "export": "Versammlungsliste",
+      "stats": { "active": "Aktiv", "renewalDue": "Verlängerung fällig", "lapsed": "Ausgelaufen" },
+      "status": { "active": "Aktiv", "renewalDue": "Fällig", "lapsed": "Ausgelaufen" },
+      "cols": { "member": "Mitglied", "plan": "Tarif", "status": "Status", "renews": "Verlängert" },
+      "plans": { "individual": "Einzel", "family": "Familie", "student": "Studierende", "organisational": "Organisation" }
+    },
+    "sponsorship": {
+      "label": "Vorschau des Patenschafts-Dashboards: Pat:innen und Begünstigte mit Beitragsverlauf über zwölf Monate",
+      "title": "Patenschaften",
+      "period": "Schuljahr",
+      "perMonth": "{{amount}} / Monat",
+      "beneficiary": "{{name}}, {{age}} · {{grade}}. Klasse",
+      "coSponsors": "Mitpat:innen ({{count}})",
+      "library": "Bibliothek der Dorfschule",
+      "monthStart": "Sept.",
+      "monthEnd": "Aug.",
+      "legend": { "paid": "Bezahlt", "retried": "Erneut eingezogen, bezahlt", "upcoming": "Ausstehend" }
+    },
+    "water-well": {
+      "label": "Vorschau einer Brunnen-Kampagnenseite mit Projektfoto, Spendenziel, Fortschritt und Bauphasen",
+      "eyebrow": "Brunnenprojekt",
+      "title": "Dorfbrunnen",
+      "description": "Ein Handpumpenbrunnen für die Dorfschule und die umliegenden Häuser.",
+      "target": "Ziel {{amount}}",
+      "stages": ["Standortprüfung", "Bohrung", "Pumpeninstallation", "Übergabe an das Dorf"],
+      "status": { "done": "Abgeschlossen", "now": "In Arbeit", "todo": "Geplant" },
+      "donate": "Für diesen Brunnen spenden"
+    },
+    "qurbani": {
+      "label": "Vorschau der Qurbani-Verwaltung mit Beitragszahlen je Option und einer Beitragsliste mit Zahlungsstatus",
+      "title": "Qurbani-Beiträge",
+      "season": "Opferfest",
+      "options": { "sheep": "Schaf oder Ziege", "cow": "Rinderanteil", "camel": "Kamelanteil" },
+      "cols": { "ref": "Nr.", "donor": "Spender:in", "option": "Option", "qty": "Anz.", "payment": "Zahlung" },
+      "status": { "paid": "Bezahlt", "pending": "Offen" }
+    },
+    "school-management": {
+      "label": "Vorschau des Schul-Dashboards mit Wochenanwesenheit, Gebührenübersicht für das Halbjahr und Schülerliste",
+      "app": "Schule",
+      "nav": { "overview": "Übersicht", "students": "Schüler:innen", "attendance": "Anwesenheit", "fees": "Gebühren" },
+      "title": "Übersicht {{term}}. Halbjahr",
+      "attendance": "Anwesenheit diese Woche",
+      "days": ["Mo", "Di", "Mi", "Do", "Fr"],
+      "fees": "Halbjahresgebühren",
+      "status": { "paid": "Bezahlt", "pending": "Offen", "overdue": "Überfällig" },
+      "sponsored": "Patenschaft"
+    },
+    "money-pool": {
+      "label": "Vorschau einer Money-Pool-Seite mit Fortschrittsring, Unterstützerwand und Optionen zum Teilen",
+      "ofTarget": "des Ziels",
+      "raised": "{{raised}} von {{target}}",
+      "meta": "{{count}} Beitragende · noch {{days}} Tage",
+      "title": "Reparatur des Moscheedachs",
+      "organiser": "Organisiert vom Jugendkomitee · direkt auf das Konto der Moschee",
+      "anonymous": "Anonym",
+      "messages": { "parents": "Für meine Eltern", "accepted": "Möge es angenommen werden" },
+      "quote": "„{{text}}“",
+      "share": { "whatsapp": "WhatsApp", "link": "Link teilen", "qr": "QR-Code" }
+    }
+  }
+}

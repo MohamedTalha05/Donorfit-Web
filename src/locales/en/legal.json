@@ -1,0 +1,191 @@
+{
+  "ui": {
+    "backToHome": "Back to Home"
+  },
+  "privacy": {
+    "eyebrow": "GDPR & EU Regulation 2016/679",
+    "title": "Privacy Policy",
+    "meta": "Last updated: October 2026 · Valid across all Donorfit European platforms",
+    "info": {
+      "heading": "1. Information on the Collection of Personal Data",
+      "paragraphs": [
+        "The protection of personal data is of utmost importance to Donorfit. Below we inform you about the collection of personal data when using our website and platform in accordance with the European General Data Protection Regulation (GDPR) and national data protection laws.",
+        "Personal data means any information relating to an identified or identifiable natural person (e.g., name, address, email addresses, IP address, user behavior)."
+      ]
+    },
+    "controller": {
+      "heading": "2. Name and Address of the Data Controller",
+      "intro": "The controller within the meaning of Article 4(7) GDPR is:",
+      "lines": [
+        "Donorfit Technologies GmbH (i.G.)",
+        "Bockenheimer Landstraße 101",
+        "60325 Frankfurt am Main, Germany",
+        "Email: privacy@donorfit.com",
+        "Website: https://donorfit.com"
+      ]
+    },
+    "roles": {
+      "heading": "3. Role Distinction: Controller vs. Processor",
+      "parts": [
+        "When nonprofit organizations use Donorfit to collect donations, manage sponsorships, and organize supporter records, the nonprofit organization acts as the ",
+        "Data Controller",
+        ". Donorfit processes supporter data strictly on behalf of and according to the instructions of the nonprofit as a ",
+        "Data Processor",
+        " under Article 28 GDPR. A formal Data Processing Agreement (DPA) is executed with every client organization."
+      ]
+    },
+    "website": {
+      "heading": "4. Data Processing on This Marketing Website",
+      "paragraphs": [
+        "When you visit our website for informational purposes only, we collect only the personal data that your browser transmits to our server (server log files), including IP address, date and time of request, time zone difference to GMT, content of request, HTTP status code, and browser type. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in delivering website stability and security).",
+        "When you submit an inquiry form (e.g., booking a demo or requesting onboarding), data submitted (name, organization name, email, country, message) is processed under Art. 6(1)(b) GDPR for the purpose of taking steps prior to entering into a contract."
+      ]
+    },
+    "storage": {
+      "heading": "5. Storage Location and Data Security",
+      "paragraphs": [
+        "All customer databases and web services are hosted exclusively in European data centers located in Frankfurt, Germany and Dublin, Ireland. We utilize TLS 1.3 encryption in transit and AES-256 encryption at rest."
+      ]
+    },
+    "rights": {
+      "heading": "6. Rights of Data Subjects",
+      "paragraphs": [
+        "You have the right to request access to your personal data (Art. 15 GDPR), rectification (Art. 16 GDPR), erasure (Art. 17 GDPR), restriction of processing (Art. 18 GDPR), and data portability (Art. 20 GDPR). You also have the right to lodge a complaint with a supervisory authority."
+      ]
+    }
+  },
+  "cookies": {
+    "eyebrow": "ePrivacy Directive & GDPR",
+    "title": "Cookie Policy",
+    "meta": "Clear explanations of how Donorfit utilizes cookies and local storage",
+    "what": {
+      "heading": "1. What are Cookies?",
+      "paragraphs": [
+        "Cookies are small text files stored on your computer or mobile device when you access websites. They allow web applications to identify your browser session, remember preferences, and ensure secure authentication."
+      ]
+    },
+    "categories": {
+      "heading": "2. Cookie Categories Used by Donorfit",
+      "items": [
+        {
+          "name": "Strictly Necessary Cookies",
+          "description": "Required for core platform security, anti-CSRF token verification, and session state. These cookies do not store personally identifiable marketing information and cannot be disabled."
+        },
+        {
+          "name": "Functional & Preference Cookies",
+          "description": "Remember your chosen language, selected currency, and form field progress."
+        },
+        {
+          "name": "Privacy-Centric Analytics Cookies",
+          "description": "Collect aggregated, anonymized insights regarding page load speeds, popular guides, and donation completion rates. These cookies are never set without your prior affirmative consent."
+        }
+      ]
+    },
+    "manage": {
+      "heading": "3. Managing Your Cookie Preferences",
+      "paragraphs": [
+        "You can review, modify, or revoke your cookie choices at any time by clicking the button below:"
+      ],
+      "button": "Open Cookie Preferences Manager"
+    }
+  },
+  "impressum": {
+    "eyebrow": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)",
+    "title": "Impressum / Legal Notice",
+    "meta": "Statutory provider identification for European Union digital services",
+    "provider": {
+      "heading": "Service Provider",
+      "lines": [
+        "Donorfit Technologies GmbH (i.G.)",
+        "Bockenheimer Landstraße 101",
+        "60325 Frankfurt am Main",
+        "Federal Republic of Germany"
+      ]
+    },
+    "contact": {
+      "heading": "Contact / Kontakt",
+      "lines": [
+        "Email: contact@donorfit.com",
+        "Support: support@donorfit.com",
+        "Security: security@donorfit.com"
+      ]
+    },
+    "representation": {
+      "heading": "Represented By / Vertretungsberechtigte",
+      "paragraphs": [
+        "Managing Director: Faisal & Executive Leadership"
+      ]
+    },
+    "register": {
+      "heading": "Register Entry / Registereintrag",
+      "paragraphs": [
+        "Amtsgericht Frankfurt am Main · Commercial Register HRB (in registration)",
+        "VAT Identification Number (USt-IdNr.): DE-PENDING"
+      ]
+    },
+    "odr": {
+      "heading": "Online Dispute Resolution (ODR)",
+      "before": "The European Commission provides a platform for online dispute resolution (ODR):",
+      "after": ". We are neither obligated nor willing to participate in dispute settlement proceedings before a consumer arbitration board."
+    }
+  },
+  "terms": {
+    "eyebrow": "General Terms of Service",
+    "title": "Terms & Conditions",
+    "meta": "Governing nonprofit platform access, payment processing, and usage rights",
+    "sections": [
+      {
+        "heading": "1. Scope of Application",
+        "paragraphs": [
+          "These Terms & Conditions govern the provision of software-as-a-service (SaaS) fundraising and donor management software by Donorfit to non-governmental organizations, registered charities, foundations, and non-profit associations."
+        ]
+      },
+      {
+        "heading": "2. Service Description",
+        "paragraphs": [
+          "Donorfit provides software tools for online donation collection, recurring giving management, sponsorship administration, money pool coordination, membership management, and donor CRM records. Donorfit does not act as a bank or custodial escrow provider; all financial transactions are executed through authorized payment service providers directly to the nonprofit’s merchant accounts."
+        ]
+      },
+      {
+        "heading": "3. Nonprofit Obligations",
+        "paragraphs": [
+          "Nonprofits warrant that they possess legal authorization to conduct fundraising activities under applicable local legislation and that all published campaign details, beneficiary descriptions, and tax receipt representations are truthful and accurate."
+        ]
+      },
+      {
+        "heading": "4. Data Ownership & Availability",
+        "paragraphs": [
+          "The nonprofit retains exclusive ownership of all donor and contribution records. Donorfit undertakes to maintain a 99.9% target system availability, excluding scheduled maintenance."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "eyebrow": "WCAG 2.2 AA Conformance",
+    "title": "Accessibility Statement",
+    "meta": "Our commitment to inclusive, barrier-free digital fundraising",
+    "conformance": {
+      "heading": "1. Conformance Target",
+      "before": "Donorfit is committed to ensuring digital accessibility for people with disabilities. We continually improve the user experience for everyone and apply the relevant accessibility standards targeting the ",
+      "bold": "Web Content Accessibility Guidelines (WCAG) 2.2 Level AA",
+      "after": "."
+    },
+    "measures": {
+      "heading": "2. Measures Taken",
+      "items": [
+        "Semantic HTML elements (`header`, `main`, `nav`, `section`, `article`, `footer`) throughout our architecture.",
+        "High color contrast ratios exceeding 4.5:1 for standard body text and 3:1 for large display elements.",
+        "Full keyboard navigation capability with visible focus outlines (`focus-visible`).",
+        "Accessible forms with explicit labels, aria-attributes, and meaningful validation feedback.",
+        "Dignified descriptive alt-text attributes on all photographic and illustrative assets.",
+        "Respect for user `prefers-reduced-motion` settings."
+      ]
+    },
+    "feedback": {
+      "heading": "3. Feedback & Contact",
+      "before": "If you encounter accessibility barriers on any part of our website or donation checkout widgets, please contact our team at ",
+      "email": "accessibility@donorfit.com",
+      "after": ". We welcome your input and will remediate issues promptly."
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { BLOG_POSTS, PRODUCTS_DATA } from '../data/content.ts';
+import { useT, useTx, useFormat } from '../i18n/index.tsx';
+import type { LocalizedBlogPost } from './BlogIndexPage.tsx';
 import { 
   ArrowLeft, 
   ArrowRight, 
@@ -19,24 +20,28 @@ interface BlogPostPageProps {
 
 export default function BlogPostPage({ slug }: BlogPostPageProps) {
   const { navigateTo, openBookDemo, openGetStarted } = useModal();
-  const post = BLOG_POSTS.find((p) => p.slug === slug);
+  const t = useT('blog');
+  const tx = useTx('blog');
+  const { date } = useFormat();
+  const posts = tx<LocalizedBlogPost[]>('posts');
+  const post = posts.find((p) => p.slug === slug);
 
   if (!post) {
     return (
       <div className="py-24 text-center max-w-xl mx-auto px-4">
-        <h1 className="text-2xl font-bold text-neutral-900 mb-2">Article Not Found</h1>
-        <p className="text-sm text-neutral-600 mb-6">The article you were looking for could not be located.</p>
+        <h1 className="text-2xl font-bold text-neutral-900 mb-2">{t('ui.post.notFoundTitle')}</h1>
+        <p className="text-sm text-neutral-600 mb-6">{t('ui.post.notFoundText')}</p>
         <button
           onClick={() => navigateTo('/blog')}
           className="px-4 py-2 bg-neutral-900 text-white rounded-lg text-xs font-semibold cursor-pointer"
         >
-          Return to Blog Directory
+          {t('ui.post.returnToDirectory')}
         </button>
       </div>
     );
   }
 
-  const relatedArticles = BLOG_POSTS.filter((p) => post.relatedArticleSlugs.includes(p.slug));
+  const relatedArticles = posts.filter((p) => post.relatedArticleSlugs.includes(p.slug));
 
   return (
     <div className="py-12 sm:py-20 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
@@ -48,7 +53,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
           className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-600 hover:text-neutral-900 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Back to Resources</span>
+          <span>{t('ui.post.backToResources')}</span>
         </button>
       </div>
 
@@ -61,11 +66,11 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
           <span aria-hidden="true">·</span>
           <span>{post.readingTime}</span>
           <span aria-hidden="true">·</span>
-          <span>Published {post.publishedAt}</span>
+          <span>{t('ui.post.published', { date: date(post.publishedAt) })}</span>
           {post.updatedAt && (
             <>
               <span aria-hidden="true">·</span>
-              <span className="text-neutral-500">Updated {post.updatedAt}</span>
+              <span className="text-neutral-500">{t('ui.post.updated', { date: date(post.updatedAt) })}</span>
             </>
           )}
         </div>
@@ -85,7 +90,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
             </div>
           </div>
           <div className="text-xs text-neutral-500">
-            Verified Educational Resource
+            {t('ui.post.verified')}
           </div>
         </div>
       </header>
@@ -94,7 +99,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
       <div className="p-6 rounded-2xl bg-neutral-100/90 border border-neutral-200 space-y-3">
         <div className="flex items-center gap-2 text-xs font-bold text-emerald-800 uppercase tracking-wider">
           <Sparkles className="w-4 h-4 text-emerald-600" />
-          <span>Key Strategic Takeaways</span>
+          <span>{t('ui.post.keyTakeaways')}</span>
         </div>
         <ul className="space-y-2 text-xs text-neutral-700">
           {post.keyTakeaways.map((takeaway, idx) => (
@@ -119,7 +124,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
       {post.relatedProducts.length > 0 && (
         <div className="p-6 rounded-2xl bg-white border border-neutral-200 space-y-3">
           <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider block">
-            Relevant Donorfit Solutions
+            {t('ui.post.relevantSolutions')}
           </span>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {post.relatedProducts.map((prod, idx) => (
@@ -141,9 +146,9 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
       {/* CTA Box */}
       <div className="p-8 rounded-2xl bg-neutral-900 bg-dark-glow text-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
         <div className="space-y-1 max-w-md">
-          <h3 className="text-xl font-bold font-display">Put this knowledge into practice</h3>
+          <h3 className="text-xl font-bold font-display">{t('ui.post.ctaTitle')}</h3>
           <p className="text-xs text-neutral-300 leading-relaxed">
-            See how Donorfit automates SEPA recurring giving, child sponsorships, and European tax receipts for your NGO.
+            {t('ui.post.ctaText')}
           </p>
         </div>
         <div className="flex items-center gap-3 shrink-0">
@@ -151,7 +156,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
             onClick={() => openBookDemo()}
             className="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-neutral-950 font-bold text-xs rounded-xl transition-colors cursor-pointer"
           >
-            Schedule a Demo
+            {t('ui.post.ctaButton')}
           </button>
         </div>
       </div>
@@ -159,7 +164,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
       {/* Related Articles */}
       {relatedArticles.length > 0 && (
         <div className="pt-12 border-t border-neutral-200 space-y-6">
-          <h3 className="text-xl font-bold text-neutral-950 font-display">Related Guides & Articles</h3>
+          <h3 className="text-xl font-bold text-neutral-950 font-display">{t('ui.post.relatedTitle')}</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {relatedArticles.map((rel) => (
               <article
@@ -175,7 +180,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
                   <p className="text-xs text-neutral-500 line-clamp-2 leading-relaxed">{rel.excerpt}</p>
                 </div>
                 <div className="flex items-center gap-1 text-xs font-semibold text-neutral-900 group-hover:text-emerald-700">
-                  <span>Read Article</span>
+                  <span>{t('ui.readArticle')}</span>
                   <ArrowRight className="w-3 h-3" />
                 </div>
               </article>

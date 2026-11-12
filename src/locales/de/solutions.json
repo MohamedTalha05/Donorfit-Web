@@ -1,0 +1,450 @@
+{
+  "items": {
+    "ngos": {
+      "targetAudience": "Für NGOs",
+      "audienceName": "NGOs",
+      "h1": "Fundraising-Technologie für Nichtregierungsorganisationen",
+      "subheadline": "Skalieren Sie grenzüberschreitende Abläufe, verwalten Sie internationale Patenschaften und erfüllen Sie strenge europäische Datenschutzvorgaben – alles in einem System.",
+      "heroKicker": "Skalierbare Abläufe für Nichtregierungsorganisationen",
+      "overview": "Nichtregierungsorganisationen arbeiten in einem anspruchsvollen Umfeld zwischen Projektarbeit vor Ort und Rechenschaft gegenüber Spender:innen. Donorfit bietet die Infrastruktur, um Zuwendungen über mehrere Länder, Sprachen und Währungen hinweg effizient abzuwickeln.",
+      "keyChallenges": [
+        {
+          "title": "Grenzüberschreitende Spenden in mehreren Währungen",
+          "description": "Spenden aus der EU, dem Vereinigten Königreich und aller Welt einnehmen, ohne große Anteile durch Währungsumrechnung zu verlieren."
+        },
+        {
+          "title": "Datenabstimmung mit Teams vor Ort",
+          "description": "Projektfortschritte und Updates zu Begünstigten sicher aus entlegenen Regionen empfangen – ohne Risiko von Datenpannen."
+        },
+        {
+          "title": "Hohe Prüfanforderungen und transparente Mittelverwendung",
+          "description": "Institutionelle Geldgeber und private Unterstützer:innen erwarten den Nachweis, dass jeder Dollar und jeder Euro die vorgesehenen Hilfsprojekte erreicht."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Mehrere Währungen & internationale Zahlungswege",
+          "description": "Native SEPA-Lastschrift, SWIFT-Abgleich und lokale digitale Zahlungsarten für Spender:innen weltweit."
+        },
+        {
+          "title": "Rollenbasierter Zugang für Teams vor Ort",
+          "description": "Updates, Fortschrittsfotos und Kennzahlen aus den Gemeinden sicher erfassen – mit fein abgestuften Zugriffsrechten."
+        },
+        {
+          "title": "Lückenloser Prüfpfad & getrennte Mittelbuchführung",
+          "description": "Strikte Trennung von Projektmitteln und transparente Berichte, bereit für Prüfungen durch Behörden und institutionelle Fördergeber."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "65 %",
+          "label": "Weniger Verwaltungsaufwand",
+          "context": "Beim grenzüberschreitenden Zahlungsabgleich und bei Updates für Spender:innen"
+        },
+        {
+          "metric": "99,4 %",
+          "label": "Erfüllungsquote bei Zusagen",
+          "context": "Durch automatisches Mahnwesen und intelligente SEPA-Wiederholungsversuche"
+        },
+        {
+          "metric": "100 %",
+          "label": "DSGVO-Konformität",
+          "context": "Alle Daten in ISO-27001-zertifizierten Rechenzentren in Europa"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können unsere internationalen Büros Donorfit in verschiedenen Sprachen nutzen?",
+          "answer": "Ja. Donorfit unterstützt mehrsprachige öffentliche Spendenformulare und Verwaltungsoberflächen für länderübergreifende NGO-Teams."
+        },
+        {
+          "question": "Wie geht Donorfit mit institutionellen Fördermitteln neben Einzelspenden um?",
+          "answer": "Mit unseren Auswertungen verfolgen Sie Meilensteine großer institutioneller Förderungen und regelmäßige Einzelspenden direkt nebeneinander."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Sponsorship – Patenschaftsverwaltung" },
+        { "name": "Spenderverwaltung (CRM)" },
+        { "name": "Berichte & Analysen" }
+      ]
+    },
+    "charities": {
+      "targetAudience": "Für gemeinnützige Organisationen",
+      "audienceName": "gemeinnützige Organisationen",
+      "h1": "Fundraising-Lösungen für gemeinnützige Organisationen",
+      "subheadline": "Begeistern Sie Spender:innen vor Ort und bundesweit, automatisieren Sie Zuwendungsbestätigungen und steigern Sie regelmäßige Spenden mit passgenauen Werkzeugen.",
+      "heroKicker": "Zeitgemäßes Spenden für gemeinnützige Organisationen",
+      "overview": "Gemeinnützige Organisationen leben vom Wohlwollen engagierter Menschen. Donorfit macht das Spenden so einfach wie möglich: Unterstützer:innen richten regelmäßige Spenden mühelos ein und erhalten automatisch rechtskonforme Zuwendungsbestätigungen.",
+      "keyChallenges": [
+        {
+          "title": "Aufwendige Verwaltung von Zuwendungsbestätigungen",
+          "description": "Tausende Zuwendungsbestätigungen zum Jahresende manuell auszustellen, kostet viel Arbeitszeit und führt zu Beschwerden von Spender:innen."
+        },
+        {
+          "title": "Hohe Abwanderung bei jährlichen Spendenaufrufen",
+          "description": "Wer sich ausschließlich auf Spendenaufrufe zu den Feiertagen verlässt, hat stark schwankende Einnahmen."
+        },
+        {
+          "title": "Veraltete Spendenseiten mit geringer Conversion",
+          "description": "Langsame, nicht mobiloptimierte Spendenformulare führen dazu, dass potenzielle Spender:innen mittendrin abbrechen."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Automatischer Versand von Zuwendungsbestätigungen",
+          "description": "Rechtskonforme deutsche Geldzuwendungsbestätigungen, französische Reçus Fiscaux und britische Gift-Aid-Belege – ganz ohne manuellen Aufwand."
+        },
+        {
+          "title": "Intelligentes Upselling zur monatlichen Spende",
+          "description": "Gewinnen Sie Einmalspender:innen schon im Spendenprozess als dauerhafte monatliche Unterstützer:innen."
+        },
+        {
+          "title": "Moderner, mobil optimierter Checkout",
+          "description": "Spenden mit einem Fingertipp über Apple Pay, Google Pay, PayPal und europäische Lastschrift."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "34 %",
+          "label": "Höhere Spenden-Conversion",
+          "context": "Im Vergleich zu klassischen mehrseitigen Spendenformularen"
+        },
+        {
+          "metric": "82 %",
+          "label": "Spender:innen übernehmen Gebühren",
+          "context": "Freiwillige Übernahme der Transaktionskosten"
+        },
+        {
+          "metric": "Tausende",
+          "label": "Stunden pro Jahr gespart",
+          "context": "Durch automatisierten Versand der Zuwendungsbestätigungen zur Steuersaison"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Unterstützt Donorfit britisches Gift Aid oder deutsche Zuwendungsbestätigungen?",
+          "answer": "Ja. Donorfit erstellt offizielle Zuwendungsbestätigungen nach den jeweiligen europäischen Vorgaben – darunter die deutsche Spendenbescheinigung und britische Gift-Aid-Erklärungen."
+        },
+        {
+          "question": "Können wir Spendenformulare direkt auf unserer WordPress- oder Webflow-Website einbinden?",
+          "answer": "Ja. Donorfit stellt saubere Embed-Snippets und iFrame-Optionen bereit, die sich nahtlos in jedes CMS einfügen – ohne Spender:innen von Ihrer Domain wegzuleiten."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Online-Spenden" },
+        { "name": "Regelmäßiges Spenden" },
+        { "name": "Kampagnenmanagement" }
+      ]
+    },
+    "foundations": {
+      "targetAudience": "Für Stiftungen",
+      "audienceName": "Stiftungen",
+      "h1": "Transparente Mittelverwaltung für gemeinnützige Stiftungen",
+      "subheadline": "Organisieren Sie Stiftungsvermögen, verfolgen Sie zweckgebundene Zuwendungen und legen Sie gegenüber Vorstand, Stiftungsrat und Behörden lückenlos Rechenschaft ab.",
+      "heroKicker": "Governance & Mittelverwaltung für Stiftungen",
+      "overview": "Stiftungen und öffentliche Treuhandvermögen erfordern strenge Governance, eine transparente Nachverfolgung der Mittelverwendung und einwandfreie Finanzdokumentation. Donorfit bietet Stiftungsgremien Sicherheit und Klarheit auf institutionellem Niveau.",
+      "keyChallenges": [
+        {
+          "title": "Strenge Prüfung zweckgebundener Mittel",
+          "description": "Sicherstellen, dass zweckgebundene Zuwendungen an das Stiftungsvermögen nicht versehentlich mit freien Verwaltungsmitteln vermischt werden."
+        },
+        {
+          "title": "Berichte für Vorstand und Stiftungsrat",
+          "description": "Quartalsberichte mit geprüften Zahlen zum Kapitalerhalt und zu Projektausschüttungen zusammenstellen."
+        },
+        {
+          "title": "Betreuung von Großspender:innen",
+          "description": "Eine diskrete, persönliche Kommunikationshistorie mit den wichtigsten Förder:innen pflegen."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Erfassung zweckgebundener Mittel",
+          "description": "Kennzeichnen Sie jedes Stiftungsvermögen und jeden Fonds mit verbindlichen Zweckbindungen – für prüfungssichere Ausschüttungen."
+        },
+        {
+          "title": "Analysen für Vorstand und Gremien",
+          "description": "Erstellen Sie übersichtliche PDF-Berichte zu Fondswachstum, Ausschüttungsquoten und Spenderbindung."
+        },
+        {
+          "title": "Vertrauliche Förderprofile",
+          "description": "Verschlüsselte Spenderakten mit eingeschränkten Berechtigungen für die Stiftungsleitung und Verantwortliche für Großspenden."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "100 %",
+          "label": "Prüfungssichere Trennung",
+          "context": "Klare Zuordnung von zweckgebundenem und freiem Stiftungskapital"
+        },
+        {
+          "metric": "1 Klick",
+          "label": "Gremienbericht auf Knopfdruck",
+          "context": "Quartalsberichte für den Stiftungsrat sofort erstellt"
+        },
+        {
+          "metric": "ISO 27001",
+          "label": "Hosting-Standard",
+          "context": "Europäische Serverinfrastruktur auf Enterprise-Niveau mit Datenisolierung"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir mehrere getrennte Stiftungsfonds in einem Donorfit-Konto verwalten?",
+          "answer": "Ja. Stiftungen können eigene Unterfonds und Kapitalkonten anlegen – mit separaten Finanzberichten und individuellen Verwendungszielen."
+        },
+        {
+          "question": "Können unsere Vorstandsmitglieder Dashboards mit reinem Lesezugriff einsehen?",
+          "answer": "Ja. Donorfit bietet reine Leserollen für Prüfer:innen und den Stiftungsrat – ohne Risiko versehentlicher Datenänderungen."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Berichte & Analysen" },
+        { "name": "Spenderverwaltung (CRM)" },
+        { "name": "Money Pool & Gruppenspenden" }
+      ]
+    },
+    "sponsorship-organizations": {
+      "targetAudience": "Für Patenschaftsorganisationen",
+      "audienceName": "Patenschaftsorganisationen",
+      "h1": "Komplette Infrastruktur für Kinder- und Gemeindepatenschaften",
+      "subheadline": "Bringen Sie Pat:innen und Begünstigte zusammen, verfolgen Sie regelmäßige monatliche Beiträge und versenden Sie würdevolle Fortschrittsberichte – auch in großem Umfang.",
+      "heroKicker": "Patenschaftsprogramme von A bis Z",
+      "overview": "Hunderte oder Tausende laufende Patenschaften zu verwalten, erfordert spezialisierte Software. Donorfit übernimmt den Schutz der Begünstigten, den automatischen Lastschrifteinzug und die jährlichen Fortschrittsberichte – ganz ohne manuelle Tabellen.",
+      "keyChallenges": [
+        {
+          "title": "Unklare Zuordnung von Begünstigten",
+          "description": "Den Überblick behalten, welche Pat:in welches Kind oder Projekt unterstützt – über Jahre und Schulwechsel hinweg."
+        },
+        {
+          "title": "Hohe Abwanderung bei regelmäßigen Lastschriften",
+          "description": "Fehlgeschlagene Überweisungen und abgelaufene Kreditkarten führen zu stillen Kündigungen und unterbrochener Förderung der Begünstigten."
+        },
+        {
+          "title": "Würdevolle Inhalte und Fortschrittsberichte",
+          "description": "Fortschrittsberichte, Zeugnisse und Briefe sammeln, prüfen und versenden, ohne private Informationen über Kinder preiszugeben."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Integrierte Zuordnung von Begünstigten und Pat:innen",
+          "description": "Strikte 1:1- oder 1:n-Beziehungen mit vollständiger Historie früherer Pat:innen."
+        },
+        {
+          "title": "Automatisierte europäische Lastschriftabwicklung",
+          "description": "SEPA-XML-Sammeldateien erzeugen und direkt an automatisierte Zahlungsanbieter mit intelligenten Wiederholungsversuchen anbinden."
+        },
+        {
+          "title": "Digitales Portal für Pat:innen",
+          "description": "Würdevolle, datenschutzgeprüfte Updates, Briefe und Meilensteine direkt im privaten Portal der Pat:innen veröffentlichen."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "72 %",
+          "label": "Langfristige Bindung",
+          "context": "Durchschnittliche mehrjährige Bindung von Pat:innen dank automatisierter Updates"
+        },
+        {
+          "metric": "Null",
+          "label": "Tabellenfehler",
+          "context": "Eine zentrale Datenquelle statt verstreuter Excel-Dateien zu Begünstigten"
+        },
+        {
+          "metric": "48 Std.",
+          "label": "Schnellere Updates",
+          "context": "Beim Versand der jährlichen Schulzeugnisse an Tausende Pat:innen"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können Pat:innen ihren Patenkindern Nachrichten schreiben?",
+          "answer": "Ja. Donorfit enthält ein moderiertes Nachrichtenportal, in dem Kinderschutzbeauftragte Briefe vor der Weiterleitung prüfen können."
+        },
+        {
+          "question": "Was passiert, wenn eine Pat:in mit der Zahlung in Verzug gerät?",
+          "answer": "Donorfit benachrichtigt Ihr Team, startet freundliche automatische Zahlungserinnerungen und gewährt Kulanzfristen, damit die Schulbildung der Kinder nie plötzlich unterbrochen wird."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Sponsorship-Plattform" },
+        { "name": "Waisenpatenschaft" },
+        { "name": "Regelmäßiges Spenden" }
+      ]
+    },
+    "membership-organizations": {
+      "targetAudience": "Für Mitgliederorganisationen",
+      "audienceName": "Mitgliederorganisationen",
+      "h1": "Automatisierte Mitgliedsbeiträge und Mitgliederverwaltung für gemeinnützige Organisationen",
+      "subheadline": "Pflegen Sie Mitgliederdaten, automatisieren Sie die jährliche Beitragsabrechnung und kommunizieren Sie mit Ihren Mitgliedern – in einem zuverlässigen System.",
+      "heroKicker": "Moderne Verbands- und Vereinsverwaltung",
+      "overview": "Gemeinnützige Vereine, Berufsverbände und Gemeinschaftsinitiativen leben von aktiven Mitgliedern. Donorfit erspart Ihnen das mühsame Hinterherlaufen hinter Jahresbeiträgen und den Versand von Papierrechnungen.",
+      "keyChallenges": [
+        {
+          "title": "Unbezahlte Jahresbeiträge",
+          "description": "Ehrenamtliche und Mitarbeiter:innen verbringen Wochen damit, Mitgliedern mit monatelang überfälligen Beiträgen zu schreiben und sie anzurufen."
+        },
+        {
+          "title": "Veraltete Kontaktdaten von Mitgliedern",
+          "description": "Unzustellbare Post, zurückgewiesene Newsletter und veraltete Firmenzugehörigkeiten."
+        },
+        {
+          "title": "Komplexe, mehrstufige Beitragsstrukturen",
+          "description": "Unterschiedliche Sätze für Studierende, Institutionen, Mitglieder im Ruhestand und Firmenförderer verwalten."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Automatische Verlängerung per Lastschrift",
+          "description": "Automatische wiederkehrende Verlängerungen per SEPA-Basis- oder SEPA-Firmenlastschrift, die Jahresbeiträge ohne manuelles Eingreifen einziehen."
+        },
+        {
+          "title": "Self-Service-Konten für Mitglieder",
+          "description": "Mitglieder melden sich sicher per Magic Link an, um ihre Postanschrift zu aktualisieren, Zahlungsbelege herunterzuladen oder ihren Tarif zu wechseln."
+        },
+        {
+          "title": "Berichte für Abstimmungen und Mitgliederversammlungen",
+          "description": "Erstellen Sie sofort beglaubigte Listen stimmberechtigter Mitglieder für satzungsgemäße Jahreshauptversammlungen."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "78 %",
+          "label": "Weniger verspätete Beiträge",
+          "context": "Nach der Umstellung auf automatische SEPA-Lastschriftmandate"
+        },
+        {
+          "metric": "100 %",
+          "label": "Korrekte Stimmlisten",
+          "context": "Echtzeit-Prüfung der stimmberechtigten, beitragszahlenden Mitglieder"
+        },
+        {
+          "metric": "15 Min.",
+          "label": "Durchschnittliche Einrichtungszeit",
+          "context": "Von der Anmeldung neuer Mitglieder bis zur Beitragsautorisierung"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Können wir Beiträge jährlich oder monatlich einziehen?",
+          "answer": "Ja. Sie können jährliche, vierteljährliche oder monatliche Abrechnungszyklen mit automatischem Einzug festlegen."
+        },
+        {
+          "question": "Können Mitglieder offizielle Mitgliedschaftsnachweise für die Steuer herunterladen?",
+          "answer": "Ja. Über ihre Self-Service-Konten laden Mitglieder offizielle jährliche Bescheinigungen über ihre Mitgliedsbeiträge herunter."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Membership – Mitgliederverwaltung" },
+        { "name": "Spenderverwaltung (CRM)" },
+        { "name": "Online-Spenden" }
+      ]
+    },
+    "international-organizations": {
+      "targetAudience": "Für internationale Organisationen",
+      "audienceName": "internationale Organisationen",
+      "h1": "Grenzüberschreitende Fundraising-Infrastruktur für internationale Hilfsorganisationen",
+      "subheadline": "Vereinen Sie Fundraising-Standorte weltweit, verwalten Sie mehrere Währungen und Rechtseinheiten und sichern Sie die Einhaltung europäischer Datenschutzvorgaben.",
+      "heroKicker": "Globale Hilfe & grenzüberschreitende Governance",
+      "overview": "Internationale Hilfsorganisationen stehen in vielen Rechtsräumen vor komplexen Anforderungen. Donorfit bietet eine einheitliche Datenarchitektur mit lokalisierten Spendenformularen, Buchhaltung für mehrere Rechtseinheiten und strikter Einhaltung europäischer und internationaler Standards.",
+      "keyChallenges": [
+        {
+          "title": "Finanzkonsolidierung über mehrere Rechtseinheiten",
+          "description": "Eigenständige Rechtseinheiten in Deutschland, Frankreich, dem Vereinigten Königreich und der Schweiz betreiben und trotzdem zentral den Überblick behalten."
+        },
+        {
+          "title": "Wechselkursschwankungen und hohe Überweisungsgebühren",
+          "description": "Verlust dringend benötigter Hilfsgelder, wenn regionale Spenden in zentrale Katastrophenhilfefonds umgerechnet werden."
+        },
+        {
+          "title": "Internationale Datenhoheit & DSGVO",
+          "description": "Sicherstellen, dass in Europa erhobene Daten strikt der DSGVO entsprechen und die weltweite Koordination vor Ort dennoch möglich bleibt."
+        }
+      ],
+      "tailoredFeatures": [
+        {
+          "title": "Verwaltung mehrerer Rechtseinheiten & Landesverbände",
+          "description": "Eigenständige nationale Fundraising-Standorte mit lokalen Zuwendungsbestätigungen, separaten Bankkonten und zentralem Reporting verwalten."
+        },
+        {
+          "title": "Globale Zahlungswege in mehreren Währungen",
+          "description": "Spenden in EUR, GBP, USD, CHF und regionalen Währungen einnehmen – mit Wechselkursabgleich in Echtzeit."
+        },
+        {
+          "title": "Souveränes EU-Cloud-Hosting",
+          "description": "Garantiertes Hosting auf europäischen Servern, starke Verschlüsselung und volle Einhaltung internationaler humanitärer Standards."
+        }
+      ],
+      "measurableOutcomes": [
+        {
+          "metric": "12+",
+          "label": "Unterstützte Währungen",
+          "context": "Lokale Zahlungen in Europa und weltweit"
+        },
+        {
+          "metric": "Null",
+          "label": "Verstöße bei Datenübermittlungen",
+          "context": "Garantierte europäische Datengrenzen und DSGVO-Konformität"
+        },
+        {
+          "metric": "Echtzeit",
+          "label": "Globale Gesamtübersicht",
+          "context": "Sofortiger Überblick der Geschäftsleitung über alle regionalen Standorte"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Kann jeder Landesverband ein eigenes Bankkonto und ein eigenes Branding haben?",
+          "answer": "Ja. Donorfit unterstützt Konfigurationen mit mehreren Rechtseinheiten, in denen jeder Standort seine eigene Bankverbindung, Sprache und rechtlichen Angaben im Footer behält."
+        },
+        {
+          "question": "Wie geht Donorfit mit Spitzenlasten in der Katastrophen-Nothilfe um?",
+          "answer": "Unsere Cloud-Architektur skaliert automatisch und verarbeitet bei plötzlichen humanitären Spendenaufrufen Millionen von Anfragen – ohne Ausfallzeiten."
+        }
+      ],
+      "recommendedProducts": [
+        { "name": "Kampagnenmanagement" },
+        { "name": "Sponsorship-Plattform" },
+        { "name": "Berichte & Analysen" }
+      ]
+    }
+  },
+  "ui": {
+    "notFound": {
+      "title": "Lösung nicht gefunden",
+      "text": "Die angeforderte Lösung für diese Zielgruppe wurde nicht gefunden.",
+      "button": "Zur Startseite"
+    },
+    "hero": {
+      "getStarted": "Jetzt starten für {{name}}",
+      "walkthrough": "Persönliche Demo vereinbaren",
+      "tailoredFor": "Zugeschnitten auf {{name}}"
+    },
+    "images": {
+      "field": "Mitarbeiter:innen der Entwicklungszusammenarbeit im Austausch mit Menschen vor Ort",
+      "gala": "Empfang bei einer Benefizgala mit Persönlichkeiten aus der Gemeinschaft",
+      "office": "Engagiertes Leitungsteam einer gemeinnützigen Organisation in einem modernen europäischen Büro"
+    },
+    "impact": {
+      "kicker": "Strategische Wirkung"
+    },
+    "challenges": {
+      "kicker": "Konkrete Herausforderungen",
+      "title": "Herausforderungen, die wir für {{name}} lösen",
+      "label": "Herausforderung 0{{n}}"
+    },
+    "features": {
+      "kicker": "Maßgeschneiderte Architektur",
+      "title": "Funktionen, die sich an Ihren Arbeitsabläufen orientieren"
+    },
+    "products": {
+      "kicker": "Empfohlene Produkte",
+      "title": "Empfohlene Module für {{name}}",
+      "explore": "Spezifikationen & Workflows entdecken →"
+    },
+    "faqs": {
+      "kicker": "Fragen aus der Praxis",
+      "title": "Häufige Fragen von {{name}}"
+    }
+  }
+}
