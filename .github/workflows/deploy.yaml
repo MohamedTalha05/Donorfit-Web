@@ -11,7 +11,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: mfb-Donorfit-sandbox-deploy
+  group: mfb-donorfit-sandbox-deploy
   cancel-in-progress: false
 
 jobs:

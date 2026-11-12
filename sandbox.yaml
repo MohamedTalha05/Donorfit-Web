@@ -1,6 +1,6 @@
 # App Engine service for the MFB-Minbar sandbox (static Vite SPA served from dist/)
 runtime: python312
-service: mfb-Donorfit-sandbox
+service: mfb-donorfit-sandbox
 
 handlers:
   # Hashed build assets (JS/CSS) - safe to cache long
