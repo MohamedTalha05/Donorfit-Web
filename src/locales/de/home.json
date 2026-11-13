@@ -3,19 +3,28 @@
     "badge": "Fundraising-Technologie für gemeinnützige Organisationen",
     "titleLine1": "Mehr Spenden für Ihre Mission.",
     "titleLine2": "Weniger Zeit für Verwaltung.",
-    "description": "Spendenformulare, regelmäßiges Spenden, Kampagnen und Spenderverwaltung in einer vernetzten Plattform – entwickelt für NGOs, Stiftungen, Moscheegemeinden und gemeinnützige Organisationen.",
+    "description": "Spenden­formulare, regelmäßiges Spenden, Kampagnen und Spender­verwaltung in einer vernetzten Plattform – entwickelt für NGOs, Stiftungen, Moschee­gemeinden und gemeinnützige Organisationen.",
     "trust": {
       "euHosted": "In der EU gehostet, DSGVO-konform",
-      "taxReceipts": "Automatische Zuwendungsbestätigungen",
+      "taxReceipts": "Automatische Zuwendungs­bestätigungen",
       "exportData": "Ihre Daten jederzeit exportieren"
     }
   },
   "overview": {
     "srTitle": "Produktübersicht",
     "highlights": [
-      { "title": "Jede Spende im Blick", "text": "Spenden, regelmäßige Spenden und Kampagnen in einem gemeinsamen Dashboard." },
-      { "title": "Bestätigungen automatisch", "text": "Rechtskonforme Zuwendungsbestätigungen werden für Sie erstellt und versendet." },
-      { "title": "Berichte per Klick", "text": "Teilen Sie klare Zahlen mit Vorstand, Stiftungsrat und Prüfer:innen." }
+      {
+        "title": "Jede Spende im Blick",
+        "text": "Spenden, regelmäßige Spenden und Kampagnen in einem gemeinsamen Dashboard."
+      },
+      {
+        "title": "Bestätigungen automatisch",
+        "text": "Rechtskonforme Zuwendungs­bestätigungen werden für Sie erstellt und versendet."
+      },
+      {
+        "title": "Berichte per Klick",
+        "text": "Teilen Sie klare Zahlen mit Vorstand, Stiftungsrat und Prüfer:innen."
+      }
     ]
   },
   "trusted": {
@@ -25,8 +34,8 @@
       "NGOs",
       "Gemeinnützige Vereine",
       "Stiftungen",
-      "Moscheegemeinden",
-      "Patenschaftsprogramme",
+      "Moschee­gemeinden",
+      "Patenschafts­programme",
       "Mitgliedervereine"
     ]
   },
@@ -36,12 +45,30 @@
     "titleHighlight": "an einem Ort",
     "description": "Schluss mit dem Zusammenflicken von Formularen, Tabellen und Zahlungstools. Donorfit verbindet alle Bereiche Ihres Fundraisings.",
     "features": [
-      { "title": "Online-Spenden", "description": "Spendenformulare und Kampagnenseiten in Ihrem Design, die auf jedem Gerät überzeugen." },
-      { "title": "Regelmäßiges Spenden", "description": "Monatliche und jährliche Spenden mit SEPA-Lastschriftmandaten, automatischen Wiederholungen und Self-Service für Spender:innen." },
-      { "title": "Kampagnen & Spendenaufrufe", "description": "Spendenaufrufe mit Spendenziel, Live-Fortschritt, Meilensteinen, QR-Codes und Verdopplungsaktionen." },
-      { "title": "Spenderverwaltung", "description": "Ein Profil pro Unterstützer:in mit vollständiger Spendenhistorie, Einwilligungen und Notizen." },
-      { "title": "Patenschaften", "description": "Verwalten Sie Pat:innen, Begünstigte und Fortschrittsberichte – mit rollenbasiertem Schutzkonzept." },
-      { "title": "Berichte & Analysen", "description": "Berichte zu Spenderbindung, Kampagnen und Fonds – bereit für Vorstand, Stiftungsrat und Prüfer:innen." }
+      {
+        "title": "Online-Spenden",
+        "description": "Spenden­formulare und Kampagnenseiten in Ihrem Design, die auf jedem Gerät überzeugen."
+      },
+      {
+        "title": "Regelmäßiges Spenden",
+        "description": "Monatliche und jährliche Spenden mit SEPA-Lastschrift­mandaten, automatischen Wiederholungen und Self-Service für Spender:innen."
+      },
+      {
+        "title": "Kampagnen & Spendenaufrufe",
+        "description": "Spendenaufrufe mit Spendenziel, Live-Fortschritt, Meilensteinen, QR-Codes und Verdopplungsaktionen."
+      },
+      {
+        "title": "Spender­verwaltung",
+        "description": "Ein Profil pro Unterstützer:in mit vollständiger Spendenhistorie, Einwilligungen und Notizen."
+      },
+      {
+        "title": "Patenschaften",
+        "description": "Verwalten Sie Pat:innen, Begünstigte und Fortschritts­berichte – mit rollenbasiertem Schutzkonzept."
+      },
+      {
+        "title": "Berichte & Analysen",
+        "description": "Berichte zu Spenderbindung, Kampagnen und Fonds – bereit für Vorstand, Stiftungsrat und Prüfer:innen."
+      }
     ],
     "alsoAvailable": {
       "before": "Ebenfalls verfügbar:",
@@ -51,13 +78,25 @@
   },
   "forms": {
     "eyebrow": "Online-Spenden",
-    "title": "Spendenformulare, die wirklich abgeschlossen werden",
+    "title": "Spenden­formulare, die wirklich abgeschlossen werden",
     "description": "Ein klarer Bezahlvorgang in zwei Schritten – in Ihrem Design, mit den bevorzugten Zahlungsarten Ihrer Unterstützer:innen und automatisch versendeten Bestätigungen.",
     "features": [
-      { "title": "Ihr Design", "text": "Passen Sie Farben, Schriften und Bilder an." },
-      { "title": "Überall einbinden", "text": "WordPress, Webflow, Squarespace oder eigene Websites." },
-      { "title": "Gebühren übernehmen", "text": "Optionale Gebührenübernahme, damit die volle Spende ankommt." },
-      { "title": "Sofortige Bestätigungen", "text": "Länderspezifische Zuwendungsbestätigungen, automatisch versendet." }
+      {
+        "title": "Ihr Design",
+        "text": "Passen Sie Farben, Schriften und Bilder an."
+      },
+      {
+        "title": "Überall einbinden",
+        "text": "WordPress, Webflow, Squarespace oder eigene Websites."
+      },
+      {
+        "title": "Gebühren übernehmen",
+        "text": "Optionale Gebühren­übernahme, damit die volle Spende ankommt."
+      },
+      {
+        "title": "Sofortige Bestätigungen",
+        "text": "Länderspezifische Zuwendungs­bestätigungen, automatisch versendet."
+      }
     ],
     "link": "Online-Spenden entdecken"
   },
@@ -66,10 +105,22 @@
     "title": "Planbare Einnahmen, ohne Zahlungen hinterherzulaufen",
     "description": "Machen Sie aus Einmalspender:innen monatliche Unterstützer:innen – Einzüge, Wiederholungen und Änderungen übernimmt Donorfit.",
     "points": [
-      { "bold": "SEPA-Lastschriftmandate erledigt", "after": " – inklusive Vorabankündigungen und Bankdatei-Exporten." },
-      { "bold": "Fehlgeschlagene Zahlungen werden automatisch wiederholt", "after": " – und Kartendaten bei Kartenwechsel aktualisiert." },
-      { "bold": "Self-Service für Spender:innen", "after": " – Unterstützer:innen ändern Bankdaten oder Beträge oder pausieren, statt zu kündigen." },
-      { "bold": "Erhöhungsanfragen", "after": ", die treue Spender:innen einladen, ihre Spende zu erhöhen." }
+      {
+        "bold": "SEPA-Lastschrift­mandate automatisch verwaltet",
+        "after": " – inklusive Vorab­ankündigungen und Bankdatei-Exporten."
+      },
+      {
+        "bold": "Fehlgeschlagene Zahlungen werden automatisch wiederholt",
+        "after": " – und Kartendaten bei Kartenwechsel aktualisiert."
+      },
+      {
+        "bold": "Self-Service für Spender:innen",
+        "after": " – Unterstützer:innen ändern Bankdaten oder Beträge oder pausieren, statt zu kündigen."
+      },
+      {
+        "bold": "Erhöhungsanfragen",
+        "after": ", die treue Spender:innen einladen, ihre Spende zu erhöhen."
+      }
     ],
     "link": "Regelmäßiges Spenden entdecken"
   },
@@ -79,9 +130,18 @@
     "description": "Erstellen Sie in wenigen Minuten eine Kampagnenseite, zeigen Sie den Live-Fortschritt zum Spendenziel und geben Sie Unterstützer:innen einen Grund zum Teilen.",
     "link": "Kampagnen entdecken",
     "examples": [
-      { "title": "Ramadan-Lebensmittelpakete", "tag": "Saisonaler Aufruf" },
-      { "title": "Winter-Nothilfe", "tag": "Nothilfe" },
-      { "title": "Ein Klassenzimmer bauen", "tag": "Projektfonds" }
+      {
+        "title": "Ramadan-Lebensmittel­pakete",
+        "tag": "Saisonaler Aufruf"
+      },
+      {
+        "title": "Winter-Nothilfe",
+        "tag": "Nothilfe"
+      },
+      {
+        "title": "Ein Klassenzimmer bauen",
+        "tag": "Projektfonds"
+      }
     ],
     "stats": {
       "funded": "finanziert",
@@ -89,7 +149,7 @@
       "daysLeft": "Tage verbleibend"
     },
     "progressLabel": "Fortschritt: {{title}}",
-    "sampleBadge": "Beispielkampagnen · Beispieldaten",
+    "sampleBadge": "Beispiel­kampagnen · Beispieldaten",
     "features": [
       "Spendenziele & Live-Fortschrittsbalken",
       "Automatische Meilenstein-E-Mails",
@@ -100,18 +160,40 @@
   "payments": {
     "eyebrow": "Zahlungen",
     "title": "Jede Zahlungsart, die Ihre Unterstützer:innen wünschen",
-    "description": "Akzeptieren Sie Bankzahlungen, Karten und Wallets über bewährte Zahlungsanbieter – die Gelder gehen direkt auf das Bankkonto Ihrer Organisation.",
+    "description": "Akzeptieren Sie Bankzahlungen, Karten und Wallets über bewährte Zahlungs­anbieter – die Gelder gehen direkt auf das Bankkonto Ihrer Organisation.",
     "points": [
-      "Keine Donorfit-Plattform- oder Transaktionsgebühr auf die Kernplattform.",
-      "Spender:innen können die Transaktionsgebühren freiwillig übernehmen.",
+      "Keine Plattform- oder Transaktionsgebühr von Donorfit für die Kernplattform.",
+      "Spender:innen können die Transaktions­gebühren freiwillig übernehmen.",
       "Mehrwährungs-Checkout in EUR, GBP, USD, CHF und weiteren Währungen."
     ],
-    "gatewaysLabel": "Zahlungsanbieter:",
+    "gatewaysLabel": "Zahlungs­anbieter:",
     "link": "Preise ansehen",
     "groups": [
-      { "title": "Bankzahlungen", "items": ["SEPA-Lastschrift", "iDEAL", "Bancontact", "Sofort / Klarna"] },
-      { "title": "Karten", "items": ["Visa", "Mastercard", "American Express"] },
-      { "title": "Wallets", "items": ["Apple Pay", "Google Pay", "PayPal"] }
+      {
+        "title": "Bankzahlungen",
+        "items": [
+          "SEPA-Lastschrift",
+          "iDEAL",
+          "Bancontact",
+          "Sofort / Klarna"
+        ]
+      },
+      {
+        "title": "Karten",
+        "items": [
+          "Visa",
+          "Mastercard",
+          "American Express"
+        ]
+      },
+      {
+        "title": "Wallets",
+        "items": [
+          "Apple Pay",
+          "Google Pay",
+          "PayPal"
+        ]
+      }
     ]
   },
   "integrations": {
@@ -120,10 +202,40 @@
     "description": "Verbinden Sie Zahlungen, Buchhaltung und Ihre Website – und nehmen Sie Ihre Daten jederzeit mit.",
     "link": "Partner & Integrationen ansehen",
     "groups": [
-      { "title": "Zahlungen", "items": ["Stripe", "PayPal", "SEPA-Lastschrift"] },
-      { "title": "Buchhaltung & Exporte", "items": ["DATEV-Export", "CSV", "Excel", "JSON"] },
-      { "title": "CRM", "items": ["Salesforce Nonprofit Cloud"] },
-      { "title": "Ihre Website", "items": ["WordPress", "Webflow", "Squarespace", "Drupal", "TYPO3", "Eigenes HTML / React"] }
+      {
+        "title": "Zahlungen",
+        "items": [
+          "Stripe",
+          "PayPal",
+          "SEPA-Lastschrift"
+        ]
+      },
+      {
+        "title": "Buchhaltung & Exporte",
+        "items": [
+          "DATEV-Export",
+          "CSV",
+          "Excel",
+          "JSON"
+        ]
+      },
+      {
+        "title": "CRM",
+        "items": [
+          "Salesforce Nonprofit Cloud"
+        ]
+      },
+      {
+        "title": "Ihre Website",
+        "items": [
+          "WordPress",
+          "Webflow",
+          "Squarespace",
+          "Drupal",
+          "TYPO3",
+          "Eigenes HTML / React"
+        ]
+      }
     ]
   },
   "solutions": {
@@ -134,27 +246,43 @@
       {
         "title": "NGOs",
         "description": "Führen Sie Spendenaufrufe über Länder und Währungen hinweg durch – und weisen Sie jede Spende Ihren Programmen vor Ort nachvollziehbar zu.",
-        "points": ["Mehrwährungs-Checkout, lokalisiert", "Zweckgebundene Mittel nachverfolgen", "Prüfungsfähige Exporte"]
+        "points": [
+          "Mehrwährungs-Checkout, lokalisiert",
+          "Zweckgebundene Mittel nachverfolgen",
+          "Prüfungsfähige Exporte"
+        ]
       },
       {
         "title": "Stiftungen",
         "description": "Geben Sie Vorstand und Stiftungsrat einen klaren Überblick über zweckgebundene Mittel, Spender:innen und Governance-Berichte.",
-        "points": ["Berichte für Vorstand & Stiftungsrat", "Lesezugriff für Prüfer:innen", "Zweckgebundene Zuweisungen"]
+        "points": [
+          "Berichte für Vorstand & Stiftungsrat",
+          "Lesezugriff für Prüfer:innen",
+          "Zweckgebundene Zuweisungen"
+        ]
       },
       {
-        "title": "Moscheegemeinden & Glaubensgemeinschaften",
+        "title": "Moschee­gemeinden & Glaubens­gemeinschaften",
         "description": "Sammeln Sie regelmäßige Spenden, saisonale Spendenaufrufe und Baufonds Ihrer Gemeinde an einem Ort.",
-        "points": ["Regelmäßige Gemeindespenden", "Saisonale Aktionsseiten", "QR-Codes für Veranstaltungen vor Ort"]
+        "points": [
+          "Regelmäßige Gemeindespenden",
+          "Saisonale Aktionsseiten",
+          "QR-Codes für Veranstaltungen vor Ort"
+        ]
       },
       {
         "title": "Gemeinnützige Organisationen",
         "description": "Ersetzen Sie Tabellen und isolierte Tools durch eine Plattform, die Ihr ganzes Team nutzen kann.",
-        "points": ["Automatische Zuwendungsbestätigungen", "Spender-CRM", "Mitgliedschaften & Patenschaften"]
+        "points": [
+          "Automatische Zuwendungs­bestätigungen",
+          "Spender-CRM",
+          "Mitgliedschaften & Patenschaften"
+        ]
       }
     ],
     "alsoFor": {
       "before": "Auch für",
-      "sponsorship": "Patenschaftsorganisationen",
+      "sponsorship": "Patenschafts­organisationen",
       "membership": "Mitgliedervereine",
       "international": "internationale Organisationen",
       "and": "und",
@@ -162,9 +290,9 @@
     }
   },
   "stories": {
-    "eyebrow": "Kundengeschichten",
+    "eyebrow": "Kunden­geschichten",
     "title": "Geschichten der Organisationen, die wir unterstützen",
-    "emptyTitle": "Kundengeschichten folgen in Kürze",
+    "emptyTitle": "Kunden­geschichten folgen in Kürze",
     "emptyText": "Wir bereiten unsere ersten Geschichten gemeinsam mit den Organisationen dahinter vor und veröffentlichen nur Ergebnisse, die sie bestätigt haben. Sehen Sie sich in der Zwischenzeit an, wie Donorfit für Ihre eigene Organisation funktionieren würde.",
     "shareStory": "Teilen Sie Ihre Geschichte mit uns"
   },
@@ -175,7 +303,7 @@
     "allFaqs": "Alle FAQs"
   },
   "cta": {
-    "titleBefore": "Mehr Zeit für Ihr Team – und für",
+    "titleBefore": "Geben Sie Ihrem Team mehr Zeit für",
     "titleHighlight": "Ihre Mission",
     "description": "Registrieren Sie Ihre Organisation und nehmen Sie Spenden entgegen – die meisten Organisationen sind innerhalb von ein bis zwei Werktagen live.",
     "points": {
@@ -207,7 +335,7 @@
     "card": "Karte"
   },
   "dashboard": {
-    "figureLabel": "Vorschau des Donorfit-Dashboards mit Spendensummen, Spendenverlauf, Kampagnenfortschritt und neuesten Spenden – mit Beispieldaten",
+    "figureLabel": "Vorschau des Donorfit-Dashboards mit Spendensummen, Spendenverlauf, Kampagnen­fortschritt und neuesten Spenden – mit Beispieldaten",
     "nav": {
       "overview": "Übersicht",
       "donations": "Spenden",
@@ -218,14 +346,26 @@
       "settings": "Einstellungen"
     },
     "greeting": "Guten Morgen, {{name}}",
-    "search": "Spender:innen suchen…",
+    "search": "Spender:innen suchen …",
     "range": "Letzte 30 Tage",
     "export": "Exportieren",
     "kpis": [
-      { "label": "Diesen Monat gesammelt", "sub": "Alle Kanäle" },
-      { "label": "Spenden", "sub": "Einmalig & regelmäßig" },
-      { "label": "Aktive Dauerspender:innen", "sub": "Monatlich & jährlich" },
-      { "label": "Ø Spendenbetrag", "sub": "Letzte 30 Tage" }
+      {
+        "label": "Diesen Monat gesammelt",
+        "sub": "Alle Kanäle"
+      },
+      {
+        "label": "Spenden",
+        "sub": "Einmalig & regelmäßig"
+      },
+      {
+        "label": "Aktive Dauerspender:innen",
+        "sub": "Monatlich & jährlich"
+      },
+      {
+        "label": "Ø Spendenbetrag",
+        "sub": "Letzte 30 Tage"
+      }
     ],
     "chartTitle": "Spenden im Zeitverlauf",
     "chartSub": "Tagessumme, alle Kampagnen",
@@ -241,16 +381,16 @@
     "sampleBadge": "Beispielhaftes Dashboard · Beispieldaten"
   },
   "donationForm": {
-    "figureLabel": "Beispiel eines Donorfit-Spendenformulars mit ausgewählter monatlicher Spende, Betragsvorschlägen, Option zur Gebührenübernahme und mehreren Zahlungsarten",
+    "figureLabel": "Beispiel eines Donorfit-Spenden­formulars mit ausgewählter monatlicher Spende, Betragsvorschlägen, Option zur Gebühren­übernahme und mehreren Zahlungsarten",
     "organisation": "Ihre Organisation",
     "campaign": "Spendenaufruf: Sauberes Wasser",
-    "otherAmount": "Anderer Betrag…",
+    "otherAmount": "Anderer Betrag …",
     "coverFees": "Ich übernehme die Transaktionsgebühr, damit 100 % meiner Spende dem Zweck zugutekommen.",
     "donateCta": "{{amount}} monatlich spenden",
     "secure": "Sichere Zahlung · Jederzeit kündbar",
-    "receiptTitle": "Zuwendungsbestätigung versendet",
+    "receiptTitle": "Zuwendungs­bestätigung versendet",
     "receiptSub": "Automatisch per E-Mail",
-    "sepaTitle": "SEPA-Lastschriftmandat erstellt",
+    "sepaTitle": "SEPA-Lastschrift­mandat erstellt",
     "sepaSub": "Monatlicher Einzug geplant",
     "badge": "Beispielformular"
   },
@@ -267,36 +407,67 @@
     ],
     "status": {
       "active": "Aktiv",
-      "retry": "Neuer Versuch geplant",
+      "retry": "Wird wiederholt",
       "paused": "Pausiert"
     },
     "selfServiceTitle": "Self-Service für Spender:innen",
     "selfServiceSub": "Sicherer Link, kein Passwort",
-    "selfServiceActions": ["IBAN ändern", "Betrag ändern", "Pausieren", "Bestätigungen"]
+    "selfServiceActions": [
+      "IBAN ändern",
+      "Betrag ändern",
+      "Pausieren",
+      "Bestätigungen"
+    ]
   },
   "showcase": {
     "sectionLabel": "Donorfit-Produkte",
     "stageLabel": "{{name}}, Produkt {{n}} von {{total}}. Mit den Pfeiltasten links und rechts blättern Sie durch die Produkte.",
     "slideLabel": "{{n}} von {{total}}: {{name}}",
     "slides": {
-      "membership": { "name": "Membership", "alt": "Gemeindemitglieder bei einer Vereinsversammlung im Freien unter einem Baum" },
-      "sponsorship": { "name": "Sponsorship", "alt": "Ein Schuljunge schreibt sorgfältig an seinem Pult in sein Heft" },
-      "waterwell": { "name": "Water Well", "alt": "Kinder füllen gelbe Kanister an einem Handpumpenbrunnen im Dorf" },
-      "qurbani": { "name": "Qurbani", "alt": "Ziegen und Widder auf einem Viehmarkt vor dem Opferfest (Eid al-Adha)" },
-      "school": { "name": "School", "alt": "Eine Lehrerin unterrichtet Schüler:innen in Schuluniform in einem Klassenzimmer" },
-      "moneypool": { "name": "Money Pool", "alt": "Freiwillige stehen bei einer Spendensammlung in der Gemeinde gemeinsam hinter Spendenboxen" }
+      "membership": {
+        "name": "Membership",
+        "alt": "Gemeindemitglieder bei einer Vereinsversammlung im Freien unter einem Baum"
+      },
+      "sponsorship": {
+        "name": "Sponsorship",
+        "alt": "Ein Schuljunge schreibt sorgfältig an seinem Pult in sein Heft"
+      },
+      "waterwell": {
+        "name": "Water Well",
+        "alt": "Kinder füllen gelbe Kanister an einem Handpumpenbrunnen im Dorf"
+      },
+      "qurbani": {
+        "name": "Qurbani",
+        "alt": "Ziegen und Widder auf einem Viehmarkt vor dem Opferfest (Eid al-Adha)"
+      },
+      "school": {
+        "name": "School",
+        "alt": "Eine Lehrerin unterrichtet Schüler:innen in Schuluniform in einem Klassenzimmer"
+      },
+      "moneypool": {
+        "name": "Money Pool",
+        "alt": "Freiwillige stehen bei einer Spendensammlung in der Gemeinde gemeinsam hinter Spendenboxen"
+      }
     },
     "membership": {
       "plansTitle": "Mitgliedschaften",
-      "plans": ["Einzelperson", "Familie", "Studierende"],
+      "plans": [
+        "Einzelperson",
+        "Familie",
+        "Studierende"
+      ],
       "memberRole": "Einzelmitglied",
       "active": "Aktiv",
       "renews": "Verlängerung am {{date}}",
-      "benefits": ["Stimmrecht", "Veranstaltungen", "Newsletter"],
+      "benefits": [
+        "Stimmrecht",
+        "Veranstaltungen",
+        "Newsletter"
+      ],
       "activeMembers": "Aktive Mitglieder"
     },
     "sponsorship": {
-      "title": "Bildungspatenschaft",
+      "title": "Bildungs­patenschaft",
       "child": "{{name}}, {{age}} Jahre",
       "details": "5. Klasse · Schulgeld, Bücher & Uniform",
       "contribution": "Ihr Beitrag",
@@ -307,14 +478,28 @@
       "title": "Dorfbrunnen",
       "raised": "{{pct}} % des Spendenziels gesammelt",
       "status": "Projektstatus",
-      "steps": ["Standortanalyse", "Bohrung", "Pumpeninstallation", "Übergabe an das Dorf"]
+      "steps": [
+        "Standortanalyse",
+        "Bohrung",
+        "Pumpeninstallation",
+        "Übergabe an das Dorf"
+      ]
     },
     "qurbani": {
       "title": "Qurbani zum Opferfest",
       "options": [
-        { "animal": "Schaf oder Ziege", "share": "1 Anteil" },
-        { "animal": "Rind", "share": "1/7 Anteil" },
-        { "animal": "Kamel", "share": "1/7 Anteil" }
+        {
+          "animal": "Schaf oder Ziege",
+          "share": "1 Anteil"
+        },
+        {
+          "animal": "Rind",
+          "share": "1/7 Anteil"
+        },
+        {
+          "animal": "Kamel",
+          "share": "1/7 Anteil"
+        }
       ],
       "order": "Bestellung {{id}}",
       "allocated": "Zugeteilt",
@@ -325,7 +510,11 @@
       "title": "Klasse 4B · heute",
       "present": "Anwesend",
       "fees": "Gebühren 2. Halbjahr",
-      "feeStatus": ["Bezahlt", "Ausstehend", "Überfällig"],
+      "feeStatus": [
+        "Bezahlt",
+        "Ausstehend",
+        "Überfällig"
+      ],
       "students": "{{n}} Schüler:innen",
       "record": "{{name}} · Klasse 4B",
       "recordSub": "Schülerakte · Elternkontakt hinterlegt"

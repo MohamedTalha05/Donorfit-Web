@@ -9,8 +9,8 @@
       "description": "Purpose-built software for humanitarian orphan care programs, combining respectful safeguarding with accountable recurring support."
     },
     "/money-pool": {
-      "title": "Money Pool & Group Giving for Nonprofits | Donorfit",
-      "description": "Collaborative group fundraising, shared community targets, and live progress visibility for schools, mosques, churches, and volunteer groups."
+      "title": "MoneyPool Crowdfunding Platform | Donorfit",
+      "description": "Create crowdfunding campaigns with Donorfit MoneyPool. Bring multiple donors together, collect contributions and track fundraising progress for your organisation's projects."
     },
     "/membership": {
       "title": "Nonprofit Membership Management & Dues Automation | Donorfit",
@@ -61,12 +61,12 @@
       "description": "Unite global fundraising chapters, manage multiple currencies and legal entities, and ensure sovereign European data compliance."
     },
     "/about": {
-      "title": "About Donorfit — Fundraising Technology Built for Nonprofits",
-      "description": "Learn about Donorfit’s mission, European heritage, and commitment to technology, humanity, trust, and simplicity."
+      "title": "About Donorfit — Fundraising & Organisation Management Platform",
+      "description": "Donorfit helps NGOs, nonprofits, charitable trusts, masjids and community organisations manage fundraising, memberships, sponsorship, Qurbani and MoneyPool campaigns in one platform."
     },
     "/contact": {
-      "title": "Contact Donorfit — Direct Sales, Support & European Office",
-      "description": "Connect directly with our European nonprofit specialists in Frankfurt am Main for product demonstrations, sales, and partnerships."
+      "title": "Contact Donorfit — Questions, Support & Partnerships",
+      "description": "Contact the Donorfit team about product demonstrations, sales, partnerships and support."
     },
     "/security": {
       "title": "Security, Privacy, and GDPR Compliance Architecture | Donorfit",
@@ -92,6 +92,38 @@
       "title": "Pricing — Zero Platform & Transaction Fees | Donorfit",
       "description": "Donorfit is an all-in-one fundraising platform for €0 per month: no platform fee and no transaction fee. Collect donations, manage donors and add CRM, recurring, sponsorship and membership modules as you grow."
     },
+    "/integrations": {
+      "title": "Integrations — Stripe, PayPal, Mollie, Mailchimp & More | Donorfit",
+      "description": "Connect Donorfit with the payment providers Stripe, PayPal, GoCardless, Micropayment and Mollie, and with the email platforms Brevo and Mailchimp."
+    },
+    "/integrations/stripe": {
+      "title": "Stripe Integration | Donorfit",
+      "description": "Accept card and wallet payments on your Donorfit donation forms, processed by Stripe."
+    },
+    "/integrations/paypal": {
+      "title": "PayPal Integration | Donorfit",
+      "description": "Let donors give with their PayPal account on your Donorfit donation forms."
+    },
+    "/integrations/gocardless": {
+      "title": "GoCardless Integration | Donorfit",
+      "description": "Collect one-off and regular gifts by bank debit through GoCardless."
+    },
+    "/integrations/micropayment": {
+      "title": "Micropayment Integration | Donorfit",
+      "description": "Offer donors in Germany familiar payment methods through Micropayment."
+    },
+    "/integrations/mollie": {
+      "title": "Mollie Integration | Donorfit",
+      "description": "Offer cards and popular European payment methods through Mollie."
+    },
+    "/integrations/brevo": {
+      "title": "Brevo Integration | Donorfit",
+      "description": "Reach donors and members with newsletters and email campaigns sent through Brevo."
+    },
+    "/integrations/mailchimp": {
+      "title": "Mailchimp Integration | Donorfit",
+      "description": "Send newsletters and updates to your supporters with Mailchimp."
+    },
     "/partners": {
       "title": "Donorfit Partner Network — Agencies, Advisors & Integrations",
       "description": "Join the partner network empowering European non-profits through technology, implementation support, and strategic fundraising guidance."
@@ -101,12 +133,16 @@
       "description": "Details on how Donorfit processes and protects personal data under the European General Data Protection Regulation (EU 2016/679)."
     },
     "/cookie-policy": {
-      "title": "Cookie Policy — Transparency & Consent Management | Donorfit",
-      "description": "Clear explanation of cookies and local storage utilized by Donorfit in accordance with the ePrivacy Directive and GDPR."
+      "title": "Cookie Policy | Donorfit",
+      "description": "Which information the Donorfit website stores on your device, why, and how to manage your cookie choices."
+    },
+    "/refund-policy": {
+      "title": "Cancellation and Refund Policy | Donorfit",
+      "description": "Who to contact about refunds and cancellations of donations, recurring payments and Donorfit services."
     },
     "/impressum": {
-      "title": "Impressum / Legal Notice | Donorfit Technologies",
-      "description": "Statutory provider identification for Donorfit under § 5 Digitale-Dienste-Gesetz (DDG) in Germany."
+      "title": "Imprint | Donorfit",
+      "description": "Provider information for Donorfit under Section 5 of the German Digital Services Act (DDG): MYFUNDBOX GmbH, Wolfsburg."
     },
     "/terms": {
       "title": "Terms & Conditions — Nonprofit Platform Terms | Donorfit",

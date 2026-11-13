@@ -3,170 +3,1180 @@
     "backToHome": "Zurück zur Startseite"
   },
   "privacy": {
-    "eyebrow": "DSGVO & Verordnung (EU) 2016/679",
-    "title": "Datenschutzerklärung",
-    "meta": "Stand: Oktober 2026 · Gültig für alle europäischen Plattformen von Donorfit",
-    "info": {
-      "heading": "1. Informationen über die Erhebung personenbezogener Daten",
-      "paragraphs": [
-        "Der Schutz personenbezogener Daten hat für Donorfit höchste Priorität. Im Folgenden informieren wir Sie gemäß der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) und den nationalen Datenschutzgesetzen über die Erhebung personenbezogener Daten bei der Nutzung unserer Website und unserer Plattform.",
-        "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (z. B. Name, Anschrift, E-Mail-Adressen, IP-Adresse, Nutzerverhalten)."
-      ]
-    },
-    "controller": {
-      "heading": "2. Name und Anschrift des Verantwortlichen",
-      "intro": "Verantwortlicher im Sinne von Art. 4 Nr. 7 DSGVO ist:",
-      "lines": [
-        "Donorfit Technologies GmbH (i.G.)",
-        "Bockenheimer Landstraße 101",
-        "60325 Frankfurt am Main, Deutschland",
-        "E-Mail: privacy@donorfit.com",
-        "Website: https://donorfit.com"
-      ]
-    },
-    "roles": {
-      "heading": "3. Abgrenzung der Rollen: Verantwortlicher und Auftragsverarbeiter",
-      "parts": [
-        "Wenn gemeinnützige Organisationen Donorfit nutzen, um Spenden zu sammeln, Patenschaften zu verwalten und Daten ihrer Unterstützer:innen zu organisieren, ist die jeweilige gemeinnützige Organisation ",
-        "Verantwortlicher",
-        ". Donorfit verarbeitet die Daten der Unterstützer:innen ausschließlich im Auftrag und nach Weisung der gemeinnützigen Organisation als ",
-        "Auftragsverarbeiter",
-        " gemäß Art. 28 DSGVO. Mit jeder Kundenorganisation wird ein förmlicher Vertrag zur Auftragsverarbeitung (AVV) geschlossen."
-      ]
-    },
-    "website": {
-      "heading": "4. Datenverarbeitung auf dieser Marketing-Website",
-      "paragraphs": [
-        "Wenn Sie unsere Website lediglich zu Informationszwecken besuchen, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt (Server-Logfiles), darunter IP-Adresse, Datum und Uhrzeit der Anfrage, Zeitzonendifferenz zur Greenwich Mean Time (GMT), Inhalt der Anforderung, HTTP-Statuscode und Browsertyp. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Gewährleistung der Stabilität und Sicherheit der Website).",
-        "Wenn Sie ein Anfrageformular absenden (z. B. um eine Demo zu vereinbaren oder ein Onboarding anzufragen), werden die übermittelten Daten (Name, Name der Organisation, E-Mail-Adresse, Land, Nachricht) auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO zur Durchführung vorvertraglicher Maßnahmen verarbeitet."
-      ]
-    },
-    "storage": {
-      "heading": "5. Speicherort und Datensicherheit",
-      "paragraphs": [
-        "Sämtliche Kundendatenbanken und Webdienste werden ausschließlich in europäischen Rechenzentren in Frankfurt (Deutschland) und Dublin (Irland) betrieben. Wir setzen TLS-1.3-Verschlüsselung bei der Übertragung und AES-256-Verschlüsselung bei der Speicherung ein."
-      ]
-    },
-    "rights": {
-      "heading": "6. Rechte der betroffenen Personen",
-      "paragraphs": [
-        "Sie haben das Recht auf Auskunft über Ihre personenbezogenen Daten (Art. 15 DSGVO), auf Berichtigung (Art. 16 DSGVO), auf Löschung (Art. 17 DSGVO), auf Einschränkung der Verarbeitung (Art. 18 DSGVO) sowie auf Datenübertragbarkeit (Art. 20 DSGVO). Darüber hinaus haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren."
-      ]
-    }
-  },
-  "cookies": {
-    "eyebrow": "ePrivacy-Richtlinie & DSGVO",
-    "title": "Cookie-Richtlinie",
-    "meta": "Verständliche Erläuterungen dazu, wie Donorfit Cookies und den lokalen Speicher (Local Storage) verwendet",
-    "what": {
-      "heading": "1. Was sind Cookies?",
-      "paragraphs": [
-        "Cookies sind kleine Textdateien, die beim Aufruf von Websites auf Ihrem Computer oder Mobilgerät gespeichert werden. Sie ermöglichen es Webanwendungen, Ihre Browsersitzung zu erkennen, Einstellungen zu speichern und eine sichere Authentifizierung zu gewährleisten."
-      ]
-    },
-    "categories": {
-      "heading": "2. Von Donorfit verwendete Cookie-Kategorien",
-      "items": [
-        {
-          "name": "Unbedingt erforderliche Cookies",
-          "description": "Erforderlich für die grundlegende Sicherheit der Plattform, die Prüfung von Anti-CSRF-Tokens und den Sitzungsstatus. Diese Cookies speichern keine personenbezogenen Marketinginformationen und können nicht deaktiviert werden."
-        },
-        {
-          "name": "Funktionale und Präferenz-Cookies",
-          "description": "Speichern Ihre gewählte Sprache, die ausgewählte Währung und den Bearbeitungsstand von Formularfeldern."
-        },
-        {
-          "name": "Datenschutzfreundliche Analyse-Cookies",
-          "description": "Erfassen aggregierte, anonymisierte Erkenntnisse zu Seitenladezeiten, häufig aufgerufenen Leitfäden und Abschlussquoten von Spenden. Diese Cookies werden niemals ohne Ihre vorherige ausdrückliche Einwilligung gesetzt."
-        }
-      ]
-    },
-    "manage": {
-      "heading": "3. Verwaltung Ihrer Cookie-Einstellungen",
-      "paragraphs": [
-        "Sie können Ihre Cookie-Auswahl jederzeit über die nachstehende Schaltfläche einsehen, ändern oder widerrufen:"
-      ],
-      "button": "Cookie-Einstellungen öffnen"
-    }
-  },
-  "impressum": {
-    "eyebrow": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)",
-    "title": "Impressum",
-    "meta": "Gesetzlich vorgeschriebene Anbieterkennzeichnung für digitale Dienste in der Europäischen Union",
-    "provider": {
-      "heading": "Diensteanbieter",
-      "lines": [
-        "Donorfit Technologies GmbH (i.G.)",
-        "Bockenheimer Landstraße 101",
-        "60325 Frankfurt am Main",
-        "Bundesrepublik Deutschland"
-      ]
-    },
-    "contact": {
-      "heading": "Kontakt",
-      "lines": [
-        "E-Mail: contact@donorfit.com",
-        "Support: support@donorfit.com",
-        "Sicherheit: security@donorfit.com"
-      ]
-    },
-    "representation": {
-      "heading": "Vertretungsberechtigte",
-      "paragraphs": [
-        "Geschäftsführer: Faisal & Geschäftsleitung"
-      ]
-    },
-    "register": {
-      "heading": "Registereintrag",
-      "paragraphs": [
-        "Amtsgericht Frankfurt am Main · Handelsregister HRB (Eintragung ausstehend)",
-        "Umsatzsteuer-Identifikationsnummer (USt-IdNr.): DE-PENDING"
-      ]
-    },
-    "odr": {
-      "heading": "Online-Streitbeilegung (OS)",
-      "before": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
-      "after": ". Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
-    }
-  },
-  "terms": {
-    "eyebrow": "Allgemeine Nutzungsbedingungen",
-    "title": "Allgemeine Geschäftsbedingungen",
-    "meta": "Regelungen zu Plattformzugang, Zahlungsabwicklung und Nutzungsrechten für gemeinnützige Organisationen",
+    "eyebrow": "Rechtliches",
+    "title": "Datenschutz­erklärung",
+    "updatedLabel": "Zuletzt aktualisiert",
+    "updated": "13. November 2026",
+    "meta": "Zuletzt aktualisiert: 13. November 2026",
+    "intro": [
+      "Diese Datenschutz­erklärung erläutert, wie Donorfit mit personenbezogenen Daten umgeht, wenn Sie unsere Website besuchen, mit uns Kontakt aufnehmen oder die Donorfit-Plattform nutzen – entweder als Mitglied einer Organisation oder als Spender:in, Mitglied oder Unterstützer:in einer Organisation, die Donorfit verwendet.",
+      "Wir haben sie so geschrieben, dass man sie tatsächlich lesen kann. Wenn etwas unklar ist, wenden Sie sich bitte über die Kontaktdaten in Abschnitt 2 an uns."
+    ],
+    "toc": true,
+    "tocTitle": "Inhalt",
+    "backToTop": "Zurück zum Inhalt",
     "sections": [
       {
+        "id": "scope",
         "heading": "1. Geltungsbereich",
-        "paragraphs": [
-          "Diese Allgemeinen Geschäftsbedingungen regeln die Bereitstellung von Fundraising- und Spenderverwaltungssoftware als Software-as-a-Service (SaaS) durch Donorfit an Nichtregierungsorganisationen, eingetragene gemeinnützige Organisationen, Stiftungen und gemeinnützige Vereine."
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Diese Datenschutz­erklärung gilt für:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Besucher:innen dieser Website (donorfit.com und ihre Sprachversionen);",
+              "Personen, die uns per E-Mail oder über ein Formular auf dieser Website kontaktieren, etwa um eine Frage zu stellen, eine Demo zu buchen oder den Einstieg anzufragen;",
+              "Personen, die die Donorfit-Plattform im Auftrag einer Organisation nutzen, etwa Administrator:innen und Teammitglieder („Nutzer:innen der Organisation“);",
+              "Spender:innen, Mitglieder, Pat:innen und andere Unterstützer:innen, deren Daten eine Organisation mit Donorfit verwaltet („Unterstützer:innen“)."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wie wir mit Ihren Daten umgehen und wer dafür verantwortlich ist, hängt davon ab, zu welcher dieser Gruppen Sie gehören. Abschnitt 3 erläutert dies im Einzelnen."
+          }
         ]
       },
       {
-        "heading": "2. Leistungsbeschreibung",
-        "paragraphs": [
-          "Donorfit stellt Softwarewerkzeuge für das Sammeln von Online-Spenden, die Verwaltung regelmäßiger Spenden, die Verwaltung von Patenschaften, die Koordination von Money Pools, die Mitgliederverwaltung sowie die Spenderverwaltung (CRM) bereit. Donorfit ist weder als Bank noch als Treuhänder oder Verwahrstelle tätig; sämtliche Finanztransaktionen werden über zugelassene Zahlungsdienstleister unmittelbar auf die Händlerkonten der gemeinnützigen Organisation abgewickelt."
+        "id": "controller",
+        "heading": "2. Verantwortliche Stelle",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Verantwortlicher für die in dieser Erklärung beschriebene Verarbeitung im Sinne von Art. 4 Nr. 7 der Datenschutz-Grundverordnung (DSGVO) und der UK GDPR ist:"
+          },
+          {
+            "type": "controller"
+          },
+          {
+            "type": "p",
+            "text": "Für alle Fragen zum Datenschutz und zur Ausübung Ihrer Rechte schreiben Sie bitte an die oben genannte E-Mail-Adresse. Weitere Angaben zum Unternehmen finden Sie in unserem Impressum."
+          },
+          {
+            "type": "link",
+            "text": "Impressum",
+            "to": "/impressum"
+          }
         ]
       },
       {
-        "heading": "3. Pflichten der gemeinnützigen Organisationen",
-        "paragraphs": [
-          "Die gemeinnützigen Organisationen sichern zu, dass sie nach dem jeweils anwendbaren örtlichen Recht zur Durchführung von Fundraising-Aktivitäten berechtigt sind und dass sämtliche veröffentlichten Kampagnenangaben, Beschreibungen von Begünstigten und Angaben im Zusammenhang mit Zuwendungsbestätigungen wahrheitsgemäß und zutreffend sind."
+        "id": "roles",
+        "heading": "3. Unsere Rolle: Verantwortlicher oder Auftragsverarbeiter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Das Datenschutzrecht unterscheidet zwischen dem Verantwortlichen, der über Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet, und dem Auftragsverarbeiter, der personenbezogene Daten im Auftrag und nach Weisung eines Verantwortlichen verarbeitet. Donorfit handelt je nach Daten in beiden Rollen:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Wessen Daten",
+              "Beispiele",
+              "Rolle von Donorfit"
+            ],
+            "rows": [
+              [
+                "Besucher:innen der Website",
+                "Technische Zugriffsdaten, Sprach- und Cookie-Einstellungen",
+                "Verantwortlicher"
+              ],
+              [
+                "Personen, die uns kontaktieren",
+                "Name, E-Mail-Adresse, Organisation, Nachricht",
+                "Verantwortlicher"
+              ],
+              [
+                "Nutzer:innen der Organisation",
+                "Kontodaten von Administrator:innen und Teammitgliedern, Vertrags- und Abrechnungsdaten",
+                "Verantwortlicher"
+              ],
+              [
+                "Unterstützer:innen einer Organisation",
+                "In der Plattform verwaltete Spender:innen, Mitglieder, Pat:innen und Begünstigte",
+                "Auftragsverarbeiter im Auftrag der Organisation"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Wenn Sie eine Organisation unterstützen"
+          },
+          {
+            "type": "p",
+            "text": "Wenn Sie an eine Organisation spenden, die Donorfit nutzt, dort Mitglied werden oder über sie eine Patenschaft übernehmen, ist diese Organisation Verantwortlicher für Ihre Daten. Sie entscheidet, welche Informationen erhoben werden, wofür sie verwendet und wie lange sie gespeichert werden. Donorfit verarbeitet diese Daten ausschließlich im Auftrag der Organisation und nach ihren Weisungen, wie es Art. 28 DSGVO vorsieht, der zudem einen Auftragsverarbeitungsvertrag zwischen der Organisation und Donorfit verlangt."
+          },
+          {
+            "type": "p",
+            "text": "Für Ihre Daten gilt daher die Datenschutz­erklärung der jeweiligen Organisation. Wenn Sie Auskunft, Berichtigung oder Löschung wünschen oder Fragen zur Verwendung Ihrer Daten haben, wenden Sie sich bitte direkt an die Organisation. Kontaktieren Sie stattdessen uns, leiten wir Ihr Anliegen an die Organisation weiter."
+          },
+          {
+            "type": "h3",
+            "text": "Wenn Sie Donorfit für eine Organisation nutzen"
+          },
+          {
+            "type": "p",
+            "text": "Ihre Organisation bleibt für die Unterstützer­daten verantwortlich, die sie in Donorfit verwaltet – einschließlich einer gültigen Rechtsgrundlage für deren Verarbeitung und der Information ihrer Unterstützer:innen. Donorfit ist Verantwortlicher für Ihre eigenen Kontodaten als Nutzer:in der Organisation sowie für die Vertrags- und Abrechnungsdaten Ihrer Organisation."
+          }
         ]
       },
       {
-        "heading": "4. Dateneigentum und Verfügbarkeit",
-        "paragraphs": [
-          "Die gemeinnützige Organisation bleibt ausschließliche Inhaberin sämtlicher Spender- und Zuwendungsdaten. Donorfit verpflichtet sich, eine angestrebte Systemverfügbarkeit von 99,9 % aufrechtzuerhalten; geplante Wartungsarbeiten sind hiervon ausgenommen."
+        "id": "website",
+        "heading": "4. Besuch unserer Website",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hosting und Server-Logs"
+          },
+          {
+            "type": "p",
+            "text": "Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Wenn Sie eine Seite aufrufen, übermittelt Ihr Browser automatisch technische Informationen, die der Hosting-Anbieter benötigt, um die Seite auszuliefern und den Dienst vor Missbrauch zu schützen. Dazu gehören in der Regel Ihre IP-Adresse, Datum und Uhrzeit des Zugriffs, die aufgerufene Seite, der verwendete Browser und das Betriebssystem sowie die zuvor besuchte Seite."
+          },
+          {
+            "type": "p",
+            "text": "Wir verarbeiten diese Daten, um die Website anzuzeigen und ihre Sicherheit und Stabilität zu gewährleisten. Rechtsgrundlage ist unser berechtigtes Interesse an einem zuverlässigen Betrieb der Website (Art. 6 Abs. 1 lit. f DSGVO). Informationen dazu, wie GitHub mit diesen Daten umgeht, finden Sie im GitHub Privacy Statement."
+          },
+          {
+            "type": "h3",
+            "text": "Schriftarten"
+          },
+          {
+            "type": "p",
+            "text": "Für eine einheitliche Darstellung lädt diese Website Schriftarten von Google Fonts, einem Dienst der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Beim Laden einer Seite stellt Ihr Browser eine Verbindung zu Servern von Google her; dabei wird Ihre IP-Adresse an Google übermittelt. Google kann diese Daten auch außerhalb der EU verarbeiten, unter anderem in den USA. Rechtsgrundlage ist unser berechtigtes Interesse an einer einheitlichen und gut lesbaren Darstellung der Website (Art. 6 Abs. 1 lit. f DSGVO). Weitere Informationen finden Sie in der Datenschutz­erklärung von Google."
+          },
+          {
+            "type": "h3",
+            "text": "Keine Analyse- oder Werbe-Tracking-Tools"
+          },
+          {
+            "type": "p",
+            "text": "Diese Website verwendet derzeit keine Analyse-Tools, Werbepixel oder sonstigen Tracking-Technologien. Sollten wir solche Tools künftig einsetzen, nutzen wir sie nur mit Ihrer vorherigen Einwilligung und aktualisieren diese Datenschutz­erklärung und unsere Cookie-Richtlinie vorab."
+          },
+          {
+            "type": "h3",
+            "text": "Links zu anderen Websites"
+          },
+          {
+            "type": "p",
+            "text": "Unsere Website verlinkt auf andere Websites, etwa die Donorfit-App zur Anmeldung sowie die Websites von Zahlungs- und E-Mail-Anbietern. Wenn Sie diesen Links folgen, gilt die Datenschutz­erklärung der jeweiligen Website."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "heading": "5. Kontaktaufnahme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn Sie uns per E-Mail oder über eines der Formulare auf unserer Website kontaktieren – etwa um eine Nachricht zu senden, eine Demo zu buchen oder den Einstieg anzufragen –, verarbeiten wir die Angaben, die Sie machen. Je nach Formular können dies Ihr Name, Ihre E-Mail-Adresse, der Name Ihrer Organisation, Ihr Land, die Produkte, für die Sie sich interessieren, und Ihre Nachricht sein."
+          },
+          {
+            "type": "p",
+            "text": "Wir verwenden diese Angaben, um Ihre Anfrage zu beantworten und gegebenenfalls einen Vertrag vorzubereiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit Ihre Anfrage einen Vertrag betrifft, und im Übrigen unser berechtigtes Interesse an der Beantwortung von Anfragen (Art. 6 Abs. 1 lit. f DSGVO). Wir löschen diese Angaben, sobald sie für diese Zwecke nicht mehr erforderlich sind, sofern keine gesetzlichen Aufbewahrungspflichten bestehen."
+          }
+        ]
+      },
+      {
+        "id": "platform",
+        "heading": "6. Nutzung der Donorfit-Plattform",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Konten von Organisationen"
+          },
+          {
+            "type": "p",
+            "text": "Um die Plattform bereitzustellen, verarbeiten wir Daten von Organisationen und ihren Nutzer:innen. Dazu gehören Namen, E-Mail-Adressen und Rollen von Administrator:innen und Teammitgliedern, Anmelde- und Nutzungsdaten, die für einen sicheren Betrieb des Kontos erforderlich sind, Angaben zur Organisation sowie Vertrags- und Abrechnungsdaten."
+          },
+          {
+            "type": "p",
+            "text": "Wir verarbeiten diese Daten, um die Plattform bereitzustellen und unseren Vertrag mit der Organisation zu erfüllen (Art. 6 Abs. 1 lit. b DSGVO), um gesetzliche Pflichten wie handels- und steuerrechtliche Aufbewahrungspflichten zu erfüllen (Art. 6 Abs. 1 lit. c DSGVO) sowie auf Grundlage unseres berechtigten Interesses an der Sicherheit der Plattform und der Unterstützung unserer Kund:innen (Art. 6 Abs. 1 lit. f DSGVO)."
+          },
+          {
+            "type": "h3",
+            "text": "Für Organisationen verarbeitete Unterstützer­daten"
+          },
+          {
+            "type": "p",
+            "text": "Organisationen verwalten mit Donorfit die Daten ihrer Spender:innen, Mitglieder, Pat:innen und anderer Unterstützer:innen. Je nach genutzten Funktionen können dazu Kontaktdaten, Spenden- und Zahlungsdaten, Angaben zu Mitgliedschaften und Patenschaften, Kommunikationspräferenzen sowie die für Zuwendungs­bestätigungen erforderlichen Angaben gehören. Bei manchen Programmen, etwa Patenschaften, können auch Angaben zu Begünstigten betroffen sein."
+          },
+          {
+            "type": "p",
+            "text": "Wie in Abschnitt 3 beschrieben, verarbeitet Donorfit diese Daten als Auftragsverarbeiter im Auftrag der Organisation. Die Organisation entscheidet, welche Daten sie erhebt, und ist für die Rechtsgrundlage der Verarbeitung verantwortlich."
+          },
+          {
+            "type": "h3",
+            "text": "Zahlungen"
+          },
+          {
+            "type": "p",
+            "text": "Spenden und andere Zahlungen über Donorfit werden von dem Zahlungs­anbieter abgewickelt, den die Organisation angebunden hat, etwa Stripe, PayPal, GoCardless, Micropayment oder Mollie. Die für die Zahlung erforderlichen Angaben, etwa Karten- oder Bankdaten, verarbeitet dieser Anbieter nach seiner eigenen Datenschutz­erklärung. Welche Zahlungsinformationen an die Donorfit-Plattform übermittelt werden, hängt vom Anbieter und von der Zahlungsart ab."
+          }
+        ]
+      },
+      {
+        "id": "cookies",
+        "heading": "7. Cookies und lokaler Speicher",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Diese Website setzt derzeit keine Tracking- oder Werbe-Cookies. Sie speichert zwei kleine Einträge im lokalen Speicher (Local Storage) Ihres Browsers:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Name",
+              "Zweck",
+              "Speicherdauer"
+            ],
+            "rows": [
+              [
+                "df-lang",
+                "Speichert die von Ihnen gewählte Sprache (Englisch oder Deutsch)",
+                "Bis Sie Ihre Browserdaten löschen"
+              ],
+              [
+                "donorfit_cookie_consent_v1",
+                "Speichert Ihre Auswahl in den Cookie-Einstellungen",
+                "Bis Sie Ihre Browserdaten löschen"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Diese Einträge sind erforderlich, um die von Ihnen gewünschten Funktionen bereitzustellen, und verbleiben auf Ihrem Gerät. Rechtsgrundlage ist § 25 Abs. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG) und, soweit damit eine Verarbeitung personenbezogener Daten verbunden ist, unser berechtigtes Interesse an einer funktionierenden Website (Art. 6 Abs. 1 lit. f DSGVO). Sie können Ihre Cookie-Einstellungen jederzeit ändern."
+          },
+          {
+            "type": "cookieButton",
+            "text": "Cookie-Einstellungen öffnen"
+          },
+          {
+            "type": "link",
+            "text": "Zur Cookie-Richtlinie",
+            "to": "/cookie-policy"
+          }
+        ]
+      },
+      {
+        "id": "recipients",
+        "heading": "8. Dienstleister und andere Empfänger",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir geben personenbezogene Daten nur weiter, wenn dies für die in dieser Erklärung beschriebenen Zwecke erforderlich ist. Empfänger können sein:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Hosting- und Infrastrukturanbieter, etwa GitHub (Hosting der Website) und Google (Bereitstellung von Schriftarten), wie in Abschnitt 4 beschrieben.",
+              "Von einer Organisation angebundene Zahlungs­anbieter, etwa Stripe, PayPal, GoCardless, Micropayment und Mollie. Für die Zahlung selbst handeln diese Anbieter in der Regel als eigenständige Verantwortliche nach ihren eigenen Datenschutz­erklärungen.",
+              "Von einer Organisation angebundene E-Mail-Marketing-Dienste, etwa Brevo und Mailchimp, mit denen die Organisation Newsletter an ihre Unterstützer:innen versendet.",
+              "Anbieter von Kommunikationskanälen, etwa WhatsApp- und SMS-Dienste, sofern eine Organisation sie für die Kommunikation mit ihren Unterstützer:innen nutzt.",
+              "Behörden, Gerichte und berufliche Berater:innen, soweit wir gesetzlich zur Offenlegung verpflichtet sind oder dies zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Soweit Dienstleister personenbezogene Daten in unserem Auftrag verarbeiten, setzen wir sie als Auftragsverarbeiter nach Art. 28 DSGVO ein. Wir verkaufen keine personenbezogenen Daten."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "heading": "9. Datenübermittlungen in Drittländer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Einige der in dieser Erklärung genannten Dienstleister haben ihren Sitz außerhalb des Europäischen Wirtschaftsraums (EWR) und des Vereinigten Königreichs oder können Daten dort verarbeiten, insbesondere in den USA. Solche Übermittlungen erfolgen nur, wenn ein angemessenes Datenschutzniveau gewährleistet ist, etwa auf Grundlage eines Angemessenheitsbeschlusses der Europäischen Kommission (einschließlich des EU-U.S. Data Privacy Framework, sofern der Empfänger danach zertifiziert ist) oder der Standardvertragsklauseln der Europäischen Kommission (Art. 46 Abs. 2 lit. c DSGVO). Für Übermittlungen aus dem Vereinigten Königreich gelten die entsprechenden britischen Instrumente, etwa britische Angemessenheitsregelungen oder das International Data Transfer Addendum."
+          },
+          {
+            "type": "p",
+            "text": "Weitere Informationen zu den Garantien für eine bestimmte Übermittlung erhalten Sie auf Anfrage unter der Adresse in Abschnitt 2."
+          }
+        ]
+      },
+      {
+        "id": "retention",
+        "heading": "10. Speicherdauer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir speichern personenbezogene Daten nur so lange, wie es für den Zweck, zu dem sie erhoben wurden, erforderlich ist, oder solange wir gesetzlich zur Aufbewahrung verpflichtet sind."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Anfragen werden gelöscht, sobald sie erledigt und nicht mehr erforderlich sind, sofern daraus kein Vertrag entsteht.",
+              "Konto- und Vertragsdaten von Organisationen speichern wir für die Dauer des Vertrags. Unterlagen, die wir aus handels- oder steuerrechtlichen Gründen aufbewahren müssen, bewahren wir für die gesetzlichen Fristen auf, die in Deutschland in der Regel sechs oder zehn Jahre betragen (§ 257 Handelsgesetzbuch und § 147 Abgabenordnung).",
+              "Unterstützer­daten, die wir für eine Organisation verarbeiten, werden nach den Weisungen dieser Organisation und dem Auftragsverarbeitungsvertrag gespeichert, gelöscht oder zurückgegeben.",
+              "Server-Log-Daten speichert der Hosting-Anbieter für einen begrenzten Zeitraum zu Sicherheitszwecken, wie in seiner Datenschutz­erklärung beschrieben."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "heading": "11. Datensicherheit",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir treffen geeignete technische und organisatorische Maßnahmen, um personenbezogene Daten vor Verlust, Missbrauch und unbefugtem Zugriff zu schützen, unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der jeweiligen Risiken (Art. 32 DSGVO). Zugriff auf personenbezogene Daten haben nur Personen, die ihn für ihre Arbeit benötigen."
+          },
+          {
+            "type": "p",
+            "text": "Keine Methode der Übertragung oder Speicherung von Daten über das Internet ist vollständig sicher. Wenn Sie Grund zur Annahme haben, dass Ihre Daten nicht mehr sicher sind, kontaktieren Sie uns bitte umgehend."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "heading": "12. Ihre Rechte",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Nach der DSGVO und der UK GDPR haben Sie hinsichtlich Ihrer personenbezogenen Daten folgende Rechte:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Auskunft: Sie können erfragen, ob wir Ihre Daten verarbeiten, und eine Kopie verlangen (Art. 15 DSGVO).",
+              "Berichtigung: Sie können die Berichtigung unrichtiger oder die Vervollständigung unvollständiger Daten verlangen (Art. 16 DSGVO).",
+              "Löschung: Sie können die Löschung Ihrer Daten verlangen, wenn kein Grund mehr für ihre Speicherung besteht (Art. 17 DSGVO).",
+              "Einschränkung: Sie können in bestimmten Fällen die Einschränkung der Verarbeitung Ihrer Daten verlangen (Art. 18 DSGVO).",
+              "Daten­übertragbarkeit: Sie können verlangen, Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten (Art. 20 DSGVO).",
+              "Widerruf einer Einwilligung: Beruht eine Verarbeitung auf Ihrer Einwilligung, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3 DSGVO).",
+              "Beschwerde: Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren, insbesondere in dem EU-Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes. Im Vereinigten Königreich ist das Information Commissioner's Office (ICO) zuständig."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Widerspruchsrecht",
+            "text": "Verarbeiten wir Ihre Daten auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), haben Sie das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen diese Verarbeitung einzulegen (Art. 21 DSGVO). Wir verarbeiten Ihre Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe nachweisen, die Ihre Interessen überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen. Verarbeiten wir Ihre Daten zum Zweck der Direktwerbung, können Sie jederzeit ohne Angabe von Gründen widersprechen."
+          },
+          {
+            "type": "p",
+            "text": "Um Ihre Rechte auszuüben, kontaktieren Sie uns bitte unter der Adresse in Abschnitt 2. Betrifft Ihr Anliegen Daten, die eine Organisation in Donorfit verwaltet, wenden Sie sich bitte an diese Organisation, da sie der Verantwortliche ist (siehe Abschnitt 3)."
+          }
+        ]
+      },
+      {
+        "id": "children",
+        "heading": "13. Kinder",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Unsere Website und unsere Dienste richten sich an Organisationen und Erwachsene. Wir erheben über diese Website nicht wissentlich personenbezogene Daten direkt von Kindern."
+          },
+          {
+            "type": "p",
+            "text": "Manche Organisationen nutzen Donorfit für Programme, an denen Kinder beteiligt sind, etwa Kinder­patenschaften. In diesen Fällen ist die Organisation Verantwortlicher für diese Daten und muss für deren Verarbeitung über eine Rechtsgrundlage und, soweit erforderlich, über die Einwilligung eines Elternteils oder Erziehungsberechtigten verfügen."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "heading": "14. Änderungen dieser Datenschutz­erklärung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir aktualisieren diese Erklärung, wenn sich unsere Dienste, die von uns eingesetzten Werkzeuge oder die rechtlichen Anforderungen ändern. Die aktuelle Fassung ist stets auf dieser Seite abrufbar; das Datum oben zeigt, wann sie zuletzt geändert wurde. Wirken sich Änderungen wesentlich darauf aus, wie wir Ihre Daten verarbeiten, informieren wir Sie in geeigneter Weise."
+          }
+        ]
+      },
+      {
+        "id": "contact-us",
+        "heading": "15. Kontakt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bei Fragen zu dieser Datenschutz­erklärung oder zum Umgang mit Ihren Daten erreichen Sie uns unter der E-Mail-Adresse in Abschnitt 2 oder über unsere Kontaktseite."
+          },
+          {
+            "type": "link",
+            "text": "Zur Kontaktseite",
+            "to": "/contact"
+          }
+        ]
+      }
+    ],
+    "emailLabel": "E-Mail",
+    "controllerEmail": "marketing@donorfit.com",
+    "relatedLabel": "Weitere Dokumente",
+    "related": [
+      {
+        "text": "AGB",
+        "to": "/terms"
+      },
+      {
+        "text": "Cookie-Richtlinie",
+        "to": "/cookie-policy"
+      },
+      {
+        "text": "Impressum",
+        "to": "/impressum"
+      },
+      {
+        "text": "Widerrufs- und Erstattungs­richtlinie",
+        "to": "/refund-policy"
+      }
+    ]
+  },
+  "cookies": {
+    "eyebrow": "Rechtliches",
+    "title": "Cookie-Richtlinie",
+    "updatedLabel": "Zuletzt aktualisiert",
+    "updated": "13. November 2026",
+    "meta": "Zuletzt aktualisiert: 13. November 2026",
+    "intro": [
+      "Diese Cookie-Richtlinie erläutert, welche Informationen diese Website auf Ihrem Gerät speichert, warum sie dies tut und wie Sie es steuern können.",
+      "Kurz gesagt: Diese Website verwendet keine Analyse-, Werbe- oder sonstigen Tracking-Cookies. Sie speichert lediglich Ihre Sprachauswahl und Ihre Cookie-Einstellungen in Ihrem Browser."
+    ],
+    "relatedLabel": "Weitere Dokumente",
+    "related": [
+      {
+        "text": "Datenschutz­erklärung",
+        "to": "/privacy-policy"
+      },
+      {
+        "text": "AGB",
+        "to": "/terms"
+      },
+      {
+        "text": "Impressum",
+        "to": "/impressum"
+      }
+    ],
+    "toc": true,
+    "tocTitle": "Inhalt",
+    "backToTop": "Zurück zum Inhalt",
+    "sections": [
+      {
+        "id": "what",
+        "heading": "1. Was Cookies und ähnliche Technologien sind",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cookies sind kleine Textdateien, die eine Website in Ihrem Browser speichert. Auch ähnliche Technologien, etwa der lokale Speicher (Local Storage) des Browsers, können Informationen auf Ihrem Gerät speichern. Websites nutzen diese Technologien zum Beispiel, um Einstellungen zu speichern oder wiederkehrende Besucher:innen zu erkennen."
+          },
+          {
+            "type": "p",
+            "text": "In dieser Richtlinie umfasst der Begriff „Cookies“ sowohl Cookies als auch ähnliche Technologien, da für sie dieselben rechtlichen Regeln gelten."
+          }
+        ]
+      },
+      {
+        "id": "stored",
+        "heading": "2. Was diese Website speichert",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Diese Website setzt keine Cookies. Sie speichert die folgenden zwei Einträge im lokalen Speicher Ihres Browsers:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Name",
+              "Zweck",
+              "Art",
+              "Speicherdauer"
+            ],
+            "rows": [
+              [
+                "df-lang",
+                "Speichert die von Ihnen gewählte Sprache (Englisch oder Deutsch)",
+                "Lokaler Speicher, erforderlich",
+                "Bis Sie Ihre Browserdaten löschen"
+              ],
+              [
+                "donorfit_cookie_consent_v1",
+                "Speichert Ihre Auswahl in den Cookie-Einstellungen",
+                "Lokaler Speicher, erforderlich",
+                "Bis Sie Ihre Browserdaten löschen"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Diese Einträge verbleiben auf Ihrem Gerät und werden nicht an uns übermittelt."
+          }
+        ]
+      },
+      {
+        "id": "third-party",
+        "heading": "3. Inhalte Dritter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Für eine einheitliche Darstellung lädt diese Website Schriftarten von Google Fonts. Beim Laden einer Seite stellt Ihr Browser eine Verbindung zu Servern von Google her, und Ihre IP-Adresse wird an Google übermittelt. Näheres dazu erläutert Abschnitt 4 unserer Datenschutz­erklärung."
+          },
+          {
+            "type": "p",
+            "text": "Diese Website bindet keine Werbenetzwerke, Social-Media-Plug-ins, eingebetteten Videos oder Analysedienste ein."
+          }
+        ]
+      },
+      {
+        "id": "settings",
+        "heading": "4. Kategorien in unseren Cookie-Einstellungen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Unsere Cookie-Einstellungen zeigen vier Kategorien. Sie können wählen, welche davon Sie zulassen:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Unbedingt erforderlich: Speicherung, die die Website benötigt, um zu funktionieren, etwa um Ihre Cookie-Auswahl zu speichern. Diese Kategorie lässt sich nicht abschalten.",
+              "Präferenzen: wird derzeit nicht als eigene Kategorie verwendet. Ihre Sprachauswahl wird als unbedingt erforderlich gespeichert, da Sie sie selbst festlegen.",
+              "Analyse: wird auf dieser Website derzeit nicht verwendet.",
+              "Marketing: wird auf dieser Website derzeit nicht verwendet."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ihre Auswahl wird gespeichert und beachtet. Sollten wir künftig Analyse- oder Marketing-Tools einsetzen, werden diese nur mit Ihrer vorherigen Einwilligung aktiviert, und wir aktualisieren diese Richtlinie und unsere Datenschutz­erklärung vorab."
+          }
+        ]
+      },
+      {
+        "id": "legal-basis",
+        "heading": "5. Rechtsgrundlage",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Das Speichern von Informationen auf Ihrem Gerät, das unbedingt erforderlich ist, um einen von Ihnen gewünschten Dienst bereitzustellen – etwa Ihre Sprach- und Cookie-Auswahl –, bedarf nach § 25 Abs. 2 des Telekommunikation-Digitale-Dienste-Datenschutz-Gesetzes (TDDDG) keiner Einwilligung. Jede andere Speicherung würde Ihre Einwilligung nach § 25 Abs. 1 TDDDG und, soweit personenbezogene Daten verarbeitet werden, nach Art. 6 Abs. 1 lit. a DSGVO erfordern."
+          }
+        ]
+      },
+      {
+        "id": "manage",
+        "heading": "6. Ihre Auswahl verwalten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sie können Ihre Cookie-Auswahl jederzeit einsehen und ändern. Änderungen gelten ab dem Zeitpunkt, an dem Sie sie speichern."
+          },
+          {
+            "type": "cookieButton",
+            "text": "Cookie-Einstellungen öffnen"
+          },
+          {
+            "type": "p",
+            "text": "Sie können die in Abschnitt 2 beschriebenen Einträge außerdem jederzeit über Ihre Browsereinstellungen löschen, etwa indem Sie die Websitedaten dieser Website entfernen. Die Website zeigt dann die Standardsprache an und fragt erneut nach Ihrer Cookie-Auswahl."
+          }
+        ]
+      },
+      {
+        "id": "platform",
+        "heading": "7. Die Donorfit-Plattform und Spenden­formulare",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Diese Richtlinie gilt für diese Website. Die Donorfit-Plattform, bei der sich Organisationen anmelden, und die Spenden­formulare, die Organisationen in ihre eigenen Websites einbetten, können Informationen speichern, die für ihren Betrieb erforderlich sind, etwa um Sie angemeldet zu halten. Informationen dazu erhalten Sie dort, wo diese Dienste genutzt werden."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "heading": "8. Änderungen dieser Richtlinie",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir aktualisieren diese Richtlinie, wenn sich die auf dieser Website eingesetzten Technologien ändern. Das Datum oben zeigt, wann sie zuletzt geändert wurde."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "heading": "9. Kontakt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bei Fragen zu dieser Richtlinie kontaktieren Sie uns bitte über die Angaben in unserem Impressum oder über unsere Kontaktseite."
+          },
+          {
+            "type": "link",
+            "text": "Zur Kontaktseite",
+            "to": "/contact"
+          }
+        ]
+      }
+    ]
+  },
+  "impressum": {
+    "eyebrow": "Rechtliches",
+    "title": "Impressum",
+    "updatedLabel": "Zuletzt aktualisiert",
+    "updated": "13. November 2026",
+    "meta": "Zuletzt aktualisiert: 13. November 2026",
+    "toc": false,
+    "intro": [
+      "Angaben zum Anbieter dieser Website gemäß § 5 Digitale-Dienste-Gesetz (DDG)."
+    ],
+    "relatedLabel": "Weitere Dokumente",
+    "related": [
+      {
+        "text": "Datenschutz­erklärung",
+        "to": "/privacy-policy"
+      },
+      {
+        "text": "AGB",
+        "to": "/terms"
+      },
+      {
+        "text": "Cookie-Richtlinie",
+        "to": "/cookie-policy"
+      },
+      {
+        "text": "Widerrufs- und Erstattungs­richtlinie",
+        "to": "/refund-policy"
+      }
+    ],
+    "provider": {
+      "lines": [
+        "MYFUNDBOX GmbH",
+        "Porsche Strasse 2c",
+        "38440 Wolfsburg",
+        "Deutschland"
+      ]
+    },
+    "tocTitle": "Inhalt",
+    "backToTop": "Zurück zum Inhalt",
+    "sections": [
+      {
+        "id": "provider",
+        "heading": "1. Anbieter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donorfit wird bereitgestellt von:"
+          },
+          {
+            "type": "controller"
+          }
+        ]
+      },
+      {
+        "id": "representation",
+        "heading": "2. Vertreten durch",
+        "blocks": [
+          {
+            "type": "kv",
+            "rows": [
+              [
+                "Geschäftsführung",
+                "Aafreen Kauser"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "heading": "3. Kontakt",
+        "blocks": [
+          {
+            "type": "kv",
+            "rows": [
+              [
+                "E-Mail",
+                "marketing@donorfit.com"
+              ]
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Kontaktformular",
+            "to": "/contact"
+          }
+        ]
+      },
+      {
+        "id": "register",
+        "heading": "4. Registereintrag",
+        "blocks": [
+          {
+            "type": "kv",
+            "rows": [
+              [
+                "Registergericht",
+                "Amtsgericht Braunschweig"
+              ],
+              [
+                "Registernummer",
+                "HRB 207466"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vat",
+        "heading": "5. Umsatzsteuer-Identifikationsnummer",
+        "blocks": [
+          {
+            "type": "kv",
+            "rows": [
+              [
+                "USt-IdNr. gemäß § 27a Umsatzsteuergesetz (UStG)",
+                "DE 320324101"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "editorial",
+        "heading": "6. Verantwortlich für den Inhalt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Verantwortlich für redaktionelle Inhalte gemäß § 18 Abs. 2 Medienstaatsvertrag (MStV):"
+          },
+          {
+            "type": "kv",
+            "rows": [
+              [
+                "Name",
+                "Muhammed Faisal"
+              ],
+              [
+                "Anschrift",
+                "Porsche Strasse 2c, 38440 Wolfsburg, Deutschland"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "disputes",
+        "heading": "7. Verbraucherstreitbeilegung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen (§ 36 Verbraucherstreitbeilegungsgesetz, VSBG)."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "eyebrow": "Rechtliches",
+    "title": "Allgemeine Geschäfts­bedingungen",
+    "updatedLabel": "Zuletzt aktualisiert",
+    "updated": "13. November 2026",
+    "meta": "Zuletzt aktualisiert: 13. November 2026",
+    "intro": [
+      "Diese Allgemeinen Geschäfts­bedingungen (AGB) regeln die Nutzung von Donorfit: unserer Website, der Donorfit-Plattform sowie der Spenden­formulare und -seiten, die Organisationen damit veröffentlichen. Sie erläutern, was Donorfit bereitstellt, wofür Organisationen verantwortlich sind und was gilt, wenn Sie über Donorfit an eine Organisation spenden.",
+      "Bitte lesen Sie sie sorgfältig. Mit der Erstellung eines Kontos oder der Nutzung der Plattform erklären Sie sich mit diesen AGB einverstanden."
+    ],
+    "relatedLabel": "Weitere Dokumente",
+    "related": [
+      {
+        "text": "Datenschutz­erklärung",
+        "to": "/privacy-policy"
+      },
+      {
+        "text": "Cookie-Richtlinie",
+        "to": "/cookie-policy"
+      },
+      {
+        "text": "Impressum",
+        "to": "/impressum"
+      },
+      {
+        "text": "Widerrufs- und Erstattungs­richtlinie",
+        "to": "/refund-policy"
+      }
+    ],
+    "toc": true,
+    "tocTitle": "Inhalt",
+    "backToTop": "Zurück zum Inhalt",
+    "sections": [
+      {
+        "id": "scope",
+        "heading": "1. Geltungsbereich und Beteiligte",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Diese AGB gelten für alle, die Donorfit nutzen. Je nach Art der Nutzung sind unterschiedliche Teile relevant:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Wer",
+              "Beschreibung"
+            ],
+            "rows": [
+              [
+                "Donorfit",
+                "Der Anbieter der Website und der Plattform, wie in unserem Impressum angegeben („Donorfit“, „wir“, „uns“)."
+              ],
+              [
+                "Organisationen",
+                "NGOs, gemeinnützige Organisationen, Stiftungen, Moschee­gemeinden, Vereine und andere Organisationen, die sich bei Donorfit registrieren, um Spenden zu sammeln und ihre Unterstützer:innen zu verwalten."
+              ],
+              [
+                "Nutzer:innen",
+                "Personen, die die Plattform im Auftrag einer Organisation nutzen, etwa Administrator:innen und Teammitglieder."
+              ],
+              [
+                "Unterstützer:innen",
+                "Spender:innen, Mitglieder, Pat:innen und andere Personen, die über Donorfit an eine Organisation spenden oder an ihren Programmen teilnehmen."
+              ],
+              [
+                "Besucher:innen",
+                "Alle, die unsere Website besuchen, ohne die Plattform zu nutzen."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Donorfit richtet sich an Organisationen und nicht an Verbraucher:innen, die privat handeln. Hat eine Organisation mit Donorfit eine gesonderte schriftliche Vereinbarung geschlossen, hat diese Vereinbarung bei Abweichungen Vorrang vor diesen AGB. Allgemeine Geschäfts­bedingungen einer Organisation gelten gegenüber Donorfit nur, wenn wir ihnen ausdrücklich schriftlich zugestimmt haben."
+          }
+        ]
+      },
+      {
+        "id": "service",
+        "heading": "2. Leistungen von Donorfit",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donorfit ist eine webbasierte Plattform, die Organisationen dabei unterstützt, Spenden zu sammeln und ihre Unterstützer:innen und Programme zu verwalten. Je nach Tarif und genutzten Modulen umfasst die Plattform Funktionen wie:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Spenden­formulare, die sich in die Website der Organisation einbetten lassen, sowie QR-Codes zum Sammeln von Spenden vor Ort;",
+              "Anbindungen an von der Organisation gewählte Zahlungs­anbieter;",
+              "Unterstützer­daten, Import- und Exportfunktionen sowie ein Spenderportal;",
+              "Vorlagen für automatisch erstellte Zuwendungs­bestätigungen;",
+              "Module für bestimmte Programme, etwa Mitgliedschaften, Patenschaften, Brunnenprojekte, Qurbani und MoneyPool-Kampagnen;",
+              "Anbindungen an E-Mail- und Messaging-Dienste, eine API und Webhooks;",
+              "Berichte und Dashboards sowie Zugänge für mehrere Teammitglieder."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Der jeweils aktuelle Leistungsumfang der Tarife und Module ist auf unserer Website und gegebenenfalls in der Bestellung oder individuellen Vereinbarung der Organisation beschrieben. Donorfit stellt Software bereit. Wir führen selbst keine Spendenkampagnen durch, sammeln keine Spenden im eigenen Namen und entscheiden nicht darüber, wie Organisationen die erhaltenen Mittel verwenden."
+          },
+          {
+            "type": "p",
+            "text": "Wir entwickeln die Plattform weiter und können Funktionen ändern, ergänzen oder entfernen. Entfernen wir eine Funktion, die wesentlicher Bestandteil eines kostenpflichtigen Moduls ist, informieren wir betroffene Organisationen vorab in geeigneter Weise."
+          }
+        ]
+      },
+      {
+        "id": "accounts",
+        "heading": "3. Registrierung und Konten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Um die Plattform zu nutzen, muss eine Organisation ein Konto registrieren. Die registrierende Person muss berechtigt sein, im Namen der Organisation zu handeln und diese AGB für sie anzunehmen."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Die bei der Registrierung und danach gemachten Angaben müssen zutreffend sein und aktuell gehalten werden.",
+              "Die Organisation kann Teammitglieder als Nutzer:innen einladen. Sie entscheidet, wer mit welchen Berechtigungen Zugang erhält, und ist für das Handeln ihrer Nutzer:innen auf der Plattform verantwortlich.",
+              "Zugangsdaten sind vertraulich zu behandeln und dürfen nicht weitergegeben werden. Wenn Sie vermuten, dass sich jemand anderes Zugang zu einem Konto verschafft hat, informieren Sie uns bitte unverzüglich.",
+              "Wir können eine Registrierung ablehnen, insbesondere wenn die Angaben unvollständig oder unzutreffend sind oder Anhaltspunkte für einen Missbrauch bestehen."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "organisations",
+        "heading": "4. Pflichten der Organisationen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Organisationen nutzen Donorfit für ihr eigenes Fundraising und sind dafür verantwortlich, wie sie dies tun. Insbesondere ist jede Organisation dafür verantwortlich,"
+          },
+          {
+            "type": "list",
+            "items": [
+              "über alle gesetzlich erforderlichen Registrierungen, Genehmigungen und Berechtigungen zu verfügen, um in den Ländern, in denen sie Spenden sammelt, Spenden einzuwerben und ihre Tätigkeit auszuüben;",
+              "dass ihre Kampagnen, Projektbeschreibungen, Bilder und sonstigen Inhalte wahr, aktuell und nicht irreführend sind und dass sie über die erforderlichen Rechte daran verfügt;",
+              "Spenden für die gegenüber den Unterstützer:innen angegebenen Zwecke zu verwenden und die Bedingungen zweckgebundener Spenden einzuhalten;",
+              "für Inhalt und Richtigkeit von Spenden- und Zuwendungs­bestätigungen, einschließlich der Frage, ob sie zu deren Ausstellung berechtigt ist; die von Donorfit bereitgestellten Vorlagen ersetzen diese Prüfung nicht;",
+              "als Verantwortliche für die Daten ihrer Unterstützer:innen das Datenschutzrecht einzuhalten, einschließlich der Information der Unterstützer:innen, einer Rechtsgrundlage für die Verarbeitung und der Einholung erforderlicher Einwilligungen, etwa für Newsletter oder für Daten von Kindern und Begünstigten;",
+              "die Bedingungen der Zahlungs­anbieter und anderer Dienste einzuhalten, die sie mit Donorfit verbindet;",
+              "Anfragen und Beschwerden von Unterstützer:innen zu Spenden, Mitgliedschaften, Patenschaften und anderen Programmen zu beantworten."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Organisationen stellen Donorfit von Ansprüchen Dritter frei, die daraus entstehen, dass die Organisation schuldhaft gegen diese Pflichten oder geltendes Recht verstoßen hat, einschließlich angemessener Kosten der Rechtsverteidigung."
+          }
+        ]
+      },
+      {
+        "id": "payments",
+        "heading": "5. Zahlungen und Zahlungs­anbieter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Spenden und andere Zahlungen über Donorfit werden von Zahlungs­anbietern abgewickelt, die die Organisation mit ihrem Konto verbindet, etwa Stripe, PayPal, GoCardless, Micropayment oder Mollie. Um einen Zahlungs­anbieter zu nutzen, benötigt die Organisation ein eigenes Konto bei diesem Anbieter und muss dessen Bedingungen akzeptieren."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Der Vertrag über die Zahlungsabwicklung kommt zwischen der Organisation und dem Zahlungs­anbieter zustande. Donorfit ist nicht Vertragspartei.",
+              "Donorfit ist weder Bank noch Zahlungsinstitut noch Treuhanddienst. Auszahlungen an die Organisation erfolgen durch den Zahlungs­anbieter gemäß den Kontoeinstellungen der Organisation bei diesem Anbieter.",
+              "Die Verfügbarkeit einzelner Zahlungsarten, Auszahlungsfristen, Rückbuchungen und Rückabwicklungen richten sich nach den Bedingungen des Zahlungs­anbieters.",
+              "Sofern die Organisation dies anbietet, können Unterstützer:innen die Zahlungsgebühren übernehmen, sodass die Organisation den vollen Betrag ihrer Spende erhält."
+            ]
+          },
+          {
+            "type": "link",
+            "text": "Unterstützte Integrationen ansehen",
+            "to": "/integrations"
+          }
+        ]
+      },
+      {
+        "id": "fees",
+        "heading": "6. Preise und Gebühren",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Donorfit-Kernplattform ist für 0 € pro Monat verfügbar – ohne Plattformgebühr und ohne Transaktionsgebühr von Donorfit. Spezialisierte Add-ons, etwa Module für CRM, regelmäßige Spenden, Patenschaften, Mitgliedschaften und Qurbani, werden gesondert berechnet. Ihre Preise und Zahlungsbedingungen ergeben sich aus der Bestellung oder individuellen Vereinbarung der Organisation."
+          },
+          {
+            "type": "p",
+            "text": "Gebühren von Zahlungs­anbietern und anderen Drittdiensten, die eine Organisation anbindet, sind keine Gebühren von Donorfit. Sie werden zwischen der Organisation und dem jeweiligen Anbieter vereinbart."
+          },
+          {
+            "type": "link",
+            "text": "Zu den Preisen",
+            "to": "/pricing"
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "heading": "7. Daten der Organisation und Datenschutz",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Daten, die eine Organisation und ihre Unterstützer:innen in die Plattform eingeben, gehören der Organisation. Die Organisation räumt Donorfit die Rechte ein, die erforderlich sind, um diese Daten zur Erbringung der Leistung zu speichern und zu verarbeiten."
+          },
+          {
+            "type": "p",
+            "text": "Verarbeitet Donorfit personenbezogene Daten von Unterstützer:innen im Auftrag einer Organisation, geschieht dies als Auftragsverarbeiter nach Art. 28 DSGVO. Die Einzelheiten regelt ein Auftragsverarbeitungsvertrag zwischen der Organisation und Donorfit. Wie wir mit personenbezogenen Daten umgehen, für die wir selbst verantwortlich sind, erläutert unsere Datenschutz­erklärung."
+          },
+          {
+            "type": "p",
+            "text": "Organisationen können ihre Daten aus der Plattform exportieren. Vor der Schließung eines Kontos ist die Organisation dafür verantwortlich, alle Daten zu exportieren, die sie behalten möchte."
+          },
+          {
+            "type": "link",
+            "text": "Zur Datenschutz­erklärung",
+            "to": "/privacy-policy"
+          }
+        ]
+      },
+      {
+        "id": "supporters",
+        "heading": "8. Hinweise für Unterstützer:innen und Spender:innen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn Sie über ein Formular oder eine Seite von Donorfit an eine Organisation spenden, dort Mitglied werden oder eine Patenschaft übernehmen, besteht Ihr Vertrag mit dieser Organisation, nicht mit Donorfit. Die Organisation ist für ihre Kampagne, für die Verwendung Ihrer Spende und für die Beantwortung Ihrer Fragen verantwortlich."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Zahlung: Ihre Zahlung wird von dem Zahlungs­anbieter abgewickelt, den die Organisation nutzt, nach dessen Bedingungen.",
+              "Erstattungen und Stornierungen: Bitte wenden Sie sich direkt an die Organisation. Ob eine Spende erstattet werden kann, hängt von den Regelungen der Organisation, den Bedingungen des Zahlungs­anbieters und dem geltenden Recht ab. Donorfit kann keine Spenden erstatten.",
+              "Regelmäßige Zahlungen: Um eine regelmäßige Spende, einen Mitgliedsbeitrag oder eine Patenschaft zu ändern oder zu beenden, wenden Sie sich bitte an die Organisation. Für bereits geleistete Zahlungen gelten die vorstehenden Regelungen.",
+              "Bestätigungen: Zuwendungs­bestätigungen stellt die Organisation aus; sie ist dafür verantwortlich, ob und wie diese steuerlich verwendet werden können.",
+              "Ihre Daten: Die Organisation entscheidet, wie Ihre personenbezogenen Daten verwendet werden. Es gilt ihre Datenschutz­erklärung, und Sie können sich zur Ausübung Ihrer Rechte an sie wenden."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Donorfit prüft nicht, ob Organisationen als gemeinnützig oder steuerbegünstigt anerkannt sind, und überprüft ihre Kampagnen nicht. Wenn Sie Bedenken zu einer Organisation oder einer Kampagne haben, teilen Sie uns dies bitte über unsere Kontaktseite mit."
+          }
+        ]
+      },
+      {
+        "id": "acceptable-use",
+        "heading": "9. Zulässige Nutzung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donorfit darf nur rechtmäßig und für tatsächliche Zwecke des Fundraisings, der Mitglieder­verwaltung und der Organisationsarbeit genutzt werden. Insbesondere darf Donorfit nicht genutzt werden, um"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Geld unter falschen Angaben oder für andere als die gegenüber Unterstützer:innen angegebenen Zwecke zu sammeln;",
+              "Terrorismus, Geldwäsche oder andere Straftaten zu unterstützen oder Sanktionen zu umgehen;",
+              "Inhalte zu veröffentlichen, die rechtswidrig oder diskriminierend sind, zu Gewalt oder Hass aufrufen oder Rechte Dritter verletzen;",
+              "unerwünschte Werbung oder Nachrichten ohne die erforderliche Einwilligung zu versenden;",
+              "Schadsoftware hochzuladen, unbefugten Zugriff auf die Plattform oder andere Konten zu versuchen oder ihren Betrieb zu stören;",
+              "automatisiert auf die Plattform zuzugreifen, außer über die dafür vorgesehenen Schnittstellen wie die API;",
+              "die Plattform ohne unsere Zustimmung weiterzuverkaufen oder Dritten zur Verfügung zu stellen."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "heading": "10. Inhalte und geistiges Eigentum",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Plattform, unsere Website und ihre Inhalte, einschließlich Software, Designs, Texten, Logos und Marken, sind rechtlich geschützt und gehören Donorfit oder dessen Lizenzgebern. Für die Dauer des Vertrags erhalten Organisationen ein einfaches, nicht übertragbares Recht, die Plattform für eigene Zwecke gemäß diesen AGB zu nutzen."
+          },
+          {
+            "type": "p",
+            "text": "Organisationen behalten alle Rechte an den Inhalten, die sie hochladen, etwa Texte, Bilder, Logos und Kampagnenbeschreibungen. Sie räumen Donorfit die Rechte ein, die erforderlich sind, um diese Inhalte zur Erbringung der Leistung zu hosten, anzuzeigen und zu verarbeiten, etwa um ein Spendenformular auf der Website der Organisation anzuzeigen."
+          },
+          {
+            "type": "p",
+            "text": "Namen und Logos Dritter auf unserer Website, etwa von Zahlungs- und E-Mail-Anbietern, gehören ihren jeweiligen Inhabern."
+          }
+        ]
+      },
+      {
+        "id": "third-party",
+        "heading": "11. Dienste Dritter",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donorfit lässt sich mit Diensten anderer Anbieter verbinden, etwa mit Zahlungs­anbietern, den E-Mail-Diensten Brevo und Mailchimp sowie WhatsApp- und SMS-Diensten. Diese Dienste werden von den jeweiligen Anbietern nach deren eigenen Bedingungen und Datenschutz­erklärungen erbracht. Die Organisation entscheidet, ob sie sie anbindet, und ist für die Einhaltung ihrer Bedingungen verantwortlich."
+          },
+          {
+            "type": "p",
+            "text": "Donorfit ist nicht für Verfügbarkeit, Funktionen oder Inhalte von Diensten Dritter verantwortlich. Ändert oder beendet ein Anbieter seinen Dienst oder seine Schnittstelle, kann die Anbindung an Donorfit möglicherweise nicht mehr in gleicher Weise genutzt werden."
+          }
+        ]
+      },
+      {
+        "id": "availability",
+        "heading": "12. Verfügbarkeit und Support",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir betreiben die Plattform mit Sorgfalt und bemühen uns, sie möglichst durchgehend verfügbar zu halten. Eine ununterbrochene Verfügbarkeit können wir jedoch nicht gewährleisten. Unterbrechungen können etwa durch Wartung, Sicherheitsupdates oder Umstände außerhalb unseres Einflussbereichs entstehen, etwa Ausfälle von Netzen oder Diensten Dritter. Geplante Wartungen legen wir nach Möglichkeit in nutzungsarme Zeiten."
+          },
+          {
+            "type": "p",
+            "text": "Bestimmte Service-Levels oder Support-Zusagen gelten nur, soweit sie in der Bestellung oder individuellen Vereinbarung einer Organisation ausdrücklich vereinbart wurden."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "heading": "13. Haftung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Donorfit haftet unbeschränkt für Schäden, die vorsätzlich oder grob fahrlässig verursacht wurden, für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, nach dem Produkthaftungsgesetz sowie im Fall einer von uns übernommenen Garantie."
+          },
+          {
+            "type": "p",
+            "text": "Bei leichter Fahrlässigkeit haftet Donorfit nur für die Verletzung einer wesentlichen Vertragspflicht, also einer Pflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung die Organisation regelmäßig vertrauen darf. In diesem Fall ist die Haftung auf den bei Vertragsschluss vorhersehbaren, vertragstypischen Schaden begrenzt."
+          },
+          {
+            "type": "p",
+            "text": "Im Übrigen ist die Haftung von Donorfit ausgeschlossen. Diese Beschränkungen gelten auch für die persönliche Haftung der Mitarbeitenden, Vertreter:innen und Erfüllungsgehilfen von Donorfit. Donorfit haftet nicht für das Verhalten von Organisationen gegenüber ihren Unterstützer:innen, für die Verwendung von Spenden oder für die Leistungen von Zahlungs­anbietern und anderen Dritten."
+          }
+        ]
+      },
+      {
+        "id": "termination",
+        "heading": "14. Laufzeit, Sperrung und Kündigung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eine Organisation kann die Nutzung der kostenlosen Kernplattform jederzeit beenden und ihr Konto schließen. Laufzeit und Kündigungsfristen für kostenpflichtige Add-ons ergeben sich aus der Bestellung oder individuellen Vereinbarung der Organisation."
+          },
+          {
+            "type": "p",
+            "text": "Wir können den Zugang zu einem Konto oder zu einzelnen Funktionen vorübergehend sperren, wenn dies erforderlich ist, um einen schwerwiegenden Verstoß gegen diese AGB, einen Missbrauch oder ein Sicherheitsrisiko zu verhindern oder aufzuklären. Soweit möglich, informieren wir die Organisation vorab und geben ihr Gelegenheit zur Stellungnahme. Das Recht beider Parteien zur Kündigung aus wichtigem Grund bleibt unberührt; ein wichtiger Grund liegt für Donorfit insbesondere bei schwerwiegenden oder wiederholten Verstößen gegen die Abschnitte 4 oder 9 vor."
+          },
+          {
+            "type": "p",
+            "text": "Nach der Schließung eines Kontos löschen wir die Daten der Organisation nach Maßgabe des Auftragsverarbeitungsvertrags und gesetzlicher Aufbewahrungspflichten. Organisationen sollten die Daten, die sie behalten möchten, vorher exportieren."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "heading": "15. Änderungen dieser AGB",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir können diese AGB ändern, etwa wenn wir die Plattform ändern, wenn sich rechtliche Anforderungen ändern oder um bestehende Regelungen zu präzisieren. Wir informieren Organisationen über Änderungen mindestens vier Wochen vor ihrem Inkrafttreten in Textform, etwa per E-Mail."
+          },
+          {
+            "type": "p",
+            "text": "Widerspricht eine Organisation nicht innerhalb dieser Frist, gelten die Änderungen als angenommen. Darauf weisen wir in unserer Mitteilung gesondert hin. Widerspricht eine Organisation, kann jede Partei den betroffenen Vertrag zu dem Zeitpunkt kündigen, zu dem die Änderungen in Kraft getreten wären."
+          }
+        ]
+      },
+      {
+        "id": "law",
+        "heading": "16. Anwendbares Recht und Gerichtsstand",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Für diese AGB gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts (CISG). Handeln Unterstützer:innen als Verbraucher:innen, wird ihnen durch diese Rechtswahl nicht der Schutz zwingender Bestimmungen des Rechts des Staates entzogen, in dem sie ihren gewöhnlichen Aufenthalt haben."
+          },
+          {
+            "type": "p",
+            "text": "Ist die Organisation Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen, ist ausschließlicher Gerichtsstand für alle Streitigkeiten aus oder im Zusammenhang mit diesen AGB der Sitz von Donorfit, wie in unserem Impressum angegeben. Donorfit ist auch berechtigt, am allgemeinen Gerichtsstand der Organisation zu klagen."
+          }
+        ]
+      },
+      {
+        "id": "final",
+        "heading": "17. Schlussbestimmungen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. An die Stelle der unwirksamen Bestimmung treten die gesetzlichen Vorschriften."
+          },
+          {
+            "type": "p",
+            "text": "Diese AGB liegen in deutscher und englischer Sprache vor. Beide Fassungen sollen dieselbe Bedeutung haben. Bei Abweichungen zwischen ihnen ist die deutsche Fassung maßgeblich."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "heading": "18. Kontakt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bei Fragen zu diesen AGB kontaktieren Sie uns bitte über unsere Kontaktseite. Unsere vollständigen Unternehmensangaben finden Sie im Impressum."
+          },
+          {
+            "type": "link",
+            "text": "Zur Kontaktseite",
+            "to": "/contact"
+          },
+          {
+            "type": "link",
+            "text": "Impressum",
+            "to": "/impressum"
+          }
         ]
       }
     ]
   },
   "accessibility": {
     "eyebrow": "Konformität mit WCAG 2.2 AA",
-    "title": "Erklärung zur Barrierefreiheit",
+    "title": "Erklärung zur Barriere­freiheit",
     "meta": "Unser Engagement für inklusives, barrierefreies digitales Fundraising",
     "conformance": {
       "heading": "1. Konformitätsziel",
-      "before": "Donorfit setzt sich dafür ein, digitale Barrierefreiheit für Menschen mit Behinderungen sicherzustellen. Wir verbessern die Nutzererfahrung für alle Menschen kontinuierlich und wenden die einschlägigen Standards zur Barrierefreiheit an; Ziel ist die Konformität mit den ",
+      "before": "Donorfit setzt sich dafür ein, digitale Barriere­freiheit für Menschen mit Behinderungen sicherzustellen. Wir verbessern die Nutzererfahrung für alle Menschen kontinuierlich und wenden die einschlägigen Standards zur Barriere­freiheit an; Ziel ist die Konformität mit den ",
       "bold": "Web Content Accessibility Guidelines (WCAG) 2.2, Konformitätsstufe AA",
       "after": "."
     },
@@ -187,5 +1197,183 @@
       "email": "accessibility@donorfit.com",
       "after": ". Wir freuen uns über Ihre Rückmeldung und werden Probleme umgehend beheben."
     }
+  },
+  "refund": {
+    "eyebrow": "Rechtliches",
+    "title": "Widerrufs- und Erstattungs­richtlinie",
+    "updatedLabel": "Zuletzt aktualisiert",
+    "updated": "13. November 2026",
+    "meta": "Zuletzt aktualisiert: 13. November 2026",
+    "intro": [
+      "Diese Richtlinie erläutert, an wen Sie sich bei Stornierungen und Erstattungen wenden – je nachdem, ob Sie über Donorfit an eine Organisation gespendet haben oder Donorfit als Organisation nutzen.",
+      "Kurz gesagt: Spenden und andere Zahlungen an Organisationen werden von der Organisation bearbeitet, an die Sie gezahlt haben, nicht von Donorfit. Fragen zu den Leistungen von Donorfit selbst bearbeiten wir."
+    ],
+    "relatedLabel": "Weitere Dokumente",
+    "related": [
+      {
+        "text": "AGB",
+        "to": "/terms"
+      },
+      {
+        "text": "Datenschutz­erklärung",
+        "to": "/privacy-policy"
+      },
+      {
+        "text": "Impressum",
+        "to": "/impressum"
+      }
+    ],
+    "toc": true,
+    "tocTitle": "Inhalt",
+    "backToTop": "Zurück zum Inhalt",
+    "sections": [
+      {
+        "id": "overview",
+        "heading": "1. Überblick",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bei Donorfit bestehen zwei unterschiedliche Beziehungen, für die jeweils andere Regeln gelten:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Ihre Situation",
+              "Zuständig",
+              "Siehe Abschnitt"
+            ],
+            "rows": [
+              [
+                "Sie haben gespendet, einen Mitgliedsbeitrag gezahlt oder eine Patenschaft übernommen",
+                "Die Organisation, an die Sie gezahlt haben",
+                "2 bis 5"
+              ],
+              [
+                "Ihre Organisation nutzt Donorfit und zahlt für Add-ons",
+                "Donorfit",
+                "6 bis 8"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Diese Richtlinie ergänzt unsere AGB. Soweit sie auf individuelle Vereinbarungen oder Bestellungen verweist, haben diese Dokumente Vorrang."
+          }
+        ]
+      },
+      {
+        "id": "donations",
+        "heading": "2. Erstattung von Spenden",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn Sie über ein Formular oder eine Seite von Donorfit spenden, geht Ihre Spende an die Organisation, und Ihr Vertrag besteht mit dieser Organisation (Abschnitt 8 unserer AGB). Donorfit erhält oder verwahrt keine Spenden und kann sie daher nicht erstatten."
+          },
+          {
+            "type": "p",
+            "text": "Wenn Sie eine Spende erstattet haben möchten, etwa weil Sie sich beim Betrag vertan oder doppelt gespendet haben, wenden Sie sich bitte direkt an die Organisation. Ob und wie eine Erstattung möglich ist, hängt von den Regelungen der Organisation, den Bedingungen des genutzten Zahlungs­anbieters und dem geltenden Recht ab. Bitte geben Sie Datum, Betrag und Zahlungsart an, damit die Organisation Ihre Zahlung finden kann."
+          }
+        ]
+      },
+      {
+        "id": "recurring",
+        "heading": "3. Kündigung regelmäßiger Zahlungen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Regelmäßige Spenden, Mitglieds­beiträge und Patenschaftsbeiträge können für die Zukunft beendet werden. Wenden Sie sich dazu bitte an die Organisation, an die Sie zahlen. Etwaige Kündigungsfristen oder Mindestlaufzeiten für Mitgliedschaften und Patenschaften legt die Organisation fest; sie sollten Ihnen bei der Anmeldung erläutert werden."
+          },
+          {
+            "type": "p",
+            "text": "Die Kündigung einer regelmäßigen Zahlung beendet künftige Zahlungen. Ob bereits geleistete Zahlungen erstattet werden können, richtet sich nach Abschnitt 2."
+          }
+        ]
+      },
+      {
+        "id": "withdrawal",
+        "heading": "4. Gesetzliche Widerrufsrechte",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ob für eine Zahlung an eine Organisation ein gesetzliches Widerrufsrecht besteht, etwa für eine Mitgliedschaft, die Sie als Verbraucher:in abschließen, hängt vom Vertrag zwischen Ihnen und der Organisation sowie vom geltenden Recht ab. Besteht ein solches Recht, ist die Organisation dafür verantwortlich, Sie darüber zu informieren und einen Widerruf zu bearbeiten."
+          },
+          {
+            "type": "p",
+            "text": "Diese Richtlinie schränkt Ihre gesetzlichen Rechte als Verbraucher:in nicht ein."
+          }
+        ]
+      },
+      {
+        "id": "payment-disputes",
+        "heading": "5. Zahlungsprobleme und Streitigkeiten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Zahlungen werden von dem Zahlungs­anbieter abgewickelt, den die Organisation angebunden hat, etwa Stripe, PayPal, GoCardless, Micropayment oder Mollie. Rückbuchungen, Lastschriftrückgaben und Zahlungsstreitigkeiten richten sich nach den Bedingungen dieses Anbieters sowie Ihrer Bank oder Ihres Kartenausstellers. Bei Problemen mit einer Zahlung empfehlen wir, sich zuerst an die Organisation zu wenden, da sie die Angelegenheit meist am schnellsten klären kann."
+          },
+          {
+            "type": "p",
+            "text": "Wenn Sie glauben, dass eine Zahlung ohne Ihre Autorisierung erfolgt ist, wenden Sie sich bitte zusätzlich an Ihre Bank oder Ihren Kartenaussteller."
+          }
+        ]
+      },
+      {
+        "id": "core-platform",
+        "heading": "6. Die kostenlose Kernplattform",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Donorfit-Kernplattform ist für 0 € pro Monat verfügbar – ohne Plattformgebühr und ohne Transaktionsgebühr von Donorfit. Da hierfür keine Gebühren anfallen, gibt es nichts zu erstatten. Organisationen können die Nutzung jederzeit beenden und ihr Konto schließen."
+          },
+          {
+            "type": "p",
+            "text": "Gebühren von Zahlungs­anbietern für die Abwicklung von Spenden werden zwischen der Organisation und dem Anbieter vereinbart. Donorfit berechnet oder erstattet diese Gebühren nicht."
+          }
+        ]
+      },
+      {
+        "id": "add-ons",
+        "heading": "7. Kostenpflichtige Add-ons",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Preise, Laufzeiten, Kündigungsfristen und Zahlungsbedingungen für kostenpflichtige Add-ons ergeben sich aus der Bestellung oder individuellen Vereinbarung der Organisation. Kündigung und etwaige Erstattungen bereits gezahlter Gebühren richten sich nach dieser Bestellung oder Vereinbarung."
+          },
+          {
+            "type": "p",
+            "text": "Donorfit richtet sich an Organisationen und nicht an Verbraucher:innen (Abschnitt 1 unserer AGB). Das gesetzliche Widerrufsrecht für Verbraucher:innen nach § 312g Bürgerliches Gesetzbuch (BGB) gilt daher nicht für Verträge über Leistungen von Donorfit."
+          }
+        ]
+      },
+      {
+        "id": "billing",
+        "heading": "8. Fragen zur Abrechnung",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn Sie eine Rechnung von Donorfit für fehlerhaft halten oder Ihnen ein Betrag doppelt berechnet wurde, kontaktieren Sie uns bitte mit der Rechnungsnummer und einer kurzen Beschreibung. Wir prüfen die Belastung und korrigieren etwaige Fehler."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "heading": "9. Kontakt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Fragen zu einer Spende, Mitgliedschaft oder Patenschaft: Bitte wenden Sie sich an die Organisation, an die Sie gezahlt haben."
+          },
+          {
+            "type": "p",
+            "text": "Fragen zu den Leistungen und Rechnungen von Donorfit: Bitte kontaktieren Sie uns über die Angaben in unserem Impressum oder über unsere Kontaktseite."
+          },
+          {
+            "type": "link",
+            "text": "Zur Kontaktseite",
+            "to": "/contact"
+          }
+        ]
+      }
+    ]
   }
 }

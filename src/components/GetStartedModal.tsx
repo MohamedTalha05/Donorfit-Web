@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { X, CheckCircle2, Sparkles, ArrowRight, Check } from 'lucide-react';
 import BrandLogo from './BrandLogo.tsx';
@@ -23,6 +23,13 @@ export default function GetStartedModal() {
     currency: 'EUR',
     estimatedDonors: '1000-5000',
   });
+
+  // The modal stays mounted, so apply a preset product each time it opens (ignore values the form doesn't list).
+  useEffect(() => {
+    if (isGetStartedOpen && selectedModule && MODULE_IDS.includes(selectedModule)) {
+      setSelectedModules((m) => (m.includes(selectedModule) ? m : [selectedModule]));
+    }
+  }, [isGetStartedOpen, selectedModule]);
 
   if (!isGetStartedOpen) return null;
 

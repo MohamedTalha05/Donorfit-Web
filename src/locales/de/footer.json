@@ -2,10 +2,10 @@
   "preCta": {
     "eyebrow": "Speziell für NGOs und gemeinnützige Organisationen entwickelt",
     "title": "Bereit, Ihr Fundraising zu modernisieren?",
-    "body": "Bringen Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer vernetzten Plattform zusammen. Weniger Verwaltungsaufwand. Stärkere Spenderbeziehungen. Mehr Wirkung."
+    "body": "Bringen Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer vernetzten Plattform zusammen. Weniger Verwaltungs­aufwand. Stärkere Spenderbeziehungen. Mehr Wirkung."
   },
   "homeAria": "Donorfit – zur Startseite",
-  "tagline": "Fundraising-Technologie, speziell entwickelt für Nichtregierungsorganisationen, gemeinnützige Vereine und Stiftungen in Europa und weltweit.",
+  "tagline": "Fundraising-Technologie, speziell entwickelt für Nicht­regierungs­organisationen, gemeinnützige Vereine und Stiftungen in Europa und weltweit.",
   "hosting": "Datenhosting in der EU · DSGVO-konform",
   "columns": {
     "product": "Produkt",
@@ -17,16 +17,16 @@
   "links": {
     "platform": "Donorfit-Plattform",
     "pricing": "Preise",
-    "orphanSponsorship": "Waisenpatenschaften",
+    "orphanSponsorship": "Waisen­patenschaften",
     "donations": "Spenden",
     "recurringGiving": "Regelmäßige Spenden",
-    "donorManagement": "Spenderverwaltung",
+    "donorManagement": "Spender­verwaltung",
     "reporting": "Berichte & Auswertungen",
     "ngos": "Für NGOs",
     "charities": "Für gemeinnützige Organisationen",
     "foundations": "Für Stiftungen",
-    "sponsorshipOrgs": "Für Patenschaftsorganisationen",
-    "membershipOrgs": "Für Mitgliederorganisationen",
+    "sponsorshipOrgs": "Für Patenschafts­organisationen",
+    "membershipOrgs": "Für Mitglieder­organisationen",
     "internationalOrgs": "Für internationale Organisationen",
     "blog": "Blog & Ressourcen",
     "guides": "Leitfäden & Toolkits",
@@ -36,16 +36,17 @@
     "contact": "Kontakt",
     "partners": "Partner",
     "security": "Sicherheit & Vertrauen",
-    "privacy": "Datenschutzerklärung",
+    "privacy": "Datenschutz­erklärung",
     "cookies": "Cookie-Richtlinie",
     "terms": "AGB",
+    "refund": "Widerrufs- und Erstattungs­richtlinie",
     "impressum": "Impressum",
-    "accessibility": "Erklärung zur Barrierefreiheit",
+    "accessibility": "Erklärung zur Barriere­freiheit",
     "cookiePreferences": "Cookie-Einstellungen"
   },
   "bottom": {
     "rights": "© {{year}} Donorfit. Alle Rechte vorbehalten. Technologie + Menschlichkeit + Vertrauen.",
     "focus": "Schwerpunkt: Europäische Union & internationale Non-Profit-Organisationen",
-    "hq": "Hauptsitz: Frankfurt am Main, Deutschland"
+    "hq": "Hauptsitz: Wolfsburg, Deutschland"
   }
 }

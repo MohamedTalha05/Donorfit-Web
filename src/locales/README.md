@@ -20,6 +20,10 @@ const { lang } = useI18n();        // 'en' | 'de'
 - Rich text: keep sentences whole in one key. For inline bold/links, split into `before` / `bold` / `after` keys rather than concatenating fragments of a sentence.
 - Never put visible English directly in JSX (except brand/product names, code, units already inside a translated string).
 
+## After editing German text
+
+Run `npm run i18n:hyphenate` (adds invisible soft hyphens to long compound nouns so headings break cleanly on phones; skips SEO fields) and `npm run i18n:check` (both languages must have identical keys and placeholders). Add new long compounds to the list in `scripts/soft-hyphenate-de.mjs` when needed.
+
 ## German style guide
 
 - Formal address: **Sie / Ihr / Ihnen**, consistently.

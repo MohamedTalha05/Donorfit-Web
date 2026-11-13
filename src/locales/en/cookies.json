@@ -2,7 +2,7 @@
   "banner": {
     "ariaLabel": "Cookie consent banner",
     "title": "Your Privacy & Cookie Preferences",
-    "text": "Donorfit uses essential cookies to ensure secure platform functionality. With your consent, we also use functional and privacy-focused analytics cookies to evaluate website traffic and optimize our fundraising resources. You can customize your preferences anytime.",
+    "text": "This website only stores what it needs to work, such as your language and cookie choices. We don't use analytics or advertising cookies. You can review your settings at any time.",
     "manage": "Manage Preferences",
     "rejectNonEssential": "Reject Non-Essential",
     "acceptAll": "Accept All"
@@ -10,7 +10,7 @@
   "dialog": {
     "title": "Cookie Preferences Manager",
     "closeAria": "Close preferences",
-    "introBefore": "We prioritize user privacy and comply strictly with the European Union GDPR and ePrivacy Directive. Choose which cookie categories you permit Donorfit to employ. Read our full",
+    "introBefore": "Choose which categories Donorfit may use. Analytics and marketing are not currently used on this website. Read more in our",
     "introLink": "Cookie Policy",
     "introAfter": ".",
     "alwaysActive": "Always Active",
@@ -21,19 +21,19 @@
   "categories": {
     "necessary": {
       "name": "Strictly Necessary Cookies",
-      "description": "Required for core platform security, session tokens, load balancing, and CSRF protection. Cannot be disabled."
+      "description": "Stores your cookie choices and your language. Needed for the website to work, so it cannot be switched off."
     },
     "preferences": {
       "name": "Functional & Preference Cookies",
-      "description": "Remembers your chosen language, country selection, and form completion state."
+      "description": "Not currently used as a separate category. Your language choice is stored as strictly necessary."
     },
     "analytics": {
       "name": "Performance & Analytics Cookies",
-      "description": "Aggregated, privacy-respecting metrics to measure page performance and donation flow drop-off without storing IP addresses."
+      "description": "Not currently used. If we introduce analytics, it will only run with your consent."
     },
     "marketing": {
       "name": "Marketing & Outreach Cookies",
-      "description": "Allows us to assess our non-profit digital outreach campaigns and measure inbound demo inquiry channels."
+      "description": "Not currently used. If we introduce marketing tools, they will only run with your consent."
     }
   }
 }

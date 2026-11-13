@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback, useId } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import BrandLogo from './BrandLogo.tsx';
+import { isHiddenProduct } from '../data/productPages.ts';
 import { APP_LOGIN_URL, APP_SIGNUP_URL } from '../data/links.ts';
 import { useT, useTx, type Lang } from '../i18n/index.tsx';
 import {
@@ -51,8 +52,8 @@ const RESOURCE_NAV = [
   { key: 'docs', icon: BookOpenText, href: null },
 ] as const;
 
-/** Integrations content currently lives in a section of the Partners page. */
-const INTEGRATIONS = { path: '/partners', sectionId: 'integrations' };
+/** Integrations page route. */
+const INTEGRATIONS = { path: '/integrations' };
 /** Pricing page route. */
 const PRICING_HREF: string | null = '/pricing';
 /** Customer app auth — full page redirects in the same tab (see src/data/links.ts). */
@@ -115,7 +116,8 @@ export default function Navbar() {
   const tc = useT('common');
   const tp = useTx('products');
 
-  const PRODUCT_ITEMS: NavItem[] = PRODUCT_NAV.map((p) => ({
+  // Unlaunched products (HIDDEN_PRODUCTS) are left out of the menu entirely.
+  const PRODUCT_ITEMS: NavItem[] = PRODUCT_NAV.filter((p) => !isHiddenProduct(p.slug)).map((p) => ({
     label: tc(`products.${p.slug}`),
     description: tp<string>(`pages.${p.slug}.navDescription`) ?? '',
     icon: p.icon,
@@ -418,11 +420,11 @@ export default function Navbar() {
               onClick={(e) => {
                 if (!isPlainLeftClick(e)) return;
                 e.preventDefault();
-                go(INTEGRATIONS.path, INTEGRATIONS.sectionId);
+                go(INTEGRATIONS.path);
               }}
-              aria-current={currentRoute === INTEGRATIONS.path ? 'page' : undefined}
+              aria-current={currentRoute === INTEGRATIONS.path ? 'page' : currentRoute.startsWith(`${INTEGRATIONS.path}/`) ? 'true' : undefined}
               className={`rounded-lg px-3 py-2 whitespace-nowrap transition-colors hover:bg-brand-50 hover:text-brand-700 ${focusRing} ${
-                currentRoute === INTEGRATIONS.path ? 'text-neutral-950' : ''
+                currentRoute === INTEGRATIONS.path || currentRoute.startsWith(`${INTEGRATIONS.path}/`) ? 'text-neutral-950' : ''
               }`}
             >
               {t('integrations')}
@@ -573,7 +575,7 @@ export default function Navbar() {
               onClick={(e) => {
                 if (!isPlainLeftClick(e)) return;
                 e.preventDefault();
-                go(INTEGRATIONS.path, INTEGRATIONS.sectionId);
+                go(INTEGRATIONS.path);
               }}
               className={`block rounded-lg border-b border-neutral-100 px-3 py-3 text-base font-semibold text-neutral-900 hover:bg-neutral-50 ${focusRing}`}
             >

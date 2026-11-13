@@ -27,12 +27,12 @@
     },
     "interestOptions": {
       "general": "Komplette Donorfit-Plattform",
-      "sponsorship": "Patenschaftsverwaltung",
-      "orphan-sponsorship": "Waisenpatenschaftsprogramm",
+      "sponsorship": "Patenschafts­verwaltung",
+      "orphan-sponsorship": "Waisen­patenschaftsprogramm",
       "recurring-giving": "Regelmäßiges Spenden & SEPA",
-      "donor-management": "Spenderverwaltung (CRM)",
+      "donor-management": "Spender­verwaltung (CRM)",
       "money-pool": "Money Pool & Gruppenspenden",
-      "membership": "Automatisierte Mitgliedsbeiträge",
+      "membership": "Automatisierte Mitglieds­beiträge",
       "campaigns": "Nothilfe- & Zielkampagnen"
     },
     "volumeOptions": {
@@ -72,10 +72,10 @@
     "modules": {
       "donations": "Online-Spenden",
       "recurring": "Regelmäßige Spenden & SEPA",
-      "sponsorship": "Patenschaftsverwaltung",
+      "sponsorship": "Patenschafts­verwaltung",
       "orphan": "Waisenhilfe-Programme",
       "moneypool": "Money Pool & Gruppen",
-      "membership": "Mitgliedsbeiträge",
+      "membership": "Mitglieds­beiträge",
       "crm": "Spender-CRM & Belege",
       "reporting": "Analysen & Auswertungen"
     },
@@ -100,7 +100,7 @@
       "title": "Einrichtung des Arbeitsbereichs angefordert",
       "receivedBefore": "Wir haben Ihre Konfiguration für ",
       "receivedMiddle": " erhalten. Ihr:e Onboarding-Spezialist:in meldet sich innerhalb eines Werktags unter ",
-      "receivedAfter": " mit Sandbox-Zugangsdaten und den Schritten zur Verifizierung Ihres Zahlungsanbieters.",
+      "receivedAfter": " mit Sandbox-Zugangsdaten und den Schritten zur Verifizierung Ihres Zahlungs­anbieters.",
       "selectedModules": "Ausgewählte Module:",
       "modulesActive": "{{count}} Module aktiv",
       "modulesActiveOne": "{{count}} Modul aktiv",

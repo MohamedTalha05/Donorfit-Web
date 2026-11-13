@@ -381,3 +381,13 @@
 .ps-slide { transform-origin: 50% 55%; backface-visibility: hidden; }
 .ps-slide img { transform-origin: 50% 45%; }
 .ps-stage img { -webkit-user-drag: none; pointer-events: none; }
+
+/* German: long compound nouns ("Mitgliederverwaltung", "Moscheegemeinden") must break
+   instead of overflowing narrow screens. Hyphenation (via <html lang="de">) is preferred;
+   overflow-wrap: anywhere is the fallback for browsers without a German hyphenation
+   dictionary and also lets grid/flex items shrink below a long word's width. */
+html:lang(de) :is(h1, h2, h3, h4, .hv-display, button, label, dt, dd, li, p) {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: anywhere;
+}

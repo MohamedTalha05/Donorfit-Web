@@ -11,6 +11,7 @@ import {
   Users,
 } from 'lucide-react';
 import { useT, useTx, useFormat } from '../../i18n/index.tsx';
+import { isHiddenProduct } from '../../data/productPages.ts';
 
 import membershipImg from '../../assets/images/hero/membership.jpg';
 import sponsorshipImg from '../../assets/images/hero/sponsorship.jpg';
@@ -344,22 +345,20 @@ function MoneyPoolCards() {
 /* Slides                                                              */
 /* ------------------------------------------------------------------ */
 
-const SLIDES = [
+/* Names and alt texts live in home:showcase.slides.<key>. */
+
+const ALL_SLIDES = [
   {
     key: 'membership',
-    name: 'Membership',
     icon: IdCard,
     img: membershipImg,
-    alt: 'Community members gathered under a tree for an outdoor association meeting',
     pos: '50% 60%',
     Cards: MembershipCards,
   },
   {
     key: 'sponsorship',
-    name: 'Sponsorship',
     icon: HeartHandshake,
     img: sponsorshipImg,
-    alt: 'A schoolboy writing carefully in his notebook at his desk',
     pos: '55% 50%',
     w: 1600,
     h: 1200,
@@ -367,44 +366,41 @@ const SLIDES = [
   },
   {
     key: 'waterwell',
-    name: 'Water Well',
     icon: Droplets,
     img: waterwellImg,
-    alt: 'Children filling yellow jerrycans at a village hand-pump well',
     pos: '45% 50%',
     Cards: WaterWellCards,
   },
   {
     key: 'qurbani',
-    name: 'Qurbani',
     icon: Moon,
     img: qurbaniImg,
-    alt: 'Goats and rams at a livestock market ahead of Eid al-Adha',
     pos: '60% 55%',
     Cards: QurbaniCards,
   },
   {
     key: 'school',
-    name: 'School',
     icon: GraduationCap,
     img: schoolImg,
-    alt: 'A teacher leading a lesson with uniformed students in a classroom',
     pos: '50% 45%',
     Cards: SchoolCards,
+    /** Unlaunched: left out of the carousel while in HIDDEN_PRODUCTS. */
+    hidden: isHiddenProduct('school-management'),
   },
   {
     key: 'moneypool',
-    name: 'Money Pool',
     icon: PiggyBank,
     img: moneypoolImg,
-    alt: 'Volunteers standing together behind donation tubs at a community collection drive',
     pos: '45% 30%',
     Cards: MoneyPoolCards,
   },
 ];
 
+/** Slides shown in the carousel (unlaunched products removed). */
+const SLIDES = ALL_SLIDES.filter((s) => !s.hidden);
+
 /* ------------------------------------------------------------------ */
-/* Carousel                                                            */
+/* Carousel                                                         */
 /* ------------------------------------------------------------------ */
 
 /* ------------------------------------------------------------------ */
@@ -449,6 +445,8 @@ function initialIndex() {
 type Mode = 'hold' | 'move' | 'drag';
 
 export default function ProductShowcase() {
+  const t = useT('home');
+  const slideName = (i: number) => t(`showcase.slides.${SLIDES[i].key}.name`);
   const start = useRef(initialIndex()).current;
   const [center, setCenter] = useState(start);
 
@@ -643,13 +641,13 @@ export default function ProductShowcase() {
   return (
     <section
       aria-roledescription="carousel"
-      aria-label="Donorfit products"
+      aria-label={t('showcase.sectionLabel')}
       className="relative mx-auto w-full max-w-[560px]"
     >
       <div
         ref={stageRef}
         tabIndex={0}
-        aria-label={`${SLIDES[center].name}, product ${center + 1} of ${N}. Use the left and right arrow keys to browse.`}
+        aria-label={t('showcase.stageLabel', { name: slideName(center), n: center + 1, total: N })}
         onKeyDown={onKeyDown}
         onFocus={(e) => {
           if (e.currentTarget.matches(':focus-visible')) s.current.keyboard = true;
@@ -674,7 +672,7 @@ export default function ProductShowcase() {
               }}
               role="group"
               aria-roledescription="slide"
-              aria-label={`${i + 1} of ${N}: ${sl.name}`}
+              aria-label={t('showcase.slideLabel', { n: i + 1, total: N, name: slideName(i) })}
               aria-hidden={!isCenter}
               inert={!isCenter ? true : undefined}
               className="ps-slide absolute left-1/2 top-0 h-full w-[calc(100%-44px)] will-change-transform lg:w-[calc(100%-80px)]"
@@ -685,7 +683,7 @@ export default function ProductShowcase() {
                     imgRefs.current[i] = el;
                   }}
                   src={sl.img}
-                  alt={sl.alt}
+                  alt={t(`showcase.slides.${sl.key}.alt`)}
                   width={sl.w ?? 1600}
                   height={sl.h ?? 1067}
                   draggable={false}
@@ -728,7 +726,7 @@ export default function ProductShowcase() {
       </div>
 
       <div className="mt-5 flex items-center justify-center gap-2 text-sm">
-        <span className="font-semibold text-white">{SLIDES[center].name}</span>
+        <span className="font-semibold text-white">{slideName(center)}</span>
       </div>
     </section>
   );

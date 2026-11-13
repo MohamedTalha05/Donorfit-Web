@@ -36,8 +36,8 @@ import {
   School,
 } from 'lucide-react';
 import { useModal } from '../context/ModalContext.tsx';
-import { FAQS_DATA } from '../data/content.ts';
 import { VERIFIED_ORGANISATIONS, SUCCESS_STORIES } from '../data/homepage.ts';
+import { useT, useTx, useFormat } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
 import ProductShowcase from '../components/home/ProductShowcase.tsx';
 import DashboardPreview from '../components/home/DashboardPreview.tsx';
@@ -45,8 +45,8 @@ import DonationFormPreview from '../components/home/DonationFormPreview.tsx';
 import RecurringPreview from '../components/home/RecurringPreview.tsx';
 import IntegrationHub from '../components/home/IntegrationHub.tsx';
 import Photo from '../components/home/Photo.tsx';
-import { SECTION_PHOTOS } from '../components/home/sectionPhotos.ts';
-import { SampleBadge, eur, int } from '../components/home/mockKit.tsx';
+import { SECTION_PHOTOS, type SectionPhotoKey } from '../components/home/sectionPhotos.ts';
+import { SampleBadge } from '../components/home/mockKit.tsx';
 
 /* ------------------------------------------------------------------ */
 /* Layout primitives                                                   */
@@ -173,90 +173,43 @@ const inlineLink =
   'font-semibold text-navy-900 underline decoration-brand-300 decoration-2 underline-offset-4 transition-colors hover:decoration-brand-600';
 
 /* ------------------------------------------------------------------ */
-/* Content                                                             */
+/* Content (text lives in src/locales/<lang>/home.json; zipped by index) */
 /* ------------------------------------------------------------------ */
 
+/** Same order as home:platform.features. */
 const PLATFORM_FEATURES = [
-  {
-    icon: HandCoins,
-    title: 'Online donations',
-    description: 'Branded donation forms and campaign pages that work beautifully on every device.',
-    to: '/donations',
-  },
-  {
-    icon: RefreshCw,
-    title: 'Recurring giving',
-    description: 'Monthly and annual giving with SEPA mandates, automatic retries and donor self-service.',
-    to: '/recurring-giving',
-  },
-  {
-    icon: Flag,
-    title: 'Campaigns & appeals',
-    description: 'Goal-based appeals with live progress, milestones, QR codes and matched giving.',
-    to: '/campaign-management',
-  },
-  {
-    icon: Users,
-    title: 'Donor management',
-    description: 'One profile per supporter with full giving history, consent records and notes.',
-    to: '/donor-management',
-  },
-  {
-    icon: HeartHandshake,
-    title: 'Sponsorship',
-    description: 'Manage sponsors, beneficiaries and progress updates with role-based safeguarding.',
-    to: '/sponsorship',
-  },
-  {
-    icon: BarChart3,
-    title: 'Reporting & insights',
-    description: 'Retention, campaign and fund reports ready for your board, trustees and auditors.',
-    to: '/reporting-and-insights',
-  },
+  { icon: HandCoins, to: '/donations' },
+  { icon: RefreshCw, to: '/recurring-giving' },
+  { icon: Flag, to: '/campaign-management' },
+  { icon: Users, to: '/donor-management' },
+  { icon: HeartHandshake, to: '/sponsorship' },
+  { icon: BarChart3, to: '/reporting-and-insights' },
 ];
 
+/** Same order as home:campaigns.examples. */
 const EXAMPLE_CAMPAIGNS = [
-  { icon: UtensilsCrossed, title: 'Ramadan Food Packs', tag: 'Seasonal appeal', raised: 32450, goal: 40000, supporters: 618, daysLeft: 9 },
-  { icon: Snowflake, title: 'Emergency Winter Appeal', tag: 'Emergency', raised: 21800, goal: 50000, supporters: 402, daysLeft: 21 },
-  { icon: School, title: 'Build a Classroom', tag: 'Project fund', raised: 14250, goal: 15000, supporters: 187, daysLeft: 4 },
+  { icon: UtensilsCrossed, raised: 32450, goal: 40000, supporters: 618, daysLeft: 9 },
+  { icon: Snowflake, raised: 21800, goal: 50000, supporters: 402, daysLeft: 21 },
+  { icon: School, raised: 14250, goal: 15000, supporters: 187, daysLeft: 4 },
 ];
 
-const PAYMENT_GROUPS = [
-  { icon: Banknote, title: 'Bank payments', items: ['SEPA Direct Debit', 'iDEAL', 'Bancontact', 'Sofort / Klarna'] },
-  { icon: CreditCard, title: 'Cards', items: ['Visa', 'Mastercard', 'American Express'] },
-  { icon: Wallet, title: 'Wallets', items: ['Apple Pay', 'Google Pay', 'PayPal'] },
-];
+/** Same order as home:payments.groups. */
+const PAYMENT_GROUP_ICONS = [Banknote, CreditCard, Wallet];
 
+/** Same order as home:solutions.items. */
 const SOLUTIONS = [
-  {
-    icon: Globe2,
-    title: 'NGOs',
-    description: 'Run appeals across countries and currencies while keeping every gift accountable to your field programmes.',
-    points: ['Multi-currency, localised checkout', 'Restricted fund tracking', 'Audit-ready exports'],
-    to: '/solutions/ngos',
-  },
-  {
-    icon: Landmark,
-    title: 'Charitable trusts & foundations',
-    description: 'Give trustees clear visibility of restricted allocations, donors and governance reporting.',
-    points: ['Trustee & board reports', 'Read-only auditor access', 'Restricted allocations'],
-    to: '/solutions/foundations',
-  },
-  {
-    icon: Moon,
-    title: 'Masjids & faith communities',
-    description: 'Collect regular giving, seasonal appeals and building funds from your community in one place.',
-    points: ['Recurring community giving', 'Seasonal appeal pages', 'QR codes for in-person events'],
-    to: '/money-pool',
-  },
-  {
-    icon: Building2,
-    title: 'Charities & nonprofits',
-    description: 'Replace spreadsheets and disconnected tools with one platform your whole team can use.',
-    points: ['Automated tax receipts', 'Donor CRM', 'Membership & sponsorship'],
-    to: '/solutions/charities',
-  },
+  { icon: Globe2, to: '/solutions/ngos' },
+  { icon: Landmark, to: '/solutions/foundations' },
+  { icon: Moon, to: '/money-pool' },
+  { icon: Building2, to: '/solutions/charities' },
 ];
+
+/** Same order as home:overview.highlights / forms.features / campaigns.features. */
+const OVERVIEW_ICONS = [Target, Receipt, BarChart3];
+const FORM_FEATURE_ICONS = [Palette, Code2, Percent, Receipt];
+const CAMPAIGN_FEATURE_ICONS = [Target, BadgeCheck, HandCoins, QrCode];
+
+type FAQ = { question: string; answer: string; category: string };
 
 const HOME_FAQ_INDEXES = [0, 8, 3, 5, 6, 2, 7];
 
@@ -272,12 +225,14 @@ const BENTO = [
 
 /* Small decorative illustrations for the bento cards. */
 function BentoArt({ index }: { index: number }) {
+  const t = useT('home');
+  const { eur } = useFormat();
   if (index === 0)
     return (
       <div aria-hidden="true" className="relative mt-auto hidden space-y-3 pt-10 sm:block">
         <div className="grid grid-cols-2 rounded-xl border border-white/10 bg-white/5 p-1 text-sm font-semibold">
-          <span className="py-2 text-center text-white/50">One-time</span>
-          <span className="rounded-lg bg-white py-2 text-center text-navy-950">Monthly</span>
+          <span className="py-2 text-center text-white/50">{t('mock.oneTime')}</span>
+          <span className="rounded-lg bg-white py-2 text-center text-navy-950">{t('mock.monthly')}</span>
         </div>
         <div className="grid grid-cols-4 gap-2">
           {[25, 50, 100, 250].map((a) => (
@@ -341,8 +296,26 @@ export default function HomePage() {
   const { openBookDemo, openGetStarted } = useModal();
   const rootRef = useRef<HTMLDivElement>(null);
   useReveal(rootRef);
-  const faqs = HOME_FAQ_INDEXES.map((i) => FAQS_DATA[i]).filter(Boolean);
-  const [featured, ...restCampaigns] = EXAMPLE_CAMPAIGNS;
+  const t = useT('home');
+  const tc = useT('common');
+  const tx = useTx('home');
+  const txFaqs = useTx('faqs');
+  const { eur, int } = useFormat();
+  const allFaqs = txFaqs<FAQ[]>('items') ?? [];
+  const faqs = HOME_FAQ_INDEXES.map((i) => allFaqs[i]).filter(Boolean);
+  const photo = (key: SectionPhotoKey) => ({ ...SECTION_PHOTOS[key], alt: t(`photos.${key}`) });
+
+  const platformText = tx<{ title: string; description: string }[]>('platform.features');
+  const platformFeatures = PLATFORM_FEATURES.map((f, i) => ({ ...f, ...platformText[i] }));
+  const campaignText = tx<{ title: string; tag: string }[]>('campaigns.examples');
+  const [featured, ...restCampaigns] = EXAMPLE_CAMPAIGNS.map((c, i) => ({ ...c, ...campaignText[i] }));
+  const paymentGroups = tx<{ title: string; items: string[] }[]>('payments.groups').map((g, i) => ({ ...g, icon: PAYMENT_GROUP_ICONS[i] }));
+  const solutionText = tx<{ title: string; description: string; points: string[] }[]>('solutions.items');
+  const solutions = SOLUTIONS.map((s, i) => ({ ...s, ...solutionText[i] }));
+  const overviewHighlights = tx<{ title: string; text: string }[]>('overview.highlights').map((h, i) => ({ ...h, icon: OVERVIEW_ICONS[i] }));
+  const formFeatures = tx<{ title: string; text: string }[]>('forms.features').map((f, i) => ({ ...f, icon: FORM_FEATURE_ICONS[i] }));
+  const campaignFeatures = tx<string[]>('campaigns.features').map((text, i) => ({ text, icon: CAMPAIGN_FEATURE_ICONS[i] }));
+  const recurringPoints = tx<{ bold: string; after: string }[]>('recurring.points');
 
   return (
     <div ref={rootRef} className="home-v2 overflow-x-clip bg-white">
@@ -356,7 +329,7 @@ export default function HomePage() {
           <div className="text-center lg:text-left">
             <div data-reveal className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold text-white/85 backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-brand-300" aria-hidden="true" />
-              Fundraising technology built for nonprofits
+              {t('hero.badge')}
             </div>
 
             <h1
@@ -365,34 +338,33 @@ export default function HomePage() {
               style={delay(80)}
               className="mx-auto mt-8 max-w-3xl text-[2.75rem] font-extrabold leading-[0.98] sm:text-7xl lg:mx-0 lg:text-[4.25rem] xl:text-[5.25rem]"
             >
-              Raise more for your mission.{' '}
-              <span className="hv-gradient-text sm:block">Spend less time on admin.</span>
+              {t('hero.titleLine1')}{' '}
+              <span className="hv-gradient-text sm:block">{t('hero.titleLine2')}</span>
             </h1>
 
             <p data-reveal style={delay(160)} className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-white/70 sm:text-xl lg:mx-0">
-              Donation forms, recurring giving, campaigns and donor management in one connected platform — built for NGOs,
-              charitable trusts, masjids and nonprofits.
+              {t('hero.description')}
             </p>
 
             <div data-reveal style={delay(240)} className="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center lg:justify-start">
               <button type="button" onClick={() => openGetStarted()} className="hv-btn hv-btn-primary px-8 py-4 text-base">
-                Get Started Free
+                {tc('actions.getStartedFree')}
                 <ArrowRight className="h-4.5 w-4.5" aria-hidden="true" />
               </button>
               <button type="button" onClick={() => openBookDemo()} className="hv-btn hv-btn-ghost px-8 py-4 text-base">
-                Book a Demo
+                {tc('actions.bookDemo')}
               </button>
             </div>
 
             <ul data-reveal style={delay(320)} className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[13px] text-white/65 lg:justify-start">
               <li className="flex items-center gap-2">
-                <ShieldCheck className="h-4 w-4 text-brand-300" aria-hidden="true" /> Hosted in the EU, GDPR-compliant
+                <ShieldCheck className="h-4 w-4 text-brand-300" aria-hidden="true" /> {t('hero.trust.euHosted')}
               </li>
               <li className="flex items-center gap-2">
-                <FileCheck2 className="h-4 w-4 text-brand-300" aria-hidden="true" /> Automated tax receipts
+                <FileCheck2 className="h-4 w-4 text-brand-300" aria-hidden="true" /> {t('hero.trust.taxReceipts')}
               </li>
               <li className="flex items-center gap-2">
-                <DatabaseZap className="h-4 w-4 text-brand-300" aria-hidden="true" /> Export your data anytime
+                <DatabaseZap className="h-4 w-4 text-brand-300" aria-hidden="true" /> {t('hero.trust.exportData')}
               </li>
             </ul>
           </div>
@@ -406,7 +378,7 @@ export default function HomePage() {
       {/* 2. PRODUCT SHOWCASE ----------------------------------------- */}
       <section aria-labelledby="showcase-title" className="relative pb-24 sm:pb-32">
         <h2 id="showcase-title" className="sr-only">
-          Product overview
+          {t('overview.srTitle')}
         </h2>
         <div aria-hidden="true" className="absolute inset-x-0 top-0 h-[42%] bg-navy-950" />
         <div aria-hidden="true" className="absolute inset-x-0 top-[42%] bottom-0 bg-gradient-to-b from-aqua to-white" />
@@ -422,11 +394,7 @@ export default function HomePage() {
           </div>
 
           <div data-reveal className="mx-auto mt-14 grid max-w-5xl overflow-hidden rounded-3xl border border-brand-100 bg-white shadow-[0_30px_60px_-40px_rgb(0_24_64/0.5)] sm:grid-cols-3 sm:divide-x sm:divide-brand-100">
-            {[
-              { icon: Target, title: 'Every gift, one view', text: 'Donations, recurring plans and campaigns update in a single dashboard.' },
-              { icon: Receipt, title: 'Receipts on autopilot', text: 'Compliant donation receipts are generated and sent for you.' },
-              { icon: BarChart3, title: 'Reports in a click', text: 'Share clear numbers with trustees, boards and auditors.' },
-            ].map(({ icon: Icon, title, text }) => (
+            {overviewHighlights.map(({ icon: Icon, title, text }) => (
               <div key={title} className="flex gap-4 border-b border-brand-100 p-6 text-left last:border-b-0 sm:border-b-0 sm:p-7">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-navy-700 text-white shadow-[0_8px_20px_-8px_rgb(0_122_128/0.7)]">
                   <Icon className="h-5 w-5" aria-hidden="true" />
@@ -448,7 +416,7 @@ export default function HomePage() {
             {VERIFIED_ORGANISATIONS.length > 0 ? (
               <>
                 <h2 id="trusted-title" className="text-center text-sm font-semibold text-neutral-500">
-                  Trusted by organisations doing vital work
+                  {t('trusted.verifiedTitle')}
                 </h2>
                 <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
                   {VERIFIED_ORGANISATIONS.map((org) => (
@@ -472,17 +440,10 @@ export default function HomePage() {
             ) : (
               <div className="flex flex-col items-center gap-7">
                 <h2 id="trusted-title" className="!font-sans text-center text-sm font-semibold !tracking-normal text-neutral-500">
-                  Built for organisations that serve their communities
+                  {t('trusted.fallbackTitle')}
                 </h2>
                 <ul className="flex flex-wrap items-center justify-center gap-3">
-                  {[
-                    'NGOs',
-                    'Charities',
-                    'Charitable trusts & foundations',
-                    'Masjids',
-                    'Sponsorship programmes',
-                    'Membership associations',
-                  ].map((label, i) => (
+                  {tx<string[]>('trusted.segments').map((label, i) => (
                     <li
                       key={label}
                       className="flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-4 py-2.5 text-sm font-semibold text-navy-900 shadow-xs transition-colors hover:border-brand-300"
@@ -503,17 +464,17 @@ export default function HomePage() {
         <div className={CONTAINER}>
           <SectionHeader
             id="platform-title"
-            eyebrow="Platform"
+            eyebrow={t('platform.eyebrow')}
             title={
               <>
-                Everything you need to fundraise, <span className="hv-gradient-text-light">in one place</span>
+                {t('platform.titleBefore')} <span className="hv-gradient-text-light">{t('platform.titleHighlight')}</span>
               </>
             }
-            description="Stop stitching together forms, spreadsheets and payment tools. Donorfit connects every part of your fundraising."
+            description={t('platform.description')}
           />
 
           <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:auto-rows-[minmax(15rem,auto)] lg:grid-cols-4">
-            {PLATFORM_FEATURES.map(({ icon: Icon, title, description, to }, i) => {
+            {platformFeatures.map(({ icon: Icon, title, description, to }, i) => {
               const b = BENTO[i];
               const dark = b.tone === 'dark';
               return (
@@ -535,7 +496,7 @@ export default function HomePage() {
                   </p>
                   <BentoArt index={i} />
                   <span className={`relative mt-6 inline-flex items-center gap-1.5 text-sm font-bold ${dark ? 'text-brand-300' : 'text-brand-700'}`}>
-                    Learn more
+                    {tc('actions.learnMore')}
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                   </span>
                 </HomeLink>
@@ -544,15 +505,15 @@ export default function HomePage() {
           </div>
 
           <p data-reveal className="mt-10 text-center text-[15px] text-neutral-600">
-            Also available:{' '}
+            {t('platform.alsoAvailable.before')}{' '}
             <HomeLink to="/membership" className={inlineLink}>
-              Membership
+              {tc('products.membership')}
             </HomeLink>{' '}
-            and{' '}
+            {t('platform.alsoAvailable.and')}{' '}
             <HomeLink to="/money-pool" className={inlineLink}>
-              Money Pool
+              {tc('products.money-pool')}
             </HomeLink>{' '}
-            for group fundraising.
+            {t('platform.alsoAvailable.after')}
           </p>
         </div>
       </section>
@@ -565,17 +526,12 @@ export default function HomePage() {
             <SectionHeader
               align="left"
               id="forms-title"
-              eyebrow="Online donations"
-              title="Donation forms that donors actually finish"
-              description="A clear two-step checkout with your branding, the payment methods your supporters prefer and receipts sent automatically."
+              eyebrow={t('forms.eyebrow')}
+              title={t('forms.title')}
+              description={t('forms.description')}
             />
             <div className="grid gap-4 sm:grid-cols-2">
-              {[
-                { icon: Palette, title: 'Your brand', text: 'Match your colours, fonts and imagery.' },
-                { icon: Code2, title: 'Embed anywhere', text: 'WordPress, Webflow, Squarespace or custom sites.' },
-                { icon: Percent, title: 'Donors cover fees', text: 'Optional fee cover so you receive the full gift.' },
-                { icon: Receipt, title: 'Instant receipts', text: 'Country-specific tax receipts, sent automatically.' },
-              ].map(({ icon: Icon, title, text }, i) => (
+              {formFeatures.map(({ icon: Icon, title, text }, i) => (
                 <div
                   key={title}
                   data-reveal
@@ -591,13 +547,13 @@ export default function HomePage() {
               ))}
             </div>
             <div data-reveal>
-              <TextLink to="/donations">Explore online donations</TextLink>
+              <TextLink to="/donations">{t('forms.link')}</TextLink>
             </div>
           </div>
           <div data-reveal style={delay(120)} className="relative px-4 sm:px-8 lg:px-0">
             {/* Donor photo layered behind the form */}
             <Photo
-              {...SECTION_PHOTOS.donateOnline}
+              {...photo('donateOnline')}
               className="absolute bottom-10 right-0 top-10 hidden w-[52%] rounded-[2rem] shadow-[0_40px_80px_-40px_rgb(0_24_64/0.55)] lg:block"
               overlay="bg-gradient-to-l from-transparent to-navy-950/25"
             />
@@ -617,7 +573,7 @@ export default function HomePage() {
               <div aria-hidden="true" className="absolute -inset-8 -z-0 rounded-[3rem] bg-gradient-to-br from-brand-600/40 to-brand-300/10 blur-2xl" />
               {/* Monthly-giving photo behind the recurring plans panel */}
               <Photo
-                {...SECTION_PHOTOS.recurring}
+                {...photo('recurring')}
                 className="relative mb-[-5rem] aspect-[16/10] w-full rounded-[2rem] ring-1 ring-white/10 sm:w-[78%] lg:mb-[-7rem]"
                 overlay="bg-gradient-to-b from-transparent via-transparent to-navy-950/70"
               />
@@ -631,36 +587,24 @@ export default function HomePage() {
               tone="dark"
               align="left"
               id="recurring-title"
-              eyebrow="Recurring giving"
-              title="Predictable income, without chasing payments"
-              description="Turn one-off supporters into monthly donors and let Donorfit handle the collections, retries and changes."
+              eyebrow={t('recurring.eyebrow')}
+              title={t('recurring.title')}
+              description={t('recurring.description')}
             />
             <div data-reveal>
               <CheckList
                 tone="dark"
-                items={[
+                items={recurringPoints.map(({ bold, after }) => (
                   <>
-                    <strong className="font-semibold text-white">SEPA mandates handled for you</strong> — including
-                    pre-notifications and bank file exports.
-                  </>,
-                  <>
-                    <strong className="font-semibold text-white">Failed payments retried automatically</strong>, with card
-                    details refreshed when cards are replaced.
-                  </>,
-                  <>
-                    <strong className="font-semibold text-white">Donor self-service</strong> — supporters update bank details,
-                    change amounts or pause instead of cancelling.
-                  </>,
-                  <>
-                    <strong className="font-semibold text-white">Upgrade prompts</strong> that invite loyal donors to increase
-                    their gift.
-                  </>,
-                ]}
+                    <strong className="font-semibold text-white">{bold}</strong>
+                    {after}
+                  </>
+                ))}
               />
             </div>
             <div data-reveal>
               <TextLink tone="dark" to="/recurring-giving">
-                Explore recurring giving
+                {t('recurring.link')}
               </TextLink>
             </div>
           </div>
@@ -674,12 +618,12 @@ export default function HomePage() {
             <SectionHeader
               align="left"
               id="campaigns-title"
-              eyebrow="Campaigns"
-              title="Appeals that build momentum"
-              description="Launch a campaign page in minutes, show live progress toward your goal and give supporters a reason to share."
+              eyebrow={t('campaigns.eyebrow')}
+              title={t('campaigns.title')}
+              description={t('campaigns.description')}
             />
             <div data-reveal>
-              <TextLink to="/campaign-management">Explore campaigns</TextLink>
+              <TextLink to="/campaign-management">{t('campaigns.link')}</TextLink>
             </div>
           </div>
 
@@ -697,7 +641,7 @@ export default function HomePage() {
                   }`}
                 >
                   <Photo
-                    {...[SECTION_PHOTOS.campaignFood, SECTION_PHOTOS.campaignWinter, SECTION_PHOTOS.campaignClassroom][i]}
+                    {...photo((['campaignFood', 'campaignWinter', 'campaignClassroom'] as const)[i])}
                     className={`relative ${isFeatured ? 'h-56 lg:h-full' : 'h-40 lg:h-full'}`}
                     overlay="bg-gradient-to-t from-navy-950/60 via-navy-950/5 to-navy-950/25"
                   >
@@ -720,11 +664,11 @@ export default function HomePage() {
                         <span className={`hv-display font-extrabold tabular-nums text-navy-950 ${isFeatured ? 'text-3xl' : 'text-xl'}`}>
                           {eur(raised)}
                         </span>
-                        <span className="text-sm tabular-nums text-neutral-500">of {eur(goal)}</span>
+                        <span className="text-sm tabular-nums text-neutral-500">{t('mock.of', { amount: eur(goal) })}</span>
                       </div>
                       <div
                         role="progressbar"
-                        aria-label={`${title} progress`}
+                        aria-label={t('campaigns.progressLabel', { title })}
                         aria-valuemin={0}
                         aria-valuemax={100}
                         aria-valuenow={pct}
@@ -735,13 +679,13 @@ export default function HomePage() {
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-t border-brand-100 pt-4 text-xs text-neutral-500">
                       <span>
-                        <strong className="font-semibold tabular-nums text-navy-900">{pct}%</strong> funded
+                        <strong className="font-semibold tabular-nums text-navy-900">{pct}%</strong> {t('campaigns.stats.funded')}
                       </span>
                       <span>
-                        <strong className="font-semibold tabular-nums text-navy-900">{int(supporters)}</strong> supporters
+                        <strong className="font-semibold tabular-nums text-navy-900">{int(supporters)}</strong> {t('campaigns.stats.supporters')}
                       </span>
                       <span>
-                        <strong className="font-semibold tabular-nums text-navy-900">{daysLeft}</strong> days left
+                        <strong className="font-semibold tabular-nums text-navy-900">{daysLeft}</strong> {t('campaigns.stats.daysLeft')}
                       </span>
                     </div>
                   </div>
@@ -750,16 +694,11 @@ export default function HomePage() {
             })}
           </div>
           <div className="mt-5 flex justify-center">
-            <SampleBadge label="Example campaigns · sample data" />
+            <SampleBadge label={t('campaigns.sampleBadge')} />
           </div>
 
           <ul className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { icon: Target, text: 'Goals & live progress bars' },
-              { icon: BadgeCheck, text: 'Automatic milestone emails' },
-              { icon: HandCoins, text: 'Matched giving from sponsors' },
-              { icon: QrCode, text: 'Tracking links & QR codes' },
-            ].map(({ icon: Icon, text }, i) => (
+            {campaignFeatures.map(({ icon: Icon, text }, i) => (
               <li
                 key={text}
                 data-reveal
@@ -787,22 +726,15 @@ export default function HomePage() {
                 tone="dark"
                 align="left"
                 id="payments-title"
-                eyebrow="Payments"
-                title="Every way your supporters want to give"
-                description="Accept bank payments, cards and wallets through trusted gateways, with funds paid directly to your organisation’s bank account."
+                eyebrow={t('payments.eyebrow')}
+                title={t('payments.title')}
+                description={t('payments.description')}
               />
               <div data-reveal>
-                <CheckList
-                  tone="dark"
-                  items={[
-                    'No Donorfit platform fee or transaction fee on the core platform.',
-                    'Donors can choose to cover processing fees.',
-                    'Multi-currency checkout in EUR, GBP, USD, CHF and more.',
-                  ]}
-                />
+                <CheckList tone="dark" items={tx<string[]>('payments.points')} />
               </div>
               <div data-reveal className="flex flex-wrap items-center gap-3 text-sm">
-                <span className="text-white/70">Payment gateways:</span>
+                <span className="text-white/70">{t('payments.gatewaysLabel')}</span>
                 {['Stripe', 'PayPal'].map((g) => (
                   <span key={g} className="rounded-full bg-white px-4 py-1.5 font-bold text-navy-950" translate="no">
                     {g}
@@ -811,18 +743,18 @@ export default function HomePage() {
               </div>
               <div data-reveal>
                 <TextLink tone="dark" to="/pricing">
-                  See pricing
+                  {t('payments.link')}
                 </TextLink>
               </div>
             </div>
 
             <div className="grid gap-4">
               <Photo
-                {...SECTION_PHOTOS.payments}
+                {...photo('payments')}
                 className="relative aspect-[2/1] w-full rounded-3xl ring-1 ring-white/15"
                 overlay="bg-gradient-to-t from-navy-950/50 to-transparent"
               />
-              {PAYMENT_GROUPS.map(({ icon: Icon, title, items }, i) => (
+              {paymentGroups.map(({ icon: Icon, title, items }, i) => (
                 <div
                   key={title}
                   data-reveal
@@ -855,15 +787,15 @@ export default function HomePage() {
         <div className={`${CONTAINER} relative`}>
           <SectionHeader
             id="integrations-title"
-            eyebrow="Integrations"
-            title="Works with the tools you already use"
-            description="Connect payments, accounting and your website — and take your data with you whenever you need it."
+            eyebrow={t('integrations.eyebrow')}
+            title={t('integrations.title')}
+            description={t('integrations.description')}
           />
           <div data-reveal className="mt-16">
             <IntegrationHub />
           </div>
           <div data-reveal className="mt-12 text-center">
-            <TextLink to="/partners">See partners & integrations</TextLink>
+            <TextLink to="/partners">{t('integrations.link')}</TextLink>
           </div>
         </div>
       </section>
@@ -873,12 +805,12 @@ export default function HomePage() {
         <div className={CONTAINER}>
           <SectionHeader
             id="solutions-title"
-            eyebrow="Solutions"
-            title="Made for the way your organisation works"
-            description="Whether you run international programmes or serve a local community, Donorfit adapts to you."
+            eyebrow={t('solutions.eyebrow')}
+            title={t('solutions.title')}
+            description={t('solutions.description')}
           />
           <div className="mt-16 overflow-hidden rounded-[2rem] border border-neutral-200/80 bg-white">
-            {SOLUTIONS.map(({ icon: Icon, title, description, points, to }, i) => (
+            {solutions.map(({ icon: Icon, title, description, points, to }, i) => (
               <HomeLink
                 key={title}
                 to={to}
@@ -887,7 +819,7 @@ export default function HomePage() {
                 className="group relative grid items-center gap-5 border-b border-neutral-100 p-7 transition-colors last:border-b-0 hover:bg-aqua sm:p-9 lg:grid-cols-[10rem_minmax(0,1.1fr)_minmax(0,1.2fr)_3rem] lg:gap-10"
               >
                 <Photo
-                  {...[SECTION_PHOTOS.solutionNgo, SECTION_PHOTOS.solutionTrust, SECTION_PHOTOS.solutionMasjid, SECTION_PHOTOS.solutionCharities][i]}
+                  {...photo((['solutionNgo', 'solutionTrust', 'solutionMasjid', 'solutionCharities'] as const)[i])}
                   className="relative aspect-[16/9] w-full rounded-2xl ring-1 ring-neutral-200 lg:aspect-[4/3]"
                 />
                 <div className="flex items-center gap-4">
@@ -913,19 +845,19 @@ export default function HomePage() {
             ))}
           </div>
           <p data-reveal className="mt-10 text-center text-[15px] text-neutral-600">
-            Also for{' '}
+            {t('solutions.alsoFor.before')}{' '}
             <HomeLink to="/solutions/sponsorship-organizations" className={inlineLink}>
-              sponsorship organisations
+              {t('solutions.alsoFor.sponsorship')}
             </HomeLink>
             ,{' '}
             <HomeLink to="/solutions/membership-organizations" className={inlineLink}>
-              membership associations
+              {t('solutions.alsoFor.membership')}
             </HomeLink>{' '}
-            and{' '}
+            {t('solutions.alsoFor.and')}{' '}
             <HomeLink to="/solutions/international-organizations" className={inlineLink}>
-              international organisations
+              {t('solutions.alsoFor.international')}
             </HomeLink>
-            .
+            {t('solutions.alsoFor.after')}
           </p>
         </div>
       </section>
@@ -936,7 +868,7 @@ export default function HomePage() {
           “
         </div>
         <div className={`${CONTAINER} relative`}>
-          <SectionHeader tone="dark" id="stories-title" eyebrow="Customer stories" title="Stories from the organisations we serve" />
+          <SectionHeader tone="dark" id="stories-title" eyebrow={t('stories.eyebrow')} title={t('stories.title')} />
           {SUCCESS_STORIES.length > 0 ? (
             <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {SUCCESS_STORIES.map((s) => (
@@ -971,19 +903,18 @@ export default function HomePage() {
               <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-brand-300 text-navy-950 shadow-[0_0_40px_-8px_rgb(0_160_160/0.6)]">
                 <MessageSquareQuote className="h-7 w-7" aria-hidden="true" />
               </span>
-              <h3 className="mt-7 text-2xl font-bold text-white">Customer stories are on their way</h3>
+              <h3 className="mt-7 text-2xl font-bold text-white">{t('stories.emptyTitle')}</h3>
               <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-white/70">
-                We’re preparing our first stories together with the organisations behind them, and we only publish results
-                they’ve confirmed. In the meantime, see how Donorfit would work for your own organisation.
+                {t('stories.emptyText')}
               </p>
               <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
                 <button type="button" onClick={() => openBookDemo()} className="hv-btn hv-btn-primary">
                   <CalendarCheck className="h-4 w-4" aria-hidden="true" />
-                  Book a Demo
+                  {tc('actions.bookDemo')}
                 </button>
                 <HomeLink to="/contact" className="hv-btn hv-btn-ghost">
                   <Share2 className="h-4 w-4" aria-hidden="true" />
-                  Share Your Story With Us
+                  {t('stories.shareStory')}
                 </HomeLink>
               </div>
             </div>
@@ -998,13 +929,13 @@ export default function HomePage() {
             <SectionHeader
               align="left"
               id="faq-title"
-              eyebrow="FAQ"
-              title="Questions, answered"
-              description="Everything you need to know before getting started."
+              eyebrow={t('faq.eyebrow')}
+              title={t('faq.title')}
+              description={t('faq.description')}
             />
             <div data-reveal className="flex flex-wrap gap-x-7 gap-y-3">
-              <TextLink to="/faqs">All FAQs</TextLink>
-              <TextLink to="/contact">Contact our team</TextLink>
+              <TextLink to="/faqs">{t('faq.allFaqs')}</TextLink>
+              <TextLink to="/contact">{tc('actions.contactTeam')}</TextLink>
             </div>
           </div>
 
@@ -1034,7 +965,7 @@ export default function HomePage() {
       <section aria-labelledby="cta-title" className="px-4 pb-24 sm:px-6 sm:pb-32 lg:px-8">
         <div data-reveal className="hv-hero-bg relative isolate mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] px-6 py-20 text-center text-white sm:px-12 sm:py-28">
           {/* Community backdrop, darkened so the text keeps strong contrast */}
-          <Photo {...SECTION_PHOTOS.ctaCommunity} className="absolute inset-0 -z-10 !bg-transparent opacity-40 mix-blend-luminosity" overlay="bg-gradient-to-b from-navy-950/70 via-navy-950/40 to-navy-950/80" />
+          <Photo {...photo('ctaCommunity')} className="absolute inset-0 -z-10 !bg-transparent opacity-40 mix-blend-luminosity" overlay="bg-gradient-to-b from-navy-950/70 via-navy-950/40 to-navy-950/80" />
           <div aria-hidden="true" className="hv-grid-dark absolute inset-0" />
           <div aria-hidden="true" className="hv-drift absolute -top-40 left-1/2 h-96 w-[40rem] -translate-x-1/2 rounded-full bg-brand-500/35 blur-3xl" />
           <div aria-hidden="true" className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full border-[36px] border-brand-300/10" />
@@ -1042,28 +973,27 @@ export default function HomePage() {
 
           <div className="relative">
             <h2 id="cta-title" className="mx-auto max-w-4xl text-4xl font-extrabold leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-              Give your team more time for <span className="hv-gradient-text">the mission</span>
+              {t('cta.titleBefore')} <span className="hv-gradient-text">{t('cta.titleHighlight')}</span>
             </h2>
             <p className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-white/70">
-              Register your organisation and start accepting donations — most charities are live within one to two business
-              days.
+              {t('cta.description')}
             </p>
             <div className="mt-11 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
               <button type="button" onClick={() => openGetStarted()} className="hv-btn hv-btn-primary px-9 py-4.5 text-base">
-                Get Started Free
+                {tc('actions.getStartedFree')}
                 <ArrowRight className="h-4.5 w-4.5" aria-hidden="true" />
               </button>
               <button type="button" onClick={() => openBookDemo()} className="hv-btn hv-btn-ghost px-9 py-4.5 text-base">
-                Book a Demo
+                {tc('actions.bookDemo')}
               </button>
             </div>
             <ul className="mt-10 flex flex-wrap items-center justify-center gap-x-7 gap-y-3 text-sm text-white/75">
-              {['€0 per month core platform', 'No platform or transaction fee', 'Export your data anytime'].map((t) => (
-                <li key={t} className="flex items-center gap-2">
+              {[t('cta.points.price', { price: eur(0) }), t('cta.points.noFees'), t('cta.points.exportData')].map((label) => (
+                <li key={label} className="flex items-center gap-2">
                   <span className="flex h-5 w-5 items-center justify-center rounded-full bg-brand-300 text-navy-950">
                     <Check className="h-3 w-3" strokeWidth={3} aria-hidden="true" />
                   </span>
-                  {t}
+                  {label}
                 </li>
               ))}
             </ul>

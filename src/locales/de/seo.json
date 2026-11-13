@@ -1,7 +1,7 @@
 {
   "routes": {
     "/sponsorship": {
-      "title": "Software für Patenschaftsverwaltung für Non-Profit-Organisationen | Donorfit",
+      "title": "Software zur Patenschaftsverwaltung für Non-Profit-Organisationen | Donorfit",
       "description": "Verwalten Sie Kinder-, Gemeinschafts- und Projektpatenschaften mit lückenloser Nachverfolgung der Beiträge und regelmäßigen Updates für Pat:innen – auf einer transparenten Plattform."
     },
     "/orphan-sponsorship": {
@@ -9,8 +9,8 @@
       "description": "Speziell entwickelte Software für humanitäre Waisenhilfe – mit respektvollem Kinderschutz und verlässlicher, regelmäßiger Unterstützung."
     },
     "/money-pool": {
-      "title": "Money Pool & Gruppenspenden für Non-Profit-Organisationen | Donorfit",
-      "description": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moscheen, Kirchen und Ehrenamtsgruppen."
+      "title": "MoneyPool-Crowdfunding-Plattform | Donorfit",
+      "description": "Erstellen Sie Crowdfunding-Kampagnen mit Donorfit MoneyPool. Bringen Sie viele Spender:innen zusammen, sammeln Sie Beiträge und verfolgen Sie den Spendenfortschritt für die Projekte Ihrer Organisation."
     },
     "/membership": {
       "title": "Mitgliederverwaltung & automatisierte Mitgliedsbeiträge | Donorfit",
@@ -57,16 +57,16 @@
       "description": "Organisieren Sie Mitgliederdaten, automatisieren Sie die jährliche Beitragsabrechnung und erleichtern Sie die Mitgliederkommunikation – in einem verlässlichen System."
     },
     "/solutions/international-organizations": {
-      "title": "Grenzüberschreitende Fundraising-Infrastruktur für internationale Hilfe | Donorfit",
+      "title": "Fundraising-Infrastruktur für internationale Hilfe | Donorfit",
       "description": "Vereinen Sie Fundraising-Standorte weltweit, verwalten Sie mehrere Währungen und Rechtsträger und sichern Sie europäische Datensouveränität."
     },
     "/about": {
-      "title": "Über Donorfit – Fundraising-Technologie für Non-Profit-Organisationen",
-      "description": "Erfahren Sie mehr über die Mission von Donorfit, unsere europäischen Wurzeln und unser Bekenntnis zu Technologie, Menschlichkeit, Vertrauen und Einfachheit."
+      "title": "Über Donorfit – Plattform für Fundraising & Organisationsverwaltung",
+      "description": "Donorfit hilft NGOs, Stiftungen, Moscheegemeinden und Vereinen, Fundraising, Mitgliedschaften, Patenschaften, Qurbani und MoneyPool zentral zu verwalten."
     },
     "/contact": {
-      "title": "Kontakt – Vertrieb, Support & europäisches Büro | Donorfit",
-      "description": "Sprechen Sie direkt mit unseren Non-Profit-Spezialist:innen in Frankfurt am Main – für Produktdemos, Vertrieb und Partnerschaften."
+      "title": "Kontakt – Fragen, Support & Partnerschaften | Donorfit",
+      "description": "Kontaktieren Sie das Donorfit-Team zu Produktdemos, Vertrieb, Partnerschaften und Support."
     },
     "/security": {
       "title": "Sicherheit, Datenschutz und DSGVO-Konformität | Donorfit",
@@ -90,7 +90,39 @@
     },
     "/pricing": {
       "title": "Preise – keine Plattform- und keine Transaktionsgebühren | Donorfit",
-      "description": "Donorfit ist eine All-in-one-Fundraising-Plattform für 0 € pro Monat: keine Plattformgebühr und keine Transaktionsgebühr. Sammeln Sie Spenden, verwalten Sie Spender:innen und ergänzen Sie CRM-, Dauerspenden-, Patenschafts- und Mitgliedermodule, wenn Sie wachsen."
+      "description": "All-in-one-Fundraising für 0 € pro Monat, ohne Plattform- und Transaktionsgebühr: Spenden sammeln, Spender:innen verwalten, Module bei Bedarf ergänzen."
+    },
+    "/integrations": {
+      "title": "Integrationen – Stripe, PayPal, Mollie, Mailchimp & mehr | Donorfit",
+      "description": "Verbinden Sie Donorfit mit den Zahlungsanbietern Stripe, PayPal, GoCardless, Micropayment und Mollie sowie mit den E-Mail-Plattformen Brevo und Mailchimp."
+    },
+    "/integrations/stripe": {
+      "title": "Stripe-Integration | Donorfit",
+      "description": "Nehmen Sie Karten- und Wallet-Zahlungen über Ihre Donorfit-Spendenformulare an – abgewickelt von Stripe."
+    },
+    "/integrations/paypal": {
+      "title": "PayPal-Integration | Donorfit",
+      "description": "Lassen Sie Spender:innen in Ihren Donorfit-Spendenformularen mit ihrem PayPal-Konto spenden."
+    },
+    "/integrations/gocardless": {
+      "title": "GoCardless-Integration | Donorfit",
+      "description": "Ziehen Sie einmalige und regelmäßige Spenden per Lastschrift über GoCardless ein."
+    },
+    "/integrations/micropayment": {
+      "title": "Micropayment-Integration | Donorfit",
+      "description": "Bieten Sie Spender:innen in Deutschland vertraute Zahlungsarten über Micropayment an."
+    },
+    "/integrations/mollie": {
+      "title": "Mollie-Integration | Donorfit",
+      "description": "Bieten Sie Karten und beliebte europäische Zahlungsarten über Mollie an."
+    },
+    "/integrations/brevo": {
+      "title": "Brevo-Integration | Donorfit",
+      "description": "Erreichen Sie Spender:innen und Mitglieder mit Newslettern und E-Mail-Kampagnen über Brevo."
+    },
+    "/integrations/mailchimp": {
+      "title": "Mailchimp-Integration | Donorfit",
+      "description": "Senden Sie Newsletter und Neuigkeiten mit Mailchimp an Ihre Unterstützer:innen."
     },
     "/partners": {
       "title": "Das Donorfit-Partnernetzwerk – Agenturen, Berater:innen & Integrationen",
@@ -101,12 +133,16 @@
       "description": "Informationen darüber, wie Donorfit personenbezogene Daten nach der Datenschutz-Grundverordnung (EU 2016/679) verarbeitet und schützt."
     },
     "/cookie-policy": {
-      "title": "Cookie-Richtlinie – Transparenz & Einwilligungsverwaltung | Donorfit",
-      "description": "Verständliche Erläuterung der von Donorfit eingesetzten Cookies und lokalen Speicher gemäß ePrivacy-Richtlinie und DSGVO."
+      "title": "Cookie-Richtlinie | Donorfit",
+      "description": "Welche Informationen die Donorfit-Website auf Ihrem Gerät speichert, warum, und wie Sie Ihre Cookie-Auswahl verwalten."
+    },
+    "/refund-policy": {
+      "title": "Widerrufs- und Erstattungsrichtlinie | Donorfit",
+      "description": "An wen Sie sich bei Erstattungen und Stornierungen von Spenden, regelmäßigen Zahlungen und Donorfit-Leistungen wenden."
     },
     "/impressum": {
-      "title": "Impressum | Donorfit Technologies",
-      "description": "Anbieterkennzeichnung von Donorfit gemäß § 5 Digitale-Dienste-Gesetz (DDG)."
+      "title": "Impressum | Donorfit",
+      "description": "Anbieterkennzeichnung von Donorfit gemäß § 5 Digitale-Dienste-Gesetz (DDG): MYFUNDBOX GmbH, Wolfsburg."
     },
     "/terms": {
       "title": "Allgemeine Geschäftsbedingungen – Nutzungsbedingungen der Plattform | Donorfit",
@@ -118,7 +154,7 @@
     },
     "/": {
       "title": "Donorfit – Fundraising-Technologie für Non-Profit-Organisationen",
-      "description": "Verwalten Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer vernetzten Plattform für NGOs und gemeinnützige Organisationen. Weniger Verwaltungsaufwand. Stärkere Spenderbeziehungen. Mehr Wirkung."
+      "description": "Verwalten Sie Spenden, Patenschaften, Mitgliedschaften und Spenderbeziehungen auf einer Plattform für NGOs und gemeinnützige Organisationen – mit weniger Aufwand."
     }
   },
   "notFound": {

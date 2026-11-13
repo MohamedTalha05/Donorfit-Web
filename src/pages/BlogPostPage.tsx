@@ -59,7 +59,7 @@ export default function BlogPostPage({ slug }: BlogPostPageProps) {
 
       {/* Header */}
       <header className="space-y-6">
-        <div className="flex items-center gap-2 text-xs text-neutral-500">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1.5 text-xs text-neutral-500">
           <span className="font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-100">
             {post.category}
           </span>

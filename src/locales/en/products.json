@@ -357,11 +357,11 @@
         "title": "Qurbani Fundraising & Management Software | Donorfit",
         "description": "Collect Qurbani contributions online, offer your Qurbani options, manage donor information and track payments for every share — all in one place for Eid al-Adha."
       },
-      "headline": "Simplify Your Qurbani Fundraising and Management.",
-      "subheadline": "Offer your Qurbani options online, collect contributions with the details you need and track every payment through Eid al-Adha.",
+      "headline": "Make Your Qurbani Campaign Easier to Manage.",
+      "subheadline": "Make it easier for your community to fulfil their Qurbani contributions. With Donorfit, donors can choose their preferred animal or share, contribute online, and support your organisation in managing the Qurbani process and distributing meat to those in need.",
       "intro": {
-        "title": "Your whole Qurbani season, organised",
-        "body": "Donorfit Qurbani brings the Qurbani options you offer, the donor details you need and every payment into one place — so your team can focus on carrying out each Qurbani rather than reconciling forms and transfers."
+        "title": "Bring Your Qurbani Campaign Together in One Place.",
+        "body": "During Eid al-Adha, many people wish to perform Qurbani and share its blessings with others. Donorfit helps organisations manage this process by providing a platform where donors can select their preferred Qurbani options, make contributions and support the organisation’s arrangements for meat distribution."
       },
       "problems": [
         {
@@ -379,42 +379,46 @@
       ],
       "features": [
         {
-          "title": "Qurbani options",
-          "description": "Offer the Qurbani options your organisation provides, each with its own price."
+          "title": "Animal and share selection",
+          "description": "Offer donors the Qurbani animals and shares you have available."
         },
         {
-          "title": "Contribution collection",
-          "description": "Donors choose an option and pay online in a few steps."
+          "title": "Online contributions",
+          "description": "Make it convenient for donors to contribute online."
         },
         {
-          "title": "Contribution management",
-          "description": "See and manage every Qurbani contribution in one list."
+          "title": "Campaign management",
+          "description": "Organise your Qurbani campaign and its contributions in one place."
         },
         {
-          "title": "Donor information",
-          "description": "Keep the donor details you need with each contribution."
+          "title": "Donor records",
+          "description": "Keep donor and contribution information organised."
         },
         {
           "title": "Payment tracking",
-          "description": "Follow each payment from received to confirmed."
+          "description": "Monitor recorded contributions and payments."
         },
         {
           "title": "Campaign progress",
-          "description": "See how many contributions you have received across the season."
+          "description": "See how many contributions you have received for each option across the season."
         }
       ],
       "steps": [
         {
-          "title": "Set up your options",
-          "description": "Add the Qurbani options you offer and their prices."
+          "title": "Choose your Qurbani",
+          "description": "Donors select an available animal or share."
         },
         {
-          "title": "Open your Qurbani page",
-          "description": "Donors choose, add their details and pay online."
+          "title": "Make your contribution",
+          "description": "Donors complete the payment using the available online payment methods."
         },
         {
-          "title": "Track and fulfil",
-          "description": "Follow payments and contributions through to completion."
+          "title": "Your organisation manages the Qurbani",
+          "description": "Your organisation coordinates the arrangements and the Qurbani process."
+        },
+        {
+          "title": "Distribute to those in need",
+          "description": "The meat is distributed to eligible families and people in need."
         }
       ],
       "benefits": [
@@ -433,35 +437,47 @@
       ],
       "audiences": [
         {
-          "title": "Islamic charities",
-          "description": "Organisations running Qurbani programmes at home and abroad."
+          "title": "Masjids and Islamic organisations",
+          "description": "Collect Qurbani contributions from your congregation and wider community."
         },
         {
-          "title": "Masjids",
-          "description": "Masjids collecting Qurbani contributions from their community."
+          "title": "NGOs and nonprofit organisations",
+          "description": "Run Qurbani programmes for families at home and abroad."
         },
         {
-          "title": "Community organisations",
-          "description": "Local groups organising Qurbani on behalf of families."
+          "title": "Charitable trusts and foundations",
+          "description": "Organise Qurbani giving as part of your charitable programmes."
+        },
+        {
+          "title": "Community welfare organisations",
+          "description": "Organise Qurbani on behalf of local donors and families."
         }
       ],
       "faqs": [
         {
-          "question": "Can we offer different Qurbani options?",
-          "answer": "Yes. You set up the Qurbani options your organisation provides, each with its own price."
+          "question": "What is the Donorfit Qurbani feature?",
+          "answer": "It helps organisations manage Qurbani campaigns and donor contributions through one platform."
         },
         {
-          "question": "Can we collect donor details with each contribution?",
-          "answer": "Yes. Donor information is collected and stored with every Qurbani contribution."
+          "question": "Can donors choose an animal or share?",
+          "answer": "Yes, where your organisation has configured those options. You decide which animals or shares to offer."
         },
         {
-          "question": "Can we see which contributions have been paid?",
-          "answer": "Yes. Payment tracking shows the status of each contribution so your team knows what has been received."
+          "question": "Can donors make online payments?",
+          "answer": "Donors can contribute through the payment methods supported by your organisation’s setup."
+        },
+        {
+          "question": "Who manages the Qurbani process?",
+          "answer": "Your organisation manages the Qurbani arrangements and the distribution. Donorfit helps you keep the contributions and donor details organised."
+        },
+        {
+          "question": "Who receives the distributed meat?",
+          "answer": "Your organisation coordinates distribution to eligible people and families in need."
         }
       ],
       "cta": {
-        "title": "Get ready for Eid al-Adha",
-        "body": "Set up your Qurbani options now and open contributions when you are ready."
+        "title": "Make This Eid’s Qurbani Campaign Easier to Organise.",
+        "body": "Bring donors together, organise contributions and help your organisation manage its Qurbani campaign with Donorfit."
       }
     },
     "school-management": {
@@ -579,17 +595,17 @@
       }
     },
     "money-pool": {
-      "name": "Money Pool",
-      "navDescription": "Group fundraising with shared targets",
+      "name": "MoneyPool",
+      "navDescription": "Crowdfunding campaigns with shared goals",
       "seo": {
-        "title": "Money Pool & Group Fundraising for Nonprofits | Donorfit",
-        "description": "Create fundraising pools with shared targets, collect contributions by link, card or SEPA, manage contributors and track payments — with funds paid straight to your charity."
+        "title": "MoneyPool Crowdfunding Platform | Donorfit",
+        "description": "Create crowdfunding campaigns with Donorfit MoneyPool. Bring multiple donors together, collect contributions and track fundraising progress for your organisation's projects."
       },
-      "headline": "Bring People Together to Fund What Matters.",
-      "subheadline": "Create a pool, share it with your community and watch contributions add up toward a shared target — with every payment going straight to your organisation.",
+      "headline": "Many donors. One goal. One project funded together.",
+      "subheadline": "MoneyPool is Donorfit’s crowdfunding solution for nonprofits. Create a fundraising campaign, share it with your community and track every contribution as it moves you toward your goal.",
       "intro": {
         "title": "Group fundraising your community can see",
-        "body": "Donorfit Money Pool lets supporters, committees and community groups rally around one goal. Everyone sees the target and the progress, organisers stay involved without handling money, and every contributor receives their own receipt."
+        "body": "Donorfit MoneyPool lets supporters, committees and community groups rally around one goal. Everyone sees the target and the progress, organisers stay involved without handling money, and every contributor receives their own receipt."
       },
       "problems": [
         {
@@ -607,8 +623,8 @@
       ],
       "features": [
         {
-          "title": "Create and manage pools",
-          "description": "Branded pools with a target, a cost breakdown and a deadline."
+          "title": "Create and manage campaigns",
+          "description": "Branded campaigns with a fundraising goal, a cost breakdown and a deadline."
         },
         {
           "title": "Contribution collection",
@@ -675,6 +691,14 @@
       ],
       "faqs": [
         {
+          "question": "What is MoneyPool?",
+          "answer": "MoneyPool is the crowdfunding solution in Donorfit. Your organisation creates a campaign for one project with a fundraising goal and deadline, and many supporters contribute towards it while everyone can follow the progress."
+        },
+        {
+          "question": "What happens when a campaign reaches its goal?",
+          "answer": "The progress bar shows that the goal has been reached. Your organisation stays in charge of what happens next: you decide when to close the campaign and you carry out the project."
+        },
+        {
           "question": "Does the organiser hold the money?",
           "answer": "Never. All funds go directly to the verified nonprofit organisation, which protects organisers and ensures contributors receive receipts."
         },
@@ -688,8 +712,8 @@
         }
       ],
       "cta": {
-        "title": "Start a pool for your next project",
-        "body": "Set the target, share the link and let your community do the rest."
+        "title": "Create your first MoneyPool campaign",
+        "body": "Set a fundraising goal, share the campaign with your community and follow every contribution in one place."
       }
     }
   },
@@ -759,14 +783,14 @@
       }
     },
     "qurbani": {
-      "featuresTitle": "Built around the Qurbani season",
-      "featuresSub": "From the options you offer to the payment for every share.",
-      "previewTitle": "Every contribution in one list",
-      "previewSub": "See contributions per option, the donor behind each one and whether it has been paid.",
-      "benefitsTitle": "Benefits for your organisation",
-      "audiencesTitle": "Who uses Qurbani",
+      "ctaStart": "Start Your Qurbani Campaign",
+      "photos": {
+        "hero": "An older man holding his cow at a busy cattle market before Eid al-Adha",
+        "intro": "A cow decorated with flowers and bells at a cattle market for Eid al-Adha",
+        "why": "Cattle resting on straw at a traditional market in Dhaka before Eid al-Adha"
+      },
       "hero": {
-        "choose": "Choose your Qurbani",
+        "choose": "Choose an animal or share",
         "options": [
           {
             "name": "Sheep or goat",
@@ -781,8 +805,34 @@
             "note": "One-seventh share"
           }
         ],
-        "note": "Example options — you set your own"
-      }
+        "selected": "Selected",
+        "note": "Example options. Your organisation sets its own options and prices."
+      },
+      "introPoints": [
+        "Donors choose the animal or share they want to give.",
+        "Your organisation receives and records every contribution.",
+        "The meat reaches eligible families in need."
+      ],
+      "howTitle": "How it works",
+      "howSub": "Four simple steps from the donor’s choice to the distribution of meat.",
+      "actors": {
+        "donor": "The donor",
+        "org": "Your organisation"
+      },
+      "featuresTitle": "Key features",
+      "featuresSub": "What your team uses to run Qurbani contributions online.",
+      "previewTitle": "Every contribution in one list",
+      "previewSub": "See contributions per option, the donor behind each one and whether it has been paid.",
+      "audiencesTitle": "Who can use Donorfit Qurbani?",
+      "audiencesSub": "For organisations that collect Qurbani contributions on behalf of their donors.",
+      "whyTitle": "Why use Donorfit?",
+      "why": [
+        "Simplify Qurbani campaign management.",
+        "Make contributing easier for donors.",
+        "Organise animal and share selections.",
+        "Manage campaign contributions in one place.",
+        "Have donor and contribution details ready when your team plans the distribution."
+      ]
     },
     "school-management": {
       "featuresTitle": "School administration, fees and sponsorship together",
@@ -791,15 +841,161 @@
       "audiencesTitle": "Who it is for"
     },
     "money-pool": {
-      "previewTitle": "A pool your whole community can follow",
-      "previewSub": "A live progress ring, words of encouragement and one-tap sharing.",
-      "featuresTitle": "Everything to run a pool",
-      "stepsTitle": "How a pool works",
-      "audiencesTitle": "Use cases for organisations and communities",
-      "benefitsTitle": "Why pools work",
-      "hero": {
-        "of": "of {{amount}}",
-        "contributors": "{{count}} contributors · example pool"
+      "ctaPrimary": "Create your first campaign",
+      "heroAudience": "For NGOs, nonprofits, charitable trusts, masjids, schools and community fundraising groups.",
+      "heroCard": {
+        "label": "Example campaign",
+        "ofGoal": "of {{amount}} goal",
+        "meta": "{{count}} contributors, {{days}} days left"
+      },
+      "equationTitle": "MoneyPool in one line",
+      "equation": [
+        {
+          "lead": "1",
+          "term": "goal",
+          "note": "One project with a clear target and deadline."
+        },
+        {
+          "lead": "Many",
+          "term": "donors",
+          "note": "Members, families, friends and first-time supporters."
+        },
+        {
+          "lead": "Many",
+          "term": "contributions",
+          "note": "Each person gives the amount that suits them."
+        },
+        {
+          "lead": "1",
+          "term": "funded project",
+          "note": "Together they reach what no single gift could."
+        }
+      ],
+      "whatTitle": "What is MoneyPool?",
+      "whatBody": [
+        "MoneyPool is the crowdfunding solution inside Donorfit. Your organisation creates a fundraising campaign for one specific project, such as a roof repair, a water well or winter food packs, and sets a goal.",
+        "Supporters each contribute the amount they can. Everyone sees the target and how close the campaign is, so a group of smaller gifts adds up to one project your community funded together."
+      ],
+      "whyTitle": "Why organisations use it",
+      "photos": {
+        "food": "Volunteers and families at a community charity event during Ramadan",
+        "textbooks": "Two girls holding their school textbooks"
+      },
+      "dashboardTitle": "See every campaign’s progress at a glance",
+      "dashboardSub": "Each campaign has its own overview, so your team always knows how much has come in, from how many people and how much is still needed.",
+      "legend": [
+        {
+          "title": "Campaign name and status",
+          "body": "See which campaign you are looking at, whether it is open and how many days remain."
+        },
+        {
+          "title": "Key figures",
+          "body": "Your fundraising goal, the total contributed so far, the number of contributors and the deadline."
+        },
+        {
+          "title": "Fundraising progress",
+          "body": "A progress bar shows how close the campaign is to its target and how much is still needed."
+        },
+        {
+          "title": "Recent contributions",
+          "body": "The latest gifts with name (or Anonymous), amount and payment method."
+        }
+      ],
+      "stepsTitle": "Launch your first campaign in four steps",
+      "stepsSub": "From an idea on the committee agenda to a campaign your whole community can follow.",
+      "stepLabel": "Step {{n}}",
+      "steps": [
+        {
+          "title": "Create a campaign",
+          "body": "Name the project, set the fundraising goal, explain what the money pays for and choose a deadline."
+        },
+        {
+          "title": "Share it with your community",
+          "body": "Send the campaign link to the people most likely to help, and let them pass it on to their own networks."
+        },
+        {
+          "title": "Collect contributions",
+          "body": "Supporters give by payment link, card or SEPA Direct Debit, can choose to appear as Anonymous, and each receives their own receipt. Payments go to your organisation’s account."
+        },
+        {
+          "title": "Track progress",
+          "body": "Follow the total, the number of contributors and every new contribution as they come in. Your team decides when to close the campaign and delivers the project."
+        }
+      ],
+      "sharingLabel": "Sharing options",
+      "sharing": [
+        "WhatsApp",
+        "Email",
+        "Campaign link",
+        "QR code at events"
+      ],
+      "featuresTitle": "Everything you need to run a campaign",
+      "audiencesTitle": "Built for organisations that fundraise with their community",
+      "audiencesSub": "Any project with a clear cost and people who care about it can become a MoneyPool campaign.",
+      "audiences": [
+        {
+          "title": "NGOs",
+          "body": "Relief kits, field equipment and clearly budgeted programme costs.",
+          "alt": "Aid workers distributing supplies in a dry rural landscape"
+        },
+        {
+          "title": "Nonprofit organisations",
+          "body": "Community programmes, learning materials and one-off equipment purchases.",
+          "alt": "Young girls reading books together at a community reading session"
+        },
+        {
+          "title": "Charitable trusts",
+          "body": "A defined project with a fixed budget that many supporters can share.",
+          "alt": "A couple talking with a social worker at a table"
+        },
+        {
+          "title": "Masjids and Islamic organisations",
+          "body": "Roof repairs, extension funds, Ramadan food packs and Qurbani drives.",
+          "alt": "Aerial view of a large mosque"
+        },
+        {
+          "title": "Educational institutions",
+          "body": "Classroom equipment, library books, school trips and renovations.",
+          "alt": "A smiling boy sitting in a village school classroom"
+        },
+        {
+          "title": "Community fundraising groups",
+          "body": "Winter appeals, water wells and local causes organised by volunteers.",
+          "alt": "Volunteers collecting donated goods for people in need"
+        }
+      ],
+      "benefitsTitle": "Why community fundraising works",
+      "dashboard": {
+        "label": "Demonstration of a MoneyPool campaign dashboard using example data",
+        "notice": "Demonstration with example data. Not a real campaign or customer.",
+        "organiser": "Example community masjid",
+        "campaign": "Masjid roof repair",
+        "open": "Open, {{days}} days left",
+        "keyFigures": "Key figures",
+        "stats": {
+          "goal": "Fundraising goal",
+          "total": "Total contributions",
+          "contributors": "Contributors",
+          "deadline": "Deadline"
+        },
+        "progress": "Fundraising progress",
+        "ofAmount": "of {{amount}}",
+        "progressLabel": "Example campaign progress",
+        "stillNeeded": "{{amount}} still needed to reach the goal",
+        "recentTitle": "Recent contributions",
+        "anonymous": "Anonymous",
+        "methods": {
+          "card": "Card",
+          "link": "Payment link",
+          "sepa": "SEPA"
+        },
+        "minutesAgo": "{{n}} min ago",
+        "hoursAgo": "{{n}} h ago",
+        "notes": {
+          "parents": "For my parents",
+          "accepted": "May it be accepted"
+        },
+        "quote": "“{{text}}”"
       }
     }
   },

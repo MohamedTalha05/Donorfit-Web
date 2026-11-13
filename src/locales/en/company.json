@@ -1,112 +1,285 @@
 {
   "about": {
     "hero": {
-      "eyebrow": "About Donorfit",
-      "title": "Fundraising technology built specifically for nonprofits.",
-      "intro": "Donorfit was founded with an unwavering conviction: the organizations doing the world’s most important work should not be held back by fragmented software, clunky donation tools, or manual administrative drudgery.",
-      "formulaLabel": "Our core formula:",
-      "formula": "Technology + Humanity + Trust + Simplicity."
+      "badge": "About Donorfit",
+      "title": "Fundraising and organisation software for the people who run good causes.",
+      "body": "Donorfit is a platform for NGOs, nonprofits, charitable trusts, masjids and community organisations. It brings donations, memberships, sponsorships and campaigns into one place, so the people running them spend less time on administration and more time on the work itself."
     },
     "photos": {
-      "teamAlt": "Thoughtful nonprofit team collaborating in modern European office",
-      "teamCaption": "Engineered with empathy for European nonprofit operations",
-      "fieldAlt": "Humanitarian development workers collaborating with community members beside water infrastructure",
-      "fieldCaption": "Direct on-the-ground impact support"
+      "main": "Volunteers in high-visibility vests sorting donated clothes and supplies",
+      "aid": "A smiling boy standing in a village school classroom",
+      "community": "Three girls reading a book together in a colourful classroom"
     },
-    "purpose": {
-      "eyebrow": "Why We Exist",
-      "title": "Bridging the gap between modern financial engineering and humanitarian mission.",
-      "p1": "Commercial SaaS companies build tools for profit-driven e-commerce. Nonprofits, however, have fundamentally different needs: complex multi-year child sponsorships, community water well pools, strict statutory tax deduction receipts, and safeguarding standards for vulnerable beneficiaries.",
-      "p2": "When charities are forced to stitch together 5 different generic tools—a payment processor, a mailing list tool, a spreadsheet, and an offline donor database—hours are lost and supporters slip away.",
-      "p3Before": "Donorfit brings these operations into one cohesive, European-compliant platform. The result?",
-      "p3Bold": "Less administrative work. Stronger donor relationships. More impact."
+    "intro": {
+      "title": "What Donorfit is",
+      "lead": "Donorfit is a web-based platform that helps organisations collect donations, look after their supporters and run the programmes they raise money for.",
+      "p1": "Many organisations start with a donation button, a spreadsheet and a lot of goodwill. As they grow, they add a payment provider here, a newsletter tool there, and a folder of receipt templates somewhere else. The work still gets done, but it takes longer than it should, and information ends up spread across tools that don't talk to each other.",
+      "p2": "Donorfit is built to replace that patchwork with one system. Donation forms, payments through established providers, donor records, receipts and reporting sit together, and specialised modules for memberships, sponsorships, Qurbani, water well projects and group fundraising build on the same foundation. An organisation can start with simple online giving and add more as its needs change."
     },
-    "principles": {
-      "eyebrow": "Guiding Principles",
-      "title": "The commitments that shape how we engineer Donorfit.",
+    "problem": {
+      "title": "Built around everyday work",
+      "p1": "Fundraising is rarely only about the donation itself. Someone has to record who gave, send a thank-you and a tax receipt, reconcile payments with the bank, answer questions from supporters and report back on how the money was used. In small teams, that often falls to the same few people, many of them volunteers.",
+      "p2": "We design Donorfit with those people in mind. Screens are kept clear, routine steps such as receipts are automated where possible, and information entered once is available wherever it's needed. The aim is software that a treasurer, a programme coordinator or a volunteer can pick up without a long training session.",
+      "photo": "A social worker meeting with a couple at a table to talk through paperwork"
+    },
+    "how": {
+      "title": "How organisations use Donorfit",
+      "integrationsLink": "See supported payment and email integrations",
+      "intro": "Every organisation sets things up a little differently, but most use Donorfit for some combination of the following.",
+      "photo": "Volunteers serving food to families at a community charity event",
       "items": [
         {
-          "title": "Mission First",
-          "text": "We measure our success by the administrative hours returned to nonprofit directors and the funding unlocked for humanitarian frontlines."
+          "title": "Collecting donations online and in person",
+          "text": "Customisable donation forms can be embedded on your own website and shared across your channels. QR codes let supporters give from a printed poster or a donation box. Donors can pay with methods such as card, PayPal, Apple Pay, Google Pay, SEPA Direct Debit, Bancontact, EPS and iDEAL, processed through supported payment providers."
         },
         {
-          "title": "Uncompromising Trust",
-          "text": "We believe in sovereign European hosting, strict GDPR discipline, zero lock-in data ownership, and transparent, honest pricing without predatory transaction cuts."
+          "title": "Keeping supporter records in one place",
+          "text": "Each contribution is recorded against the donor, so you can see a supporter's history at a glance. Existing records can be imported, and supporters have access to a dedicated donor portal."
         },
         {
-          "title": "Humanity & Dignity",
-          "text": "Whether managing orphan sponsorship or emergency appeals, our software reinforces dignity, respectful storytelling, and heartfelt donor gratitude."
+          "title": "Receipts and thank-yous",
+          "text": "Predefined tax receipt templates let receipts be generated automatically, and system emails can be switched on or off to suit how you work."
+        },
+        {
+          "title": "Staying in touch",
+          "text": "Donorfit connects with Brevo and Mailchimp for newsletters, and supports WhatsApp and SMS communication, so updates reach supporters through the channels they already use."
+        },
+        {
+          "title": "Working as a team",
+          "text": "Several team members can work in the same account, with reports and dashboards showing how campaigns are doing. For organisations with their own systems, an API and webhooks allow data to flow into other tools."
         }
       ]
     },
+    "offer": {
+      "title": "Our products",
+      "sub": "Alongside general online giving, Donorfit offers modules for specific kinds of programmes. Each one is built for a particular way of raising and managing funds.",
+      "products": {
+        "membership": "For associations, clubs and communities with paying members. Manage member records, plans and categories, collect membership fees and keep track of renewals.",
+        "sponsorship": "For organisations that connect sponsors with children, students or projects. Keep track of sponsors, beneficiaries and regular contributions, and share progress with supporters.",
+        "water-well": "For clean water projects. Present each well as a fundraising project, collect contributions towards it and keep supporters informed as the project moves forward.",
+        "qurbani": "For Qurbani campaigns around Eid al-Adha. Let donors choose an animal or share, collect their contributions online and keep a clear record of every order for your team.",
+        "money-pool": "For shared fundraising goals. Several donors contribute towards one target, and everyone can follow the campaign's progress until the goal is reached.",
+        "school-management": "For schools supported by charities and donors. Manage student information, day-to-day administration and fees."
+      },
+      "learnMore": "Learn more about {{name}}"
+    },
+    "support": {
+      "title": "Who we work with",
+      "intro": "Donorfit is used by organisations of very different sizes and purposes. What they tend to have in common is a small team, a loyal group of supporters and more administration than they would like.",
+      "photo": "An aid worker handing a bottle of cooking oil to a man at a food distribution",
+      "items": [
+        {
+          "title": "NGOs and nonprofit organisations",
+          "text": "From local initiatives to organisations running projects abroad, NGOs use Donorfit to run appeals, process donations and keep supporter records together instead of across separate tools."
+        },
+        {
+          "title": "Charitable trusts and foundations",
+          "text": "Trusts and foundations need a clear record of what came in and where it went. Donorfit keeps contributions, donors and the projects they support connected."
+        },
+        {
+          "title": "Masjids and Islamic organisations",
+          "text": "Masjids and Islamic charities often run several kinds of giving at once, from regular community donations to seasonal Qurbani campaigns. Donorfit lets them manage these side by side."
+        },
+        {
+          "title": "Educational institutions",
+          "text": "Schools and education charities raise money for buildings, materials and student support. Sponsorship programmes help connect individual students with long-term supporters."
+        },
+        {
+          "title": "Community and welfare organisations",
+          "text": "Community groups, associations and welfare organisations use memberships and group fundraising to bring local supporters together around shared goals."
+        }
+      ]
+    },
+    "mission": {
+      "label": "Our mission",
+      "text": "To make fundraising and organisation management simpler, more accessible and more efficient through practical digital solutions."
+    },
+    "vision": {
+      "label": "Our vision",
+      "text": "To help organisations of all sizes use technology to build stronger communities, reach more supporters and achieve more with the resources they have."
+    },
+    "missionPhoto": "Aerial view of a large mosque surrounded by the city",
+    "values": {
+      "title": "What guides our work",
+      "intro": "These principles shape the decisions we make about the product, from which features we build to how we explain them.",
+      "photo": "Girls in blue headscarves holding up their school textbooks in a classroom",
+      "items": [
+        {
+          "title": "Simplicity",
+          "text": "Many of the people using Donorfit are volunteers or work part-time. If a task needs a manual to complete, we see that as a problem to solve, not a training issue."
+        },
+        {
+          "title": "Transparency",
+          "text": "Supporters want to know where their money goes, and organisations want to know what they are paying for. We try to make both clear, in the product and in how we present it."
+        },
+        {
+          "title": "Accessibility",
+          "text": "Useful tools should not be reserved for large organisations with dedicated IT staff. Donorfit is designed so that a small community group can use the same features as a larger charity."
+        },
+        {
+          "title": "Reliability",
+          "text": "Organisations depend on their fundraising tools every day, and especially during busy periods such as year-end appeals or Eid. We treat dependable, predictable behaviour as a core requirement."
+        },
+        {
+          "title": "Community impact",
+          "text": "We build for organisations whose work improves people's lives. The best measure of our work is how much time and effort it frees up for theirs."
+        }
+      ]
+    },
+    "cost": {
+      "title": "How pricing works",
+      "p1": "The core Donorfit platform is available at €0 per month, with no platform fee and no transaction fee from Donorfit. Donors can choose to cover payment processing fees, so that your organisation receives the full amount of their gift.",
+      "p2": "Specialised add-ons such as CRM, recurring giving, sponsorship, membership and Qurbani are purchased separately, so you only pay for the modules you use. The platform supports 5 languages and 39 currencies.",
+      "link": "See pricing details"
+    },
     "cta": {
-      "title": "Discover what connected fundraising can do for your organization.",
-      "text": "Talk with our nonprofit technology team about your current giving workflows, sponsorship programs, or donor retention goals.",
-      "discoveryCall": "Schedule a Discovery Call"
+      "title": "Tell us about your organisation.",
+      "text": "Whether you run a nonprofit, a charitable trust or a community organisation, we're happy to talk through how you raise funds today and whether Donorfit is a good fit.",
+      "contact": "Contact Us"
     }
   },
   "contact": {
-    "hero": {
-      "eyebrow": "Direct Communication",
-      "title": "Get in touch with the Donorfit team.",
-      "intro": "Whether you have questions about implementing SEPA recurring donations, need assistance with child sponsorship workflows, or want to discuss a partnership, we’re here to help."
-    },
-    "success": {
-      "title": "Inquiry Received",
-      "thanksBefore": "Thank you for reaching out,",
-      "nameFallback": "there",
-      "thanksMiddle": ". Your inquiry has been routed to our",
-      "thanksAfter": "desk.",
-      "nextTitle": "What happens next:",
-      "step1": "1. Our European team reviews your organization details.",
-      "step2": "2. A specialist replies to {{email}} within 4 to 8 business hours.",
-      "step3": "3. No spam, no sales pressure—just direct, helpful guidance.",
-      "again": "Send another inquiry"
-    },
-    "desks": {
-      "sales": "sales",
-      "general": "general",
-      "product": "product",
-      "partnership": "partnership",
-      "support": "support"
-    },
+    "email": "marketing@donorfit.com",
     "form": {
-      "title": "Send Us a Message",
-      "intro": "Fill out the fields below and our European non-profit team will respond promptly.",
-      "nameLabel": "Your Name *",
-      "namePlaceholder": "e.g. Thomas Weber",
-      "emailLabel": "Work / NGO Email *",
-      "emailPlaceholder": "thomas@ngo-initiative.org",
-      "orgLabel": "Organization Name",
-      "orgPlaceholder": "e.g. Save the Wetlands e.V.",
-      "typeLabel": "Inquiry Category *",
-      "types": {
-        "sales": "Sales & Product Demo",
-        "general": "General Inquiry",
-        "product": "Product & Technical Questions",
-        "partnership": "Partnership & Agency Inquiries",
-        "support": "Customer Support Direction"
+      "title": "Send us a message",
+      "intro": "Have a specific question or need assistance? Fill out the contact form, and our team will get back to you.",
+      "required": "Fields marked * are required.",
+      "nameLabel": "Full Name",
+      "orgLabel": "Organisation Name",
+      "emailLabel": "Email Address",
+      "phoneLabel": "Phone Number",
+      "optional": "Optional",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Choose a subject",
+      "subjects": {
+        "general": "General Enquiry",
+        "platform": "Platform Information",
+        "membership": "Membership Management",
+        "sponsorship": "Sponsorship Campaigns",
+        "waterwell": "Water Well Fundraising",
+        "qurbani": "Qurbani Campaigns",
+        "moneypool": "MoneyPool / Crowdfunding",
+        "support": "Technical Support",
+        "partnership": "Partnership Enquiry",
+        "other": "Other"
       },
-      "messageLabel": "How can we assist you? *",
-      "messagePlaceholder": "Tell us about your organization, current fundraising software, or specific questions...",
-      "consentBefore": "I agree that Donorfit may process my submitted contact details in accordance with the",
-      "consentLink": "Privacy Policy",
-      "consentAfter": "to respond to this inquiry. We never share your data.",
-      "submit": "Submit Inquiry"
+      "messageLabel": "How Can We Help You?",
+      "messagePlaceholder": "Tell us a little more about your enquiry.",
+      "submit": "Send Message",
+      "privacyBefore": "By submitting this form, you agree that Donorfit may use your information to respond to your enquiry. Please read our",
+      "privacyLink": "Privacy Policy",
+      "privacyAfter": "for more information.",
+      "howItWorks": "Sending opens your email app with your message ready to send to {{email}}."
     },
-    "desksPanel": {
-      "title": "Direct Contact Desks",
-      "general": "General & Product Inquiries",
-      "sales": "Sales & Nonprofit Demos",
-      "security": "Security & GDPR Inquiries",
-      "support": "Support Direction",
-      "supportTextBefore": "Existing organizations can reach their dedicated support desk via the help link in their administrative workspace or by emailing",
-      "supportTextAfter": "."
+    "mail": {
+      "subjectPrefix": "Website enquiry",
+      "name": "Name",
+      "organisation": "Organisation",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message"
     },
-    "office": {
-      "title": "European Headquarters",
-      "country": "Germany",
-      "hours": "Office Hours: Mon – Fri, 09:00 – 18:00 CET"
+    "sent": {
+      "title": "Your email is ready to send",
+      "text": "Your email app should have opened with your message to {{email}}. Please check it and press send there.",
+      "fallback": "Didn't open? Email us directly at",
+      "again": "Edit message"
+    },
+    "other": {
+      "title": "Other ways to reach us",
+      "emailTitle": "Email us",
+      "emailText": "For general enquiries, product information and partnership opportunities:",
+      "helpTitle": "Need assistance?",
+      "helpText": "For questions about using Donorfit or getting started with the platform, contact our team by email.",
+      "imprintBefore": "Our full company details are listed in the",
+      "imprintLink": "Imprint",
+      "imprintAfter": "."
+    },
+    "solutions": {
+      "title": "How can Donorfit help you?",
+      "intro": "Not sure where to start? Explore our fundraising solutions:",
+      "items": {
+        "membership": "Manage members and membership contributions.",
+        "sponsorship": "Create and manage sponsorship campaigns.",
+        "water-well": "Raise funds for water well projects.",
+        "qurbani": "Organise and manage Qurbani campaigns.",
+        "money-pool": "Bring multiple contributors together to achieve a shared fundraising goal.",
+        "school-management": "Manage students, administration and fees."
+      },
+      "learnMore": "Learn more about {{name}}",
+      "pricingNote": "Donorfit is free to use. Specialised add-ons are priced separately, and any applicable payment gateway transaction charges are determined by the selected payment provider.",
+      "pricingLink": "See pricing"
+    },
+    "cta": {
+      "title": "Let's work together.",
+      "text": "Every organisation has a purpose, and every cause deserves the right tools to grow. Connect with Donorfit and discover how our platform can help simplify your fundraising activities.",
+      "tagline": "Your cause matters. Let's make it easier to manage."
+    },
+    "header": {
+      "badge": "Contact",
+      "title": "Talk to the Donorfit team.",
+      "intro": "Have a question about Donorfit, our fundraising solutions or how to get started? We'd be happy to hear from you.",
+      "body": "Whether you're an NGO, charitable trust, nonprofit organisation, community institution or donor, our team can help you understand how Donorfit can support your fundraising and organisation management."
+    },
+    "tips": {
+      "title": "Helpful to include",
+      "intro": "A few details help us give you a useful answer in our first reply:",
+      "items": [
+        "The type of organisation you work for and the country you are based in.",
+        "Which kind of fundraising you want to manage, such as one-off donations, memberships, sponsorships or seasonal campaigns.",
+        "The tools you use today, for example your payment provider, newsletter tool or spreadsheets.",
+        "For technical questions: what you were trying to do, and what happened instead."
+      ]
+    },
+    "next": {
+      "title": "What happens next",
+      "steps": [
+        {
+          "title": "We read your message",
+          "text": "Your email arrives in our team inbox, where it is read by a member of the Donorfit team."
+        },
+        {
+          "title": "We reply by email",
+          "text": "We answer your questions directly, or ask for any details we need to help."
+        },
+        {
+          "title": "We suggest next steps",
+          "text": "Where it is useful, we can walk you through the platform or explain how to get set up."
+        }
+      ]
+    },
+    "donors": {
+      "title": "Have a question about a donation?",
+      "text": "If you gave to an organisation through a Donorfit form, the organisation handles refunds, receipts and changes to regular payments. Please contact it directly.",
+      "link": "Read our Cancellation and Refund Policy"
+    },
+    "company": {
+      "title": "Company details",
+      "note": "Donorfit is provided by MYFUNDBOX GmbH.",
+      "imprint": "Full details in the Imprint"
+    },
+    "resources": {
+      "title": "Find answers faster",
+      "intro": "Many common questions are already answered on our website.",
+      "items": {
+        "pricing": {
+          "title": "Pricing",
+          "text": "What is included in the free platform and how add-ons work."
+        },
+        "integrations": {
+          "title": "Integrations",
+          "text": "Supported payment providers and email marketing tools."
+        },
+        "faqs": {
+          "title": "FAQs",
+          "text": "Answers to common questions about getting started and using Donorfit."
+        },
+        "about": {
+          "title": "About Donorfit",
+          "text": "Who we are, what we offer and who we work with."
+        }
+      }
     }
   },
   "pricing": {

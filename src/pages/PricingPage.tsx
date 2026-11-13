@@ -1,6 +1,7 @@
 import React, { useId, useMemo, useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { APP_SIGNUP_URL } from '../data/links.ts';
+import { isHiddenProduct } from '../data/productPages.ts';
 import { useFormat, useI18n, useT, useTx } from '../i18n/index.tsx';
 import {
   ArrowRight,
@@ -39,6 +40,8 @@ interface AddOn {
   key: string;
   icon: LucideIcon;
   href: string | null;
+  /** Product slug this add-on belongs to; the card is hidden while that product is in HIDDEN_PRODUCTS. */
+  product?: string;
 }
 
 const ADD_ONS: AddOn[] = [
@@ -46,7 +49,7 @@ const ADD_ONS: AddOn[] = [
   { key: 'recurring', icon: Repeat, href: '/recurring-giving' },
   { key: 'sponsorship', icon: HandHeart, href: '/sponsorship' },
   { key: 'membership', icon: IdCard, href: '/membership' },
-  { key: 'school', icon: GraduationCap, href: null },
+  { key: 'school', icon: GraduationCap, href: null, product: 'school-management' },
   { key: 'qurbani', icon: Moon, href: null },
 ];
 
@@ -238,7 +241,7 @@ export default function PricingPage() {
         </div>
 
         <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {ADD_ONS.map((addon) => {
+          {ADD_ONS.filter((addon) => !(addon.product && isHiddenProduct(addon.product))).map((addon) => {
             const Icon = addon.icon;
             const body = (
               <>

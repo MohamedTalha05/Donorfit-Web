@@ -1,7 +1,6 @@
 import React from 'react';
 import { BookOpen, GraduationCap, HeartHandshake, Users, LineChart, ShieldCheck } from 'lucide-react';
-import { PRODUCT_PAGES } from '../../data/productPages.ts';
-import { eur } from '../../components/home/mockKit.tsx';
+import { useFormat, useT } from '../../i18n/index.tsx';
 import {
   CONTAINER,
   PSection,
@@ -17,21 +16,25 @@ import {
   Related,
   FinalCTA,
   ExampleNote,
-  PRODUCT_PHOTOS,
+  useProductPage,
+  useProductPhoto,
+  useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { SponsorshipPreview } from '../../components/product/ProductPreviews.tsx';
 
-const p = PRODUCT_PAGES.sponsorship;
-
 export default function SponsorshipPage() {
-  const photo = PRODUCT_PHOTOS.sponsorship;
+  const p = useProductPage('sponsorship');
+  const photo = useProductPhoto('sponsorship');
+  const badge = useProductBadge('sponsorship');
+  const t = useT('products');
+  const { eur, int } = useFormat();
   return (
     <div className="home-v2 overflow-x-clip bg-white">
       {/* Hero: centred headline over aqua, wide photo band with the sponsor ↔ student link */}
       <section aria-labelledby="spo-hero" className="relative bg-gradient-to-b from-aqua to-white pt-16 sm:pt-24">
         <div className={`${CONTAINER} text-center`}>
           <span className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-brand-800 ring-1 ring-brand-200">
-            <HeartHandshake className="h-3.5 w-3.5" aria-hidden="true" /> Donorfit Sponsorship
+            <HeartHandshake className="h-3.5 w-3.5" aria-hidden="true" /> {badge}
           </span>
           <h1 id="spo-hero" className="mx-auto mt-6 max-w-4xl text-[2.6rem] font-extrabold leading-[1.02] text-navy-950 sm:text-6xl lg:text-7xl">
             {p.headline}
@@ -49,9 +52,9 @@ export default function SponsorshipPage() {
           {/* sponsor ↔ student link */}
           <div aria-hidden="true" className="relative mx-auto -mt-14 flex max-w-3xl flex-col items-stretch gap-3 px-4 sm:flex-row sm:items-center sm:gap-0">
             <div className="flex-1 rounded-2xl bg-white p-4 text-left shadow-xl ring-1 ring-neutral-200">
-              <div className="text-[11px] text-neutral-500">Sponsor</div>
+              <div className="text-[11px] text-neutral-500">{t('sections.sponsorship.hero.sponsor')}</div>
               <div className="font-bold text-navy-950">Marc L.</div>
-              <div className="text-xs tabular-nums text-brand-800">{eur(30)} every month</div>
+              <div className="text-xs tabular-nums text-brand-800">{t('sections.sponsorship.hero.monthly', { amount: eur(30) })}</div>
             </div>
             <div className="hidden w-20 items-center sm:flex">
               <span className="h-0.5 flex-1 border-t-2 border-dashed border-brand-500" />
@@ -61,9 +64,9 @@ export default function SponsorshipPage() {
               <span className="h-0.5 flex-1 border-t-2 border-dashed border-brand-500" />
             </div>
             <div className="flex-1 rounded-2xl bg-navy-950 p-4 text-left text-white shadow-xl">
-              <div className="text-[11px] text-white/60">Student</div>
-              <div className="font-bold">Yusuf, age 11</div>
-              <div className="text-xs text-white/70">Grade 5 · 8 of 12 months funded</div>
+              <div className="text-[11px] text-white/60">{t('sections.sponsorship.hero.student')}</div>
+              <div className="font-bold">{t('sections.sponsorship.hero.studentName', { name: 'Yusuf', age: int(11) })}</div>
+              <div className="text-xs text-white/70">{t('sections.sponsorship.hero.funded', { grade: int(5), funded: int(8), total: int(12) })}</div>
             </div>
           </div>
         </div>
@@ -80,7 +83,7 @@ export default function SponsorshipPage() {
       {/* Features */}
       <PSection tone="soft" labelledBy="spo-features">
         <div className={CONTAINER}>
-          <SectionTitle id="spo-features" align="center" title="Sponsorship for education, individuals and communities" />
+          <SectionTitle id="spo-features" align="center" title={t('sections.sponsorship.featuresTitle')} />
           <Features p={p} variant="grid" icons={[GraduationCap, BookOpen, HeartHandshake, Users, LineChart, ShieldCheck]} />
         </div>
       </PSection>
@@ -93,7 +96,7 @@ export default function SponsorshipPage() {
             <ExampleNote />
           </div>
           <div className="order-1 lg:order-2 lg:pt-6">
-            <SectionTitle id="spo-preview" title="Every contribution, month by month" sub="See each sponsor’s commitment next to the student or project they support." />
+            <SectionTitle id="spo-preview" title={t('sections.sponsorship.previewTitle')} sub={t('sections.sponsorship.previewSub')} />
             <Steps p={p} variant="stack" />
           </div>
         </div>
@@ -102,7 +105,7 @@ export default function SponsorshipPage() {
       {/* Benefits + audiences on navy */}
       <PSection tone="navy" labelledBy="spo-benefits">
         <div className={CONTAINER}>
-          <SectionTitle id="spo-benefits" dark title="Why charities choose Donorfit Sponsorship" />
+          <SectionTitle id="spo-benefits" dark title={t('sections.sponsorship.benefitsTitle')} />
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             {p.benefits.map((b) => (
               <div key={b.title} className="rounded-[1.5rem] border border-white/10 bg-white/5 p-7">
@@ -111,7 +114,7 @@ export default function SponsorshipPage() {
               </div>
             ))}
           </div>
-          <h3 className="mt-16 text-xl font-bold text-white">Built for</h3>
+          <h3 className="mt-16 text-xl font-bold text-white">{t('ui.builtFor')}</h3>
           <Audiences p={p} dark />
         </div>
       </PSection>

@@ -80,6 +80,12 @@ export function translateObj<T>(lang: Lang, ns: string, key: string): T {
   return v as T;
 }
 
+/**
+ * Normalise translated text for search/filter comparisons: German strings contain
+ * invisible soft hyphens (see scripts/soft-hyphenate-de.mjs) that must not break matching.
+ */
+export const normalizeForSearch = (s: string) => s.replace(/­/g, '').toLocaleLowerCase();
+
 /* ------------------------------------------------------------------ */
 /* URL helpers                                                         */
 /* ------------------------------------------------------------------ */
@@ -159,6 +165,46 @@ export function I18nProvider({ lang, children }: { lang: Lang; children: React.R
   useEffect(() => {
     document.documentElement.lang = lang;
   }, [lang]);
+
+  // Native form validation bubbles follow the *browser's* language, not the page's.
+  // Supply the message in the page language for every form field on the site.
+  useEffect(() => {
+    if (!ready) return;
+    type Field = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+    const isField = (el: EventTarget | null): el is Field =>
+      el instanceof HTMLInputElement || el instanceof HTMLSelectElement || el instanceof HTMLTextAreaElement;
+    const onInvalid = (e: Event) => {
+      const el = e.target;
+      if (!isField(el)) return;
+      el.setCustomValidity('');
+      const v = el.validity;
+      const type = el instanceof HTMLInputElement ? el.type : '';
+      let key = 'invalid';
+      const vars: Record<string, string | number> = {};
+      if (v.valueMissing) key = type === 'checkbox' ? 'checkbox' : el instanceof HTMLSelectElement ? 'select' : 'required';
+      else if (v.typeMismatch) key = type === 'email' ? 'email' : type === 'url' ? 'url' : 'invalid';
+      else if (v.tooShort) {
+        key = 'tooShort';
+        vars.min = (el as HTMLInputElement).minLength;
+      } else if (v.tooLong) {
+        key = 'tooLong';
+        vars.max = (el as HTMLInputElement).maxLength;
+      } else if (v.patternMismatch) key = 'pattern';
+      else if (v.badInput || v.rangeUnderflow || v.rangeOverflow || v.stepMismatch) key = 'number';
+      el.setCustomValidity(translate(lang, 'common', `validation.${key}`, vars));
+    };
+    const onEdit = (e: Event) => {
+      if (isField(e.target)) e.target.setCustomValidity('');
+    };
+    document.addEventListener('invalid', onInvalid, true);
+    document.addEventListener('input', onEdit, true);
+    document.addEventListener('change', onEdit, true);
+    return () => {
+      document.removeEventListener('invalid', onInvalid, true);
+      document.removeEventListener('input', onEdit, true);
+      document.removeEventListener('change', onEdit, true);
+    };
+  }, [lang, ready]);
 
   const value = useMemo(() => ({ lang, locale: LOCALE[lang] }), [lang]);
   if (!ready) return null;

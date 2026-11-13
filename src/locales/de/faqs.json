@@ -2,13 +2,13 @@
   "items": [
     {
       "question": "Was ist Donorfit und für wen ist es gedacht?",
-      "answer": "Donorfit ist eine Software für Fundraising und Spenderverwaltung, die speziell für Nichtregierungsorganisationen (NGOs), gemeinnützige Organisationen, Stiftungen, Patenschaftsinitiativen und Mitgliederverbände entwickelt wurde. Sie bietet eine vernetzte Plattform, um Online-Spenden, regelmäßige Spenden, Patenschaften, Gruppenspenden, Mitgliedschaften und Spenderdaten zu verwalten.",
+      "answer": "Donorfit ist eine Software für Fundraising und Spender­verwaltung, die speziell für Nicht­regierungs­organisationen (NGOs), gemeinnützige Organisationen, Stiftungen, Patenschaftsinitiativen und Mitgliederverbände entwickelt wurde. Sie bietet eine vernetzte Plattform, um Online-Spenden, regelmäßige Spenden, Patenschaften, Gruppenspenden, Mitgliedschaften und Spenderdaten zu verwalten.",
       "category": "Allgemein",
       "categoryKey": "general"
     },
     {
       "question": "Ist Donorfit eine App, bei der sich Spender:innen anmelden, oder eine Plattform für Organisationen?",
-      "answer": "Donorfit ist eine Technologieplattform für Organisationen: Sie betreibt die öffentlichen Spendenformulare, Kampagnenseiten und die Fundraising-Abläufe im Hintergrund Ihrer gemeinnützigen Organisation. Spender:innen erhalten einen reibungslosen Checkout in Ihrem Design und sichere Self-Service-Links – ganz ohne komplizierte Passwortkonten.",
+      "answer": "Donorfit ist eine Technologieplattform für Organisationen: Sie betreibt die öffentlichen Spenden­formulare, Kampagnenseiten und die Fundraising-Abläufe im Hintergrund Ihrer gemeinnützigen Organisation. Spender:innen erhalten einen reibungslosen Checkout in Ihrem Design und sichere Self-Service-Links – ganz ohne komplizierte Passwortkonten.",
       "category": "Allgemein",
       "categoryKey": "general"
     },
@@ -25,14 +25,14 @@
       "categoryKey": "payments"
     },
     {
-      "question": "Wie erstellt Donorfit Zuwendungsbestätigungen in Europa?",
-      "answer": "Donorfit erstellt automatisch rechtskonforme Zuwendungsbestätigungen nach den jeweiligen nationalen Vorschriften – darunter die deutsche Geldzuwendungsbestätigung, der französische Reçu Fiscal und Gift-Aid-Unterlagen für das Vereinigte Königreich. Bestätigungen können sofort pro Transaktion oder gesammelt als Jahresbestätigung ausgestellt werden.",
+      "question": "Wie erstellt Donorfit Zuwendungs­bestätigungen in Europa?",
+      "answer": "Donorfit erstellt automatisch rechtskonforme Zuwendungs­bestätigungen nach den jeweiligen nationalen Vorschriften – darunter die deutsche Geldzuwendungsbestätigung, der französische Reçu Fiscal und Gift-Aid-Unterlagen für das Vereinigte Königreich. Bestätigungen können sofort pro Transaktion oder gesammelt als Jahresbestätigung ausgestellt werden.",
       "category": "Zahlungen & Banking",
       "categoryKey": "payments"
     },
     {
       "question": "Wie lange dauert die Einführung von Donorfit in unserer Organisation?",
-      "answer": "Die meisten gemeinnützigen Organisationen können innerhalb von 1 bis 2 Werktagen Spenden annehmen und ihre ersten Kampagnen starten. Organisationen, die umfangreiche Spenderdatenbanken, Patenschaftsdaten oder bestehende SEPA-Lastschriftmandate migrieren, schließen das vollständige Onboarding mit unserem persönlichen Support in der Regel innerhalb von 1 bis 2 Wochen ab.",
+      "answer": "Die meisten gemeinnützigen Organisationen können innerhalb von 1 bis 2 Werktagen Spenden annehmen und ihre ersten Kampagnen starten. Organisationen, die umfangreiche Spenderdatenbanken, Patenschaftsdaten oder bestehende SEPA-Lastschrift­mandate migrieren, schließen das vollständige Onboarding mit unserem persönlichen Support in der Regel innerhalb von 1 bis 2 Wochen ab.",
       "category": "Einführung",
       "categoryKey": "implementation"
     },
@@ -50,7 +50,7 @@
     },
     {
       "question": "Wie funktioniert die Preisgestaltung von Donorfit?",
-      "answer": "Die All-in-one-Fundraising-Plattform von Donorfit kostet 0 € pro Monat – ohne Plattformgebühr und ohne Transaktionsgebühr. Spender:innen können optional die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält. Spezialisierte Add-ons wie CRM, wiederkehrende Abonnements, Sponsorship, Membership, School und Qurbani werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
+      "answer": "Die All-in-one-Fundraising-Plattform von Donorfit kostet 0 € pro Monat – ohne Plattformgebühr und ohne Transaktionsgebühr. Spender:innen können optional die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält. Spezialisierte Add-ons wie CRM, wiederkehrende Abonnements, Sponsorship, Membership und Qurbani werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
       "category": "Preise",
       "categoryKey": "pricing"
     }
@@ -66,7 +66,7 @@
   "page": {
     "kicker": "Support & Dokumentation",
     "title": "Häufig gestellte Fragen",
-    "intro": "Alles Wissenswerte über die Donorfit-Plattform, SEPA-Lastschriften, Sicherheitsarchitektur, Datenmigration und Preise.",
+    "intro": "Alles Wissenswerte über die Donorfit-Plattform, SEPA-Lastschriften, Sicherheits­architektur, Datenmigration und Preise.",
     "searchPlaceholder": "Fragen filtern …",
     "empty": "Keine passenden Fragen gefunden.",
     "categoryLabel": "Kategorie: {{category}}",

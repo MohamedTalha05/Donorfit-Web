@@ -1,0 +1,356 @@
+{
+  "hero": {
+    "badge": "Integrationen",
+    "title": "Verbinden Sie Donorfit mit den Tools, die Sie bereits nutzen.",
+    "body": "Vereinfachen Sie Ihre Fundraising-Abläufe, indem Sie Donorfit mit Zahlungs­anbietern und E-Mail-Plattformen verbinden. So verwalten Sie Zahlungen und Kommunikation effizienter an einem Ort.",
+    "jumpPayments": "{{count}} Zahlungs­anbieter",
+    "jumpEmail": "{{count}} E-Mail-Plattformen",
+    "hubPayments": "Zahlungen",
+    "hubEmail": "E-Mail-Marketing"
+  },
+  "learnMore": "Mehr erfahren",
+  "learnMoreLabel": "Mehr über die {{name}}-Integration erfahren",
+  "logoAlt": "Logo von {{name}}",
+  "categories": {
+    "payments": {
+      "title": "Flexible Zahlungs­lösungen",
+      "body": "Verbinden Sie unterstützte Zahlungs­anbieter, damit Spender:innen bequem beitragen und Zahlungen abschließen können."
+    },
+    "email": {
+      "title": "Bleiben Sie mit Ihrer Community in Verbindung",
+      "body": "Verbinden Sie Ihre E-Mail-Marketing-Tools, um die Kommunikation mit Spender:innen, Mitgliedern und Abonnent:innen zu unterstützen."
+    }
+  },
+  "providers": {
+    "stripe": "Kartenzahlungen und digitale Wallets wie Apple Pay und Google Pay.",
+    "paypal": "Spender:innen zahlen mit dem PayPal-Konto, das sie bereits nutzen.",
+    "gocardless": "Bankzahlungen per Lastschrift – gut geeignet für regelmäßige Beiträge.",
+    "micropayment": "Deutscher Zahlungs­anbieter mit Zahlungsarten wie Lastschrift und Kartenzahlung.",
+    "mollie": "Europäischer Zahlungs­anbieter für Karten und lokale Zahlungsarten wie iDEAL und Bancontact.",
+    "brevo": "E-Mail-Kampagnen und Newsletter. Früher bekannt als Sendinblue.",
+    "mailchimp": "E-Mail-Marketing für Newsletter und regelmäßige Updates an Ihre Zielgruppe."
+  },
+  "help": {
+    "text": "Sie sind unsicher, welcher Anbieter zu Ihrer Organisation passt? Unser Team zeigt Ihnen die Möglichkeiten.",
+    "link": "Mit unserem Team sprechen"
+  },
+  "why": {
+    "title": "Warum Integrationen mit Donorfit?",
+    "items": [
+      "Zahlungs­verwaltung vereinfachen.",
+      "Spender:innen bequeme Zahlungsmöglichkeiten bieten.",
+      "Mit vertrauten Business-Tools verbinden.",
+      "Die Kommunikation mit Ihrer Community verbessern.",
+      "Manuelle Arbeit reduzieren, wo Integrationen Automatisierung unterstützen."
+    ]
+  },
+  "cta": {
+    "title": "Bringen Sie Ihre wichtigsten Tools zusammen.",
+    "body": "Entdecken Sie die Integrationen von Donorfit und erleichtern Sie den Arbeitsalltag Ihrer Organisation.",
+    "button": "Integrationen entdecken"
+  },
+  "detail": {
+    "back": "Alle Integrationen",
+    "badge": {
+      "payments": "Zahlungs­anbieter",
+      "email": "E-Mail-Marketing"
+    },
+    "heroTitle": "{{name}}-Integration",
+    "visit": "{{host}} besuchen",
+    "visitLabel": "Website von {{name}} besuchen (öffnet in einem neuen Tab)",
+    "talk": "Mit unserem Team sprechen",
+    "aboutTitle": "Über die Integration",
+    "glanceTitle": "Auf einen Blick",
+    "glanceCategory": "Kategorie",
+    "glanceWebsite": "Website",
+    "glanceDocs": "Dokumentation",
+    "offeredTitle": "Angeboten von {{name}}",
+    "benefitsTitle": "Warum Organisationen {{name}} nutzen",
+    "howTitle": "So funktioniert es",
+    "setupTitle": "Einrichtung",
+    "setupSub": "Was Sie bereithalten sollten, bevor Sie {{name}} mit Donorfit verbinden.",
+    "needsTitle": "Bevor Sie verbinden",
+    "docsTitle": "Dokumentation von {{name}}",
+    "docsBody": "Kontoeröffnung, Verifizierung und Kontoeinstellungen erklärt {{name}} in der eigenen Dokumentation.",
+    "docsLink": "Dokumentation von {{name}} öffnen",
+    "docsLinkLabel": "Dokumentation von {{name}} öffnen (öffnet in einem neuen Tab)",
+    "helpTitle": "Verbindung mit Donorfit",
+    "helpBody": "Unser Team begleitet Sie dabei, {{name}} mit Ihrem Donorfit-Konto zu verbinden, und beantwortet Ihre Fragen.",
+    "related": {
+      "payments": "Weitere Zahlungs­anbieter",
+      "email": "Weitere E-Mail-Plattformen"
+    },
+    "ctaTitle": "{{name}} mit Donorfit nutzen.",
+    "ctaBody": "Sprechen Sie mit unserem Team über Ihre Einrichtung oder sehen Sie alle Tools, mit denen sich Donorfit verbindet.",
+    "ctaAll": "Alle Integrationen ansehen"
+  },
+  "flow": {
+    "payments": {
+      "sub": "Was zwischen dem Klick auf „Spenden“ und dem Geldeingang bei Ihrer Organisation passiert.",
+      "steps": [
+        {
+          "title": "Spender:in wählt {{name}}",
+          "body": "Im Donorfit-Spendenformular wählt die Person eine Zahlungsart, die über {{name}} angeboten wird."
+        },
+        {
+          "title": "{{name}} wickelt die Zahlung ab",
+          "body": "{{name}} verarbeitet die Zahlung und bestätigt, ob sie erfolgreich war."
+        },
+        {
+          "title": "Die Spende wird erfasst",
+          "body": "Der bestätigte Beitrag erscheint in Donorfit – bereit für Ihre Spenderdaten und Auswertungen."
+        },
+        {
+          "title": "Das Geld kommt auf Ihr Konto",
+          "body": "{{name}} zahlt das Geld gemäß Ihren {{name}}-Kontoeinstellungen auf das Bankkonto Ihrer Organisation aus."
+        }
+      ]
+    },
+    "email": {
+      "sub": "So arbeitet {{name}} mit Donorfit zusammen.",
+      "steps": [
+        {
+          "title": "Unterstützer:innen in Donorfit",
+          "body": "Spender:innen und Mitglieder kommen in Donorfit hinzu, wenn sie spenden, sich anmelden oder beitreten."
+        },
+        {
+          "title": "{{name}}-Konto verbinden",
+          "body": "Verbinden Sie {{name}} mit Donorfit – auf Wunsch mit Unterstützung unseres Teams."
+        },
+        {
+          "title": "In {{name}} schreiben und versenden",
+          "body": "Gestalten Sie Newsletter und Kampagnen in {{name}} und senden Sie sie an Ihre Zielgruppe."
+        },
+        {
+          "title": "Ergebnisse auswerten",
+          "body": "{{name}} zeigt Öffnungen und Klicks für jede versendete Kampagne."
+        }
+      ]
+    }
+  },
+  "pages": {
+    "stripe": {
+      "tagline": "Nehmen Sie Karten- und Wallet-Zahlungen über Ihre Donorfit-Spenden­formulare an – abgewickelt von Stripe.",
+      "about": [
+        "Stripe ist eine weltweite Zahlungsplattform, mit der Unternehmen und Non-Profit-Organisationen online Zahlungen annehmen. Sie verarbeitet Kartenzahlungen, digitale Wallets und mehrere europäische Bankzahlverfahren.",
+        "Mit Donorfit verbunden, wickelt Stripe die Zahlungen ab, die Spender:innen über Ihre Formulare leisten. Donorfit hält fest, wer wie viel für welchen Zweck gespendet hat."
+      ],
+      "offered": [
+        "Visa, Mastercard, American Express",
+        "Apple Pay",
+        "Google Pay",
+        "SEPA-Lastschrift"
+      ],
+      "benefits": [
+        {
+          "title": "Ein vertrauter Bezahlvorgang",
+          "body": "Spender:innen zahlen mit der Karte oder Wallet, die sie auf Smartphone oder Laptop bereits nutzen."
+        },
+        {
+          "title": "Schnell spenden am Smartphone",
+          "body": "Mit Apple Pay und Google Pay bestätigen Spender:innen ihre Spende, ohne Kartendaten einzutippen."
+        },
+        {
+          "title": "Übersichtliche Zahlungsdaten",
+          "body": "Das Stripe-Dashboard listet jede Zahlung und Auszahlung – hilfreich beim Abgleich mit Donorfit."
+        }
+      ],
+      "needs": [
+        "Ein Stripe-Konto im Namen Ihrer Organisation",
+        "Bei Stripe verifizierte Organisations- und Bankdaten",
+        "Administratorzugriff auf das Stripe-Dashboard",
+        "Eine Auswahl der Zahlungsarten, die Sie anbieten möchten"
+      ]
+    },
+    "paypal": {
+      "tagline": "Lassen Sie Spender:innen in Ihren Donorfit-Spenden­formularen mit ihrem PayPal-Konto spenden.",
+      "about": [
+        "PayPal gehört zu den meistgenutzten Online-Zahlungsdiensten. Spender:innen melden sich bei PayPal an und bestätigen die Zahlung, ohne Kartendaten einzugeben.",
+        "Ist PayPal verbunden, können Spender:innen es in Ihren Donorfit-Formularen auswählen. Die Zahlung wird bei PayPal abgeschlossen und die Spende in Donorfit erfasst."
+      ],
+      "offered": [
+        "PayPal-Guthaben",
+        "Verknüpfte Bankkonten",
+        "Verknüpfte Karten"
+      ],
+      "benefits": [
+        {
+          "title": "Ein bekannter Name",
+          "body": "Viele Spender:innen haben bereits ein PayPal-Konto und kennen den Ablauf."
+        },
+        {
+          "title": "Keine Kartendaten nötig",
+          "body": "Spender:innen bestätigen mit ihrem PayPal-Login – der Bezahlvorgang bleibt kurz."
+        },
+        {
+          "title": "Zahlungen auch in PayPal sichtbar",
+          "body": "Eingehende Spenden erscheinen zusätzlich in Ihrem PayPal-Geschäftskonto."
+        }
+      ],
+      "needs": [
+        "Ein PayPal-Geschäftskonto für Ihre Organisation",
+        "Ein bei PayPal verifiziertes Konto",
+        "Administratorzugriff auf das PayPal-Konto"
+      ]
+    },
+    "gocardless": {
+      "tagline": "Ziehen Sie einmalige und regelmäßige Spenden per Lastschrift über GoCardless ein.",
+      "about": [
+        "GoCardless ist auf Bankzahlungen spezialisiert. Spender:innen erteilen einmal ein Lastschrift­mandat, danach werden die Zahlungen von ihrem Bankkonto eingezogen.",
+        "Das passt zu regelmäßigen Zahlungen wie monatlichen Spenden, Mitglieds­beiträgen und Patenschaften. Ist GoCardless verbunden, können Spender:innen über Donorfit per Lastschrift zahlen."
+      ],
+      "offered": [
+        "SEPA-Lastschrift",
+        "Bacs-Lastschrift (UK)",
+        "Einmalige und wiederkehrende Zahlungen"
+      ],
+      "benefits": [
+        {
+          "title": "Gemacht für regelmäßiges Spenden",
+          "body": "Ein Mandat deckt künftige Zahlungen ab – Unterstützer:innen müssen nicht jeden Monat neu spenden."
+        },
+        {
+          "title": "Keine ablaufenden Karten",
+          "body": "Lastschriften hängen nicht vom Ablaufdatum einer Karte ab – regelmäßige Spenden laufen weiter, wenn eine Karte ersetzt wird."
+        },
+        {
+          "title": "Direkt vom Bankkonto",
+          "body": "Spender:innen zahlen von ihrem Bankkonto, ohne Karte oder zusätzliche Bezahl-App."
+        }
+      ],
+      "needs": [
+        "Ein GoCardless-Konto für Ihre Organisation",
+        "Bei GoCardless verifizierte Organisationsdaten und Bankverbindung",
+        "Administratorzugriff auf das GoCardless-Dashboard"
+      ]
+    },
+    "micropayment": {
+      "tagline": "Bieten Sie Spender:innen in Deutschland vertraute Zahlungsarten über Micropayment an.",
+      "about": [
+        "Micropayment ist ein Zahlungsdienstleister mit Sitz in Deutschland. Er bietet Zahlungsarten, die viele Spender:innen in Deutschland bereits kennen, etwa Lastschrift und Kartenzahlung.",
+        "Mit Donorfit verbunden, wickelt Micropayment die Zahlungen über Ihre Formulare ab, und Donorfit erfasst jeden Beitrag."
+      ],
+      "offered": [
+        "Lastschrift",
+        "Kreditkarte",
+        "Vorkasse per Überweisung"
+      ],
+      "benefits": [
+        {
+          "title": "Ein deutscher Zahlungspartner",
+          "body": "Passend für Organisationen, deren Unterstützer:innen überwiegend in Deutschland leben."
+        },
+        {
+          "title": "Vertraute Zahlungsarten",
+          "body": "Lastschrift und Überweisung sind in Deutschland verbreitete Wege zu spenden."
+        },
+        {
+          "title": "Mehrere Zahlungsarten, ein Konto",
+          "body": "Ihre angebotenen Zahlungsarten verwalten Sie gemeinsam in einem Micropayment-Konto."
+        }
+      ],
+      "needs": [
+        "Ein Micropayment-Konto für Ihre Organisation",
+        "Bei Micropayment verifizierte Organisationsdaten",
+        "Administratorzugriff auf Ihr Micropayment-Konto"
+      ]
+    },
+    "mollie": {
+      "tagline": "Bieten Sie Karten und beliebte europäische Zahlungsarten über Mollie an.",
+      "about": [
+        "Mollie ist ein Zahlungs­anbieter mit Hauptsitz in Amsterdam. Er unterstützt Karten und viele lokale europäische Zahlungsarten, etwa iDEAL in den Niederlanden und Bancontact in Belgien.",
+        "Ist Mollie verbunden, zahlen Spender:innen in Ihren Donorfit-Formularen mit der Zahlungsart, die in ihrem Land üblich ist. Jede Spende wird in Donorfit erfasst."
+      ],
+      "offered": [
+        "Karten",
+        "iDEAL",
+        "Bancontact",
+        "SEPA-Lastschrift",
+        "Apple Pay"
+      ],
+      "benefits": [
+        {
+          "title": "Lokale Zahlungsarten in ganz Europa",
+          "body": "Spender:innen in verschiedenen Ländern zahlen so, wie sie es gewohnt sind."
+        },
+        {
+          "title": "Viele Zahlungsarten, ein Konto",
+          "body": "Karten und lokale Zahlungsarten verwalten Sie gemeinsam in einem Mollie-Konto."
+        },
+        {
+          "title": "Klare Übersicht",
+          "body": "Das Mollie-Dashboard listet jede Zahlung und Abrechnung für Ihre eigene Kontrolle."
+        }
+      ],
+      "needs": [
+        "Ein Mollie-Konto für Ihre Organisation",
+        "Bei Mollie verifizierte Organisationsdaten",
+        "Die gewünschten Zahlungsarten im Mollie-Dashboard aktiviert"
+      ]
+    },
+    "brevo": {
+      "tagline": "Erreichen Sie Spender:innen und Mitglieder mit Newslettern und E-Mail-Kampagnen über Brevo.",
+      "about": [
+        "Brevo, früher Sendinblue, ist eine Marketingplattform aus Frankreich für E-Mail-Kampagnen, Newsletter und Kontaktverwaltung. Sie bietet außerdem SMS- und Automatisierungsfunktionen.",
+        "Zusammen mit Donorfit hilft Brevo Ihnen, mit den Spender:innen und Mitgliedern, die Sie in Donorfit verwalten, über regelmäßige Newsletter in Kontakt zu bleiben."
+      ],
+      "offered": [
+        "E-Mail-Kampagnen",
+        "Kontaktlisten",
+        "Automatisierung",
+        "SMS"
+      ],
+      "benefits": [
+        {
+          "title": "Regelmäßige Updates",
+          "body": "Teilen Sie Projektneuigkeiten und Dankesnachrichten mit den Menschen, die Sie unterstützen."
+        },
+        {
+          "title": "Gestalten ohne Code",
+          "body": "Mit dem Drag-and-drop-Editor von Brevo erstellen Sie Newsletter ohne technische Kenntnisse."
+        },
+        {
+          "title": "Sehen, was wirkt",
+          "body": "Brevo zeigt Öffnungen und Klicks, damit Sie Ihre nächste Kampagne verbessern können."
+        }
+      ],
+      "needs": [
+        "Ein Brevo-Konto für Ihre Organisation",
+        "Eine in Brevo verifizierte Absenderadresse",
+        "Administratorzugriff auf Ihr Brevo-Konto"
+      ]
+    },
+    "mailchimp": {
+      "tagline": "Senden Sie Newsletter und Neuigkeiten mit Mailchimp an Ihre Unterstützer:innen.",
+      "about": [
+        "Mailchimp ist eine E-Mail-Marketingplattform von Intuit, mit der Sie Newsletter erstellen, Zielgruppen verwalten und Kampagnen versenden.",
+        "Zusammen mit Donorfit hilft Mailchimp Ihnen, mit den Spender:innen und Mitgliedern, die Sie in Donorfit verwalten, über regelmäßige Newsletter in Kontakt zu bleiben."
+      ],
+      "offered": [
+        "E-Mail-Kampagnen",
+        "Zielgruppenverwaltung",
+        "Vorlagen",
+        "Berichte"
+      ],
+      "benefits": [
+        {
+          "title": "Ein einfacher Editor",
+          "body": "Erstellen Sie übersichtliche Newsletter mit den Vorlagen und dem Drag-and-drop-Editor von Mailchimp."
+        },
+        {
+          "title": "Geordnete Zielgruppen",
+          "body": "Gruppieren Sie Kontakte mit Tags und Segmenten, damit die richtige Nachricht die richtigen Menschen erreicht."
+        },
+        {
+          "title": "Kampagnen­berichte",
+          "body": "Verfolgen Sie Öffnungen und Klicks für jede versendete Kampagne."
+        }
+      ],
+      "needs": [
+        "Ein Mailchimp-Konto für Ihre Organisation",
+        "Eine in Mailchimp verifizierte Absenderadresse",
+        "Administratorzugriff auf Ihr Mailchimp-Konto"
+      ]
+    }
+  }
+}

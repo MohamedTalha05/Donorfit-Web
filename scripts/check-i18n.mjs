@@ -6,8 +6,9 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Z]:)/, '$1')), '..', 'src', 'locales');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'src', 'locales');
 const langs = ['en', 'de'];
 const files = new Set(langs.flatMap((l) => fs.readdirSync(path.join(root, l)).filter((f) => f.endsWith('.json'))));
 
@@ -18,6 +19,12 @@ const flatten = (obj, prefix = '', out = {}) => {
   return out;
 };
 const placeholders = (s) => (typeof s === 'string' ? [...s.matchAll(/\{\{\s*(\w+)\s*\}\}/g)].map((m) => m[1]).sort().join(',') : '');
+
+/**
+ * Keys where the component passes several variables and each language picks the one
+ * that reads naturally (e.g. SolutionPage passes {{audience}} "For NGOs" and {{name}} "NGOs").
+ */
+const INTENTIONAL_VARIANTS = {};
 
 let problems = 0;
 const report = (msg) => {
@@ -47,7 +54,7 @@ for (const file of [...files].sort()) {
   const log = (m) => lines.push(m);
   for (const k of Object.keys(data.en)) {
     if (!(k in data.de)) log(`de missing key: ${k}`);
-    else if (placeholders(data.en[k]) !== placeholders(data.de[k])) log(`placeholder mismatch: ${k}`);
+    else if (placeholders(data.en[k]) !== placeholders(data.de[k]) && !INTENTIONAL_VARIANTS[file]?.test(k)) log(`placeholder mismatch: ${k}`);
   }
   for (const k of Object.keys(data.de)) if (!(k in data.en)) log(`de has extra key: ${k}`);
   for (const l of langs) for (const [k, v] of Object.entries(data[l])) if (v === '' && data[l === 'en' ? 'de' : 'en'][k] !== '') log(`${l} empty value: ${k}`); // empty in both = intentional (e.g. decorative alt)

@@ -1,0 +1,356 @@
+{
+  "hero": {
+    "badge": "Integrations",
+    "title": "Connect Donorfit with the Tools You Already Use.",
+    "body": "Simplify your fundraising operations by connecting Donorfit with payment providers and email platforms. Manage payments and communication more efficiently from one place.",
+    "jumpPayments": "{{count}} payment providers",
+    "jumpEmail": "{{count}} email platforms",
+    "hubPayments": "Payments",
+    "hubEmail": "Email marketing"
+  },
+  "learnMore": "Learn more",
+  "learnMoreLabel": "Learn more about the {{name}} integration",
+  "logoAlt": "{{name}} logo",
+  "categories": {
+    "payments": {
+      "title": "Flexible Payment Solutions",
+      "body": "Connect with supported payment providers to give donors convenient ways to make contributions and complete payments."
+    },
+    "email": {
+      "title": "Stay Connected with Your Community",
+      "body": "Connect your email marketing tools to support communication with donors, members and subscribers."
+    }
+  },
+  "providers": {
+    "stripe": "Card payments and digital wallets such as Apple Pay and Google Pay.",
+    "paypal": "Lets donors pay with the PayPal account they already use.",
+    "gocardless": "Bank payments by direct debit, well suited to regular contributions.",
+    "micropayment": "German payment provider offering methods such as direct debit and card payments.",
+    "mollie": "European payment provider for cards and local methods such as iDEAL and Bancontact.",
+    "brevo": "Email campaigns and newsletters. Formerly known as Sendinblue.",
+    "mailchimp": "Email marketing for newsletters and regular updates to your audience."
+  },
+  "help": {
+    "text": "Not sure which provider suits your organisation? Our team can walk you through the options.",
+    "link": "Talk to our team"
+  },
+  "why": {
+    "title": "Why Integrate with Donorfit?",
+    "items": [
+      "Simplify payment management.",
+      "Give donors convenient payment options.",
+      "Connect with familiar business tools.",
+      "Support better communication with your community.",
+      "Reduce manual work where integrations support automation."
+    ]
+  },
+  "cta": {
+    "title": "Bring Your Essential Tools Together.",
+    "body": "Explore Donorfit integrations and make your organisation's daily operations easier.",
+    "button": "Explore Integrations"
+  },
+  "detail": {
+    "back": "All integrations",
+    "badge": {
+      "payments": "Payment provider",
+      "email": "Email marketing"
+    },
+    "heroTitle": "{{name}} integration",
+    "visit": "Visit {{host}}",
+    "visitLabel": "Visit the {{name}} website (opens in a new tab)",
+    "talk": "Talk to our team",
+    "aboutTitle": "About the integration",
+    "glanceTitle": "At a glance",
+    "glanceCategory": "Category",
+    "glanceWebsite": "Website",
+    "glanceDocs": "Documentation",
+    "offeredTitle": "Offered by {{name}}",
+    "benefitsTitle": "Why organisations use {{name}}",
+    "howTitle": "How it works",
+    "setupTitle": "Setup guide",
+    "setupSub": "What to have ready before you connect {{name}} to Donorfit.",
+    "needsTitle": "Before you connect",
+    "docsTitle": "{{name}} documentation",
+    "docsBody": "Opening an account, verification and account settings are explained in {{name}}'s own documentation.",
+    "docsLink": "Open the {{name}} documentation",
+    "docsLinkLabel": "Open the {{name}} documentation (opens in a new tab)",
+    "helpTitle": "Connecting to Donorfit",
+    "helpBody": "Our team will walk you through connecting {{name}} to your Donorfit account and answer your questions along the way.",
+    "related": {
+      "payments": "Other payment providers",
+      "email": "Other email platforms"
+    },
+    "ctaTitle": "Use {{name}} with Donorfit.",
+    "ctaBody": "Talk to our team about your setup, or see every tool Donorfit connects with.",
+    "ctaAll": "See all integrations"
+  },
+  "flow": {
+    "payments": {
+      "sub": "What happens between a donor's click and the money reaching your organisation.",
+      "steps": [
+        {
+          "title": "The donor chooses {{name}}",
+          "body": "On your Donorfit donation form, the donor picks a payment method offered through {{name}}."
+        },
+        {
+          "title": "{{name}} processes the payment",
+          "body": "{{name}} handles the payment and confirms whether it went through."
+        },
+        {
+          "title": "The donation is recorded",
+          "body": "The confirmed contribution appears in Donorfit, ready for your donor records and reports."
+        },
+        {
+          "title": "Funds reach your bank",
+          "body": "{{name}} pays the money out to your organisation's bank account, based on your {{name}} account settings."
+        }
+      ]
+    },
+    "email": {
+      "sub": "How {{name}} works alongside Donorfit.",
+      "steps": [
+        {
+          "title": "Supporters are managed in Donorfit",
+          "body": "Donors and members are added to Donorfit as they give, sign up or join."
+        },
+        {
+          "title": "Connect your {{name}} account",
+          "body": "Link {{name}} to Donorfit, with help from our team if you need it."
+        },
+        {
+          "title": "Write and send in {{name}}",
+          "body": "Design newsletters and campaigns in {{name}} and send them to your audience."
+        },
+        {
+          "title": "Review the results",
+          "body": "{{name}} reports opens and clicks for every campaign you send."
+        }
+      ]
+    }
+  },
+  "pages": {
+    "stripe": {
+      "tagline": "Accept card and wallet payments on your Donorfit donation forms, processed by Stripe.",
+      "about": [
+        "Stripe is a global payment platform that businesses and non-profits use to accept payments online. It handles card payments, digital wallets and several European bank payment methods.",
+        "Connected to Donorfit, Stripe processes the payments donors make through your forms, while Donorfit keeps track of who gave, how much and to which cause."
+      ],
+      "offered": [
+        "Visa, Mastercard, American Express",
+        "Apple Pay",
+        "Google Pay",
+        "SEPA Direct Debit"
+      ],
+      "benefits": [
+        {
+          "title": "A familiar checkout",
+          "body": "Donors pay with the card or wallet they already use on their phone or laptop."
+        },
+        {
+          "title": "Quick giving on mobile",
+          "body": "Apple Pay and Google Pay let donors confirm a gift on their phone without typing in card details."
+        },
+        {
+          "title": "Clear payment records",
+          "body": "Stripe's dashboard lists every payment and payout, which helps when you compare figures with Donorfit."
+        }
+      ],
+      "needs": [
+        "A Stripe account in your organisation's name",
+        "Your organisation and bank details verified with Stripe",
+        "Administrator access to the Stripe dashboard",
+        "A list of the payment methods you want to offer donors"
+      ]
+    },
+    "paypal": {
+      "tagline": "Let donors give with their PayPal account on your Donorfit donation forms.",
+      "about": [
+        "PayPal is one of the most widely used online payment services. Donors log in to their PayPal account and confirm the payment without entering card details.",
+        "With PayPal connected, donors can choose it on your Donorfit forms. The payment is completed in PayPal, and the donation is recorded in Donorfit."
+      ],
+      "offered": [
+        "PayPal balance",
+        "Linked bank accounts",
+        "Linked cards"
+      ],
+      "benefits": [
+        {
+          "title": "A name donors know",
+          "body": "Many donors already have a PayPal account and know how it works."
+        },
+        {
+          "title": "No card details to type",
+          "body": "Donors confirm with their PayPal login, which keeps the checkout short."
+        },
+        {
+          "title": "Payments visible in PayPal",
+          "body": "Incoming donations also show up in your PayPal business account."
+        }
+      ],
+      "needs": [
+        "A PayPal Business account for your organisation",
+        "Your account verified with PayPal",
+        "Administrator access to the PayPal account"
+      ]
+    },
+    "gocardless": {
+      "tagline": "Collect one-off and regular gifts by bank debit through GoCardless.",
+      "about": [
+        "GoCardless specialises in bank payments. Donors authorise a Direct Debit mandate once, and payments are then collected from their bank account.",
+        "This suits regular giving such as monthly donations, membership fees and sponsorships. With GoCardless connected, donors can pay by bank debit through Donorfit."
+      ],
+      "offered": [
+        "SEPA Direct Debit",
+        "Bacs Direct Debit (UK)",
+        "One-off and recurring payments"
+      ],
+      "benefits": [
+        {
+          "title": "Made for regular giving",
+          "body": "One mandate covers future payments, so supporters don't have to give again by hand each month."
+        },
+        {
+          "title": "No expiring cards",
+          "body": "Bank debit doesn't depend on a card's expiry date, so regular gifts carry on when a card is replaced."
+        },
+        {
+          "title": "Straight from the bank",
+          "body": "Donors pay from their bank account, without a card or a separate payment app."
+        }
+      ],
+      "needs": [
+        "A GoCardless account for your organisation",
+        "Your organisation and bank account verified with GoCardless",
+        "Administrator access to the GoCardless dashboard"
+      ]
+    },
+    "micropayment": {
+      "tagline": "Offer donors in Germany familiar payment methods through Micropayment.",
+      "about": [
+        "Micropayment is a payment service provider based in Germany. It offers payment methods many donors in Germany already know, such as direct debit and card payments.",
+        "Connected to Donorfit, Micropayment processes the payments donors make through your forms, and Donorfit records each contribution."
+      ],
+      "offered": [
+        "Direct debit",
+        "Credit card",
+        "Prepayment by bank transfer"
+      ],
+      "benefits": [
+        {
+          "title": "A German payment partner",
+          "body": "A good fit for organisations whose supporters are mainly in Germany."
+        },
+        {
+          "title": "Familiar methods",
+          "body": "Direct debit and bank transfer are common ways to give in Germany."
+        },
+        {
+          "title": "Several methods, one account",
+          "body": "The payment methods you offer are managed together in a single Micropayment account."
+        }
+      ],
+      "needs": [
+        "A Micropayment account for your organisation",
+        "Your organisation's details verified with Micropayment",
+        "Administrator access to your Micropayment account"
+      ]
+    },
+    "mollie": {
+      "tagline": "Offer cards and popular European payment methods through Mollie.",
+      "about": [
+        "Mollie is a payment provider headquartered in Amsterdam. It supports cards and many local European payment methods, such as iDEAL in the Netherlands and Bancontact in Belgium.",
+        "With Mollie connected, donors can pay through your Donorfit forms with the method most common in their country, and each donation is recorded in Donorfit."
+      ],
+      "offered": [
+        "Cards",
+        "iDEAL",
+        "Bancontact",
+        "SEPA Direct Debit",
+        "Apple Pay"
+      ],
+      "benefits": [
+        {
+          "title": "Local methods across Europe",
+          "body": "Donors in different countries can pay the way they're used to."
+        },
+        {
+          "title": "Many methods, one account",
+          "body": "Cards and local methods are managed together in one Mollie account."
+        },
+        {
+          "title": "A clear overview",
+          "body": "Mollie's dashboard lists every payment and settlement for your own checks."
+        }
+      ],
+      "needs": [
+        "A Mollie account for your organisation",
+        "Your organisation's details verified with Mollie",
+        "The payment methods you want to offer switched on in your Mollie dashboard"
+      ]
+    },
+    "brevo": {
+      "tagline": "Reach donors and members with newsletters and email campaigns sent through Brevo.",
+      "about": [
+        "Brevo, formerly Sendinblue, is a marketing platform from France for email campaigns, newsletters and contact management. It also offers SMS and automation features.",
+        "Used alongside Donorfit, Brevo helps you keep in touch with the donors and members you manage in Donorfit through regular newsletters."
+      ],
+      "offered": [
+        "Email campaigns",
+        "Contact lists",
+        "Automation",
+        "SMS"
+      ],
+      "benefits": [
+        {
+          "title": "Regular updates",
+          "body": "Share project news and thank-you messages with the people who support you."
+        },
+        {
+          "title": "Design without code",
+          "body": "Brevo's drag-and-drop editor helps you build newsletters without technical skills."
+        },
+        {
+          "title": "See what works",
+          "body": "Brevo reports opens and clicks, so you can improve your next campaign."
+        }
+      ],
+      "needs": [
+        "A Brevo account for your organisation",
+        "A verified sender email address in Brevo",
+        "Administrator access to your Brevo account"
+      ]
+    },
+    "mailchimp": {
+      "tagline": "Send newsletters and updates to your supporters with Mailchimp.",
+      "about": [
+        "Mailchimp is an email marketing platform, part of Intuit, for creating newsletters, managing audiences and sending campaigns.",
+        "Used alongside Donorfit, Mailchimp helps you keep in touch with the donors and members you manage in Donorfit through regular newsletters."
+      ],
+      "offered": [
+        "Email campaigns",
+        "Audience management",
+        "Templates",
+        "Reports"
+      ],
+      "benefits": [
+        {
+          "title": "An easy editor",
+          "body": "Create clean newsletters with Mailchimp's templates and drag-and-drop editor."
+        },
+        {
+          "title": "Organised audiences",
+          "body": "Group contacts with tags and segments to send the right message to the right people."
+        },
+        {
+          "title": "Campaign reports",
+          "body": "Track opens and clicks for every campaign you send."
+        }
+      ],
+      "needs": [
+        "A Mailchimp account for your organisation",
+        "A verified sender email address in Mailchimp",
+        "Administrator access to your Mailchimp account"
+      ]
+    }
+  }
+}

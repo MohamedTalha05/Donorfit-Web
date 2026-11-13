@@ -109,24 +109,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/qurbani" />
   </url>
   <url>
-    <loc>https://donorfit.com/school-management</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/school-management" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/school-management" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/school-management" />
-  </url>
-  <url>
-    <loc>https://donorfit.com/de/school-management</loc>
-    <lastmod>2026-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/school-management" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/school-management" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/school-management" />
-  </url>
-  <url>
     <loc>https://donorfit.com/membership</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -397,6 +379,150 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/contact" />
   </url>
   <url>
+    <loc>https://donorfit.com/integrations</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/stripe</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/stripe" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/stripe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/stripe" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/stripe</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/stripe" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/stripe" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/stripe" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/paypal</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/paypal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/paypal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/paypal" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/paypal</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/paypal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/paypal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/paypal" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/gocardless</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/gocardless" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/gocardless" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/gocardless" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/gocardless</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/gocardless" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/gocardless" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/gocardless" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/micropayment</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/micropayment" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/micropayment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/micropayment" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/micropayment</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/micropayment" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/micropayment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/micropayment" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/mollie</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/mollie" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/mollie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/mollie" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/mollie</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/mollie" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/mollie" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/mollie" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/brevo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/brevo" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/brevo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/brevo" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/brevo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/brevo" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/brevo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/brevo" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/integrations/mailchimp</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/mailchimp" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/mailchimp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/mailchimp" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/integrations/mailchimp</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/integrations/mailchimp" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/integrations/mailchimp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/integrations/mailchimp" />
+  </url>
+  <url>
     <loc>https://donorfit.com/partners</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -593,6 +719,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/privacy-policy" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/refund-policy</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/refund-policy" />
+  </url>
+  <url>
+    <loc>https://donorfit.com/de/refund-policy</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/refund-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/refund-policy" />
   </url>
   <url>
     <loc>https://donorfit.com/cookie-policy</loc>

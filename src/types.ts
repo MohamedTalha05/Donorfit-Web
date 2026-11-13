@@ -21,6 +21,8 @@ export type PageRoute =
   | '/about'
   | '/contact'
   | '/partners'
+  | '/integrations'
+  | `/integrations/${string}`
   | '/security'
   | '/blog'
   | `/blog/${string}`
@@ -30,6 +32,7 @@ export type PageRoute =
   | '/privacy-policy'
   | '/cookie-policy'
   | '/impressum'
+  | '/refund-policy'
   | '/terms'
   | '/accessibility';
 

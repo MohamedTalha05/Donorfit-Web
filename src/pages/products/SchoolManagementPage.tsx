@@ -1,6 +1,6 @@
 import React from 'react';
 import { GraduationCap, Users, ClipboardCheck, Wallet, HeartHandshake, FileBarChart, ShieldCheck } from 'lucide-react';
-import { PRODUCT_PAGES } from '../../data/productPages.ts';
+import { useT } from '../../i18n/index.tsx';
 import {
   CONTAINER,
   PSection,
@@ -16,14 +16,17 @@ import {
   Related,
   FinalCTA,
   ExampleNote,
-  PRODUCT_PHOTOS,
+  useProductPage,
+  useProductPhoto,
+  useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { SchoolPreview } from '../../components/product/ProductPreviews.tsx';
 
-const p = PRODUCT_PAGES['school-management'];
-
 export default function SchoolManagementPage() {
-  const photo = PRODUCT_PHOTOS['school-management'];
+  const p = useProductPage('school-management');
+  const photo = useProductPhoto('school-management');
+  const badge = useProductBadge('school-management');
+  const t = useT('products');
   return (
     <div className="home-v2 overflow-x-clip bg-white">
       {/* Hero: dashboard-first, photo as a framed inset */}
@@ -32,7 +35,7 @@ export default function SchoolManagementPage() {
           <div className="grid items-end gap-10 lg:grid-cols-[1.3fr_1fr]">
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-brand-800 ring-1 ring-brand-200">
-                <GraduationCap className="h-3.5 w-3.5" aria-hidden="true" /> Donorfit School Management
+                <GraduationCap className="h-3.5 w-3.5" aria-hidden="true" /> {badge}
               </span>
               <h1 id="sch-hero" className="mt-6 max-w-3xl text-[2.6rem] font-extrabold leading-[1.02] text-navy-950 sm:text-6xl">
                 {p.headline}
@@ -70,7 +73,7 @@ export default function SchoolManagementPage() {
       {/* Features grid */}
       <PSection tone="aqua" labelledBy="sch-features">
         <div className={CONTAINER}>
-          <SectionTitle id="sch-features" align="center" title="School administration, fees and sponsorship together" />
+          <SectionTitle id="sch-features" align="center" title={t('sections.school-management.featuresTitle')} />
           <Features p={p} variant="grid" icons={[Users, ClipboardCheck, Wallet, HeartHandshake, FileBarChart, ShieldCheck]} />
         </div>
       </PSection>
@@ -78,7 +81,7 @@ export default function SchoolManagementPage() {
       {/* How it works */}
       <PSection labelledBy="sch-steps">
         <div className={CONTAINER}>
-          <SectionTitle id="sch-steps" title="Up and running in three steps" />
+          <SectionTitle id="sch-steps" title={t('sections.school-management.stepsTitle')} />
           <Steps p={p} variant="line" />
         </div>
       </PSection>
@@ -87,7 +90,7 @@ export default function SchoolManagementPage() {
       <PSection tone="navy" labelledBy="sch-benefits">
         <div className={`${CONTAINER} grid gap-14 lg:grid-cols-2`}>
           <div>
-            <SectionTitle id="sch-benefits" dark title="Benefits for educational institutions" />
+            <SectionTitle id="sch-benefits" dark title={t('sections.school-management.benefitsTitle')} />
             <ul className="mt-10 space-y-6">
               {p.benefits.map((b) => (
                 <li key={b.title} className="border-l-2 border-brand-500 pl-5">
@@ -98,7 +101,7 @@ export default function SchoolManagementPage() {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-bold text-white lg:mt-3">Who it is for</h3>
+            <h3 className="text-xl font-bold text-white lg:mt-3">{t('sections.school-management.audiencesTitle')}</h3>
             <Audiences p={p} dark stacked />
           </div>
         </div>

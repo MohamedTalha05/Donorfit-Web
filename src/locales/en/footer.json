@@ -39,13 +39,14 @@
     "privacy": "Privacy Policy",
     "cookies": "Cookie Policy",
     "terms": "Terms & Conditions",
-    "impressum": "Impressum / Legal Notice",
+    "refund": "Cancellation & Refund Policy",
+    "impressum": "Imprint",
     "accessibility": "Accessibility Statement",
     "cookiePreferences": "Cookie Preferences"
   },
   "bottom": {
     "rights": "© {{year}} Donorfit. All rights reserved. Technology + Humanity + Trust.",
     "focus": "Primary Focus: European Union & International Nonprofits",
-    "hq": "Headquarters: Frankfurt am Main, Germany"
+    "hq": "Headquarters: Wolfsburg, Germany"
   }
 }

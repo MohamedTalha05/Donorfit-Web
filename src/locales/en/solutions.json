@@ -452,9 +452,9 @@
       "button": "Return to Platform Home"
     },
     "hero": {
-      "getStarted": "Get Started {{audience}}",
+      "getStarted": "Get Started for {{name}}",
       "walkthrough": "Book an Audience Walkthrough",
-      "tailoredFor": "Tailored for {{audience}}"
+      "tailoredFor": "Tailored for {{name}}"
     },
     "images": {
       "field": "Humanitarian development workers collaborating with community members in field",
@@ -466,7 +466,7 @@
     },
     "challenges": {
       "kicker": "Specific Pain Points",
-      "title": "Challenges addressed for {{audience}}",
+      "title": "Challenges addressed for {{name}}",
       "label": "Challenge 0{{n}}"
     },
     "features": {
@@ -475,12 +475,12 @@
     },
     "products": {
       "kicker": "Recommended Products",
-      "title": "Recommended modules for {{audience}}",
+      "title": "Recommended modules for {{name}}",
       "explore": "Explore dedicated specifications & workflows →"
     },
     "faqs": {
       "kicker": "Audience Questions",
-      "title": "Common questions {{audience}}"
+      "title": "Common questions from {{name}}"
     }
   }
 }

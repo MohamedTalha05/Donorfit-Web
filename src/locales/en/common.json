@@ -22,12 +22,24 @@
     "water-well": "Water Well",
     "qurbani": "Qurbani",
     "school-management": "School Management",
-    "money-pool": "Money Pool"
+    "money-pool": "MoneyPool"
   },
   "labels": {
     "exampleData": "Example data",
     "sampleData": "Sample data",
-    "comingSoon": "Coming soon",
+    "comingSoon": "Coming Soon",
     "required": "Required"
+  },
+  "validation": {
+    "required": "Please fill in this field.",
+    "select": "Please select an option from the list.",
+    "checkbox": "Please tick this box to continue.",
+    "email": "Please enter a valid email address.",
+    "url": "Please enter a valid web address (e.g. https://example.org).",
+    "tooShort": "Please enter at least {{min}} characters.",
+    "tooLong": "Please enter no more than {{max}} characters.",
+    "pattern": "Please use the requested format.",
+    "number": "Please enter a valid number.",
+    "invalid": "Please check this field."
   }
 }

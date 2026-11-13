@@ -17,15 +17,30 @@
   "closeMenu": "Navigationsmenü schließen",
   "language": "Sprache",
   "languages": {
-    "en": { "name": "English", "short": "EN" },
-    "de": { "name": "Deutsch", "short": "DE" }
+    "en": {
+      "name": "English",
+      "short": "EN"
+    },
+    "de": {
+      "name": "Deutsch",
+      "short": "DE"
+    }
   },
   "currentLanguage": "{{name}} (aktuell)",
   "switchTo": "Zu {{name}} wechseln",
   "resourceItems": {
-    "blog": { "label": "Blog", "description": "Fundraising-Leitfäden und Strategien zur Spenderbindung" },
-    "videos": { "label": "Videos", "description": "Rundgänge und Produkt-Tutorials" },
-    "docs": { "label": "Produktdokumentation", "description": "Einrichtungsanleitungen und Funktionsreferenz" }
+    "blog": {
+      "label": "Blog",
+      "description": "Fundraising-Leitfäden und Strategien zur Spenderbindung"
+    },
+    "videos": {
+      "label": "Videos",
+      "description": "Rundgänge und Produkt-Tutorials"
+    },
+    "docs": {
+      "label": "Produkt­dokumentation",
+      "description": "Einrichtungsanleitungen und Funktionsreferenz"
+    }
   },
   "skipToContent": "Zum Hauptinhalt springen"
 }

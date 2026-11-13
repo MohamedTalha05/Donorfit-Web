@@ -25,9 +25,12 @@ import GuidesPage from './pages/GuidesPage.tsx';
 import CaseStudiesPage from './pages/CaseStudiesPage.tsx';
 import FAQsPage from './pages/FAQsPage.tsx';
 import PartnersPage from './pages/PartnersPage.tsx';
+import IntegrationsPage from './pages/IntegrationsPage.tsx';
+import IntegrationDetailPage from './pages/IntegrationDetailPage.tsx';
 import PricingPage from './pages/PricingPage.tsx';
 import LegalPage from './pages/LegalPage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
+import { isHiddenProduct } from './data/productPages.ts';
 import MembershipPage from './pages/products/MembershipPage.tsx';
 import SponsorshipPage from './pages/products/SponsorshipPage.tsx';
 import WaterWellPage from './pages/products/WaterWellPage.tsx';
@@ -52,7 +55,8 @@ function AppContent() {
     if (currentRoute === '/membership') return <MembershipPage />;
     if (currentRoute === '/water-well') return <WaterWellPage />;
     if (currentRoute === '/qurbani') return <QurbaniPage />;
-    if (currentRoute === '/school-management') return <SchoolManagementPage />;
+    // School Management is hidden until launch (see HIDDEN_PRODUCTS): its route shows the 404 page.
+    if (currentRoute === '/school-management') return isHiddenProduct('school-management') ? <NotFoundPage /> : <SchoolManagementPage />;
     if (currentRoute === '/donations') return <ProductPage slug="donations" />;
     if (currentRoute === '/recurring-giving') return <ProductPage slug="recurring-giving" />;
     if (currentRoute === '/donor-management') return <ProductPage slug="donor-management" />;
@@ -72,6 +76,8 @@ function AppContent() {
     if (currentRoute === '/contact') return <ContactPage />;
     if (currentRoute === '/security') return <SecurityPage />;
     if (currentRoute === '/partners') return <PartnersPage />;
+    if (currentRoute === '/integrations') return <IntegrationsPage />;
+    if (currentRoute.startsWith('/integrations/')) return <IntegrationDetailPage key={currentRoute} id={currentRoute.slice('/integrations/'.length).replace(/\/$/, '')} />;
     if (currentRoute === '/pricing') return <PricingPage />;
 
     // 5. Resources & Knowledge Base
@@ -88,6 +94,7 @@ function AppContent() {
     if (currentRoute === '/privacy-policy') return <LegalPage type="privacy" />;
     if (currentRoute === '/cookie-policy') return <LegalPage type="cookies" />;
     if (currentRoute === '/impressum') return <LegalPage type="impressum" />;
+    if (currentRoute === '/refund-policy') return <LegalPage type="refund" />;
     if (currentRoute === '/terms') return <LegalPage type="terms" />;
     if (currentRoute === '/accessibility') return <LegalPage type="accessibility" />;
 

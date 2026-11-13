@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserPlus, Layers, IdCard, Landmark, RefreshCw, Users, QrCode } from 'lucide-react';
-import { PRODUCT_PAGES } from '../../data/productPages.ts';
+import { useFormat, useT } from '../../i18n/index.tsx';
 import {
   CONTAINER,
   PSection,
@@ -16,14 +16,18 @@ import {
   Related,
   FinalCTA,
   ExampleNote,
-  PRODUCT_PHOTOS,
+  useProductPage,
+  useProductPhoto,
+  useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { MembershipPreview } from '../../components/product/ProductPreviews.tsx';
 
-const p = PRODUCT_PAGES.membership;
-
 export default function MembershipPage() {
-  const photo = PRODUCT_PHOTOS.membership;
+  const p = useProductPage('membership');
+  const photo = useProductPhoto('membership');
+  const badge = useProductBadge('membership');
+  const t = useT('products');
+  const { date } = useFormat();
   return (
     <div className="home-v2 overflow-x-clip bg-white">
       {/* Hero: split, photo with a membership card */}
@@ -31,7 +35,7 @@ export default function MembershipPage() {
         <div className={`${CONTAINER} grid items-center gap-14 lg:grid-cols-[1fr_1.05fr]`}>
           <div>
             <span className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-brand-800 ring-1 ring-brand-200">
-              <IdCard className="h-3.5 w-3.5" aria-hidden="true" /> Donorfit Membership
+              <IdCard className="h-3.5 w-3.5" aria-hidden="true" /> {badge}
             </span>
             <h1 id="mem-hero" className="mt-6 text-[2.6rem] font-extrabold leading-[1.02] text-navy-950 sm:text-6xl">
               {p.headline}
@@ -52,15 +56,15 @@ export default function MembershipPage() {
               className="absolute -bottom-10 left-0 w-72 rotate-[-4deg] rounded-2xl bg-gradient-to-br from-navy-950 via-navy-800 to-brand-700 p-5 text-white shadow-2xl sm:-left-4 sm:w-80"
             >
               <div className="flex items-center justify-between text-xs text-white/70">
-                <span>Member card</span>
-                <span className="rounded-full bg-brand-500 px-2 py-0.5 text-[10px] font-bold text-navy-950">Active</span>
+                <span>{t('sections.membership.hero.card')}</span>
+                <span className="rounded-full bg-brand-500 px-2 py-0.5 text-[10px] font-bold text-navy-950">{t('sections.membership.hero.status')}</span>
               </div>
               <div className="hv-display mt-5 text-xl font-extrabold">Amina Khan</div>
-              <div className="mt-1 text-xs text-white/70">Individual plan · member since 2021</div>
+              <div className="mt-1 text-xs text-white/70">{t('sections.membership.hero.plan', { year: 2021 })}</div>
               <div className="mt-5 flex items-end justify-between">
                 <div className="text-[11px] text-white/60">
-                  Renews
-                  <div className="text-sm font-semibold text-white">12 March</div>
+                  {t('sections.membership.hero.renews')}
+                  <div className="text-sm font-semibold text-white">{date('2026-03-12', { day: 'numeric', month: 'long' })}</div>
                 </div>
                 <QrCode className="h-10 w-10 text-white/80" />
               </div>
@@ -83,7 +87,7 @@ export default function MembershipPage() {
       {/* Features */}
       <PSection tone="soft" labelledBy="mem-features">
         <div className={CONTAINER}>
-          <SectionTitle id="mem-features" title="From sign-up to renewal" sub="Everything you need to run memberships, in the order your members experience it." />
+          <SectionTitle id="mem-features" title={t('sections.membership.featuresTitle')} sub={t('sections.membership.featuresSub')} />
           <Features p={p} variant="list" icons={[UserPlus, Layers, IdCard, Landmark, RefreshCw, Users]} />
         </div>
       </PSection>
@@ -92,13 +96,13 @@ export default function MembershipPage() {
       <PSection tone="navy" labelledBy="mem-preview" className="overflow-hidden">
         <div aria-hidden="true" className="hv-grid-dark absolute inset-0" />
         <div className={`${CONTAINER} relative grid items-center gap-12 lg:grid-cols-[1fr_1.6fr]`}>
-          <div>
-            <SectionTitle id="mem-preview" dark title="Your members at a glance" sub="See who is active, whose renewal is due and who has lapsed — and export an up-to-date list for your general assembly." />
+          <div className="min-w-0">
+            <SectionTitle id="mem-preview" dark title={t('sections.membership.previewTitle')} sub={t('sections.membership.previewSub')} />
             <div className="mt-10">
               <Steps p={p} variant="stack" dark />
             </div>
           </div>
-          <div>
+          <div className="min-w-0">
             <MembershipPreview />
             <ExampleNote dark />
           </div>
@@ -108,9 +112,9 @@ export default function MembershipPage() {
       {/* Benefits & audiences */}
       <PSection tone="aqua" labelledBy="mem-benefits">
         <div className={CONTAINER}>
-          <SectionTitle id="mem-benefits" title="What changes for your organisation" />
+          <SectionTitle id="mem-benefits" title={t('sections.membership.benefitsTitle')} />
           <Benefits p={p} variant="statements" />
-          <h3 className="mt-20 text-xl font-bold text-navy-950">Built for</h3>
+          <h3 className="mt-20 text-xl font-bold text-navy-950">{t('ui.builtFor')}</h3>
           <Audiences p={p} />
         </div>
       </PSection>

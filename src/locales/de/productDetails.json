@@ -1,10 +1,10 @@
 {
   "items": {
     "sponsorship": {
-      "title": "Patenschaftsverwaltung",
+      "title": "Patenschafts­verwaltung",
       "shortDescription": "Verwalten Sie Kinder-, Gemeinde- und Projektpatenschaften mit lückenloser Nachverfolgung aller Beiträge und regelmäßigen Updates für Ihre Pat:innen.",
-      "h1": "Patenschaftsverwaltung für gemeinnützige Organisationen und humanitäre Teams",
-      "subheadline": "Pat:innen, Begünstigte, regelmäßige Zusagen und Fortschrittsberichte – transparent organisiert auf einer einheitlichen Plattform.",
+      "h1": "Patenschafts­verwaltung für gemeinnützige Organisationen und humanitäre Teams",
+      "subheadline": "Pat:innen, Begünstigte, regelmäßige Zusagen und Fortschritts­berichte – transparent organisiert auf einer einheitlichen Plattform.",
       "heroKicker": "Patenschaften ganzheitlich steuern",
       "problemsAddressed": [
         {
@@ -13,10 +13,10 @@
         },
         {
           "title": "Hohe Abwanderung bei regelmäßigen Zahlungen und fehlgeschlagene Lastschriften",
-          "description": "Abgelaufene Kreditkarten oder fehlgeschlagene SEPA-Lastschriftmandate führen zu nicht eingezogenen Beträgen – ohne automatische Benachrichtigung der Spender:innen oder erneute Einzugsversuche."
+          "description": "Abgelaufene Kreditkarten oder fehlgeschlagene SEPA-Lastschrift­mandate führen zu nicht eingezogenen Beträgen – ohne automatische Benachrichtigung der Spender:innen oder erneute Einzugsversuche."
         },
         {
-          "title": "Aufwendige Berichte für Pat:innen und Wirkungsnachweise",
+          "title": "Aufwendige Berichte für Pat:innen und Wirkungs­nachweise",
           "description": "Mitarbeiter:innen verbringen Hunderte Stunden damit, Briefe, Schulnoten und Fotos zur gesundheitlichen Entwicklung manuell aufzubereiten, statt Hilfe vor Ort zu leisten."
         }
       ],
@@ -29,11 +29,11 @@
         {
           "step": "02",
           "title": "Nahtloses Onboarding von Pat:innen und automatisierte Zusagen",
-          "description": "Pat:innen wählen ein Projekt oder ein Kind aus, erteilen ein rechtskonformes SEPA-Lastschriftmandat oder zahlen per Karte und erhalten automatisch ein Willkommenspaket."
+          "description": "Pat:innen wählen ein Projekt oder ein Kind aus, erteilen ein rechtskonformes SEPA-Lastschrift­mandat oder zahlen per Karte und erhalten automatisch ein Willkommenspaket."
         },
         {
           "step": "03",
-          "title": "Kontinuierliche Wirkungsberichte und automatische Verlängerungen",
+          "title": "Kontinuierliche Wirkungs­berichte und automatische Verlängerungen",
           "description": "Versenden Sie strukturierte Jahresberichte, verfolgen Sie erreichte Meilensteine und sichern Sie ununterbrochene monatliche Beiträge – automatisch."
         }
       ],
@@ -47,8 +47,8 @@
           "description": "Native SEPA-Lastschrift und Kartenzahlung mit proaktiven Ablauf-Erinnerungen und automatischen Wiederholungsplänen."
         },
         {
-          "title": "Würdevolle Fortschrittsberichte",
-          "description": "Sicheres digitales Portal für Bildungsmeilensteine, Fortschrittsberichte aus Gemeinden und persönliche Dankesnachrichten."
+          "title": "Würdevolle Fortschritts­berichte",
+          "description": "Sicheres digitales Portal für Bildungsmeilensteine, Fortschritts­berichte aus Gemeinden und persönliche Dankesnachrichten."
         },
         {
           "title": "Strenger Datenschutz und Kinderschutz",
@@ -57,7 +57,7 @@
       ],
       "benefits": [
         {
-          "title": "Verwaltungsaufwand um 65 % senken",
+          "title": "Verwaltungs­aufwand um 65 % senken",
           "description": "Schluss mit dem manuellen Abgleich monatlicher Banküberweisungen und mit Tabellen zur Zuordnung von Pat:innen."
         },
         {
@@ -65,13 +65,13 @@
           "description": "Halten Sie Pat:innen emotional verbunden – durch zeitnahe Updates und reibungsloses regelmäßiges Spenden."
         },
         {
-          "title": "Transparente Mittelverwendung",
+          "title": "Transparente Mittel­verwendung",
           "description": "Jeder Euro und jedes Pfund wird direkt von der Zahlung der Pat:innen bis zum vorgesehenen Gemeindeprojekt nachverfolgt."
         }
       ],
       "faqs": [
         {
-          "question": "Können wir sowohl 1:1-Kinderpatenschaften als auch gebündelte Projektpatenschaften abbilden?",
+          "question": "Können wir sowohl 1:1-Kinder­patenschaften als auch gebündelte Projektpatenschaften abbilden?",
           "answer": "Ja. Donorfit unterstützt Einzelpatenschaften, Mehrfachpatenschaften (mehrere Pat:innen pro Kind) sowie umfassende Patenschaften für Gemeindeprojekte."
         },
         {
@@ -80,15 +80,15 @@
         },
         {
           "question": "Unterstützt Donorfit SEPA-Lastschriften für Spender:innen in Europa?",
-          "answer": "Ja. Donorfit erzeugt gültige SEPA-XML-Formate (CAMT / pain.008) und ist an moderne europäische Zahlungsanbieter angebunden – für automatisierte SEPA-Lastschriftmandate."
+          "answer": "Ja. Donorfit erzeugt gültige SEPA-XML-Formate (CAMT / pain.008) und ist an moderne europäische Zahlungs­anbieter angebunden – für automatisierte SEPA-Lastschrift­mandate."
         }
       ]
     },
     "orphan-sponsorship": {
-      "title": "Waisenpatenschaften",
+      "title": "Waisen­patenschaften",
       "shortDescription": "Spezialisierte Software für humanitäre Waisenhilfeprogramme – respektvoller Kinderschutz verbunden mit nachvollziehbarer, regelmäßiger Unterstützung.",
-      "h1": "Würdevolle Verwaltung von Waisenpatenschaften für humanitäre Organisationen",
-      "subheadline": "Bringen Sie engagierte Pat:innen mit schutzbedürftigen Kindern zusammen – mit ethischem Datenschutz, transparenter Mittelverwendung und langfristig gesicherter Versorgung.",
+      "h1": "Würdevolle Verwaltung von Waisen­patenschaften für humanitäre Organisationen",
+      "subheadline": "Bringen Sie engagierte Pat:innen mit schutzbedürftigen Kindern zusammen – mit ethischem Datenschutz, transparenter Mittel­verwendung und langfristig gesicherter Versorgung.",
       "heroKicker": "Ethische Lösungen für Kinder- und Waisenhilfe",
       "problemsAddressed": [
         {
@@ -100,7 +100,7 @@
           "description": "Pat:innen springen häufig ab, wenn Kinder die Schulstufe oder die Betreuungseinrichtung wechseln – weil zeitnahe Informationen über Meilensteine fehlen."
         },
         {
-          "title": "Komplexe grenzüberschreitende Hilfe in mehreren Währungen",
+          "title": "Komplexe grenz­überschreitende Hilfe in mehreren Währungen",
           "description": "Europäische Pat:innen, die in EUR/GBP spenden, erwarten einen transparenten Nachweis, wie ihre Mittel die lokalen Partnerbüros vor Ort erreichen."
         }
       ],
@@ -113,7 +113,7 @@
         {
           "step": "02",
           "title": "Ethische Vermittlung von Pat:innen",
-          "description": "Spender:innen richten monatliche regelmäßige Zusagen über würdevolle Profile ein, die die Würde der Kinder und Datenschutzvorgaben achten."
+          "description": "Spender:innen richten monatliche regelmäßige Zusagen über würdevolle Profile ein, die die Würde der Kinder und Datenschutz­vorgaben achten."
         },
         {
           "step": "03",
@@ -123,11 +123,11 @@
       ],
       "features": [
         {
-          "title": "Profile gemäß Kinderschutzstandards",
-          "description": "Stellen Sie die genaue Einhaltung internationaler Kinderschutzstandards sicher – inklusive automatischer Fotoschwärzung und anonymisierter Kennungen."
+          "title": "Profile gemäß Kinder­schutz­standards",
+          "description": "Stellen Sie die genaue Einhaltung internationaler Kinder­schutz­standards sicher – inklusive automatischer Fotoschwärzung und anonymisierter Kennungen."
         },
         {
-          "title": "Nachverfolgung von Versorgungsmeilensteinen",
+          "title": "Nachverfolgung von Versorgungs­meilensteinen",
           "description": "Erfassen Sie pro Begünstigtem Schulanmeldung, Gesundheitsuntersuchungen, Ernährungshilfe und die Sicherheit der Unterkunft."
         },
         {
@@ -135,8 +135,8 @@
           "description": "Regionale Feldkoordinator:innen aktualisieren Versorgungsdaten über mobile Webformulare – ohne Zugriff auf die gesamte Systemdatenbank."
         },
         {
-          "title": "Zuwendungsbestätigungen zum Jahresende",
-          "description": "Erstellen Sie mit einem Klick rechtskonforme Zuwendungsbestätigungen für verschiedene europäische Länder."
+          "title": "Zuwendungs­bestätigungen zum Jahresende",
+          "description": "Erstellen Sie mit einem Klick rechtskonforme Zuwendungs­bestätigungen für verschiedene europäische Länder."
         }
       ],
       "benefits": [
@@ -170,18 +170,18 @@
     },
     "money-pool": {
       "title": "Money Pool & Gruppenspenden",
-      "shortDescription": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moscheegemeinden, Kirchen und Ehrenamtsgruppen.",
+      "shortDescription": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moschee­gemeinden, Kirchen und Ehrenamtsgruppen.",
       "h1": "Money Pool und gemeinsames Spenden für gemeinnützige Organisationen",
       "subheadline": "Ermöglichen Sie Unterstützer:innen, Gremien und Gemeinschaften, sich hinter gemeinsamen Spendenzielen zu versammeln – bei voller finanzieller Transparenz.",
       "heroKicker": "Gemeinsam spenden, gemeinsam bewegen",
       "problemsAddressed": [
         {
           "title": "Undurchsichtige Sammelbüchsen und private Überweisungen",
-          "description": "Wer Bargeld oder Überweisungen auf private Konten sammelt, kann keine offiziellen Zuwendungsbestätigungen ausstellen – das schafft Misstrauen und Chaos in der Buchhaltung."
+          "description": "Wer Bargeld oder Überweisungen auf private Konten sammelt, kann keine offiziellen Zuwendungs­bestätigungen ausstellen – das schafft Misstrauen und Chaos in der Buchhaltung."
         },
         {
           "title": "Fehlende gemeinsame Dynamik und Meilensteine",
-          "description": "Klassische Spendenformulare wirken vereinzelt; Gruppen sammeln erfolgreicher, wenn sie gemeinsame Meilensteine zusammen feiern können."
+          "description": "Bei klassischen Spenden­formularen spendet jede:r für sich; Gruppen sammeln erfolgreicher, wenn sie gemeinsame Meilensteine zusammen feiern können."
         },
         {
           "title": "Schwierige Zuordnung von Organisator:innen und Teams",
@@ -201,8 +201,8 @@
         },
         {
           "step": "03",
-          "title": "Direkte Auszahlung an die Organisation und automatische Zuwendungsbestätigungen",
-          "description": "Die Mittel fließen sicher auf das verifizierte Bankkonto der Organisation; jede:r Spender:in erhält automatisch eine offizielle, steuerlich absetzbare Zuwendungsbestätigung."
+          "title": "Direkte Auszahlung an die Organisation und automatische Zuwendungs­bestätigungen",
+          "description": "Die Mittel fließen sicher auf das verifizierte Bankkonto der Organisation; jede:r Spender:in erhält automatisch eine offizielle, steuerlich absetzbare Zuwendungs­bestätigung."
         }
       ],
       "features": [
@@ -230,7 +230,7 @@
         },
         {
           "title": "100 % konforme Buchhaltung",
-          "description": "Für jeden im Gruppenpool gesammelten Euro wird eine eigene Zuwendungsbestätigung ausgestellt, und er wird direkt Ihrem Finanzbuch zugeordnet."
+          "description": "Jede Spende im Gruppenpool erhält eine eigene Zuwendungs­bestätigung und wird direkt Ihrer Finanzbuchhaltung zugeordnet."
         },
         {
           "title": "Neue Spender:innen gewinnen",
@@ -240,27 +240,27 @@
       "faqs": [
         {
           "question": "Verwahren die Organisator:innen das Geld auf ihrem privaten Bankkonto?",
-          "answer": "Niemals. Donorfit stellt sicher, dass alle Mittel direkt an die verifizierte gemeinnützige Organisation fließen. So sind Organisator:innen vor persönlichen steuerlichen Pflichten geschützt, und Spender:innen erhalten ihre Zuwendungsbestätigungen."
+          "answer": "Niemals. Donorfit stellt sicher, dass alle Mittel direkt an die verifizierte gemeinnützige Organisation fließen. So sind Organisator:innen vor persönlichen steuerlichen Risiken geschützt, und Spender:innen erhalten ihre Zuwendungs­bestätigungen."
         },
         {
           "question": "Können Spender:innen auf der öffentlichen Spenderwand anonym bleiben?",
-          "answer": "Ja. Mit einem einfachen Häkchen lassen sich Name oder Spendenbetrag auf der öffentlichen Wand ausblenden – die private Zuwendungsbestätigung kommt trotzdem an."
+          "answer": "Ja. Mit einem einfachen Häkchen lassen sich Name oder Spendenbetrag auf der öffentlichen Wand ausblenden – die private Zuwendungs­bestätigung kommt trotzdem an."
         }
       ]
     },
     "membership": {
-      "title": "Mitgliederverwaltung",
-      "shortDescription": "Moderne Mitgliederverwaltung, automatische Verlängerungen, gestaffelte Mitgliedsbeiträge und Mitgliederkommunikation für Vereine und Verbände.",
-      "h1": "Mitgliederverwaltung und automatisierte Mitgliedsbeiträge für gemeinnützige Organisationen",
-      "subheadline": "Vereinfachen Sie Mitgliederaufnahme, Beitragseinzug, automatische Verlängerungserinnerungen und Mitgliederkommunikation in einem übersichtlichen Arbeitsbereich.",
-      "heroKicker": "Vereinsarbeit und Mitgliederlebenszyklus",
+      "title": "Mitglieder­verwaltung",
+      "shortDescription": "Moderne Mitglieder­verwaltung, automatische Verlängerungen, gestaffelte Mitglieds­beiträge und Mitglieder­kommunikation für Vereine und Verbände.",
+      "h1": "Mitglieder­verwaltung und automatisierte Mitglieds­beiträge für gemeinnützige Organisationen",
+      "subheadline": "Vereinfachen Sie Mitglieder­aufnahme, Beitragseinzug, automatische Verlängerungs­erinnerungen und Mitglieder­kommunikation in einem übersichtlichen Arbeitsbereich.",
+      "heroKicker": "Vereinsarbeit und Mitglieder­lebenszyklus",
       "problemsAddressed": [
         {
-          "title": "Hoher Verwaltungsaufwand beim Eintreiben jährlicher Mitgliedsbeiträge",
+          "title": "Hoher Verwaltungs­aufwand beim Eintreiben jährlicher Mitglieds­beiträge",
           "description": "Papierrechnungen oder manuelle Zahlungserinnerungen führen zu verspäteten Zahlungen und vielen Austritten."
         },
         {
-          "title": "Getrennte Mitgliederdatenbanken und veraltete Kontaktdaten",
+          "title": "Getrennte Mitglieder­datenbanken und veraltete Kontaktdaten",
           "description": "Mitglieder ändern Adresse oder E-Mail, ohne ihre Daten selbst aktualisieren zu können – die Folge sind fehlerhafte Verteiler."
         },
         {
@@ -271,8 +271,8 @@
       "howItWorks": [
         {
           "step": "01",
-          "title": "Mitgliedschaftsstufen und Beitragsmodelle festlegen",
-          "description": "Richten Sie jährliche, monatliche oder lebenslange Mitgliedschaften ein – mit automatisierten wiederkehrenden SEPA-Lastschriftmandaten oder Kartenzahlung."
+          "title": "Mitgliedschafts­stufen und Beitragsmodelle festlegen",
+          "description": "Richten Sie jährliche, monatliche oder lebenslange Mitgliedschaften ein – mit automatisierten wiederkehrenden SEPA-Lastschrift­mandaten oder Kartenzahlung."
         },
         {
           "step": "02",
@@ -282,24 +282,24 @@
         {
           "step": "03",
           "title": "Automatisierter Lebenszyklus und Verlängerungen",
-          "description": "Das System verschickt automatisch Verlängerungserinnerungen, aktualisiert Zahlungsarten und versendet Bestätigungen an Mitglieder."
+          "description": "Das System verschickt automatisch Verlängerungs­erinnerungen, aktualisiert Zahlungsarten und versendet Bestätigungen an Mitglieder."
         }
       ],
       "features": [
         {
-          "title": "Gestaffelte Mitgliedschaftsmodelle",
+          "title": "Gestaffelte Mitgliedschafts­modelle",
           "description": "Konfigurieren Sie Standard-, Studierenden-, Senior:innen-, Organisations- oder Fördermitgliedschaften mit individuellen Beitragsstrukturen."
         },
         {
-          "title": "Automatischer Einzug von Mitgliedsbeiträgen",
-          "description": "Verwaltung von SEPA-Lastschriftmandaten (Basis/Firmen) und Kreditkarten-Abos mit automatischen Wiederholungsversuchen."
+          "title": "Automatischer Einzug von Mitglieds­beiträgen",
+          "description": "Verwaltung von SEPA-Lastschrift­mandaten (Basis/Firmen) und Kreditkarten-Abos mit automatischen Wiederholungsversuchen."
         },
         {
           "title": "Self-Service-Portal für Mitglieder",
           "description": "Mitglieder aktualisieren selbst ihre Kontaktdaten, laden jährliche Beitragsbescheinigungen herunter und verwalten ihren Status."
         },
         {
-          "title": "Mitgliederverzeichnis und Segmente",
+          "title": "Mitglieder­verzeichnis und Segmente",
           "description": "Filtern Sie Mitglieder nach Status, Eintrittsdatum, Stimmberechtigung oder Regionalgruppe für gezielte Kommunikation."
         }
       ],
@@ -310,7 +310,7 @@
         },
         {
           "title": "Korrekte Listen für Versammlungen und Abstimmungen",
-          "description": "Erstellen Sie Echtzeitberichte über aktive Mitglieder mit bezahltem Beitrag – für Mitgliederversammlungen und eine satzungskonforme Vereinsführung."
+          "description": "Erstellen Sie Echtzeitberichte über aktive Mitglieder mit bezahltem Beitrag – für Mitglieder­versammlungen und eine satzungskonforme Vereinsführung."
         },
         {
           "title": "Zufriedenere Mitglieder",
@@ -319,39 +319,39 @@
       ],
       "faqs": [
         {
-          "question": "Können wir jährliche Mitgliedsbeiträge per SEPA-Lastschrift einziehen?",
-          "answer": "Ja. Donorfit erstellt rechtskonforme SEPA-Lastschriftmandate mit Vorabankündigung (Pre-Notification) und Bankdatei-Exporten gemäß den europäischen Bankvorschriften."
+          "question": "Können wir jährliche Mitglieds­beiträge per SEPA-Lastschrift einziehen?",
+          "answer": "Ja. Donorfit erstellt rechtskonforme SEPA-Lastschrift­mandate mit Vorabankündigung (Pre-Notification) und Bankdatei-Exporten gemäß den europäischen Bankvorschriften."
         },
         {
           "question": "Können wir für Firmenmitglieder andere Beiträge festlegen als für Einzelmitglieder?",
-          "answer": "Ja. Sie können beliebig viele Mitgliedschaftsstufen mit unterschiedlichen Beiträgen, Verlängerungszyklen und individuellen Antragsfeldern anlegen."
+          "answer": "Ja. Sie können beliebig viele Mitgliedschafts­stufen mit unterschiedlichen Beiträgen, Verlängerungszyklen und individuellen Antragsfeldern anlegen."
         }
       ]
     },
     "donations": {
-      "title": "Spendenmanagement",
+      "title": "Spenden­management",
       "shortDescription": "Konversionsstarke Spendenseiten in Ihrem Design und eingebettete Spenden-Widgets – entwickelt für europäische und internationale Organisationen.",
-      "h1": "Moderne Spendentechnologie für NGOs und gemeinnützige Organisationen",
-      "subheadline": "Bieten Sie schnelle, ansprechende und barrierearme Spendenerlebnisse auf allen Geräten – mit europäischen Zahlungsarten und automatischen Zuwendungsbestätigungen.",
+      "h1": "Moderne Spenden­technologie für NGOs und gemeinnützige Organisationen",
+      "subheadline": "Bieten Sie schnelle, ansprechende und barrierearme Spendenerlebnisse auf allen Geräten – mit europäischen Zahlungsarten und automatischen Zuwendungs­bestätigungen.",
       "heroKicker": "Reibungslose Online-Spenden",
       "problemsAddressed": [
         {
-          "title": "Umständliche, veraltete Spendenformulare",
+          "title": "Umständliche, veraltete Spenden­formulare",
           "description": "Viele Spender:innen brechen ab, wenn Formulare langsam sind, nicht für Mobilgeräte optimiert sind oder vertraute regionale Zahlungsarten fehlen."
         },
         {
-          "title": "Chaotische Erstellung von Gift Aid und Zuwendungsbestätigungen",
-          "description": "Finanzteams verlieren zum Jahresende Wochen damit, einzelne PDF-Zuwendungsbestätigungen für das Finanzamt zusammenzustellen."
+          "title": "Chaotische Erstellung von Gift Aid und Zuwendungs­bestätigungen",
+          "description": "Finanzteams verlieren zum Jahresende Wochen damit, einzelne PDF-Zuwendungs­bestätigungen für das Finanzamt zusammenzustellen."
         },
         {
-          "title": "Hohe Transaktions- und Plattformgebühren",
+          "title": "Hohe Transaktions- und Plattform­gebühren",
           "description": "Viele allgemeine Plattformen behalten 5–10 % jeder Spende ein – Geld, das der eigentlichen Arbeit der Organisation fehlt."
         }
       ],
       "howItWorks": [
         {
           "step": "01",
-          "title": "Spendenformulare in Ihrem Design erstellen",
+          "title": "Spenden­formulare in Ihrem Design erstellen",
           "description": "Binden Sie Formulare ein oder nutzen Sie eigenständige Kampagnenseiten – exakt in den Farben, Schriften und Bildern Ihrer Organisation."
         },
         {
@@ -361,8 +361,8 @@
         },
         {
           "step": "03",
-          "title": "Automatische Zuwendungsbestätigungen und Synchronisierung",
-          "description": "Spender:innen erhalten sofort offizielle Zuwendungsbestätigungen gemäß den Vorgaben der lokalen Finanzbehörden – automatisch mit Ihrem CRM synchronisiert."
+          "title": "Automatische Zuwendungs­bestätigungen und Synchronisierung",
+          "description": "Spender:innen erhalten sofort offizielle Zuwendungs­bestätigungen gemäß den Vorgaben der lokalen Finanzbehörden – automatisch mit Ihrem CRM synchronisiert."
         }
       ],
       "features": [
@@ -376,7 +376,7 @@
         },
         {
           "title": "Übernahme der Gebühren durch Spender:innen",
-          "description": "Unterstützer:innen können optional die Transaktionsgebühren übernehmen – so werden bis zu 85 % der Gebühren gedeckt."
+          "description": "Unterstützer:innen können optional die Transaktions­gebühren übernehmen – so werden bis zu 85 % der Gebühren gedeckt."
         },
         {
           "title": "Eingebettete Widgets und ganzseitige Kampagnen",
@@ -390,7 +390,7 @@
         },
         {
           "title": "Steuerliche Vorgaben automatisch erfüllen",
-          "description": "Stellen Sie deutsche Zuwendungsbestätigungen, französische Reçus fiscaux oder britische Gift-Aid-Nachweise automatisch aus."
+          "description": "Stellen Sie deutsche Zuwendungs­bestätigungen, französische Reçus fiscaux oder britische Gift-Aid-Nachweise automatisch aus."
         },
         {
           "title": "Volle Datenhoheit",
@@ -403,8 +403,8 @@
           "answer": "Donorfit unterstützt SEPA-Lastschrift, Kredit- und Debitkarten (Visa, Mastercard, Amex), Apple Pay, Google Pay, PayPal, iDEAL (Niederlande), Bancontact (Belgien) sowie Sofort/Klarna."
         },
         {
-          "question": "Können wir länderspezifische Zuwendungsbestätigungen erstellen?",
-          "answer": "Ja. Donorfit bietet offizielle Vorlagen für Zuwendungsbestätigungen gemäß europäischem Gemeinnützigkeitsrecht, u. a. für Deutschland (Bestätigung über Geldzuwendungen), Österreich, Frankreich und Großbritannien."
+          "question": "Können wir länderspezifische Zuwendungs­bestätigungen erstellen?",
+          "answer": "Ja. Donorfit bietet offizielle Vorlagen für Zuwendungs­bestätigungen gemäß europäischem Gemeinnützigkeitsrecht, u. a. für Deutschland (Bestätigung über Geldzuwendungen), Österreich, Frankreich und Großbritannien."
         }
       ]
     },
@@ -412,7 +412,7 @@
       "title": "Regelmäßige Spenden & Spenderbindung",
       "shortDescription": "Schaffen Sie planbare monatliche Einnahmen und langfristige Spenderbeziehungen – mit automatischer Rückgewinnung ausgefallener Zahlungen und intelligenten Upgrades auf regelmäßiges Spenden.",
       "h1": "Planbares regelmäßiges Spenden für nachhaltige Wirkung",
-      "subheadline": "Machen Sie aus einmaligen Unterstützer:innen engagierte monatliche Förder:innen – mit automatisierten Lastschriften, Schutz vor Kartenausfällen und guter Spenderbetreuung.",
+      "subheadline": "Machen Sie aus einmaligen Unterstützer:innen engagierte monatliche Förder:innen – mit automatisierten Lastschriften, Schutz vor Kartenausfällen und guter Spender­betreuung.",
       "heroKicker": "Nachhaltige Liquidität für gemeinnützige Organisationen",
       "problemsAddressed": [
         {
@@ -469,7 +469,7 @@
           "description": "Stabilisieren Sie Ihr Budget, damit Programmverantwortliche sich auf langfristige Gemeinschaftsprojekte festlegen können."
         },
         {
-          "title": "Über 60 % gefährdeter Daueraufträge zurückgewinnen",
+          "title": "Über 60 % gefährdeter regelmäßiger Spenden zurückgewinnen",
           "description": "Automatische Mahn-E-Mails und intelligente Wiederholungslogik holen fehlgeschlagene regelmäßige Spenden zurück – ohne unangenehme Anrufe."
         },
         {
@@ -489,10 +489,10 @@
       ]
     },
     "donor-management": {
-      "title": "Spenderverwaltung & CRM",
+      "title": "Spender­verwaltung & CRM",
       "shortDescription": "Bündeln Sie Spenderprofile, vollständige Spendenhistorien, automatisierte Kommunikation und Beziehungsnotizen in einem übersichtlichen europäischen CRM.",
-      "h1": "Zentrale Spenderverwaltung, speziell für gemeinnützige Organisationen",
-      "subheadline": "Schluss mit verstreuten Tabellen. Pflegen Sie aussagekräftige Spenderhistorien und persönliche Kommunikationsverläufe – vollständig DSGVO-konform.",
+      "h1": "Zentrale Spender­verwaltung, speziell für gemeinnützige Organisationen",
+      "subheadline": "Schluss mit verstreuten Tabellen. Pflegen Sie aussagekräftige Spender­historien und persönliche Kommunikations­verläufe – vollständig DSGVO-konform.",
       "heroKicker": "Vernetztes CRM für gemeinnützige Organisationen",
       "problemsAddressed": [
         {
@@ -504,7 +504,7 @@
           "description": "Großspender:innen, die Standard-Spendenbriefe erhalten, fühlen sich nicht wertgeschätzt – während treue monatliche Spender:innen überflüssige Bitten bekommen."
         },
         {
-          "title": "Kopfzerbrechen bei DSGVO-Konformität und Einwilligungsnachweisen",
+          "title": "Kopfzerbrechen bei DSGVO-Konformität und Einwilligungs­nachweisen",
           "description": "Wer Opt-ins, Kommunikationspräferenzen und Löschanfragen nicht dokumentiert, riskiert hohe Bußgelder in Europa."
         }
       ],
@@ -521,14 +521,14 @@
         },
         {
           "step": "03",
-          "title": "Persönliche Spenderbetreuung",
+          "title": "Persönliche Spender­betreuung",
           "description": "Dokumentieren Sie Gespräche, weisen Sie Folgeaufgaben an Beziehungsverantwortliche zu und automatisieren Sie Dankesnachrichten zu Jahrestagen."
         }
       ],
       "features": [
         {
           "title": "Zusammengeführte Spenden-Zeitleiste",
-          "description": "Sehen Sie jede Spende, jede Patenschaftszusage, jede Zuwendungsbestätigung und jede E-Mail-Interaktion in einem chronologischen Verlauf."
+          "description": "Sehen Sie jede Spende, jede Patenschaftszusage, jede Zuwendungs­bestätigung und jede E-Mail-Interaktion in einem chronologischen Verlauf."
         },
         {
           "title": "Individuelle Attribute und Tags",
@@ -554,7 +554,7 @@
         },
         {
           "title": "Garantierte DSGVO-Konformität",
-          "description": "Von Grund auf nach europäischen Datenschutzvorgaben entwickelt – für die Gewissheit von Vorstand und Stiftungsrat."
+          "description": "Von Grund auf nach europäischen Datenschutz­vorgaben entwickelt – für die Gewissheit von Vorstand und Stiftungsrat."
         }
       ],
       "faqs": [
@@ -569,15 +569,15 @@
       ]
     },
     "campaign-management": {
-      "title": "Kampagnenmanagement",
+      "title": "Kampagnen­management",
       "shortDescription": "Planen, starten und überwachen Sie Nothilfe-Spendenaufrufe, saisonale Kampagnen und Peer-to-Peer-Aktionen mit Live-Verfolgung Ihrer Spendenziele.",
       "h1": "Wirkungsstarkes Management von Fundraising-Kampagnen",
-      "subheadline": "Starten Sie Nothilfeaufrufe, saisonale Kampagnen und Spendenaktionen in der Gemeinschaft – schnell einsatzbereit und mit Fortschrittsanalysen in Echtzeit.",
+      "subheadline": "Starten Sie Nothilfeaufrufe, saisonale Kampagnen und Spendenaktionen in der Gemeinschaft – schnell einsatzbereit und mit Fortschritts­analysen in Echtzeit.",
       "heroKicker": "Zielorientierte Fundraising-Kampagnen",
       "problemsAddressed": [
         {
           "title": "Langsame Reaktion bei humanitären Notlagen",
-          "description": "Wenn Erdbeben oder Krisen eintreten, kostet das tagelange Warten auf Entwickler:innen für Aufrufseiten Menschenleben und die Spendenbereitschaft geht verloren."
+          "description": "Wenn Erdbeben oder Krisen eintreten, kostet tagelanges Warten auf Entwickler:innen für Aufrufseiten Menschenleben – und die Spendenbereitschaft geht verloren."
         },
         {
           "title": "Keine Zuordnung über mehrere Kanäle hinweg",
@@ -664,7 +664,7 @@
           "description": "Organisationen erkennen oft erst Monate nach sinkenden Einnahmen, wann und warum regelmäßige Spender:innen abspringen."
         },
         {
-          "title": "Schwierigkeiten mit gesetzlichen Rechnungslegungsstandards für gemeinnützige Organisationen",
+          "title": "Schwierigkeiten mit gesetzlichen Rechnungslegungs­standards für gemeinnützige Organisationen",
           "description": "Herkömmliche Zahlungssysteme bereiten Exporte nicht in den üblichen Buchhaltungs- und Steuerstrukturen für gemeinnützige Organisationen auf."
         }
       ],
@@ -738,7 +738,7 @@
     "hero": {
       "getStartedWith": "{{product}} jetzt starten",
       "trustGdpr": "EU-DSGVO-konform",
-      "trustTax": "Automatische Zuwendungsbestätigungen"
+      "trustTax": "Automatische Zuwendungs­bestätigungen"
     },
     "visual": {
       "appTab": "Echtzeit-Grafik: {{product}}",
@@ -748,7 +748,7 @@
     },
     "images": {
       "sponsorship": "Selbstbewusste Kinder lernen in einem hellen Gemeinde- und Bildungszentrum",
-      "foodRelief": "Engagierte Ehrenamtliche packen Lebensmittelpakete in einem Gemeindesaal",
+      "foodRelief": "Engagierte Ehrenamtliche packen Lebensmittel­pakete in einem Gemeindesaal",
       "gala": "Benefizgala mit Unterstützer:innen gemeinnütziger Arbeit, die gemeinsame Fortschritte feiern",
       "recurring": "Leitungsteam einer gemeinnützigen Organisation prüft Kennzahlen zur Bindung regelmäßiger Spender:innen",
       "team": "Engagiertes Team einer gemeinnützigen Organisation arbeitet in einem modernen Büro zusammen"
@@ -763,7 +763,7 @@
       "title": "So funktioniert {{product}} in drei Schritten."
     },
     "capabilities": {
-      "kicker": "Produktfunktionen",
+      "kicker": "Produkt­funktionen",
       "title": "Speziell für die Abläufe gemeinnütziger Organisationen entwickelt."
     },
     "benefits": {
@@ -822,7 +822,7 @@
         "confirmMonthly": "{{amount}} monatlich bestätigen",
         "confirmSingle": "Spende über {{amount}} bestätigen",
         "ssl": "SSL 256-Bit",
-        "receipt": "Zuwendungsbestätigung wird sofort erstellt"
+        "receipt": "Zuwendungs­bestätigung wird sofort erstellt"
       },
       "sponsorship": {
         "title": "Dossier: Begünstigte:r & Pat:in",
@@ -849,7 +849,7 @@
         "collectedFrom": "Gesammelt von {{count}} Spender:innen",
         "recent": "Letzte Gruppenspende",
         "quote": "„Von den Schüler:innen des Albertus-Magnus-Gymnasiums. Wir stehen an Ihrer Seite!“",
-        "receipts": "Zuwendungsbestätigungen werden automatisch ausgestellt",
+        "receipts": "Zuwendungs­bestätigungen werden automatisch ausgestellt",
         "wall": "Spenderwand ansehen →"
       },
       "crm": {
@@ -861,7 +861,7 @@
         "recoveryNote": "Per automatischer Wiederholungslogik",
         "timeline": "Aktuelle Unterstützer-Zeitleiste",
         "majorGift": "{{amount}} Großspende",
-        "tagged": "Tag: Stiftungsfonds Sauberes Wasser · Zuwendungsbestätigung #DE-8810 versendet"
+        "tagged": "Tag: Stiftungsfonds Sauberes Wasser · Zuwendungs­bestätigung #DE-8810 versendet"
       }
     },
     "live": {
@@ -874,7 +874,7 @@
       "activeRecurring": "Aktive Dauerspender:innen",
       "activeCount": "{{count}} aktiv",
       "retention": "{{pct}} Bindungsrate",
-      "autoReceipts": "Automatische Zuwendungsbestätigungen",
+      "autoReceipts": "Automatische Zuwendungs­bestätigungen",
       "instantPdf": "Sofort als PDF",
       "estdv": "konform mit § 50 Abs. 1 EStDV",
       "tabs": {
@@ -897,7 +897,7 @@
       "settled": "Verbucht",
       "card": "Karte",
       "securityNote": "Alle Zahlungen werden mit 256-Bit-TLS-Verschlüsselung und nach ISO-27001-Standards verarbeitet.",
-      "receiptAutomation": "{{pct}} automatisierte Zuwendungsbestätigungen",
+      "receiptAutomation": "{{pct}} automatisierte Zuwendungs­bestätigungen",
       "locations": {
         "munich": "München, Deutschland",
         "lyon": "Lyon, Frankreich",
@@ -913,7 +913,7 @@
         "eastAfrica": "Bildungsfonds Ostafrika",
         "winterRelief": "Winter-Nothilfe",
         "healthClinics": "Gesundheitszentren vor Ort",
-        "endowment": "Stiftungsvermögen",
+        "endowment": "Stiftungs­vermögen",
         "orphanCare": "Schutz für Waisenkinder",
         "schoolNutrition": "Schulverpflegung Grundschule",
         "fieldClinic": "Mobile Notfallklinik"
@@ -921,7 +921,7 @@
       "crm": {
         "tier": "Großspender:in",
         "memberMeta": "Mitglieds-ID: DF-EU-98214 · Unterstützerin seit März 2021",
-        "taxCertificate": "Zuwendungsbestätigung 2026 (PDF)",
+        "taxCertificate": "Zuwendungs­bestätigung 2026 (PDF)",
         "lifetime": "Gesamtwirkung bisher",
         "contributions": "{{count}} Spenden insgesamt",
         "recurring": "Regelmäßige Spende",
@@ -933,7 +933,7 @@
       },
       "allocation": {
         "kicker": "Geschützte Liste der Begünstigten",
-        "title": "Zuordnung von Gemeinde- und Kinderpatenschaften",
+        "title": "Zuordnung von Gemeinde- und Kinder­patenschaften",
         "roleView": "Rollenbasierte Ansicht für Fallbetreuung",
         "activeCare": "Aktive Betreuung",
         "child1": {

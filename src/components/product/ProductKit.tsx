@@ -2,7 +2,8 @@ import React from 'react';
 import { ArrowRight, ArrowUpRight, Check, Plus, X, IdCard, HeartHandshake, Droplets, Moon, GraduationCap, PiggyBank, type LucideIcon } from 'lucide-react';
 import { useModal } from '../../context/ModalContext.tsx';
 import HomeLink from '../home/HomeLink.tsx';
-import { PRODUCT_PAGES, type ProductPageContent, type ProductSlug } from '../../data/productPages.ts';
+import { useT, useTx } from '../../i18n/index.tsx';
+import { PRODUCT_META, visibleRelated, type ProductPageContent, type ProductPageText, type ProductSlug } from '../../data/productPages.ts';
 
 import membershipImg from '../../assets/images/hero/membership.jpg';
 import sponsorshipImg from '../../assets/images/hero/sponsorship.jpg';
@@ -20,14 +21,34 @@ export const PRODUCT_ICONS: Record<ProductSlug, LucideIcon> = {
   'money-pool': PiggyBank,
 };
 
-export const PRODUCT_PHOTOS: Record<ProductSlug, { src: string; alt: string; pos?: string }> = {
-  membership: { src: membershipImg, alt: 'Community members gathered under a tree for an outdoor association meeting', pos: '50% 60%' },
-  sponsorship: { src: sponsorshipImg, alt: 'A schoolboy writing carefully in his notebook at his desk', pos: '55% 45%' },
-  'water-well': { src: waterwellImg, alt: 'Children filling yellow jerrycans at a village hand-pump well', pos: '45% 50%' },
-  qurbani: { src: qurbaniImg, alt: 'Goats and rams at a livestock market ahead of Eid al-Adha', pos: '60% 55%' },
-  'school-management': { src: schoolImg, alt: 'A teacher leading a lesson with uniformed students in a classroom', pos: '50% 40%' },
-  'money-pool': { src: moneypoolImg, alt: 'Volunteers standing together behind donation tubs at a community collection drive', pos: '45% 30%' },
+/** Product photos; the alt text lives in products:photos.<slug> (see useProductPhoto). */
+export const PRODUCT_PHOTOS: Record<ProductSlug, { src: string; pos?: string }> = {
+  membership: { src: membershipImg, pos: '50% 60%' },
+  sponsorship: { src: sponsorshipImg, pos: '55% 45%' },
+  'water-well': { src: waterwellImg, pos: '45% 50%' },
+  qurbani: { src: qurbaniImg, pos: '60% 55%' },
+  'school-management': { src: schoolImg, pos: '50% 40%' },
+  'money-pool': { src: moneypoolImg, pos: '45% 30%' },
 };
+
+/** Product page structure merged with its translated text (products:pages.<slug>). */
+export function useProductPage(slug: ProductSlug): ProductPageContent {
+  const tx = useTx('products');
+  return { ...PRODUCT_META[slug], ...tx<ProductPageText>(`pages.${slug}`) };
+}
+
+/** Product photo with its translated alt text. */
+export function useProductPhoto(slug: ProductSlug) {
+  const t = useT('products');
+  return { ...PRODUCT_PHOTOS[slug], alt: t(`photos.${slug}`) };
+}
+
+/** Hero eyebrow badge text: "Donorfit <product>". */
+export function useProductBadge(slug: ProductSlug) {
+  const t = useT('products');
+  const tc = useT('common');
+  return t('ui.badge', { name: tc(`products.${slug}`) });
+}
 
 /* ------------------------------------------------------------------ */
 /* Layout                                                              */
@@ -90,11 +111,16 @@ export function SectionTitle({
 /* Buttons                                                             */
 /* ------------------------------------------------------------------ */
 
-export function GetStartedButton({ product, dark = true, label = 'Get Started' }: { product: string; dark?: boolean; label?: string }) {
+/* Product names → option ids used by the Get Started and Book a Demo forms (only products those forms list). */
+const GET_STARTED_IDS: Record<string, string> = { MoneyPool: 'moneypool', Membership: 'membership', Sponsorship: 'sponsorship' };
+const DEMO_IDS: Record<string, string> = { MoneyPool: 'money-pool', Membership: 'membership', Sponsorship: 'sponsorship' };
+
+export function GetStartedButton({ product, dark = true, label }: { product: string; dark?: boolean; label?: string }) {
   const { openGetStarted } = useModal();
+  const tc = useT('common');
   return (
-    <button type="button" onClick={() => openGetStarted(product)} className={`hv-btn hv-btn-primary ${dark ? '' : ''}`}>
-      {label}
+    <button type="button" onClick={() => openGetStarted(GET_STARTED_IDS[product])} className={`hv-btn hv-btn-primary ${dark ? '' : ''}`}>
+      {label ?? tc('actions.getStarted')}
       <ArrowRight className="h-4 w-4" aria-hidden="true" />
     </button>
   );
@@ -102,9 +128,10 @@ export function GetStartedButton({ product, dark = true, label = 'Get Started' }
 
 export function DemoButton({ product, dark = true }: { product: string; dark?: boolean }) {
   const { openBookDemo } = useModal();
+  const tc = useT('common');
   return (
-    <button type="button" onClick={() => openBookDemo(product)} className={`hv-btn ${dark ? 'hv-btn-ghost' : 'hv-btn-outline'}`}>
-      Book a Demo
+    <button type="button" onClick={() => openBookDemo(DEMO_IDS[product])} className={`hv-btn ${dark ? 'hv-btn-ghost' : 'hv-btn-outline'}`}>
+      {tc('actions.bookDemo')}
     </button>
   );
 }
@@ -114,11 +141,12 @@ export function DemoButton({ product, dark = true }: { product: string; dark?: b
 /* ------------------------------------------------------------------ */
 
 export function ProblemSolution({ p, variant = 'rows' }: { p: ProductPageContent; variant?: 'rows' | 'split' }) {
+  const t = useT('products');
   if (variant === 'split')
     return (
       <div className="mt-12 grid overflow-hidden rounded-[1.75rem] border border-neutral-200 bg-white lg:grid-cols-2">
         <div className="bg-soft p-7 sm:p-10">
-          <h3 className="text-sm font-bold text-neutral-500">Without Donorfit</h3>
+          <h3 className="text-sm font-bold text-neutral-500">{t('ui.withoutDonorfit')}</h3>
           <ul className="mt-5 space-y-5">
             {p.problems.map((x) => (
               <li key={x.problem} className="flex gap-3 text-[15px] leading-relaxed text-neutral-700">
@@ -129,7 +157,7 @@ export function ProblemSolution({ p, variant = 'rows' }: { p: ProductPageContent
           </ul>
         </div>
         <div className="p-7 sm:p-10">
-          <h3 className="text-sm font-bold text-brand-800">With Donorfit {p.name}</h3>
+          <h3 className="text-sm font-bold text-brand-800">{t('ui.withDonorfit', { name: p.name })}</h3>
           <ul className="mt-5 space-y-5">
             {p.problems.map((x) => (
               <li key={x.solution} className="flex gap-3 text-[15px] leading-relaxed text-navy-950">
@@ -347,15 +375,17 @@ export function Audiences({ p, dark = false, stacked = false }: { p: ProductPage
 /* ------------------------------------------------------------------ */
 
 export function FAQ({ p }: { p: ProductPageContent }) {
+  const t = useT('products');
+  const tc = useT('common');
   const id = `${p.slug}-faq-title`;
   return (
     <PSection labelledBy={id}>
       <div className={`${CONTAINER} grid gap-12 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-20`}>
         <div className="lg:sticky lg:top-28 lg:self-start">
-          <SectionTitle id={id} title={`${p.name} questions`} sub="Can’t find your answer? Our team is happy to help." />
+          <SectionTitle id={id} title={t('ui.faqTitle', { name: p.name })} sub={t('ui.faqSub')} />
           <div className="mt-6">
             <HomeLink to="/contact" className="inline-flex items-center gap-1.5 text-[15px] font-bold text-brand-700 transition-colors hover:text-brand-900">
-              Contact our team <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              {tc('actions.contactTeam')} <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </HomeLink>
           </div>
         </div>
@@ -386,14 +416,15 @@ export function FAQ({ p }: { p: ProductPageContent }) {
 /* ------------------------------------------------------------------ */
 
 export function Related({ p }: { p: ProductPageContent }) {
+  const t = useT('products');
   const id = `${p.slug}-related-title`;
   return (
     <PSection tone="soft" labelledBy={id}>
       <div className={CONTAINER}>
-        <SectionTitle id={id} title="Works well with" sub={`Products organisations often use alongside ${p.name}.`} />
+        <SectionTitle id={id} title={t('ui.relatedTitle')} sub={t('ui.relatedSub', { name: p.name })} />
         <ul className="mt-10 grid gap-5 md:grid-cols-3">
-          {p.related.map((slug) => {
-            const r = PRODUCT_PAGES[slug];
+          {visibleRelated(p.slug, p.related).map((slug) => {
+            const r = PRODUCT_META[slug];
             const Icon = PRODUCT_ICONS[slug];
             const photo = PRODUCT_PHOTOS[slug];
             return (
@@ -416,8 +447,8 @@ export function Related({ p }: { p: ProductPageContent }) {
                   </div>
                   <div className="flex flex-1 items-start justify-between gap-4 p-6">
                     <div>
-                      <h3 className="text-lg font-bold text-navy-950">{r.name}</h3>
-                      <p className="mt-1 text-sm leading-relaxed text-neutral-600">{r.navDescription}</p>
+                      <h3 className="text-lg font-bold text-navy-950">{t(`pages.${slug}.name`)}</h3>
+                      <p className="mt-1 text-sm leading-relaxed text-neutral-600">{t(`pages.${slug}.navDescription`)}</p>
                     </div>
                     <ArrowUpRight className="h-5 w-5 shrink-0 text-neutral-400 transition-colors group-hover:text-brand-700" aria-hidden="true" />
                   </div>
@@ -437,6 +468,7 @@ export function Related({ p }: { p: ProductPageContent }) {
 
 export function FinalCTA({ p }: { p: ProductPageContent }) {
   const id = `${p.slug}-cta-title`;
+  const t = useT('products');
   const Icon = PRODUCT_ICONS[p.slug];
   return (
     <section aria-labelledby={id} className="px-4 py-20 sm:px-6 sm:py-24 lg:px-8">
@@ -451,7 +483,7 @@ export function FinalCTA({ p }: { p: ProductPageContent }) {
             <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/70">{p.cta.body}</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-            <GetStartedButton product={p.name} />
+            <GetStartedButton product={p.name} label={p.slug === 'money-pool' ? t('sections.money-pool.ctaPrimary') : undefined} />
             <DemoButton product={p.name} />
           </div>
         </div>
@@ -462,5 +494,6 @@ export function FinalCTA({ p }: { p: ProductPageContent }) {
 
 /* Small helper: "Example data" caption for previews. */
 export function ExampleNote({ dark = false }: { dark?: boolean }) {
-  return <p className={`mt-4 text-center text-xs ${dark ? 'text-white/55' : 'text-neutral-500'}`}>Preview shows example data.</p>;
+  const t = useT('products');
+  return <p className={`mt-4 text-center text-xs ${dark ? 'text-white/55' : 'text-neutral-500'}`}>{t('ui.exampleNote')}</p>;
 }

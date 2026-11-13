@@ -1,6 +1,6 @@
 import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { productByRoute } from '../data/productPages.ts';
+import { productByRoute, isHiddenRoute } from '../data/productPages.ts';
 import { useT } from '../i18n/index.tsx';
 import BrandLogo from './BrandLogo.tsx';
 import { ArrowRight, ShieldCheck, Lock } from 'lucide-react';
@@ -55,6 +55,7 @@ const LEGAL_LINKS: FooterLink[] = [
   { route: '/privacy-policy', key: 'privacy' },
   { route: '/cookie-policy', key: 'cookies' },
   { route: '/terms', key: 'terms' },
+  { route: '/refund-policy', key: 'refund' },
   { route: '/impressum', key: 'impressum' },
   { route: '/accessibility', key: 'accessibility' },
 ];
@@ -67,7 +68,8 @@ export default function Footer() {
   const t = useT('footer');
   const tc = useT('common');
   // The homepage and product landing pages end with their own CTA, so skip the duplicate banner there.
-  const showPreCta = currentRoute !== '/' && currentRoute !== '' && !productByRoute(currentRoute);
+  const showPreCta =
+    currentRoute !== '/' && currentRoute !== '' && (!productByRoute(currentRoute) || isHiddenRoute(currentRoute));
 
   /** Real <a href> (language-prefixed) so Cmd/Ctrl-click works; plain clicks use SPA navigation. */
   const NavLink = ({ link, className = linkClass, children }: { link: FooterLink; className?: string; children?: React.ReactNode }) => (
@@ -141,7 +143,7 @@ export default function Footer() {
             <div key={col.title} className="space-y-3">
               <div className={headingClass}>{t(`columns.${col.title}`)}</div>
               <ul className="space-y-2">
-                {col.links.map((link) => (
+                {col.links.filter((link) => !isHiddenRoute(link.route)).map((link) => (
                   <li key={link.route}>
                     <NavLink link={link} />
                   </li>

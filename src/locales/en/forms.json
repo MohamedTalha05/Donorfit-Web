@@ -103,7 +103,7 @@
       "receivedAfter": " with sandbox credentials and payment gateway verification steps within one business day.",
       "selectedModules": "Selected Modules:",
       "modulesActive": "{{count}} Modules Active",
-      "modulesActiveOne": "{{count}} Modules Active",
+      "modulesActiveOne": "{{count}} Module Active",
       "jurisdiction": "Jurisdiction & Currency:",
       "dataResidency": "Data Residency:",
       "dataResidencyValue": "European Union (Frankfurt / Dublin)",

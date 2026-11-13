@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { useT, useTx, useFormat } from '../i18n/index.tsx';
+import { useT, useTx, useFormat, normalizeForSearch } from '../i18n/index.tsx';
 import type { BlogPost } from '../types.ts';
 import { Search, ArrowRight, BookOpen, Clock, Tag } from 'lucide-react';
 
@@ -30,9 +30,9 @@ export default function BlogIndexPage() {
   const filteredPosts = posts.filter((post) => {
     const matchesCategory = selectedCategory === 'all' || post.category === t(`categories.${selectedCategory}`);
     const matchesSearch = 
-      post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.category.toLowerCase().includes(searchQuery.toLowerCase());
+      normalizeForSearch(post.title).includes(normalizeForSearch(searchQuery)) ||
+      normalizeForSearch(post.excerpt).includes(normalizeForSearch(searchQuery)) ||
+      normalizeForSearch(post.category).includes(normalizeForSearch(searchQuery));
     return matchesCategory && matchesSearch;
   });
 

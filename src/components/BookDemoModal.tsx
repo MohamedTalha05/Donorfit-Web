@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { X, CheckCircle2, Calendar, Clock, ShieldCheck, ArrowRight } from 'lucide-react';
 import BrandLogo from './BrandLogo.tsx';
@@ -26,9 +26,16 @@ export default function BookDemoModal() {
     annualVolume: '100k-500k',
     interest: selectedModule || 'general',
     preferredDate: '',
-    preferredTime: '10:00 AM CET',
+    preferredTime: '09:00 AM CET',
     notes: '',
   });
+
+  // The modal stays mounted, so apply a preset product each time it opens (ignore values the form doesn't list).
+  useEffect(() => {
+    if (isBookDemoOpen && selectedModule && INTERESTS.includes(selectedModule)) {
+      setFormData((f) => ({ ...f, interest: selectedModule }));
+    }
+  }, [isBookDemoOpen, selectedModule]);
 
   if (!isBookDemoOpen) return null;
 
