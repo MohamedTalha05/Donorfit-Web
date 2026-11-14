@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "badge": "Payment gateway integrations",
+    "title": "Multiple Payment Gateways for Global Fundraising",
+    "body": "Connect with multiple payment gateway integrations through Donorfit. Give your donors and supporters convenient payment options while managing donations, fundraising contributions, sponsorships and membership payments through one platform.",
+    "explore": "Explore Payment Gateways",
+    "start": "Get Started",
+    "visualLabel": "Five payment gateways connected to the Donorfit fundraising platform",
+    "visualProviders": "Payment gateways",
+    "visualPlatform": "One fundraising platform",
+    "visualUses": "Your fundraising"
+  },
+  "intro": {
+    "title": "One Platform. Multiple Payment Gateway Integrations.",
+    "body": [
+      "Organisations need flexible and convenient ways to receive payments from donors and supporters. Donorfit brings multiple payment gateway integrations together, helping organisations access supported payment providers according to their requirements.",
+      "Whether your organisation operates locally or serves supporters internationally, explore the available payment gateway integrations and choose a provider that meets your payment processing needs."
+    ],
+    "facts": [
+      { "title": "5 payment gateway integrations", "text": "Stripe, PayPal, GoCardless, Mollie and Micropayment." },
+      { "title": "Cards, wallets, direct debit and more", "text": "Online payment methods offered by the providers, from cards to local bank payments." },
+      { "title": "Free to use", "text": "No Donorfit platform fee. Transaction charges are set by your provider." }
+    ]
+  },
+  "gateways": {
+    "title": "Explore All Payment Gateways Supported by Donorfit",
+    "sub": "Every online payment gateway Donorfit currently integrates with, in one place. Compare what each provider offers for nonprofit payment processing and online donation payments.",
+    "offered": "Payment methods offered",
+    "learnMore": "Learn more",
+    "learnMoreAria": "Learn more about the {{name}} payment gateway integration",
+    "logoAlt": "{{name}} logo – payment gateway integrated with Donorfit",
+    "items": {
+      "stripe": "A global payment platform for card payments and digital wallets. Connected to Donorfit, Stripe processes the online donation payments supporters make through your forms.",
+      "paypal": "One of the most widely used online payment services. Supporters log in to their PayPal account and confirm the payment without entering card details.",
+      "gocardless": "A specialist in bank payments by direct debit, including SEPA and UK Bacs. Well suited to regular giving, membership fees and sponsorships.",
+      "mollie": "A payment provider headquartered in Amsterdam, offering cards and popular local European payment methods such as iDEAL and Bancontact.",
+      "micropayment": "A payment service provider based in Germany, offering payment methods many donors in Germany know, such as direct debit, card payments and prepayment."
+    },
+    "note": "The lists show what each provider offers. Which payment methods, countries and currencies are available to your organisation depends on the provider, your account with them and your settings."
+  },
+  "global": {
+    "title": "Flexible Payment Gateway Options for Organisations Worldwide",
+    "body": [
+      "Donorfit aims to help organisations manage fundraising payments through multiple supported payment gateway integrations. Different providers may offer different payment methods, currencies and regional availability.",
+      "Explore the available providers and identify the payment integration that best fits your organisation’s requirements and the locations you serve."
+    ],
+    "checkTitle": "Before choosing an international payment gateway, check",
+    "checks": [
+      { "title": "Countries", "text": "Where the provider accepts organisations and where your supporters can pay." },
+      { "title": "Currencies", "text": "Which currencies the provider supports for your account." },
+      { "title": "Payment methods", "text": "Which methods are common with your supporters and enabled for your account." },
+      { "title": "Account requirements", "text": "What the provider needs to verify your organisation." }
+    ],
+    "link": "International organisations: what to confirm before launch"
+  },
+  "methods": {
+    "title": "Multiple Payment Methods for Your Supporters",
+    "sub": "Online donation payments can be made with the methods your connected provider offers. Available methods depend on the selected payment provider, the country and your account configuration – not every method is available through every gateway.",
+    "via": "Offered by",
+    "items": {
+      "cards": { "title": "Credit and debit cards", "text": "Card payments, for example Visa, Mastercard and American Express through Stripe." },
+      "wallets": { "title": "Digital wallets", "text": "Apple Pay and Google Pay through Stripe, Apple Pay through Mollie." },
+      "debit": { "title": "Direct debit", "text": "SEPA Direct Debit, Bacs Direct Debit in the UK through GoCardless, and direct debit through Micropayment." },
+      "paypal": { "title": "PayPal", "text": "Supporters pay with their PayPal balance, linked bank account or linked card." },
+      "transfer": { "title": "Bank transfer", "text": "Prepayment by bank transfer through Micropayment." },
+      "local": { "title": "Local European methods", "text": "iDEAL in the Netherlands and Bancontact in Belgium through Mollie." }
+    }
+  },
+  "steps": {
+    "title": "Connect Your Preferred Payment Gateway",
+    "sub": "Four steps from exploring providers to accepting payments.",
+    "items": [
+      { "title": "Explore providers", "text": "Review the available payment gateways supported by Donorfit." },
+      { "title": "Choose a provider", "text": "Select a payment provider that suits your organisation, its supporters and the locations you serve." },
+      { "title": "Connect your account", "text": "Follow the integration process to configure your provider account. The provider verifies your organisation, and our team can help if you need it." },
+      { "title": "Accept payments", "text": "Start collecting payments using the available Donorfit payment functionality." }
+    ],
+    "needsTitle": "What you usually need",
+    "needs": [
+      "An account with the provider in your organisation’s name",
+      "Your organisation’s details verified with the provider",
+      "Administrator access to the provider’s dashboard"
+    ]
+  },
+  "uses": {
+    "title": "One Payment Platform for Multiple Fundraising Activities",
+    "sub": "The payment gateway you connect processes payments made through Donorfit, across your fundraising solutions.",
+    "items": {
+      "donations": { "title": "Donations and fundraising campaigns", "text": "One-off gifts through donation forms you can embed on your website." },
+      "money-pool": { "title": "MoneyPool crowdfunding", "text": "Contributions to one shared project goal, each recorded and receipted individually." },
+      "membership": { "title": "Membership contributions", "text": "Dues collected through recurring billing, with automatic retries for failed payments." },
+      "sponsorship": { "title": "Sponsorship payments", "text": "Monthly sponsor contributions tracked per sponsorship, with automatic retries." },
+      "water-well": { "title": "Water Well projects", "text": "Donations towards each well’s fundraising target, with progress shown as they arrive." },
+      "qurbani": { "title": "Qurbani contributions", "text": "Online contributions for the animals and shares your organisation offers." }
+    },
+    "explore": "Explore {{name}}",
+    "solutionsTitle": "Payment solutions for your type of organisation"
+  },
+  "why": {
+    "title": "More Payment Flexibility for Your Organisation",
+    "sub": "Why charities and nonprofits value a choice of payment providers.",
+    "items": [
+      { "title": "Multiple payment provider options", "text": "Choose from five integrated payment gateways instead of being tied to one." },
+      { "title": "Convenient choices for donors", "text": "Offer the payment methods your supporters already use." },
+      { "title": "Flexible payment processing", "text": "Pick a provider for one-off gifts, regular giving or both." },
+      { "title": "For different fundraising activities", "text": "Donations, crowdfunding, memberships, sponsorships and seasonal campaigns." },
+      { "title": "Provider-dependent regional options", "text": "Local methods such as iDEAL, Bancontact or Bacs where your provider offers them." },
+      { "title": "A unified fundraising platform", "text": "Payments, donors and campaigns managed together in Donorfit." }
+    ]
+  },
+  "pricing": {
+    "title": "Free Fundraising Platform. Transparent Payment Processing.",
+    "body": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Fees and processing conditions may vary depending on the provider, payment method, country and account agreement.",
+    "points": [
+      { "title": "No Donorfit platform fee", "text": "You can register and use Donorfit without a monthly platform fee." },
+      { "title": "Fees set by your provider", "text": "Transaction charges come from the provider you connect, under your agreement with them." },
+      { "title": "Optional cover-the-fee", "text": "Donors can choose to cover the transaction fee, so more of their gift reaches you." }
+    ],
+    "link": "See pricing"
+  },
+  "faq": {
+    "title": "Payment gateway FAQs",
+    "sub": "Answers about payment gateway integrations for nonprofits and charities. If your question isn’t here, our team is happy to help.",
+    "contact": "Contact our team",
+    "items": [
+      { "question": "What payment gateways does Donorfit support?", "answer": "Donorfit integrates with five payment gateways: Stripe, PayPal, GoCardless, Mollie and Micropayment. Each has its own integration page describing the payment methods it offers and what you need before connecting it." },
+      { "question": "Does Donorfit offer multiple payment gateway integrations?", "answer": "Yes. Donorfit offers integrations with several payment providers, so your organisation can choose the gateway that suits its supporters, its fundraising activities and the locations it serves." },
+      { "question": "Which payment gateway is suitable for international organisations?", "answer": "It depends on where your organisation is registered and where your supporters are. Stripe is a global payment platform for cards and wallets, PayPal is widely used for online payments, Mollie focuses on European payment methods, GoCardless on direct debit in SEPA countries and the UK, and Micropayment on methods familiar to donors in Germany. Always check the provider’s own country and currency coverage for your organisation." },
+      { "question": "Can organisations choose their preferred payment provider?", "answer": "Yes. You choose the supported payment provider that fits your organisation, for example based on the payment methods your supporters prefer, the countries you work in and the provider’s fees." },
+      { "question": "Which online payment methods are supported?", "answer": "That depends on the provider you connect and what is enabled for your account. Across the integrated providers, the methods offered include credit and debit cards, Apple Pay and Google Pay, SEPA and Bacs Direct Debit, PayPal, bank transfer, iDEAL and Bancontact." },
+      { "question": "Can donors make donations through different payment gateways?", "answer": "Donors pay with the methods your organisation offers on its Donorfit forms. Whether you can connect more than one provider and offer them side by side depends on your Donorfit setup, so please talk to our team about your requirements." },
+      { "question": "Are international payments supported?", "answer": "International donation payments depend on your payment provider: which countries it serves, which currencies it supports and how your account is configured. Donorfit does not guarantee acceptance in every country. Please check the provider’s conditions before launching." },
+      { "question": "Are payment gateway transaction fees included in Donorfit?", "answer": "No. Donorfit is free to use, and the payment provider charges its own transaction fees according to its pricing and your agreement with it. Donors can choose to cover the fee if you offer that option." },
+      { "question": "How can I connect a payment gateway to Donorfit?", "answer": "Open an account with the provider in your organisation’s name and complete its verification. Then connect that account to Donorfit and complete the configuration the provider requires. Our team can guide you through the process. Activation depends on the provider’s own verification." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Simplify Your Payment Collection?",
+    "body": "Bring your fundraising activities together with Donorfit. Explore the available payment integrations and choose a supported payment gateway for your organisation.",
+    "primary": "Get Started",
+    "secondary": "Contact Us"
+  }
+}

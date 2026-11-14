@@ -179,7 +179,7 @@ const inlineLink =
 /** Same order as home:platform.features. */
 const PLATFORM_FEATURES = [
   { icon: HandCoins, to: '/donations' },
-  { icon: RefreshCw, to: '/recurring-giving' },
+  { icon: RefreshCw, to: '/recurring-management' },
   { icon: Flag, to: '/campaign-management' },
   { icon: Users, to: '/donor-management' },
   { icon: HeartHandshake, to: '/sponsorship' },
@@ -198,10 +198,10 @@ const PAYMENT_GROUP_ICONS = [Banknote, CreditCard, Wallet];
 
 /** Same order as home:solutions.items. */
 const SOLUTIONS = [
-  { icon: Globe2, to: '/solutions/ngos' },
-  { icon: Landmark, to: '/solutions/foundations' },
+  { icon: Globe2, to: '/solutions/for-ngos' },
+  { icon: Landmark, to: '/solutions/for-foundations' },
   { icon: Moon, to: '/money-pool' },
-  { icon: Building2, to: '/solutions/charities' },
+  { icon: Building2, to: '/solutions/for-charities' },
 ];
 
 /** Same order as home:overview.highlights / forms.features / campaigns.features. */
@@ -603,7 +603,7 @@ export default function HomePage() {
               />
             </div>
             <div data-reveal>
-              <TextLink tone="dark" to="/recurring-giving">
+              <TextLink tone="dark" to="/recurring-management">
                 {t('recurring.link')}
               </TextLink>
             </div>
@@ -846,15 +846,15 @@ export default function HomePage() {
           </div>
           <p data-reveal className="mt-10 text-center text-[15px] text-neutral-600">
             {t('solutions.alsoFor.before')}{' '}
-            <HomeLink to="/solutions/sponsorship-organizations" className={inlineLink}>
+            <HomeLink to="/solutions/for-sponsorship-orgs" className={inlineLink}>
               {t('solutions.alsoFor.sponsorship')}
             </HomeLink>
             ,{' '}
-            <HomeLink to="/solutions/membership-organizations" className={inlineLink}>
+            <HomeLink to="/solutions/for-membership-orgs" className={inlineLink}>
               {t('solutions.alsoFor.membership')}
             </HomeLink>{' '}
             {t('solutions.alsoFor.and')}{' '}
-            <HomeLink to="/solutions/international-organizations" className={inlineLink}>
+            <HomeLink to="/solutions/for-international-orgs" className={inlineLink}>
               {t('solutions.alsoFor.international')}
             </HomeLink>
             {t('solutions.alsoFor.after')}

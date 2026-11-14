@@ -1,486 +1,1415 @@
 {
-  "items": {
-    "ngos": {
-      "targetAudience": "Für NGOs",
-      "audienceName": "NGOs",
-      "h1": "Fundraising-Technologie für Nicht­regierungs­organisationen",
-      "subheadline": "Skalieren Sie grenz­überschreitende Abläufe, verwalten Sie internationale Patenschaften und erfüllen Sie strenge europäische Datenschutz­vorgaben – alles in einem System.",
-      "heroKicker": "Skalierbare Abläufe für Nicht­regierungs­organisationen",
-      "overview": "Nicht­regierungs­organisationen arbeiten in einem anspruchsvollen Umfeld zwischen Projektarbeit vor Ort und Rechenschaft gegenüber Spender:innen. Donorfit bietet die Infrastruktur, um Zuwendungen über mehrere Länder, Sprachen und Währungen hinweg effizient abzuwickeln.",
-      "keyChallenges": [
-        {
-          "title": "Grenz­überschreitende Spenden in mehreren Währungen",
-          "description": "Spenden aus der EU, dem Vereinigten Königreich und aller Welt einnehmen, ohne große Anteile durch Währungsumrechnung zu verlieren."
-        },
-        {
-          "title": "Datenabstimmung mit Teams vor Ort",
-          "description": "Projektfortschritte und Updates zu Begünstigten sicher aus entlegenen Regionen empfangen – ohne Risiko von Datenpannen."
-        },
-        {
-          "title": "Hohe Prüfanforderungen und transparente Mittel­verwendung",
-          "description": "Institutionelle Geldgeber und private Unterstützer:innen erwarten den Nachweis, dass jeder Dollar und jeder Euro die vorgesehenen Hilfsprojekte erreicht."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Mehrere Währungen & internationale Zahlungswege",
-          "description": "Native SEPA-Lastschrift, SWIFT-Abgleich und lokale digitale Zahlungsarten für Spender:innen weltweit."
-        },
-        {
-          "title": "Rollenbasierter Zugang für Teams vor Ort",
-          "description": "Updates, Fortschrittsfotos und Kennzahlen aus den Gemeinden sicher erfassen – mit fein abgestuften Zugriffsrechten."
-        },
-        {
-          "title": "Lückenloser Prüfpfad & getrennte Mittel­buchführung",
-          "description": "Strikte Trennung von Projektmitteln und transparente Berichte, bereit für Prüfungen durch Behörden und institutionelle Fördergeber."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "65 %",
-          "label": "Weniger Verwaltungs­aufwand",
-          "context": "Beim grenz­überschreitenden Zahlungsabgleich und bei Updates für Spender:innen"
-        },
-        {
-          "metric": "99,4 %",
-          "label": "Erfüllungsquote bei Zusagen",
-          "context": "Durch automatisches Mahnwesen und intelligente SEPA-Wiederholungsversuche"
-        },
-        {
-          "metric": "100 %",
-          "label": "DSGVO-Konformität",
-          "context": "Alle Daten in ISO-27001-zertifizierten Rechenzentren in Europa"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Können unsere internationalen Büros Donorfit in verschiedenen Sprachen nutzen?",
-          "answer": "Ja. Donorfit unterstützt mehrsprachige öffentliche Spenden­formulare und Verwaltungsoberflächen für länderübergreifende NGO-Teams."
-        },
-        {
-          "question": "Wie geht Donorfit mit institutionellen Fördermitteln neben Einzelspenden um?",
-          "answer": "Mit unseren Auswertungen verfolgen Sie Meilensteine großer institutioneller Förderungen und regelmäßige Einzelspenden direkt nebeneinander."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Sponsorship – Patenschafts­verwaltung"
-        },
-        {
-          "name": "Spender­verwaltung (CRM)"
-        },
-        {
-          "name": "Berichte & Analysen"
-        }
-      ]
-    },
-    "charities": {
-      "targetAudience": "Für gemeinnützige Organisationen",
-      "audienceName": "gemeinnützige Organisationen",
-      "h1": "Fundraising-Lösungen für gemeinnützige Organisationen",
-      "subheadline": "Begeistern Sie Spender:innen vor Ort und bundesweit, automatisieren Sie Zuwendungs­bestätigungen und steigern Sie regelmäßige Spenden mit passgenauen Werkzeugen.",
-      "heroKicker": "Zeitgemäßes Spenden für gemeinnützige Organisationen",
-      "overview": "Gemeinnützige Organisationen leben vom Wohlwollen engagierter Menschen. Donorfit macht das Spenden so einfach wie möglich: Unterstützer:innen richten regelmäßige Spenden mühelos ein und erhalten automatisch rechtskonforme Zuwendungs­bestätigungen.",
-      "keyChallenges": [
-        {
-          "title": "Aufwendige Verwaltung von Zuwendungs­bestätigungen",
-          "description": "Tausende Zuwendungs­bestätigungen zum Jahresende manuell auszustellen, kostet viel Arbeitszeit und führt zu Beschwerden von Spender:innen."
-        },
-        {
-          "title": "Hohe Abwanderung bei jährlichen Spendenaufrufen",
-          "description": "Wer sich ausschließlich auf Spendenaufrufe zu den Feiertagen verlässt, hat stark schwankende Einnahmen."
-        },
-        {
-          "title": "Veraltete Spendenseiten mit geringer Conversion",
-          "description": "Langsame, nicht mobiloptimierte Spenden­formulare führen dazu, dass potenzielle Spender:innen mittendrin abbrechen."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Automatischer Versand von Zuwendungs­bestätigungen",
-          "description": "Rechtskonforme deutsche Geldzuwendungsbestätigungen, französische Reçus Fiscaux und britische Gift-Aid-Belege – ganz ohne manuellen Aufwand."
-        },
-        {
-          "title": "Intelligentes Upselling zur monatlichen Spende",
-          "description": "Gewinnen Sie Einmalspender:innen schon im Spendenprozess als dauerhafte monatliche Unterstützer:innen."
-        },
-        {
-          "title": "Moderner, mobil optimierter Checkout",
-          "description": "Spenden mit einem Fingertipp über Apple Pay, Google Pay, PayPal und europäische Lastschrift."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "34 %",
-          "label": "Höhere Spenden-Conversion",
-          "context": "Im Vergleich zu klassischen mehrseitigen Spenden­formularen"
-        },
-        {
-          "metric": "82 %",
-          "label": "Spender:innen übernehmen Gebühren",
-          "context": "Freiwillige Übernahme der Transaktionskosten"
-        },
-        {
-          "metric": "Tausende",
-          "label": "Stunden pro Jahr gespart",
-          "context": "Durch automatisierten Versand der Zuwendungs­bestätigungen zur Steuersaison"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Unterstützt Donorfit britisches Gift Aid oder deutsche Zuwendungs­bestätigungen?",
-          "answer": "Ja. Donorfit erstellt offizielle Zuwendungs­bestätigungen nach den jeweiligen europäischen Vorgaben – darunter die deutsche Spendenbescheinigung und britische Gift-Aid-Erklärungen."
-        },
-        {
-          "question": "Können wir Spenden­formulare direkt auf unserer WordPress- oder Webflow-Website einbinden?",
-          "answer": "Ja. Donorfit stellt saubere Embed-Snippets und iFrame-Optionen bereit, die sich nahtlos in jedes CMS einfügen – ohne Spender:innen von Ihrer Domain wegzuleiten."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Online-Spenden"
-        },
-        {
-          "name": "Regelmäßiges Spenden"
-        },
-        {
-          "name": "Kampagnen­management"
-        }
-      ]
-    },
-    "foundations": {
-      "targetAudience": "Für Stiftungen",
-      "audienceName": "Stiftungen",
-      "h1": "Transparente Mittel­verwaltung für gemeinnützige Stiftungen",
-      "subheadline": "Organisieren Sie Stiftungs­vermögen, verfolgen Sie zweckgebundene Zuwendungen und legen Sie gegenüber Vorstand, Stiftungsrat und Behörden lückenlos Rechenschaft ab.",
-      "heroKicker": "Governance & Mittel­verwaltung für Stiftungen",
-      "overview": "Stiftungen und öffentliche Treuhandvermögen erfordern strenge Governance, eine transparente Nachverfolgung der Mittel­verwendung und einwandfreie Finanzdokumentation. Donorfit bietet Stiftungsgremien Sicherheit und Klarheit auf institutionellem Niveau.",
-      "keyChallenges": [
-        {
-          "title": "Strenge Prüfung zweckgebundener Mittel",
-          "description": "Sicherstellen, dass zweckgebundene Zuwendungen an das Stiftungs­vermögen nicht versehentlich mit freien Verwaltungsmitteln vermischt werden."
-        },
-        {
-          "title": "Berichte für Vorstand und Stiftungsrat",
-          "description": "Quartalsberichte mit geprüften Zahlen zum Kapitalerhalt und zu Projektausschüttungen zusammenstellen."
-        },
-        {
-          "title": "Betreuung von Großspender:innen",
-          "description": "Eine diskrete, persönliche Kommunikationshistorie mit den wichtigsten Förder:innen pflegen."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Erfassung zweckgebundener Mittel",
-          "description": "Kennzeichnen Sie jedes Stiftungs­vermögen und jeden Fonds mit verbindlichen Zweckbindungen – für prüfungssichere Ausschüttungen."
-        },
-        {
-          "title": "Analysen für Vorstand und Gremien",
-          "description": "Erstellen Sie übersichtliche PDF-Berichte zu Fondswachstum, Ausschüttungsquoten und Spenderbindung."
-        },
-        {
-          "title": "Vertrauliche Förderprofile",
-          "description": "Verschlüsselte Spenderakten mit eingeschränkten Berechtigungen für die Stiftungsleitung und Verantwortliche für Großspenden."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "100 %",
-          "label": "Prüfungssichere Trennung",
-          "context": "Klare Zuordnung von zweckgebundenem und freiem Stiftungskapital"
-        },
-        {
-          "metric": "1 Klick",
-          "label": "Gremienbericht auf Knopfdruck",
-          "context": "Quartalsberichte für den Stiftungsrat sofort erstellt"
-        },
-        {
-          "metric": "ISO 27001",
-          "label": "Hosting-Standard",
-          "context": "Europäische Serverinfrastruktur auf Enterprise-Niveau mit Datenisolierung"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Können wir mehrere getrennte Stiftungsfonds in einem Donorfit-Konto verwalten?",
-          "answer": "Ja. Stiftungen können eigene Unterfonds und Kapitalkonten anlegen – mit separaten Finanzberichten und individuellen Verwendungszielen."
-        },
-        {
-          "question": "Können unsere Vorstandsmitglieder Dashboards mit reinem Lesezugriff einsehen?",
-          "answer": "Ja. Donorfit bietet reine Leserollen für Prüfer:innen und den Stiftungsrat – ohne Risiko versehentlicher Datenänderungen."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Berichte & Analysen"
-        },
-        {
-          "name": "Spender­verwaltung (CRM)"
-        },
-        {
-          "name": "Money Pool & Gruppenspenden"
-        }
-      ]
-    },
-    "sponsorship-organizations": {
-      "targetAudience": "Für Patenschafts­organisationen",
-      "audienceName": "Patenschafts­organisationen",
-      "h1": "Komplette Infrastruktur für Kinder- und Gemeinde­patenschaften",
-      "subheadline": "Bringen Sie Pat:innen und Begünstigte zusammen, verfolgen Sie regelmäßige monatliche Beiträge und versenden Sie würdevolle Fortschritts­berichte – auch in großem Umfang.",
-      "heroKicker": "Patenschafts­programme von A bis Z",
-      "overview": "Hunderte oder Tausende laufende Patenschaften zu verwalten, erfordert spezialisierte Software. Donorfit übernimmt den Schutz der Begünstigten, den automatischen Lastschrifteinzug und die jährlichen Fortschritts­berichte – ganz ohne manuelle Tabellen.",
-      "keyChallenges": [
-        {
-          "title": "Unklare Zuordnung von Begünstigten",
-          "description": "Den Überblick behalten, welche:r Pat:in welches Kind oder Projekt unterstützt – über Jahre und Schulwechsel hinweg."
-        },
-        {
-          "title": "Hohe Abwanderung bei regelmäßigen Lastschriften",
-          "description": "Fehlgeschlagene Überweisungen und abgelaufene Kreditkarten führen zu stillen Kündigungen und unterbrochener Förderung der Begünstigten."
-        },
-        {
-          "title": "Würdevolle Inhalte und Fortschritts­berichte",
-          "description": "Fortschritts­berichte, Zeugnisse und Briefe sammeln, prüfen und versenden, ohne private Informationen über Kinder preiszugeben."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Integrierte Zuordnung von Begünstigten und Pat:innen",
-          "description": "Strikte 1:1- oder 1:n-Beziehungen mit vollständiger Historie früherer Pat:innen."
-        },
-        {
-          "title": "Automatisierte europäische Lastschrift­abwicklung",
-          "description": "SEPA-XML-Sammeldateien erzeugen und direkt an automatisierte Zahlungs­anbieter mit intelligenten Wiederholungsversuchen anbinden."
-        },
-        {
-          "title": "Digitales Portal für Pat:innen",
-          "description": "Würdevolle, datenschutzgeprüfte Updates, Briefe und Meilensteine direkt im privaten Portal der Pat:innen veröffentlichen."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "72 %",
-          "label": "Langfristige Bindung",
-          "context": "Durchschnittliche mehrjährige Bindung von Pat:innen dank automatisierter Updates"
-        },
-        {
-          "metric": "Null",
-          "label": "Tabellenfehler",
-          "context": "Eine zentrale Datenquelle statt verstreuter Excel-Dateien zu Begünstigten"
-        },
-        {
-          "metric": "48 Std.",
-          "label": "Schnellere Updates",
-          "context": "Beim Versand der jährlichen Schulzeugnisse an Tausende Pat:innen"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Können Pat:innen ihren Patenkindern Nachrichten schreiben?",
-          "answer": "Ja. Donorfit enthält ein moderiertes Nachrichtenportal, in dem Kinderschutzbeauftragte Briefe vor der Weiterleitung prüfen können."
-        },
-        {
-          "question": "Was passiert, wenn ein:e Pat:in mit der Zahlung in Verzug gerät?",
-          "answer": "Donorfit benachrichtigt Ihr Team, startet freundliche automatische Zahlungserinnerungen und gewährt Kulanzfristen, damit die Schulbildung der Kinder nie plötzlich unterbrochen wird."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Sponsorship-Plattform"
-        },
-        {
-          "name": "Waisen­patenschaft"
-        },
-        {
-          "name": "Regelmäßiges Spenden"
-        }
-      ]
-    },
-    "membership-organizations": {
-      "targetAudience": "Für Mitglieder­organisationen",
-      "audienceName": "Mitglieder­organisationen",
-      "h1": "Automatisierte Mitglieds­beiträge und Mitglieder­verwaltung für gemeinnützige Organisationen",
-      "subheadline": "Pflegen Sie Mitgliederdaten, automatisieren Sie die jährliche Beitrags­abrechnung und kommunizieren Sie mit Ihren Mitgliedern – in einem zuverlässigen System.",
-      "heroKicker": "Moderne Verbands- und Vereins­verwaltung",
-      "overview": "Gemeinnützige Vereine, Berufsverbände und Gemeinschaftsinitiativen leben von aktiven Mitgliedern. Donorfit erspart Ihnen das mühsame Hinterherlaufen hinter Jahresbeiträgen und den Versand von Papierrechnungen.",
-      "keyChallenges": [
-        {
-          "title": "Unbezahlte Jahresbeiträge",
-          "description": "Ehrenamtliche und Mitarbeiter:innen verbringen Wochen damit, Mitgliedern mit monatelang überfälligen Beiträgen zu schreiben und sie anzurufen."
-        },
-        {
-          "title": "Veraltete Kontaktdaten von Mitgliedern",
-          "description": "Unzustellbare Post, zurückgewiesene Newsletter und veraltete Firmenzugehörigkeiten."
-        },
-        {
-          "title": "Komplexe, mehrstufige Beitragsstrukturen",
-          "description": "Unterschiedliche Sätze für Studierende, Institutionen, Mitglieder im Ruhestand und Firmenförderer verwalten."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Automatische Verlängerung per Lastschrift",
-          "description": "Automatische wiederkehrende Verlängerungen per SEPA-Basis- oder SEPA-Firmenlastschrift, die Jahresbeiträge ohne manuelles Eingreifen einziehen."
-        },
-        {
-          "title": "Self-Service-Konten für Mitglieder",
-          "description": "Mitglieder melden sich sicher per Magic Link an, um ihre Postanschrift zu aktualisieren, Zahlungsbelege herunterzuladen oder ihren Tarif zu wechseln."
-        },
-        {
-          "title": "Berichte für Abstimmungen und Mitglieder­versammlungen",
-          "description": "Erstellen Sie sofort verifizierte Listen stimmberechtigter Mitglieder für satzungsgemäße Jahreshauptversammlungen."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "78 %",
-          "label": "Weniger verspätete Beiträge",
-          "context": "Nach der Umstellung auf automatische SEPA-Lastschrift­mandate"
-        },
-        {
-          "metric": "100 %",
-          "label": "Korrekte Stimmlisten",
-          "context": "Echtzeit-Prüfung der stimmberechtigten, beitragszahlenden Mitglieder"
-        },
-        {
-          "metric": "15 Min.",
-          "label": "Durchschnittliche Einrichtungszeit",
-          "context": "Von der Anmeldung neuer Mitglieder bis zur Beitragsautorisierung"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Können wir Beiträge jährlich oder monatlich einziehen?",
-          "answer": "Ja. Sie können jährliche, vierteljährliche oder monatliche Abrechnungszyklen mit automatischem Einzug festlegen."
-        },
-        {
-          "question": "Können Mitglieder offizielle Mitgliedschaftsnachweise für die Steuer herunterladen?",
-          "answer": "Ja. Über ihre Self-Service-Konten laden Mitglieder offizielle jährliche Bescheinigungen über ihre Mitglieds­beiträge herunter."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Membership – Mitglieder­verwaltung"
-        },
-        {
-          "name": "Spender­verwaltung (CRM)"
-        },
-        {
-          "name": "Online-Spenden"
-        }
-      ]
-    },
-    "international-organizations": {
-      "targetAudience": "Für internationale Organisationen",
-      "audienceName": "internationale Organisationen",
-      "h1": "Grenz­überschreitende Fundraising-Infrastruktur für internationale Hilfs­organisationen",
-      "subheadline": "Vereinen Sie Fundraising-Standorte weltweit, verwalten Sie mehrere Währungen und Rechtseinheiten und sichern Sie die Einhaltung europäischer Datenschutz­vorgaben.",
-      "heroKicker": "Globale Hilfe & grenz­überschreitende Governance",
-      "overview": "Internationale Hilfs­organisationen stehen in vielen Rechtsräumen vor komplexen Anforderungen. Donorfit bietet eine einheitliche Datenarchitektur mit lokalisierten Spenden­formularen, Buchhaltung für mehrere Rechtseinheiten und strikter Einhaltung europäischer und internationaler Standards.",
-      "keyChallenges": [
-        {
-          "title": "Finanzkonsolidierung über mehrere Rechtseinheiten",
-          "description": "Eigenständige Rechtseinheiten in Deutschland, Frankreich, dem Vereinigten Königreich und der Schweiz betreiben und trotzdem zentral den Überblick behalten."
-        },
-        {
-          "title": "Wechselkurs­schwankungen und hohe Überweisungs­gebühren",
-          "description": "Verlust dringend benötigter Hilfsgelder, wenn regionale Spenden in zentrale Katastrophenhilfefonds umgerechnet werden."
-        },
-        {
-          "title": "Internationale Datenhoheit & DSGVO",
-          "description": "Sicherstellen, dass in Europa erhobene Daten strikt der DSGVO entsprechen und die weltweite Koordination vor Ort dennoch möglich bleibt."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Verwaltung mehrerer Rechtseinheiten & Landesverbände",
-          "description": "Eigenständige nationale Fundraising-Standorte mit lokalen Zuwendungs­bestätigungen, separaten Bankkonten und zentralem Reporting verwalten."
-        },
-        {
-          "title": "Globale Zahlungswege in mehreren Währungen",
-          "description": "Spenden in EUR, GBP, USD, CHF und regionalen Währungen einnehmen – mit Wechselkursabgleich in Echtzeit."
-        },
-        {
-          "title": "Souveränes EU-Cloud-Hosting",
-          "description": "Garantiertes Hosting auf europäischen Servern, starke Verschlüsselung und volle Einhaltung internationaler humanitärer Standards."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "12+",
-          "label": "Unterstützte Währungen",
-          "context": "Lokale Zahlungen in Europa und weltweit"
-        },
-        {
-          "metric": "Null",
-          "label": "Verstöße bei Datenübermittlungen",
-          "context": "Garantierte europäische Datengrenzen und DSGVO-Konformität"
-        },
-        {
-          "metric": "Echtzeit",
-          "label": "Globale Gesamtübersicht",
-          "context": "Sofortiger Überblick der Geschäftsleitung über alle regionalen Standorte"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Kann jeder Landesverband ein eigenes Bankkonto und ein eigenes Branding haben?",
-          "answer": "Ja. Donorfit unterstützt Konfigurationen mit mehreren Rechtseinheiten, in denen jeder Standort seine eigene Bankverbindung, Sprache und rechtlichen Angaben im Footer behält."
-        },
-        {
-          "question": "Wie geht Donorfit mit Spitzenlasten in der Katastrophen-Nothilfe um?",
-          "answer": "Unsere Cloud-Architektur skaliert automatisch und verarbeitet bei plötzlichen humanitären Spendenaufrufen Millionen von Anfragen – ohne Ausfallzeiten."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Kampagnen­management"
-        },
-        {
-          "name": "Sponsorship-Plattform"
-        },
-        {
-          "name": "Berichte & Analysen"
-        }
-      ]
-    }
-  },
   "ui": {
+    "menu": "Lösungen",
+    "breadcrumb": "Lösungen",
+    "breadcrumbAria": "Brotkrumennavigation",
+    "register": "Kostenlos registrieren",
+    "bookDemo": "Demo buchen",
+    "talkToUs": "Mit unserem Team sprechen",
+    "explore": "{{name}} entdecken",
+    "seeIntegrations": "Zahlungsintegrationen ansehen",
+    "seePricing": "Preise ansehen",
+    "freeNote": "Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren legt der Zahlungsanbieter fest, den Sie wählen.",
+    "exampleData": "Beispieldaten",
+    "illustrative": "Veranschaulichendes Beispiel",
+    "comingSoon": "Demnächst verfügbar",
+    "needsHelp": "So hilft Donorfit",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqSub": "Keine passende Antwort gefunden? Unser Team schaut sich Ihre Ausgangslage gern gemeinsam mit Ihnen an.",
+    "contactTeam": "Unser Team kontaktieren",
+    "productsTitle": "Passende Produkte für den Einstieg",
+    "otherTitle": "Suchen Sie etwas anderes?",
+    "otherSub": "Jede Organisation ist ein wenig anders. Vergleichen Sie, wie Donorfit andere Arten von Organisationen unterstützt.",
+    "current": "Sie sind hier",
     "notFound": {
       "title": "Lösung nicht gefunden",
-      "text": "Die angeforderte Lösung für diese Zielgruppe wurde nicht gefunden.",
-      "button": "Zur Startseite"
+      "text": "Diese Lösungsseite konnten wir leider nicht finden.",
+      "button": "Zurück zur Startseite"
     },
-    "hero": {
-      "getStarted": "Jetzt starten für {{name}}",
-      "walkthrough": "Persönliche Demo vereinbaren",
-      "tailoredFor": "Zugeschnitten auf {{name}}"
+    "whatItDoes": "Was es leistet",
+    "howToUse": "So könnten Sie es nutzen",
+    "whyItHelps": "Warum es hilft",
+    "usesProduct": "Nutzt {{name}}",
+    "getStarted": "Kostenlos starten",
+    "discuss": "Ihre Anforderungen besprechen",
+    "providerLink": "Zur {{name}}-Integration",
+    "allIntegrations": "Alle Integrationen"
+  },
+  "items": {
+    "for-ngos": {
+      "navLabel": "Für NGOs",
+      "navDescription": "Spendenaufrufe, Projekt-Updates und Spenderdaten an einem Ort",
+      "hero": {
+        "badge": "Für NGOs",
+        "title": "Finanzieren Sie Ihre Programme und zeigen Sie Unterstützer:innen, wohin ihr Geld fließt",
+        "lead": "Mit Donorfit steuern NGOs Spendenaufrufe, verwalten Spender:innen und Patenschaften und veröffentlichen Projekt-Updates an einem Ort – damit Ihr Team weniger Zeit mit Verwaltung verbringt und mehr Zeit für die eigentliche Arbeit hat.",
+        "imageAlt": "Helfer:innen verteilen Hilfsgüter an Menschen in einer trockenen, offenen Landschaft"
+      },
+      "example": {
+        "title": "Beispiel: ein Winterhilfe-Spendenaufruf",
+        "body": "Eine kleine NGO sammelt Spenden für Winterpakete. Die Kampagnenseite zeigt Spendenziel und Fortschritt, Unterstützer:innen spenden über das Formular auf der Website der NGO, und das Team veröffentlicht ein Update, sobald die Pakete verteilt sind.",
+        "campaign": "Winterpakete für Familien",
+        "raised": "Gesammelt",
+        "target": "Spendenziel",
+        "donors": "Spender:innen",
+        "update": "Neuestes Update: die ersten 60 Pakete sind verteilt"
+      },
+      "challenges": {
+        "title": "Herausforderungen, die NGOs jeden Tag begleiten",
+        "sub": "NGOs betreuen oft mehrere Vorhaben gleichzeitig – jedes mit eigenen Unterstützer:innen, eigenem Budget und eigener Frist.",
+        "items": [
+          {
+            "title": "Mehrere Kampagnen parallel",
+            "text": "Ein Nothilfe-Spendenaufruf, eine saisonale Kampagne und ein Langzeitprojekt können gleichzeitig laufen. Ohne gemeinsamen Überblick ist schwer zu erkennen, welches gerade Aufmerksamkeit braucht."
+          },
+          {
+            "title": "Unterstützerdaten an verschiedenen Orten",
+            "text": "Spender:innen, Pat:innen und Mitglieder stehen oft in getrennten Tabellen. So taucht dieselbe Person mehrmals mit unterschiedlichen Angaben auf."
+          },
+          {
+            "title": "Gemeinschaftsprojekte mit vielen Beitragenden",
+            "text": "Ein Brunnen oder eine Gemeinschaftsküche wird oft aus vielen kleinen Beiträgen finanziert. Jeder davon muss dem richtigen Projekt zugeordnet werden."
+          },
+          {
+            "title": "Rückmeldung an Unterstützer:innen",
+            "text": "Unterstützer:innen möchten wissen, was mit ihrem Geld geschehen ist. Updates von Hand vorzubereiten, kostet Zeit, die in der Programmarbeit fehlt."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So hilft Donorfit NGOs, den Überblick zu behalten",
+        "sub": "Donorfit ersetzt nicht Ihre Programmarbeit. Es organisiert das Fundraising und die Betreuung Ihrer Unterstützer:innen rund um diese Arbeit.",
+        "items": [
+          {
+            "title": "Eine eigene Kampagne für jedes Vorhaben",
+            "text": "Beiträge werden von Anfang an dem richtigen Zweck zugeordnet.",
+            "points": [
+              "Spendenziel und Fortschritt je Kampagne",
+              "Projektdetails, Fotos und Dokumente an einem Ort",
+              "Mehrere Kampagnen in einem Dashboard verwalten"
+            ]
+          },
+          {
+            "title": "Alle Unterstützer:innen an einem Ort",
+            "text": "Daten von Spender:innen, Pat:innen und Mitgliedern liegen auf einer Plattform statt in getrennten Dateien.",
+            "points": [
+              "Spendenhistorie in jedem Unterstützerdatensatz",
+              "Ein eigenes Spenderportal",
+              "Import Ihrer bestehenden Datensätze"
+            ]
+          },
+          {
+            "title": "Mit weniger Aufwand berichten",
+            "text": "Teilen Sie Fortschritte mit den Werkzeugen, die in jedes Produkt integriert sind.",
+            "points": [
+              "Updates zu jeder Bauphase bei Water-Well-Projekten",
+              "Fortschrittsberichte über das Patenportal",
+              "Spendenbelege aus vordefinierten Vorlagen"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Donorfit-Lösungen, die NGOs kombinieren können",
+        "sub": "Beginnen Sie mit der Lösung, die zu Ihrem nächsten Vorhaben passt, und ergänzen Sie weitere, wenn Sie sie brauchen.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "Crowdfunding für ein Projekt: eine Kampagne mit Ziel, Kostenaufstellung, Frist und Live-Fortschrittsbalken.",
+            "use": "Starten Sie eine Kampagne für ein Gemeinschaftsprojekt und lassen Sie ehrenamtliche Gruppen sie per WhatsApp, E-Mail oder QR-Code teilen.",
+            "purpose": "Viele kleine Beiträge laufen an einem Ort zusammen, und alle Beitragenden erhalten einen eigenen Beleg."
+          },
+          {
+            "slug": "water-well",
+            "what": "Eine eigene Kampagne für jeden Brunnen – mit Standort, Budget, Fotos, Spendenziel und Fortschritt.",
+            "use": "Legen Sie für jeden geplanten Brunnen eine Kampagne an und veröffentlichen Sie Updates von der Standortprüfung bis zur Übergabe.",
+            "purpose": "Spender:innen sehen, welches Projekt sie finanzieren und wie weit es ist."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Verbindet Pat:innen mit Begünstigten oder Gemeinschaftsprojekten und erfasst jeden Beitrag.",
+            "use": "Führen Sie Einzelpatenschaften, Mitpatenschaften oder Patenschaften für Gemeinschaftsprojekte und senden Sie Fortschrittsberichte über das Patenportal.",
+            "purpose": "Langjährige Unterstützer:innen bleiben mit den Menschen und Projekten verbunden, die sie fördern."
+          },
+          {
+            "slug": "membership",
+            "what": "Mitgliederregistrierung, Tarife und Kategorien, Beitragseinzug und Verlängerungen.",
+            "use": "Hat Ihre NGO Mitglieder oder einen Förderverein, registrieren Sie diese online und ziehen Sie Beiträge über wiederkehrende Abrechnung ein.",
+            "purpose": "Mitgliedsbeiträge und Mitgliederdaten liegen direkt neben Ihrem übrigen Fundraising."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Enthaltene Plattform-Werkzeuge",
+        "items": [
+          {
+            "title": "Eingebettete Spendenformulare",
+            "text": "Passen Sie ein Formular an und binden Sie es auf Ihrer Website ein."
+          },
+          {
+            "title": "QR-Codes",
+            "text": "Drucken Sie sie auf Plakate, Flyer und Sammelboxen."
+          },
+          {
+            "title": "Automatische Spendenbelege",
+            "text": "Erstellt aus vordefinierten Vorlagen."
+          },
+          {
+            "title": "Spenderportal",
+            "text": "Ein eigener Bereich für Ihre Unterstützer:innen."
+          },
+          {
+            "title": "Berichte und Dashboards",
+            "text": "Spenden und Kampagnenfortschritt im Blick."
+          },
+          {
+            "title": "Teammitglieder",
+            "text": "Mehrere Mitarbeitende in einem Arbeitsbereich."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte eine NGO Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Drei Vorhaben, ein Überblick",
+            "text": "Eine NGO führt gleichzeitig einen Winter-Spendenaufruf, ein Brunnenprojekt und ein Patenschaftsprogramm. Jedes ist separat eingerichtet – so verfolgt das Team alle drei von einem Ort aus.",
+            "slug": "water-well"
+          },
+          {
+            "title": "Eine gemeinsam finanzierte Gemeinschaftsküche",
+            "text": "Ehrenamtliche einer lokalen Gruppe erstellen eine MoneyPool-Kampagne für Küchenausstattung und teilen den Link in ihrem Umfeld. Die Beiträge gehen direkt auf das Konto der NGO, nicht an die Ehrenamtlichen.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "Mitglieder, die auch spenden",
+            "text": "Eine NGO mit Förderverein zieht die Jahresbeiträge über Membership ein und lädt dieselben Mitglieder ein, ihre saisonalen Spendenaufrufe zu unterstützen.",
+            "slug": "membership"
+          }
+        ]
+      },
+      "steps": {
+        "title": "So funktioniert es",
+        "sub": "Von der Registrierung bis zu Ihren ersten Beiträgen.",
+        "items": [
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Zahlungsanbieter anbinden",
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+          },
+          {
+            "title": "Lösung wählen",
+            "text": "Richten Sie je nach Vorhaben eine Kampagne, ein Patenschaftsprogramm oder Mitgliedstarife ein."
+          },
+          {
+            "title": "Teilen und sammeln",
+            "text": "Binden Sie das Formular auf Ihrer Website ein oder teilen Sie Link und QR-Code. Bestätigte Beiträge werden in Donorfit erfasst."
+          },
+          {
+            "title": "Fortschritt verfolgen",
+            "text": "Sehen Sie Kampagnenfortschritt und Unterstützerdaten und veröffentlichen Sie Updates, wo das Produkt dies unterstützt."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Was kostet Donorfit eine NGO?",
+          "answer": "Donorfit ist kostenlos nutzbar. Wenn Spender:innen zahlen, berechnet der von Ihnen angebundene Zahlungsanbieter eigene Transaktionsgebühren, die Sie direkt mit diesem Anbieter vereinbaren."
+        },
+        {
+          "question": "Können wir mehrere Kampagnen gleichzeitig führen?",
+          "answer": "Ja. Jeder Spendenaufruf und jedes Projekt kann eine eigene Kampagne mit eigenem Ziel und Fortschritt sein. Sie verwalten alle in einem Dashboard."
+        },
+        {
+          "question": "Mit welcher Lösung sollten wir beginnen?",
+          "answer": "Das hängt von Ihrem nächsten Vorhaben ab: MoneyPool für ein Projekt mit gemeinsamem Ziel, Water Well für Brunnenprojekte, Sponsorship für die dauerhafte Unterstützung von Begünstigten und Membership, wenn Sie Mitglieder haben. Unser Team hilft Ihnen bei der Entscheidung."
+        },
+        {
+          "question": "Welche Zahlungsanbieter können wir anbinden?",
+          "answer": "Donorfit ist mit Stripe, PayPal, GoCardless, Mollie und Micropayment integriert. Welche Zahlungsarten Ihre Spender:innen sehen, hängt vom Anbieter und Ihrem Konto dort ab."
+        },
+        {
+          "question": "Können wir unsere bestehende Website behalten?",
+          "answer": "Ja. Sie können Donorfit-Spendenformulare anpassen und auf Ihrer vorhandenen Website einbinden."
+        },
+        {
+          "question": "Können wir unsere aktuelle Spenderliste übernehmen?",
+          "answer": "Ja. Donorfit bietet eine Importfunktion für bestehende Datensätze, und unser Team hilft Ihnen bei der Aufbereitung der Daten."
+        }
+      ],
+      "cta": {
+        "title": "Organisieren Sie Ihr nächstes Vorhaben in Donorfit",
+        "body": "Registrieren Sie sich kostenlos und richten Sie Ihre erste Kampagne ein – oder buchen Sie eine Demo, und wir gehen Ihre Vorhaben gemeinsam mit Ihnen durch.",
+        "button": "Mit Donorfit starten"
+      }
     },
-    "images": {
-      "field": "Mitarbeiter:innen der Entwicklungszusammenarbeit im Austausch mit Menschen vor Ort",
-      "gala": "Empfang bei einer Benefizgala mit Persönlichkeiten aus der Gemeinschaft",
-      "office": "Engagiertes Leitungsteam einer gemeinnützigen Organisation in einem modernen europäischen Büro"
+    "for-charities": {
+      "navLabel": "Für gemeinnützige Vereine",
+      "navDescription": "Alltägliche Spenden, Spendenbelege und Unterstützerdaten",
+      "hero": {
+        "badge": "Für gemeinnützige Vereine",
+        "title": "Fundraising im Alltag – ohne Tabellen-Jonglage",
+        "lead": "Vom Spendenbutton auf Ihrer Website bis zum Beleg im Postfach Ihrer Spender:innen: Donorfit hält die alltäglichen Spenden eines gemeinnützigen Vereins an einem Ort zusammen.",
+        "imageAlt": "Ehrenamtliche sammeln Sachspenden für Menschen in Not",
+        "formTitle": "Unterstützen Sie unseren Winter-Spendenaufruf",
+        "formOther": "Anderer Betrag",
+        "formCover": "Ich übernehme die Transaktionsgebühr",
+        "formDonate": "Spenden"
+      },
+      "challenges": {
+        "title": "Was gemeinnützige Vereine unter einen Hut bringen müssen",
+        "sub": "Die meisten gemeinnützigen Vereine unterstützen mehrere Anliegen – mit kleinem Team und viel Engagement.",
+        "items": [
+          {
+            "title": "Viele Anliegen, ein kleines Team",
+            "text": "Bildungsförderung, medizinische Hilfe für Familien und Gemeinschaftsprojekte laufen oft nebeneinander und werden von denselben wenigen Menschen betreut."
+          },
+          {
+            "title": "Unterstützung in vielen Formen",
+            "text": "Spenden kommen bei Veranstaltungen, in Sammelboxen, per Überweisung und online. Sie zusammenzuführen, kostet Zeit."
+          },
+          {
+            "title": "Dringende Not und langfristige Projekte",
+            "text": "Ein medizinischer Spendenaufruf muss vielleicht schnell Geld sammeln, während ein Wasserprojekt oder eine Schulförderung über Monate oder Jahre läuft."
+          },
+          {
+            "title": "Zeigen, dass Spenden etwas bewirken",
+            "text": "Unterstützer:innen spenden mit mehr Vertrauen, wenn sie Ziel, Fortschritt und das Ergebnis ihrer Spende sehen."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So hilft Donorfit gemeinnützigen Vereinen",
+        "sub": "Praktische Werkzeuge für Ihre Anliegen und für die Menschen, die sie unterstützen.",
+        "items": [
+          {
+            "title": "Eine klare Seite für jedes Anliegen",
+            "text": "Unterstützer:innen wissen genau, wofür sie spenden.",
+            "points": [
+              "Eine Kampagne mit Spendenziel und Fortschritt",
+              "Fotos, Budget und Beschreibung",
+              "Beiträge je Kampagne erfasst"
+            ]
+          },
+          {
+            "title": "Einfache Wege zu spenden",
+            "text": "Erreichen Sie Unterstützer:innen dort, wo sie Ihrem Verein begegnen.",
+            "points": [
+              "Spendenformulare auf Ihrer Website",
+              "QR-Codes für Veranstaltungen und Sammelboxen",
+              "Teilen per WhatsApp, E-Mail oder QR-Code mit MoneyPool"
+            ]
+          },
+          {
+            "title": "Weniger Verwaltung nach der Spende",
+            "text": "Datensätze, Spendenbelege und Newsletter laufen an einem Ort.",
+            "points": [
+              "Spendenbelege aus vordefinierten Vorlagen",
+              "Optionale Gebührenübernahme durch Spender:innen",
+              "Brevo oder Mailchimp für Ihren Newsletter"
+            ]
+          }
+        ]
+      },
+      "causes": {
+        "title": "Anliegen, für die Sie Spenden sammeln können",
+        "sub": "Beispiele, wie ein gemeinnütziger Verein verschiedene Anliegen in Donorfit einrichten könnte.",
+        "items": [
+          {
+            "title": "Bildungsförderung",
+            "text": "Finanzieren Sie Schulgeld, Bücher und Schuluniformen über Bildungspatenschaften.",
+            "slug": "sponsorship",
+            "imageAlt": "Ein lächelnder Junge in einem Klassenzimmer einer Dorfschule"
+          },
+          {
+            "title": "Medizinische Hilfe",
+            "text": "Sammeln Sie Geld für Behandlungskosten oder Ausstattung – mit klarem Ziel und fester Frist.",
+            "slug": "money-pool",
+            "imageAlt": "Eine Pflegekraft versorgt einen Patienten in einer Klinik"
+          },
+          {
+            "title": "Sauberes Wasser",
+            "text": "Geben Sie jedem Brunnen eine eigene Kampagne mit Standort, Budget und Updates.",
+            "slug": "water-well",
+            "imageAlt": "Kinder trinken sauberes Wasser aus einem Wasserhahn"
+          },
+          {
+            "title": "Gemeinschaftsprojekte",
+            "text": "Lassen Sie eine lokale Gruppe gemeinsam sammeln – mit einem Beleg für jeden Beitrag.",
+            "slug": "money-pool",
+            "imageAlt": "Ehrenamtliche packen Lebensmittelpakete bei einer Gemeinschaftsveranstaltung"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Lösungen für Ihre Anliegen",
+        "sub": "Drei Donorfit-Lösungen, die zur Art passen, wie gemeinnützige Vereine Spenden sammeln.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "Gemeinsames Fundraising für ein Ziel – mit Live-Fortschrittsbalken und einer Unterstützerwand, auf der auch anonym gespendet werden kann.",
+            "use": "Erstellen Sie eine Kampagne für einen konkreten Bedarf, etwa Ausstattung für eine Klinik oder ein neues Dach für ein Gemeindezentrum, und lassen Sie Unterstützer:innen sie teilen.",
+            "purpose": "Die Gemeinschaft sieht Ziel und Fortschritt, und Organisator:innen verwalten nie selbst das Geld."
+          },
+          {
+            "slug": "water-well",
+            "what": "Eine Projektseite und Kampagne für jeden Brunnen – mit Standort, Budget, Fotos, Spendenziel und Fortschritt.",
+            "use": "Führen Sie für jeden Brunnen eine Kampagne und veröffentlichen Sie Updates von der Standortprüfung über Bohrung und Installation bis zur Übergabe.",
+            "purpose": "Spender:innen verfolgen das Projekt, das sie finanziert haben, bis die Gemeinschaft Wasser schöpft."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Verbindet Pat:innen mit Schüler:innen, Familien oder Projekten und erfasst jeden Beitrag.",
+            "use": "Unterstützen Sie Schulgeld, Bücher und Schuluniformen einer Schülerin oder eines Schülers über eine Bildungspatenschaft und teilen Sie Fortschritte im Lauf des Schuljahres.",
+            "purpose": "Unterstützer:innen bauen eine dauerhafte Verbindung zu der Person oder dem Projekt auf, dem sie helfen."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Enthaltene Plattform-Werkzeuge",
+        "items": [
+          {
+            "title": "Anpassbare Spendenformulare",
+            "text": "Beträge, Texte und Gestaltung festlegen, dann einbinden."
+          },
+          {
+            "title": "QR-Codes",
+            "text": "Für Plakate, Sammelboxen und Veranstaltungen."
+          },
+          {
+            "title": "Automatische Spendenbelege",
+            "text": "Erstellt aus vordefinierten Vorlagen."
+          },
+          {
+            "title": "Gebührenübernahme",
+            "text": "Spender:innen können die Transaktionsgebühr übernehmen."
+          },
+          {
+            "title": "Spenderportal",
+            "text": "Unterstützer:innen finden ihre eigenen Informationen."
+          },
+          {
+            "title": "Newsletter-Integrationen",
+            "text": "Brevo oder Mailchimp anbinden."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte ein gemeinnütziger Verein Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Gemeinsam sammeln für ein Gemeinschaftsprojekt",
+            "text": "Ein Verein erstellt eine MoneyPool-Kampagne, um die Küche eines Gemeindezentrums zu renovieren. Ehrenamtliche vor Ort teilen sie per WhatsApp und QR-Code, und alle Beitragenden erhalten einen Beleg.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "Medizinische Hilfe für eine Familie",
+            "text": "Ein Verein richtet eine Kampagne mit Ziel und Frist ein, um die Behandlungskosten einer Familie zu decken, und teilt die Kampagnenseite mit seinen Unterstützer:innen.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "Schulförderung über das ganze Jahr",
+            "text": "Ein Verein verbindet Unterstützer:innen über Bildungspatenschaften mit Schüler:innen und sendet im Lauf des Schuljahres Updates.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Sammelboxen mit Weg ins Netz",
+            "text": "Eine Tafel bringt einen QR-Code an ihren Sammelboxen an. Wer ihn scannt, spendet auf der Spendenseite der Tafel, und ein Beleg wird automatisch erstellt.",
+            "slug": ""
+          }
+        ]
+      },
+      "steps": {
+        "title": "So funktioniert es",
+        "sub": "So bringen Sie Ihr erstes Anliegen online.",
+        "items": [
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Zahlungsanbieter anbinden",
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+          },
+          {
+            "title": "Erstes Anliegen anlegen",
+            "text": "Richten Sie eine Kampagne oder einen MoneyPool mit Spendenziel, Beschreibung und Fotos ein."
+          },
+          {
+            "title": "Teilen",
+            "text": "Binden Sie das Formular auf Ihrer Website ein, drucken Sie den QR-Code oder senden Sie den Link an Ihre Unterstützer:innen."
+          },
+          {
+            "title": "Fortschritt verfolgen und danken",
+            "text": "Der Fortschritt aktualisiert sich mit jedem eingehenden Beitrag, und Spendenbelege werden aus Ihren Vorlagen erstellt."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Ist Donorfit für gemeinnützige Vereine wirklich kostenlos?",
+          "answer": "Ja, Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren für jede Zahlung legt der Zahlungsanbieter fest, den Sie anbinden – etwa Stripe, PayPal oder Mollie."
+        },
+        {
+          "question": "Was ist der Unterschied zwischen einem Spendenformular und MoneyPool?",
+          "answer": "Ein Spendenformular sammelt Spenden für Ihren Verein oder eine Kampagne. MoneyPool ist für ein einzelnes Projekt mit Ziel und Frist gedacht: Eine Gruppe sammelt gemeinsam, und alle können den Fortschritt verfolgen."
+        },
+        {
+          "question": "Können wir für medizinische Hilfe Spenden sammeln?",
+          "answer": "Ja. Sie können eine Kampagne für ein medizinisches Anliegen erstellen, zum Beispiel mit MoneyPool. Ihr Verein bleibt dafür verantwortlich, wie die Mittel verwendet werden und welche Regeln für diese Art von Spendenaufruf gelten."
+        },
+        {
+          "question": "Können Spender:innen die Transaktionsgebühr übernehmen?",
+          "answer": "Ja. Sie können Spender:innen anbieten, die Transaktionsgebühr zu übernehmen, damit Ihr Verein mehr von ihrer Spende erhält."
+        },
+        {
+          "question": "Erstellt Donorfit Zuwendungsbestätigungen?",
+          "answer": "Donorfit enthält vordefinierte Vorlagen für Zuwendungsbestätigungen zur automatischen Erstellung. Bitte klären Sie mit Ihrer Steuerberatung, welche Angaben Ihre Bestätigungen enthalten müssen."
+        },
+        {
+          "question": "Können wir unser Newsletter-Werkzeug anbinden?",
+          "answer": "Donorfit ist mit Brevo und Mailchimp integriert. Für System-E-Mails können Sie außerdem einen eigenen E-Mail-Anbieter verwenden."
+        }
+      ],
+      "cta": {
+        "title": "Entdecken Sie Fundraising-Lösungen für Ihre Anliegen",
+        "body": "Registrieren Sie sich kostenlos und bringen Sie Ihr erstes Anliegen online – oder buchen Sie eine Demo, um zu sehen, welche Lösung am besten passt.",
+        "button": "Kostenlos starten"
+      }
     },
-    "impact": {
-      "kicker": "Strategische Wirkung"
+    "for-foundations": {
+      "navLabel": "Für Stiftungen",
+      "navDescription": "Geordnete Mittel, Spendenhistorien und klare Berichte",
+      "hero": {
+        "badge": "Für Stiftungen",
+        "title": "Klare Unterlagen für alle, die Ihre Stiftung beaufsichtigen",
+        "lead": "Stiftungen sind Gremien, Spender:innen und der Öffentlichkeit Rechenschaft schuldig. Donorfit hält Spenden, Spenderdaten und Kampagnenfortschritt geordnet – so lassen sich die Antworten leichter finden.",
+        "imageAlt": "Eine Sozialarbeiterin im Gespräch mit einem Paar an einem Tisch"
+      },
+      "board": {
+        "title": "Fragen Ihres Vorstands – und wo Sie die Antwort finden",
+        "sub": "Donorfit schreibt nicht Ihren Vorstandsbericht, hält aber die Informationen, die Sie dafür brauchen, an einem Ort bereit.",
+        "items": [
+          {
+            "question": "Wie viel haben wir für dieses Programm gesammelt?",
+            "answer": "Jede Kampagne zeigt ihr Ziel und ihren Fortschritt."
+          },
+          {
+            "question": "Wer sind unsere Spender:innen und was haben sie gegeben?",
+            "answer": "Spenderdatensätze enthalten Kontaktdaten und Spendenhistorie."
+          },
+          {
+            "question": "Wie wird Spender:innen gedankt und wie erhalten sie Belege?",
+            "answer": "Spendenbelege werden automatisch aus Ihren Vorlagen erstellt."
+          },
+          {
+            "question": "Kann unsere Finanzabteilung diese Daten nutzen?",
+            "answer": "Importfunktionen, API-Zugang und Webhooks verbinden Donorfit mit Ihren anderen Systemen."
+          }
+        ]
+      },
+      "example": {
+        "title": "Beispiel: drei Programme, ein Überblick",
+        "body": "Eine Familienstiftung betreibt ein Stipendienprogramm, ein Trinkwasserprojekt und eine Notfallreserve. Jedes davon ist eine eigene Kampagne – so sieht der Vorstand den Fortschritt je Programm statt einer gemeinsamen Gesamtsumme.",
+        "programmes": [
+          "Stipendienprogramm",
+          "Trinkwasserprojekt",
+          "Notfallreserve"
+        ],
+        "ofTarget": "von {{target}}"
+      },
+      "challenges": {
+        "title": "Was Stiftungen im Blick behalten müssen",
+        "sub": "Stiftungen führen meist weniger, dafür längere Vorhaben – und bekommen mehr Fragen dazu, wohin das Geld geflossen ist.",
+        "items": [
+          {
+            "title": "Vorhaben, die über Jahre laufen",
+            "text": "Stipendienprogramme und Projekte der Gemeindeentwicklung können mehrere Jahre dauern und brauchen über die gesamte Zeit einheitliche Unterlagen."
+          },
+          {
+            "title": "Mehrere Programme mit unterschiedlichen Zielen",
+            "text": "Jedes Programm hat eigenes Budget, eigene Partner und eigene Unterstützer:innen. Beiträge müssen dem richtigen Programm zugeordnet werden."
+          },
+          {
+            "title": "Unterstützer:innen erwarten Rechenschaft",
+            "text": "Spender:innen und Gremien möchten sehen, wie viel für jedes Vorhaben gesammelt wurde und wie es vorankommt."
+          },
+          {
+            "title": "Wissen bei einzelnen Personen",
+            "text": "Liegen Unterlagen bei einzelnen Mitarbeitenden, gehen Informationen verloren, wenn jemand die Aufgabe wechselt."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So hilft Donorfit Stiftungen",
+        "sub": "Struktur für projektbezogenes Fundraising und langfristige Förderung.",
+        "items": [
+          {
+            "title": "Beiträge nach Projekt ordnen",
+            "text": "Jedes Programm hat seinen eigenen Platz.",
+            "points": [
+              "Eine Kampagne pro Programm oder Projekt",
+              "Eigenes Ziel und eigener Fortschritt",
+              "Projektdetails, Dokumente und Status an einem Ort"
+            ]
+          },
+          {
+            "title": "Langfristige Vorhaben begleiten",
+            "text": "Bewahren Sie die Historie von Unterstützer:innen und Begünstigten über Jahre.",
+            "points": [
+              "Bildungspatenschaften über das ganze Schuljahr",
+              "Historie von Pat:innen und Begünstigten mit Prüfprotokollen",
+              "Automatische Wiederholungsversuche bei fehlgeschlagenen regelmäßigen Zahlungen"
+            ]
+          },
+          {
+            "title": "Informationen gemeinsam und verknüpft",
+            "text": "Ihre Unterlagen gehören der Stiftung, nicht einem einzelnen Laptop.",
+            "points": [
+              "Mehrere Teammitglieder in einem Arbeitsbereich",
+              "Spenderdatensätze mit vollständiger Spendenhistorie",
+              "API und Webhooks für Ihre anderen Systeme"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Lösungen für projektbezogenes Fundraising",
+        "sub": "Wählen Sie für jedes Vorhaben die Lösung, die dafür gemacht ist.",
+        "items": [
+          {
+            "slug": "sponsorship",
+            "what": "Verbindet Pat:innen mit Schüler:innen, Menschen oder Gemeinschaftsprojekten und erfasst jeden Beitrag.",
+            "use": "Finanzieren Sie Stipendien: Verbinden Sie Pat:innen mit Schüler:innen und verfolgen Sie Schulgeld, Bücher und Fortschritte über das Schuljahr.",
+            "purpose": "Langfristige Zusagen bleiben geordnet – mit vollständiger Historie für jede Patenschaft."
+          },
+          {
+            "slug": "water-well",
+            "what": "Eine Kampagne pro Wasserprojekt mit Standort, Budget, Fotos, Spendenziel und Updates zu jeder Phase.",
+            "use": "Fördern Sie Gemeindeentwicklung Brunnen für Brunnen und zeigen Sie Spender:innen jede Bauphase.",
+            "purpose": "Vorstand und Spender:innen sehen, welche Projekte finanziert sind und welche noch Unterstützung brauchen."
+          },
+          {
+            "slug": "money-pool",
+            "what": "Ein Projekt, ein Ziel und viele Beitragende – jeder Beitrag wird einzeln quittiert.",
+            "use": "Lassen Sie ein Komitee oder eine Partnergruppe gemeinsam für ein klar umrissenes Projekt sammeln.",
+            "purpose": "Beiträge gehen direkt auf das Konto der Stiftung, während Partner helfen, das Projekt bekannt zu machen."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Plattform-Werkzeuge für Stiftungen",
+        "items": [
+          {
+            "title": "Eine Kampagne pro Programm",
+            "text": "Eigene Ziele und eigener Fortschritt für jedes Programm oder Projekt."
+          },
+          {
+            "title": "Spendenhistorien",
+            "text": "Jede Spende und alle Kontaktdaten in einem Spenderdatensatz."
+          },
+          {
+            "title": "Spenderportal",
+            "text": "Ein eigenes Portal, in dem Unterstützer:innen ihre eigenen Informationen finden."
+          },
+          {
+            "title": "Automatische Spendenbelege",
+            "text": "Belege werden aus vordefinierten Vorlagen erstellt."
+          },
+          {
+            "title": "Berichte und Dashboards",
+            "text": "Grundlegende Berichte, um Spenden und Kampagnenfortschritt zu verfolgen."
+          },
+          {
+            "title": "API und Webhooks",
+            "text": "Verbinden Sie Donorfit mit Ihrer Buchhaltung oder anderen internen Werkzeugen."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte eine Stiftung Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Ein Bildungsvorhaben",
+            "text": "Eine Stiftung sammelt Beiträge für ein Stipendienprogramm. Pat:innen sind mit Schüler:innen verknüpft, und die Stiftung teilt Halbjahresberichte über das Patenportal.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Gemeindeentwicklung über mehrere Jahre",
+            "text": "Eine Stiftung finanziert den Zugang zu Wasser in einer Region, Brunnen für Brunnen. Jeder Brunnen ist eine eigene Kampagne – so sieht der Vorstand, welche finanziert sind und welche noch Unterstützung brauchen.",
+            "slug": "water-well"
+          },
+          {
+            "title": "Ein Projekt unter Leitung von Partnern",
+            "text": "Ein lokales Komitee sammelt mit MoneyPool Geld für den Ausbau einer Bibliothek. Die Beiträge gehen direkt auf das Konto der Stiftung.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "So funktioniert es",
+        "sub": "So richten Sie Ihre Programme in Donorfit ein.",
+        "items": [
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Zahlungsanbieter anbinden",
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+          },
+          {
+            "title": "Jedes Programm einrichten",
+            "text": "Legen Sie für jedes Vorhaben eine Kampagne, ein Patenschaftsprogramm oder einen MoneyPool an."
+          },
+          {
+            "title": "Beiträge sammeln",
+            "text": "Unterstützer:innen spenden über Ihre Formulare und Links, und bestätigte Beiträge werden dem Programm zugeordnet."
+          },
+          {
+            "title": "Fortschritt prüfen",
+            "text": "Verfolgen Sie Ziele und Beiträge je Programm in Berichten und Dashboards."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Können wir mehrere Programme gleichzeitig führen?",
+          "answer": "Ja. Legen Sie für jedes Programm oder Projekt eine eigene Kampagne an, jeweils mit eigenem Ziel und eigenem Fortschritt."
+        },
+        {
+          "question": "Werden Beiträge für verschiedene Programme getrennt erfasst?",
+          "answer": "Jeder Beitrag wird der Kampagne zugeordnet, für die er geleistet wurde. So sehen Sie, was jedes Programm erhalten hat."
+        },
+        {
+          "question": "Können wir mit Donorfit Stipendien finanzieren?",
+          "answer": "Ja. Bildungspatenschaften in Donorfit Sponsorship verknüpfen Pat:innen mit Schüler:innen und erfassen Beiträge für Schulgeld, Bücher und Schuluniformen."
+        },
+        {
+          "question": "Ist Donorfit ein Werkzeug zur Fördermittelverwaltung?",
+          "answer": "Nein. Donorfit konzentriert sich auf Fundraising, Spenderdaten, Patenschaften und Mitgliedschaften. Förderanträge, die bei Ihrer Stiftung eingehen, verwaltet Donorfit nicht."
+        },
+        {
+          "question": "Lässt sich Donorfit mit unseren anderen Systemen verbinden?",
+          "answer": "Donorfit bietet API-Zugang und Webhooks für Integrationen sowie eine Importfunktion. Sprechen Sie mit unserem Team über die Systeme, die Sie nutzen."
+        },
+        {
+          "question": "Was kostet Donorfit?",
+          "answer": "Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren legt der Zahlungsanbieter fest, den Sie anbinden."
+        }
+      ],
+      "cta": {
+        "title": "Besprechen Sie die Anforderungen Ihrer Stiftung",
+        "body": "Erzählen Sie uns von Ihren Programmen, und wir zeigen Ihnen, wie sie sich in Donorfit einrichten lassen. Oder registrieren Sie sich kostenlos und beginnen Sie mit Ihrer ersten Kampagne.",
+        "button": "Ihre Anforderungen besprechen"
+      }
     },
-    "challenges": {
-      "kicker": "Konkrete Herausforderungen",
-      "title": "Herausforderungen, die wir für {{name}} lösen",
-      "label": "Herausforderung 0{{n}}"
+    "for-sponsorship-orgs": {
+      "navLabel": "Für Patenschaftsorganisationen",
+      "navDescription": "Pat:innen, Begünstigte und Updates miteinander verknüpft",
+      "hero": {
+        "badge": "Für Patenschaftsorganisationen",
+        "title": "Verbinden Sie alle Pat:innen mit der Person oder dem Projekt, das sie unterstützen",
+        "lead": "Donorfit Sponsorship verknüpft Pat:innen, Begünstigte und monatliche Beiträge in einem Datensatz und bietet Pat:innen ein sicheres Portal für Fortschrittsberichte.",
+        "imageAlt": "Ein Schüler schreibt in einem Klassenzimmer in sein Heft",
+        "recordTitle": "Patenschaftsdatensatz",
+        "sponsor": "Pat:in",
+        "beneficiary": "Begünstigte:r",
+        "beneficiaryName": "Amina, 9",
+        "type": "Bildungspatenschaft",
+        "monthly": "{{amount}} pro Monat",
+        "status": "Aktiv",
+        "lastUpdate": "Halbjahresbericht an Pat:in gesendet"
+      },
+      "models": {
+        "title": "Patenschaftsmodelle, die Sie abbilden können",
+        "sub": "Kombinieren Sie sie in einer Organisation. Jede Patenschaft behält ihren eigenen Datensatz.",
+        "items": [
+          {
+            "title": "Einzelpatenschaft",
+            "text": "Ein:e Pat:in unterstützt ein Kind, eine:n Schüler:in oder eine Person."
+          },
+          {
+            "title": "Mitpatenschaft",
+            "text": "Mehrere Pat:innen teilen sich die Unterstützung einer begünstigten Person."
+          },
+          {
+            "title": "Gemeinschaftsprojekte",
+            "text": "Pat:innen unterstützen gemeinsam eine Familie oder ein Gemeinschaftsprojekt."
+          }
+        ]
+      },
+      "school": {
+        "title": "School Management",
+        "text": "Ein Werkzeug für Schulen, die von Pat:innen unterstützt werden – mit Schülerdaten, Anwesenheit und Schulgebühren. Es ist noch nicht verfügbar. Bildungspatenschaften laufen derzeit über Donorfit Sponsorship."
+      },
+      "challenges": {
+        "title": "Was Patenschaften schwer zu verwalten macht",
+        "sub": "Patenschaft ist persönlich, und jede Beziehung hat ihre eigenen Details.",
+        "items": [
+          {
+            "title": "Den Überblick behalten, wer wen unterstützt",
+            "text": "Bei Dutzenden oder Hunderten Patenschaften ist es mit Tabellen schwer, jede:n Pat:in der richtigen begünstigten Person zuzuordnen."
+          },
+          {
+            "title": "Sensible Daten von Begünstigten",
+            "text": "Profile können Namen, Fotos, Aufenthaltsorte und Schulunterlagen von Kindern enthalten, die nur die richtigen Personen sehen dürfen."
+          },
+          {
+            "title": "Beiträge, die Aufmerksamkeit brauchen",
+            "text": "Monatliche Zahlungen schlagen fehl, Karten laufen ab. Jeder Fall muss bemerkt und nachverfolgt werden, bevor die Unterstützung abreißt."
+          },
+          {
+            "title": "Regelmäßige Updates für Pat:innen",
+            "text": "Pat:innen möchten erfahren, wie es ihrem Schulkind oder ihrer Familie geht – oft mehrmals im Jahr."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So hilft Donorfit Patenschaftsorganisationen",
+        "sub": "Sponsorship ist rund um die Verbindung zwischen Pat:in und der unterstützten Person oder dem Projekt aufgebaut.",
+        "items": [
+          {
+            "title": "Ein Datensatz pro Patenschaft",
+            "text": "Jede Beziehung ist an einem Ort dokumentiert.",
+            "points": [
+              "Pat:in, Begünstigte:r und Beiträge verknüpft",
+              "Zuordnungsverlauf mit Prüfprotokollen",
+              "Einzelpatenschaften, Mitpatenschaften oder Gemeinschaftsprojekte"
+            ]
+          },
+          {
+            "title": "Daten von Begünstigten schützen",
+            "text": "Der Zugriff richtet sich nach der Rolle jeder Person.",
+            "points": [
+              "Rollenbasierter Zugriff für Mitarbeitende und Mitarbeiter:innen vor Ort",
+              "Einwilligungs- und Datenschutzvorkehrungen in Profilen",
+              "Eingeschränkter Zugriff auf Aufenthaltsorte und Identitätsdaten"
+            ]
+          },
+          {
+            "title": "Beiträge und Updates koordinieren",
+            "text": "Sehen Sie, was Aufmerksamkeit braucht, bevor eine Patenschaft einschläft.",
+            "points": [
+              "Jeder Beitrag und jede ausgebliebene Zahlung sichtbar",
+              "Automatische Wiederholungsversuche und Ablauferinnerungen",
+              "Meilensteine und Berichte über das Patenportal"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Sponsorship – und was gut dazu passt",
+        "sub": "Sponsorship ist das Herzstück. Zwei weitere Lösungen helfen bei einmaligem Bedarf.",
+        "items": [
+          {
+            "slug": "sponsorship",
+            "what": "Profile für Pat:innen und Begünstigte, Beitragsverfolgung, Schutzmaßnahmen und ein sicheres Patenportal.",
+            "use": "Legen Sie Profile von Begünstigten an, verknüpfen Sie Pat:innen bei ihrer Zusage und versenden Sie Meilensteine und Fortschrittsberichte über das Portal.",
+            "purpose": "Ihr Team weiß jederzeit, wer wen unterstützt, was bezahlt wurde und welches Update als Nächstes fällig ist."
+          },
+          {
+            "slug": "money-pool",
+            "what": "Eine Crowdfunding-Kampagne für ein Projekt – mit Ziel, Frist und Live-Fortschritt.",
+            "use": "Finanzieren Sie einen einmaligen Bedarf einer geförderten Gemeinschaft, etwa ein neues Klassenzimmer, mit vielen Beitragenden.",
+            "purpose": "Größerer Bedarf wird gedeckt, ohne einzelne Patenschaften zu verändern."
+          },
+          {
+            "slug": "water-well",
+            "what": "Eine Kampagne pro Brunnen mit Projektinformationen, Spendenziel und Updates zu jeder Phase.",
+            "use": "Sammeln Sie Spenden für sauberes Wasser in einer Gemeinschaft, in der Sie bereits Kinder oder Familien unterstützen.",
+            "purpose": "Pat:innen und andere Spender:innen können zu den Bedürfnissen der ganzen Gemeinschaft beitragen."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Alles, worauf ein Patenschaftsprogramm aufbaut",
+        "items": [
+          {
+            "title": "Profile für Pat:innen und Begünstigte",
+            "text": "Profile und Zuordnungsverlauf mit Prüfprotokollen."
+          },
+          {
+            "title": "Beitragsverfolgung",
+            "text": "Jeder Beitrag und jede ausgebliebene Zahlung je Patenschaft."
+          },
+          {
+            "title": "Bildungspatenschaften",
+            "text": "Schulgeld, Bücher und Schuluniformen – verfolgt über das ganze Schuljahr."
+          },
+          {
+            "title": "Schutzmaßnahmen",
+            "text": "Rollenbasierter Zugriff auf sensible Datensätze."
+          },
+          {
+            "title": "Patenportal",
+            "text": "Ein sicherer Ort für Updates und Berichte."
+          },
+          {
+            "title": "Automatische Wiederholungsversuche",
+            "text": "Fehlgeschlagene Zahlungen werden automatisch erneut eingezogen."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte eine Patenschaftsorganisation Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Schüler:innen durch die Schulzeit begleiten",
+            "text": "Jede:r Pat:in ist mit einer Schülerin oder einem Schüler verknüpft, und Beiträge für Schulgeld, Bücher und Schuluniformen werden erfasst. Am Ende jedes Halbjahres senden die Mitarbeitenden einen Fortschrittsbericht über das Patenportal.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Mehrere Pat:innen für ein Kind",
+            "text": "Drei Familienmitglieder teilen sich die Patenschaft für ein Kind. Die Beiträge jeder Person werden bei derselben begünstigten Person erfasst.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Ein Klassenzimmer für eine geförderte Gemeinschaft",
+            "text": "Neben den Einzelpatenschaften führt die Organisation eine MoneyPool-Kampagne für ein neues Klassenzimmer im selben Dorf.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "So funktioniert es",
+        "sub": "Vom ersten Profil einer begünstigten Person bis zu regelmäßigen Updates.",
+        "items": [
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Zahlungsanbieter anbinden",
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+          },
+          {
+            "title": "Profile von Begünstigten anlegen",
+            "text": "Legen Sie würdevolle Profile mit Einwilligungs- und Datenschutzvorkehrungen an und bestimmen Sie, wer in Ihrem Team sie sehen kann."
+          },
+          {
+            "title": "Pat:innen zuordnen",
+            "text": "Pat:innen sagen online zu und werden mit einer begünstigten Person oder einem Projekt verknüpft. Ab dann werden ihre Beiträge erfasst."
+          },
+          {
+            "title": "Fortschritt verfolgen und teilen",
+            "text": "Behalten Sie jeden Beitrag im Blick und versenden Sie Meilensteine und Berichte über das Patenportal."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Können wir Einzel- und Sammelpatenschaften führen?",
+          "answer": "Ja. Donorfit unterstützt Einzelpatenschaften, Mitpatenschaften mit mehreren Pat:innen pro begünstigter Person sowie Patenschaften für Gemeinschaftsprojekte."
+        },
+        {
+          "question": "Können Pat:innen ein Projekt statt einer Person unterstützen?",
+          "answer": "Ja. Mit Patenschaften für Gemeinschaftsprojekte unterstützen Pat:innen gemeinsam eine Familie oder ein Gemeinschaftsprojekt."
+        },
+        {
+          "question": "Wie werden sensible Daten von Begünstigten geschützt?",
+          "answer": "Die Daten sind durch rollenbasierte Berechtigungen geschützt, sodass Mitarbeiter:innen vor Ort und Administrator:innen nur auf das zugreifen, was sie benötigen."
+        },
+        {
+          "question": "Was passiert, wenn die Zahlung einer Patin oder eines Paten fehlschlägt?",
+          "answer": "Fehlgeschlagene Zahlungen werden automatisch erneut eingezogen, Pat:innen werden erinnert, bevor ihre Zahlungsdaten ablaufen, und Ihr Team sieht ausgebliebene Zahlungen bei jeder Patenschaft."
+        },
+        {
+          "question": "Wie erhalten Pat:innen Fortschrittsberichte?",
+          "answer": "Ihr Team versendet Lernerfolge, Fortschrittsberichte und Dankesnachrichten über das sichere Patenportal."
+        },
+        {
+          "question": "Ist School Management verfügbar?",
+          "answer": "Noch nicht. School Management ist demnächst verfügbar. Bildungspatenschaften sind bereits in Donorfit Sponsorship möglich."
+        }
+      ],
+      "cta": {
+        "title": "Koordinieren Sie Ihre Patenschaften an einem Ort",
+        "body": "Registrieren Sie sich kostenlos und legen Sie Ihre ersten Begünstigten an – oder buchen Sie eine Demo, um Ihr Patenschaftsmodell mit uns zu besprechen.",
+        "button": "Kostenlos starten"
+      }
     },
-    "features": {
-      "kicker": "Maßgeschneiderte Architektur",
-      "title": "Funktionen, die sich an Ihren Arbeitsabläufen orientieren"
+    "for-membership-orgs": {
+      "navLabel": "Für Mitgliederorganisationen",
+      "navDescription": "Anmeldungen, Beiträge und Verlängerungen für Vereine und Verbände",
+      "hero": {
+        "badge": "Für Mitgliederorganisationen",
+        "title": "Verwalten Sie die Mitgliedschaften Ihres Vereins – von der Anmeldung bis zur Verlängerung",
+        "lead": "Vereine, Verbände und Gemeinschaftsorganisationen nutzen Donorfit Membership, um Mitglieder zu registrieren, Beiträge einzuziehen und Verlängerungen abzuwickeln – ohne jemandem von Hand hinterherlaufen zu müssen.",
+        "imageAlt": "Eine Gemeinschaftsgruppe sitzt im Kreis unter einem Baum",
+        "cardLabel": "Mitgliedsausweis",
+        "cardName": "Fatima R.",
+        "cardPlan": "Familientarif, jährlich",
+        "cardStatus": "Aktiv",
+        "cardSince": "Mitglied seit",
+        "cardRenews": "Verlängerung am"
+      },
+      "year": {
+        "title": "Ein Mitgliedsjahr in Donorfit",
+        "steps": [
+          {
+            "title": "Tritt online bei",
+            "text": "Füllt Ihr Anmeldeformular aus und wählt einen Tarif."
+          },
+          {
+            "title": "Zahlt Beiträge",
+            "text": "Die Beiträge werden über Ihren Zahlungsanbieter eingezogen."
+          },
+          {
+            "title": "Erhält eine Erinnerung",
+            "text": "Eine automatische Benachrichtigung vor dem Verlängerungsdatum."
+          },
+          {
+            "title": "Verlängert",
+            "text": "Nach erfolgreicher Zahlung wird eine Bestätigung verschickt."
+          },
+          {
+            "title": "Stimmt ab",
+            "text": "Erscheint auf Ihrer Liste aktiver, beitragszahlender Mitglieder."
+          }
+        ]
+      },
+      "plans": {
+        "title": "Tarife, die zu Ihrer Satzung passen",
+        "sub": "Legen Sie Ihre eigenen Stufen und Abrechnungszyklen fest. Zum Beispiel:",
+        "tiers": [
+          "Standard",
+          "Studierende",
+          "Senior:innen",
+          "Familie",
+          "Organisationen",
+          "Förderer"
+        ],
+        "cycles": [
+          "Jährlich",
+          "Monatlich",
+          "Lebenslang"
+        ]
+      },
+      "challenges": {
+        "title": "Wo die Mitgliederverwaltung ins Stocken gerät",
+        "sub": "Vereine und Verbände leben vom Ehrenamt. Die Mitgliederverwaltung sollte nicht ihre Abende kosten.",
+        "items": [
+          {
+            "title": "Mitgliederdaten, die veralten",
+            "text": "Adressen, E-Mail-Adressen und Telefonnummern ändern sich, und Tabellen verschiedener Ehrenamtlicher laufen schnell auseinander."
+          },
+          {
+            "title": "Mehrere Mitgliedsarten und Beitragssätze",
+            "text": "Standard-, Studierenden-, Familien- und Organisationsmitglieder zahlen oft unterschiedliche Beträge in unterschiedlichen Zyklen."
+          },
+          {
+            "title": "Beiträge pünktlich einziehen",
+            "text": "Rechnungen verschicken, Kontoauszüge prüfen und Erinnerungen schreiben kostet in jeder Verlängerungszeit Stunden."
+          },
+          {
+            "title": "Vereinsaktivitäten vorbereiten",
+            "text": "Vor der Mitgliederversammlung muss der Vorstand wissen, wer aktives, beitragszahlendes Mitglied mit Stimmberechtigung ist."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So hilft Donorfit Membership",
+        "sub": "Ein Mitgliederdatensatz ersetzt Papierformulare, Rechnungstabellen und Erinnerungs-E-Mails.",
+        "items": [
+          {
+            "title": "Mitgliederdaten ordnen",
+            "text": "Jedes Mitglied hat ein aktuelles Profil.",
+            "points": [
+              "Kontaktdaten, Tarif, Eintrittsdatum und Status zusammen",
+              "Ein Self-Service-Portal, in dem Mitglieder ihre Daten aktualisieren",
+              "Filter nach Status, Eintrittsdatum oder Regionalgruppe"
+            ]
+          },
+          {
+            "title": "Mitgliedsbeiträge einziehen",
+            "text": "Beiträge kommen herein, ohne dass Sie hinterherlaufen müssen.",
+            "points": [
+              "Wiederkehrende Abrechnung für jährliche oder monatliche Beiträge",
+              "Automatische Wiederholungsversuche bei fehlgeschlagenen Zahlungen",
+              "Beitragsbescheinigungen zum Herunterladen für Mitglieder"
+            ]
+          },
+          {
+            "title": "Vereinsaktivitäten unterstützen",
+            "text": "Die Informationen, die Sie für Versammlungen und Verlängerungen brauchen.",
+            "points": [
+              "Listen stimmberechtigter Mitglieder",
+              "Erinnerungen zur Verlängerung und Bestätigungen",
+              "Eigene Antragsfelder bei der Anmeldung"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Membership im Detail",
+        "sub": "Alles Folgende ist Teil von Donorfit Membership.",
+        "items": [
+          {
+            "slug": "membership",
+            "what": "Online-Registrierung, Tarife und Kategorien, Mitgliederdaten, Beitragseinzug, Verlängerungsabläufe und ein Mitgliederverzeichnis mit Segmenten.",
+            "use": "Veröffentlichen Sie ein Anmeldeformular mit eigenen Antragsfeldern, richten Sie Ihre Stufen ein und lassen Sie Mitglieder über wiederkehrende Abrechnung zahlen und verlängern.",
+            "purpose": "Ihr Team sieht, wer aktiv ist, wessen Beitrag fällig ist und wer eine Erinnerung braucht – ohne getrennte Listen."
+          }
+        ]
+      },
+      "beyond": {
+        "title": "Weitere Fundraising-Lösungen",
+        "sub": "Wenn Ihre Organisation auch über die Mitgliedsbeiträge hinaus Spenden sammelt, ergänzen diese Lösungen Membership.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "Eine Crowdfunding-Kampagne für ein Projekt – mit Ziel, Frist und Live-Fortschritt.",
+            "use": "Sammeln Sie Geld für ein einmaliges Vorhaben, etwa die Renovierung Ihres Vereinsheims oder Gemeindesaals, und lassen Sie Mitglieder die Kampagne teilen.",
+            "purpose": "Projektspenden bleiben von den regulären Beiträgen getrennt."
+          },
+          {
+            "slug": "qurbani",
+            "what": "Online-Qurbani-Beiträge mit den Tieren und Anteilen, die Ihre Organisation anbietet.",
+            "use": "Für Moscheegemeinden, die zum Opferfest (Eid al-Adha) Qurbani für ihre Mitglieder und darüber hinaus organisieren.",
+            "purpose": "Saisonale Beiträge und Spenderdaten bleiben an einem Ort geordnet."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Funktionen für Mitgliedschaften",
+        "items": [
+          {
+            "title": "Mitgliederregistrierung",
+            "text": "Online-Anmeldeformulare mit eigenen Antragsfeldern."
+          },
+          {
+            "title": "Tarife und Kategorien",
+            "text": "Jede Stufe mit eigenem Beitrag und eigenem Verlängerungszyklus."
+          },
+          {
+            "title": "Mitgliederdaten",
+            "text": "Kontaktdaten, Tarif, Eintrittsdatum, Status und Zahlungshistorie."
+          },
+          {
+            "title": "Beitragseinzug",
+            "text": "Wiederkehrende Abrechnung mit automatischen Wiederholungsversuchen."
+          },
+          {
+            "title": "Verlängerungsabläufe",
+            "text": "Erinnerungen, Aktualisierung der Zahlungsart und Bestätigungen."
+          },
+          {
+            "title": "Verzeichnis und Segmente",
+            "text": "Filtern nach Status, Stimmberechtigung oder Regionalgruppe."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte eine Mitgliederorganisation Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Ein Sportverein mit mehreren Beitragssätzen",
+            "text": "Erwachsene, Studierende und Familien zahlen unterschiedliche Jahresbeiträge. Der Verein richtet jeden davon als eigenen Tarif ein und zieht die Beiträge über wiederkehrende Abrechnung ein.",
+            "slug": "membership"
+          },
+          {
+            "title": "Ein Verein bereitet seine Mitgliederversammlung vor",
+            "text": "Vor der Versammlung filtert der Vorstand die Mitglieder nach Status und Stimmberechtigung und erhält so eine aktuelle Liste der Stimmberechtigten.",
+            "slug": "membership"
+          },
+          {
+            "title": "Die Renovierung eines Gemeindesaals",
+            "text": "Neben den Mitgliedsbeiträgen führt der Verein eine MoneyPool-Kampagne für seinen Saal, die Mitglieder mit Freund:innen und Familie teilen.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "So funktioniert es",
+        "sub": "So richten Sie Mitgliedschaften in Donorfit ein.",
+        "items": [
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Zahlungsanbieter anbinden",
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+          },
+          {
+            "title": "Tarife und Anmeldeformular einrichten",
+            "text": "Legen Sie Ihre Stufen mit Beiträgen und Verlängerungszyklen an und fügen Sie die Antragsfelder hinzu, die Sie brauchen."
+          },
+          {
+            "title": "Mitglieder treten bei und zahlen",
+            "text": "Mitglieder melden sich online an, wählen ihren Tarif und zahlen ihre Beiträge über Ihren Zahlungsanbieter."
+          },
+          {
+            "title": "Verlängerungen und Daten verwalten",
+            "text": "Erinnerungen zur Verlängerung werden automatisch verschickt, und Sie sehen, wer aktiv, fällig oder ausgelaufen ist."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Können verschiedene Mitglieder unterschiedliche Beiträge zahlen?",
+          "answer": "Ja. Richten Sie beliebig viele Mitgliedschaftsstufen ein, jeweils mit eigenen Preisen, eigenem Verlängerungszyklus und eigenen Antragsfeldern."
+        },
+        {
+          "question": "Können wir eine lebenslange Mitgliedschaft anbieten?",
+          "answer": "Ja. Tarife können jährlich, monatlich oder lebenslang sein."
+        },
+        {
+          "question": "Können Mitglieder ihre Daten selbst aktualisieren?",
+          "answer": "Ja. Im Self-Service-Portal können Mitglieder ihre Kontaktdaten aktualisieren, Beitragsbescheinigungen herunterladen und ihren Status verwalten."
+        },
+        {
+          "question": "Können wir sehen, wer bei unserer Mitgliederversammlung stimmberechtigt ist?",
+          "answer": "Ja. Filtern Sie Mitglieder nach Status und Stimmberechtigung, um eine aktuelle Liste aktiver, beitragszahlender Mitglieder zu erstellen."
+        },
+        {
+          "question": "Welche Zahlungsarten können Mitglieder nutzen?",
+          "answer": "Das hängt vom Zahlungsanbieter ab, den Sie anbinden. Donorfit ist mit Stripe, PayPal, GoCardless, Mollie und Micropayment integriert."
+        },
+        {
+          "question": "Können wir über die Mitgliedsbeiträge hinaus Spenden sammeln?",
+          "answer": "Ja. MoneyPool eignet sich gut für einmalige Vorhaben, und Moscheegemeinden können Qurbani für ihre saisonale Kampagne nutzen."
+        }
+      ],
+      "cta": {
+        "title": "Verwalten Sie Ihre Mitgliedschaften an einem Ort",
+        "body": "Registrieren Sie sich kostenlos und richten Sie Ihre Mitgliedstarife ein – oder buchen Sie eine Demo, um Membership mit Ihren eigenen Stufen zu sehen.",
+        "button": "Kostenlos starten"
+      }
     },
-    "products": {
-      "kicker": "Empfohlene Produkte",
-      "title": "Empfohlene Module für {{name}}",
-      "explore": "Spezifikationen & Workflows entdecken →"
-    },
-    "faqs": {
-      "kicker": "Fragen aus der Praxis",
-      "title": "Was {{name}} häufig fragen"
+    "for-international-orgs": {
+      "navLabel": "Für internationale Organisationen",
+      "navDescription": "Im Inland Spenden sammeln für Projekte im Ausland",
+      "hero": {
+        "badge": "Für internationale Organisationen",
+        "title": "Sammeln Sie Spenden dort, wo Ihre Unterstützer:innen sind – für Projekte dort, wo sie gebraucht werden",
+        "lead": "Wenn Ihre Organisation an einem Ort Spenden sammelt und an einem anderen Projekte umsetzt, hilft Ihnen Donorfit, jedes Projekt vorzustellen, Beiträge zu sammeln und Unterstützer:innen auf dem Laufenden zu halten, während die Arbeit voranschreitet.",
+        "imageAlt": "Kinder trinken sauberes Wasser aus einem Wasserhahn",
+        "imageAlt2": "Ehrenamtliche packen Lebensmittelpakete bei einer Gemeinschaftsveranstaltung",
+        "imageAlt3": "Rinder auf einem Markt vor dem Opferfest (Eid al-Adha)"
+      },
+      "stages": {
+        "title": "Beispiel: ein Brunnen – von der Standortprüfung bis zur Übergabe",
+        "sub": "Spender:innen verfolgen den Bau über Updates, die Sie in jeder Phase veröffentlichen.",
+        "project": "Brunnenprojekt",
+        "raised": "{{raised}} von {{target}} gesammelt",
+        "steps": [
+          {
+            "title": "Standortprüfung",
+            "text": "Standort bewertet und Budget bestätigt."
+          },
+          {
+            "title": "Bohrung",
+            "text": "Update mit Fotos vom Standort."
+          },
+          {
+            "title": "Installation",
+            "text": "Pumpe und Wasserhahn installiert und getestet."
+          },
+          {
+            "title": "Übergabe",
+            "text": "Die Gemeinschaft schöpft Wasser."
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Vor dem Start: Was Sie klären sollten",
+        "sub": "Grenzüberschreitende Arbeit wirft Fragen auf, die wir lieber von Anfang an ehrlich beantworten.",
+        "items": [
+          {
+            "title": "Zahlungsarten und Währungen",
+            "text": "Diese hängen vom Zahlungsanbieter ab, den Sie anbinden – etwa Stripe, PayPal, GoCardless, Mollie oder Micropayment – sowie von Ihrem Konto dort."
+          },
+          {
+            "title": "Regeln in jedem Land",
+            "text": "Die Anforderungen an Spendensammlungen und Spendenbelege unterscheiden sich von Land zu Land. Klären Sie diese mit Ihren Berater:innen."
+          },
+          {
+            "title": "Wer Zugriff braucht",
+            "text": "Legen Sie fest, welche Mitarbeitenden und Mitarbeiter:innen vor Ort welche Datensätze benötigen, bevor Sie sie einladen."
+          },
+          {
+            "title": "Ihre Einrichtung bei uns",
+            "text": "Sprechen Sie mit unserem Team, damit wir bestätigen können, was für Ihre Organisation verfügbar ist."
+          }
+        ]
+      },
+      "challenges": {
+        "title": "Fundraising über verschiedene Standorte hinweg",
+        "sub": "Wenn Unterstützer:innen und Projekte an verschiedenen Orten sind, tauchen einige Fragen immer wieder auf.",
+        "items": [
+          {
+            "title": "Unterstützer:innen weit weg vom Projekt",
+            "text": "Unterstützer:innen leben oft in einem Land, während die Arbeit in einem anderen stattfindet. Für jede Information sind sie auf Sie angewiesen."
+          },
+          {
+            "title": "Unterschiedliche Anforderungen je Region",
+            "text": "Regeln für Spendensammlungen, Spendenbelege und Daten können sich zwischen den Ländern unterscheiden, in denen Sie Spenden sammeln."
+          },
+          {
+            "title": "Die passende Zahlungseinrichtung",
+            "text": "Welche Zahlungsarten und Währungen Spender:innen nutzen können, hängt vom Zahlungsanbieter und Ihrem Konto dort ab."
+          },
+          {
+            "title": "Saisonale und projektbezogene Spitzen",
+            "text": "Spendenaufrufe wie Qurbani bringen in kurzer Zeit viele Beiträge – jeder mit eigenen Angaben."
+          }
+        ]
+      },
+      "helps": {
+        "title": "So kann Donorfit Sie unterstützen",
+        "sub": "Klare Projektinformationen, unterstützte Zahlungsanbieter und Hilfe von unserem Team beim Start.",
+        "items": [
+          {
+            "title": "Projekte für ferne Unterstützer:innen vorstellen",
+            "text": "Bringen Sie das Projekt näher zu den Menschen, die es finanzieren.",
+            "points": [
+              "Projektseiten mit Standort, Budget und Fotos",
+              "Updates zu jeder Bauphase bei Water-Well-Projekten",
+              "Fortschrittsberichte über das Patenportal"
+            ]
+          },
+          {
+            "title": "Mit unterstützten Zahlungsanbietern arbeiten",
+            "text": "Zahlungen laufen über einen Anbieter Ihrer Wahl.",
+            "points": [
+              "Stripe, PayPal, GoCardless, Mollie oder Micropayment",
+              "Zahlungsarten, die Ihr Anbieterkonto bereitstellt",
+              "Bestätigte Beiträge werden in Donorfit erfasst"
+            ]
+          },
+          {
+            "title": "Einstieg mit unserem Team",
+            "text": "Wir prüfen Ihre Einrichtung gemeinsam mit Ihnen vor dem Start.",
+            "points": [
+              "Ihre Regionen und Anforderungen besprechen",
+              "Bestätigen, was für Ihre Einrichtung verfügbar ist",
+              "Ihre bestehenden Datensätze importieren"
+            ]
+          }
+        ]
+      },
+      "providers": {
+        "title": "Unterstützte Zahlungsanbieter",
+        "sub": "Donorfit ist mit diesen Anbietern integriert. Welche Zahlungsarten, Währungen und Länder Ihren Spender:innen zur Verfügung stehen, bestimmen der jeweilige Anbieter und Ihr Konto dort."
+      },
+      "solutions": {
+        "title": "Lösungen für Projekte im Ausland",
+        "sub": "Jede Lösung deckt eine andere Art internationaler Projekte ab.",
+        "items": [
+          {
+            "slug": "water-well",
+            "what": "Eine Kampagne pro Brunnen mit Standort, Budget, Fotos, Spendenziel und Fortschritt.",
+            "use": "Stellen Sie jeden geplanten Brunnen vor und veröffentlichen Sie Updates von der Standortprüfung bis zur Übergabe.",
+            "purpose": "Auch weit entfernte Unterstützer:innen können den Bau Phase für Phase verfolgen."
+          },
+          {
+            "slug": "qurbani",
+            "what": "Online-Qurbani-Beiträge mit den Tieren und Anteilen, die Sie anbieten, dazu Zahlungsverfolgung und Kampagnenfortschritt.",
+            "use": "Sammeln Sie die Qurbani-Wünsche Ihrer Gemeinschaft vor dem Opferfest (Eid al-Adha), während Ihre Organisation das Qurbani durchführt und verteilt.",
+            "purpose": "Jeder Beitrag und seine Angaben bleiben in den arbeitsreichsten Wochen an einem Ort geordnet."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Verbindet Pat:innen mit Begünstigten und Gemeinschaftsprojekten – mit Schutzmaßnahmen.",
+            "use": "Lassen Sie Unterstützer:innen Patenschaften für Kinder oder Familien in den Regionen übernehmen, in denen Sie arbeiten.",
+            "purpose": "Langfristige Unterstützung ist dokumentiert, und sensible Datensätze bleiben geschützt."
+          },
+          {
+            "slug": "money-pool",
+            "what": "Eine Crowdfunding-Kampagne für ein Projekt, geteilt per WhatsApp, E-Mail oder QR-Code.",
+            "use": "Lassen Sie Diaspora-Gruppen oder Partnergemeinschaften gemeinsam für ein klar umrissenes Projekt sammeln.",
+            "purpose": "Beiträge gehen direkt auf das Konto Ihrer Organisation."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "So könnte eine internationale Organisation Donorfit nutzen",
+        "sub": "Veranschaulichende Beispiele, keine Beschreibungen bestehender Kund:innen.",
+        "items": [
+          {
+            "title": "Fundraising-Möglichkeiten für eine Region prüfen",
+            "text": "Eine Organisation plant Wasserprojekte in einer neuen Region. Vor dem Start bespricht sie mit dem Donorfit-Team ihren Zahlungsanbieter und die Herkunft ihrer Spender:innen und richtet dann ihre erste Water-Well-Kampagne ein.",
+            "slug": "water-well"
+          },
+          {
+            "title": "Eine Qurbani-Saison",
+            "text": "Spender:innen wählen das Tier oder den Anteil, den sie beitragen möchten. Die Organisation verfolgt die Beiträge je Option und führt das Qurbani und die Verteilung vor Ort durch.",
+            "slug": "qurbani"
+          },
+          {
+            "title": "Patenschaften für Familien im Ausland",
+            "text": "Pat:innen in einem Land unterstützen Familien in einem anderen. Mitarbeiter:innen vor Ort sehen nur die Datensätze, die ihre Rolle erlaubt.",
+            "slug": "sponsorship"
+          }
+        ]
+      },
+      "steps": {
+        "title": "So läuft der Einstieg ab",
+        "sub": "Wir empfehlen, vor dem Start mit uns zu sprechen.",
+        "items": [
+          {
+            "title": "Mit unserem Team sprechen",
+            "text": "Erzählen Sie uns, wo Sie Spenden sammeln, wo Ihre Projekte sind und welchen Zahlungsanbieter Sie nutzen oder in Betracht ziehen."
+          },
+          {
+            "title": "Kostenlos registrieren",
+            "text": "Erstellen Sie das Donorfit-Konto Ihrer Organisation. Donorfit ist kostenlos nutzbar."
+          },
+          {
+            "title": "Ihren Zahlungsanbieter anbinden",
+            "text": "Binden Sie einen unterstützten Anbieter an. Der Anbieter bestimmt, welche Zahlungsarten und Währungen verfügbar sind."
+          },
+          {
+            "title": "Projekte einrichten",
+            "text": "Legen Sie Water-Well-, Qurbani-, Sponsorship- oder MoneyPool-Kampagnen für Ihre Arbeit an."
+          },
+          {
+            "title": "Updates teilen und Fortschritt verfolgen",
+            "text": "Veröffentlichen Sie Projekt-Updates und verfolgen Sie die Beiträge, sobald sie erfasst werden."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Unterstützt Donorfit mehrere Währungen?",
+          "answer": "Das hängt vom Zahlungsanbieter ab, den Sie anbinden, und von Ihrem Konto dort. Bitte kontaktieren Sie unser Team vor dem Start, damit wir bestätigen können, was für Ihre Einrichtung verfügbar ist."
+        },
+        {
+          "question": "Können Unterstützer:innen in anderen Ländern spenden?",
+          "answer": "Welche Spender:innen zahlen können und auf welche Weise, bestimmt Ihr Zahlungsanbieter. Unser Team hilft Ihnen, dies für die Länder zu prüfen, in denen Sie Spenden sammeln."
+        },
+        {
+          "question": "Welche Zahlungsanbieter werden unterstützt?",
+          "answer": "Donorfit ist mit Stripe, PayPal, GoCardless, Mollie und Micropayment integriert. Jede Integrationsseite erklärt, was der Anbieter bietet und was Sie vor der Anbindung brauchen."
+        },
+        {
+          "question": "Kümmert sich Donorfit um regionale rechtliche Anforderungen?",
+          "answer": "Nein. Die Anforderungen an Spendensammlungen, Spendenbelege und Datenschutz unterscheiden sich von Land zu Land. Bitte klären Sie diese mit Ihren Berater:innen. Unser Team sagt Ihnen, was Donorfit bietet."
+        },
+        {
+          "question": "Wer führt das Qurbani durch und verteilt das Fleisch?",
+          "answer": "Ihre Organisation. Donorfit hilft Ihnen, die Beiträge und Spenderdaten geordnet zu halten."
+        },
+        {
+          "question": "Können Spender:innen ein Projekt nach ihrer Spende verfolgen?",
+          "answer": "Ja. Veröffentlichen Sie Updates, während das Projekt die einzelnen Phasen durchläuft, damit Spender:innen sehen, was ihre Spende bewirkt hat."
+        }
+      ],
+      "cta": {
+        "title": "Besprechen Sie die Anforderungen Ihrer Organisation",
+        "body": "Erzählen Sie uns von Ihren Regionen, Projekten und Ihrer Zahlungseinrichtung. Wir bestätigen vor Ihrem Start, was Donorfit bieten kann.",
+        "button": "Ihre Anforderungen besprechen"
+      }
     }
   }
 }

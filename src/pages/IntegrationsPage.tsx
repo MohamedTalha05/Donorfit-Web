@@ -129,6 +129,11 @@ function Category({
               {t(`categories.${ns}.title`)}
             </h2>
             <p className="mt-4 max-w-md text-lg leading-relaxed text-neutral-600">{t(`categories.${ns}.body`)}</p>
+            {ns === 'payments' && (
+              <HomeLink to="/payment-gateways" className="mt-5 inline-flex items-center gap-1.5 text-[15px] font-bold text-brand-700 hover:text-brand-900">
+                {t('categories.payments.more')} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </HomeLink>
+            )}
           </div>
         </div>
         <ul className="divide-y divide-neutral-200 self-start overflow-hidden rounded-[1.75rem] border border-neutral-200 bg-white shadow-[0_20px_50px_-30px_rgb(0_24_64/0.35)] lg:col-span-7">

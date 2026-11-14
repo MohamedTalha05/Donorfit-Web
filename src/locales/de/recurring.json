@@ -1,0 +1,216 @@
+{
+  "hero": {
+    "badge": "Verwaltung wiederkehrender Zahlungen",
+    "title": "Wiederkehrende Zahlungen vereinfachen. Dauerhafte Unterstützung aufbauen.",
+    "body": "Mit Donorfit lassen sich laufende Beiträge einfacher verwalten. Organisieren Sie regelmäßige Spenden, Mitgliedsbeiträge und Patenschaftsbeiträge über unterstützte Integrationen für wiederkehrende Zahlungen.",
+    "explore": "Wiederkehrende Zahlungen entdecken",
+    "start": "Jetzt starten",
+    "visualLabel": "Ablauf einer wiederkehrenden Zahlung: Beitrag wählen, Zahlungsrhythmus festlegen, Zahlung autorisieren, laufende Zahlungen verwalten",
+    "cycle": [
+      "Wählen",
+      "Planen",
+      "Autorisieren",
+      "Verwalten"
+    ],
+    "centre": "Monatlich oder jährlich",
+    "upcoming": "Anstehende Beiträge",
+    "example": "Beispiel",
+    "monthly": "{{amount}} monatlich",
+    "status": "Geplant"
+  },
+  "intro": {
+    "title": "Jeder Beitrag zählt – immer wieder",
+    "body": [
+      "Viele Organisationen sind auf laufende Beiträge angewiesen, um ihre Projekte, Programme und Gemeinschaften zu unterstützen. Werden diese regelmäßigen Zahlungen manuell verwaltet, entsteht zusätzlicher Verwaltungsaufwand.",
+      "Donorfit hilft Organisationen, wiederkehrende Zahlungen über die verfügbaren Zahlungsintegrationen zu organisieren. So lassen sich laufende Beiträge leichter verwalten und Fundraising-Programme verlässlich fortführen."
+    ],
+    "areas": [
+      {
+        "title": "Regelmäßige Spenden",
+        "text": "Monatliche und jährliche Spenden mit automatischem Einzug."
+      },
+      {
+        "title": "Wiederkehrende Mitgliedsbeiträge",
+        "text": "Beiträge, eingezogen über die wiederkehrende Abrechnung in Donorfit Membership."
+      },
+      {
+        "title": "Verwaltung von Patenschaftszahlungen",
+        "text": "Monatliche Beiträge der Pat:innen, nachverfolgt in Donorfit Sponsorship."
+      }
+    ]
+  },
+  "steps": {
+    "title": "So einfach verwalten Sie wiederkehrende Beiträge",
+    "sub": "Wie wiederkehrende Online-Spenden und Beiträge funktionieren – von der ersten Auswahl bis zur laufenden Verwaltung.",
+    "items": [
+      {
+        "title": "Beitrag wählen",
+        "text": "Spender:innen oder Unterstützer:innen wählen eine verfügbare Option für einen wiederkehrenden Beitrag, sofern unterstützt."
+      },
+      {
+        "title": "Zahlungsrhythmus festlegen",
+        "text": "Wählen Sie ein verfügbares Intervall, etwa monatlich oder jährlich – je nachdem, was die Zahlungsintegration unterstützt."
+      },
+      {
+        "title": "Zahlung autorisieren",
+        "text": "Die Unterstützer:innen schließen die erforderliche Zahlungsautorisierung beim gewählten Zahlungsanbieter ab, zum Beispiel mit einem Lastschriftmandat."
+      },
+      {
+        "title": "Laufende Zahlungen verwalten",
+        "text": "Die Abwicklung wiederkehrender Zahlungen richtet sich nach dem vom Zahlungsanbieter unterstützten Zahlungsrhythmus und seinen Autorisierungsregeln. Ihre Organisation verwaltet die verfügbaren Informationen zu wiederkehrenden Zahlungen in Donorfit."
+      }
+    ]
+  },
+  "features": {
+    "title": "Alles, was Sie zur Organisation laufender Beiträge brauchen",
+    "sub": "Funktionen zur Verwaltung wiederkehrender Zahlungen in Donorfit. Die Kennzeichnungen zeigen, in welchem Teil der Plattform die jeweilige Funktion enthalten ist.",
+    "items": {
+      "contributions": {
+        "title": "Wiederkehrende Beiträge",
+        "text": "Monatliche und jährliche Spenden mit automatischem Einzug – so hängen regelmäßige Spenden nicht von manuellen Erinnerungen ab.",
+        "where": "Recurring Subscription"
+      },
+      "schedules": {
+        "title": "Zahlungsrhythmen",
+        "text": "Monatliche und jährliche Intervalle. Jeder Mitgliedstarif hat seinen eigenen Beitrag und Verlängerungszyklus.",
+        "where": "Recurring Subscription, Membership"
+      },
+      "tracking": {
+        "title": "Zahlungen nachverfolgen",
+        "text": "Sehen Sie jeden Monatsbeitrag und jede ausgefallene Zahlung pro Patenschaft.",
+        "where": "Sponsorship"
+      },
+      "membership": {
+        "title": "Mitgliedsbeiträge",
+        "text": "Wiederkehrende Abrechnung von Beiträgen mit SEPA-Lastschriftmandaten (Basis- und Firmenlastschrift), Vorabankündigung (Pre-Notification), Bankdatei-Export und Kartenzahlung.",
+        "where": "Membership"
+      },
+      "sponsorship": {
+        "title": "Patenschaftsbeiträge",
+        "text": "Jede Patenschaft verbindet Pat:in, Begünstigte:n oder Projekt und die laufenden Beiträge in einem Datensatz.",
+        "where": "Sponsorship"
+      },
+      "history": {
+        "title": "Zahlungshistorie",
+        "text": "Zahlungshistorie in Mitgliederprofilen und Spendenhistorie in Spenderdatensätzen. Mitglieder können Beitragsbescheinigungen herunterladen.",
+        "where": "Membership, Spenderdatensätze"
+      },
+      "authorisation": {
+        "title": "Zahlungsautorisierung",
+        "text": "Unterstützer:innen autorisieren wiederkehrende Zahlungen beim Zahlungsanbieter, zum Beispiel indem sie einmalig ein Lastschriftmandat erteilen.",
+        "where": "Zahlungsanbieter"
+      },
+      "management": {
+        "title": "Fehlgeschlagene Zahlungen und Verlängerungen",
+        "text": "Automatische Wiederholungsversuche bei fehlgeschlagenen Zahlungen, Erinnerungen vor Ablauf der Zahlungsdaten, Verlängerungserinnerungen und Aktualisierung der Zahlungsart.",
+        "where": "Membership, Sponsorship"
+      }
+    }
+  },
+  "gateways": {
+    "title": "Wiederkehrende Zahlungen über unterstützte Zahlungs-Gateways",
+    "sub": "Donorfit arbeitet mit mehreren Zahlungs-Gateway-Integrationen. Die Möglichkeiten für wiederkehrende Zahlungen können sich jedoch je nach Zahlungsanbieter unterscheiden.",
+    "documentedTitle": "Wiederkehrende Zahlungen dokumentiert",
+    "documentedText": "Auf der Integrationsseite dieses Zahlungsanbieters sind wiederkehrende Zahlungen ausdrücklich aufgeführt.",
+    "checkTitle": "Verfügbarkeit wiederkehrender Zahlungen klären",
+    "checkText": "Diese Zahlungsanbieter sind mit Donorfit integriert, wiederkehrende Zahlungen sind auf ihren Donorfit-Integrationsseiten jedoch nicht dokumentiert. Ob Sie sie für wiederkehrende Zahlungen nutzen können, hängt vom Zahlungsanbieter, der Zahlungsart und Ihrer Kontokonfiguration ab – bitte klären Sie das mit unserem Team.",
+    "methods": "Angebotene Zahlungsarten",
+    "recurringNote": "Lastschriftmandate werden einmal erteilt, danach werden einmalige und wiederkehrende Zahlungen vom Bankkonto der Unterstützer:innen eingezogen. Gut geeignet für monatliche Spenden, Mitgliedsbeiträge und Patenschaften.",
+    "learnMore": "Mehr erfahren",
+    "learnMoreAria": "Mehr über die {{name}}-Integration erfahren",
+    "logoAlt": "Logo von {{name}}",
+    "allGateways": "Alle Zahlungs-Gateways"
+  },
+  "benefits": {
+    "title": "Warum wiederkehrende Zahlungen mit Donorfit verwalten?",
+    "items": [
+      {
+        "title": "Eine Fundraising-Plattform",
+        "text": "Organisieren Sie laufende Beiträge gemeinsam mit Ihren Spender:innen, Mitgliedern und Pat:innen."
+      },
+      {
+        "title": "Weniger manuelle Nachverfolgung",
+        "text": "Verringern Sie den Verwaltungsaufwand, regelmäßige Zahlungen von Hand nachzuhalten."
+      },
+      {
+        "title": "Wiederkehrende Optionen für Unterstützer:innen",
+        "text": "Bieten Sie monatliche oder jährliche Beiträge an, sofern Ihre Einrichtung dies unterstützt."
+      },
+      {
+        "title": "Mitgliedschafts- und Patenschaftsprogramme",
+        "text": "Unterstützen Sie Mitgliedsbeiträge und Patenschaftsbeiträge, die über Monate oder Jahre laufen."
+      },
+      {
+        "title": "Zahlungsdaten im Überblick",
+        "text": "Sehen Sie Zahlungshistorie, ausgefallene Zahlungen und Beitragsbescheinigungen ein."
+      },
+      {
+        "title": "Unterstützte Zahlungs-Gateways",
+        "text": "Nutzen Sie die in Donorfit verfügbaren Zahlungs-Gateway-Integrationen."
+      }
+    ],
+    "linksTitle": "Verwandte Lösungen"
+  },
+  "pricing": {
+    "title": "Einfache Plattformpreise. Transparente Zahlungsabwicklung.",
+    "body": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren des Zahlungs-Gateways legt der gewählte Zahlungsanbieter fest. Gebühren für wiederkehrende Zahlungen, Abwicklungsbedingungen und Zahlungsrhythmen können je nach Zahlungsanbieter, Zahlungsart, Land und Kontovereinbarung variieren.",
+    "platformTitle": "Donorfit-Plattform",
+    "platformText": "Die Nutzung der Donorfit-Plattform ist kostenlos. Was enthalten ist, sehen Sie auf der Preisseite.",
+    "providerTitle": "Zahlungsanbieter",
+    "providerText": "Die Transaktionsgebühren für jede Zahlung, auch für wiederkehrende Zahlungen, legt Ihr Zahlungsanbieter im Rahmen Ihrer Vereinbarung mit ihm fest.",
+    "link": "Preise ansehen"
+  },
+  "faq": {
+    "title": "Häufige Fragen zu wiederkehrenden Zahlungen",
+    "sub": "Antworten zur Verwaltung regelmäßiger Spenden und zur Zahlungs-Gateway-Integration für wiederkehrende Zahlungen.",
+    "contact": "Unser Team kontaktieren",
+    "items": [
+      {
+        "question": "Was sind wiederkehrende Zahlungen?",
+        "answer": "Wiederkehrende Zahlungen sind Beiträge, die regelmäßig nach einem festen Rhythmus eingezogen werden, zum Beispiel eine monatliche Spende, ein jährlicher Mitgliedsbeitrag oder eine monatliche Patenschaft. Die Unterstützer:innen autorisieren die Zahlung einmal, danach wird sie gemäß dem vereinbarten Rhythmus eingezogen."
+      },
+      {
+        "question": "Wie funktionieren regelmäßige Spenden in Donorfit?",
+        "answer": "Unterstützer:innen wählen eine Option für einen wiederkehrenden Beitrag, sofern Ihre Einrichtung eine anbietet, legen das Intervall fest und autorisieren die Zahlung bei Ihrem Zahlungsanbieter. Donorfit unterstützt monatliche und jährliche Spenden mit automatischem Einzug, und der Zahlungsanbieter wickelt jede Zahlung gemäß seinem Zahlungsrhythmus und seinen Autorisierungsregeln ab."
+      },
+      {
+        "question": "Können Organisationen monatliche Spenden annehmen?",
+        "answer": "Ja, sofern Ihre Donorfit-Einrichtung und Ihr Zahlungsanbieter wiederkehrende Zahlungen unterstützen. Donorfit unterstützt monatliche und jährliche Spenden mit automatischem Einzug."
+      },
+      {
+        "question": "Welche Zahlungs-Gateways unterstützen wiederkehrende Zahlungen?",
+        "answer": "Auf seiner Donorfit-Integrationsseite führt GoCardless einmalige und wiederkehrende Zahlungen per Lastschrift ausdrücklich auf. Stripe, PayPal, Mollie und Micropayment sind ebenfalls integriert, wiederkehrende Zahlungen sind auf ihren Donorfit-Integrationsseiten jedoch nicht dokumentiert. Bitte klären Sie daher die Verfügbarkeit für Ihr Konto mit unserem Team."
+      },
+      {
+        "question": "Können Mitglieder wiederkehrende Mitgliedsbeiträge zahlen?",
+        "answer": "Ja. Donorfit Membership zieht Beiträge über die wiederkehrende Abrechnung ein, unter anderem per SEPA-Lastschriftmandat und Kartenzahlung, mit Verlängerungserinnerungen und Bestätigungen."
+      },
+      {
+        "question": "Können Unterstützer:innen wiederkehrende Zahlungen ändern oder kündigen?",
+        "answer": "Mitglieder können im Self-Service-Portal ihren Status verwalten und ihre Daten aktualisieren, und die Verlängerungsabläufe umfassen die Aktualisierung der Zahlungsart. Wie Änderungen und Kündigungen bei anderen wiederkehrenden Beiträgen gehandhabt werden, hängt von Ihrer Donorfit-Einrichtung und Ihrem Zahlungsanbieter ab. Bitte wenden Sie sich an unser Team, um zu erfahren, welche Optionen Ihnen zur Verfügung stehen."
+      },
+      {
+        "question": "Was passiert, wenn eine wiederkehrende Zahlung fehlschlägt?",
+        "answer": "In Membership und Sponsorship werden fehlgeschlagene Zahlungen automatisch erneut versucht, und Pat:innen werden erinnert, bevor ihre Zahlungsdaten ablaufen. Ausgefallene Zahlungen sind bei jeder Patenschaft sichtbar, sodass Ihr Team nachfassen kann."
+      },
+      {
+        "question": "Sind wiederkehrende Zahlungen in jedem Land verfügbar?",
+        "answer": "Nein. Wiederkehrende Zahlungen hängen vom Zahlungsanbieter, der Zahlungsart und Ihrer Kontokonfiguration ab, und jeder Zahlungsanbieter entscheidet selbst, in welchen Ländern er tätig ist. So wird zum Beispiel die SEPA-Lastschrift im SEPA-Raum und die Bacs-Lastschrift in Großbritannien genutzt."
+      },
+      {
+        "question": "Sind die Transaktionsgebühren für wiederkehrende Zahlungen in Donorfit enthalten?",
+        "answer": "Nein. Donorfit ist kostenlos nutzbar, die Gebühren des Zahlungsanbieters kommen separat hinzu. Ihr Zahlungsanbieter legt die Transaktionsgebühren für jede Zahlung, auch für wiederkehrende Zahlungen, im Rahmen Ihrer Vereinbarung mit ihm fest."
+      },
+      {
+        "question": "Wie kann eine Organisation wiederkehrende Zahlungen aktivieren?",
+        "answer": "Verbinden Sie einen Zahlungsanbieter, der wiederkehrende Zahlungen für Ihr Konto unterstützt, und richten Sie anschließend wiederkehrende Optionen in Donorfit ein, zum Beispiel Mitgliedstarife mit Verlängerungszyklus oder regelmäßige Spenden. Unser Team hilft Ihnen gern zu prüfen, welche Einrichtung zu Ihrer Organisation passt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Stärkere Beziehungen durch dauerhafte Unterstützung aufbauen",
+    "body": "Bieten Sie Ihren Unterstützer:innen bequeme Wege, regelmäßig zu spenden. Entdecken Sie die Möglichkeiten von Donorfit für wiederkehrende Zahlungen und organisieren Sie Ihre laufenden Fundraising-Aktivitäten auf einer Plattform.",
+    "primary": "Jetzt starten",
+    "secondary": "Kontakt aufnehmen"
+  }
+}

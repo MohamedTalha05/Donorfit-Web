@@ -1,0 +1,143 @@
+{
+  "hero": {
+    "badge": "Zahlungs-Gateway-Integrationen",
+    "title": "Mehrere Zahlungs-Gateways für weltweites Fundraising",
+    "body": "Nutzen Sie mit Donorfit mehrere Zahlungs-Gateway-Integrationen. Bieten Sie Ihren Spender:innen und Unterstützer:innen bequeme Zahlungsmöglichkeiten und verwalten Sie Spenden, Fundraising-Beiträge, Patenschaften und Mitgliedsbeiträge auf einer Plattform.",
+    "explore": "Zahlungs-Gateways entdecken",
+    "start": "Jetzt starten",
+    "visualLabel": "Fünf Zahlungs-Gateways, verbunden mit der Fundraising-Plattform Donorfit",
+    "visualProviders": "Zahlungs-Gateways",
+    "visualPlatform": "Eine Fundraising-Plattform",
+    "visualUses": "Ihr Fundraising"
+  },
+  "intro": {
+    "title": "Eine Plattform. Mehrere Zahlungs-Gateway-Integrationen.",
+    "body": [
+      "Organisationen brauchen flexible und bequeme Wege, um Zahlungen von Spender:innen und Unterstützer:innen zu empfangen. Donorfit bündelt mehrere Zahlungs-Gateway-Integrationen und gibt Organisationen so Zugang zu unterstützten Zahlungsanbietern – passend zu ihren Anforderungen.",
+      "Ob Ihre Organisation lokal tätig ist oder Unterstützer:innen international erreicht: Sehen Sie sich die verfügbaren Zahlungs-Gateway-Integrationen an und wählen Sie einen Zahlungsanbieter, der zu Ihren Anforderungen an die Zahlungsabwicklung passt."
+    ],
+    "facts": [
+      { "title": "5 Zahlungs-Gateway-Integrationen", "text": "Stripe, PayPal, GoCardless, Mollie und Micropayment." },
+      { "title": "Karten, Wallets, Lastschrift und mehr", "text": "Online-Zahlungsarten, die die Zahlungsanbieter anbieten – von Kartenzahlungen bis zu lokalen Bankzahlungen." },
+      { "title": "Kostenlos nutzbar", "text": "Keine Plattformgebühr bei Donorfit. Transaktionsgebühren legt Ihr Zahlungsanbieter fest." }
+    ]
+  },
+  "gateways": {
+    "title": "Alle von Donorfit unterstützten Zahlungs-Gateways im Überblick",
+    "sub": "Alle Online-Zahlungs-Gateways, mit denen Donorfit derzeit integriert ist, an einem Ort. Vergleichen Sie, was jeder Zahlungsanbieter für die Zahlungsabwicklung für gemeinnützige Organisationen und für Online-Spendenzahlungen bietet.",
+    "offered": "Angebotene Zahlungsarten",
+    "learnMore": "Mehr erfahren",
+    "learnMoreAria": "Mehr über die {{name}}-Integration als Zahlungs-Gateway erfahren",
+    "logoAlt": "Logo von {{name}} – mit Donorfit integriertes Zahlungs-Gateway",
+    "items": {
+      "stripe": "Eine weltweite Zahlungsplattform für Kartenzahlungen und digitale Wallets. Mit Donorfit verbunden, wickelt Stripe die Online-Spendenzahlungen ab, die Unterstützer:innen über Ihre Formulare leisten.",
+      "paypal": "Einer der meistgenutzten Online-Zahlungsdienste. Unterstützer:innen melden sich bei ihrem PayPal-Konto an und bestätigen die Zahlung, ohne Kartendaten einzugeben.",
+      "gocardless": "Ein Spezialist für Bankzahlungen per Lastschrift, darunter SEPA-Lastschrift und Bacs-Lastschrift in Großbritannien. Gut geeignet für regelmäßige Spenden, Mitgliedsbeiträge und Patenschaften.",
+      "mollie": "Ein Zahlungsanbieter mit Hauptsitz in Amsterdam, der Kartenzahlungen und beliebte lokale europäische Zahlungsarten wie iDEAL und Bancontact anbietet.",
+      "micropayment": "Ein Zahlungsdienstleister mit Sitz in Deutschland, der Zahlungsarten anbietet, die viele Spender:innen in Deutschland kennen, etwa Lastschrift, Kartenzahlungen und Vorkasse per Überweisung."
+    },
+    "note": "Die Listen zeigen, was der jeweilige Zahlungsanbieter anbietet. Welche Zahlungsarten, Länder und Währungen Ihrer Organisation zur Verfügung stehen, hängt vom Zahlungsanbieter, Ihrem Konto dort und Ihren Einstellungen ab."
+  },
+  "global": {
+    "title": "Flexible Zahlungs-Gateway-Optionen für Organisationen weltweit",
+    "body": [
+      "Donorfit möchte Organisationen dabei unterstützen, Fundraising-Zahlungen über mehrere unterstützte Zahlungs-Gateway-Integrationen zu verwalten. Verschiedene Zahlungsanbieter können unterschiedliche Zahlungsarten, Währungen und regionale Verfügbarkeiten bieten.",
+      "Sehen Sie sich die verfügbaren Zahlungsanbieter an und finden Sie die Zahlungsintegration, die am besten zu den Anforderungen Ihrer Organisation und den Regionen passt, in denen Sie tätig sind."
+    ],
+    "checkTitle": "Bevor Sie ein internationales Zahlungs-Gateway wählen, prüfen Sie",
+    "checks": [
+      { "title": "Länder", "text": "Wo der Zahlungsanbieter Organisationen annimmt und wo Ihre Unterstützer:innen zahlen können." },
+      { "title": "Währungen", "text": "Welche Währungen der Zahlungsanbieter für Ihr Konto unterstützt." },
+      { "title": "Zahlungsarten", "text": "Welche Zahlungsarten bei Ihren Unterstützer:innen verbreitet und für Ihr Konto aktiviert sind." },
+      { "title": "Kontovoraussetzungen", "text": "Was der Zahlungsanbieter benötigt, um Ihre Organisation zu verifizieren." }
+    ],
+    "link": "Internationale Organisationen: was Sie vor dem Start klären sollten"
+  },
+  "methods": {
+    "title": "Mehrere Zahlungsarten für Ihre Unterstützer:innen",
+    "sub": "Online-Spendenzahlungen sind mit den Zahlungsarten möglich, die Ihr verbundener Zahlungsanbieter anbietet. Welche Zahlungsarten verfügbar sind, hängt vom gewählten Zahlungsanbieter, dem Land und Ihrer Kontokonfiguration ab – nicht jede Zahlungsart ist über jedes Zahlungs-Gateway verfügbar.",
+    "via": "Angeboten von",
+    "items": {
+      "cards": { "title": "Kredit- und Debitkarten", "text": "Kartenzahlungen, zum Beispiel Visa, Mastercard und American Express über Stripe." },
+      "wallets": { "title": "Digitale Wallets", "text": "Apple Pay und Google Pay über Stripe, Apple Pay über Mollie." },
+      "debit": { "title": "Lastschrift", "text": "SEPA-Lastschrift, Bacs-Lastschrift in Großbritannien über GoCardless sowie Lastschrift über Micropayment." },
+      "paypal": { "title": "PayPal", "text": "Unterstützer:innen zahlen mit ihrem PayPal-Guthaben, einem verknüpften Bankkonto oder einer verknüpften Karte." },
+      "transfer": { "title": "Überweisung", "text": "Vorkasse per Überweisung über Micropayment." },
+      "local": { "title": "Lokale europäische Zahlungsarten", "text": "iDEAL in den Niederlanden und Bancontact in Belgien über Mollie." }
+    }
+  },
+  "steps": {
+    "title": "Verbinden Sie Ihr bevorzugtes Zahlungs-Gateway",
+    "sub": "In vier Schritten von der Auswahl des Zahlungsanbieters bis zur Annahme von Zahlungen.",
+    "items": [
+      { "title": "Zahlungsanbieter ansehen", "text": "Verschaffen Sie sich einen Überblick über die von Donorfit unterstützten Zahlungs-Gateways." },
+      { "title": "Zahlungsanbieter wählen", "text": "Wählen Sie einen Zahlungsanbieter, der zu Ihrer Organisation, Ihren Unterstützer:innen und den Regionen passt, in denen Sie tätig sind." },
+      { "title": "Konto verbinden", "text": "Richten Sie Ihr Konto beim Zahlungsanbieter über den Integrationsprozess ein. Der Zahlungsanbieter verifiziert Ihre Organisation, und bei Bedarf unterstützt Sie unser Team." },
+      { "title": "Zahlungen annehmen", "text": "Nehmen Sie Zahlungen mit den verfügbaren Zahlungsfunktionen von Donorfit an." }
+    ],
+    "needsTitle": "Was Sie in der Regel benötigen",
+    "needs": [
+      "Ein Konto beim Zahlungsanbieter im Namen Ihrer Organisation",
+      "Beim Zahlungsanbieter verifizierte Organisationsdaten",
+      "Administratorzugriff auf das Dashboard des Zahlungsanbieters"
+    ]
+  },
+  "uses": {
+    "title": "Eine Zahlungsplattform für viele Fundraising-Aktivitäten",
+    "sub": "Das verbundene Zahlungs-Gateway wickelt die Zahlungen ab, die über Donorfit eingehen – in all Ihren Fundraising-Lösungen.",
+    "items": {
+      "donations": { "title": "Spenden und Fundraising-Kampagnen", "text": "Einmalige Spenden über Spendenformulare, die Sie in Ihre Website einbetten können." },
+      "money-pool": { "title": "MoneyPool-Crowdfunding", "text": "Beiträge zu einem gemeinsamen Projektziel – jeder einzeln erfasst und mit eigenem Beleg." },
+      "membership": { "title": "Mitgliedsbeiträge", "text": "Beiträge, eingezogen über die wiederkehrende Abrechnung, mit automatischen Wiederholungsversuchen bei fehlgeschlagenen Zahlungen." },
+      "sponsorship": { "title": "Patenschaftszahlungen", "text": "Monatliche Patenschaftsbeiträge, je Patenschaft nachverfolgt, mit automatischen Wiederholungsversuchen." },
+      "water-well": { "title": "Water Well-Projekte", "text": "Spenden für das Spendenziel jedes Brunnens, mit sichtbarem Fortschritt, sobald sie eingehen." },
+      "qurbani": { "title": "Qurbani-Beiträge", "text": "Online-Beiträge für die Tiere und Anteile, die Ihre Organisation anbietet." }
+    },
+    "explore": "{{name}} entdecken",
+    "solutionsTitle": "Zahlungslösungen für Ihre Art von Organisation"
+  },
+  "why": {
+    "title": "Mehr Flexibilität bei Zahlungen für Ihre Organisation",
+    "sub": "Warum gemeinnützige Vereine und Organisationen die Wahl zwischen Zahlungsanbietern schätzen.",
+    "items": [
+      { "title": "Mehrere Zahlungsanbieter zur Auswahl", "text": "Wählen Sie aus fünf integrierten Zahlungs-Gateways, statt an einen Anbieter gebunden zu sein." },
+      { "title": "Bequeme Optionen für Spender:innen", "text": "Bieten Sie die Zahlungsarten an, die Ihre Unterstützer:innen bereits nutzen." },
+      { "title": "Flexible Zahlungsabwicklung", "text": "Wählen Sie einen Zahlungsanbieter für einmalige Spenden, regelmäßige Spenden oder beides." },
+      { "title": "Für verschiedene Fundraising-Aktivitäten", "text": "Spenden, Crowdfunding, Mitgliedschaften, Patenschaften und saisonale Kampagnen." },
+      { "title": "Regionale Optionen je nach Zahlungsanbieter", "text": "Lokale Zahlungsarten wie iDEAL, Bancontact oder Bacs, sofern Ihr Zahlungsanbieter sie anbietet." },
+      { "title": "Eine einheitliche Fundraising-Plattform", "text": "Zahlungen, Spender:innen und Kampagnen gemeinsam in Donorfit verwalten." }
+    ]
+  },
+  "pricing": {
+    "title": "Kostenlose Fundraising-Plattform. Transparente Zahlungsabwicklung.",
+    "body": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren des Zahlungs-Gateways legt der gewählte Zahlungsanbieter fest. Gebühren und Abwicklungsbedingungen können je nach Zahlungsanbieter, Zahlungsart, Land und Kontovereinbarung variieren.",
+    "points": [
+      { "title": "Keine Plattformgebühr bei Donorfit", "text": "Sie können sich ohne monatliche Plattformgebühr registrieren und Donorfit nutzen." },
+      { "title": "Gebühren legt Ihr Zahlungsanbieter fest", "text": "Die Transaktionsgebühren stammen vom verbundenen Zahlungsanbieter, im Rahmen Ihrer Vereinbarung mit ihm." },
+      { "title": "Optionale Gebührenübernahme", "text": "Spender:innen können die Transaktionsgebühr übernehmen, damit mehr von ihrer Spende bei Ihnen ankommt." }
+    ],
+    "link": "Preise ansehen"
+  },
+  "faq": {
+    "title": "Häufige Fragen zu Zahlungs-Gateways",
+    "sub": "Antworten zu Zahlungs-Gateway-Integrationen für gemeinnützige Vereine und Organisationen. Ist Ihre Frage nicht dabei, hilft Ihnen unser Team gern weiter.",
+    "contact": "Unser Team kontaktieren",
+    "items": [
+      { "question": "Welche Zahlungs-Gateways unterstützt Donorfit?", "answer": "Donorfit ist mit fünf Zahlungs-Gateways integriert: Stripe, PayPal, GoCardless, Mollie und Micropayment. Für jeden gibt es eine eigene Integrationsseite, die die angebotenen Zahlungsarten beschreibt und erklärt, was Sie vor dem Verbinden benötigen." },
+      { "question": "Bietet Donorfit mehrere Zahlungs-Gateway-Integrationen?", "answer": "Ja. Donorfit bietet Integrationen mit mehreren Zahlungsanbietern. So kann Ihre Organisation das Zahlungs-Gateway wählen, das zu ihren Unterstützer:innen, ihren Fundraising-Aktivitäten und den Regionen passt, in denen sie tätig ist." },
+      { "question": "Welches Zahlungs-Gateway eignet sich für internationale Organisationen?", "answer": "Das hängt davon ab, wo Ihre Organisation registriert ist und wo Ihre Unterstützer:innen leben. Stripe ist eine weltweite Zahlungsplattform für Karten und Wallets, PayPal ist für Online-Zahlungen weit verbreitet, Mollie konzentriert sich auf europäische Zahlungsarten, GoCardless auf Lastschrift in SEPA-Ländern und Großbritannien und Micropayment auf Zahlungsarten, die Spender:innen in Deutschland vertraut sind. Prüfen Sie immer, welche Länder und Währungen der Zahlungsanbieter für Ihre Organisation abdeckt." },
+      { "question": "Können Organisationen ihren bevorzugten Zahlungsanbieter wählen?", "answer": "Ja. Sie wählen den unterstützten Zahlungsanbieter, der zu Ihrer Organisation passt – etwa nach den Zahlungsarten, die Ihre Unterstützer:innen bevorzugen, den Ländern, in denen Sie tätig sind, und den Gebühren des Zahlungsanbieters." },
+      { "question": "Welche Online-Zahlungsarten werden unterstützt?", "answer": "Das hängt vom verbundenen Zahlungsanbieter ab und davon, was für Ihr Konto aktiviert ist. Über die integrierten Zahlungsanbieter hinweg werden unter anderem Kredit- und Debitkarten, Apple Pay und Google Pay, SEPA- und Bacs-Lastschrift, PayPal, Überweisung, iDEAL und Bancontact angeboten." },
+      { "question": "Können Spender:innen über verschiedene Zahlungs-Gateways spenden?", "answer": "Spender:innen zahlen mit den Zahlungsarten, die Ihre Organisation in ihren Donorfit-Formularen anbietet. Ob Sie mehr als einen Zahlungsanbieter verbinden und parallel anbieten können, hängt von Ihrer Donorfit-Einrichtung ab. Bitte sprechen Sie mit unserem Team über Ihre Anforderungen." },
+      { "question": "Werden internationale Zahlungen unterstützt?", "answer": "Internationale Spendenzahlungen hängen von Ihrem Zahlungsanbieter ab: in welchen Ländern er tätig ist, welche Währungen er unterstützt und wie Ihr Konto konfiguriert ist. Donorfit garantiert nicht, dass Zahlungen in jedem Land angenommen werden. Bitte prüfen Sie vor dem Start die Bedingungen des Zahlungsanbieters." },
+      { "question": "Sind die Transaktionsgebühren des Zahlungs-Gateways in Donorfit enthalten?", "answer": "Nein. Donorfit ist kostenlos nutzbar, und der Zahlungsanbieter berechnet eigene Transaktionsgebühren gemäß seinen Preisen und Ihrer Vereinbarung mit ihm. Spender:innen können die Gebühr übernehmen, wenn Sie diese Option anbieten." },
+      { "question": "Wie verbinde ich ein Zahlungs-Gateway mit Donorfit?", "answer": "Eröffnen Sie im Namen Ihrer Organisation ein Konto beim Zahlungsanbieter und schließen Sie dessen Verifizierung ab. Verbinden Sie dieses Konto anschließend mit Donorfit und nehmen Sie die Konfiguration vor, die der Zahlungsanbieter verlangt. Unser Team begleitet Sie dabei. Die Freischaltung hängt von der Verifizierung durch den Zahlungsanbieter ab." }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihren Zahlungseinzug zu vereinfachen?",
+    "body": "Bündeln Sie Ihre Fundraising-Aktivitäten mit Donorfit. Entdecken Sie die verfügbaren Zahlungsintegrationen und wählen Sie ein unterstütztes Zahlungs-Gateway für Ihre Organisation.",
+    "primary": "Jetzt starten",
+    "secondary": "Kontakt aufnehmen"
+  }
+}

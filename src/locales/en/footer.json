@@ -17,9 +17,10 @@
   "links": {
     "platform": "Donorfit Platform",
     "pricing": "Pricing",
+    "paymentGateways": "Payment Gateways",
     "orphanSponsorship": "Orphan Sponsorship",
     "donations": "Donations",
-    "recurringGiving": "Recurring Giving",
+    "recurringGiving": "Recurring Management",
     "donorManagement": "Donor Management",
     "reporting": "Reporting & Insights",
     "ngos": "For NGOs",

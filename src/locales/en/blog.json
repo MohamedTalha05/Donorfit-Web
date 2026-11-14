@@ -1,177 +1,56 @@
 {
-  "posts": [
-    {
-      "slug": "reducing-administrative-work-in-nonprofit-fundraising",
-      "title": "Reducing Administrative Work in Nonprofit Fundraising: Practical Strategies for European NGOs",
-      "seoTitle": "Reducing Administrative Work in Nonprofit Fundraising | Donorfit Guide",
-      "metaDescription": "Discover how modern European charities and NGOs cut manual admin by 60%, streamline SEPA donations, and spend more time driving mission impact.",
-      "excerpt": "Fundraising teams frequently spend over 40% of their working hours manually reconciling bank transfers and retyping donor data. Here is how modern NGOs automate administration without sacrificing personal touch.",
-      "category": "Charity Operations",
-      "author": {
-        "name": "Faisal & The Donorfit Team",
-        "role": "Fundraising Technology Specialists"
-      },
-      "publishedAt": "2026-10-14",
-      "updatedAt": "2026-10-28",
-      "readingTime": "5 min read",
-      "imageAlt": "European NGO team collaborating on impact strategy",
-      "content": [
-        "For most charitable organizations, the greatest bottleneck to scaling community impact is not a lack of donor generosity—it is the heavy friction of manual administrative processes. Between reconciling monthly SEPA transfers, typing address updates from paper slips, and manually producing hundreds of tax certificates, nonprofit professionals frequently spend more time managing administrative software than nurturing donor relationships.",
-        "To build a sustainable fundraising operation, European charities must systematically address three structural friction points: fragmented donation channels, uncollected failed recurring pledges, and manual tax compliance.",
-        "First, unifying donation touchpoints into one central data stream prevents duplicate records and saves an estimated 10 to 15 hours per week of manual CSV collation. When online donations, sponsorship subscriptions, and event pledges flow directly into a single ledger, financial audits become routine rather than exhausting.",
-        "Second, automating recurring pledge recovery is essential. In Europe, card expiration and temporary account shortfalls account for up to 15% of annual donor churn. Implementing automated pre-notification emails, compliant SEPA retry schedules, and self-service donor portals recovers more than half of these at-risk gifts without awkward phone calls.",
-        "Third, tax compliance automation is a game changer for European nonprofits. Generating official certificates such as the German Geldzuwendungsbestätigung or French Reçu Fiscal directly from transaction records eliminates weeks of stressful year-end administrative scramble.",
-        "By modernizing these workflows, your team shifts focus from repetitive data entry to genuine donor stewardship and impactful frontline work."
-      ],
-      "keyTakeaways": [
-        "Consolidate online, recurring, and sponsorship giving into a single data repository to eliminate weekly CSV exports.",
-        "Deploy automated dunning and smart SEPA retry schedules to preserve up to 60% of lost recurring pledges.",
-        "Automate official European tax receipt generation at the moment of donation or as an aggregated annual statement.",
-        "Provide self-service portals so donors can update addresses and payment methods without burdening staff."
-      ],
-      "relatedArticleSlugs": ["retaining-recurring-donors-sepa-guide", "ethical-orphan-sponsorship-safeguarding"],
-      "relatedProducts": [
-        { "title": "Donor Management CRM", "slug": "donor-management" },
-        { "title": "Recurring Giving Solutions", "slug": "recurring-giving" }
-      ]
-    },
-    {
-      "slug": "retaining-recurring-donors-sepa-guide",
-      "title": "Retaining Recurring Donors: A Comprehensive Guide to SEPA and Direct Debit for Charities",
-      "seoTitle": "Retaining Recurring Donors with SEPA Direct Debit | Donorfit Guide",
-      "metaDescription": "Learn how European charities maximize donor lifetime value using compliant SEPA direct debits, pre-notifications, and proactive churn prevention.",
-      "excerpt": "Recurring donations provide the financial backbone of nonprofit stability. Explore how European NGOs utilize modern SEPA automation to reduce churn and build lasting supporter relationships.",
-      "category": "Recurring Giving",
-      "author": {
-        "name": "Elena Rostova",
-        "role": "Nonprofit Banking & Compliance Lead"
-      },
-      "publishedAt": "2026-09-22",
-      "updatedAt": "2026-10-20",
-      "readingTime": "6 min read",
-      "imageAlt": "Nonprofit financial analyst reviewing recurring donor metrics",
-      "content": [
-        "In Europe, bank-based direct debits (SEPA Direct Debit) remain the most trusted and cost-effective mechanism for recurring charitable giving. Unlike credit cards, which expire every 24 to 36 months or get replaced when lost, European bank accounts rarely change. However, managing SEPA mandates manually introduces complex legal and operational challenges.",
-        "To build a high-retention recurring giving program, charities must master four key aspects of SEPA operations: digital mandate compliance, proactive pre-notifications, intelligent submission scheduling, and rapid dunning response.",
-        "Digital mandate compliance requires capturing explicit donor consent, recording IP addresses, generating unique Mandate Reference (UMR) codes, and providing instant confirmation. Modern donation forms must handle these steps seamlessly without confusing donors with banking jargon.",
-        "Furthermore, European banking rules mandate pre-notifying donors before funds are debited. When done thoughtfully, this requirement becomes an opportunity to share recent program impact, reinforcing the donor’s decision to support your mission.",
-        "Timing is also vital. In Germany, France, and across the EU, scheduling debit submissions immediately following standard monthly payday cycles (typically between the 26th and 31st of the month) reduces payment rejection rates due to insufficient funds by up to 43%.",
-        "By treating recurring payment technology as a core pillar of donor stewardship, nonprofits can achieve steady, predictable revenue year after year."
-      ],
-      "keyTakeaways": [
-        "SEPA Direct Debit offers far lower processing fees and higher retention rates compared to credit card subscriptions.",
-        "Transform mandatory pre-notifications into inspiring stewardship updates that celebrate program impact.",
-        "Align monthly debit batches with standard European payday cycles to minimize account shortfall rejections.",
-        "Give donors a simple, secure link to update their IBAN or adjust pledge amounts without administrative friction."
-      ],
-      "relatedArticleSlugs": ["reducing-administrative-work-in-nonprofit-fundraising", "measuring-fundraising-roi-cohort-retention"],
-      "relatedProducts": [
-        { "title": "Recurring Giving", "slug": "recurring-giving" },
-        { "title": "Sponsorship Platform", "slug": "sponsorship" }
-      ]
-    },
-    {
-      "slug": "ethical-orphan-sponsorship-safeguarding",
-      "title": "Ethical Child and Orphan Sponsorship: Balancing Transparent Storytelling with Strict Safeguarding",
-      "seoTitle": "Ethical Orphan Sponsorship and Safeguarding Guide | Donorfit",
-      "metaDescription": "How humanitarian charities maintain child dignity, protect sensitive beneficiary records, and build trust with long-term international sponsors.",
-      "excerpt": "Sponsorship programs provide life-changing support for vulnerable children. Discover how humanitarian organizations balance transparent impact reporting with strict child safeguarding and GDPR.",
-      "category": "Sponsorship",
-      "author": {
-        "name": "Dr. Tariq Al-Mansoor",
-        "role": "Humanitarian Program Advisor"
-      },
-      "publishedAt": "2026-08-18",
-      "updatedAt": "2026-10-15",
-      "readingTime": "7 min read",
-      "imageAlt": "Empowered children learning in community educational center",
-      "content": [
-        "Child and orphan sponsorship has empowered millions of vulnerable children worldwide to receive quality education, healthcare, and safe shelter. However, modern humanitarian ethics and strict European privacy standards demand a shift away from outdated, exploitative fundraising imagery toward dignity-first storytelling.",
-        "A responsible sponsorship management system must protect children first while fostering deep, authentic empathy from sponsors.",
-        "First, data privacy is non-negotiable. Storing children’s identifying documents, location details, and medical records in unencrypted spreadsheets or email threads is a major safeguarding vulnerability. Dedicated platforms with strict role-based access ensure that only authorized caseworkers view sensitive information, while public channels only display non-identifying representations.",
-        "Second, ethical media guidelines require that every photograph celebrates resilience and dignity rather than distress. Guardian consent must be documented with verified timestamps before any imagery is shared with vetted sponsors.",
-        "Third, long-term impact reporting should center on holistic development: school attendance, vocational skills, community health improvements, and emotional well-being. By focusing on sustainable outcomes, organizations cultivate thoughtful sponsors who stay committed for years.",
-        "Donorfit was built specifically with these humanitarian principles in mind, combining rigorous security with dignified community storytelling."
-      ],
-      "keyTakeaways": [
-        "Child safeguarding and data protection must take precedence over emotional appeal marketing.",
-        "Maintain strict role-based access to protect sensitive beneficiary records and family locations.",
-        "Document explicit guardian consent for all educational reports and approved sponsor communications.",
-        "Shift sponsor communication from individual dependency narratives to holistic community resilience."
-      ],
-      "relatedArticleSlugs": ["reducing-administrative-work-in-nonprofit-fundraising", "retaining-recurring-donors-sepa-guide"],
-      "relatedProducts": [
-        { "title": "Orphan Sponsorship", "slug": "orphan-sponsorship" },
-        { "title": "Sponsorship Platform", "slug": "sponsorship" }
-      ]
-    },
-    {
-      "slug": "measuring-fundraising-roi-cohort-retention",
-      "title": "Beyond Vanity Metrics: Measuring Real Fundraising ROI and Donor Cohort Retention",
-      "seoTitle": "Fundraising ROI and Cohort Retention Analysis | Donorfit Guide",
-      "metaDescription": "Learn how European charity leaders use cohort retention analysis and donor lifetime value to make smarter fundraising investments.",
-      "excerpt": "Total funds raised in a single month tells only a fraction of the story. Understand how cohort retention analysis reveals the true health of your nonprofit fundraising.",
-      "category": "Fundraising",
-      "author": {
-        "name": "Marcus Weber",
-        "role": "Director of Analytics"
-      },
-      "publishedAt": "2026-07-11",
-      "updatedAt": "2026-10-10",
-      "readingTime": "5 min read",
-      "imageAlt": "Nonprofit analytics team evaluating donor cohort retention trends",
-      "content": [
-        "In nonprofit leadership, it is tempting to judge success by headline numbers: total funds raised this quarter or the number of new donors acquired during a holiday appeal. However, if 80% of those newly acquired donors never give again, the organization is running on an exhausting treadmill of high acquisition costs and rapid donor attrition.",
-        "Cohort analysis groups donors by the month or campaign in which they made their first gift, tracking their continued contributions over 12, 24, and 36 months. This reveals critical strategic insights that aggregate numbers conceal.",
-        "For example, a high-converting emergency appeal may generate thousands of one-time gifts with a high first-year drop-off rate, whereas an educational sponsorship campaign may yield fewer donors initially but maintain an 85% multi-year retention rate, delivering vastly higher cumulative impact.",
-        "By analyzing lifetime value (LTV) alongside donor acquisition cost (CAC), fundraising directors can allocate marketing budgets with confidence, investing in campaigns that build enduring support.",
-        "With Donorfit’s built-in reporting suite, European charities access automated cohort heatmaps and retention analytics without needing external data consultants."
-      ],
-      "keyTakeaways": [
-        "Track cohort retention over 12 and 24 months to uncover true donor loyalty patterns.",
-        "Calculate donor lifetime value (LTV) to understand the real financial return of different marketing channels.",
-        "Separate one-time crisis donors from sustaining recurring donors in strategic budgeting.",
-        "Use real-time cohort dashboards to identify and re-engage lapsed donor segments before they permanently churn."
-      ],
-      "relatedArticleSlugs": ["retaining-recurring-donors-sepa-guide", "reducing-administrative-work-in-nonprofit-fundraising"],
-      "relatedProducts": [
-        { "title": "Reporting & Insights", "slug": "reporting-and-insights" },
-        { "title": "Donor Management CRM", "slug": "donor-management" }
-      ]
-    }
-  ],
   "categories": {
-    "all": "All",
-    "charityOperations": "Charity Operations",
-    "recurringGiving": "Recurring Giving",
-    "sponsorship": "Sponsorship",
+    "all": "All topics",
     "fundraising": "Fundraising",
-    "ngoTechnology": "NGO Technology",
-    "donorRetention": "Donor Retention"
+    "nonprofitManagement": "Nonprofit Management",
+    "digitalDonations": "Digital Donations",
+    "charityImpact": "Charity & Social Impact",
+    "sponsorship": "Sponsorship",
+    "membershipManagement": "Membership Management",
+    "donorfitUpdates": "Donorfit Updates"
   },
   "ui": {
-    "readArticle": "Read Article",
     "index": {
-      "badge": "Fundraising Intelligence & Guides",
-      "title": "Resources, Guides & Articles for Nonprofits",
-      "subtitle": "Practical knowledge, retention frameworks, and regulatory playbooks for European and international charities.",
-      "searchPlaceholder": "Search articles & topics...",
-      "noResults": "No articles found matching “{{query}}”."
+      "title": "Insights, Ideas & Updates from Donorfit",
+      "description": "Explore practical insights, fundraising strategies, nonprofit management tips, and updates to help organisations make a greater impact.",
+      "searchLabel": "Search articles",
+      "searchPlaceholder": "Search by title or topic",
+      "topicsTitle": "Browse by topic",
+      "topicsLabel": "Filter articles by topic",
+      "countOne": "1 article",
+      "countOther": "{{count}} articles",
+      "featured": "Featured article",
+      "latest": "Latest articles",
+      "results": "Search results",
+      "resultsOne": "1 article found",
+      "resultsOther": "{{count}} articles found",
+      "noResults": "No articles match your search.",
+      "noResultsHint": "Try a different word or show all topics.",
+      "clear": "Show all articles",
+      "readMore": "Read more",
+      "readMoreAria": "Read more: {{title}}"
     },
     "post": {
-      "notFoundTitle": "Article Not Found",
-      "notFoundText": "The article you were looking for could not be located.",
-      "returnToDirectory": "Return to Blog Directory",
-      "backToResources": "Back to Resources",
+      "back": "Back to Blog",
       "published": "Published {{date}}",
       "updated": "Updated {{date}}",
-      "verified": "Verified Educational Resource",
-      "keyTakeaways": "Key Strategic Takeaways",
-      "relevantSolutions": "Relevant Donorfit Solutions",
-      "ctaTitle": "Put this knowledge into practice",
-      "ctaText": "See how Donorfit automates SEPA recurring giving, child sponsorships, and European tax receipts for your NGO.",
-      "ctaButton": "Schedule a Demo",
-      "relatedTitle": "Related Guides & Articles"
+      "readingTime": "{{min}} min read",
+      "by": "By {{author}}",
+      "defaultAuthor": "Donorfit Team",
+      "contents": "In this article",
+      "share": "Share this article",
+      "shareOn": "Share on {{network}}",
+      "shareEmail": "Share by email",
+      "copyLink": "Copy link",
+      "copied": "Link copied",
+      "related": "Related articles",
+      "ctaTitle": "Put these ideas into practice",
+      "ctaText": "Donorfit is free to use. Transaction charges are set by the payment provider you choose.",
+      "ctaRegister": "Register for free",
+      "ctaPricing": "See what's included",
+      "notFoundTitle": "Article not found",
+      "notFoundText": "This article does not exist or is not available in this language.",
+      "notFoundButton": "Back to Blog"
     }
   }
 }

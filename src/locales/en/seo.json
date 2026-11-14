@@ -20,9 +20,9 @@
       "title": "Modern Donation Technology Built for NGOs & Charities | Donorfit",
       "description": "High-converting, branded donation pages with native SEPA, cards, Apple Pay, automated European tax receipts, and zero lock-in."
     },
-    "/recurring-giving": {
-      "title": "Predictable Recurring Giving & SEPA Retention | Donorfit",
-      "description": "Build sustainable monthly funding with automated pledge recovery, smart dunning schedules, and self-service donor accounts."
+    "/recurring-management": {
+      "title": "Recurring Payment Management for Nonprofits | Donorfit",
+      "description": "Recurring donation management for nonprofits: monthly and annual giving, recurring membership payments and sponsorship payment management with supported gateways."
     },
     "/donor-management": {
       "title": "Centralized Donor Management & CRM for Nonprofits | Donorfit",
@@ -36,29 +36,29 @@
       "title": "Fundraising Analytics & Actionable Non-Profit Insights | Donorfit",
       "description": "Understand donor retention, lifetime value, and campaign return on investment without requiring data science expertise."
     },
-    "/solutions/ngos": {
-      "title": "Fundraising Technology for Non-Governmental Organizations (NGOs) | Donorfit",
-      "description": "Scale cross-border operations, manage international sponsorships, and maintain strict European data compliance in one unified system."
+    "/solutions/for-ngos": {
+      "title": "Donorfit for NGOs: Appeals, Donors and Project Updates",
+      "description": "Run appeals, manage donors and sponsorships and keep supporters updated on your projects in one platform. Donorfit is free to use."
     },
-    "/solutions/charities": {
-      "title": "Fundraising Solutions for Registered Charities | Donorfit",
-      "description": "Delight local and national donors, automate statutory tax receipts, and increase recurring giving with purpose-built charity tools."
+    "/solutions/for-charities": {
+      "title": "Donorfit for Charities: Donation Forms, QR Codes and Receipts",
+      "description": "Embed donation forms, generate QR codes and create receipts automatically. A free fundraising platform for everyday charity work."
     },
-    "/solutions/foundations": {
-      "title": "Fund Stewardship & Governance for Foundations | Donorfit",
-      "description": "Organize endowment initiatives, track restricted donor allocations, and provide spotless accountability to trustees and public authorities."
+    "/solutions/for-foundations": {
+      "title": "Donorfit for Foundations: Programmes, Donor Histories and Reporting",
+      "description": "Run each programme as its own campaign, keep donor histories in one place and connect your systems via API. Free to use."
     },
-    "/solutions/sponsorship-organizations": {
-      "title": "Infrastructure for Child & Community Sponsorship Programs | Donorfit",
-      "description": "Connect sponsors with beneficiaries, track recurring monthly contributions, and deliver dignified progress reports at scale."
+    "/solutions/for-sponsorship-orgs": {
+      "title": "Donorfit for Sponsorship Organisations",
+      "description": "Link sponsors, beneficiaries and monthly contributions in one record and share progress through a secure sponsor portal."
     },
-    "/solutions/membership-organizations": {
-      "title": "Automated Membership Dues & Directory Management | Donorfit",
-      "description": "Organize member records, automate annual renewal billing, and facilitate member communications in one reliable system."
+    "/solutions/for-membership-orgs": {
+      "title": "Donorfit for Membership Organisations: Sign-ups, Dues and Renewals",
+      "description": "Register members, set up plans, collect dues and run renewals for your association or club with Donorfit Membership."
     },
-    "/solutions/international-organizations": {
-      "title": "Cross-Border Fundraising Infrastructure for International Aid | Donorfit",
-      "description": "Unite global fundraising chapters, manage multiple currencies and legal entities, and ensure sovereign European data compliance."
+    "/solutions/for-international-orgs": {
+      "title": "Donorfit for International Organisations: Projects Abroad",
+      "description": "Present projects abroad, collect contributions and keep supporters updated stage by stage, from water wells to Qurbani campaigns."
     },
     "/about": {
       "title": "About Donorfit — Fundraising & Organisation Management Platform",
@@ -73,8 +73,8 @@
       "description": "Discover Donorfit’s approach to European data sovereignty, ISO 27001 data centers, encryption, payment gateway compliance, and safeguarding."
     },
     "/blog": {
-      "title": "Nonprofit Fundraising Resource Center & Practical Guides | Donorfit",
-      "description": "Practical fundraising guides, SEPA direct debit best practices, child safeguarding frameworks, and donor retention strategies for charities."
+      "title": "Donorfit Blog: Fundraising Insights, Ideas & Updates",
+      "description": "Practical insights on fundraising, nonprofit management, digital donations, sponsorship and membership, plus updates from Donorfit."
     },
     "/guides": {
       "title": "Practical Fundraising Guides & Toolkits for European NGOs | Donorfit",
@@ -95,6 +95,10 @@
     "/integrations": {
       "title": "Integrations — Stripe, PayPal, Mollie, Mailchimp & More | Donorfit",
       "description": "Connect Donorfit with the payment providers Stripe, PayPal, GoCardless, Micropayment and Mollie, and with the email platforms Brevo and Mailchimp."
+    },
+    "/payment-gateways": {
+      "title": "Multiple Payment Gateways for Nonprofits & Charities | Donorfit",
+      "description": "Explore Donorfit payment gateway integrations: Stripe, PayPal, GoCardless, Mollie and Micropayment. Online donation payments for charities and nonprofits."
     },
     "/integrations/stripe": {
       "title": "Stripe Integration | Donorfit",

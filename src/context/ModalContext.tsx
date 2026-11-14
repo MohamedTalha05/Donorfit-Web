@@ -1,5 +1,13 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { I18nProvider, LANG_STORAGE_KEY, localizePath, parsePath, type Lang } from '../i18n/index.tsx';
+import { LEGACY_ROUTE_REDIRECTS } from '../data/solutions.ts';
+
+/** Map a retired URL ("/de/solutions/ngos") to its replacement in the same language; others pass through. */
+function redirectPath(pathname: string): string {
+  const { lang, path } = parsePath(pathname);
+  const target = LEGACY_ROUTE_REDIRECTS[path.replace(/\/$/, '')];
+  return target ? localizePath(target, lang) : pathname;
+}
 
 interface ModalContextType {
   isBookDemoOpen: boolean;
@@ -35,7 +43,9 @@ export function ModalProvider({ children }: { children: ReactNode }) {
   // The browser pathname is the source of truth: '/de/…' = German, anything else = English.
   const [pathname, setPathname] = useState<string>(() => {
     if (typeof window === 'undefined') return '/';
-    const path = window.location.pathname || '/';
+    const original = window.location.pathname || '/';
+    const path = redirectPath(original);
+    if (path !== original) window.history.replaceState({}, '', path + window.location.search + window.location.hash);
     // A returning visitor who chose German keeps it, even when arriving on an English URL.
     let stored: string | null = null;
     try {
@@ -55,7 +65,7 @@ export function ModalProvider({ children }: { children: ReactNode }) {
   const localize = (route: string, l: Lang = lang) => localizePath(route, l);
 
   const navigateTo = (route: string) => {
-    const target = localizePath(route, lang);
+    const target = redirectPath(localizePath(route, lang));
     setPathname(target.split('?')[0].split('#')[0]);
     if (typeof window !== 'undefined') {
       window.history.pushState({}, '', target);
@@ -78,7 +88,10 @@ export function ModalProvider({ children }: { children: ReactNode }) {
   // Sync with browser back/forward buttons
   React.useEffect(() => {
     const handlePopState = () => {
-      setPathname(window.location.pathname || '/');
+      const original = window.location.pathname || '/';
+      const path = redirectPath(original);
+      if (path !== original) window.history.replaceState({}, '', path + window.location.search + window.location.hash);
+      setPathname(path);
       window.scrollTo({ top: 0, behavior: 'instant' });
     };
     window.addEventListener('popstate', handlePopState);

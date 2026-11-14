@@ -17,9 +17,10 @@
   "links": {
     "platform": "Donorfit-Plattform",
     "pricing": "Preise",
+    "paymentGateways": "Zahlungs-Gateways",
     "orphanSponsorship": "Waisen­patenschaften",
     "donations": "Spenden",
-    "recurringGiving": "Regelmäßige Spenden",
+    "recurringGiving": "Wiederkehrende Zahlungen",
     "donorManagement": "Spender­verwaltung",
     "reporting": "Berichte & Auswertungen",
     "ngos": "Für NGOs",

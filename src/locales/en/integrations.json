@@ -14,7 +14,8 @@
   "categories": {
     "payments": {
       "title": "Flexible Payment Solutions",
-      "body": "Connect with supported payment providers to give donors convenient ways to make contributions and complete payments."
+      "body": "Connect with supported payment providers to give donors convenient ways to make contributions and complete payments.",
+      "more": "Payment gateways and methods explained"
     },
     "email": {
       "title": "Stay Connected with Your Community",

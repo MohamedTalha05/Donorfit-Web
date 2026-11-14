@@ -20,9 +20,9 @@
       "title": "Moderne Spendentechnologie für NGOs und gemeinnützige Organisationen | Donorfit",
       "description": "Konversionsstarke Spendenseiten in Ihrem Design – mit SEPA-Lastschrift, Karten, Apple Pay, automatischen Zuwendungsbestätigungen und ohne Lock-in."
     },
-    "/recurring-giving": {
-      "title": "Planbare regelmäßige Spenden & SEPA-Spenderbindung | Donorfit",
-      "description": "Sichern Sie nachhaltige monatliche Einnahmen mit automatischer Rückgewinnung fehlgeschlagener Zahlungen, intelligentem Mahnwesen und Self-Service-Konten für Spender:innen."
+    "/recurring-management": {
+      "title": "Wiederkehrende Zahlungen verwalten für Vereine | Donorfit",
+      "description": "Verwaltung wiederkehrender Zahlungen: monatliche und jährliche Spenden, wiederkehrende Mitgliedsbeiträge und Patenschaftsbeiträge über unterstützte Zahlungs-Gateways."
     },
     "/donor-management": {
       "title": "Zentrale Spenderverwaltung & CRM für Non-Profit-Organisationen | Donorfit",
@@ -36,29 +36,29 @@
       "title": "Fundraising-Analysen & aussagekräftige Auswertungen für Non-Profits | Donorfit",
       "description": "Verstehen Sie Spenderbindung, Lifetime Value und Kampagnenrendite – ganz ohne Data-Science-Kenntnisse."
     },
-    "/solutions/ngos": {
-      "title": "Fundraising-Technologie für Nichtregierungsorganisationen (NGOs) | Donorfit",
-      "description": "Skalieren Sie grenzüberschreitende Arbeit, verwalten Sie internationale Patenschaften und erfüllen Sie strenge europäische Datenschutzvorgaben – in einem System."
+    "/solutions/for-ngos": {
+      "title": "Donorfit für NGOs: Spendenaufrufe, Spender:innen und Projekt-Updates",
+      "description": "Spendenaufrufe durchführen, Spender:innen und Patenschaften verwalten und Unterstützer:innen über Ihre Projekte informieren – in einer Plattform. Donorfit ist kostenlos nutzbar."
     },
-    "/solutions/charities": {
-      "title": "Fundraising-Lösungen für gemeinnützige Organisationen | Donorfit",
-      "description": "Begeistern Sie lokale und überregionale Spender:innen, automatisieren Sie Zuwendungsbestätigungen und steigern Sie regelmäßige Spenden mit passenden Werkzeugen."
+    "/solutions/for-charities": {
+      "title": "Donorfit für gemeinnützige Vereine: Spendenformulare, QR-Codes und Belege",
+      "description": "Spendenformulare einbetten, QR-Codes erstellen und Belege automatisch erzeugen. Eine kostenlose Fundraising-Plattform für die tägliche Vereinsarbeit."
     },
-    "/solutions/foundations": {
-      "title": "Mittelverwaltung & Governance für Stiftungen | Donorfit",
-      "description": "Organisieren Sie Stiftungsvorhaben, verfolgen Sie zweckgebundene Zuwendungen und schaffen Sie lückenlose Transparenz für Gremien und Behörden."
+    "/solutions/for-foundations": {
+      "title": "Donorfit für Stiftungen: Programme, Spendenhistorie und Berichte",
+      "description": "Jedes Förderprogramm als eigene Kampagne führen, Spendenhistorien an einem Ort halten und Systeme per API anbinden. Kostenlos nutzbar."
     },
-    "/solutions/sponsorship-organizations": {
-      "title": "Infrastruktur für Kinder- und Gemeinschaftspatenschaften | Donorfit",
-      "description": "Verbinden Sie Pat:innen mit Begünstigten, verfolgen Sie monatliche Beiträge und versenden Sie würdevolle Fortschrittsberichte in großem Umfang."
+    "/solutions/for-sponsorship-orgs": {
+      "title": "Donorfit für Patenschaftsorganisationen",
+      "description": "Pat:innen, Begünstigte und monatliche Beiträge in einem Datensatz verbinden und Fortschritte über ein sicheres Patenportal teilen."
     },
-    "/solutions/membership-organizations": {
-      "title": "Automatisierte Mitgliedsbeiträge & Mitgliederverzeichnis | Donorfit",
-      "description": "Organisieren Sie Mitgliederdaten, automatisieren Sie die jährliche Beitragsabrechnung und erleichtern Sie die Mitgliederkommunikation – in einem verlässlichen System."
+    "/solutions/for-membership-orgs": {
+      "title": "Donorfit für Mitgliederorganisationen: Anmeldung, Beiträge und Verlängerungen",
+      "description": "Mitglieder registrieren, Tarife einrichten, Beiträge einziehen und Verlängerungen steuern – für Ihren Verein mit Donorfit Membership."
     },
-    "/solutions/international-organizations": {
-      "title": "Fundraising-Infrastruktur für internationale Hilfe | Donorfit",
-      "description": "Vereinen Sie Fundraising-Standorte weltweit, verwalten Sie mehrere Währungen und Rechtsträger und sichern Sie europäische Datensouveränität."
+    "/solutions/for-international-orgs": {
+      "title": "Donorfit für internationale Organisationen: Projekte im Ausland",
+      "description": "Projekte im Ausland vorstellen, Beiträge sammeln und Unterstützer:innen Schritt für Schritt informieren – vom Brunnenbau bis zur Qurbani-Kampagne."
     },
     "/about": {
       "title": "Über Donorfit – Plattform für Fundraising & Organisationsverwaltung",
@@ -73,8 +73,8 @@
       "description": "Erfahren Sie, wie Donorfit europäische Datensouveränität, ISO-27001-zertifizierte Rechenzentren, Verschlüsselung, sichere Zahlungsabwicklung und Kinderschutz umsetzt."
     },
     "/blog": {
-      "title": "Ressourcen & Praxisleitfäden für das Non-Profit-Fundraising | Donorfit",
-      "description": "Praxisnahe Fundraising-Leitfäden, Best Practices zur SEPA-Lastschrift, Rahmenwerke zum Kinderschutz und Strategien zur Spenderbindung für gemeinnützige Organisationen."
+      "title": "Donorfit Blog: Einblicke, Ideen & Neuigkeiten zum Fundraising",
+      "description": "Praxisnahe Einblicke zu Fundraising, Organisationsführung, digitalen Spenden, Patenschaften und Mitgliederverwaltung sowie Neuigkeiten von Donorfit."
     },
     "/guides": {
       "title": "Praxisleitfäden & Toolkits für europäische NGOs | Donorfit",
@@ -95,6 +95,10 @@
     "/integrations": {
       "title": "Integrationen – Stripe, PayPal, Mollie, Mailchimp & mehr | Donorfit",
       "description": "Verbinden Sie Donorfit mit den Zahlungsanbietern Stripe, PayPal, GoCardless, Micropayment und Mollie sowie mit den E-Mail-Plattformen Brevo und Mailchimp."
+    },
+    "/payment-gateways": {
+      "title": "Mehrere Zahlungs-Gateways für gemeinnützige Organisationen | Donorfit",
+      "description": "Zahlungs-Gateway-Integrationen von Donorfit: Stripe, PayPal, GoCardless, Mollie und Micropayment. Online-Spendenzahlungen für Vereine und Organisationen."
     },
     "/integrations/stripe": {
       "title": "Stripe-Integration | Donorfit",

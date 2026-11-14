@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "badge": "Recurring payment management",
+    "title": "Simplify Recurring Payments. Build Lasting Support.",
+    "body": "Make ongoing contributions easier to manage with Donorfit. Organise recurring donations, membership payments and sponsorship contributions through supported recurring payment integrations.",
+    "explore": "Explore Recurring Management",
+    "start": "Get Started",
+    "visualLabel": "Recurring payment cycle: choose a contribution, select a schedule, authorise the payment, manage ongoing payments",
+    "cycle": ["Choose", "Schedule", "Authorise", "Manage"],
+    "centre": "Monthly or annual",
+    "upcoming": "Upcoming contributions",
+    "example": "Example",
+    "monthly": "{{amount}} monthly",
+    "status": "Scheduled"
+  },
+  "intro": {
+    "title": "Make Every Contribution Count, Again and Again",
+    "body": [
+      "Many organisations depend on ongoing contributions to support their projects, programmes and communities. Managing these regular payments manually can create additional administrative work.",
+      "Donorfit helps organisations organise recurring payment activities through its available payment integrations, making it easier to manage ongoing contributions and maintain consistent fundraising programmes."
+    ],
+    "areas": [
+      { "title": "Recurring donations", "text": "Monthly and annual giving with automated collection." },
+      { "title": "Recurring membership payments", "text": "Dues collected through recurring billing in Donorfit Membership." },
+      { "title": "Sponsorship payment management", "text": "Monthly sponsor contributions tracked in Donorfit Sponsorship." }
+    ]
+  },
+  "steps": {
+    "title": "A Simple Way to Manage Recurring Contributions",
+    "sub": "How online recurring donations and contributions work, from the first choice to ongoing management.",
+    "items": [
+      { "title": "Choose a contribution", "text": "A donor or supporter selects an available recurring contribution option, where supported." },
+      { "title": "Select the payment schedule", "text": "Choose an available recurring interval, such as monthly or annual, as supported by the payment integration." },
+      { "title": "Authorise the payment", "text": "The supporter completes the required payment authorisation through the selected payment provider, for example a direct debit mandate." },
+      { "title": "Manage ongoing payments", "text": "Recurring payment processing follows the provider’s supported schedule and authorisation rules. Your organisation manages the available recurring payment information in Donorfit." }
+    ]
+  },
+  "features": {
+    "title": "Everything You Need to Organise Ongoing Contributions",
+    "sub": "Recurring payment management features available in Donorfit. The labels show where each one is part of the platform.",
+    "items": {
+      "contributions": { "title": "Recurring contributions", "text": "Monthly and annual giving with automated collection, so regular donations don’t depend on manual reminders.", "where": "Recurring Subscription" },
+      "schedules": { "title": "Payment schedules", "text": "Monthly and annual intervals. Membership plans each have their own fee and renewal cycle.", "where": "Recurring Subscription, Membership" },
+      "tracking": { "title": "Payment tracking", "text": "See every monthly contribution and missed payment for each sponsorship.", "where": "Sponsorship" },
+      "membership": { "title": "Membership payments", "text": "Recurring billing for dues, with SEPA Direct Debit mandates (B2C and B2B), pre-notifications, bank file exports and card billing.", "where": "Membership" },
+      "sponsorship": { "title": "Sponsorship contributions", "text": "Each sponsorship links a sponsor, a beneficiary or project and their ongoing contributions in one record.", "where": "Sponsorship" },
+      "history": { "title": "Payment history", "text": "Payment history on member profiles and giving history on donor records. Members can download contribution statements.", "where": "Membership, donor records" },
+      "authorisation": { "title": "Payment authorisation", "text": "Supporters authorise recurring payments through the payment provider, for example by giving a direct debit mandate once.", "where": "Payment provider" },
+      "management": { "title": "Failed payments and renewals", "text": "Automatic retries for failed payments, reminders before payment details expire, renewal reminders and payment method updates.", "where": "Membership, Sponsorship" }
+    }
+  },
+  "gateways": {
+    "title": "Recurring Payments Through Supported Payment Gateways",
+    "sub": "Donorfit works with multiple payment gateway integrations. However, recurring payment capabilities may differ between providers.",
+    "documentedTitle": "Recurring payments documented",
+    "documentedText": "The integration page for this provider explicitly lists recurring payments.",
+    "checkTitle": "Recurring availability to confirm",
+    "checkText": "These providers are integrated with Donorfit, but recurring payments are not documented on their Donorfit integration pages. Whether you can use them for recurring payments depends on the provider, payment method and your account configuration – please confirm with our team.",
+    "methods": "Payment methods offered",
+    "recurringNote": "Direct debit mandates authorised once, then one-off and recurring payments collected from the supporter’s bank account. Well suited to monthly donations, membership fees and sponsorships.",
+    "learnMore": "Learn more",
+    "learnMoreAria": "Learn more about the {{name}} integration",
+    "logoAlt": "{{name}} logo",
+    "allGateways": "All payment gateways"
+  },
+  "benefits": {
+    "title": "Why Manage Recurring Payments with Donorfit?",
+    "items": [
+      { "title": "One fundraising platform", "text": "Organise ongoing contributions alongside your donors, members and sponsors." },
+      { "title": "Less manual tracking", "text": "Reduce the administrative effort of following up regular payments by hand." },
+      { "title": "Recurring options for supporters", "text": "Offer monthly or annual contributions where your setup supports them." },
+      { "title": "Membership and sponsorship programmes", "text": "Support dues and sponsor contributions that run for months or years." },
+      { "title": "Payment records to review", "text": "Look up payment history, missed payments and contribution statements." },
+      { "title": "Supported payment gateways", "text": "Use the payment gateway integrations available in Donorfit." }
+    ],
+    "linksTitle": "Related solutions"
+  },
+  "pricing": {
+    "title": "Simple Platform Pricing. Transparent Payment Processing.",
+    "body": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Recurring payment fees, processing conditions and payment schedules may vary depending on the provider, payment method, country and account agreement.",
+    "platformTitle": "Donorfit platform",
+    "platformText": "Using the Donorfit platform is free. See the pricing page for what is included.",
+    "providerTitle": "Payment provider",
+    "providerText": "Transaction charges for each payment, including recurring payments, are set by your provider under your agreement with them.",
+    "link": "See pricing"
+  },
+  "faq": {
+    "title": "Recurring payments FAQ",
+    "sub": "Answers about recurring donation management and recurring payment gateway integration.",
+    "contact": "Contact our team",
+    "items": [
+      { "question": "What are recurring payments?", "answer": "Recurring payments are contributions collected regularly on a schedule, for example a monthly donation, an annual membership fee or a monthly sponsorship. The supporter authorises the payment once, and it is then collected according to the agreed schedule." },
+      { "question": "How do recurring donations work in Donorfit?", "answer": "A supporter chooses a recurring contribution option where your setup offers one, selects the interval and authorises the payment with your payment provider. Donorfit supports monthly and annual giving with automated collection, and the provider processes each payment according to its schedule and authorisation rules." },
+      { "question": "Can organisations accept monthly donations?", "answer": "Yes, where your Donorfit setup and payment provider support recurring payments. Donorfit supports monthly and annual giving with automated collection." },
+      { "question": "Which payment gateways support recurring payments?", "answer": "On its Donorfit integration page, GoCardless explicitly lists one-off and recurring payments by direct debit. Stripe, PayPal, Mollie and Micropayment are also integrated, but recurring payments are not documented on their Donorfit integration pages, so please confirm availability for your account with our team." },
+      { "question": "Can members make recurring membership contributions?", "answer": "Yes. Donorfit Membership collects dues through recurring billing, including SEPA Direct Debit mandates and card billing, with renewal reminders and confirmation notices." },
+      { "question": "Can supporters change or cancel recurring payments?", "answer": "Members can manage their status and update their details in the self-service portal, and renewal workflows include payment method updates. For other recurring contributions, how changes and cancellations are handled depends on your Donorfit setup and payment provider. Please contact our team for the options available to you." },
+      { "question": "What happens if a recurring payment fails?", "answer": "In Membership and Sponsorship, failed payments are retried automatically, and sponsors are reminded before their payment details expire. Missed payments are visible on each sponsorship, so your team can follow up." },
+      { "question": "Are recurring payments available in every country?", "answer": "No. Recurring payments depend on the payment provider, the payment method and your account configuration, and each provider decides in which countries it operates. For example, SEPA Direct Debit is used in the SEPA area and Bacs Direct Debit in the UK." },
+      { "question": "Are recurring payment transaction fees included in Donorfit?", "answer": "No. Donorfit is free to use, and payment provider charges are separate. Your provider sets the transaction fees for each payment, including recurring payments, under your agreement with them." },
+      { "question": "How can an organisation enable recurring payments?", "answer": "Connect a payment provider that supports recurring payments for your account, then set up recurring options in Donorfit, for example membership plans with a renewal cycle or recurring giving. Our team can help you check which setup fits your organisation." }
+    ]
+  },
+  "cta": {
+    "title": "Build Stronger Relationships Through Ongoing Support",
+    "body": "Give your supporters convenient ways to contribute regularly. Explore Donorfit’s recurring payment capabilities and organise ongoing fundraising activities through one platform.",
+    "primary": "Get Started",
+    "secondary": "Contact Us"
+  }
+}

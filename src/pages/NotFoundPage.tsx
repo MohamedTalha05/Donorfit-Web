@@ -48,7 +48,7 @@ export default function NotFoundPage() {
 
       <div className="pt-12 border-t border-neutral-200 text-xs text-neutral-500">
         {t('notFound.helpBefore')}{' '}
-        <button onClick={() => navigateTo('/solutions/ngos')} className="text-emerald-700 underline font-medium">{t('notFound.helpLink1')}</button>
+        <button onClick={() => navigateTo('/solutions/for-ngos')} className="text-emerald-700 underline font-medium">{t('notFound.helpLink1')}</button>
         {' '}{t('notFound.helpMiddle')}{' '}
         <button onClick={() => navigateTo('/contact')} className="text-emerald-700 underline font-medium">{t('notFound.helpLink2')}</button>{t('notFound.helpAfter')}
       </div>

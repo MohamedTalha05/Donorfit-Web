@@ -14,6 +14,7 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     links: [
       { route: '/', key: 'platform' },
       { route: '/pricing', key: 'pricing' },
+      { route: '/payment-gateways', key: 'paymentGateways' },
       { route: '/sponsorship', key: 'sponsorship', product: true },
       { route: '/orphan-sponsorship', key: 'orphanSponsorship' },
       { route: '/money-pool', key: 'money-pool', product: true },
@@ -22,7 +23,7 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
       { route: '/qurbani', key: 'qurbani', product: true },
       { route: '/school-management', key: 'school-management', product: true },
       { route: '/donations', key: 'donations' },
-      { route: '/recurring-giving', key: 'recurringGiving' },
+      { route: '/recurring-management', key: 'recurringGiving' },
       { route: '/donor-management', key: 'donorManagement' },
       { route: '/reporting-and-insights', key: 'reporting' },
     ],
@@ -30,12 +31,12 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
   {
     title: 'solutions',
     links: [
-      { route: '/solutions/ngos', key: 'ngos' },
-      { route: '/solutions/charities', key: 'charities' },
-      { route: '/solutions/foundations', key: 'foundations' },
-      { route: '/solutions/sponsorship-organizations', key: 'sponsorshipOrgs' },
-      { route: '/solutions/membership-organizations', key: 'membershipOrgs' },
-      { route: '/solutions/international-organizations', key: 'internationalOrgs' },
+      { route: '/solutions/for-ngos', key: 'ngos' },
+      { route: '/solutions/for-charities', key: 'charities' },
+      { route: '/solutions/for-foundations', key: 'foundations' },
+      { route: '/solutions/for-sponsorship-orgs', key: 'sponsorshipOrgs' },
+      { route: '/solutions/for-membership-orgs', key: 'membershipOrgs' },
+      { route: '/solutions/for-international-orgs', key: 'internationalOrgs' },
     ],
   },
 ];

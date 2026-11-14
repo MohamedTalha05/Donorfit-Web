@@ -1,486 +1,1415 @@
 {
-  "items": {
-    "ngos": {
-      "targetAudience": "For NGOs",
-      "audienceName": "NGOs",
-      "h1": "Fundraising Technology Built for Non-Governmental Organizations",
-      "subheadline": "Scale cross-border operations, manage international sponsorships, and maintain strict European data compliance in one unified system.",
-      "heroKicker": "Scalable Operations for Non-Governmental Organizations",
-      "overview": "Non-governmental organizations operate in high-stakes environments balancing fieldwork with donor accountability. Donorfit provides the infrastructure to streamline contributions across multiple countries, languages, and currencies.",
-      "keyChallenges": [
-        {
-          "title": "Cross-Border Multi-Currency Giving",
-          "description": "Collecting contributions across the EU, UK, and global supporters without losing massive percentages to currency conversions."
-        },
-        {
-          "title": "Field Worker Data Coordination",
-          "description": "Safely receiving project milestones and beneficiary updates from remote locations without risking data breaches."
-        },
-        {
-          "title": "High Scrutiny and Transparent Allocation",
-          "description": "Institutional donors and private supporters demand proof that every dollar or euro reached designated aid projects."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Multi-Currency & International Banking Rails",
-          "description": "Native SEPA Direct Debit, SWIFT reconciliation, and localized digital payment methods for global donors."
-        },
-        {
-          "title": "Role-Based Field Worker Access",
-          "description": "Safely collect field updates, progress photos, and community metrics with granular access controls."
-        },
-        {
-          "title": "Full Audit Trail & Ledger Separation",
-          "description": "Strict separation of program funds and transparent reporting ready for governmental and institutional grant audits."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "65%",
-          "label": "Admin Time Saved",
-          "context": "Across cross-border payment reconciliation and donor updates"
-        },
-        {
-          "metric": "99.4%",
-          "label": "Pledge Fulfillment Rate",
-          "context": "Using automated dunning and smart SEPA retry schedules"
-        },
-        {
-          "metric": "100%",
-          "label": "GDPR Compliance",
-          "context": "All data stored in European ISO 27001-certified data centers"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Can our international offices use Donorfit in different languages?",
-          "answer": "Yes. Donorfit supports multi-lingual public donation forms and administrative workspaces for cross-border NGO teams."
-        },
-        {
-          "question": "How does Donorfit handle institutional grants alongside individual gifts?",
-          "answer": "Our reporting suite allows you to track both major institutional grant milestones and individual recurring donor streams side-by-side."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Sponsorship Management"
-        },
-        {
-          "name": "Donor Management CRM"
-        },
-        {
-          "name": "Reporting & Insights"
-        }
-      ]
-    },
-    "charities": {
-      "targetAudience": "For Charities",
-      "audienceName": "Charities",
-      "h1": "Fundraising Solutions Engineered for Registered Charities",
-      "subheadline": "Delight local and national donors, automate tax receipts, and increase recurring giving with purpose-built charity tools.",
-      "heroKicker": "Modern Giving for Registered Charities",
-      "overview": "Charities rely on the goodwill of compassionate individuals. Donorfit removes friction from the giving experience, making it simple for supporters to set up recurring pledges and receive compliant tax certificates automatically.",
-      "keyChallenges": [
-        {
-          "title": "Cumbersome Tax Receipt Management",
-          "description": "Manually issuing thousands of tax certificates at year-end consumes staff hours and causes donor complaints."
-        },
-        {
-          "title": "High Churn on Annual Appeals",
-          "description": "Relying exclusively on holiday appeals creates seasonal financial volatility."
-        },
-        {
-          "title": "Outdated Giving Pages with Low Conversion",
-          "description": "Slow, non-mobile donation forms cause potential donors to abandon their gifts halfway through."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Automated Tax Certificate Dispatch",
-          "description": "Compliant German Geldzuwendungsbestätigung, French Reçu Fiscal, and UK Gift Aid receipts issued with zero manual work."
-        },
-        {
-          "title": "Smart Monthly Giving Upsell",
-          "description": "Convert one-time donors into steady monthly champions during the initial donation flow."
-        },
-        {
-          "title": "Modern Mobile-First Checkout",
-          "description": "One-tap giving via Apple Pay, Google Pay, PayPal, and European direct debit."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "34%",
-          "label": "Higher Donation Conversion",
-          "context": "Compared to traditional multi-page charity checkout forms"
-        },
-        {
-          "metric": "82%",
-          "label": "Donors Covering Processing Fees",
-          "context": "Voluntarily opting in to cover payment transaction costs"
-        },
-        {
-          "metric": "1000s",
-          "label": "Hours Saved Annually",
-          "context": "Automating tax receipt distribution at tax season"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Does Donorfit support UK Gift Aid or German tax receipts?",
-          "answer": "Yes. Donorfit supports official tax receipt generation tailored to specific European charity regulations, including German Spendenbescheinigung and UK Gift Aid declarations."
-        },
-        {
-          "question": "Can we embed donation forms directly on our WordPress or Webflow site?",
-          "answer": "Yes. Donorfit provides clean embed snippets and iframe options that fit seamlessly into any CMS without redirecting donors off your domain."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Online Donations"
-        },
-        {
-          "name": "Recurring Giving"
-        },
-        {
-          "name": "Campaign Management"
-        }
-      ]
-    },
-    "foundations": {
-      "targetAudience": "For Foundations",
-      "audienceName": "Foundations",
-      "h1": "Transparent Fund Stewardship for Philanthropic Foundations",
-      "subheadline": "Organize endowment initiatives, track restricted donor allocations, and provide spotless accountability to trustees and public authorities.",
-      "heroKicker": "Governance & Fund Stewardship for Foundations",
-      "overview": "Foundations and public trusts require rigorous governance, transparent allocation tracking, and impeccable financial documentation. Donorfit delivers institutional-grade security and clarity for foundation boards.",
-      "keyChallenges": [
-        {
-          "title": "Strict Fund Restriction Audits",
-          "description": "Ensuring designated endowment gifts cannot be inadvertently mingled with unrestricted administrative accounts."
-        },
-        {
-          "title": "Trustee and Board Reporting",
-          "description": "Compiling quarterly governance packets with verified capital preservation and project disbursement figures."
-        },
-        {
-          "title": "Major Philanthropist Stewardship",
-          "description": "Maintaining discreet, high-touch communication histories with principal benefactors."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Earmarked & Restricted Ledger Tracking",
-          "description": "Tag each endowment or fund with strict legal restriction flags to ensure audit-compliant disbursements."
-        },
-        {
-          "title": "Executive Board Analytics",
-          "description": "Generate high-level visual PDF briefs detailing fund growth, disbursement ratios, and donor retention."
-        },
-        {
-          "title": "Confidential Benefactor Profiles",
-          "description": "Encrypted donor files with restricted permissions for foundation directors and principal gift officers."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "100%",
-          "label": "Audit-Ready Separation",
-          "context": "Clear categorization of restricted and unrestricted endowment capital"
-        },
-        {
-          "metric": "1-Click",
-          "label": "Board Brief Generation",
-          "context": "Instant compilation of quarterly trustee performance reports"
-        },
-        {
-          "metric": "ISO 27001",
-          "label": "Hosting Standard",
-          "context": "Enterprise-grade European server infrastructure and data isolation"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Can we manage multiple separate endowment funds in one Donorfit account?",
-          "answer": "Yes. Foundations can establish dedicated sub-funds and capital accounts with distinct financial reporting and custom allocation goals."
-        },
-        {
-          "question": "Can our board members view read-only dashboards?",
-          "answer": "Yes. Donorfit supports read-only auditor and trustee access roles with zero risk of accidental data modification."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Reporting & Insights"
-        },
-        {
-          "name": "Donor Management CRM"
-        },
-        {
-          "name": "Money Pool & Group Giving"
-        }
-      ]
-    },
-    "sponsorship-organizations": {
-      "targetAudience": "For Sponsorship Organizations",
-      "audienceName": "Sponsorship Organizations",
-      "h1": "Complete Infrastructure for Child & Community Sponsorship Programs",
-      "subheadline": "Connect sponsors with beneficiaries, track recurring monthly contributions, and deliver dignified progress reports at scale.",
-      "heroKicker": "End-to-End Sponsorship Operations",
-      "overview": "Managing hundreds or thousands of ongoing sponsorships requires specialized software. Donorfit handles beneficiary safeguarding, automated recurring direct debit billing, and annual milestone reporting without manual spreadsheets.",
-      "keyChallenges": [
-        {
-          "title": "Beneficiary Allocation Confusion",
-          "description": "Tracking which sponsor is supporting which child or project across years of school transitions."
-        },
-        {
-          "title": "High Churn on Recurring Direct Debits",
-          "description": "Failed bank transfers and expired credit cards causing silent cancellations and interrupted beneficiary funding."
-        },
-        {
-          "title": "Dignified Content & Progress Delivery",
-          "description": "Gathering, reviewing, and dispatching progress reports, grades, and letters without exposing private child information."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Integrated Beneficiary-Sponsor Mapping",
-          "description": "Maintain strict 1:1 or 1:Many relationships with complete historical logs of past sponsors."
-        },
-        {
-          "title": "Automated European Direct Debit Handling",
-          "description": "Generate SEPA XML batches and connect directly to automated payment gateways with smart retries."
-        },
-        {
-          "title": "Digital Sponsor Update Portal",
-          "description": "Publish dignified, privacy-vetted updates, letters, and progress milestones directly to the sponsor’s private portal."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "72%",
-          "label": "Long-Term Retention",
-          "context": "Average multi-year sponsor retention achieved through automated updates"
-        },
-        {
-          "metric": "Zero",
-          "label": "Spreadsheet Errors",
-          "context": "Single source of truth replacing scattered Excel beneficiary files"
-        },
-        {
-          "metric": "48h",
-          "label": "Faster Update Turnaround",
-          "context": "Dispatching annual school report cards to thousands of sponsors"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Can sponsors write messages to their sponsored children?",
-          "answer": "Yes. Donorfit includes an admin-moderated messaging portal where letters can be vetted by safeguarding coordinators before transmission."
-        },
-        {
-          "question": "What happens if a sponsor defaults on payment?",
-          "answer": "Donorfit alerts the team, initiates gentle automated retry reminders, and provides grace periods so children’s schooling is never suddenly interrupted."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Sponsorship Platform"
-        },
-        {
-          "name": "Orphan Sponsorship"
-        },
-        {
-          "name": "Recurring Giving"
-        }
-      ]
-    },
-    "membership-organizations": {
-      "targetAudience": "For Membership Organizations",
-      "audienceName": "Membership Organizations",
-      "h1": "Automated Membership Dues and Directory Management for Nonprofits",
-      "subheadline": "Organize member records, automate annual renewal billing, and facilitate member communications in one reliable system.",
-      "heroKicker": "Modern Association & Guild Management",
-      "overview": "Nonprofit associations, professional societies, and community leagues thrive on active membership. Donorfit eliminates the administrative headache of chasing annual dues and sending paper invoices.",
-      "keyChallenges": [
-        {
-          "title": "Unpaid Annual Membership Dues",
-          "description": "Volunteers and staff spending weeks emailing and phoning members whose dues are months overdue."
-        },
-        {
-          "title": "Outdated Member Contact Information",
-          "description": "Returned mail, bounced newsletters, and outdated corporate affiliations."
-        },
-        {
-          "title": "Complex Multi-Tier Fee Structures",
-          "description": "Handling varying rates for students, institutions, retired members, and corporate sponsors."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Automated Renewal Direct Debits",
-          "description": "SEPA B2C/B2B automated recurring renewals that collect annual fees without manual intervention."
-        },
-        {
-          "title": "Self-Service Member Accounts",
-          "description": "Members log in securely via magic link to update their postal address, download payment receipts, or change plans."
-        },
-        {
-          "title": "Voting & Assembly Roll Call Reports",
-          "description": "Instantly generate certified lists of members in good standing for statutory annual general meetings."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "78%",
-          "label": "Reduction in Late Dues",
-          "context": "When transitioning to automated recurring direct debit mandates"
-        },
-        {
-          "metric": "100%",
-          "label": "Accurate Assembly Rolls",
-          "context": "Real-time verification of active dues-paying voting members"
-        },
-        {
-          "metric": "15 min",
-          "label": "Average Onboarding Time",
-          "context": "From prospective member registration to dues authorization"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Can we collect dues once per year or monthly?",
-          "answer": "Yes. You can configure annual, quarterly, or monthly billing schedules with automatic recurring collections."
-        },
-        {
-          "question": "Can members download official proof of membership for tax purposes?",
-          "answer": "Yes. Self-service accounts allow members to download official annual membership fee deduction statements."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Membership Management"
-        },
-        {
-          "name": "Donor Management CRM"
-        },
-        {
-          "name": "Online Donations"
-        }
-      ]
-    },
-    "international-organizations": {
-      "targetAudience": "For International Organizations",
-      "audienceName": "International Organizations",
-      "h1": "Cross-Border Fundraising Infrastructure for International Aid Nonprofits",
-      "subheadline": "Unite global fundraising chapters, manage multiple currencies and legal entities, and ensure sovereign European data compliance.",
-      "heroKicker": "Global Aid & Cross-Border Governance",
-      "overview": "International aid agencies face complex operational demands across multiple jurisdictions. Donorfit provides unified data architecture with localized checkout experiences, multi-entity accounting, and strict compliance with EU and international standards.",
-      "keyChallenges": [
-        {
-          "title": "Multi-Entity Financial Consolidation",
-          "description": "Operating distinct legal entities in Germany, France, the UK, and Switzerland while maintaining central visibility."
-        },
-        {
-          "title": "Currency Fluctuation and High Transfer Fees",
-          "description": "Loss of critical aid funds when converting regional donor payments into central disaster relief funds."
-        },
-        {
-          "title": "International Data Sovereignty & GDPR",
-          "description": "Ensuring data gathered in Europe strictly adheres to GDPR while enabling global field coordination."
-        }
-      ],
-      "tailoredFeatures": [
-        {
-          "title": "Multi-Entity & Chapter Management",
-          "description": "Manage distinct national fundraising branches with localized tax receipts, separate bank accounts, and central reporting."
-        },
-        {
-          "title": "Global Multi-Currency Rails",
-          "description": "Collect in EUR, GBP, USD, CHF, and regional currencies with real-time exchange reconciliation."
-        },
-        {
-          "title": "Strict EU Sovereign Cloud Hosting",
-          "description": "Guaranteed European server hosting, robust encryption, and full compliance with international humanitarian standards."
-        }
-      ],
-      "measurableOutcomes": [
-        {
-          "metric": "12+",
-          "label": "Currencies Supported",
-          "context": "Accepting local payments across European and global corridors"
-        },
-        {
-          "metric": "Zero",
-          "label": "Data Transfer Violations",
-          "context": "Strict European data boundary guarantees and GDPR alignment"
-        },
-        {
-          "metric": "Real-Time",
-          "label": "Global Consolidated View",
-          "context": "Instant executive oversight across all regional branches"
-        }
-      ],
-      "faqs": [
-        {
-          "question": "Can each national branch have its own bank account and branding?",
-          "answer": "Yes. Donorfit supports multi-entity configurations where different branches retain their own local bank routing, language, and legal footer."
-        },
-        {
-          "question": "How does Donorfit handle emergency disaster response spikes?",
-          "answer": "Our cloud architecture autoscales to process millions of requests during sudden humanitarian crisis appeals without downtime."
-        }
-      ],
-      "recommendedProducts": [
-        {
-          "name": "Campaign Management"
-        },
-        {
-          "name": "Sponsorship Platform"
-        },
-        {
-          "name": "Reporting & Insights"
-        }
-      ]
-    }
-  },
   "ui": {
+    "menu": "Solutions",
+    "breadcrumb": "Solutions",
+    "breadcrumbAria": "Breadcrumb",
+    "register": "Register for free",
+    "bookDemo": "Book a demo",
+    "talkToUs": "Talk to our team",
+    "explore": "Explore {{name}}",
+    "seeIntegrations": "See payment integrations",
+    "seePricing": "See pricing",
+    "freeNote": "Donorfit is free to use. Transaction charges are set by the payment provider you choose.",
+    "exampleData": "Example data",
+    "illustrative": "Illustrative example",
+    "comingSoon": "Coming Soon",
+    "needsHelp": "How Donorfit helps",
+    "faqTitle": "Questions we often hear",
+    "faqSub": "Can’t find your answer? Our team is happy to look at your setup with you.",
+    "contactTeam": "Contact our team",
+    "productsTitle": "Products to start with",
+    "otherTitle": "Looking for a different fit?",
+    "otherSub": "Every organisation is a little different. Compare how Donorfit supports other types of organisations.",
+    "current": "You are here",
     "notFound": {
-      "title": "Solution Not Found",
-      "text": "The requested audience solution could not be found.",
-      "button": "Return to Platform Home"
+      "title": "Solution not found",
+      "text": "We couldn’t find this solution page.",
+      "button": "Back to homepage"
     },
-    "hero": {
-      "getStarted": "Get Started for {{name}}",
-      "walkthrough": "Book an Audience Walkthrough",
-      "tailoredFor": "Tailored for {{name}}"
+    "whatItDoes": "What it does",
+    "howToUse": "How you could use it",
+    "whyItHelps": "Why it helps",
+    "usesProduct": "Uses {{name}}",
+    "getStarted": "Get started for free",
+    "discuss": "Discuss your requirements",
+    "providerLink": "View the {{name}} integration",
+    "allIntegrations": "All integrations"
+  },
+  "items": {
+    "for-ngos": {
+      "navLabel": "For NGOs",
+      "navDescription": "Appeals, project updates and donor records in one place",
+      "hero": {
+        "badge": "For NGOs",
+        "title": "Fund your programmes and show supporters where their money goes",
+        "lead": "Donorfit gives NGOs one place to run appeals, manage donors and sponsorships and post project updates, so your team spends less time on admin and more time on the work itself.",
+        "imageAlt": "Aid workers handing out supplies to people in a dry, open landscape"
+      },
+      "example": {
+        "title": "Example: a winter relief appeal",
+        "body": "A small NGO raises funds for winter kits. The campaign page shows the target and progress, supporters give through the form on the NGO’s website, and the team posts an update when the kits are handed out.",
+        "campaign": "Winter kits for families",
+        "raised": "Raised",
+        "target": "Target",
+        "donors": "Donors",
+        "update": "Latest update: first 60 kits distributed"
+      },
+      "challenges": {
+        "title": "The challenges NGOs deal with every day",
+        "sub": "NGOs often run several initiatives at once, each with its own supporters, budget and deadline.",
+        "items": [
+          {
+            "title": "Several campaigns running in parallel",
+            "text": "An emergency appeal, a seasonal campaign and a long-term project can all be live at once. Without one overview, it is hard to see which one needs attention."
+          },
+          {
+            "title": "Supporter information in different places",
+            "text": "Donors, sponsors and members are often kept in separate spreadsheets, so the same person can appear several times with different details."
+          },
+          {
+            "title": "Community projects with many contributors",
+            "text": "A well or a community kitchen is often funded by many small contributions, and each one has to be recorded against the right project."
+          },
+          {
+            "title": "Reporting back to supporters",
+            "text": "Supporters want to know what happened with their money. Preparing updates by hand takes time away from the programme work."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit helps NGOs stay organised",
+        "sub": "Donorfit doesn’t replace your programme work. It organises the fundraising and supporter side around it.",
+        "items": [
+          {
+            "title": "Give each initiative its own campaign",
+            "text": "Contributions are recorded against the right cause from the start.",
+            "points": [
+              "A target and progress view per campaign",
+              "Project details, photos and documents together",
+              "Several campaigns managed from one dashboard"
+            ]
+          },
+          {
+            "title": "Keep supporters in one place",
+            "text": "Donor, sponsor and member information sits in one platform instead of separate files.",
+            "points": [
+              "Giving history on each supporter record",
+              "A dedicated donor portal",
+              "Import for your existing records"
+            ]
+          },
+          {
+            "title": "Report back with less effort",
+            "text": "Share progress using the tools built into each product.",
+            "points": [
+              "Stage-by-stage updates on Water Well projects",
+              "Progress reports through the sponsor portal",
+              "Receipts generated from predefined templates"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Donorfit solutions NGOs can combine",
+        "sub": "Start with the solution that fits your next initiative and add others when you need them.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "Crowdfunding for one project: a campaign with a goal, a cost breakdown, a deadline and a live progress bar.",
+            "use": "Launch a campaign for a community project and let volunteer groups share it by WhatsApp, email or QR code.",
+            "purpose": "Many small contributions are collected in one place, and every contributor receives their own receipt."
+          },
+          {
+            "slug": "water-well",
+            "what": "A dedicated campaign for each well, with location, budget, photos, a fundraising target and progress.",
+            "use": "Create a campaign for each planned well and post updates as it moves from survey to handover.",
+            "purpose": "Donors see which project they are funding and how far it has come."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Links sponsors to beneficiaries or community projects and tracks every contribution.",
+            "use": "Run one-to-one, co-sponsorship or community project sponsorships and send progress reports through the sponsor portal.",
+            "purpose": "Long-term supporters stay connected to the people and projects they support."
+          },
+          {
+            "slug": "membership",
+            "what": "Member registration, plans and categories, dues collection and renewals.",
+            "use": "If your NGO has members or a supporters’ association, register them online and collect dues through recurring billing.",
+            "purpose": "Membership income and member records sit alongside your other fundraising."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Platform tools included",
+        "items": [
+          {
+            "title": "Embedded donation forms",
+            "text": "Customise a form and place it on your own website."
+          },
+          {
+            "title": "QR codes",
+            "text": "Print them on posters, flyers and collection boxes."
+          },
+          {
+            "title": "Automatic receipts",
+            "text": "Generated from predefined templates."
+          },
+          {
+            "title": "Donor portal",
+            "text": "A dedicated place for supporters."
+          },
+          {
+            "title": "Reports and dashboards",
+            "text": "Follow donations and campaign progress."
+          },
+          {
+            "title": "Team users",
+            "text": "Several staff members in one workspace."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How an NGO could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "Three initiatives, one overview",
+            "text": "An NGO runs a winter appeal, a well project and a sponsorship programme at the same time. Each one is set up separately, so the team can follow all three from one place.",
+            "slug": "water-well"
+          },
+          {
+            "title": "A community kitchen funded together",
+            "text": "Volunteers in a local group create a MoneyPool campaign for kitchen equipment and share the link with their network. Contributions go straight to the NGO’s account, not to the volunteers.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "Members who also give",
+            "text": "An NGO with a supporters’ association collects annual dues through Membership and invites the same members to support its seasonal appeals.",
+            "slug": "membership"
+          }
+        ]
+      },
+      "steps": {
+        "title": "How it works",
+        "sub": "From registration to your first contributions.",
+        "items": [
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect a payment provider",
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+          },
+          {
+            "title": "Choose a solution",
+            "text": "Set up a campaign, a sponsorship programme or membership plans, depending on your initiative."
+          },
+          {
+            "title": "Share and collect",
+            "text": "Embed the form on your website or share the link and QR code. Confirmed contributions are recorded in Donorfit."
+          },
+          {
+            "title": "Follow progress",
+            "text": "See campaign progress and supporter records, and post updates where the product supports them."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What does Donorfit cost an NGO?",
+          "answer": "Donorfit is free to use. When a donor pays, the payment provider you connect charges its own transaction fees, which you agree directly with that provider."
+        },
+        {
+          "question": "Can we run several campaigns at the same time?",
+          "answer": "Yes. Each appeal or project can be its own campaign with its own target and progress, and you manage them from one dashboard."
+        },
+        {
+          "question": "Which solution should we start with?",
+          "answer": "It depends on your next initiative: MoneyPool for one project with a shared goal, Water Well for well projects, Sponsorship for long-term support of beneficiaries and Membership if you have members. Our team can help you decide."
+        },
+        {
+          "question": "Which payment providers can we connect?",
+          "answer": "Donorfit integrates with Stripe, PayPal, GoCardless, Mollie and Micropayment. The payment methods your donors see depend on the provider and your account with them."
+        },
+        {
+          "question": "Can we keep our existing website?",
+          "answer": "Yes. You can customise Donorfit donation forms and embed them on the website you already have."
+        },
+        {
+          "question": "Can we bring in our current donor list?",
+          "answer": "Yes. Donorfit includes an import function for existing records, and our team can help you prepare the data."
+        }
+      ],
+      "cta": {
+        "title": "Organise your next initiative in Donorfit",
+        "body": "Register for free and set up your first campaign, or book a demo and we’ll go through your initiatives with you.",
+        "button": "Get started with Donorfit"
+      }
     },
-    "images": {
-      "field": "Humanitarian development workers collaborating with community members in field",
-      "gala": "Philanthropic gala reception and community leaders",
-      "office": "Dedicated nonprofit leadership team in modern European office"
+    "for-charities": {
+      "navLabel": "For Charities",
+      "navDescription": "Everyday giving, receipts and supporter records",
+      "hero": {
+        "badge": "For charities",
+        "title": "Everyday fundraising, without the spreadsheet juggling",
+        "lead": "From the donate button on your website to the receipt in a donor’s inbox, Donorfit keeps a charity’s day-to-day giving organised in one place.",
+        "imageAlt": "Volunteers collecting donated goods for people in need",
+        "formTitle": "Support our winter appeal",
+        "formOther": "Other",
+        "formCover": "I’ll cover the transaction fee",
+        "formDonate": "Donate"
+      },
+      "challenges": {
+        "title": "What charities juggle",
+        "sub": "Most charities support several causes with a small team and a lot of goodwill.",
+        "items": [
+          {
+            "title": "Many causes, one small team",
+            "text": "Education support, medical help for families and community projects often run side by side, managed by the same few people."
+          },
+          {
+            "title": "Community contributions in many forms",
+            "text": "Gifts arrive at events, in collection boxes, by bank transfer and online. Bringing them together takes time."
+          },
+          {
+            "title": "Urgent needs and long-term projects",
+            "text": "A medical appeal may need to raise money quickly, while a water project or school support runs for months or years."
+          },
+          {
+            "title": "Showing that gifts made a difference",
+            "text": "Supporters give with more confidence when they can see the goal, the progress and what their gift achieved."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit helps charities",
+        "sub": "Practical tools for the causes you support and the people who support them.",
+        "items": [
+          {
+            "title": "A clear page for every cause",
+            "text": "Supporters know exactly what they are giving to.",
+            "points": [
+              "A campaign with a target and progress",
+              "Photos, budget and a description",
+              "Contributions recorded per campaign"
+            ]
+          },
+          {
+            "title": "Easy ways for the community to give",
+            "text": "Meet supporters wherever they come across your charity.",
+            "points": [
+              "Donation forms embedded on your website",
+              "QR codes for events and collection boxes",
+              "Sharing by WhatsApp, email or QR code with MoneyPool"
+            ]
+          },
+          {
+            "title": "Less admin after the gift",
+            "text": "Records, receipts and newsletters are handled in one place.",
+            "points": [
+              "Receipts from predefined templates",
+              "An optional cover-the-fee choice for donors",
+              "Brevo or Mailchimp for your newsletter"
+            ]
+          }
+        ]
+      },
+      "causes": {
+        "title": "Causes you can fundraise for",
+        "sub": "Examples of how a charity could set up different causes in Donorfit.",
+        "items": [
+          {
+            "title": "Education support",
+            "text": "Fund tuition, books and uniforms through education sponsorship.",
+            "slug": "sponsorship",
+            "imageAlt": "A boy smiling in a village classroom"
+          },
+          {
+            "title": "Medical assistance",
+            "text": "Raise money for treatment costs or equipment with a clear goal and deadline.",
+            "slug": "money-pool",
+            "imageAlt": "A health worker caring for a patient in a clinic"
+          },
+          {
+            "title": "Clean water",
+            "text": "Give each well its own campaign with location, budget and updates.",
+            "slug": "water-well",
+            "imageAlt": "Children drinking clean water from a tap"
+          },
+          {
+            "title": "Community projects",
+            "text": "Let a local group fundraise together, with every contribution receipted.",
+            "slug": "money-pool",
+            "imageAlt": "Volunteers packing food parcels at a community event"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Solutions for your causes",
+        "sub": "Three Donorfit solutions that fit the way charities fundraise.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "Shared fundraising for one goal, with a live progress bar and a contributor wall where people can give anonymously.",
+            "use": "Create a campaign for a specific need, such as equipment for a clinic or a new roof for a community centre, and let supporters share it.",
+            "purpose": "The community sees the goal and the progress, and organisers never hold the money themselves."
+          },
+          {
+            "slug": "water-well",
+            "what": "A project page and campaign for each well, with location, budget, photos, target and progress.",
+            "use": "Run a campaign for each well and post updates from survey to drilling, installation and handover.",
+            "purpose": "Donors can follow the project they funded until the community draws water."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Connects sponsors with students, families or projects and tracks every contribution.",
+            "use": "Support a student’s tuition, books and uniforms through education sponsorship and share progress during the school year.",
+            "purpose": "Supporters build a lasting connection with the person or project they help."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Platform tools included",
+        "items": [
+          {
+            "title": "Customisable donation forms",
+            "text": "Set amounts, text and look, then embed."
+          },
+          {
+            "title": "QR codes",
+            "text": "For posters, collection boxes and events."
+          },
+          {
+            "title": "Automatic receipts",
+            "text": "Created from predefined templates."
+          },
+          {
+            "title": "Cover-the-fee option",
+            "text": "Donors can cover the transaction fee."
+          },
+          {
+            "title": "Donor portal",
+            "text": "Supporters find their own information."
+          },
+          {
+            "title": "Newsletter integrations",
+            "text": "Connect Brevo or Mailchimp."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How a charity could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "A shared fundraiser for a community project",
+            "text": "A charity creates a MoneyPool campaign to renovate a community centre kitchen. Local volunteers share it by WhatsApp and QR code, and each contributor receives a receipt.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "Medical help for a family",
+            "text": "A charity sets up a campaign with a goal and a deadline to cover a family’s treatment costs and shares the campaign page with its supporters.",
+            "slug": "money-pool"
+          },
+          {
+            "title": "School support through the year",
+            "text": "A charity links supporters to students through education sponsorship and sends updates as the school year goes on.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Collection boxes that lead online",
+            "text": "A food bank puts a QR code on its collection boxes. Shoppers who scan it give on the food bank’s donation page, and a receipt is generated automatically.",
+            "slug": ""
+          }
+        ]
+      },
+      "steps": {
+        "title": "How it works",
+        "sub": "Getting your first cause online.",
+        "items": [
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect a payment provider",
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+          },
+          {
+            "title": "Create your first cause",
+            "text": "Set up a campaign or a MoneyPool with a target, a description and photos."
+          },
+          {
+            "title": "Share it",
+            "text": "Embed the form on your website, print the QR code or send the link to supporters."
+          },
+          {
+            "title": "Follow progress and thank donors",
+            "text": "Progress updates as contributions arrive, and receipts are generated from your templates."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Is Donorfit really free for charities?",
+          "answer": "Yes, Donorfit is free to use. Transaction charges for each payment are set by the payment provider you connect, such as Stripe, PayPal or Mollie."
+        },
+        {
+          "question": "What is the difference between a donation form and MoneyPool?",
+          "answer": "A donation form collects gifts for your charity or a campaign. MoneyPool is built for one project with a goal and a deadline, where a group fundraises together and everyone can follow the progress."
+        },
+        {
+          "question": "Can we fundraise for medical assistance?",
+          "answer": "Yes. You can create a campaign for a medical cause, for example with MoneyPool. Your charity remains responsible for how the funds are used and for any rules that apply to that kind of appeal."
+        },
+        {
+          "question": "Can donors cover the transaction fee?",
+          "answer": "Yes. You can offer donors the option to cover the transaction fee, so your charity receives more of their gift."
+        },
+        {
+          "question": "Does Donorfit create tax receipts?",
+          "answer": "Donorfit includes predefined tax receipt templates for automatic generation. Please check with your tax adviser which details your receipts must contain."
+        },
+        {
+          "question": "Can we connect our newsletter tool?",
+          "answer": "Donorfit integrates with Brevo and Mailchimp. You can also use a custom email provider for system emails."
+        }
+      ],
+      "cta": {
+        "title": "Explore fundraising solutions for your causes",
+        "body": "Register for free and put your first cause online, or book a demo to see which solution fits best.",
+        "button": "Get started for free"
+      }
     },
-    "impact": {
-      "kicker": "Strategic Impact"
+    "for-foundations": {
+      "navLabel": "For Foundations",
+      "navDescription": "Organised funds, donor histories and clear reporting",
+      "hero": {
+        "badge": "For foundations",
+        "title": "Clear records for the people who oversee your foundation",
+        "lead": "Foundations answer to boards, donors and the public. Donorfit keeps gifts, donors and campaign progress organised, so the answers are easier to find.",
+        "imageAlt": "A social worker in conversation with a couple at a table"
+      },
+      "board": {
+        "title": "Questions your board asks, and where to find the answer",
+        "sub": "Donorfit doesn’t write your board report, but it keeps the information you need for it in one place.",
+        "items": [
+          {
+            "question": "How much have we raised for this programme?",
+            "answer": "Each campaign shows its target and progress."
+          },
+          {
+            "question": "Who are our donors and what have they given?",
+            "answer": "Donor records hold contact details and giving history."
+          },
+          {
+            "question": "How are donors thanked and receipted?",
+            "answer": "Receipts are generated automatically from your templates."
+          },
+          {
+            "question": "Can our finance team use this data?",
+            "answer": "Import tools, API access and webhooks connect Donorfit with your other systems."
+          }
+        ]
+      },
+      "example": {
+        "title": "Example: three programmes, one overview",
+        "body": "A family foundation runs a scholarship programme, a clean-water project and an emergency reserve. Each one is a separate campaign, so the board sees progress per programme instead of one combined total.",
+        "programmes": [
+          "Scholarship programme",
+          "Clean water project",
+          "Emergency reserve"
+        ],
+        "ofTarget": "of {{target}}"
+      },
+      "challenges": {
+        "title": "What foundations need to keep track of",
+        "sub": "Foundations tend to run fewer, longer initiatives, with more questions about where money went.",
+        "items": [
+          {
+            "title": "Initiatives that run for years",
+            "text": "Scholarship programmes and community development projects can run for several years and need consistent records the whole time."
+          },
+          {
+            "title": "Several programmes with different goals",
+            "text": "Each programme has its own budget, partners and supporters, and contributions must be recorded against the right one."
+          },
+          {
+            "title": "Supporters who expect accountability",
+            "text": "Donors and boards want to see how much was raised for each initiative and how it is progressing."
+          },
+          {
+            "title": "Knowledge held by individuals",
+            "text": "When records sit with individual staff members, information is lost when people change roles."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit helps foundations",
+        "sub": "Structure for project-based fundraising and long-term support.",
+        "items": [
+          {
+            "title": "Organise contributions by project",
+            "text": "Every programme has its own place.",
+            "points": [
+              "One campaign per programme or project",
+              "A target and progress for each",
+              "Project details, documents and status together"
+            ]
+          },
+          {
+            "title": "Support long-term initiatives",
+            "text": "Keep the history of supporters and beneficiaries over the years.",
+            "points": [
+              "Education sponsorship through the school year",
+              "Sponsor and beneficiary history with audit trails",
+              "Automatic retries for failed regular payments"
+            ]
+          },
+          {
+            "title": "Keep information shared and connected",
+            "text": "Your records belong to the foundation, not to one laptop.",
+            "points": [
+              "Several team users in one workspace",
+              "Donor records with full giving history",
+              "API and webhooks for your other systems"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Solutions for project-based fundraising",
+        "sub": "Match each initiative with the solution built for it.",
+        "items": [
+          {
+            "slug": "sponsorship",
+            "what": "Links sponsors to students, people or community projects and tracks every contribution.",
+            "use": "Fund scholarships: connect sponsors to students and follow tuition, books and progress through the school year.",
+            "purpose": "Long-term commitments stay organised, with a full history for every sponsorship."
+          },
+          {
+            "slug": "water-well",
+            "what": "A campaign per water project with location, budget, photos, target and stage updates.",
+            "use": "Fund community development one well at a time and show donors each stage of the build.",
+            "purpose": "The board and donors can see which projects are funded and which still need support."
+          },
+          {
+            "slug": "money-pool",
+            "what": "One project, one goal and many contributors, with every contribution receipted individually.",
+            "use": "Let a committee or partner group raise money together for a clearly defined project.",
+            "purpose": "Contributions go directly to the foundation’s account, while partners help spread the word."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Platform tools for foundations",
+        "items": [
+          {
+            "title": "One campaign per programme",
+            "text": "Separate targets and progress for each programme or project."
+          },
+          {
+            "title": "Donor histories",
+            "text": "Every gift and contact detail on one donor record."
+          },
+          {
+            "title": "Donor portal",
+            "text": "A dedicated portal where supporters find their own information."
+          },
+          {
+            "title": "Automatic receipts",
+            "text": "Receipts generated from predefined templates."
+          },
+          {
+            "title": "Reports and dashboards",
+            "text": "Basic reports to follow donations and campaign progress."
+          },
+          {
+            "title": "API and webhooks",
+            "text": "Connect Donorfit with accounting or other internal tools."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How a foundation could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "An educational initiative",
+            "text": "A foundation collects contributions for a scholarship programme. Sponsors are linked to students, and the foundation shares term reports through the sponsor portal.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Community development over several years",
+            "text": "A foundation funds water access in a region, one well at a time. Each well is its own campaign, so the board can see which are funded and which still need support.",
+            "slug": "water-well"
+          },
+          {
+            "title": "A partner-led project",
+            "text": "A local committee raises money for a library extension with MoneyPool. Contributions go directly to the foundation’s account.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "How it works",
+        "sub": "Setting up your programmes in Donorfit.",
+        "items": [
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect a payment provider",
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+          },
+          {
+            "title": "Set up each programme",
+            "text": "Create a campaign, a sponsorship programme or a MoneyPool for each initiative."
+          },
+          {
+            "title": "Collect contributions",
+            "text": "Supporters give through your forms and links, and confirmed contributions are recorded against the programme."
+          },
+          {
+            "title": "Review progress",
+            "text": "Follow targets and contributions per programme in reports and dashboards."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Can we run several programmes at the same time?",
+          "answer": "Yes. Create a separate campaign for each programme or project, each with its own target and progress."
+        },
+        {
+          "question": "Are contributions to different programmes kept apart?",
+          "answer": "Each contribution is recorded against the campaign it was made to, so you can see what each programme has received."
+        },
+        {
+          "question": "Can we fund scholarships with Donorfit?",
+          "answer": "Yes. Education sponsorship in Donorfit Sponsorship links sponsors to students and tracks contributions towards tuition, books and uniforms."
+        },
+        {
+          "question": "Is Donorfit a grant management tool?",
+          "answer": "No. Donorfit focuses on fundraising, donor records, sponsorship and membership. It does not manage grant applications that your foundation receives."
+        },
+        {
+          "question": "Can Donorfit connect to our other systems?",
+          "answer": "Donorfit offers API access and webhooks for integrations, plus an import function. Talk to our team about the systems you use."
+        },
+        {
+          "question": "What does it cost?",
+          "answer": "Donorfit is free to use. Transaction charges are set by the payment provider you connect."
+        }
+      ],
+      "cta": {
+        "title": "Discuss your foundation’s requirements",
+        "body": "Tell us about your programmes and we’ll show you how they could be set up in Donorfit. Or register for free and start with your first campaign.",
+        "button": "Discuss your requirements"
+      }
     },
-    "challenges": {
-      "kicker": "Specific Pain Points",
-      "title": "Challenges addressed for {{name}}",
-      "label": "Challenge 0{{n}}"
+    "for-sponsorship-orgs": {
+      "navLabel": "For Sponsorship Organisations",
+      "navDescription": "Sponsors, beneficiaries and updates linked together",
+      "hero": {
+        "badge": "For sponsorship organisations",
+        "title": "Keep every sponsor connected to the person or project they support",
+        "lead": "Donorfit Sponsorship links sponsors, beneficiaries and monthly contributions in one record, and gives sponsors a secure portal for progress updates.",
+        "imageAlt": "A schoolboy writing in his notebook in a classroom",
+        "recordTitle": "Sponsorship record",
+        "sponsor": "Sponsor",
+        "beneficiary": "Beneficiary",
+        "beneficiaryName": "Amina, 9",
+        "type": "Education sponsorship",
+        "monthly": "{{amount}} per month",
+        "status": "Active",
+        "lastUpdate": "Term report sent to sponsor"
+      },
+      "models": {
+        "title": "Sponsorship models you can run",
+        "sub": "Mix them in one organisation. Each sponsorship keeps its own record.",
+        "items": [
+          {
+            "title": "One-to-one",
+            "text": "One sponsor supports one child, student or person."
+          },
+          {
+            "title": "Co-sponsorship",
+            "text": "Several sponsors share the support of one beneficiary."
+          },
+          {
+            "title": "Community projects",
+            "text": "Sponsors support a family or community project together."
+          }
+        ]
+      },
+      "school": {
+        "title": "School Management",
+        "text": "A tool for schools supported by sponsors, with student records, attendance and fees. It is not available yet. Today, education sponsorship runs in Donorfit Sponsorship."
+      },
+      "challenges": {
+        "title": "What makes sponsorship hard to manage",
+        "sub": "Sponsorship is personal, and every relationship has its own details.",
+        "items": [
+          {
+            "title": "Keeping track of who supports whom",
+            "text": "With dozens or hundreds of sponsorships, matching each sponsor to the right beneficiary is hard to manage in spreadsheets."
+          },
+          {
+            "title": "Sensitive beneficiary information",
+            "text": "Profiles can include children’s names, photos, locations and school records, which only the right people should see."
+          },
+          {
+            "title": "Contributions that need attention",
+            "text": "Monthly payments fail and cards expire. Each case has to be noticed and followed up before support lapses."
+          },
+          {
+            "title": "Regular updates for sponsors",
+            "text": "Sponsors expect to hear how their student or family is doing, often several times a year."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit helps sponsorship organisations",
+        "sub": "Sponsorship is built around the link between a sponsor and the person or project they support.",
+        "items": [
+          {
+            "title": "One record per sponsorship",
+            "text": "Every relationship is documented in one place.",
+            "points": [
+              "Sponsor, beneficiary and contributions linked",
+              "Allocation history with audit trails",
+              "One-to-one, co-sponsorship or community projects"
+            ]
+          },
+          {
+            "title": "Protect beneficiary information",
+            "text": "Access matches each person’s role.",
+            "points": [
+              "Role-based access for staff and field workers",
+              "Consent and privacy safeguards on profiles",
+              "Restricted access to locations and identity records"
+            ]
+          },
+          {
+            "title": "Coordinate contributions and updates",
+            "text": "See what needs attention before a sponsor lapses.",
+            "points": [
+              "Every contribution and missed payment visible",
+              "Automatic retries and expiry reminders",
+              "Milestones and reports through the sponsor portal"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Sponsorship, and what works alongside it",
+        "sub": "Sponsorship is the core. Two other solutions help with one-off needs.",
+        "items": [
+          {
+            "slug": "sponsorship",
+            "what": "Sponsor and beneficiary profiles, contribution tracking, safeguarding controls and a secure sponsor portal.",
+            "use": "Create beneficiary profiles, link each sponsor when they commit, and send milestones and progress reports through the portal.",
+            "purpose": "Your team always knows who sponsors whom, what has been paid and which update is due next."
+          },
+          {
+            "slug": "money-pool",
+            "what": "A crowdfunding campaign for one project with a goal, deadline and live progress.",
+            "use": "Fund a one-off need for a sponsored community, such as a new classroom, with many contributors.",
+            "purpose": "Larger needs are covered without changing individual sponsorships."
+          },
+          {
+            "slug": "water-well",
+            "what": "A campaign per well with project information, a target and stage updates.",
+            "use": "Raise funds for clean water in a community where you already support children or families.",
+            "purpose": "Sponsors and other donors can contribute to the wider community’s needs."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Everything a sponsorship programme runs on",
+        "items": [
+          {
+            "title": "Sponsor and beneficiary profiles",
+            "text": "Profiles and allocation history with audit trails."
+          },
+          {
+            "title": "Contribution tracking",
+            "text": "Every contribution and missed payment per sponsorship."
+          },
+          {
+            "title": "Education sponsorship",
+            "text": "Tuition, books and uniforms, followed through the school year."
+          },
+          {
+            "title": "Safeguarding controls",
+            "text": "Role-based access to sensitive records."
+          },
+          {
+            "title": "Sponsor portal",
+            "text": "A secure place for updates and reports."
+          },
+          {
+            "title": "Automatic retries",
+            "text": "Failed payments are retried automatically."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How a sponsorship organisation could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "Supporting students through school",
+            "text": "Each sponsor is linked to a student, and contributions towards tuition, books and uniforms are tracked. At the end of each term, staff send a progress report through the sponsor portal.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "Several sponsors for one child",
+            "text": "Three family members share the sponsorship of one child. Each person’s contributions are recorded under the same beneficiary.",
+            "slug": "sponsorship"
+          },
+          {
+            "title": "A classroom for a sponsored community",
+            "text": "Alongside individual sponsorships, the organisation runs a MoneyPool campaign for a new classroom in the same village.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "How it works",
+        "sub": "From your first beneficiary profile to regular updates.",
+        "items": [
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect a payment provider",
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+          },
+          {
+            "title": "Create beneficiary profiles",
+            "text": "Add dignified profiles with consent and privacy safeguards, and decide who on your team can see them."
+          },
+          {
+            "title": "Match sponsors",
+            "text": "Sponsors commit online and are linked to a beneficiary or project. Their contributions are tracked from then on."
+          },
+          {
+            "title": "Track and share progress",
+            "text": "Follow every contribution and send milestones and reports through the sponsor portal."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Can we run one-to-one and pooled sponsorships?",
+          "answer": "Yes. Donorfit supports one-to-one sponsorships, co-sponsorships with several sponsors per beneficiary, and community project sponsorships."
+        },
+        {
+          "question": "Can sponsors support a project instead of a person?",
+          "answer": "Yes. Community project sponsorship lets sponsors support a family or a community project together."
+        },
+        {
+          "question": "How are sensitive beneficiary records protected?",
+          "answer": "Records are protected with role-based permissions, so field workers and administrators only access what they need."
+        },
+        {
+          "question": "What happens when a sponsor’s payment fails?",
+          "answer": "Failed payments are retried automatically, sponsors are reminded before their payment details expire, and your team can see missed payments on each sponsorship."
+        },
+        {
+          "question": "How do sponsors receive progress updates?",
+          "answer": "Your team sends education milestones, progress reports and thank-you updates through the secure sponsor portal."
+        },
+        {
+          "question": "Is School Management available?",
+          "answer": "Not yet. School Management is coming soon. Education sponsorship is already available in Donorfit Sponsorship."
+        }
+      ],
+      "cta": {
+        "title": "Coordinate your sponsorships in one place",
+        "body": "Register for free and add your first beneficiaries, or book a demo to talk through your sponsorship model.",
+        "button": "Get started for free"
+      }
     },
-    "features": {
-      "kicker": "Tailored Architecture",
-      "title": "Capabilities designed around your operational flow"
+    "for-membership-orgs": {
+      "navLabel": "For Membership Organisations",
+      "navDescription": "Sign-ups, dues and renewals for associations and clubs",
+      "hero": {
+        "badge": "For membership organisations",
+        "title": "Run your association’s membership from sign-up to renewal",
+        "lead": "Associations, clubs and community organisations use Donorfit Membership to register members, collect dues and handle renewals without chasing anyone by hand.",
+        "imageAlt": "A community group sitting together in a circle under a tree",
+        "cardLabel": "Membership card",
+        "cardName": "Fatima R.",
+        "cardPlan": "Family plan, annual",
+        "cardStatus": "Active",
+        "cardSince": "Member since",
+        "cardRenews": "Renews on"
+      },
+      "year": {
+        "title": "A member’s year in Donorfit",
+        "steps": [
+          {
+            "title": "Joins online",
+            "text": "Fills in your sign-up form and chooses a plan."
+          },
+          {
+            "title": "Pays dues",
+            "text": "Dues are collected through your payment provider."
+          },
+          {
+            "title": "Gets a reminder",
+            "text": "An automatic notice before the renewal date."
+          },
+          {
+            "title": "Renews",
+            "text": "A confirmation is sent once payment succeeds."
+          },
+          {
+            "title": "Votes",
+            "text": "Appears on your list of active, dues-paid members."
+          }
+        ]
+      },
+      "plans": {
+        "title": "Plans that fit your rules",
+        "sub": "Configure your own tiers and billing cycles. For example:",
+        "tiers": [
+          "Standard",
+          "Student",
+          "Senior",
+          "Family",
+          "Organisational",
+          "Patron"
+        ],
+        "cycles": [
+          "Annual",
+          "Monthly",
+          "Lifetime"
+        ]
+      },
+      "challenges": {
+        "title": "Where membership administration gets stuck",
+        "sub": "Associations and clubs run on volunteers. Membership admin shouldn’t eat their evenings.",
+        "items": [
+          {
+            "title": "Member information that goes out of date",
+            "text": "Addresses, emails and phone numbers change, and spreadsheets kept by different volunteers quickly drift apart."
+          },
+          {
+            "title": "Several membership types and rates",
+            "text": "Standard, student, family and organisational members often pay different amounts on different cycles."
+          },
+          {
+            "title": "Collecting dues on time",
+            "text": "Sending invoices, checking bank statements and writing reminders takes hours every renewal season."
+          },
+          {
+            "title": "Preparing member activities",
+            "text": "Before the general assembly, the board needs to know who is an active, dues-paid member with voting rights."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit Membership helps",
+        "sub": "One member record replaces paper forms, invoice spreadsheets and reminder emails.",
+        "items": [
+          {
+            "title": "Organise member information",
+            "text": "Every member has one up-to-date profile.",
+            "points": [
+              "Contact details, plan, join date and status together",
+              "A self-service portal for member updates",
+              "Filters by status, join date or regional chapter"
+            ]
+          },
+          {
+            "title": "Collect membership contributions",
+            "text": "Dues are collected without chasing.",
+            "points": [
+              "Recurring billing for annual or monthly dues",
+              "Automatic retries for failed payments",
+              "Contribution statements members can download"
+            ]
+          },
+          {
+            "title": "Support member activities",
+            "text": "The information you need for meetings and renewals.",
+            "points": [
+              "Lists of members eligible to vote",
+              "Renewal reminders and confirmation notices",
+              "Custom application fields at sign-up"
+            ]
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Membership in detail",
+        "sub": "Everything below is part of Donorfit Membership.",
+        "items": [
+          {
+            "slug": "membership",
+            "what": "Online registration, plans and categories, member records, dues collection, renewal workflows and a member directory with segments.",
+            "use": "Publish a sign-up form with your own application fields, configure your tiers and let members pay and renew through recurring billing.",
+            "purpose": "Your team sees who is active, who is due and who needs a reminder, without keeping separate lists."
+          }
+        ]
+      },
+      "beyond": {
+        "title": "Additional fundraising solutions",
+        "sub": "If your organisation also raises funds beyond membership dues, these solutions work alongside Membership.",
+        "items": [
+          {
+            "slug": "money-pool",
+            "what": "A crowdfunding campaign for one project with a goal, deadline and live progress.",
+            "use": "Raise money for a one-off project, such as renovating your clubhouse or community hall, and let members share it.",
+            "purpose": "Project fundraising stays separate from regular dues."
+          },
+          {
+            "slug": "qurbani",
+            "what": "Online Qurbani contributions with the animals and shares your organisation offers.",
+            "use": "For mosque communities that organise Qurbani during Eid al-Adha for their members and beyond.",
+            "purpose": "Seasonal contributions and donor details are kept organised in one place."
+          }
+        ]
+      },
+      "tools": {
+        "title": "Membership features",
+        "items": [
+          {
+            "title": "Member registration",
+            "text": "Online sign-up forms with custom application fields."
+          },
+          {
+            "title": "Plans and categories",
+            "text": "Each tier with its own fee and renewal cycle."
+          },
+          {
+            "title": "Member records",
+            "text": "Contact details, plan, join date, status and payment history."
+          },
+          {
+            "title": "Dues collection",
+            "text": "Recurring billing with automatic retries."
+          },
+          {
+            "title": "Renewal workflows",
+            "text": "Reminders, payment method updates and confirmations."
+          },
+          {
+            "title": "Directory and segments",
+            "text": "Filter by status, voting eligibility or regional chapter."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How a membership organisation could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "A sports club with several rates",
+            "text": "Adults, students and families pay different annual fees. The club sets up each one as its own plan and collects dues through recurring billing.",
+            "slug": "membership"
+          },
+          {
+            "title": "An association preparing its general assembly",
+            "text": "Before the meeting, the board filters members by status and voting eligibility to get a current list of members who may vote.",
+            "slug": "membership"
+          },
+          {
+            "title": "A community hall renovation",
+            "text": "Alongside membership dues, the association runs a MoneyPool campaign for its hall, which members share with friends and family.",
+            "slug": "money-pool"
+          }
+        ]
+      },
+      "steps": {
+        "title": "How it works",
+        "sub": "Setting up membership in Donorfit.",
+        "items": [
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect a payment provider",
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+          },
+          {
+            "title": "Set up plans and the sign-up form",
+            "text": "Create your tiers with fees and renewal cycles, and add the application fields you need."
+          },
+          {
+            "title": "Members join and pay",
+            "text": "Members sign up online, choose their plan and pay their dues through your payment provider."
+          },
+          {
+            "title": "Manage renewals and records",
+            "text": "Renewal reminders go out automatically, and you can see who is active, due or lapsed."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Can different members pay different rates?",
+          "answer": "Yes. Configure as many membership tiers as you need, each with its own pricing, renewal cycle and application fields."
+        },
+        {
+          "question": "Can we offer lifetime membership?",
+          "answer": "Yes. Plans can be annual, monthly or lifetime."
+        },
+        {
+          "question": "Can members update their own details?",
+          "answer": "Yes. Members can update contact details, download membership contribution statements and manage their status in the self-service portal."
+        },
+        {
+          "question": "Can we see who is eligible to vote at our general assembly?",
+          "answer": "Yes. Filter members by status and voting eligibility to produce a current list of active, dues-paid members."
+        },
+        {
+          "question": "Which payment methods can members use?",
+          "answer": "That depends on the payment provider you connect. Donorfit integrates with Stripe, PayPal, GoCardless, Mollie and Micropayment."
+        },
+        {
+          "question": "Can we raise funds beyond membership dues?",
+          "answer": "Yes. MoneyPool works well for one-off projects, and mosque communities can use Qurbani for their seasonal campaign."
+        }
+      ],
+      "cta": {
+        "title": "Manage your membership activities in one place",
+        "body": "Register for free and set up your membership plans, or book a demo to see Membership with your own tiers.",
+        "button": "Get started for free"
+      }
     },
-    "products": {
-      "kicker": "Recommended Products",
-      "title": "Recommended modules for {{name}}",
-      "explore": "Explore dedicated specifications & workflows →"
-    },
-    "faqs": {
-      "kicker": "Audience Questions",
-      "title": "Common questions from {{name}}"
+    "for-international-orgs": {
+      "navLabel": "For International Organisations",
+      "navDescription": "Raise funds at home for projects abroad",
+      "hero": {
+        "badge": "For international organisations",
+        "title": "Raise funds where your supporters are, for projects where they’re needed",
+        "lead": "If your organisation fundraises in one place and delivers projects in another, Donorfit helps you present each project, collect contributions and keep supporters informed as the work progresses.",
+        "imageAlt": "Children drinking clean water from a tap",
+        "imageAlt2": "Volunteers packing food parcels at a community event",
+        "imageAlt3": "Cattle gathered at a market before Eid al-Adha"
+      },
+      "stages": {
+        "title": "Example: a water well, from survey to handover",
+        "sub": "Donors follow the build through updates you post at each stage.",
+        "project": "Water well project",
+        "raised": "{{raised}} raised of {{target}}",
+        "steps": [
+          {
+            "title": "Survey",
+            "text": "Site assessed and budget confirmed."
+          },
+          {
+            "title": "Drilling",
+            "text": "Update with photos from the site."
+          },
+          {
+            "title": "Installation",
+            "text": "Pump and tap installed and tested."
+          },
+          {
+            "title": "Handover",
+            "text": "The community draws water."
+          }
+        ]
+      },
+      "checklist": {
+        "title": "Before you launch: what to confirm",
+        "sub": "Working across borders brings questions we would rather answer honestly up front.",
+        "items": [
+          {
+            "title": "Payment methods and currencies",
+            "text": "These depend on the payment provider you connect, such as Stripe, PayPal, GoCardless, Mollie or Micropayment, and on your account with them."
+          },
+          {
+            "title": "Rules in each country",
+            "text": "Fundraising and receipt requirements differ between countries. Check them with your advisers."
+          },
+          {
+            "title": "Who needs access",
+            "text": "Decide which staff and field workers need which records before inviting them."
+          },
+          {
+            "title": "Your setup with us",
+            "text": "Talk to our team so we can confirm what is available for your organisation."
+          }
+        ]
+      },
+      "challenges": {
+        "title": "Fundraising across different locations",
+        "sub": "When supporters and projects are in different places, a few questions come up again and again.",
+        "items": [
+          {
+            "title": "Supporters far from the project",
+            "text": "Supporters are often in one country while the work happens in another, so they rely on you for every piece of information."
+          },
+          {
+            "title": "Different requirements in each region",
+            "text": "Rules for fundraising, receipts and data can differ between the countries where you raise funds."
+          },
+          {
+            "title": "Choosing a payment setup",
+            "text": "Which payment methods and currencies donors can use depends on the payment provider and the account you hold with it."
+          },
+          {
+            "title": "Seasonal and project-based peaks",
+            "text": "Appeals such as Qurbani bring many contributions in a short time, each with its own details."
+          }
+        ]
+      },
+      "helps": {
+        "title": "How Donorfit can support you",
+        "sub": "Clear project information, supported payment providers and help from our team when you start.",
+        "items": [
+          {
+            "title": "Present projects to distant supporters",
+            "text": "Bring the project closer to the people funding it.",
+            "points": [
+              "Project pages with location, budget and photos",
+              "Stage-by-stage updates on Water Well projects",
+              "Progress reports through the sponsor portal"
+            ]
+          },
+          {
+            "title": "Work with supported payment providers",
+            "text": "Payments run through a provider you choose.",
+            "points": [
+              "Stripe, PayPal, GoCardless, Mollie or Micropayment",
+              "Payment methods offered through your provider account",
+              "Confirmed contributions recorded in Donorfit"
+            ]
+          },
+          {
+            "title": "Onboard with our team",
+            "text": "We check your setup with you before you launch.",
+            "points": [
+              "Talk through your regions and requirements",
+              "Confirm what is available for your setup",
+              "Import your existing records"
+            ]
+          }
+        ]
+      },
+      "providers": {
+        "title": "Supported payment providers",
+        "sub": "Donorfit integrates with these providers. The payment methods, currencies and countries available to your donors are determined by each provider and your account with them."
+      },
+      "solutions": {
+        "title": "Solutions for projects abroad",
+        "sub": "Each solution covers a different kind of international project.",
+        "items": [
+          {
+            "slug": "water-well",
+            "what": "One campaign per well with location, budget, photos, target and progress.",
+            "use": "Present each planned well and post updates from survey to handover.",
+            "purpose": "Supporters far away can follow the build stage by stage."
+          },
+          {
+            "slug": "qurbani",
+            "what": "Online Qurbani contributions with the animals and shares you offer, plus payment tracking and campaign progress.",
+            "use": "Collect your community’s Qurbani choices before Eid al-Adha, while your organisation carries out the Qurbani and distribution.",
+            "purpose": "Every contribution and its details are organised in one place during the busiest weeks."
+          },
+          {
+            "slug": "sponsorship",
+            "what": "Links sponsors to beneficiaries and community projects, with safeguarding controls.",
+            "use": "Let supporters sponsor children or families in the regions where you work.",
+            "purpose": "Long-term support is documented, and sensitive records stay restricted."
+          },
+          {
+            "slug": "money-pool",
+            "what": "A crowdfunding campaign for one project, shared by WhatsApp, email or QR code.",
+            "use": "Let diaspora groups or partner communities raise money together for one defined project.",
+            "purpose": "Contributions go directly to your organisation’s account."
+          }
+        ]
+      },
+      "useCases": {
+        "title": "How an international organisation could use Donorfit",
+        "sub": "Illustrative examples, not descriptions of existing customers.",
+        "items": [
+          {
+            "title": "Exploring fundraising options for a region",
+            "text": "An organisation plans water projects in a new region. Before launching, it talks to the Donorfit team about its payment provider and where its donors are, then sets up its first Water Well campaign.",
+            "slug": "water-well"
+          },
+          {
+            "title": "A Qurbani season",
+            "text": "Donors choose the animal or share they want to contribute. The organisation follows contributions per option and carries out the Qurbani and distribution on the ground.",
+            "slug": "qurbani"
+          },
+          {
+            "title": "Sponsoring families abroad",
+            "text": "Sponsors in one country support families in another. Field workers only see the records their role allows.",
+            "slug": "sponsorship"
+          }
+        ]
+      },
+      "steps": {
+        "title": "How onboarding works",
+        "sub": "We recommend talking to us before you launch.",
+        "items": [
+          {
+            "title": "Talk to our team",
+            "text": "Tell us where you fundraise, where your projects are and which payment provider you use or are considering."
+          },
+          {
+            "title": "Register for free",
+            "text": "Create your organisation’s Donorfit account. Donorfit is free to use."
+          },
+          {
+            "title": "Connect your payment provider",
+            "text": "Connect a supported provider. The provider determines which payment methods and currencies are available."
+          },
+          {
+            "title": "Set up your projects",
+            "text": "Create Water Well, Qurbani, Sponsorship or MoneyPool campaigns for your work."
+          },
+          {
+            "title": "Share updates and follow progress",
+            "text": "Post project updates and follow contributions as they are recorded."
+          }
+        ]
+      },
+      "faqs": [
+        {
+          "question": "Does Donorfit support multiple currencies?",
+          "answer": "That depends on the payment provider you connect and your account with them. Please contact our team before launching so we can confirm what is available for your setup."
+        },
+        {
+          "question": "Can supporters in other countries donate?",
+          "answer": "Which donors can pay, and how, is determined by your payment provider. Our team can help you check this for the countries you fundraise in."
+        },
+        {
+          "question": "Which payment providers are supported?",
+          "answer": "Donorfit integrates with Stripe, PayPal, GoCardless, Mollie and Micropayment. Each integration page explains what the provider offers and what you need before connecting it."
+        },
+        {
+          "question": "Does Donorfit handle regional legal requirements?",
+          "answer": "No. Requirements for fundraising, receipts and data protection differ between countries. Please check them with your advisers. Our team can tell you what Donorfit offers."
+        },
+        {
+          "question": "Who carries out the Qurbani and distributes the meat?",
+          "answer": "Your organisation does. Donorfit helps you keep the contributions and donor details organised."
+        },
+        {
+          "question": "Can donors follow a project after giving?",
+          "answer": "Yes. Post updates as the project moves through each stage, so donors can see what their donation achieved."
+        }
+      ],
+      "cta": {
+        "title": "Discuss your organisation’s requirements",
+        "body": "Tell us about your regions, projects and payment setup. We’ll confirm what Donorfit can offer before you launch.",
+        "button": "Discuss your requirements"
+      }
     }
   }
 }

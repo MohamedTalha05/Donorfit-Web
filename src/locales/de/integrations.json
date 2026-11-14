@@ -14,7 +14,8 @@
   "categories": {
     "payments": {
       "title": "Flexible Zahlungs­lösungen",
-      "body": "Verbinden Sie unterstützte Zahlungs­anbieter, damit Spender:innen bequem beitragen und Zahlungen abschließen können."
+      "body": "Verbinden Sie unterstützte Zahlungs­anbieter, damit Spender:innen bequem beitragen und Zahlungen abschließen können.",
+      "more": "Zahlungs-Gateways und Zahlungsmethoden im Überblick"
     },
     "email": {
       "title": "Bleiben Sie mit Ihrer Community in Verbindung",

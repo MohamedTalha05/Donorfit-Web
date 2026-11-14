@@ -3,6 +3,7 @@ import { useModal } from '../context/ModalContext.tsx';
 import BrandLogo from './BrandLogo.tsx';
 import { isHiddenProduct } from '../data/productPages.ts';
 import { APP_LOGIN_URL, APP_SIGNUP_URL } from '../data/links.ts';
+import { SOLUTION_ICONS, SOLUTION_ORDER, solutionRoute } from '../data/solutions.ts';
 import { useT, useTx, type Lang } from '../i18n/index.tsx';
 import {
   ChevronDown,
@@ -60,7 +61,7 @@ const PRICING_HREF: string | null = '/pricing';
 const LOGIN_URL = APP_LOGIN_URL;
 const SIGNUP_URL = APP_SIGNUP_URL;
 
-type MenuId = 'products' | 'resources';
+type MenuId = 'products' | 'solutions' | 'resources';
 
 /* ------------------------------------------------------------------ */
 
@@ -123,6 +124,14 @@ export default function Navbar() {
     icon: p.icon,
     href: p.href,
   }));
+  const ts = useTx('solutions');
+  // Audience landing pages (labels/descriptions from solutions:items.<slug>).
+  const SOLUTION_ITEMS: NavItem[] = SOLUTION_ORDER.map((s) => ({
+    label: ts<string>(`items.${s}.navLabel`) ?? '',
+    description: ts<string>(`items.${s}.navDescription`) ?? '',
+    icon: SOLUTION_ICONS[s],
+    href: solutionRoute(s),
+  }));
   const RESOURCE_ITEMS: NavItem[] = RESOURCE_NAV.map((r) => ({
     label: t(`resourceItems.${r.key}.label`),
     description: t(`resourceItems.${r.key}.description`),
@@ -136,8 +145,8 @@ export default function Navbar() {
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const openedByHover = useRef(false);
   const navRef = useRef<HTMLElement | null>(null);
-  const triggerRefs = useRef<Record<MenuId, HTMLButtonElement | null>>({ products: null, resources: null });
-  const panelRefs = useRef<Record<MenuId, HTMLDivElement | null>>({ products: null, resources: null });
+  const triggerRefs = useRef<Record<MenuId, HTMLButtonElement | null>>({ products: null, solutions: null, resources: null });
+  const panelRefs = useRef<Record<MenuId, HTMLDivElement | null>>({ products: null, solutions: null, resources: null });
   const uid = useId();
 
   const clearCloseTimer = () => {
@@ -415,6 +424,32 @@ export default function Navbar() {
               </div>,
             )}
 
+            {renderDesktopDropdown(
+              'solutions',
+              t('solutions'),
+              SOLUTION_ITEMS,
+              <div className="w-[34rem] overflow-hidden rounded-2xl border border-neutral-200/90 bg-white shadow-xl shadow-neutral-900/10 ring-1 ring-black/[0.02]">
+                <ul className="grid grid-cols-2 gap-1 p-3">
+                  {SOLUTION_ITEMS.map((item) => (
+                    <li key={item.label}>{renderDropdownItem(item)}</li>
+                  ))}
+                </ul>
+                <div className="flex items-center justify-between gap-4 border-t border-neutral-100 bg-neutral-50/80 px-5 py-3 text-xs">
+                  <span className="text-neutral-500">{t('notSureSolution')}</span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setOpenMenu(null);
+                      openBookDemo();
+                    }}
+                    className={`inline-flex shrink-0 cursor-pointer items-center gap-1 rounded-md font-semibold text-emerald-700 hover:text-emerald-800 ${focusRing}`}
+                  >
+                    {t('bookDemoLink')} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </button>
+                </div>
+              </div>,
+            )}
+
             <a
               href={localize(INTEGRATIONS.path)}
               onClick={(e) => {
@@ -535,6 +570,7 @@ export default function Navbar() {
             {(
               [
                 ['products', t('products'), PRODUCT_ITEMS],
+                ['solutions', t('solutions'), SOLUTION_ITEMS],
                 ['resources', t('resources'), RESOURCE_ITEMS],
               ] as const
             ).map(([id, label, items]) => {

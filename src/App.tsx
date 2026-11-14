@@ -15,7 +15,12 @@ import { useT } from './i18n/index.tsx';
 
 import HomePage from './pages/HomePage.tsx';
 import ProductPage from './pages/ProductPage.tsx';
-import SolutionPage from './pages/SolutionPage.tsx';
+import NgoSolutionPage from './pages/solutions/NgoSolutionPage.tsx';
+import CharitySolutionPage from './pages/solutions/CharitySolutionPage.tsx';
+import FoundationSolutionPage from './pages/solutions/FoundationSolutionPage.tsx';
+import SponsorshipSolutionPage from './pages/solutions/SponsorshipSolutionPage.tsx';
+import MembershipSolutionPage from './pages/solutions/MembershipSolutionPage.tsx';
+import InternationalSolutionPage from './pages/solutions/InternationalSolutionPage.tsx';
 import AboutPage from './pages/AboutPage.tsx';
 import ContactPage from './pages/ContactPage.tsx';
 import SecurityPage from './pages/SecurityPage.tsx';
@@ -28,6 +33,8 @@ import PartnersPage from './pages/PartnersPage.tsx';
 import IntegrationsPage from './pages/IntegrationsPage.tsx';
 import IntegrationDetailPage from './pages/IntegrationDetailPage.tsx';
 import PricingPage from './pages/PricingPage.tsx';
+import PaymentGatewaysPage from './pages/PaymentGatewaysPage.tsx';
+import RecurringManagementPage from './pages/RecurringManagementPage.tsx';
 import LegalPage from './pages/LegalPage.tsx';
 import NotFoundPage from './pages/NotFoundPage.tsx';
 import { isHiddenProduct } from './data/productPages.ts';
@@ -58,18 +65,18 @@ function AppContent() {
     // School Management is hidden until launch (see HIDDEN_PRODUCTS): its route shows the 404 page.
     if (currentRoute === '/school-management') return isHiddenProduct('school-management') ? <NotFoundPage /> : <SchoolManagementPage />;
     if (currentRoute === '/donations') return <ProductPage slug="donations" />;
-    if (currentRoute === '/recurring-giving') return <ProductPage slug="recurring-giving" />;
+    if (currentRoute === '/recurring-management') return <RecurringManagementPage />;
     if (currentRoute === '/donor-management') return <ProductPage slug="donor-management" />;
     if (currentRoute === '/campaign-management') return <ProductPage slug="campaign-management" />;
     if (currentRoute === '/reporting-and-insights') return <ProductPage slug="reporting-and-insights" />;
 
-    // 3. Solution Pages
-    if (currentRoute === '/solutions/ngos') return <SolutionPage slug="ngos" />;
-    if (currentRoute === '/solutions/charities') return <SolutionPage slug="charities" />;
-    if (currentRoute === '/solutions/foundations') return <SolutionPage slug="foundations" />;
-    if (currentRoute === '/solutions/sponsorship-organizations') return <SolutionPage slug="sponsorship-organizations" />;
-    if (currentRoute === '/solutions/membership-organizations') return <SolutionPage slug="membership-organizations" />;
-    if (currentRoute === '/solutions/international-organizations') return <SolutionPage slug="international-organizations" />;
+    // 3. Solution Pages (old /solutions/<name> URLs redirect here, see LEGACY_ROUTE_REDIRECTS)
+    if (currentRoute === '/solutions/for-ngos') return <NgoSolutionPage />;
+    if (currentRoute === '/solutions/for-charities') return <CharitySolutionPage />;
+    if (currentRoute === '/solutions/for-foundations') return <FoundationSolutionPage />;
+    if (currentRoute === '/solutions/for-sponsorship-orgs') return <SponsorshipSolutionPage />;
+    if (currentRoute === '/solutions/for-membership-orgs') return <MembershipSolutionPage />;
+    if (currentRoute === '/solutions/for-international-orgs') return <InternationalSolutionPage />;
 
     // 4. Company & General Pages
     if (currentRoute === '/about') return <AboutPage />;
@@ -79,12 +86,13 @@ function AppContent() {
     if (currentRoute === '/integrations') return <IntegrationsPage />;
     if (currentRoute.startsWith('/integrations/')) return <IntegrationDetailPage key={currentRoute} id={currentRoute.slice('/integrations/'.length).replace(/\/$/, '')} />;
     if (currentRoute === '/pricing') return <PricingPage />;
+    if (currentRoute === '/payment-gateways') return <PaymentGatewaysPage />;
 
     // 5. Resources & Knowledge Base
     if (currentRoute === '/blog') return <BlogIndexPage />;
     if (currentRoute.startsWith('/blog/')) {
-      const slug = currentRoute.replace('/blog/', '');
-      return <BlogPostPage slug={slug} />;
+      const slug = currentRoute.replace('/blog/', '').replace(/\/$/, '');
+      return <BlogPostPage key={slug} slug={slug} />;
     }
     if (currentRoute === '/guides') return <GuidesPage />;
     if (currentRoute === '/case-studies') return <CaseStudiesPage />;

@@ -46,7 +46,7 @@ interface AddOn {
 
 const ADD_ONS: AddOn[] = [
   { key: 'crm', icon: Database, href: '/donor-management' },
-  { key: 'recurring', icon: Repeat, href: '/recurring-giving' },
+  { key: 'recurring', icon: Repeat, href: '/recurring-management' },
   { key: 'sponsorship', icon: HandHeart, href: '/sponsorship' },
   { key: 'membership', icon: IdCard, href: '/membership' },
   { key: 'school', icon: GraduationCap, href: null, product: 'school-management' },

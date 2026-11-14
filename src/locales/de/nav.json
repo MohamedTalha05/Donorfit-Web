@@ -3,6 +3,7 @@
   "mainNav": "Hauptnavigation",
   "mobileNav": "Mobile Navigation",
   "products": "Produkte",
+  "solutions": "Lösungen",
   "integrations": "Integrationen",
   "resources": "Ressourcen",
   "pricing": "Preise",
@@ -42,5 +43,6 @@
       "description": "Einrichtungsanleitungen und Funktionsreferenz"
     }
   },
-  "skipToContent": "Zum Hauptinhalt springen"
+  "skipToContent": "Zum Hauptinhalt springen",
+  "notSureSolution": "Unsicher, welche Lösung passt?"
 }
