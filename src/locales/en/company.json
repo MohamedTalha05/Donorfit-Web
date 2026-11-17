@@ -128,7 +128,7 @@
     },
     "cost": {
       "title": "How pricing works",
-      "p1": "The core Donorfit platform is available at €0 per month, with no platform fee and no transaction fee from Donorfit. Donors can choose to cover payment processing fees, so that your organisation receives the full amount of their gift.",
+      "p1": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Donors can choose to cover payment processing fees, so that your organisation receives the full amount of their gift.",
       "p2": "Specialised add-ons such as CRM, recurring giving, sponsorship, membership and Qurbani are purchased separately, so you only pay for the modules you use. The platform supports 5 languages and 39 currencies.",
       "link": "See pricing details"
     },
@@ -288,14 +288,17 @@
       "titleLead": "More Donations for Your Mission.",
       "titleHighlight": "Less Spent on Fees.",
       "intro": "Everything your nonprofit needs to collect donations, manage donors, and simplify fundraising — all in one place.",
-      "badges": ["0% platform fee", "0% transaction fee"],
+      "badges": [
+        "0% Donorfit platform fee",
+        "Provider charges set by your payment provider"
+      ],
       "startFree": "Start Fundraising For Free"
     },
     "plan": {
       "eyebrow": "Simple, transparent pricing",
-      "title": "Complete Fundraising Solutions to Scale With Any Sized Organizations.",
-      "badge": "Zero fees",
-      "name": "All-in-one fundraising platform with zero fees",
+      "title": "Complete fundraising tools for organisations of every size.",
+      "badge": "Free to use",
+      "name": "All-in-one fundraising platform, free to use",
       "perMonth": "/ month",
       "cta": "Get Started Now",
       "noteCoverFee": "*Option to let donors cover transaction fees so your organization receives the full amount.",
@@ -306,12 +309,12 @@
       "seeNote": "see note",
       "features": [
         "No platform fee",
-        "No transaction fee",
+        "No Donorfit transaction fee – payment provider charges may apply",
         "Access basic reports and dashboards",
         "Embedded Donation Forms with customisation",
-        "Multiple payment methods like PayPal, Credit Card, Google Pay, Apple Pay, SEPA, Bancontact, EPS, iDEAL",
+        "Multiple payment methods through your payment provider, such as PayPal, credit card, Google Pay, Apple Pay, SEPA, Bancontact, EPS and iDEAL",
         "Create touchpoints for all your channels",
-        "Generate QR codes to load donation box",
+        "Generate QR codes for your donation box",
         "Basic email functionality for system notifications (on/off)",
         "Predefined donation tax receipt templates for automatic generation",
         "Flexible Cover the Fee model",
@@ -334,23 +337,50 @@
       "askPricing": "Ask about add-on pricing",
       "badge": "Add-on",
       "items": {
-        "crm": { "name": "CRM", "description": "Centralised donor records, interaction history and segmentation." },
-        "recurring": { "name": "Recurring Subscription", "description": "Monthly and annual giving with automated collection." },
-        "sponsorship": { "name": "Sponsorship", "description": "Manage sponsors, beneficiaries and progress updates." },
-        "membership": { "name": "Membership", "description": "Member registration, dues collection and renewals." },
-        "school": { "name": "School", "description": "Fundraising and fee collection for school projects." },
-        "qurbani": { "name": "Qurbani", "description": "Seasonal Qurbani giving campaigns and allocation." }
+        "crm": {
+          "name": "CRM",
+          "description": "Centralised donor records, interaction history and segmentation."
+        },
+        "recurring": {
+          "name": "Recurring Subscription",
+          "description": "Monthly and annual giving with automated collection."
+        },
+        "sponsorship": {
+          "name": "Sponsorship",
+          "description": "Manage sponsors, beneficiaries and progress updates."
+        },
+        "membership": {
+          "name": "Membership",
+          "description": "Member registration, dues collection and renewals."
+        },
+        "school": {
+          "name": "School",
+          "description": "Fundraising and fee collection for school projects."
+        },
+        "qurbani": {
+          "name": "Qurbani",
+          "description": "Seasonal Qurbani giving campaigns and allocation."
+        }
       }
     },
     "stats": {
       "ariaLabel": "Donorfit in numbers",
-      "members": { "value": "1k+", "label": "Active Members" },
-      "volume": { "value": "{{amount}}+", "label": "Transaction volume" },
-      "users": { "value": "1k+", "label": "Total active user base" }
+      "members": {
+        "value": "1k+",
+        "label": "Active Members"
+      },
+      "volume": {
+        "value": "{{amount}}+",
+        "label": "Transaction volume"
+      },
+      "users": {
+        "value": "1k+",
+        "label": "Total active user base"
+      }
     },
     "billing": {
       "eyebrow": "Get started with Donorfit",
-      "title": "Expand your donors and grow.",
+      "title": "Tools for ongoing fundraising operations.",
       "items": {
         "automatedBilling": "Automated Billing",
         "paymentProcessing": "Easy Payment Processing",
@@ -359,7 +389,7 @@
         "subscriptions": "Subscription Management",
         "recurringBilling": "Recurring Billing",
         "scalability": "Scalability",
-        "compliance": "Global Compliance"
+        "compliance": "GDPR-aligned processing"
       }
     },
     "faq": {
@@ -368,7 +398,7 @@
       "items": [
         {
           "q": "What is Donorfit and how can it benefit us?",
-          "a": "Donorfit is a fundraising platform that helps nonprofits collect donations, manage donors, track interactions and personalise outreach — so you can increase giving and keep supporters engaged for longer."
+          "a": "Donorfit is a fundraising platform that helps nonprofits collect donations, manage donors, track interactions and personalise outreach, with less manual administration."
         },
         {
           "q": "How easy is it to set up and use Donorfit?",
@@ -376,11 +406,11 @@
         },
         {
           "q": "What are the payment options available for donation in Donorfit?",
-          "a": "Donorfit supports more than 15 donation payment methods through payment gateways such as Stripe, GoCardless, Mollie and PayPal."
+          "a": "Donorfit works with payment gateways such as Stripe, PayPal, GoCardless, Mollie and Micropayment, which together offer more than 15 payment methods. Which methods you can use depends on the provider you connect and your account with them."
         },
         {
           "q": "Can I accept international donations with Donorfit?",
-          "a": "Yes. Through the same payment gateways you can accept contributions in more than 135 currencies."
+          "a": "International donations are handled by your payment provider. Providers such as Stripe and PayPal support many currencies; which countries and currencies are available to you depends on the provider and your account configuration."
         }
       ],
       "moreBefore": "More questions?",
@@ -389,7 +419,7 @@
     },
     "closing": {
       "title": "Keep more of every donation for your mission.",
-      "text": "No platform fee. No transaction fee. Start collecting donations today.",
+      "text": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Start collecting donations today.",
       "contactSales": "Contact Sales"
     }
   },
@@ -398,7 +428,11 @@
       "eyebrow": "Trust & Compliance Portal",
       "title": "Security, Privacy, and Data Protection at Donorfit",
       "intro": "Nonprofits protect vulnerable communities and steward generous public support. We hold ourselves to the highest standards of transparency, data privacy, and technological resilience.",
-      "badges": ["EU Sovereign Hosting", "Full GDPR Article 28 DPA", "PCI-DSS Level 1 Gateway Architecture"]
+      "badges": [
+        "Provided by MYFUNDBOX GmbH, Germany",
+        "Data processing agreement (Art. 28 GDPR)",
+        "Card payments handled by payment providers"
+      ]
     },
     "pillars": {
       "sovereignty": {
@@ -420,19 +454,19 @@
       "intro": "We practice defense-in-depth across the application lifecycle to defend non-profit operations from unauthorized access, disruption, or data loss.",
       "encryption": {
         "title": "Encryption in Transit & at Rest",
-        "text": "All data transmitted between browsers, mobile devices, and Donorfit servers is protected with Transport Layer Security (TLS 1.3). Sensitive databases and backup snapshots are encrypted using AES-256 standard encryption keys."
+        "text": "Connections between browsers and Donorfit are encrypted with TLS (HTTPS). The technical and organisational measures (TOMs) that protect stored data are documented in the data processing agreement."
       },
       "payments": {
         "title": "Payment & Banking Rail Security",
-        "text": "Donations and recurring pledges are processed via PCI-DSS certified European payment facilitators. Bank direct debits follow European EPC SEPA Direct Debit scheme rules with validated IBAN checksums and cryptographically secure mandate IDs."
+        "text": "Card and wallet payments are processed by the connected payment provider, such as Stripe, PayPal or Mollie, which is responsible for PCI DSS compliance. Direct debits follow the SEPA scheme rules applied by the provider."
       },
       "redundancy": {
-        "title": "Redundancy & Automated Backups",
-        "text": "Application state is continuously backed up with point-in-time recovery capabilities across isolated availability zones in the EU. Disaster recovery plans and data restoration simulations are conducted periodically."
+        "title": "Hosting & Backups",
+        "text": "Information about hosting locations, backups and recovery is part of the technical and organisational measures in the data processing agreement. Ask our team for the current documentation."
       },
       "safeguarding": {
         "title": "Child & Beneficiary Safeguarding",
-        "text": "For orphan and child sponsorship initiatives, sensitive location metrics and family identities are isolated behind strict role boundaries. Publicly visible profiles require affirmative consent logs and automated identifier redaction."
+        "text": "For child and beneficiary sponsorship, role-based permissions limit who can see sensitive details such as locations and family information. Publish only what beneficiaries or their guardians have agreed to share."
       }
     },
     "gdpr": {
@@ -440,10 +474,22 @@
       "title": "GDPR Rights & Data Controller Alignment",
       "intro": "Under European privacy legislation (EU Regulation 2016/679), your nonprofit acts as the Data Controller, and Donorfit functions as the Data Processor. We provide the technical tooling necessary for you to fulfill all statutory data subject rights.",
       "rights": [
-        { "title": "Right to Access (Art. 15)", "text": "Generate comprehensive donor data dossiers with one click." },
-        { "title": "Right to Erasure (Art. 17)", "text": "Permanent data deletion tools while respecting statutory tax retention laws." },
-        { "title": "Portability (Art. 20)", "text": "Export clean, structured CSV and JSON packages without vendor lock-in." },
-        { "title": "Consent Logs (Art. 7)", "text": "Immutable timestamped records of communication and marketing opt-ins." }
+        {
+          "title": "Right to Access (Art. 15)",
+          "text": "Generate comprehensive donor data dossiers with one click."
+        },
+        {
+          "title": "Right to Erasure (Art. 17)",
+          "text": "Permanent data deletion tools while respecting statutory tax retention laws."
+        },
+        {
+          "title": "Portability (Art. 20)",
+          "text": "Export clean, structured CSV and JSON packages without vendor lock-in."
+        },
+        {
+          "title": "Consent Logs (Art. 7)",
+          "text": "Immutable timestamped records of communication and marketing opt-ins."
+        }
       ]
     },
     "faq": {
@@ -451,16 +497,16 @@
       "title": "Security & Trust Questions",
       "items": [
         {
-          "question": "Where is Donorfit platform data physically hosted?",
-          "answer": "All production databases, application servers, and backups are hosted within the European Union (Germany and Ireland) in ISO/IEC 27001, SOC 2 Type II, and PCI-DSS compliant data center facilities. We maintain strict EU data sovereignty."
+          "question": "Where is Donorfit data hosted?",
+          "answer": "Donorfit is provided by MYFUNDBOX GmbH in Wolfsburg, Germany. Information about hosting locations and the service providers we use is available in our privacy policy and in the data processing agreement."
         },
         {
           "question": "Does Donorfit store donor credit card numbers or banking passwords?",
-          "answer": "No. Donorfit never stores raw credit card numbers or sensitive payment authentication credentials on our application servers. All payment handling is tokenized through certified Level 1 PCI-DSS payment gateways (such as Stripe and European banking direct debit rails)."
+          "answer": "Card and wallet details are entered on and processed by your connected payment provider, such as Stripe, PayPal or Mollie. The provider is responsible for PCI DSS compliance for those payments."
         },
         {
           "question": "How do you handle Data Processing Agreements (DPA)?",
-          "answer": "Every nonprofit organization using Donorfit enters into a legally binding Data Processing Agreement (DPA) under Article 28 of the GDPR, with standardized technical and organizational measures (TOMs) clearly defined."
+          "answer": "Organisations using Donorfit can conclude a data processing agreement (DPA) under Article 28 GDPR, including the technical and organisational measures (TOMs). Contact our team to request it."
         },
         {
           "question": "How do you protect sensitive child and beneficiary data in sponsorship programs?",
@@ -468,14 +514,14 @@
         },
         {
           "question": "What is your incident response protocol?",
-          "answer": "In the unlikely event of a security or data breach, our incident response plan requires notification to affected data controllers within 24 to 72 hours in strict alignment with GDPR statutory mandates, alongside immediate containment measures."
+          "answer": "If a personal data breach affects your organisation, we inform you without undue delay so you can meet your own obligations under the GDPR, and we take steps to contain it."
         }
       ]
     },
     "contact": {
       "title": "Security Inquiries & Vulnerability Disclosure",
       "text": "If your security or compliance team requires a custom security questionnaire, DPA review, or wishes to report a potential vulnerability, contact our dedicated security team directly:",
-      "pgp": "PGP Key available upon request",
+      "pgp": "We reply to every security report",
       "button": "Contact Compliance Desk"
     }
   },
@@ -490,31 +536,43 @@
       {
         "title": "Digital Non-Profit Agencies",
         "description": "Web development agencies and digital strategists implementing custom donation sites and campaign architectures for charities across Europe.",
-        "benefits": ["Dedicated sandbox environments", "Direct technical escalation channel", "Partner co-marketing opportunities"]
+        "benefits": [
+          "Embeddable donation box for client websites",
+          "API and webhooks",
+          "Direct contact with our team"
+        ]
       },
       {
         "title": "Fundraising Consultants",
         "description": "Independent fundraising advisors helping NGOs optimize recurring giving strategies, direct mail campaigns, and donor stewardship programs.",
-        "benefits": ["Comprehensive platform certifications", "Client referral benefits", "Strategy & cohort retention toolkits"]
+        "benefits": [
+          "Product demos for the organisations you advise",
+          "Overview of Donorfit modules and pricing",
+          "Direct contact with our team"
+        ]
       },
       {
         "title": "Technology & CRM Integrators",
-        "description": "Specialists connecting Donorfit with enterprise accounting ledgers (DATEV, SAP), CRM hubs (Salesforce Non-Profit Cloud), and marketing automation.",
-        "benefits": ["Open REST API and webhook access", "Custom data schema support", "Co-development advisory board"]
+        "description": "Specialists who connect Donorfit with your existing systems through the API and webhooks.",
+        "benefits": [
+          "API and webhook access",
+          "Payment and newsletter integrations",
+          "Direct contact with our team"
+        ]
       }
     ],
     "integrations": {
-      "eyebrow": "Verified Ecosystem Integrations",
+      "eyebrow": "Available integrations",
       "title": "Built to connect with the tools you already rely on.",
-      "intro": "Donorfit supports bidirectional integrations and export formats for leading non-profit accounting, CRM, and marketing platforms.",
+      "intro": "Donorfit integrates with payment providers and newsletter tools, and offers an API with webhooks for your own workflows.",
       "items": [
-        "SEPA Direct Debit (EPC)",
-        "Stripe & Apple Pay",
-        "PayPal for Nonprofits",
-        "DATEV Accounting",
+        "Stripe",
+        "PayPal",
+        "GoCardless",
+        "Mollie",
+        "Micropayment",
         "Mailchimp & Brevo",
-        "Salesforce Nonprofit Cloud",
-        "Zapier & Webhooks"
+        "API & webhooks"
       ]
     },
     "cta": {

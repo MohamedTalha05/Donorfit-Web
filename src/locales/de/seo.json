@@ -17,15 +17,15 @@
       "description": "Mitgliederaufnahme, Beitragseinzug, automatische Verlängerungserinnerungen und Mitgliederkommunikation – übersichtlich an einem Ort."
     },
     "/donations": {
-      "title": "Moderne Spendentechnologie für NGOs und gemeinnützige Organisationen | Donorfit",
+      "title": "Spendentechnologie für NGOs & Vereine | Donorfit",
       "description": "Konversionsstarke Spendenseiten in Ihrem Design – mit SEPA-Lastschrift, Karten, Apple Pay, automatischen Zuwendungsbestätigungen und ohne Lock-in."
     },
     "/recurring-management": {
       "title": "Wiederkehrende Zahlungen verwalten für Vereine | Donorfit",
-      "description": "Verwaltung wiederkehrender Zahlungen: monatliche und jährliche Spenden, wiederkehrende Mitgliedsbeiträge und Patenschaftsbeiträge über unterstützte Zahlungs-Gateways."
+      "description": "Wiederkehrende Spenden, Mitgliedsbeiträge und Patenschaftszahlungen über unterstützte Zahlungsanbieter organisieren – mit Donorfit."
     },
     "/donor-management": {
-      "title": "Zentrale Spenderverwaltung & CRM für Non-Profit-Organisationen | Donorfit",
+      "title": "Spenderverwaltung & CRM für Non-Profits | Donorfit",
       "description": "Schluss mit verstreuten Tabellen: Pflegen Sie vollständige Spenderhistorien, Kommunikationsverläufe und eine DSGVO-konforme Datenhaltung."
     },
     "/campaign-management": {
@@ -33,15 +33,15 @@
       "description": "Starten Sie Nothilfeaufrufe, saisonale Kampagnen und Community-Spendenaktionen in kürzester Zeit – mit Fortschrittsanalysen in Echtzeit."
     },
     "/reporting-and-insights": {
-      "title": "Fundraising-Analysen & aussagekräftige Auswertungen für Non-Profits | Donorfit",
+      "title": "Fundraising-Auswertungen für Non-Profits | Donorfit",
       "description": "Verstehen Sie Spenderbindung, Lifetime Value und Kampagnenrendite – ganz ohne Data-Science-Kenntnisse."
     },
     "/solutions/for-ngos": {
-      "title": "Donorfit für NGOs: Spendenaufrufe, Spender:innen und Projekt-Updates",
-      "description": "Spendenaufrufe durchführen, Spender:innen und Patenschaften verwalten und Unterstützer:innen über Ihre Projekte informieren – in einer Plattform. Donorfit ist kostenlos nutzbar."
+      "title": "Donorfit für NGOs: Spendenaufrufe und Projekt-Updates",
+      "description": "Donorfit für NGOs: Spendenaufrufe starten, Spenden Projekten zuordnen, Unterstützer:innen mit Updates informieren und Spenderdaten zentral verwalten."
     },
     "/solutions/for-charities": {
-      "title": "Donorfit für gemeinnützige Vereine: Spendenformulare, QR-Codes und Belege",
+      "title": "Donorfit für Vereine: Spendenformulare, QR-Codes, Belege",
       "description": "Spendenformulare einbetten, QR-Codes erstellen und Belege automatisch erzeugen. Eine kostenlose Fundraising-Plattform für die tägliche Vereinsarbeit."
     },
     "/solutions/for-foundations": {
@@ -53,7 +53,7 @@
       "description": "Pat:innen, Begünstigte und monatliche Beiträge in einem Datensatz verbinden und Fortschritte über ein sicheres Patenportal teilen."
     },
     "/solutions/for-membership-orgs": {
-      "title": "Donorfit für Mitgliederorganisationen: Anmeldung, Beiträge und Verlängerungen",
+      "title": "Donorfit für Mitgliederorganisationen: Beiträge & Verlängerung",
       "description": "Mitglieder registrieren, Tarife einrichten, Beiträge einziehen und Verlängerungen steuern – für Ihren Verein mit Donorfit Membership."
     },
     "/solutions/for-international-orgs": {
@@ -61,7 +61,7 @@
       "description": "Projekte im Ausland vorstellen, Beiträge sammeln und Unterstützer:innen Schritt für Schritt informieren – vom Brunnenbau bis zur Qurbani-Kampagne."
     },
     "/about": {
-      "title": "Über Donorfit – Plattform für Fundraising & Organisationsverwaltung",
+      "title": "Über Donorfit – Fundraising & Organisationsverwaltung",
       "description": "Donorfit hilft NGOs, Stiftungen, Moscheegemeinden und Vereinen, Fundraising, Mitgliedschaften, Patenschaften, Qurbani und MoneyPool zentral zu verwalten."
     },
     "/contact": {
@@ -70,34 +70,34 @@
     },
     "/security": {
       "title": "Sicherheit, Datenschutz und DSGVO-Konformität | Donorfit",
-      "description": "Erfahren Sie, wie Donorfit europäische Datensouveränität, ISO-27001-zertifizierte Rechenzentren, Verschlüsselung, sichere Zahlungsabwicklung und Kinderschutz umsetzt."
+      "description": "So geht Donorfit mit Datenschutz um: DSGVO-orientierte Verarbeitung, Auftragsverarbeitung, verschlüsselte Verbindungen und Kinderschutz."
     },
     "/blog": {
       "title": "Donorfit Blog: Einblicke, Ideen & Neuigkeiten zum Fundraising",
       "description": "Praxisnahe Einblicke zu Fundraising, Organisationsführung, digitalen Spenden, Patenschaften und Mitgliederverwaltung sowie Neuigkeiten von Donorfit."
     },
     "/guides": {
-      "title": "Praxisleitfäden & Toolkits für europäische NGOs | Donorfit",
-      "description": "Handbücher zum Herunterladen, Kompendien zum Spendenrecht und SEPA-Lastschrift-Playbooks für Führungskräfte im Non-Profit-Bereich."
+      "title": "Praxisleitfäden für Ihr Fundraising | Donorfit",
+      "description": "Praxisartikel für gemeinnützige Teams zu Spendenformularen, Kampagnen, wiederkehrenden Zahlungen, Mitgliedschaften und Patenschaften."
     },
     "/case-studies": {
-      "title": "Wirkungsgeschichten & Fallstudien aus dem Non-Profit-Bereich | Donorfit",
-      "description": "Erfahren Sie, wie europäische Hilfsorganisationen und internationale NGOs mit Donorfit die Abwanderung um 42 % gesenkt und Hunderte Verwaltungsstunden eingespart haben."
+      "title": "Fallstudien: Erfahrungsberichte | Donorfit",
+      "description": "Erfahrungsberichte zur Nutzung von Donorfit sind in Vorbereitung. Entdecken Sie Donorfit für NGOs, Vereine, Stiftungen und Mitgliederorganisationen."
     },
     "/faqs": {
       "title": "Häufige Fragen – Non-Profit-Plattform & Zahlungen | Donorfit",
       "description": "Antworten auf häufige Fragen zur Einführung von Donorfit, zur SEPA-Lastschrift, zur DSGVO, zu Zuwendungsbestätigungen und zu den Preisen."
     },
     "/pricing": {
-      "title": "Preise – keine Plattform- und keine Transaktionsgebühren | Donorfit",
-      "description": "All-in-one-Fundraising für 0 € pro Monat, ohne Plattform- und Transaktionsgebühr: Spenden sammeln, Spender:innen verwalten, Module bei Bedarf ergänzen."
+      "title": "Preise – kostenlose Fundraising-Plattform | Donorfit",
+      "description": "Donorfit ist kostenlos nutzbar. Transaktionsgebühren legt Ihr gewählter Zahlungsanbieter fest. Sehen Sie, was enthalten ist und welche Add-ons es gibt."
     },
     "/integrations": {
-      "title": "Integrationen – Stripe, PayPal, Mollie, Mailchimp & mehr | Donorfit",
+      "title": "Integrationen: Stripe, PayPal, Mollie, Mailchimp | Donorfit",
       "description": "Verbinden Sie Donorfit mit den Zahlungsanbietern Stripe, PayPal, GoCardless, Micropayment und Mollie sowie mit den E-Mail-Plattformen Brevo und Mailchimp."
     },
     "/payment-gateways": {
-      "title": "Mehrere Zahlungs-Gateways für gemeinnützige Organisationen | Donorfit",
+      "title": "Mehrere Zahlungs-Gateways für Non-Profits | Donorfit",
       "description": "Zahlungs-Gateway-Integrationen von Donorfit: Stripe, PayPal, GoCardless, Mollie und Micropayment. Online-Spendenzahlungen für Vereine und Organisationen."
     },
     "/integrations/stripe": {
@@ -110,7 +110,7 @@
     },
     "/integrations/gocardless": {
       "title": "GoCardless-Integration | Donorfit",
-      "description": "Ziehen Sie einmalige und regelmäßige Spenden per Lastschrift über GoCardless ein."
+      "description": "Ziehen Sie einmalige und wiederkehrende Spenden, Mitgliedsbeiträge und Patenschaften per SEPA- oder Bacs-Lastschrift über die GoCardless-Integration ein."
     },
     "/integrations/micropayment": {
       "title": "Micropayment-Integration | Donorfit",
@@ -118,7 +118,7 @@
     },
     "/integrations/mollie": {
       "title": "Mollie-Integration | Donorfit",
-      "description": "Bieten Sie Karten und beliebte europäische Zahlungsarten über Mollie an."
+      "description": "Bieten Sie Ihren Unterstützer:innen Kartenzahlungen und beliebte europäische Zahlungsarten wie iDEAL und Bancontact über die Mollie-Integration an."
     },
     "/integrations/brevo": {
       "title": "Brevo-Integration | Donorfit",
@@ -126,14 +126,14 @@
     },
     "/integrations/mailchimp": {
       "title": "Mailchimp-Integration | Donorfit",
-      "description": "Senden Sie Newsletter und Neuigkeiten mit Mailchimp an Ihre Unterstützer:innen."
+      "description": "Senden Sie Newsletter und Projekt-Updates mit der Mailchimp-Integration an Ihre Unterstützer:innen – auf Basis der Spenderdaten in Donorfit."
     },
     "/partners": {
-      "title": "Das Donorfit-Partnernetzwerk – Agenturen, Berater:innen & Integrationen",
-      "description": "Werden Sie Teil des Partnernetzwerks, das europäische Non-Profit-Organisationen mit Technologie, Implementierungsunterstützung und strategischer Fundraising-Beratung stärkt."
+      "title": "Donorfit-Partnernetzwerk: Agenturen & Berater:innen",
+      "description": "Das Donorfit-Partnernetzwerk: Agenturen, Berater:innen und Technologiepartner, die gemeinnützige Organisationen bei Einführung und Integration unterstützen."
     },
     "/privacy-policy": {
-      "title": "Datenschutzerklärung – DSGVO & europäischer Datenschutz | Donorfit",
+      "title": "Datenschutzerklärung – DSGVO | Donorfit",
       "description": "Informationen darüber, wie Donorfit personenbezogene Daten nach der Datenschutz-Grundverordnung (EU 2016/679) verarbeitet und schützt."
     },
     "/cookie-policy": {
@@ -149,7 +149,7 @@
       "description": "Anbieterkennzeichnung von Donorfit gemäß § 5 Digitale-Dienste-Gesetz (DDG): MYFUNDBOX GmbH, Wolfsburg."
     },
     "/terms": {
-      "title": "Allgemeine Geschäftsbedingungen – Nutzungsbedingungen der Plattform | Donorfit",
+      "title": "AGB – Nutzungsbedingungen der Plattform | Donorfit",
       "description": "Allgemeine Nutzungsbedingungen für den Zugang gemeinnütziger Organisationen, die Zahlungsabwicklung und die Nutzungsrechte auf der Donorfit-Plattform."
     },
     "/accessibility": {

@@ -16,6 +16,7 @@ export default function BookDemoModal() {
   const txCommon = useTx('common');
   const { eur, date } = useFormat();
   const { lang } = useI18n();
+  const teamEmail = useT('company')('contact.email');
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     fullName: '',
@@ -55,9 +56,27 @@ export default function BookDemoModal() {
     return products[value] ?? value;
   };
 
+  /**
+   * The site has no form backend (static GitHub Pages hosting), so the request is composed as an
+   * email to the team address in the visitor's email app, like the contact form. Nothing is sent
+   * until the visitor sends that email. Replace with a real endpoint when one exists.
+   */
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.workEmail || !formData.organizationName) return;
+    const label = (key: string) => t(`bookDemo.fields.${key}`).replace(/\s*\*$/, '');
+    const lines = [
+      `${label('fullName')}: ${formData.fullName}`,
+      `${label('workEmail')}: ${formData.workEmail}`,
+      `${label('organizationName')}: ${formData.organizationName}`,
+      `${label('orgType')}: ${t(`bookDemo.orgTypeOptions.${formData.orgType}`)}`,
+      `${label('interest')}: ${INTERESTS.includes(formData.interest) ? t(`bookDemo.interestOptions.${formData.interest}`) : interestLabel(formData.interest)}`,
+      `${label('annualVolume')}: ${t(`bookDemo.volumeOptions.${formData.annualVolume}`, volumeVars[formData.annualVolume])}`,
+      `${label('preferredDate')}: ${formData.preferredDate || t('bookDemo.success.nextAvailable')} · ${timeLabel(formData.preferredTime)}`,
+    ];
+    if (formData.notes) lines.push('', formData.notes);
+    const subject = `${t('bookDemo.mailSubject')} – ${formData.organizationName}`;
+    window.location.href = `mailto:${teamEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n'))}`;
     setSubmitted(true);
   };
 
@@ -102,6 +121,10 @@ export default function BookDemoModal() {
             <h3 className="text-xl font-bold text-neutral-900 font-display">{t('bookDemo.success.title')}</h3>
             <p className="text-sm text-neutral-600 max-w-md mx-auto leading-relaxed">
               {t('bookDemo.success.thanksBefore')}<span className="font-semibold text-neutral-900">{formData.fullName || t('bookDemo.success.nameFallback')}</span>{t('bookDemo.success.thanksMiddle')}<span className="font-semibold text-neutral-900">{formData.workEmail}</span>{t('bookDemo.success.thanksAfter')}
+            </p>
+            <p className="text-xs text-neutral-500 max-w-md mx-auto">
+              {t('bookDemo.success.mailFallback')}{' '}
+              <a href={`mailto:${teamEmail}`} className="font-semibold text-emerald-700 underline underline-offset-2">{teamEmail}</a>
             </p>
             <div className="p-4 bg-neutral-50 rounded-xl border border-neutral-200 text-left text-xs text-neutral-600 space-y-1.5 max-w-md mx-auto">
               <div className="flex justify-between">

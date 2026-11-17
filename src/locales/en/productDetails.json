@@ -57,7 +57,7 @@
       ],
       "benefits": [
         {
-          "title": "Reduce Administrative Overhead by 65%",
+          "title": "Less Administrative Overhead",
           "description": "Eliminate manual reconciliation of monthly bank transfers and manual sponsor assignment spreadsheets."
         },
         {
@@ -169,9 +169,9 @@
       ]
     },
     "money-pool": {
-      "title": "Money Pool & Group Giving",
+      "title": "MoneyPool & Group Giving",
       "shortDescription": "Collaborative group fundraising, shared community targets, and live progress visibility for schools, mosques, churches, and volunteer groups.",
-      "h1": "Collaborative Money Pool and Group Giving for Nonprofits",
+      "h1": "Collaborative MoneyPool and Group Giving for Nonprofits",
       "subheadline": "Empower supporters, committees, and community groups to rally together around shared fundraising goals with total financial transparency.",
       "heroKicker": "Community-Powered Collective Giving",
       "problemsAddressed": [
@@ -191,7 +191,7 @@
       "howItWorks": [
         {
           "step": "01",
-          "title": "Launch a Verified Money Pool",
+          "title": "Launch a Verified MoneyPool",
           "description": "Create a branded group giving campaign with a target goal, transparent breakdown of costs, and deadline."
         },
         {
@@ -229,7 +229,7 @@
           "description": "Empower your most passionate ambassadors to crowdfund for specific water wells, emergency packages, or school renovations."
         },
         {
-          "title": "100% Accounting Compliance",
+          "title": "Clear Records for Accounting",
           "description": "Every euro collected in the group pool receives a distinct donor receipt and is mapped directly to your financial ledger."
         },
         {
@@ -306,7 +306,7 @@
       "benefits": [
         {
           "title": "Zero Chasing of Annual Fees",
-          "description": "Automate renewals and recurring direct debits, cutting overdue payment rates by up to 78%."
+          "description": "Automate renewals and recurring direct debits, so fewer annual fees need to be followed up by hand."
         },
         {
           "title": "Accurate Assembly & Voting Lists",
@@ -345,7 +345,7 @@
         },
         {
           "title": "High transaction and platform commissions",
-          "description": "Many generic platforms take 5-10% of every gift, diverting critical funding away from charity mission work."
+          "description": "Platform commissions on every gift divert funding away from charity mission work."
         }
       ],
       "howItWorks": [
@@ -376,7 +376,7 @@
         },
         {
           "title": "Donor-Covered Processing Fees",
-          "description": "Allow supporters to optionally cover payment transaction fees, resulting in up to 85% of fees being covered."
+          "description": "Allow supporters to optionally cover payment transaction fees, so more of each gift reaches your organisation."
         },
         {
           "title": "Embedded Widgets & Full-Page Campaigns",
@@ -385,8 +385,8 @@
       ],
       "benefits": [
         {
-          "title": "Increase Donation Conversion by 34%",
-          "description": "A modern, 2-step checkout eliminates unnecessary fields and provides instant mobile wallet payments."
+          "title": "A Simple Checkout on Any Device",
+          "description": "A short, 2-step checkout without unnecessary fields, with wallet payments where your provider offers them."
         },
         {
           "title": "Automate Tax Compliance",
@@ -404,7 +404,7 @@
         },
         {
           "question": "Can we generate country-specific tax receipts?",
-          "answer": "Yes. Donorfit supports official tax receipt templates compliant with European non-profit regulations, including Germany (Geldzuwendungsbestätigung), Austria, France, and the UK."
+          "answer": "Donorfit provides predefined tax receipt templates for automatic generation, for example for the German Zuwendungsbestätigung. Please check with our team which templates fit your country."
         }
       ]
     },
@@ -421,7 +421,7 @@
         },
         {
           "title": "Silent churn from expired cards and failed transfers",
-          "description": "Up to 15% of recurring monthly donors are lost annually simply because cards expire without proactive recovery."
+          "description": "Recurring donors can be lost when payment details expire and nobody follows up in time."
         },
         {
           "title": "Manual donor support for amount adjustments",
@@ -451,8 +451,8 @@
           "description": "Prompt one-off donors to convert into monthly sustaining members at the moment of peak gratitude."
         },
         {
-          "title": "Automated Card Account Updater",
-          "description": "Seamlessly refresh expired or reissued card details via banking rails without requiring manual donor outreach."
+          "title": "Payment Detail Reminders",
+          "description": "Remind supporters before their payment details expire, so they can update them in time."
         },
         {
           "title": "Pause & Modify Flexibility",
@@ -469,18 +469,18 @@
           "description": "Stabilize your charity budget so program coordinators can commit to long-term community projects."
         },
         {
-          "title": "Recover 60%+ of At-Risk Subscriptions",
-          "description": "Automated dunning emails and smart retry algorithms recover failed recurring pledges without awkward calls."
+          "title": "Follow Up Failed Payments",
+          "description": "Reminders and retries for failed recurring payments, without awkward calls."
         },
         {
-          "title": "5x Higher Lifetime Value",
-          "description": "Recurring donors give on average 5.4 times more value over their lifetime compared to one-time contributors."
+          "title": "Longer Supporter Relationships",
+          "description": "Regular giving keeps supporters connected to your work beyond a single donation."
         }
       ],
       "faqs": [
         {
           "question": "How does Donorfit prevent failed recurring payments?",
-          "answer": "Donorfit uses pre-billing reminders, automated card network updaters, and smart retry schedules (retrying on typical European paydays) to maximize collection rates."
+          "answer": "Donorfit uses reminders before payment details expire and automatic retries for failed payments. What is possible for each payment depends on your payment provider."
         },
         {
           "question": "Can donors cancel or change their recurring donation easily?",
@@ -553,8 +553,8 @@
           "description": "Identify rising champions whose cumulative giving qualifies them for personalized major gift stewardship."
         },
         {
-          "title": "Guaranteed GDPR Compliance",
-          "description": "Built from the ground up under European privacy regulations, ensuring peace of mind for board trustees."
+          "title": "Built for GDPR Requirements",
+          "description": "Designed around European privacy rules, so your organisation can meet its data protection obligations."
         }
       ],
       "faqs": [
@@ -564,7 +564,7 @@
         },
         {
           "question": "Is donor data stored within the European Union?",
-          "answer": "Yes. All Donorfit customer data is hosted in ISO 27001-certified European data centers with strict GDPR compliance and zero unauthorized data transfers."
+          "answer": "Donorfit is provided by MYFUNDBOX GmbH in Germany and processes personal data in line with the GDPR. Details on hosting and service providers are in our privacy policy and data processing agreement."
         }
       ]
     },
@@ -630,7 +630,7 @@
         },
         {
           "title": "Inspire Urgency with Matched Giving",
-          "description": "Campaigns with visible corporate matching multipliers raise up to 51% more total funds."
+          "description": "Show corporate matching on the campaign page so supporters can see how their gift is multiplied."
         },
         {
           "title": "Optimize Marketing Spend",
@@ -842,7 +842,7 @@
         "privacy": "Guardian privacy consent verified. Sensitive location data encrypted under EU child safeguarding guidelines."
       },
       "moneyPool": {
-        "title": "Verified Group Money Pool",
+        "title": "Verified Group MoneyPool",
         "ofGoal": "{{pct}} of Goal",
         "campaign": "Solar Water Desalination Initiative",
         "organizer": "Organized by Cologne Community Aid Guild · Direct NGO Settlement",
@@ -896,7 +896,7 @@
       "badgeSponsorship": "Sponsorship",
       "settled": "Settled",
       "card": "Card",
-      "securityNote": "All payments processed with 256-bit TLS encryption & ISO 27001 standards.",
+      "securityNote": "Payments are processed by your connected payment provider over encrypted connections.",
       "receiptAutomation": "{{pct}} Tax Receipt Automation",
       "locations": {
         "munich": "Munich, Germany",
@@ -950,7 +950,8 @@
           "footer": "Next scheduled update: Nov 20, 2026",
           "status": "Safeguarding Check OK"
         }
-      }
+      },
+      "exampleData": "Example data"
     }
   }
 }

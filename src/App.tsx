@@ -3,47 +3,47 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { ModalProvider, useModal } from './context/ModalContext.tsx';
 import Navbar from './components/Navbar.tsx';
 import Footer from './components/Footer.tsx';
 import BookDemoModal from './components/BookDemoModal.tsx';
-import GetStartedModal from './components/GetStartedModal.tsx';
 import CookieConsent from './components/CookieConsent.tsx';
 import SEOHead from './components/SEOHead.tsx';
 import { useT } from './i18n/index.tsx';
 
-import HomePage from './pages/HomePage.tsx';
-import ProductPage from './pages/ProductPage.tsx';
-import NgoSolutionPage from './pages/solutions/NgoSolutionPage.tsx';
-import CharitySolutionPage from './pages/solutions/CharitySolutionPage.tsx';
-import FoundationSolutionPage from './pages/solutions/FoundationSolutionPage.tsx';
-import SponsorshipSolutionPage from './pages/solutions/SponsorshipSolutionPage.tsx';
-import MembershipSolutionPage from './pages/solutions/MembershipSolutionPage.tsx';
-import InternationalSolutionPage from './pages/solutions/InternationalSolutionPage.tsx';
-import AboutPage from './pages/AboutPage.tsx';
-import ContactPage from './pages/ContactPage.tsx';
-import SecurityPage from './pages/SecurityPage.tsx';
-import BlogIndexPage from './pages/BlogIndexPage.tsx';
-import BlogPostPage from './pages/BlogPostPage.tsx';
-import GuidesPage from './pages/GuidesPage.tsx';
-import CaseStudiesPage from './pages/CaseStudiesPage.tsx';
-import FAQsPage from './pages/FAQsPage.tsx';
-import PartnersPage from './pages/PartnersPage.tsx';
-import IntegrationsPage from './pages/IntegrationsPage.tsx';
-import IntegrationDetailPage from './pages/IntegrationDetailPage.tsx';
-import PricingPage from './pages/PricingPage.tsx';
-import PaymentGatewaysPage from './pages/PaymentGatewaysPage.tsx';
-import RecurringManagementPage from './pages/RecurringManagementPage.tsx';
-import LegalPage from './pages/LegalPage.tsx';
-import NotFoundPage from './pages/NotFoundPage.tsx';
 import { isHiddenProduct } from './data/productPages.ts';
-import MembershipPage from './pages/products/MembershipPage.tsx';
-import SponsorshipPage from './pages/products/SponsorshipPage.tsx';
-import WaterWellPage from './pages/products/WaterWellPage.tsx';
-import QurbaniPage from './pages/products/QurbaniPage.tsx';
-import SchoolManagementPage from './pages/products/SchoolManagementPage.tsx';
-import MoneyPoolPage from './pages/products/MoneyPoolPage.tsx';
+
+import HomePage from './pages/HomePage.tsx';
+const ProductPage = React.lazy(() => import('./pages/ProductPage.tsx'));
+const NgoSolutionPage = React.lazy(() => import('./pages/solutions/NgoSolutionPage.tsx'));
+const CharitySolutionPage = React.lazy(() => import('./pages/solutions/CharitySolutionPage.tsx'));
+const FoundationSolutionPage = React.lazy(() => import('./pages/solutions/FoundationSolutionPage.tsx'));
+const SponsorshipSolutionPage = React.lazy(() => import('./pages/solutions/SponsorshipSolutionPage.tsx'));
+const MembershipSolutionPage = React.lazy(() => import('./pages/solutions/MembershipSolutionPage.tsx'));
+const InternationalSolutionPage = React.lazy(() => import('./pages/solutions/InternationalSolutionPage.tsx'));
+const AboutPage = React.lazy(() => import('./pages/AboutPage.tsx'));
+const ContactPage = React.lazy(() => import('./pages/ContactPage.tsx'));
+const SecurityPage = React.lazy(() => import('./pages/SecurityPage.tsx'));
+const BlogIndexPage = React.lazy(() => import('./pages/BlogIndexPage.tsx'));
+const BlogPostPage = React.lazy(() => import('./pages/BlogPostPage.tsx'));
+const GuidesPage = React.lazy(() => import('./pages/GuidesPage.tsx'));
+const CaseStudiesPage = React.lazy(() => import('./pages/CaseStudiesPage.tsx'));
+const FAQsPage = React.lazy(() => import('./pages/FAQsPage.tsx'));
+const PartnersPage = React.lazy(() => import('./pages/PartnersPage.tsx'));
+const IntegrationsPage = React.lazy(() => import('./pages/IntegrationsPage.tsx'));
+const IntegrationDetailPage = React.lazy(() => import('./pages/IntegrationDetailPage.tsx'));
+const PricingPage = React.lazy(() => import('./pages/PricingPage.tsx'));
+const PaymentGatewaysPage = React.lazy(() => import('./pages/PaymentGatewaysPage.tsx'));
+const RecurringManagementPage = React.lazy(() => import('./pages/RecurringManagementPage.tsx'));
+const LegalPage = React.lazy(() => import('./pages/LegalPage.tsx'));
+const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage.tsx'));
+const MembershipPage = React.lazy(() => import('./pages/products/MembershipPage.tsx'));
+const SponsorshipPage = React.lazy(() => import('./pages/products/SponsorshipPage.tsx'));
+const WaterWellPage = React.lazy(() => import('./pages/products/WaterWellPage.tsx'));
+const QurbaniPage = React.lazy(() => import('./pages/products/QurbaniPage.tsx'));
+const SchoolManagementPage = React.lazy(() => import('./pages/products/SchoolManagementPage.tsx'));
+const MoneyPoolPage = React.lazy(() => import('./pages/products/MoneyPoolPage.tsx'));
 
 function AppContent() {
   const { currentRoute } = useModal();
@@ -129,14 +129,14 @@ function AppContent() {
         {currentRoute !== "/" && (
           <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[620px] bg-hero-glow" />
         )}
-        {renderCurrentPage()}
+        {/* Pages are code-split; the fallback keeps the layout height while a page chunk loads. */}
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>{renderCurrentPage()}</Suspense>
       </main>
 
       <Footer />
 
       {/* Interactive Modals & GDPR Banner */}
       <BookDemoModal />
-      <GetStartedModal />
       <CookieConsent />
     </div>
   );

@@ -31,7 +31,7 @@
       "orphan-sponsorship": "Waisen­patenschaftsprogramm",
       "recurring-giving": "Regelmäßiges Spenden & SEPA",
       "donor-management": "Spender­verwaltung (CRM)",
-      "money-pool": "Money Pool & Gruppenspenden",
+      "money-pool": "MoneyPool & Gruppenspenden",
       "membership": "Automatisierte Mitglieds­beiträge",
       "campaigns": "Nothilfe- & Zielkampagnen"
     },
@@ -49,65 +49,20 @@
       "04:00 PM CET": "16:00 – 18:00 Uhr MEZ"
     },
     "trustNote": "DSGVO-konform · Unverbindlich",
-    "submit": "Demo anfragen",
+    "submit": "Demo-Anfrage per E-Mail senden",
     "success": {
-      "title": "Demo-Anfrage bestätigt",
+      "title": "Ihre Demo-Anfrage ist bereit zum Senden",
       "thanksBefore": "Vielen Dank, ",
       "nameFallback": "liebe Interessentin, lieber Interessent",
-      "thanksMiddle": ". Ein:e Donorfit-Spezialist:in für gemeinnützige Organisationen meldet sich innerhalb von 4 Arbeitsstunden unter ",
-      "thanksAfter": " bei Ihnen, um Ihre Kalendereinladung zu bestätigen.",
+      "thanksMiddle": ". Ihr E-Mail-Programm wurde mit Ihrer Demo-Anfrage geöffnet. Bitte senden Sie diese E-Mail ab – wir antworten dann an ",
+      "thanksAfter": ", um einen Termin zu vereinbaren.",
       "organization": "Organisation:",
       "focus": "Gewünschter Schwerpunkt:",
       "window": "Gewähltes Zeitfenster:",
       "nextAvailable": "Nächster freier Termin",
-      "close": "Schließen & zurück zur Website"
-    }
-  },
-  "getStarted": {
-    "eyebrow": "Onboarding für Non-Profits",
-    "title": "Jetzt mit Donorfit starten",
-    "closeDialog": "Dialog schließen",
-    "step1": "1. Wählen Sie die Lösungen, die Ihre Organisation benötigt:",
-    "step2": "2. Organisation & Kontaktdaten:",
-    "modules": {
-      "donations": "Online-Spenden",
-      "recurring": "Regelmäßige Spenden & SEPA",
-      "sponsorship": "Patenschafts­verwaltung",
-      "orphan": "Waisenhilfe-Programme",
-      "moneypool": "Money Pool & Gruppen",
-      "membership": "Mitglieds­beiträge",
-      "crm": "Spender-CRM & Belege",
-      "reporting": "Analysen & Auswertungen"
+      "close": "Schließen & zurück zur Website",
+      "mailFallback": "Kein E-Mail-Programm geöffnet? Schreiben Sie uns an"
     },
-    "fields": {
-      "namePlaceholder": "Ihr Name *",
-      "emailPlaceholder": "Geschäftliche E-Mail *",
-      "orgNamePlaceholder": "Offizieller Name der Organisation *"
-    },
-    "countries": {
-      "DE": "Deutschland (DE)",
-      "FR": "Frankreich (FR)",
-      "NL": "Niederlande (NL)",
-      "BE": "Belgien (BE)",
-      "AT": "Österreich (AT)",
-      "CH": "Schweiz (CH)",
-      "GB": "Vereinigtes Königreich (UK)",
-      "OTHER": "Sonstiges Europa / weltweit"
-    },
-    "supportNote": "Onboarding-Support innerhalb von 48 Std.",
-    "submit": "Einrichtung anfragen",
-    "success": {
-      "title": "Einrichtung des Arbeitsbereichs angefordert",
-      "receivedBefore": "Wir haben Ihre Konfiguration für ",
-      "receivedMiddle": " erhalten. Ihr:e Onboarding-Spezialist:in meldet sich innerhalb eines Werktags unter ",
-      "receivedAfter": " mit Sandbox-Zugangsdaten und den Schritten zur Verifizierung Ihres Zahlungs­anbieters.",
-      "selectedModules": "Ausgewählte Module:",
-      "modulesActive": "{{count}} Module aktiv",
-      "modulesActiveOne": "{{count}} Modul aktiv",
-      "jurisdiction": "Land & Währung:",
-      "dataResidency": "Datenspeicherort:",
-      "dataResidencyValue": "Europäische Union (Frankfurt / Dublin)",
-      "done": "Fertig"
-    }
+    "mailSubject": "Demo-Anfrage"
   }
 }

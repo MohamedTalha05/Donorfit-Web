@@ -23,6 +23,9 @@ import {
   useSolution,
 } from '../../components/solutions/SolutionKit.tsx';
 
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
+import ContentPhoto from '../../components/ContentPhoto.tsx';
 const SLUG = 'for-sponsorship-orgs' as const;
 
 type SponsorshipText = SolutionText & {
@@ -134,6 +137,7 @@ export default function SponsorshipSolutionPage() {
 
       <Challenges text={s} variant="rows" id="spo-sol-challenges" />
       <Helps text={s} tone="soft" id="spo-sol-helps" icons={[Link2, Lock, RefreshCw]} />
+      <CustomerLogoSection id="spo-sol-customers" compact />
 
       {/* Signature: sponsorship models */}
       <PSection labelledBy="spo-sol-models">
@@ -184,8 +188,9 @@ export default function SponsorshipSolutionPage() {
         </PSection>
       )}
 
-      <UseCases text={s} id="spo-sol-cases" />
+      <UseCases text={s} id="spo-sol-cases" aside={<ContentPhoto photo="sponsorshipHomework" />} />
       <HowItWorks text={s} id="spo-sol-steps" tone="soft" />
+      <TestimonialSection page="solutions/for-sponsorship-orgs" />
       <SolutionFAQ text={s} id="spo-sol-faq" />
       <SolutionCTA slug={SLUG} text={s} variant="navy" />
       <OtherSolutions current={SLUG} />

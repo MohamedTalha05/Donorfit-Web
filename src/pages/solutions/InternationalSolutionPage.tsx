@@ -26,6 +26,8 @@ import {
   useSolution,
 } from '../../components/solutions/SolutionKit.tsx';
 
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 const SLUG = 'for-international-orgs' as const;
 
 type InternationalText = SolutionText & {
@@ -80,6 +82,7 @@ export default function InternationalSolutionPage() {
 
       <Challenges text={s} variant="dark" id="int-challenges" icons={[MapPinned, Landmark, Wallet, CalendarClock]} />
       <Helps text={s} id="int-helps" icons={[Images, CreditCard, Handshake]} />
+      <CustomerLogoSection id="int-customers" compact />
 
       {/* Signature: supported payment providers (facts from src/data/integrations.ts) */}
       <PSection tone="soft" labelledBy="int-providers">
@@ -161,6 +164,7 @@ export default function InternationalSolutionPage() {
 
       <UseCases text={s} id="int-cases" />
       <HowItWorks text={s} id="int-steps" tone="navy" />
+      <TestimonialSection page="solutions/for-international-orgs" />
       <SolutionFAQ text={s} id="int-faq" />
       <SolutionCTA slug={SLUG} text={s} variant="navy" primary="contact" />
       <OtherSolutions current={SLUG} />

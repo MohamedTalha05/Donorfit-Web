@@ -1,15 +1,14 @@
 import React from 'react';
-import { useModal } from '../context/ModalContext.tsx';
 import { useT, useTx } from '../i18n/index.tsx';
 import LegalDocument from '../components/legal/LegalDocument.tsx';
 import { ArrowLeft } from 'lucide-react';
+import HomeLink from '../components/home/HomeLink.tsx';
 
 interface LegalPageProps {
   type: 'privacy' | 'cookies' | 'impressum' | 'terms' | 'refund' | 'accessibility';
 }
 
 export default function LegalPage({ type }: LegalPageProps) {
-  const { navigateTo } = useModal();
   const t = useT('legal');
   const tx = useTx('legal');
 
@@ -19,13 +18,13 @@ export default function LegalPage({ type }: LegalPageProps) {
   // Accessibility Statement
   return (
     <div className="py-12 sm:py-20 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-      <button
-        onClick={() => navigateTo('/')}
-        className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-600 hover:text-neutral-900 cursor-pointer"
+      <HomeLink
+        to="/"
+        className="inline-flex items-center gap-1.5 text-xs font-semibold text-neutral-600 hover:text-neutral-900"
       >
         <ArrowLeft className="w-3.5 h-3.5" />
         <span>{t('ui.backToHome')}</span>
-      </button>
+      </HomeLink>
 
       <header className="space-y-3 border-b border-neutral-200 pb-6">
         <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider">{t('accessibility.eyebrow')}</span>

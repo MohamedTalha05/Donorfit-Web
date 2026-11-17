@@ -1,19 +1,12 @@
 /**
  * Homepage content that must stay truthful.
  *
- * VERIFIED_ORGANISATIONS and SUCCESS_STORIES are intentionally empty.
- * Add an entry ONLY for a real customer that has given written permission
- * to be named (and, for stories, approved the exact wording and figures).
- * While a list is empty, the homepage renders an honest fallback instead.
+ * SUCCESS_STORIES is intentionally empty. Add an entry ONLY for a real customer
+ * that has approved the exact wording and figures in writing.
+ * While it is empty, the homepage renders an honest fallback instead.
+ *
+ * Customer logos: src/data/customers.ts. Testimonials: src/data/testimonials.ts.
  */
-
-export interface VerifiedOrganisation {
-  name: string;
-  /** Optional logo in /public (e.g. '/logos/acme.svg'). Text wordmark is used otherwise. */
-  logoSrc?: string;
-  logoWidth?: number;
-  logoHeight?: number;
-}
 
 export interface SuccessStory {
   organisation: string;
@@ -23,7 +16,5 @@ export interface SuccessStory {
   outcomes?: { value: string; label: string }[];
   quote?: { text: string; author: string; role: string };
 }
-
-export const VERIFIED_ORGANISATIONS: VerifiedOrganisation[] = [];
 
 export const SUCCESS_STORIES: SuccessStory[] = [];

@@ -1,11 +1,10 @@
 import React from 'react';
-import { useModal } from '../context/ModalContext.tsx';
 import { ArrowRight, Home, Search } from 'lucide-react';
 import BrandLogo from '../components/BrandLogo.tsx';
 import { useT } from '../i18n/index.tsx';
+import HomeLink from '../components/home/HomeLink.tsx';
 
 export default function NotFoundPage() {
-  const { navigateTo } = useModal();
   const t = useT('company');
 
   return (
@@ -25,32 +24,32 @@ export default function NotFoundPage() {
       </div>
 
       <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-        <button
-          onClick={() => navigateTo('/')}
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs rounded-xl shadow-xs transition-colors cursor-pointer"
+        <HomeLink
+          to="/"
+          className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs rounded-xl shadow-xs transition-colors"
         >
           <Home className="w-4 h-4" />
           <span>{t('notFound.home')}</span>
-        </button>
-        <button
-          onClick={() => navigateTo('/sponsorship')}
-          className="px-4 py-2.5 bg-white hover:bg-neutral-50 text-neutral-800 font-semibold text-xs rounded-xl border border-neutral-300 transition-colors cursor-pointer"
+        </HomeLink>
+        <HomeLink
+          to="/sponsorship"
+          className="px-4 py-2.5 bg-white hover:bg-neutral-50 text-neutral-800 font-semibold text-xs rounded-xl border border-neutral-300 transition-colors"
         >
           {t('notFound.sponsorship')}
-        </button>
-        <button
-          onClick={() => navigateTo('/faqs')}
-          className="px-4 py-2.5 bg-white hover:bg-neutral-50 text-neutral-800 font-semibold text-xs rounded-xl border border-neutral-300 transition-colors cursor-pointer"
+        </HomeLink>
+        <HomeLink
+          to="/faqs"
+          className="px-4 py-2.5 bg-white hover:bg-neutral-50 text-neutral-800 font-semibold text-xs rounded-xl border border-neutral-300 transition-colors"
         >
           {t('notFound.faqs')}
-        </button>
+        </HomeLink>
       </div>
 
       <div className="pt-12 border-t border-neutral-200 text-xs text-neutral-500">
         {t('notFound.helpBefore')}{' '}
-        <button onClick={() => navigateTo('/solutions/for-ngos')} className="text-emerald-700 underline font-medium">{t('notFound.helpLink1')}</button>
+        <HomeLink to="/solutions/for-ngos" className="text-emerald-700 underline font-medium">{t('notFound.helpLink1')}</HomeLink>
         {' '}{t('notFound.helpMiddle')}{' '}
-        <button onClick={() => navigateTo('/contact')} className="text-emerald-700 underline font-medium">{t('notFound.helpLink2')}</button>{t('notFound.helpAfter')}
+        <HomeLink to="/contact" className="text-emerald-700 underline font-medium">{t('notFound.helpLink2')}</HomeLink>{t('notFound.helpAfter')}
       </div>
     </div>
   );

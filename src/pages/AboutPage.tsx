@@ -16,6 +16,7 @@ import masjidImg from '../assets/images/sections/solution-masjid.jpg';
 import aidImg from '../assets/images/sections/solution-ngo.jpg';
 import textbooksImg from '../assets/images/sections/cta-community.jpg';
 
+import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
 type Item = { title: string; text: string };
 
 /** Core values, same order as about.values.items. */
@@ -30,7 +31,7 @@ const textLink =
   'inline-flex items-center gap-1.5 rounded-lg text-sm font-semibold text-brand-700 underline-offset-4 hover:text-brand-800 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600';
 
 export default function AboutPage() {
-  const { openGetStarted, navigateTo } = useModal();
+  const { openGetStarted } = useModal();
   const t = useT('company');
   const tx = useTx('company');
   const tc = useT('common');
@@ -262,6 +263,9 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ------------------------------------------- Customer logos */}
+      <CustomerLogoSection id="ab-customers" className="pb-20 sm:pb-24" />
+
       {/* ------------------------------------------------------- Values */}
       <section aria-labelledby="ab-values" className="bg-soft py-20 sm:py-28">
         <div className={`${CONTAINER} grid gap-12 lg:grid-cols-12 lg:gap-16`}>
@@ -335,9 +339,9 @@ export default function AboutPage() {
                 {tc('actions.getStarted')}
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </button>
-              <button type="button" onClick={() => navigateTo('/contact')} className="hv-btn hv-btn-ghost">
+              <HomeLink to="/contact" className="hv-btn hv-btn-ghost">
                 {t('about.cta.contact')}
-              </button>
+              </HomeLink>
             </div>
           </div>
         </div>

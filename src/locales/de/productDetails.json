@@ -57,7 +57,7 @@
       ],
       "benefits": [
         {
-          "title": "Verwaltungs­aufwand um 65 % senken",
+          "title": "Weniger Verwaltungsaufwand",
           "description": "Schluss mit dem manuellen Abgleich monatlicher Banküberweisungen und mit Tabellen zur Zuordnung von Pat:innen."
         },
         {
@@ -169,9 +169,9 @@
       ]
     },
     "money-pool": {
-      "title": "Money Pool & Gruppenspenden",
+      "title": "MoneyPool & Gruppenspenden",
       "shortDescription": "Gemeinsames Fundraising in Gruppen, geteilte Spendenziele und live sichtbarer Fortschritt für Schulen, Moschee­gemeinden, Kirchen und Ehrenamtsgruppen.",
-      "h1": "Money Pool und gemeinsames Spenden für gemeinnützige Organisationen",
+      "h1": "MoneyPool und gemeinsames Spenden für gemeinnützige Organisationen",
       "subheadline": "Ermöglichen Sie Unterstützer:innen, Gremien und Gemeinschaften, sich hinter gemeinsamen Spendenzielen zu versammeln – bei voller finanzieller Transparenz.",
       "heroKicker": "Gemeinsam spenden, gemeinsam bewegen",
       "problemsAddressed": [
@@ -191,7 +191,7 @@
       "howItWorks": [
         {
           "step": "01",
-          "title": "Verifizierten Money Pool starten",
+          "title": "Verifizierten MoneyPool starten",
           "description": "Erstellen Sie eine Gruppenspendenkampagne in Ihrem Design – mit Spendenziel, transparenter Kostenaufstellung und Frist."
         },
         {
@@ -229,7 +229,7 @@
           "description": "Ermöglichen Sie Ihren engagiertesten Botschafter:innen, gezielt für Wasserbrunnen, Nothilfepakete oder Schulsanierungen zu sammeln."
         },
         {
-          "title": "100 % konforme Buchhaltung",
+          "title": "Klare Nachweise für die Buchhaltung",
           "description": "Jede Spende im Gruppenpool erhält eine eigene Zuwendungs­bestätigung und wird direkt Ihrer Finanzbuchhaltung zugeordnet."
         },
         {
@@ -306,7 +306,7 @@
       "benefits": [
         {
           "title": "Nie mehr Jahresbeiträgen hinterherlaufen",
-          "description": "Automatisieren Sie Verlängerungen und wiederkehrende Lastschriften und senken Sie den Anteil überfälliger Zahlungen um bis zu 78 %."
+          "description": "Automatisieren Sie Verlängerungen und wiederkehrende Lastschriften, damit weniger Jahresbeiträge manuell nachverfolgt werden müssen."
         },
         {
           "title": "Korrekte Listen für Versammlungen und Abstimmungen",
@@ -345,7 +345,7 @@
         },
         {
           "title": "Hohe Transaktions- und Plattform­gebühren",
-          "description": "Viele allgemeine Plattformen behalten 5–10 % jeder Spende ein – Geld, das der eigentlichen Arbeit der Organisation fehlt."
+          "description": "Provisionen auf jede Spende fehlen am Ende der eigentlichen Arbeit der Organisation."
         }
       ],
       "howItWorks": [
@@ -376,7 +376,7 @@
         },
         {
           "title": "Übernahme der Gebühren durch Spender:innen",
-          "description": "Unterstützer:innen können optional die Transaktions­gebühren übernehmen – so werden bis zu 85 % der Gebühren gedeckt."
+          "description": "Unterstützer:innen können optional die Transaktionsgebühren übernehmen – so kommt mehr von jeder Spende bei Ihrer Organisation an."
         },
         {
           "title": "Eingebettete Widgets und ganzseitige Kampagnen",
@@ -385,8 +385,8 @@
       ],
       "benefits": [
         {
-          "title": "Spendenkonversion um 34 % steigern",
-          "description": "Ein moderner Checkout in 2 Schritten verzichtet auf unnötige Felder und ermöglicht sofortige Zahlungen per Mobile Wallet."
+          "title": "Einfacher Checkout auf jedem Gerät",
+          "description": "Ein kurzer Checkout in 2 Schritten ohne unnötige Felder – mit Wallet-Zahlungen, sofern Ihr Anbieter sie anbietet."
         },
         {
           "title": "Steuerliche Vorgaben automatisch erfüllen",
@@ -404,7 +404,7 @@
         },
         {
           "question": "Können wir länderspezifische Zuwendungs­bestätigungen erstellen?",
-          "answer": "Ja. Donorfit bietet offizielle Vorlagen für Zuwendungs­bestätigungen gemäß europäischem Gemeinnützigkeitsrecht, u. a. für Deutschland (Bestätigung über Geldzuwendungen), Österreich, Frankreich und Großbritannien."
+          "answer": "Donorfit bietet vordefinierte Vorlagen für die automatische Erstellung von Zuwendungsbestätigungen, z. B. für die deutsche Zuwendungsbestätigung. Welche Vorlagen zu Ihrem Land passen, klären Sie gern mit unserem Team."
         }
       ]
     },
@@ -421,7 +421,7 @@
         },
         {
           "title": "Stille Abwanderung durch abgelaufene Karten und fehlgeschlagene Überweisungen",
-          "description": "Bis zu 15 % der monatlichen Spender:innen gehen jährlich verloren – nur weil Karten ablaufen und niemand proaktiv nachfasst."
+          "description": "Regelmäßige Spender:innen gehen verloren, wenn Zahlungsdaten ablaufen und niemand rechtzeitig nachfasst."
         },
         {
           "title": "Manueller Support bei Betragsänderungen",
@@ -451,8 +451,8 @@
           "description": "Laden Sie einmalige Spender:innen genau im Moment größter Dankbarkeit ein, monatliche Förder:innen zu werden."
         },
         {
-          "title": "Automatische Aktualisierung von Kartendaten",
-          "description": "Abgelaufene oder neu ausgestellte Kartendaten werden nahtlos über die Bankinfrastruktur aktualisiert – ohne manuelle Kontaktaufnahme."
+          "title": "Erinnerung an Zahlungsdaten",
+          "description": "Erinnern Sie Unterstützer:innen, bevor ihre Zahlungsdaten ablaufen, damit sie sie rechtzeitig aktualisieren können."
         },
         {
           "title": "Flexibel pausieren und anpassen",
@@ -465,22 +465,22 @@
       ],
       "benefits": [
         {
-          "title": "Planbare monatliche Arbeit",
+          "title": "Planbarer laufender Betrieb",
           "description": "Stabilisieren Sie Ihr Budget, damit Programmverantwortliche sich auf langfristige Gemeinschaftsprojekte festlegen können."
         },
         {
-          "title": "Über 60 % gefährdeter regelmäßiger Spenden zurückgewinnen",
-          "description": "Automatische Mahn-E-Mails und intelligente Wiederholungslogik holen fehlgeschlagene regelmäßige Spenden zurück – ohne unangenehme Anrufe."
+          "title": "Fehlgeschlagene Zahlungen nachverfolgen",
+          "description": "Erinnerungen und erneute Einzugsversuche bei fehlgeschlagenen regelmäßigen Zahlungen – ohne unangenehme Anrufe."
         },
         {
-          "title": "5-fach höherer Lifetime Value",
-          "description": "Regelmäßige Spender:innen geben über ihre gesamte Spendendauer im Schnitt 5,4-mal mehr als Einmalspender:innen."
+          "title": "Längere Beziehungen zu Unterstützer:innen",
+          "description": "Regelmäßige Spenden halten Unterstützer:innen über eine einzelne Spende hinaus mit Ihrer Arbeit verbunden."
         }
       ],
       "faqs": [
         {
           "question": "Wie verhindert Donorfit fehlgeschlagene regelmäßige Zahlungen?",
-          "answer": "Donorfit nutzt Erinnerungen vor dem Einzug, automatische Kartendaten-Updates der Kartennetzwerke und intelligente Wiederholungspläne (Einzugsversuche an typischen europäischen Zahltagen), um die Einzugsquote zu maximieren."
+          "answer": "Donorfit nutzt Erinnerungen, bevor Zahlungsdaten ablaufen, und automatische erneute Einzugsversuche bei fehlgeschlagenen Zahlungen. Was im Einzelfall möglich ist, hängt von Ihrem Zahlungsanbieter ab."
         },
         {
           "question": "Können Spender:innen ihre regelmäßige Spende einfach kündigen oder ändern?",
@@ -553,8 +553,8 @@
           "description": "Erkennen Sie aufstrebende Unterstützer:innen, deren Gesamtspenden sie für eine persönliche Großspenderbetreuung qualifizieren."
         },
         {
-          "title": "Garantierte DSGVO-Konformität",
-          "description": "Von Grund auf nach europäischen Datenschutz­vorgaben entwickelt – für die Gewissheit von Vorstand und Stiftungsrat."
+          "title": "Für DSGVO-Anforderungen entwickelt",
+          "description": "Auf europäische Datenschutzvorgaben ausgerichtet, damit Ihre Organisation ihre Datenschutzpflichten erfüllen kann."
         }
       ],
       "faqs": [
@@ -564,7 +564,7 @@
         },
         {
           "question": "Werden Spenderdaten innerhalb der Europäischen Union gespeichert?",
-          "answer": "Ja. Alle Kundendaten von Donorfit werden in ISO-27001-zertifizierten europäischen Rechenzentren gehostet – streng DSGVO-konform und ohne unbefugte Datenübermittlungen."
+          "answer": "Donorfit wird von der MYFUNDBOX GmbH in Deutschland bereitgestellt und verarbeitet personenbezogene Daten gemäß DSGVO. Details zu Hosting und Dienstleistern finden Sie in unserer Datenschutzerklärung und im Auftragsverarbeitungsvertrag."
         }
       ]
     },
@@ -630,7 +630,7 @@
         },
         {
           "title": "Dringlichkeit durch Matching erzeugen",
-          "description": "Kampagnen mit sichtbarem Matching durch Unternehmen erzielen bis zu 51 % mehr Spenden insgesamt."
+          "description": "Zeigen Sie Matching durch Unternehmen auf der Kampagnenseite, damit Unterstützer:innen sehen, wie sich ihre Spende vervielfacht."
         },
         {
           "title": "Marketingbudget optimieren",
@@ -821,7 +821,7 @@
         },
         "confirmMonthly": "{{amount}} monatlich bestätigen",
         "confirmSingle": "Spende über {{amount}} bestätigen",
-        "ssl": "SSL 256-Bit",
+        "ssl": "256-Bit-SSL",
         "receipt": "Zuwendungs­bestätigung wird sofort erstellt"
       },
       "sponsorship": {
@@ -842,7 +842,7 @@
         "privacy": "Datenschutz-Einwilligung der Vormünder geprüft. Sensible Standortdaten gemäß EU-Kinderschutzrichtlinien verschlüsselt."
       },
       "moneyPool": {
-        "title": "Verifizierter Gruppen-Money-Pool",
+        "title": "Verifizierter Gruppen-MoneyPool",
         "ofGoal": "{{pct}} des Ziels",
         "campaign": "Initiative für solare Wasserentsalzung",
         "organizer": "Organisiert von der Kölner Gemeinschaftshilfe · Direkte Abrechnung mit der NGO",
@@ -896,7 +896,7 @@
       "badgeSponsorship": "Patenschaft",
       "settled": "Verbucht",
       "card": "Karte",
-      "securityNote": "Alle Zahlungen werden mit 256-Bit-TLS-Verschlüsselung und nach ISO-27001-Standards verarbeitet.",
+      "securityNote": "Zahlungen werden über verschlüsselte Verbindungen von Ihrem verbundenen Zahlungsanbieter verarbeitet.",
       "receiptAutomation": "{{pct}} automatisierte Zuwendungs­bestätigungen",
       "locations": {
         "munich": "München, Deutschland",
@@ -950,7 +950,8 @@
           "footer": "Nächstes geplantes Update: 20. Nov. 2026",
           "status": "Kinderschutzprüfung OK"
         }
-      }
+      },
+      "exampleData": "Beispieldaten"
     }
   }
 }

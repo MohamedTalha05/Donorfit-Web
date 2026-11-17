@@ -1,0 +1,99 @@
+{
+  "logos": {
+    "title": "Gemeinnützige Vereine, Stiftungen und Hilfsorganisationen vertrauen Donorfit",
+    "body": "Organisationen nutzen Donorfit, um ihr Fundraising zu organisieren, Spenden zu verwalten und mit ihren Unterstützern in Kontakt zu bleiben.",
+    "compactTitle": "Organisationen, die bereits mit Donorfit Spenden sammeln",
+    "regionLabel": "Logos von Organisationen, die Donorfit nutzen"
+  },
+  "testimonials": {
+    "listLabel": "Kundenstimmen",
+    "prev": "Vorherige Kundenstimmen",
+    "next": "Nächste Kundenstimmen",
+    "devPlaceholder": "Entwicklungsvorschau: nur Musterkarten. Dieser Abschnitt ist auf der Live-Website ausgeblendet, bis freigegebene Kundenstimmen für „{{page}}“ in src/data/testimonials.ts eingetragen sind.",
+    "sample": {
+      "badge": "Muster · nur Entwicklung",
+      "quote": "Platzhalter für eine freigegebene Kundenstimme. Durch echten, freigegebenen Wortlaut in src/data/testimonials.ts ersetzen.",
+      "name": "Name der Person",
+      "role": "Funktion",
+      "organisation": "Organisation"
+    },
+    "pages": {
+      "home": {
+        "title": "Was unsere Kunden sagen",
+        "body": "Wie Organisationen mit Donorfit ihr Fundraising organisieren und ihre Unterstützer betreuen."
+      },
+      "membership": {
+        "title": "Was Organisationen über die Mitgliederverwaltung sagen",
+        "body": "Rückmeldungen von Organisationen, die Mitglieder, Tarife und Verlängerungen mit Donorfit verwalten."
+      },
+      "sponsorship": {
+        "title": "Was Organisationen über ihre Patenschaftsprogramme sagen",
+        "body": "Rückmeldungen von Organisationen, die über Donorfit Paten mit Kindern, Studierenden und Familien verbinden."
+      },
+      "money-pool": {
+        "title": "Was Organisatoren über MoneyPool sagen",
+        "body": "Rückmeldungen zu Gruppen-Fundraising und gemeinsamen Sammlungen mit MoneyPool."
+      },
+      "water-well": {
+        "title": "Was Organisationen über Fundraising für Wasserbrunnen sagen",
+        "body": "Rückmeldungen von Organisationen, die Brunnenprojekte finanzieren und ihren Spendern mit Donorfit berichten."
+      },
+      "qurbani": {
+        "title": "Was Organisationen über ihre Qurbani-Kampagnen sagen",
+        "body": "Rückmeldungen von Organisationen, die Qurbani-Bestellungen annehmen und die Verteilung mit Donorfit organisieren."
+      },
+      "donations": {
+        "title": "Was Organisationen über das Sammeln von Spenden sagen",
+        "body": "Rückmeldungen zu Spendenformularen, Kampagnen und Zuwendungsbestätigungen in Donorfit."
+      },
+      "payment-gateways": {
+        "title": "Was Organisationen über die Zahlungsabwicklung sagen",
+        "body": "Rückmeldungen zur Anbindung von Zahlungsanbietern und zum Empfang von Spenden über Donorfit."
+      },
+      "recurring-management": {
+        "title": "Was Organisationen über regelmäßige Spenden sagen",
+        "body": "Rückmeldungen zur Verwaltung wiederkehrender Spenden, Verlängerungen und fehlgeschlagener Zahlungen."
+      },
+      "donor-management": {
+        "title": "Was Organisationen über die Verwaltung von Spenderdaten sagen",
+        "body": "Rückmeldungen dazu, Spenderdaten, Spendenhistorie und Kommunikation an einem Ort zu führen."
+      },
+      "reporting-and-insights": {
+        "title": "Was Organisationen über Berichte sagen",
+        "body": "Rückmeldungen zu Berichten, Exporten und dem Überblick über Fundraising-Ergebnisse."
+      },
+      "campaign-management": {
+        "title": "Was Organisationen über das Kampagnenmanagement sagen",
+        "body": "Rückmeldungen zur Planung, Durchführung und Nachbereitung von Spendenkampagnen."
+      },
+      "orphan-sponsorship": {
+        "title": "Was Organisationen über Waisenpatenschaften sagen",
+        "body": "Rückmeldungen von Organisationen, die Waisenpatenschaften mit Donorfit verwalten."
+      },
+      "solutions/for-ngos": {
+        "title": "Was NGOs über Donorfit sagen",
+        "body": "Rückmeldungen von NGOs, die mit Donorfit Kampagnen durchführen und ihre Unterstützer verwalten."
+      },
+      "solutions/for-charities": {
+        "title": "Was gemeinnützige Organisationen über Donorfit sagen",
+        "body": "Rückmeldungen von gemeinnützigen Organisationen, die mit Donorfit Spenden sammeln und ihren Unterstützern berichten."
+      },
+      "solutions/for-foundations": {
+        "title": "Was Stiftungen über Donorfit sagen",
+        "body": "Rückmeldungen von Stiftungen, die Mittel, Projekte und Spender mit Donorfit verwalten."
+      },
+      "solutions/for-sponsorship-orgs": {
+        "title": "Was Patenschaftsorganisationen über Donorfit sagen",
+        "body": "Rückmeldungen von Organisationen, die ihre Patenschaftsprogramme mit Donorfit durchführen."
+      },
+      "solutions/for-membership-orgs": {
+        "title": "Was Mitgliederorganisationen über Donorfit sagen",
+        "body": "Rückmeldungen von Vereinen und Verbänden, die Mitglieder und Beiträge mit Donorfit verwalten."
+      },
+      "solutions/for-international-orgs": {
+        "title": "Was internationale Organisationen über Donorfit sagen",
+        "body": "Rückmeldungen von Organisationen, die mit Donorfit über Länder, Währungen und Sprachen hinweg Spenden sammeln."
+      }
+    }
+  }
+}

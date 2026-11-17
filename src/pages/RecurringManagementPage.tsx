@@ -28,6 +28,9 @@ import { APP_SIGNUP_URL } from '../data/links.ts';
 import { PAYMENT_INTEGRATIONS, integrationPath, getIntegration } from '../data/integrations.ts';
 import { CONTAINER, PSection, SectionTitle } from '../components/product/ProductKit.tsx';
 
+import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../components/social/TestimonialSection.tsx';
+import ContentPhoto from '../components/ContentPhoto.tsx';
 /**
  * Recurring payments are explicitly documented only for GoCardless
  * (integrations.json → pages.gocardless.offered: "One-off and recurring payments").
@@ -183,6 +186,7 @@ export default function RecurringManagementPage() {
                 {p}
               </p>
             ))}
+            <ContentPhoto photo="recurring" className="mt-10 max-w-2xl" />
           </div>
           <ul className="space-y-4 self-center">
             {areas.map((a, i) => {
@@ -241,6 +245,9 @@ export default function RecurringManagementPage() {
           </ul>
         </div>
       </PSection>
+
+      {/* Customer logos */}
+      <CustomerLogoSection id="rm-customers" compact />
 
       {/* 5. Gateways */}
       <PSection tone="soft" labelledBy="rm-gateways">
@@ -344,6 +351,8 @@ export default function RecurringManagementPage() {
           </ul>
         </div>
       </PSection>
+
+      <TestimonialSection page="recurring-management" />
 
       {/* 7. Pricing */}
       <PSection labelledBy="rm-pricing">

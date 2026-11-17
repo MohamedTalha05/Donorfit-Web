@@ -27,18 +27,7 @@
       }
     ]
   },
-  "trusted": {
-    "verifiedTitle": "Organisationen mit wichtiger Mission vertrauen uns",
-    "fallbackTitle": "Entwickelt für Organisationen, die ihren Gemeinschaften dienen",
-    "segments": [
-      "NGOs",
-      "Gemeinnützige Vereine",
-      "Stiftungen",
-      "Moschee­gemeinden",
-      "Patenschafts­programme",
-      "Mitgliedervereine"
-    ]
-  },
+
   "platform": {
     "eyebrow": "Plattform",
     "titleBefore": "Alles, was Sie für Ihr Fundraising brauchen,",
@@ -111,7 +100,7 @@
       },
       {
         "bold": "Fehlgeschlagene Zahlungen werden automatisch wiederholt",
-        "after": " – und Kartendaten bei Kartenwechsel aktualisiert."
+        "after": ", mit Erinnerungen, bevor Zahlungsdaten ablaufen."
       },
       {
         "bold": "Self-Service für Spender:innen",
@@ -162,9 +151,9 @@
     "title": "Jede Zahlungsart, die Ihre Unterstützer:innen wünschen",
     "description": "Akzeptieren Sie Bankzahlungen, Karten und Wallets über bewährte Zahlungs­anbieter – die Gelder gehen direkt auf das Bankkonto Ihrer Organisation.",
     "points": [
-      "Keine Plattform- oder Transaktionsgebühr von Donorfit für die Kernplattform.",
-      "Spender:innen können die Transaktions­gebühren freiwillig übernehmen.",
-      "Mehrwährungs-Checkout in EUR, GBP, USD, CHF und weiteren Währungen."
+      "Donorfit ist kostenlos nutzbar; Transaktionsgebühren legt Ihr Zahlungsanbieter fest.",
+      "Spender:innen können die Transaktionsgebühren freiwillig übernehmen.",
+      "Verfügbare Währungen hängen von Ihrem Zahlungsanbieter und Ihrem Konto ab."
     ],
     "gatewaysLabel": "Zahlungs­anbieter:",
     "link": "Preise ansehen",
@@ -173,9 +162,9 @@
         "title": "Bankzahlungen",
         "items": [
           "SEPA-Lastschrift",
+          "Bacs-Lastschrift",
           "iDEAL",
-          "Bancontact",
-          "Sofort / Klarna"
+          "Bancontact"
         ]
       },
       {
@@ -199,7 +188,7 @@
   "integrations": {
     "eyebrow": "Integrationen",
     "title": "Funktioniert mit den Tools, die Sie bereits nutzen",
-    "description": "Verbinden Sie Zahlungen, Buchhaltung und Ihre Website – und nehmen Sie Ihre Daten jederzeit mit.",
+    "description": "Verbinden Sie Zahlungsanbieter, Newsletter-Tools und Ihre Website.",
     "link": "Partner & Integrationen ansehen",
     "groups": [
       {
@@ -207,22 +196,24 @@
         "items": [
           "Stripe",
           "PayPal",
-          "SEPA-Lastschrift"
+          "GoCardless",
+          "Mollie",
+          "Micropayment"
         ]
       },
       {
-        "title": "Buchhaltung & Exporte",
+        "title": "Daten & Workflows",
         "items": [
-          "DATEV-Export",
-          "CSV",
-          "Excel",
-          "JSON"
+          "API",
+          "Webhooks",
+          "Datenimport"
         ]
       },
       {
-        "title": "CRM",
+        "title": "Newsletter",
         "items": [
-          "Salesforce Nonprofit Cloud"
+          "Mailchimp",
+          "Brevo"
         ]
       },
       {
@@ -245,9 +236,9 @@
     "items": [
       {
         "title": "NGOs",
-        "description": "Führen Sie Spendenaufrufe über Länder und Währungen hinweg durch – und weisen Sie jede Spende Ihren Programmen vor Ort nachvollziehbar zu.",
+        "description": "Führen Sie Spendenaufrufe für Ihre Programme durch und ordnen Sie jede Spende nachvollziehbar dem unterstützten Projekt zu.",
         "points": [
-          "Mehrwährungs-Checkout, lokalisiert",
+          "Währungen gemäß Ihrem Zahlungsanbieter",
           "Zweckgebundene Mittel nachverfolgen",
           "Prüfungsfähige Exporte"
         ]
@@ -305,7 +296,7 @@
   "cta": {
     "titleBefore": "Geben Sie Ihrem Team mehr Zeit für",
     "titleHighlight": "Ihre Mission",
-    "description": "Registrieren Sie Ihre Organisation und nehmen Sie Spenden entgegen – die meisten Organisationen sind innerhalb von ein bis zwei Werktagen live.",
+    "description": "Registrieren Sie Ihre Organisation, verbinden Sie einen Zahlungsanbieter und nehmen Sie Spenden an.",
     "points": {
       "price": "Kernplattform für {{price}} pro Monat",
       "noFees": "Keine Plattform- oder Transaktionsgebühr",
@@ -445,7 +436,7 @@
         "alt": "Eine Lehrerin unterrichtet Schüler:innen in Schuluniform in einem Klassenzimmer"
       },
       "moneypool": {
-        "name": "Money Pool",
+        "name": "MoneyPool",
         "alt": "Freiwillige stehen bei einer Spendensammlung in der Gemeinde gemeinsam hinter Spendenboxen"
       }
     },

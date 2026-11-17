@@ -3,7 +3,7 @@
     "hero": {
       "badge": "Über Donorfit",
       "title": "Software für Fundraising und Organisation – für alle, die sich für gute Zwecke einsetzen.",
-      "body": "Donorfit ist eine Plattform für NGOs, gemeinnützige Organisationen, Stiftungen, Moschee­gemeinden und Gemeinschafts­organisationen. Sie bringt Spenden, Mitgliedschaften, Patenschaften und Kampagnen an einem Ort zusammen – damit die Menschen, die sie betreuen, weniger Zeit mit Verwaltung verbringen und mehr Zeit für die eigentliche Arbeit haben."
+      "body": "Donorfit ist eine Plattform für NGOs, gemeinnützige Organisationen, Stiftungen, Moschee­gemeinden und Gemeinschafts­organisationen. Sie bringt Spenden, Mitgliedschaften, Patenschaften und Kampagnen an einem Ort zusammen – damit die Menschen, die sie tragen und führen, weniger Zeit mit Verwaltung verbringen und mehr Zeit für die eigentliche Arbeit haben."
     },
     "photos": {
       "main": "Freiwillige in Warnwesten sortieren gespendete Kleidung und Hilfsgüter",
@@ -128,7 +128,7 @@
     },
     "cost": {
       "title": "So funktionieren die Preise",
-      "p1": "Die Donorfit-Basisplattform ist für 0 € pro Monat verfügbar – ohne Plattformgebühr und ohne Transaktionsgebühr von Donorfit. Spender:innen können die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält.",
+      "p1": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren legt der gewählte Zahlungsanbieter fest. Spender:innen können die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält.",
       "p2": "Spezialisierte Add-ons wie CRM, regelmäßige Spenden, Patenschaften, Mitgliedschaften und Qurbani werden separat erworben – Sie zahlen also nur für die Module, die Sie nutzen. Die Plattform unterstützt 5 Sprachen und 39 Währungen.",
       "link": "Preisdetails ansehen"
     },
@@ -289,16 +289,16 @@
       "titleHighlight": "Weniger Gebühren.",
       "intro": "Alles, was Ihre gemeinnützige Organisation braucht, um Spenden zu sammeln, Spender:innen zu verwalten und Fundraising zu vereinfachen – alles an einem Ort.",
       "badges": [
-        "0 % Plattformgebühr",
-        "0 % Transaktionsgebühr"
+        "0 % Donorfit-Plattformgebühr",
+        "Gebühren legt Ihr Zahlungsanbieter fest"
       ],
       "startFree": "Kostenlos mit dem Fundraising starten"
     },
     "plan": {
       "eyebrow": "Einfache, transparente Preise",
-      "title": "Umfassende Fundraising-Lösungen, die mit Organisationen jeder Größe mitwachsen.",
-      "badge": "Keine Gebühren",
-      "name": "All-in-one-Fundraising-Plattform ohne Gebühren",
+      "title": "Vollständige Fundraising-Werkzeuge für Organisationen jeder Größe.",
+      "badge": "Kostenlos nutzbar",
+      "name": "All-in-one-Fundraising-Plattform – kostenlos nutzbar",
       "perMonth": "/ Monat",
       "cta": "Jetzt starten",
       "noteCoverFee": "*Option, Spender:innen die Transaktions­gebühren übernehmen zu lassen, damit Ihre Organisation den vollen Betrag erhält.",
@@ -309,12 +309,12 @@
       "seeNote": "siehe Hinweis",
       "features": [
         "Keine Plattformgebühr",
-        "Keine Transaktionsgebühr",
+        "Keine Transaktionsgebühr von Donorfit – Gebühren des Zahlungsanbieters können anfallen",
         "Zugriff auf grundlegende Berichte und Dashboards",
         "Eingebettete Spenden­formulare mit Anpassungsmöglichkeiten",
-        "Zahlreiche Zahlungsarten wie PayPal, Kreditkarte, Google Pay, Apple Pay, SEPA, Bancontact, EPS, iDEAL",
+        "Zahlreiche Zahlungsarten über Ihren Zahlungsanbieter, z. B. PayPal, Kreditkarte, Google Pay, Apple Pay, SEPA, Bancontact, EPS und iDEAL",
         "Touchpoints für alle Ihre Kanäle erstellen",
-        "QR-Codes zum Aufrufen der Spendenbox erstellen",
+        "QR-Codes für Ihre Spendenbox erstellen",
         "Grundlegende E-Mail-Funktionen für Systembenachrichtigungen (ein/aus)",
         "Vordefinierte Vorlagen für die automatische Erstellung von Zuwendungs­bestätigungen",
         "Flexible Gebühren­übernahme durch Spender:innen",
@@ -380,7 +380,7 @@
     },
     "billing": {
       "eyebrow": "Starten Sie mit Donorfit",
-      "title": "Gewinnen Sie mehr Spender:innen und wachsen Sie.",
+      "title": "Werkzeuge für Ihr laufendes Fundraising.",
       "items": {
         "automatedBilling": "Automatisierte Abrechnung",
         "paymentProcessing": "Einfache Zahlungsabwicklung",
@@ -389,7 +389,7 @@
         "subscriptions": "Abonnementverwaltung",
         "recurringBilling": "Wiederkehrende Abrechnung",
         "scalability": "Skalierbarkeit",
-        "compliance": "Globale Compliance"
+        "compliance": "DSGVO-orientierte Verarbeitung"
       }
     },
     "faq": {
@@ -398,7 +398,7 @@
       "items": [
         {
           "q": "Was ist Donorfit und welchen Nutzen hat es für uns?",
-          "a": "Donorfit ist eine Fundraising-Plattform, mit der gemeinnützige Organisationen Spenden sammeln, Spender:innen verwalten, Interaktionen nachverfolgen und ihre Ansprache personalisieren – damit Sie das Spendenaufkommen steigern und Unterstützer:innen länger binden."
+          "a": "Donorfit ist eine Fundraising-Plattform, mit der gemeinnützige Organisationen Spenden sammeln, Spender:innen verwalten, Interaktionen nachverfolgen und ihre Ansprache personalisieren – mit weniger manueller Verwaltungsarbeit."
         },
         {
           "q": "Wie einfach lässt sich Donorfit einrichten und nutzen?",
@@ -406,11 +406,11 @@
         },
         {
           "q": "Welche Zahlungsarten stehen für Spenden in Donorfit zur Verfügung?",
-          "a": "Donorfit unterstützt über Zahlungs-Gateways wie Stripe, GoCardless, Mollie und PayPal mehr als 15 Zahlungsarten für Spenden."
+          "a": "Donorfit arbeitet mit Zahlungs-Gateways wie Stripe, PayPal, GoCardless, Mollie und Micropayment, die zusammen mehr als 15 Zahlungsarten anbieten. Welche davon Sie nutzen können, hängt vom verbundenen Anbieter und Ihrem Konto dort ab."
         },
         {
           "q": "Kann ich mit Donorfit internationale Spenden annehmen?",
-          "a": "Ja. Über dieselben Zahlungs-Gateways können Sie Zuwendungen in mehr als 135 Währungen annehmen."
+          "a": "Internationale Spenden werden über Ihren Zahlungsanbieter abgewickelt. Anbieter wie Stripe und PayPal unterstützen viele Währungen; welche Länder und Währungen Ihnen zur Verfügung stehen, hängt vom Anbieter und Ihrer Kontokonfiguration ab."
         }
       ],
       "moreBefore": "Weitere Fragen?",
@@ -419,7 +419,7 @@
     },
     "closing": {
       "title": "Behalten Sie mehr von jeder Spende für Ihre Mission.",
-      "text": "Keine Plattformgebühr. Keine Transaktionsgebühr. Sammeln Sie noch heute Spenden.",
+      "text": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren legt der gewählte Zahlungsanbieter fest. Sammeln Sie noch heute Spenden.",
       "contactSales": "Vertrieb kontaktieren"
     }
   },
@@ -429,9 +429,9 @@
       "title": "Sicherheit, Privatsphäre und Datenschutz bei Donorfit",
       "intro": "Gemeinnützige Organisationen schützen besonders verletzliche Gemeinschaften und gehen verantwortungsvoll mit großzügiger öffentlicher Unterstützung um. Wir verpflichten uns zu höchsten Standards bei Transparenz, Datenschutz und technischer Ausfallsicherheit.",
       "badges": [
-        "Souveränes Hosting in der EU",
-        "Vollständiger AVV nach Art. 28 DSGVO",
-        "Gateway-Architektur nach PCI-DSS Level 1"
+        "Bereitgestellt von der MYFUNDBOX GmbH, Deutschland",
+        "Auftragsverarbeitungsvertrag (Art. 28 DSGVO)",
+        "Kartenzahlungen über Zahlungsanbieter"
       ]
     },
     "pillars": {
@@ -454,19 +454,19 @@
       "intro": "Wir verfolgen über den gesamten Anwendungslebenszyklus einen mehrschichtigen Sicherheitsansatz (Defense in Depth), um die Arbeit gemeinnütziger Organisationen vor unbefugtem Zugriff, Störungen und Datenverlust zu schützen.",
       "encryption": {
         "title": "Verschlüsselung bei Übertragung & Speicherung",
-        "text": "Alle Daten, die zwischen Browsern, Mobilgeräten und Donorfit-Servern übertragen werden, sind durch Transport Layer Security (TLS 1.3) geschützt. Sensible Datenbanken und Backup-Snapshots werden mit Schlüsseln nach dem AES-256-Standard verschlüsselt."
+        "text": "Verbindungen zwischen Browsern und Donorfit sind per TLS (HTTPS) verschlüsselt. Die technischen und organisatorischen Maßnahmen (TOMs) zum Schutz gespeicherter Daten sind im Auftragsverarbeitungsvertrag dokumentiert."
       },
       "payments": {
         "title": "Sicherheit im Zahlungs- & Bankverkehr",
-        "text": "Spenden und regelmäßige Spendenzusagen werden über PCI-DSS-zertifizierte europäische Zahlungsdienstleister abgewickelt. Lastschriften folgen den Regeln des europäischen EPC-Verfahrens für SEPA-Lastschriften, mit validierten IBAN-Prüfsummen und kryptografisch sicheren Mandatsreferenzen."
+        "text": "Karten- und Wallet-Zahlungen werden vom verbundenen Zahlungsanbieter wie Stripe, PayPal oder Mollie verarbeitet, der für die PCI-DSS-Konformität verantwortlich ist. Lastschriften folgen den SEPA-Regeln, die der Anbieter anwendet."
       },
       "redundancy": {
-        "title": "Redundanz & automatisierte Backups",
-        "text": "Der Anwendungszustand wird kontinuierlich gesichert – mit Point-in-Time-Recovery über isolierte Verfügbarkeitszonen in der EU. Notfallwiederherstellungspläne und Simulationen zur Datenwiederherstellung werden regelmäßig durchgeführt."
+        "title": "Hosting & Backups",
+        "text": "Angaben zu Hosting-Standorten, Backups und Wiederherstellung sind Teil der technischen und organisatorischen Maßnahmen im Auftragsverarbeitungsvertrag. Die aktuelle Dokumentation erhalten Sie von unserem Team."
       },
       "safeguarding": {
         "title": "Schutz von Kindern & Begünstigten",
-        "text": "Bei Waisen- und Kinder­patenschaften werden sensible Standortangaben und Familienidentitäten durch strikte Rollengrenzen abgeschirmt. Öffentlich sichtbare Profile erfordern dokumentierte ausdrückliche Einwilligungen und eine automatisierte Schwärzung identifizierender Merkmale."
+        "text": "Bei Kinder- und Begünstigtenpatenschaften begrenzen rollenbasierte Berechtigungen, wer sensible Angaben wie Aufenthaltsorte und Familieninformationen sehen kann. Veröffentlichen Sie nur, was Begünstigte bzw. ihre Erziehungsberechtigten freigegeben haben."
       }
     },
     "gdpr": {
@@ -497,16 +497,16 @@
       "title": "Fragen zu Sicherheit & Vertrauen",
       "items": [
         {
-          "question": "Wo werden die Daten der Donorfit-Plattform physisch gehostet?",
-          "answer": "Alle Produktionsdatenbanken, Anwendungsserver und Backups werden innerhalb der Europäischen Union (Deutschland und Irland) in Rechenzentren gehostet, die ISO/IEC 27001, SOC 2 Type II und PCI-DSS erfüllen. Wir wahren konsequent die Daten­souveränität in der EU."
+          "question": "Wo werden die Daten von Donorfit gehostet?",
+          "answer": "Donorfit wird von der MYFUNDBOX GmbH in Wolfsburg bereitgestellt. Angaben zu Hosting-Standorten und eingesetzten Dienstleistern finden Sie in unserer Datenschutzerklärung und im Auftragsverarbeitungsvertrag."
         },
         {
           "question": "Speichert Donorfit Kreditkartennummern oder Bankpasswörter von Spender:innen?",
-          "answer": "Nein. Donorfit speichert niemals unverschlüsselte Kreditkartennummern oder sensible Zahlungs-Authentifizierungsdaten auf unseren Anwendungsservern. Die gesamte Zahlungsabwicklung erfolgt tokenisiert über zertifizierte Zahlungs-Gateways nach PCI-DSS Level 1 (etwa Stripe sowie europäische Lastschriftverfahren der Banken)."
+          "answer": "Karten- und Wallet-Daten werden beim verbundenen Zahlungsanbieter wie Stripe, PayPal oder Mollie eingegeben und dort verarbeitet. Der Anbieter ist für die PCI-DSS-Konformität dieser Zahlungen verantwortlich."
         },
         {
           "question": "Wie handhaben Sie Auftragsverarbeitungsverträge (AVV)?",
-          "answer": "Jede gemeinnützige Organisation, die Donorfit nutzt, schließt einen rechtsverbindlichen Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO ab, in dem standardisierte technische und organisatorische Maßnahmen (TOM) klar festgelegt sind."
+          "answer": "Organisationen, die Donorfit nutzen, können einen Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO einschließlich der technischen und organisatorischen Maßnahmen (TOMs) abschließen. Wenden Sie sich dafür an unser Team."
         },
         {
           "question": "Wie schützen Sie sensible Daten von Kindern und Begünstigten in Patenschafts­programmen?",
@@ -514,14 +514,14 @@
         },
         {
           "question": "Wie sieht Ihr Verfahren zur Reaktion auf Sicherheitsvorfälle aus?",
-          "answer": "Im unwahrscheinlichen Fall einer Verletzung der Sicherheit oder des Schutzes personenbezogener Daten sieht unser Incident-Response-Plan vor, die betroffenen Verantwortlichen innerhalb von 24 bis 72 Stunden in strikter Übereinstimmung mit den gesetzlichen Vorgaben der DSGVO zu benachrichtigen und sofortige Eindämmungsmaßnahmen zu ergreifen."
+          "answer": "Betrifft eine Verletzung des Schutzes personenbezogener Daten Ihre Organisation, informieren wir Sie unverzüglich, damit Sie Ihre eigenen Pflichten nach der DSGVO erfüllen können, und ergreifen Maßnahmen zur Eindämmung."
         }
       ]
     },
     "contact": {
       "title": "Sicherheitsanfragen & Meldung von Schwachstellen",
       "text": "Wenn Ihr Sicherheits- oder Compliance-Team einen individuellen Sicherheitsfragebogen oder eine Prüfung des AVV benötigt oder eine mögliche Schwachstelle melden möchte, wenden Sie sich direkt an unser Sicherheitsteam:",
-      "pgp": "PGP-Schlüssel auf Anfrage erhältlich",
+      "pgp": "Wir beantworten jede Sicherheitsmeldung",
       "button": "Compliance-Team kontaktieren"
     }
   },
@@ -537,42 +537,42 @@
         "title": "Digitalagenturen für gemeinnützige Organisationen",
         "description": "Webagenturen und Digitalstrateg:innen, die individuelle Spendenseiten und Kampagnenarchitekturen für gemeinnützige Organisationen in ganz Europa umsetzen.",
         "benefits": [
-          "Eigene Sandbox-Umgebungen",
-          "Direkter technischer Eskalationskanal",
-          "Gemeinsame Marketingmöglichkeiten mit Partnern"
+          "Einbettbare Spendenbox für Websites Ihrer Kund:innen",
+          "API und Webhooks",
+          "Direkter Kontakt zu unserem Team"
         ]
       },
       {
         "title": "Fundraising-Berater:innen",
         "description": "Unabhängige Fundraising-Berater:innen, die NGOs bei der Optimierung von Strategien für regelmäßiges Spenden, Mailing-Kampagnen und Programmen zur Spender­betreuung unterstützen.",
         "benefits": [
-          "Umfassende Plattform-Zertifizierungen",
-          "Vorteile bei Kundenempfehlungen",
-          "Toolkits für Strategie & Kohortenbindung"
+          "Produktdemos für die Organisationen, die Sie beraten",
+          "Überblick über Donorfit-Module und Preise",
+          "Direkter Kontakt zu unserem Team"
         ]
       },
       {
         "title": "Technologie- & CRM-Integratoren",
-        "description": "Spezialist:innen, die Donorfit mit Buchhaltungssystemen für Unternehmen (DATEV, SAP), CRM-Plattformen (Salesforce Non-Profit Cloud) und Marketing-Automatisierung verbinden.",
+        "description": "Spezialist:innen, die Donorfit über API und Webhooks mit Ihren bestehenden Systemen verbinden.",
         "benefits": [
-          "Offener Zugang zu REST-API und Webhooks",
-          "Unterstützung individueller Datenschemata",
-          "Beirat für gemeinsame Entwicklung"
+          "Zugriff auf API und Webhooks",
+          "Integrationen für Zahlungen und Newsletter",
+          "Direkter Kontakt zu unserem Team"
         ]
       }
     ],
     "integrations": {
-      "eyebrow": "Geprüfte Integrationen",
-      "title": "Nahtlos verbunden mit den Tools, auf die Sie bereits setzen.",
-      "intro": "Donorfit unterstützt bidirektionale Integrationen und Exportformate für führende Buchhaltungs-, CRM- und Marketingplattformen im gemeinnützigen Sektor.",
+      "eyebrow": "Verfügbare Integrationen",
+      "title": "Verbunden mit den Tools, auf die Sie sich bereits verlassen.",
+      "intro": "Donorfit ist mit Zahlungsanbietern und Newsletter-Tools integriert und bietet eine API mit Webhooks für eigene Workflows.",
       "items": [
-        "SEPA-Lastschrift (EPC)",
-        "Stripe & Apple Pay",
-        "PayPal für gemeinnützige Organisationen",
-        "DATEV-Buchhaltung",
+        "Stripe",
+        "PayPal",
+        "GoCardless",
+        "Mollie",
+        "Micropayment",
         "Mailchimp & Brevo",
-        "Salesforce Nonprofit Cloud",
-        "Zapier & Webhooks"
+        "API & Webhooks"
       ]
     },
     "cta": {

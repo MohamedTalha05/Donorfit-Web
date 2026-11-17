@@ -68,13 +68,16 @@ function builtImage(imagePath) {
 
 /* ------------------------------------------------------------------ */
 
+/** "<title> | Donorfit Blog", or the shorter "| Donorfit" suffix when the full one would exceed ~65 characters. */
+const blogTitle = (title) => (title.length + 16 <= 65 ? `${title} | Donorfit Blog` : `${title} | Donorfit`);
+
 /** Same precedence as src/components/SEOHead.tsx. */
 function metaFor(route, lang) {
   const slug = route.slice(1);
   const productSeo = products[lang]?.pages?.[slug]?.seo;
   if (productSeo?.title) return productSeo;
   const text = postFor(route)?.[lang];
-  if (text) return { title: text.seoTitle ?? `${text.title} | Donorfit Blog`, description: text.metaDescription ?? text.excerpt };
+  if (text) return { title: text.seoTitle ?? blogTitle(text.title), description: text.metaDescription ?? text.excerpt };
   return seo[lang].routes[route] ?? seo[lang].routes['/'];
 }
 
@@ -111,6 +114,8 @@ function render(route, lang) {
   let html = shell
     .replace(/<html([^>]*)\blang="[^"]*"/, `<html$1lang="${lang}"`)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
+    // Social crawlers need absolute image URLs.
+    .replace(/(<meta\s+(?:property="og:image"|name="twitter:image")\s+content=")\//g, `$1${SITE}/`)
     // Drop tags SEOHead manages, then add the per-route set.
     .replace(/\s*<meta\s+name="description"[^>]*>/gi, '')
     .replace(/\s*<meta\s+property="og:(title|description|url|locale)"[^>]*>/gi, '')
@@ -141,6 +146,9 @@ for (const p of urls) {
     const dir = path.join(dist, ...p.split('/').filter(Boolean));
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), html);
+    // GitHub Pages answers /pricing with a 301 to /pricing/ when only pricing/index.html exists.
+    // A sibling pricing.html is served directly at /pricing, so canonical URLs (no trailing slash) return 200.
+    fs.writeFileSync(`${dir}.html`, html);
   }
   written++;
 }

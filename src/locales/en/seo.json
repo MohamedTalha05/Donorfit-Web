@@ -45,7 +45,7 @@
       "description": "Embed donation forms, generate QR codes and create receipts automatically. A free fundraising platform for everyday charity work."
     },
     "/solutions/for-foundations": {
-      "title": "Donorfit for Foundations: Programmes, Donor Histories and Reporting",
+      "title": "Donorfit for Foundations: Programmes, Donors and Reporting",
       "description": "Run each programme as its own campaign, keep donor histories in one place and connect your systems via API. Free to use."
     },
     "/solutions/for-sponsorship-orgs": {
@@ -53,7 +53,7 @@
       "description": "Link sponsors, beneficiaries and monthly contributions in one record and share progress through a secure sponsor portal."
     },
     "/solutions/for-membership-orgs": {
-      "title": "Donorfit for Membership Organisations: Sign-ups, Dues and Renewals",
+      "title": "Donorfit for Membership Organisations: Dues and Renewals",
       "description": "Register members, set up plans, collect dues and run renewals for your association or club with Donorfit Membership."
     },
     "/solutions/for-international-orgs": {
@@ -62,7 +62,7 @@
     },
     "/about": {
       "title": "About Donorfit — Fundraising & Organisation Management Platform",
-      "description": "Donorfit helps NGOs, nonprofits, charitable trusts, masjids and community organisations manage fundraising, memberships, sponsorship, Qurbani and MoneyPool campaigns in one platform."
+      "description": "Donorfit is a fundraising and organisation management platform by MYFUNDBOX GmbH for NGOs, charities, foundations and community organisations."
     },
     "/contact": {
       "title": "Contact Donorfit — Questions, Support & Partnerships",
@@ -70,30 +70,30 @@
     },
     "/security": {
       "title": "Security, Privacy, and GDPR Compliance Architecture | Donorfit",
-      "description": "Discover Donorfit’s approach to European data sovereignty, ISO 27001 data centers, encryption, payment gateway compliance, and safeguarding."
+      "description": "How Donorfit approaches data protection: GDPR-aligned processing, data processing agreements, encrypted connections, payment provider security and safeguarding."
     },
     "/blog": {
       "title": "Donorfit Blog: Fundraising Insights, Ideas & Updates",
       "description": "Practical insights on fundraising, nonprofit management, digital donations, sponsorship and membership, plus updates from Donorfit."
     },
     "/guides": {
-      "title": "Practical Fundraising Guides & Toolkits for European NGOs | Donorfit",
-      "description": "Downloadable operational manuals, statutory tax compendiums, and SEPA direct debit playbooks for nonprofit leaders."
+      "title": "Practical Fundraising Guides for Nonprofits | Donorfit",
+      "description": "Practical articles for nonprofit teams on donation forms, campaigns, recurring payments, memberships and sponsorship programmes."
     },
     "/case-studies": {
-      "title": "Nonprofit Impact Stories & Quantified Case Studies | Donorfit",
-      "description": "Discover how European charities and international NGOs reduced churn by 42% and saved hundreds of administrative hours with Donorfit."
+      "title": "Case Studies: Donorfit Customer Stories | Donorfit",
+      "description": "Customer stories about how organisations use Donorfit are being prepared. Explore Donorfit for NGOs, charities, foundations and membership organisations."
     },
     "/faqs": {
-      "title": "Frequently Asked Questions — Nonprofit Platform & Payments | Donorfit",
+      "title": "FAQs: Nonprofit Fundraising Platform & Payments | Donorfit",
       "description": "Find answers to common questions about Donorfit implementation, SEPA Direct Debit, GDPR compliance, tax receipts, and pricing."
     },
     "/pricing": {
-      "title": "Pricing — Zero Platform & Transaction Fees | Donorfit",
-      "description": "Donorfit is an all-in-one fundraising platform for €0 per month: no platform fee and no transaction fee. Collect donations, manage donors and add CRM, recurring, sponsorship and membership modules as you grow."
+      "title": "Pricing – Free Fundraising Platform | Donorfit",
+      "description": "Donorfit is free to use. Payment gateway transaction charges are set by your chosen provider. See what is included and the add-ons available."
     },
     "/integrations": {
-      "title": "Integrations — Stripe, PayPal, Mollie, Mailchimp & More | Donorfit",
+      "title": "Integrations: Stripe, PayPal, Mollie, Mailchimp | Donorfit",
       "description": "Connect Donorfit with the payment providers Stripe, PayPal, GoCardless, Micropayment and Mollie, and with the email platforms Brevo and Mailchimp."
     },
     "/payment-gateways": {
@@ -110,7 +110,7 @@
     },
     "/integrations/gocardless": {
       "title": "GoCardless Integration | Donorfit",
-      "description": "Collect one-off and regular gifts by bank debit through GoCardless."
+      "description": "Collect one-off and recurring gifts, membership fees and sponsorships by SEPA or Bacs direct debit through the GoCardless integration in Donorfit."
     },
     "/integrations/micropayment": {
       "title": "Micropayment Integration | Donorfit",
@@ -118,7 +118,7 @@
     },
     "/integrations/mollie": {
       "title": "Mollie Integration | Donorfit",
-      "description": "Offer cards and popular European payment methods through Mollie."
+      "description": "Offer card payments and popular European payment methods such as iDEAL and Bancontact to your supporters through the Mollie integration in Donorfit."
     },
     "/integrations/brevo": {
       "title": "Brevo Integration | Donorfit",
@@ -126,7 +126,7 @@
     },
     "/integrations/mailchimp": {
       "title": "Mailchimp Integration | Donorfit",
-      "description": "Send newsletters and updates to your supporters with Mailchimp."
+      "description": "Send newsletters and project updates to your supporters with the Mailchimp integration in Donorfit, using the donor data you already manage."
     },
     "/partners": {
       "title": "Donorfit Partner Network — Agencies, Advisors & Integrations",
@@ -145,7 +145,7 @@
       "description": "Who to contact about refunds and cancellations of donations, recurring payments and Donorfit services."
     },
     "/impressum": {
-      "title": "Imprint | Donorfit",
+      "title": "Imprint (Impressum) – Legal Notice | Donorfit",
       "description": "Provider information for Donorfit under Section 5 of the German Digital Services Act (DDG): MYFUNDBOX GmbH, Wolfsburg."
     },
     "/terms": {
@@ -158,7 +158,7 @@
     },
     "/": {
       "title": "Donorfit — Fundraising Technology Built for Nonprofits",
-      "description": "Manage donations, sponsorships, memberships and donor relationships in one connected platform built for NGOs and charities. Less administrative work. Stronger donor relationships. More impact."
+      "description": "Donorfit brings donations, recurring giving, sponsorships, memberships and donor records together in one fundraising platform for nonprofit organisations."
     }
   },
   "notFound": {

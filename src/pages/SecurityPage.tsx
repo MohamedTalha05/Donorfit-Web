@@ -14,6 +14,7 @@ import {
   CheckCircle2,
   AlertCircle
 } from 'lucide-react';
+import HomeLink from '../components/home/HomeLink.tsx';
 
 const PILLARS = [
   { key: 'sovereignty', icon: Server, iconClass: 'bg-emerald-50 text-emerald-700' },
@@ -29,7 +30,7 @@ const ARCHITECTURE = [
 ] as const;
 
 export default function SecurityPage() {
-  const { openBookDemo, navigateTo } = useModal();
+  const { openBookDemo } = useModal();
   const t = useT('company');
   const tx = useTx('company');
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
@@ -194,16 +195,17 @@ export default function SecurityPage() {
               {t('security.contact.text')}
             </p>
             <div className="pt-1 text-xs tabular-nums font-semibold text-neutral-900">
-              security@donorfit.com · {t('security.contact.pgp')}
+              {/* Same verified address as the contact page and imprint. */}
+              <a href={`mailto:${t('contact.email')}`} className="underline underline-offset-2 hover:text-emerald-700">{t('contact.email')}</a> · {t('security.contact.pgp')}
             </div>
           </div>
 
-          <button
-            onClick={() => navigateTo('/contact')}
-            className="px-5 py-2.5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-xs rounded-xl transition-colors cursor-pointer shrink-0"
+          <HomeLink
+            to="/contact"
+            className="px-5 py-2.5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-xs rounded-xl transition-colors shrink-0"
           >
             {t('security.contact.button')}
-          </button>
+          </HomeLink>
         </div>
       </section>
 

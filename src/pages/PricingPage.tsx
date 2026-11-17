@@ -26,6 +26,7 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 
+import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
 /* ------------------------------------------------------------------ *
  * Content source: https://donorfit.com/en/pricing-plan/
  * Plan features, add-on names, stats and footnotes use the reference
@@ -52,6 +53,12 @@ const ADD_ONS: AddOn[] = [
   { key: 'school', icon: GraduationCap, href: null, product: 'school-management' },
   { key: 'qurbani', icon: Moon, href: null },
 ];
+
+/**
+ * The stats band stays hidden until the figures are confirmed: the values were not verifiable
+ * (the official pricing page shows different counters). Set to true only with confirmed numbers.
+ */
+const SHOW_STATS = false;
 
 /** Transaction volume shown in the stats band (rendered as compact currency, e.g. "€1M" / "1 Mio. €"). */
 const TRANSACTION_VOLUME_EUR = 1_000_000;
@@ -291,8 +298,11 @@ export default function PricingPage() {
         </ul>
       </section>
 
-      {/* 4. STATS */}
-      <section aria-label={t('pricing.stats.ariaLabel')} className="bg-neutral-950 bg-dark-glow text-white py-16 sm:py-20 rounded-3xl mx-4 sm:mx-6 lg:mx-8 border border-neutral-800 shadow-2xl">
+      {/* Customer logos */}
+      <CustomerLogoSection id="pricing-customers" compact className="!py-0" />
+
+      {/* 4. STATS (hidden until confirmed, see SHOW_STATS) */}
+      {SHOW_STATS && <section aria-label={t('pricing.stats.ariaLabel')} className="bg-neutral-950 bg-dark-glow text-white py-16 sm:py-20 rounded-3xl mx-4 sm:mx-6 lg:mx-8 border border-neutral-800 shadow-2xl">
         <dl className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-3 gap-10 text-center">
           {STAT_KEYS.map((key) => (
             <div key={key} className="flex flex-col-reverse gap-2">
@@ -303,7 +313,7 @@ export default function PricingPage() {
             </div>
           ))}
         </dl>
-      </section>
+      </section>}
 
       {/* 5. GET STARTED — BILLING FEATURES */}
       <section aria-labelledby={`${uid}-billing`} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -313,9 +323,9 @@ export default function PricingPage() {
             {t('pricing.billing.title')}
           </h2>
         </div>
-        <ul className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <ul className="grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {BILLING_FEATURES.map(({ key, icon: Icon }) => (
-            <li key={key} className="hover-lift flex items-center gap-3 p-5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
+            <li key={key} className="hover-lift flex items-center gap-3 p-4 sm:p-5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700">
                 <Icon className="w-5 h-5" aria-hidden="true" />
               </span>

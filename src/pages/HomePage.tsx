@@ -36,8 +36,11 @@ import {
   School,
 } from 'lucide-react';
 import { useModal } from '../context/ModalContext.tsx';
-import { VERIFIED_ORGANISATIONS, SUCCESS_STORIES } from '../data/homepage.ts';
-import { useT, useTx, useFormat } from '../i18n/index.tsx';
+import { SUCCESS_STORIES } from '../data/homepage.ts';
+import { testimonialsFor } from '../data/testimonials.ts';
+import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
+import { TestimonialList } from '../components/social/TestimonialSection.tsx';
+import { useT, useTx, useFormat, useI18n } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
 import ProductShowcase from '../components/home/ProductShowcase.tsx';
 import DashboardPreview from '../components/home/DashboardPreview.tsx';
@@ -297,6 +300,8 @@ export default function HomePage() {
   const rootRef = useRef<HTMLDivElement>(null);
   useReveal(rootRef);
   const t = useT('home');
+  const { lang } = useI18n();
+  const homeTestimonials = testimonialsFor('home', lang);
   const tc = useT('common');
   const tx = useTx('home');
   const txFaqs = useTx('faqs');
@@ -410,54 +415,7 @@ export default function HomePage() {
       </section>
 
       {/* 3. TRUSTED BY ------------------------------------------------ */}
-      <section aria-labelledby="trusted-title" className="pb-8">
-        <div className={CONTAINER}>
-          <div data-reveal className="rounded-[2rem] border border-neutral-200/80 bg-soft px-6 py-10 sm:px-12">
-            {VERIFIED_ORGANISATIONS.length > 0 ? (
-              <>
-                <h2 id="trusted-title" className="text-center text-sm font-semibold text-neutral-500">
-                  {t('trusted.verifiedTitle')}
-                </h2>
-                <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-                  {VERIFIED_ORGANISATIONS.map((org) => (
-                    <li key={org.name} className="text-neutral-500 grayscale transition-[filter,opacity] hover:grayscale-0">
-                      {org.logoSrc ? (
-                        <img
-                          src={org.logoSrc}
-                          alt={org.name}
-                          width={org.logoWidth ?? 140}
-                          height={org.logoHeight ?? 40}
-                          loading="lazy"
-                          className="h-9 w-auto object-contain opacity-70 hover:opacity-100"
-                        />
-                      ) : (
-                        <span className="text-lg font-bold tracking-tight">{org.name}</span>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </>
-            ) : (
-              <div className="flex flex-col items-center gap-7">
-                <h2 id="trusted-title" className="!font-sans text-center text-sm font-semibold !tracking-normal text-neutral-500">
-                  {t('trusted.fallbackTitle')}
-                </h2>
-                <ul className="flex flex-wrap items-center justify-center gap-3">
-                  {tx<string[]>('trusted.segments').map((label, i) => (
-                    <li
-                      key={label}
-                      className="flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-4 py-2.5 text-sm font-semibold text-navy-900 shadow-xs transition-colors hover:border-brand-300"
-                    >
-                      <span aria-hidden="true" className={`h-2 w-2 rounded-full ${i % 2 ? 'bg-brand-400' : 'bg-brand-500'}`} />
-                      {label}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
+      <CustomerLogoSection id="trusted-title" className="!pb-8 !pt-0" />
 
       {/* 4. PLATFORM OVERVIEW (bento) -------------------------------- */}
       <section id="platform" aria-labelledby="platform-title" className={SECTION}>
@@ -896,6 +854,10 @@ export default function HomePage() {
                   )}
                 </article>
               ))}
+            </div>
+          ) : homeTestimonials.length > 0 ? (
+            <div className="mt-16">
+              <TestimonialList items={homeTestimonials} dark />
             </div>
           ) : (
             <div data-reveal className="hv-glass relative mx-auto mt-14 max-w-3xl overflow-hidden rounded-[2rem] p-8 text-center sm:p-14">

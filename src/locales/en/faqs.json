@@ -13,26 +13,26 @@
       "categoryKey": "general"
     },
     {
-      "question": "Where is Donorfit data hosted and is it GDPR-compliant?",
-      "answer": "All Donorfit systems and databases are hosted exclusively within the European Union in ISO/IEC 27001-certified data facilities. We operate under strict compliance with the General Data Protection Regulation (GDPR), enforce encryption at rest and in transit, and never sell or transfer donor data.",
+      "question": "Where is Donorfit data processed and is it GDPR-compliant?",
+      "answer": "Donorfit is provided by MYFUNDBOX GmbH in Germany and processes personal data in line with the General Data Protection Regulation (GDPR). Connections are encrypted, and organisations can conclude a data processing agreement. Details on hosting and service providers are in our privacy policy.",
       "category": "Security & Compliance",
       "categoryKey": "security"
     },
     {
       "question": "Which payment methods does Donorfit support?",
-      "answer": "Donorfit supports native European payment methods including SEPA Direct Debit (single and recurring), Credit and Debit Cards (Visa, Mastercard, American Express), Apple Pay, Google Pay, PayPal, iDEAL (Netherlands), Bancontact (Belgium), and Sofort/Klarna.",
+      "answer": "Payment methods come from the payment provider you connect. Across the integrated providers (Stripe, PayPal, GoCardless, Mollie and Micropayment), they include credit and debit cards, Apple Pay and Google Pay, SEPA and Bacs Direct Debit, PayPal, bank transfer, iDEAL and Bancontact. Which methods are available to you depends on the provider and your account.",
       "category": "Payments & Banking",
       "categoryKey": "payments"
     },
     {
       "question": "How does Donorfit handle charitable tax receipts in Europe?",
-      "answer": "Donorfit automatically generates legally compliant charitable donation tax receipts according to national regulations, including the German Geldzuwendungsbestätigung, the French Reçu Fiscal, and UK Gift Aid documentation. Receipts can be issued instantly per transaction or aggregated as an annual statement.",
+      "answer": "Donorfit provides predefined tax receipt templates for automatic generation, for example for the German Zuwendungsbestätigung. Receipts can be issued per donation or as an annual statement. Your organisation remains responsible for checking that its receipts meet the rules that apply to it.",
       "category": "Payments & Banking",
       "categoryKey": "payments"
     },
     {
       "question": "How long does it take to implement Donorfit for our organization?",
-      "answer": "Most charities can begin accepting donations and launch their first campaigns within 1 to 2 business days. Organizations migrating extensive historical donor databases, sponsorship records, or existing SEPA mandates typically complete full onboarding within 1 to 2 weeks with our dedicated support.",
+      "answer": "Setup takes three steps: configure your cause settings, connect a payment gateway and add the donation box to your website. How long it takes depends mainly on your payment provider’s account verification and on how much existing data you migrate. Our team can help you plan the onboarding.",
       "category": "Implementation",
       "categoryKey": "implementation"
     },
@@ -50,7 +50,7 @@
     },
     {
       "question": "How does Donorfit pricing work?",
-      "answer": "The all-in-one Donorfit fundraising platform is €0 per month, with no platform fee and no transaction fee. Donors can optionally cover payment processing fees so your organization receives the full amount. Specialised add-ons such as CRM, recurring subscriptions, sponsorship, membership and Qurbani are purchased separately — see our Pricing page or contact our team for details.",
+      "answer": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Donors can optionally cover payment processing fees so your organisation receives the full amount. Specialised add-ons such as CRM, recurring subscriptions, sponsorship, membership and Qurbani are purchased separately – see our Pricing page or contact our team for details.",
       "category": "Pricing",
       "categoryKey": "pricing"
     }

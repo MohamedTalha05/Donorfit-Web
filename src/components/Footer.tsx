@@ -8,26 +8,22 @@ import { ArrowRight, ShieldCheck, Lock } from 'lucide-react';
 /** A link is either a footer label key ('links.x') or a product name ('common:products.x'). */
 type FooterLink = { route: string; key: string; product?: boolean };
 
+const PRODUCT_LINKS: FooterLink[] = [
+  { route: '/membership', key: 'membership', product: true },
+  { route: '/sponsorship', key: 'sponsorship', product: true },
+  { route: '/money-pool', key: 'money-pool', product: true },
+  { route: '/water-well', key: 'water-well', product: true },
+  { route: '/qurbani', key: 'qurbani', product: true },
+];
+const FEATURE_LINKS: FooterLink[] = [
+  { route: '/donations', key: 'donations' },
+  { route: '/payment-gateways', key: 'paymentGateways' },
+  { route: '/recurring-management', key: 'recurringGiving' },
+  { route: '/donor-management', key: 'donorManagement' },
+  { route: '/reporting-and-insights', key: 'reporting' },
+];
+
 const COLUMNS: { title: string; links: FooterLink[] }[] = [
-  {
-    title: 'product',
-    links: [
-      { route: '/', key: 'platform' },
-      { route: '/pricing', key: 'pricing' },
-      { route: '/payment-gateways', key: 'paymentGateways' },
-      { route: '/sponsorship', key: 'sponsorship', product: true },
-      { route: '/orphan-sponsorship', key: 'orphanSponsorship' },
-      { route: '/money-pool', key: 'money-pool', product: true },
-      { route: '/membership', key: 'membership', product: true },
-      { route: '/water-well', key: 'water-well', product: true },
-      { route: '/qurbani', key: 'qurbani', product: true },
-      { route: '/school-management', key: 'school-management', product: true },
-      { route: '/donations', key: 'donations' },
-      { route: '/recurring-management', key: 'recurringGiving' },
-      { route: '/donor-management', key: 'donorManagement' },
-      { route: '/reporting-and-insights', key: 'reporting' },
-    ],
-  },
   {
     title: 'solutions',
     links: [
@@ -43,8 +39,6 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
 
 const RESOURCE_LINKS: FooterLink[] = [
   { route: '/blog', key: 'blog' },
-  { route: '/guides', key: 'guides' },
-  { route: '/case-studies', key: 'caseStudies' },
   { route: '/faqs', key: 'faqs' },
 ];
 const COMPANY_LINKS: FooterLink[] = [
@@ -58,14 +52,13 @@ const LEGAL_LINKS: FooterLink[] = [
   { route: '/terms', key: 'terms' },
   { route: '/refund-policy', key: 'refund' },
   { route: '/impressum', key: 'impressum' },
-  { route: '/accessibility', key: 'accessibility' },
 ];
 
 const linkClass = 'text-brand-300 hover:text-white transition-colors cursor-pointer text-left';
 const headingClass = 'text-xs font-bold uppercase tracking-wider text-white';
 
 export default function Footer() {
-  const { openGetStarted, openBookDemo, navigateTo, openCookieSettings, currentRoute, localize } = useModal();
+  const { openGetStarted, openBookDemo, navigateTo, currentRoute, localize } = useModal();
   const t = useT('footer');
   const tc = useT('common');
   // The homepage and product landing pages end with their own CTA, so skip the duplicate banner there.
@@ -123,9 +116,9 @@ export default function Footer() {
         )}
 
         {/* Navigation Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 pb-12 border-b border-neutral-800 text-xs">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-[minmax(0,1.4fr)_repeat(5,minmax(0,1fr))] gap-x-8 gap-y-10 pb-12 border-b border-neutral-800 text-xs">
           {/* Col 1: Brand & Positioning */}
-          <div className="col-span-2 md:col-span-4 lg:col-span-1 space-y-4">
+          <div className="col-span-2 sm:col-span-3 md:col-span-5 lg:col-span-1 lg:pr-4 space-y-4">
             <NavLink
               link={{ route: '/', key: 'platform' }}
               className="inline-flex cursor-pointer rounded-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400"
@@ -139,7 +132,31 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Cols 2–3: Product, Solutions */}
+          {/* Col 2: Product & Features */}
+          <div className="space-y-3">
+            <div className={headingClass}>{t('columns.product')}</div>
+            <ul className="space-y-2">
+              {PRODUCT_LINKS.filter((link) => !isHiddenRoute(link.route)).map((link) => (
+                <li key={link.route}>
+                  <NavLink link={link} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 3: Features */}
+          <div className="space-y-3">
+            <div className={headingClass}>{t('columns.features')}</div>
+            <ul className="space-y-2">
+              {FEATURE_LINKS.map((link) => (
+                <li key={link.route}>
+                  <NavLink link={link} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4: Solutions */}
           {COLUMNS.map((col) => (
             <div key={col.title} className="space-y-3">
               <div className={headingClass}>{t(`columns.${col.title}`)}</div>
@@ -189,15 +206,6 @@ export default function Footer() {
                   <NavLink link={link} />
                 </li>
               ))}
-              <li className="pt-2">
-                <button
-                  type="button"
-                  onClick={openCookieSettings}
-                  className="text-brand-300 hover:text-white underline underline-offset-2 transition-colors cursor-pointer"
-                >
-                  {t('links.cookiePreferences')}
-                </button>
-              </li>
             </ul>
           </div>
         </div>

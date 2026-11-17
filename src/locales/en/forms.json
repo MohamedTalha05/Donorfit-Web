@@ -31,7 +31,7 @@
       "orphan-sponsorship": "Orphan Sponsorship Program",
       "recurring-giving": "Recurring Giving & SEPA",
       "donor-management": "Donor Management CRM",
-      "money-pool": "Money Pool & Group Giving",
+      "money-pool": "MoneyPool & Group Giving",
       "membership": "Membership Dues Automation",
       "campaigns": "Emergency & Goal Campaigns"
     },
@@ -49,65 +49,20 @@
       "04:00 PM CET": "04:00 PM – 06:00 PM CET"
     },
     "trustNote": "GDPR Compliant · No Obligation",
-    "submit": "Confirm Demo Request",
+    "submit": "Send demo request by email",
     "success": {
-      "title": "Demo Request Confirmed",
+      "title": "Your demo request is ready to send",
       "thanksBefore": "Thank you, ",
       "nameFallback": "there",
-      "thanksMiddle": ". A Donorfit non-profit specialist will connect with you at ",
-      "thanksAfter": " within 4 business hours to confirm your calendar invite.",
+      "thanksMiddle": ". Your email app has opened with your demo request. Please send that email – we will then reply to ",
+      "thanksAfter": " to arrange an appointment.",
       "organization": "Organization:",
       "focus": "Requested Focus:",
       "window": "Selected Window:",
       "nextAvailable": "Next available slot",
-      "close": "Close & Return to Website"
-    }
-  },
-  "getStarted": {
-    "eyebrow": "Nonprofit Onboarding",
-    "title": "Get Started with Donorfit",
-    "closeDialog": "Close dialog",
-    "step1": "1. Select the solutions your organization requires:",
-    "step2": "2. Organization & Contact Details:",
-    "modules": {
-      "donations": "Online Donations",
-      "recurring": "Recurring Giving & SEPA",
-      "sponsorship": "Sponsorship Management",
-      "orphan": "Orphan Care Programs",
-      "moneypool": "Money Pool & Groups",
-      "membership": "Membership Dues",
-      "crm": "Donor CRM & Receipts",
-      "reporting": "Analytics & Insights"
+      "close": "Close & Return to Website",
+      "mailFallback": "No email app opened? Write to us at"
     },
-    "fields": {
-      "namePlaceholder": "Your Name *",
-      "emailPlaceholder": "Work Email *",
-      "orgNamePlaceholder": "Organization Legal Name *"
-    },
-    "countries": {
-      "DE": "Germany (DE)",
-      "FR": "France (FR)",
-      "NL": "Netherlands (NL)",
-      "BE": "Belgium (BE)",
-      "AT": "Austria (AT)",
-      "CH": "Switzerland (CH)",
-      "GB": "United Kingdom (UK)",
-      "OTHER": "Other European / Global"
-    },
-    "supportNote": "Fast 48h onboarding support",
-    "submit": "Request Platform Setup",
-    "success": {
-      "title": "Workspace Initialization Requested",
-      "receivedBefore": "We have received your configuration for ",
-      "receivedMiddle": ". Your onboarding specialist will contact ",
-      "receivedAfter": " with sandbox credentials and payment gateway verification steps within one business day.",
-      "selectedModules": "Selected Modules:",
-      "modulesActive": "{{count}} Modules Active",
-      "modulesActiveOne": "{{count}} Module Active",
-      "jurisdiction": "Jurisdiction & Currency:",
-      "dataResidency": "Data Residency:",
-      "dataResidencyValue": "European Union (Frankfurt / Dublin)",
-      "done": "Done"
-    }
+    "mailSubject": "Demo request"
   }
 }

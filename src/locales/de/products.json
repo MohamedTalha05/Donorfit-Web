@@ -4,7 +4,7 @@
       "name": "Membership",
       "navDescription": "Tarife, Anmeldung, Beiträge und Verlängerungen",
       "seo": {
-        "title": "Mitgliederverwaltung für Vereine & gemeinnützige Organisationen | Donorfit",
+        "title": "Mitgliederverwaltung für Vereine | Donorfit",
         "description": "Mitglieder registrieren, Tarife einrichten, Beiträge per SEPA-Lastschrift oder Karte einziehen und Verlängerungen automatisieren – in einem Arbeitsbereich."
       },
       "headline": "Mitglieder­verwaltung für Ihre Organisation – ganz einfach.",
@@ -122,7 +122,7 @@
       "name": "Sponsorship",
       "navDescription": "Pat:innen, Begünstigte und Beiträge",
       "seo": {
-        "title": "Patenschaftsverwaltung für gemeinnützige Organisationen | Donorfit",
+        "title": "Patenschaftsverwaltung für Non-Profits | Donorfit",
         "description": "Verbinden Sie Pat:innen mit Begünstigten und Projekten, ziehen Sie Beiträge regelmäßig ein und teilen Sie Fortschritte – mit Schutz sensibler Daten."
       },
       "headline": "Patenschaften einfach und transparent verwalten.",
@@ -241,7 +241,7 @@
       "navDescription": "Brunnenprojekte finanzieren und darüber berichten",
       "seo": {
         "title": "Fundraising-Software für Brunnenprojekte | Donorfit",
-        "description": "Erstellen Sie Brunnen-Kampagnen, sammeln Sie Spenden, zeigen Sie Spendenziel und Fortschritt und teilen Sie Projekt-Updates – von der Standortprüfung bis zur Übergabe."
+        "description": "Brunnen-Kampagnen erstellen, Spenden sammeln, Spendenziel und Fortschritt zeigen und Projekt-Updates teilen – von der Standortprüfung bis zur Übergabe."
       },
       "headline": "Sauberes Wasser in Reichweite – mit digitalem Fundraising.",
       "subheadline": "Stellen Sie jedes Brunnenprojekt vor, sammeln Sie Spenden online und halten Sie Spender:innen auf dem Laufenden – von der ersten Standortprüfung bis zu dem Tag, an dem das Dorf Wasser schöpft.",
@@ -1112,7 +1112,7 @@
       "sponsored": "Patenschaft"
     },
     "money-pool": {
-      "label": "Vorschau einer Money-Pool-Seite mit Fortschritts­ring, Unterstützer­wand und Optionen zum Teilen",
+      "label": "Vorschau einer MoneyPool-Seite mit Fortschritts­ring, Unterstützer­wand und Optionen zum Teilen",
       "ofTarget": "des Ziels",
       "raised": "{{raised}} von {{target}}",
       "meta": "{{count}} Beitragende · noch {{days}} Tage",

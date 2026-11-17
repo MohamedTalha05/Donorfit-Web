@@ -21,7 +21,10 @@ import {
   useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { SponsorshipPreview } from '../../components/product/ProductPreviews.tsx';
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
+import ContentPhoto from '../../components/ContentPhoto.tsx';
 export default function SponsorshipPage() {
   const p = useProductPage('sponsorship');
   const photo = useProductPhoto('sponsorship');
@@ -75,10 +78,16 @@ export default function SponsorshipPage() {
       {/* Intro + problems */}
       <PSection labelledBy="spo-intro">
         <div className={CONTAINER}>
-          <SectionTitle id="spo-intro" title={p.intro.title} sub={p.intro.body} />
+          <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
+            <SectionTitle id="spo-intro" title={p.intro.title} sub={p.intro.body} />
+            <ContentPhoto photo="sponsorshipTutoring" />
+          </div>
           <ProblemSolution p={p} variant="split" />
         </div>
       </PSection>
+
+      {/* Customer logos */}
+      <CustomerLogoSection id="spo-customers" compact />
 
       {/* Features */}
       <PSection tone="soft" labelledBy="spo-features">
@@ -119,6 +128,7 @@ export default function SponsorshipPage() {
         </div>
       </PSection>
 
+      <TestimonialSection page="sponsorship" />
       <FAQ p={p} />
       <Related p={p} />
       <FinalCTA p={p} />

@@ -31,6 +31,8 @@ import {
   useProductPage,
 } from '../../components/product/ProductKit.tsx';
 import { QurbaniPreview } from '../../components/product/ProductPreviews.tsx';
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
 /** Page-specific copy from products.json → sections.qurbani (en/de). */
 interface QurbaniSections {
@@ -179,6 +181,9 @@ export default function QurbaniPage() {
         </div>
       </PSection>
 
+      {/* Customer logos */}
+      <CustomerLogoSection id="qu-customers" compact />
+
       {/* ---------------------------------------------------- How it works */}
       <section id="qu-how" tabIndex={-1} aria-labelledby="qu-how-title" className="relative scroll-mt-24 bg-aqua py-20 outline-none sm:py-28">
         <div className={CONTAINER}>
@@ -294,6 +299,7 @@ export default function QurbaniPage() {
         </div>
       </PSection>
 
+      <TestimonialSection page="qurbani" />
       <FAQ p={p} />
       <Related p={p} />
 

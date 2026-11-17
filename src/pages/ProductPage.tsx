@@ -4,6 +4,11 @@ import { PRODUCT_DETAILS, type ProductText } from '../data/productDetails.ts';
 import { useT, useTx } from '../i18n/index.tsx';
 import ProductMockup from '../components/ProductMockup.tsx';
 import RealtimeAppGraphic from '../components/RealtimeAppGraphic.tsx';
+import sponsorshipImg from '../assets/images/sponsorship_community_1793444726701.jpg';
+import foodReliefImg from '../assets/images/community_food_relief_aid_1793682091868.jpg';
+import galaImg from '../assets/images/nonprofit_gala_fundraising_1793682093614.jpg';
+import platformImg from '../assets/images/saas_hero_fundraising_platform_1793682092168.jpg';
+import teamImg from '../assets/images/donor_relationships_1793444728253.jpg';
 import { 
   ArrowRight, 
   CheckCircle2, 
@@ -18,6 +23,19 @@ import {
   Check,
   Building2,
 } from 'lucide-react';
+import HomeLink from '../components/home/HomeLink.tsx';
+import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../components/social/TestimonialSection.tsx';
+import type { TestimonialPage } from '../data/testimonials.ts';
+
+import ContentPhoto from '../components/ContentPhoto.tsx';
+import type { ContentPhotoKey } from '../data/contentPhotos.ts';
+/** Photo shown above the "how it works" steps, matched to each feature page. */
+const WORKFLOW_PHOTOS: Record<string, ContentPhotoKey | undefined> = {
+  donations: 'donationsHandover',
+  'donor-management': 'donorPhoneCall',
+  'reporting-and-insights': 'reportingCharts',
+};
 
 interface ProductPageProps {
   slug: string;
@@ -42,12 +60,12 @@ export default function ProductPage({ slug }: ProductPageProps) {
       <div className="py-24 text-center max-w-xl mx-auto px-4">
         <h1 className="text-2xl font-bold text-neutral-900 mb-2">{t('ui.notFound.title')}</h1>
         <p className="text-sm text-neutral-600 mb-6">{t('ui.notFound.body')}</p>
-        <button
-          onClick={() => navigateTo('/')}
-          className="px-4 py-2 bg-neutral-900 text-white rounded-lg text-xs font-semibold cursor-pointer"
+        <HomeLink
+          to="/"
+          className="px-4 py-2 bg-neutral-900 text-white rounded-lg text-xs font-semibold"
         >
           {t('ui.notFound.cta')}
-        </button>
+        </HomeLink>
       </div>
     );
   }
@@ -60,30 +78,30 @@ export default function ProductPage({ slug }: ProductPageProps) {
   const getProductImage = () => {
     if (slug === 'sponsorship' || slug === 'orphan-sponsorship') {
       return {
-        src: '/src/assets/images/sponsorship_community_1793444726701.jpg',
+        src: sponsorshipImg,
         alt: t('ui.images.sponsorship')
       };
     }
     if (slug === 'money-pool' || slug === 'donations') {
       return {
-        src: '/src/assets/images/community_food_relief_aid_1793682091868.jpg',
+        src: foodReliefImg,
         alt: t('ui.images.foodRelief')
       };
     }
     if (slug === 'membership' || slug === 'campaign-management') {
       return {
-        src: '/src/assets/images/nonprofit_gala_fundraising_1793682093614.jpg',
+        src: galaImg,
         alt: t('ui.images.gala')
       };
     }
     if (slug === 'recurring-giving') {
       return {
-        src: '/src/assets/images/saas_hero_fundraising_platform_1793682092168.jpg',
+        src: platformImg,
         alt: t('ui.images.recurring')
       };
     }
     return {
-      src: '/src/assets/images/donor_relationships_1793444728253.jpg',
+      src: teamImg,
       alt: t('ui.images.team')
     };
   };
@@ -236,6 +254,8 @@ export default function ProductPage({ slug }: ProductPageProps) {
           </h2>
         </div>
 
+        {WORKFLOW_PHOTOS[slug] && <ContentPhoto photo={WORKFLOW_PHOTOS[slug]} aspect="aspect-[4/3] sm:aspect-[21/9]" className="mb-10" />}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {product.howItWorks.map((step) => (
             <div key={step.step} className="p-8 rounded-3xl bg-white border border-neutral-200/80 shadow-xs space-y-4">
@@ -298,6 +318,12 @@ export default function ProductPage({ slug }: ProductPageProps) {
 
         </div>
       </section>
+
+      {/* Customer logos + testimonials (after the capabilities) */}
+      <div>
+        <CustomerLogoSection id={`${slug}-customers`} compact className="!py-0" />
+        <TestimonialSection page={slug as TestimonialPage} />
+      </div>
 
       {/* 6. FAQS */}
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -117,7 +117,7 @@ export default function RealtimeAppGraphic({ className = '', variant = 'full' }:
             <BrandLogo variant="icon" onDark className="h-4.5" alt="Donorfit" />
             <span className="text-xs font-semibold text-neutral-300">Donorfit Core</span>
             <span className="text-neutral-600">/</span>
-            <span className="text-xs text-neutral-400 font-mono hidden md:inline">app.donorfit.com/eu-central-1/live-feed</span>
+            <span className="text-xs text-neutral-400 font-mono hidden md:inline">app.donorfit.com</span>
           </div>
         </div>
 
@@ -129,7 +129,8 @@ export default function RealtimeAppGraphic({ className = '', variant = 'full' }:
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
             <span className="font-semibold tracking-wide uppercase text-[10px]">{t('ui.live.engineActive')}</span>
           </div>
-          <span className="text-[11px] text-neutral-500 hidden sm:inline">Frankfurt AWS · &lt;24ms</span>
+          {/* Illustrative dashboard: label the data as an example rather than implying hosting or latency facts. */}
+          <span className="text-[11px] text-neutral-400 hidden sm:inline">{t('ui.live.exampleData')}</span>
         </div>
       </div>
 

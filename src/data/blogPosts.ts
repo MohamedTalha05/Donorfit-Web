@@ -98,7 +98,7 @@ export const BLOG_POSTS: BlogPostEntry[] = [
       excerpt:
         'A clear goal, an honest budget and regular updates help supporters understand what they are giving to. Here is a simple way to plan your next campaign.',
       imageAlt: 'Volunteers collecting donated goods for people in need',
-      seoTitle: 'How to Plan a Fundraising Campaign Supporters Can Follow | Donorfit Blog',
+      seoTitle: 'How to Plan a Fundraising Campaign Supporters Can Follow | Donorfit',
       metaDescription:
         'A practical guide for nonprofits: set a clear goal, break down the budget, choose a deadline and keep supporters updated throughout your fundraising campaign.',
       body: `Most supporters are happy to help when they understand what their money will do. A campaign that answers three questions, what is needed, how much it costs and how far you have come, is easier to support and easier to share. This guide walks through the planning steps that make a campaign easy to follow.
@@ -211,7 +211,7 @@ Schließen Sie die Kampagne, wenn sie endet, danken Sie allen, die beigetragen h
       excerpt:
         'When supporter information sits in several spreadsheets, the same person can appear three times with different details. Here is how to tidy it up step by step.',
       imageAlt: 'A social worker in conversation with a couple at a table',
-      seoTitle: 'Bringing Donor, Member and Sponsor Records Together | Donorfit Blog',
+      seoTitle: 'Bringing Donor, Member and Sponsor Records Together | Donorfit',
       metaDescription:
         'How nonprofits can bring donor, member and sponsor information from separate spreadsheets into one organised set of records, step by step.',
       body: `Many nonprofits grow one spreadsheet at a time: one for donors, one for members, one for sponsors and another for an event. Over time, the same person ends up in several files with different addresses, and nobody is sure which version is correct. Bringing these records together takes some effort, but it makes daily work much easier.
@@ -322,7 +322,7 @@ Sie müssen nicht alles auf einmal umstellen. Viele Organisationen beginnen mit 
       excerpt:
         'From suggested amounts to payment providers and receipts, these are the points to check before you put a donation form live on your website.',
       imageAlt: 'A woman holding a phone and a bank card while donating online',
-      seoTitle: 'Donation Form on Your Website: A Practical Checklist | Donorfit Blog',
+      seoTitle: 'Donation Form on Your Website: A Practical Checklist | Donorfit',
       metaDescription:
         'A practical checklist for nonprofits adding an online donation form to their website: amounts, wording, payment providers, receipts, QR codes and testing.',
       body: `A donation form is often the first direct contact a supporter has with your organisation online. It should be quick to understand, easy to complete on a phone and clear about what happens next. Use this checklist before you publish yours.
@@ -542,7 +542,7 @@ Das letzte Update ist das wichtigste. Teilen Sie das Ergebnis, danken Sie den Un
       excerpt:
         'Sponsorship connects people, which means handling sensitive information about children and families. These basics help you share progress without putting anyone at risk.',
       imageAlt: 'A schoolboy writing in his notebook in a classroom',
-      seoTitle: 'Protecting Beneficiaries in Sponsorship Programmes | Donorfit Blog',
+      seoTitle: 'Protecting Beneficiaries in Sponsorship Programmes | Donorfit',
       metaDescription:
         'Privacy basics for sponsorship organisations: consent, dignified profiles, limited access and safe updates for sponsored children and families.',
       body: `Sponsorship builds a personal connection between a sponsor and a child, a family or a community. That connection depends on information: names, photos, school progress and sometimes locations. Handling this information carefully protects the people you support and the trust of your sponsors.
@@ -740,7 +740,7 @@ Notieren Sie nach den Verlängerungen, was am meisten Zeit gekostet hat und wona
       excerpt:
         'Donorfit does not charge a platform fee. When a supporter pays, the payment provider you connect charges its own transaction fees. Here is how that works in practice.',
       imageAlt: 'A woman holding a bank card while using a laptop',
-      seoTitle: 'Donorfit Is Free to Use: How Payment Provider Fees Work | Donorfit Blog',
+      seoTitle: 'Donorfit Is Free to Use: How Payment Provider Fees Work | Donorfit',
       metaDescription:
         'Donorfit is free to use with no platform fee. Learn how payment provider transaction fees work and how donors can choose to cover them.',
       body: `We often hear the same question from organisations looking at Donorfit: what does it cost? The short answer is that Donorfit is free to use. This article explains what that means and which costs come from the payment provider you choose.
@@ -827,7 +827,7 @@ Welcher Anbieter am besten passt, hängt von den Zahlungsarten ab, die Ihre Unte
       excerpt:
         'Qurbani contributions arrive in a few busy weeks. Planning your options, information and communication early helps your team keep every contribution organised.',
       imageAlt: 'Cattle gathered at a market before Eid al-Adha',
-      seoTitle: 'Preparing Your Qurbani Campaign Before Eid al-Adha | Donorfit Blog',
+      seoTitle: 'Preparing Your Qurbani Campaign Before Eid al-Adha | Donorfit',
       metaDescription:
         'How organisations can prepare a Qurbani campaign: decide on options, collect the right donor information, plan communication and keep contributions organised.',
       body: `During Eid al-Adha, many people wish to perform Qurbani and share its blessings with others. For organisations that carry out Qurbani on behalf of donors, most contributions arrive in a few busy weeks. Preparing well before the season helps your team keep every contribution and its details in order.

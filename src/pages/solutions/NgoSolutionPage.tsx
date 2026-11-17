@@ -24,6 +24,8 @@ import {
   useSolution,
 } from '../../components/solutions/SolutionKit.tsx';
 
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 const SLUG = 'for-ngos' as const;
 
 type NgoText = SolutionText & {
@@ -96,6 +98,7 @@ export default function NgoSolutionPage() {
 
       <Challenges text={s} variant="rows" id="ngo-challenges" />
       <Helps text={s} tone="navy" id="ngo-helps" icons={[FolderKanban, UsersRound, Megaphone]} />
+      <CustomerLogoSection id="ngo-customers" compact />
       <SolutionDetails block={s.solutions} variant="rows" id="ngo-solutions" />
 
       {s.tools && (
@@ -109,6 +112,7 @@ export default function NgoSolutionPage() {
 
       <UseCases text={s} id="ngo-cases" aside={campaignMock} />
       <HowItWorks text={s} id="ngo-steps" tone="soft" />
+      <TestimonialSection page="solutions/for-ngos" />
       <SolutionFAQ text={s} id="ngo-faq" />
       <SolutionCTA slug={SLUG} text={s} variant="navy" />
       <OtherSolutions current={SLUG} />

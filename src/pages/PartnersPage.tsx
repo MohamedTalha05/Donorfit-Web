@@ -2,6 +2,7 @@ import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { Handshake, CheckCircle2, ArrowRight, Building2, ShieldCheck, Globe } from 'lucide-react';
 import { useT, useTx } from '../i18n/index.tsx';
+import HomeLink from '../components/home/HomeLink.tsx';
 
 interface PartnerType {
   title: string;
@@ -10,7 +11,7 @@ interface PartnerType {
 }
 
 export default function PartnersPage() {
-  const { navigateTo, openBookDemo } = useModal();
+  const { openBookDemo } = useModal();
   const t = useT('company');
   const tx = useTx('company');
 
@@ -97,13 +98,13 @@ export default function PartnersPage() {
           {t('partners.cta.text')}
         </p>
         <div>
-          <button
-            onClick={() => navigateTo('/contact')}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer"
+          <HomeLink
+            to="/contact"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors"
           >
             <span>{t('partners.cta.button')}</span>
             <ArrowRight className="w-3.5 h-3.5" />
-          </button>
+          </HomeLink>
         </div>
       </section>
 

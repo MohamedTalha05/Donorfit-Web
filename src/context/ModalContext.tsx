@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { I18nProvider, LANG_STORAGE_KEY, localizePath, parsePath, type Lang } from '../i18n/index.tsx';
 import { LEGACY_ROUTE_REDIRECTS } from '../data/solutions.ts';
+import { APP_SIGNUP_URL } from '../data/links.ts';
 
 /** Map a retired URL ("/de/solutions/ngos") to its replacement in the same language; others pass through. */
 function redirectPath(pathname: string): string {
@@ -108,9 +109,13 @@ export function ModalProvider({ children }: { children: ReactNode }) {
     setSelectedModule(null);
   };
 
-  const openGetStarted = (presetModule?: string) => {
-    if (presetModule) setSelectedModule(presetModule);
-    setIsGetStartedOpen(true);
+  /**
+   * "Get started" opens the real sign-up in the Donorfit app (same as the navbar's Sign up).
+   * The former on-site modal only showed a confirmation without sending anything.
+   * presetModule is kept for call-site compatibility.
+   */
+  const openGetStarted = (_presetModule?: string) => {
+    window.location.assign(APP_SIGNUP_URL);
   };
 
   const closeGetStarted = () => {

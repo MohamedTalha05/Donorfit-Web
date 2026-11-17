@@ -14,9 +14,10 @@ interface FAQEntry {
   categoryKey: Exclude<CategoryKey, 'all'>;
 }
 import { HelpCircle, ChevronDown, Search, ArrowRight, MessageSquare } from 'lucide-react';
+import HomeLink from '../components/home/HomeLink.tsx';
 
 export default function FAQsPage() {
-  const { openBookDemo, navigateTo } = useModal();
+  const { openBookDemo } = useModal();
   const t = useT('faqs');
   const tx = useTx('faqs');
   const faqs = tx<FAQEntry[]>('items') ?? [];
@@ -75,7 +76,8 @@ export default function FAQsPage() {
           <div className="relative min-w-64">
             <Search className="w-4 h-4 text-neutral-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
-              type="text"
+              type="search"
+              aria-label={t('page.searchPlaceholder')}
               placeholder={t('page.searchPlaceholder')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -99,6 +101,7 @@ export default function FAQsPage() {
                 <div key={idx} className="rounded-xl border border-neutral-200/90 bg-white overflow-hidden">
                   <button
                     onClick={() => setOpenIndex(isOpen ? null : idx)}
+                    aria-expanded={isOpen}
                     className="w-full p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-neutral-900 font-display flex items-center justify-between gap-4 hover:bg-neutral-50/50 cursor-pointer"
                   >
                     <span>{faq.question}</span>
@@ -120,16 +123,16 @@ export default function FAQsPage() {
 
         <div className="mt-16 p-8 rounded-2xl bg-neutral-100 border border-neutral-200 text-center space-y-4">
           <MessageSquare className="w-8 h-8 text-emerald-600 mx-auto" />
-          <h3 className="text-lg font-bold text-neutral-900 font-display">{t('page.cta.title')}</h3>
+          <h2 className="text-lg font-bold text-neutral-900 font-display">{t('page.cta.title')}</h2>
           <p className="text-xs text-neutral-600 max-w-md mx-auto leading-relaxed">
             {t('page.cta.text')}
           </p>
-          <button
-            onClick={() => navigateTo('/contact')}
-            className="px-5 py-2.5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-xs rounded-xl transition-colors cursor-pointer"
+          <HomeLink
+            to="/contact"
+            className="px-5 py-2.5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-xs rounded-xl transition-colors"
           >
             {t('page.cta.button')}
-          </button>
+          </HomeLink>
         </div>
       </section>
 

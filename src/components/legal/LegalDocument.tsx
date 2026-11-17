@@ -71,7 +71,7 @@ function useActiveSection(ids: string[]) {
 }
 
 export default function LegalDocument({ doc }: { doc: LegalDoc }) {
-  const { navigateTo, openCookieSettings } = useModal();
+  const { openCookieSettings } = useModal();
   const t = useT('legal');
   const tx = useTx('legal');
   const sections = tx<Section[]>(`${doc}.sections`);
@@ -230,14 +230,13 @@ export default function LegalDocument({ doc }: { doc: LegalDoc }) {
       {/* ---------------------------------------------------------- Header */}
       <header className="border-b border-neutral-200 bg-soft">
         <div className="mx-auto max-w-6xl px-4 pb-12 pt-10 sm:px-6 sm:pb-14 sm:pt-14 lg:px-8">
-          <button
-            type="button"
-            onClick={() => navigateTo('/')}
+          <HomeLink
+            to="/"
             className="inline-flex items-center gap-1.5 rounded text-sm font-semibold text-neutral-600 hover:text-navy-950 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
           >
             <ArrowLeft className="h-4 w-4" aria-hidden="true" />
             {t('ui.backToHome')}
-          </button>
+          </HomeLink>
           <p className="mt-8 text-sm font-semibold text-brand-700">{t(`${doc}.eyebrow`)}</p>
           <h1 className="mt-2 text-[2rem] font-extrabold leading-tight text-navy-950 hyphens-auto break-words sm:text-5xl">{t(`${doc}.title`)}</h1>
           <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-sm text-navy-900 ring-1 ring-neutral-200">

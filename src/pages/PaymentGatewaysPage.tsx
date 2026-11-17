@@ -40,6 +40,8 @@ import { PRODUCT_META, type ProductSlug } from '../data/productPages.ts';
 import { SOLUTION_ICONS, SOLUTION_ORDER, solutionRoute } from '../data/solutions.ts';
 import { CONTAINER, PSection, SectionTitle } from '../components/product/ProductKit.tsx';
 
+import TestimonialSection from '../components/social/TestimonialSection.tsx';
+import ContentPhoto from '../components/ContentPhoto.tsx';
 /**
  * Payment methods and the providers that offer them. Source: the "offered" lists on the
  * provider integration pages (src/locales/<lang>/integrations.json → pages.<id>.offered).
@@ -190,6 +192,7 @@ export default function PaymentGatewaysPage() {
                 {p}
               </p>
             ))}
+            <ContentPhoto photo="paymentsOnline" className="mt-10 max-w-2xl" />
           </div>
           <ul className="space-y-4 self-center">
             {facts.map((f, i) => {
@@ -419,6 +422,8 @@ export default function PaymentGatewaysPage() {
           </ul>
         </div>
       </PSection>
+
+      <TestimonialSection page="payment-gateways" />
 
       {/* 9. Pricing */}
       <PSection labelledBy="pg-pricing">

@@ -2,12 +2,16 @@ import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import { useT, useTx } from '../i18n/index.tsx';
 import type { CaseStudy } from '../types.ts';
-import { ArrowRight, CheckCircle2, TrendingUp, Sparkles, Building2 } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, CheckCircle2, TrendingUp, Sparkles, Building2 } from 'lucide-react';
+import HomeLink from '../components/home/HomeLink.tsx';
+import { SOLUTION_ORDER, SOLUTION_ICONS, solutionRoute } from '../data/solutions.ts';
 
 export default function CaseStudiesPage() {
   const { openBookDemo, openGetStarted } = useModal();
   const t = useT('resources');
   const tx = useTx('resources');
+  const ts = useTx('solutions');
+  // Only verified customer stories belong here. While none are published, the page links to the solution pages instead.
   const caseStudies = tx<CaseStudy[]>('caseStudies.items') ?? [];
 
   return (
@@ -30,6 +34,34 @@ export default function CaseStudiesPage() {
           </p>
         </div>
       </section>
+
+      {caseStudies.length === 0 && (
+        <section aria-labelledby="case-studies-explore" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 id="case-studies-explore" className="text-2xl font-extrabold text-neutral-950 font-display">{t('caseStudies.ui.emptyTitle')}</h2>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {SOLUTION_ORDER.map((slug) => {
+              const Icon = SOLUTION_ICONS[slug];
+              return (
+                <li key={slug}>
+                  <HomeLink
+                    to={solutionRoute(slug)}
+                    className="group flex h-full items-start gap-4 rounded-2xl border border-neutral-200 bg-white p-5 transition-colors hover:border-brand-300"
+                  >
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+                      <Icon className="h-5 w-5" aria-hidden="true" />
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-bold text-neutral-900 group-hover:text-brand-700">{ts<string>(`items.${slug}.navLabel`)}</span>
+                      <span className="mt-0.5 block text-sm leading-snug text-neutral-600">{ts<string>(`items.${slug}.navDescription`)}</span>
+                    </span>
+                    <ArrowUpRight className="h-5 w-5 shrink-0 text-neutral-400 group-hover:text-brand-700" aria-hidden="true" />
+                  </HomeLink>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
 
       {/* Case Studies Detailed Cards */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">

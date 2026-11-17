@@ -24,6 +24,8 @@ import {
   useSolution,
 } from '../../components/solutions/SolutionKit.tsx';
 
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 const SLUG = 'for-foundations' as const;
 
 type FoundationText = SolutionText & {
@@ -126,6 +128,7 @@ export default function FoundationSolutionPage() {
       </PSection>
 
       <Helps text={s} tone="soft" id="fdn-helps" icons={[FolderKanban, CalendarRange, Network]} />
+      <CustomerLogoSection id="fdn-customers" compact />
       <SolutionDetails block={s.solutions} variant="rows" id="fdn-solutions" />
       <UseCases text={s} id="fdn-cases" tone="aqua" aside={programmesMock} />
 
@@ -139,6 +142,7 @@ export default function FoundationSolutionPage() {
       )}
 
       <HowItWorks text={s} id="fdn-steps" tone="navy" />
+      <TestimonialSection page="solutions/for-foundations" />
       <SolutionFAQ text={s} id="fdn-faq" />
       <SolutionCTA slug={SLUG} text={s} variant="photo" photo={photo} primary="contact" />
       <OtherSolutions current={SLUG} />

@@ -13,26 +13,26 @@
       "categoryKey": "general"
     },
     {
-      "question": "Wo werden die Daten von Donorfit gehostet und ist Donorfit DSGVO-konform?",
-      "answer": "Alle Systeme und Datenbanken von Donorfit werden ausschließlich innerhalb der Europäischen Union in ISO/IEC-27001-zertifizierten Rechenzentren betrieben. Wir halten die Datenschutz-Grundverordnung (DSGVO) strikt ein, verschlüsseln Daten bei der Speicherung und Übertragung und verkaufen oder übermitteln niemals Spenderdaten.",
+      "question": "Wo werden Daten bei Donorfit verarbeitet und ist Donorfit DSGVO-konform?",
+      "answer": "Donorfit wird von der MYFUNDBOX GmbH in Deutschland bereitgestellt und verarbeitet personenbezogene Daten gemäß der Datenschutz-Grundverordnung (DSGVO). Verbindungen sind verschlüsselt, und Organisationen können einen Auftragsverarbeitungsvertrag abschließen. Details zu Hosting und Dienstleistern finden Sie in unserer Datenschutzerklärung.",
       "category": "Sicherheit & Compliance",
       "categoryKey": "security"
     },
     {
       "question": "Welche Zahlungsarten unterstützt Donorfit?",
-      "answer": "Donorfit unterstützt gängige europäische Zahlungsarten, darunter SEPA-Lastschrift (einmalig und wiederkehrend), Kredit- und Debitkarten (Visa, Mastercard, American Express), Apple Pay, Google Pay, PayPal, iDEAL (Niederlande), Bancontact (Belgien) und Sofort/Klarna.",
+      "answer": "Die Zahlungsarten stammen vom Zahlungsanbieter, den Sie verbinden. Über die integrierten Anbieter (Stripe, PayPal, GoCardless, Mollie und Micropayment) gehören dazu Kredit- und Debitkarten, Apple Pay und Google Pay, SEPA- und Bacs-Lastschrift, PayPal, Überweisung, iDEAL und Bancontact. Welche davon Ihnen zur Verfügung stehen, hängt vom Anbieter und Ihrem Konto ab.",
       "category": "Zahlungen & Banking",
       "categoryKey": "payments"
     },
     {
       "question": "Wie erstellt Donorfit Zuwendungs­bestätigungen in Europa?",
-      "answer": "Donorfit erstellt automatisch rechtskonforme Zuwendungs­bestätigungen nach den jeweiligen nationalen Vorschriften – darunter die deutsche Geldzuwendungsbestätigung, der französische Reçu Fiscal und Gift-Aid-Unterlagen für das Vereinigte Königreich. Bestätigungen können sofort pro Transaktion oder gesammelt als Jahresbestätigung ausgestellt werden.",
+      "answer": "Donorfit bietet vordefinierte Vorlagen für die automatische Erstellung von Zuwendungsbestätigungen, zum Beispiel für die deutsche Zuwendungsbestätigung. Bestätigungen können pro Spende oder als Jahresbestätigung ausgestellt werden. Ihre Organisation bleibt dafür verantwortlich, zu prüfen, dass ihre Bestätigungen den für sie geltenden Vorgaben entsprechen.",
       "category": "Zahlungen & Banking",
       "categoryKey": "payments"
     },
     {
       "question": "Wie lange dauert die Einführung von Donorfit in unserer Organisation?",
-      "answer": "Die meisten gemeinnützigen Organisationen können innerhalb von 1 bis 2 Werktagen Spenden annehmen und ihre ersten Kampagnen starten. Organisationen, die umfangreiche Spenderdatenbanken, Patenschaftsdaten oder bestehende SEPA-Lastschrift­mandate migrieren, schließen das vollständige Onboarding mit unserem persönlichen Support in der Regel innerhalb von 1 bis 2 Wochen ab.",
+      "answer": "Die Einrichtung umfasst drei Schritte: Projekteinstellungen konfigurieren, ein Zahlungs-Gateway verbinden und die Spendenbox auf Ihrer Website einbinden. Wie lange das dauert, hängt vor allem von der Kontoprüfung Ihres Zahlungsanbieters und vom Umfang der zu übernehmenden Daten ab. Unser Team hilft Ihnen gern bei der Planung.",
       "category": "Einführung",
       "categoryKey": "implementation"
     },
@@ -50,7 +50,7 @@
     },
     {
       "question": "Wie funktioniert die Preisgestaltung von Donorfit?",
-      "answer": "Die All-in-one-Fundraising-Plattform von Donorfit kostet 0 € pro Monat – ohne Plattformgebühr und ohne Transaktionsgebühr. Spender:innen können optional die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält. Spezialisierte Add-ons wie CRM, wiederkehrende Abonnements, Sponsorship, Membership und Qurbani werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
+      "answer": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren legt der gewählte Zahlungsanbieter fest. Spender:innen können optional die Zahlungsgebühren übernehmen, sodass Ihre Organisation den vollen Betrag erhält. Spezialisierte Add-ons wie CRM, regelmäßige Spenden, Patenschaften, Mitgliedschaften und Qurbani werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
       "category": "Preise",
       "categoryKey": "pricing"
     }

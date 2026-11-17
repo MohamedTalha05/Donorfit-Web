@@ -4,8 +4,8 @@
       "name": "Membership",
       "navDescription": "Plans, registration, dues and renewals",
       "seo": {
-        "title": "Membership Management Software for Associations & Nonprofits | Donorfit",
-        "description": "Register members, configure membership plans, collect dues by SEPA or card and automate renewals — all in one membership workspace built for associations and nonprofits."
+        "title": "Membership Management Software for Associations | Donorfit",
+        "description": "Manage member registration, dues collection, renewals and member records for associations and nonprofits in one place with Donorfit Membership."
       },
       "headline": "Simplify Membership Management for Your Organisation.",
       "subheadline": "Register members, set up plans and categories, collect dues and run renewals from one organised workspace — so your team stops chasing fees.",
@@ -123,7 +123,7 @@
       "navDescription": "Sponsors, beneficiaries and contributions",
       "seo": {
         "title": "Sponsorship Management Software for Charities | Donorfit",
-        "description": "Link sponsors to students, beneficiaries and projects, collect recurring contributions and share progress updates — with role-based safeguarding for sensitive records."
+        "description": "Manage child, family and project sponsorships: link sponsors to beneficiaries, collect recurring contributions and share progress updates with sponsors."
       },
       "headline": "Make Sponsorship Management Simple and Transparent.",
       "subheadline": "Connect sponsors with students, beneficiaries and projects, track every contribution and share progress — without a single spreadsheet.",
@@ -599,7 +599,7 @@
       "navDescription": "Crowdfunding campaigns with shared goals",
       "seo": {
         "title": "MoneyPool Crowdfunding Platform | Donorfit",
-        "description": "Create crowdfunding campaigns with Donorfit MoneyPool. Bring multiple donors together, collect contributions and track fundraising progress for your organisation's projects."
+        "description": "Create crowdfunding campaigns with Donorfit MoneyPool: bring donors together, collect contributions and track progress for your projects."
       },
       "headline": "Many donors. One goal. One project funded together.",
       "subheadline": "MoneyPool is Donorfit’s crowdfunding solution for nonprofits. Create a fundraising campaign, share it with your community and track every contribution as it moves you toward your goal.",

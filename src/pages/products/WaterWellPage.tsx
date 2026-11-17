@@ -21,7 +21,10 @@ import {
   useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { WaterWellPreview } from '../../components/product/ProductPreviews.tsx';
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
+import ContentPhoto from '../../components/ContentPhoto.tsx';
 export default function WaterWellPage() {
   const tx = useTx('products');
   const p = useProductPage('water-well');
@@ -90,9 +93,13 @@ export default function WaterWellPage() {
           </div>
         </div>
         <div className={CONTAINER}>
+          <ContentPhoto photo="waterwellPump" aspect="aspect-[4/3] sm:aspect-[21/9]" className="mt-14" />
           <ProblemSolution p={p} variant="rows" />
         </div>
       </PSection>
+
+      {/* Customer logos */}
+      <CustomerLogoSection id="ww-customers" compact />
 
       {/* Features bento */}
       <PSection tone="aqua" labelledBy="ww-features">
@@ -131,6 +138,7 @@ export default function WaterWellPage() {
         </div>
       </PSection>
 
+      <TestimonialSection page="water-well" />
       <FAQ p={p} />
       <Related p={p} />
       <FinalCTA p={p} />

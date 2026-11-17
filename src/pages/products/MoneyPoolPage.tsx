@@ -33,6 +33,8 @@ import {
   useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import MoneyPoolDashboard, { DEMO, DEMO_PCT, Marker } from '../../components/product/MoneyPoolDashboard.tsx';
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
 type TitleBody = { title: string; body: string };
 
@@ -214,6 +216,9 @@ export default function MoneyPoolPage() {
         </div>
       </PSection>
 
+      {/* Customer logos */}
+      <CustomerLogoSection id="mp-customers" compact />
+
       {/* ---------------------------------------------------- Dashboard */}
       <PSection tone="aqua" labelledBy="mp-dashboard">
         <div className={CONTAINER}>
@@ -314,6 +319,7 @@ export default function MoneyPoolPage() {
         </div>
       </PSection>
 
+      <TestimonialSection page="money-pool" />
       <FAQ p={p} />
       <Related p={p} />
       <FinalCTA p={p} />

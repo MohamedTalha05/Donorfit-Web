@@ -1,0 +1,99 @@
+{
+  "logos": {
+    "title": "Trusted by charities, foundations and relief organisations",
+    "body": "Organisations use Donorfit to organise their fundraising, manage donations and stay close to their supporters.",
+    "compactTitle": "Organisations already fundraising with Donorfit",
+    "regionLabel": "Logos of organisations that use Donorfit"
+  },
+  "testimonials": {
+    "listLabel": "Customer testimonials",
+    "prev": "Previous testimonials",
+    "next": "Next testimonials",
+    "devPlaceholder": "Development preview: sample cards only. This section is hidden on the live site until approved testimonials for “{{page}}” are added in src/data/testimonials.ts.",
+    "sample": {
+      "badge": "Sample · development only",
+      "quote": "Placeholder for an approved customer quote. Replace it with real, approved wording in src/data/testimonials.ts.",
+      "name": "Customer name",
+      "role": "Role",
+      "organisation": "Organisation"
+    },
+    "pages": {
+      "home": {
+        "title": "What our customers say",
+        "body": "How organisations use Donorfit to organise their fundraising and look after their supporters."
+      },
+      "membership": {
+        "title": "What organisations say about membership management",
+        "body": "Feedback from organisations that manage members, plans and renewals with Donorfit."
+      },
+      "sponsorship": {
+        "title": "What organisations say about their sponsorship programmes",
+        "body": "Feedback from organisations that connect sponsors with children, students and families through Donorfit."
+      },
+      "money-pool": {
+        "title": "What organisers say about MoneyPool",
+        "body": "Feedback on group fundraising and shared collections with MoneyPool."
+      },
+      "water-well": {
+        "title": "What organisations say about water well fundraising",
+        "body": "Feedback from organisations that fund water well projects and report back to donors with Donorfit."
+      },
+      "qurbani": {
+        "title": "What organisations say about their Qurbani campaigns",
+        "body": "Feedback from organisations that take Qurbani orders and manage distribution with Donorfit."
+      },
+      "donations": {
+        "title": "What organisations say about collecting donations",
+        "body": "Feedback on donation forms, campaigns and receipts in Donorfit."
+      },
+      "payment-gateways": {
+        "title": "What organisations say about payment processing",
+        "body": "Feedback on connecting payment providers and receiving donations through Donorfit."
+      },
+      "recurring-management": {
+        "title": "What organisations say about recurring giving",
+        "body": "Feedback on managing regular donations, renewals and failed payments."
+      },
+      "donor-management": {
+        "title": "What organisations say about managing donor information",
+        "body": "Feedback on keeping donor records, giving history and communication in one place."
+      },
+      "reporting-and-insights": {
+        "title": "What organisations say about reporting",
+        "body": "Feedback on reports, exports and visibility into fundraising results."
+      },
+      "campaign-management": {
+        "title": "What organisations say about campaign management",
+        "body": "Feedback on planning, running and following up fundraising campaigns."
+      },
+      "orphan-sponsorship": {
+        "title": "What organisations say about orphan sponsorship",
+        "body": "Feedback from organisations that manage orphan sponsorships with Donorfit."
+      },
+      "solutions/for-ngos": {
+        "title": "What NGOs say about Donorfit",
+        "body": "Feedback from NGOs that run campaigns and manage their supporters with Donorfit."
+      },
+      "solutions/for-charities": {
+        "title": "What charities say about Donorfit",
+        "body": "Feedback from charities that collect donations and report to their supporters with Donorfit."
+      },
+      "solutions/for-foundations": {
+        "title": "What foundations say about Donorfit",
+        "body": "Feedback from foundations that manage funds, projects and donors with Donorfit."
+      },
+      "solutions/for-sponsorship-orgs": {
+        "title": "What sponsorship organisations say about Donorfit",
+        "body": "Feedback from organisations that run sponsorship programmes with Donorfit."
+      },
+      "solutions/for-membership-orgs": {
+        "title": "What membership organisations say about Donorfit",
+        "body": "Feedback from associations and clubs that manage members and fees with Donorfit."
+      },
+      "solutions/for-international-orgs": {
+        "title": "What international organisations say about Donorfit",
+        "body": "Feedback from organisations that fundraise across countries, currencies and languages with Donorfit."
+      }
+    }
+  }
+}

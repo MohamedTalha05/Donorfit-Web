@@ -154,7 +154,7 @@ export default function IntegrationsPage() {
   const t = useT('integrations');
   const tx = useTx('integrations');
   const tc = useT('common');
-  const { navigateTo, openBookDemo } = useModal();
+  const { openBookDemo } = useModal();
   const why = tx<string[]>('why.items');
 
   return (
@@ -198,13 +198,12 @@ export default function IntegrationsPage() {
               {t('why.title')}
             </h2>
             <p className="mt-5 max-w-md text-lg leading-relaxed text-neutral-600">{t('help.text')}</p>
-            <button
-              type="button"
-              onClick={() => navigateTo('/contact')}
+            <HomeLink
+              to="/contact"
               className="mt-5 inline-flex items-center gap-1.5 rounded-lg text-sm font-semibold text-brand-700 underline-offset-4 hover:text-brand-800 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600"
             >
               {t('help.link')}
-            </button>
+            </HomeLink>
           </div>
           <ul className="grid gap-x-10 gap-y-0 sm:grid-cols-2 lg:col-span-7">
             {why.map((item) => (

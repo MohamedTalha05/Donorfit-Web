@@ -52,7 +52,7 @@
         "raised": "Gesammelt",
         "target": "Spendenziel",
         "donors": "Spender:innen",
-        "update": "Neuestes Update: die ersten 60 Pakete sind verteilt"
+        "update": "Neuestes Update: Die ersten 60 Pakete sind verteilt"
       },
       "challenges": {
         "title": "Herausforderungen, die NGOs jeden Tag begleiten",
@@ -788,7 +788,7 @@
             "title": "Daten von Begünstigten schützen",
             "text": "Der Zugriff richtet sich nach der Rolle jeder Person.",
             "points": [
-              "Rollenbasierter Zugriff für Mitarbeitende und Mitarbeiter:innen vor Ort",
+              "Rollenbasierter Zugriff für Mitarbeitende in der Zentrale und vor Ort",
               "Einwilligungs- und Datenschutzvorkehrungen in Profilen",
               "Eingeschränkter Zugriff auf Aufenthaltsorte und Identitätsdaten"
             ]

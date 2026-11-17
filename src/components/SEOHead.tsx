@@ -14,6 +14,9 @@ const OG_LOCALE: Record<Lang, string> = { en: 'en_GB', de: 'de_DE' };
 
 type Meta = { title: string; description: string };
 
+/** "<title> | Donorfit Blog", or the shorter "| Donorfit" suffix when the full one would exceed ~65 characters. */
+const blogTitle = (title: string) => (title.length + 16 <= 65 ? `${title} | Donorfit Blog` : `${title} | Donorfit`);
+
 /** Title/description for a route in a language (product pages and blog posts first, then the route table). */
 function metaFor(route: string, lang: Lang): Meta {
   const product = productByRoute(route);
@@ -22,7 +25,7 @@ function metaFor(route: string, lang: Lang): Meta {
     if (seo?.title) return seo;
   }
   const text = blogPostFor(route)?.[lang];
-  if (text) return { title: text.seoTitle ?? `${text.title} | Donorfit Blog`, description: text.metaDescription ?? text.excerpt };
+  if (text) return { title: text.seoTitle ?? blogTitle(text.title), description: text.metaDescription ?? text.excerpt };
   const routes = translateObj<Record<string, Meta>>(lang, 'seo', 'routes') ?? {};
   return routes[route] ?? routes['/'];
 }

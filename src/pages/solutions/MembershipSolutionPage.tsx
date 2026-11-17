@@ -25,6 +25,9 @@ import {
   useSolution,
 } from '../../components/solutions/SolutionKit.tsx';
 
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
+import ContentPhoto from '../../components/ContentPhoto.tsx';
 const SLUG = 'for-membership-orgs' as const;
 
 type MembershipText = SolutionText & {
@@ -108,6 +111,7 @@ export default function MembershipSolutionPage() {
 
       <Challenges text={s} variant="cards" id="mem-sol-challenges" icons={[Contact, Layers, Coins, Vote]} />
       <Helps text={s} tone="navy" id="mem-sol-helps" icons={[IdCard, Wallet, Vote]} />
+      <CustomerLogoSection id="mem-sol-customers" compact />
 
       {/* Signature: a member's year */}
       <PSection labelledBy="mem-sol-year">
@@ -156,8 +160,9 @@ export default function MembershipSolutionPage() {
       {/* Additional fundraising, explained separately from membership */}
       <SolutionDetails block={s.beyond} variant="cards" tone="soft" id="mem-sol-beyond" />
 
-      <UseCases text={s} id="mem-sol-cases" />
+      <UseCases text={s} id="mem-sol-cases" aside={<ContentPhoto photo="membershipMeeting" />} />
       <HowItWorks text={s} id="mem-sol-steps" tone="soft" />
+      <TestimonialSection page="solutions/for-membership-orgs" />
       <SolutionFAQ text={s} id="mem-sol-faq" />
       <SolutionCTA slug={SLUG} text={s} variant="aqua" />
       <OtherSolutions current={SLUG} />

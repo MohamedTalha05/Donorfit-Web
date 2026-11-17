@@ -21,7 +21,10 @@ import {
   useProductBadge,
 } from '../../components/product/ProductKit.tsx';
 import { MembershipPreview } from '../../components/product/ProductPreviews.tsx';
+import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
+import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
+import ContentPhoto from '../../components/ContentPhoto.tsx';
 export default function MembershipPage() {
   const p = useProductPage('membership');
   const photo = useProductPhoto('membership');
@@ -80,9 +83,13 @@ export default function MembershipPage() {
           <p className="text-lg leading-relaxed text-neutral-600 lg:pt-3">{p.intro.body}</p>
         </div>
         <div className={CONTAINER}>
+          <ContentPhoto photo="membershipCommunity" aspect="aspect-[4/3] sm:aspect-[21/9]" className="mt-14" />
           <ProblemSolution p={p} variant="rows" />
         </div>
       </PSection>
+
+      {/* Customer logos */}
+      <CustomerLogoSection id="mem-customers" compact />
 
       {/* Features */}
       <PSection tone="soft" labelledBy="mem-features">
@@ -119,6 +126,7 @@ export default function MembershipPage() {
         </div>
       </PSection>
 
+      <TestimonialSection page="membership" />
       <FAQ p={p} />
       <Related p={p} />
       <FinalCTA p={p} />
