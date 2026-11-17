@@ -331,27 +331,23 @@
       ]
     },
     "addons": {
-      "eyebrow": "Add-ons",
-      "title": "Erweitern Sie Ihre Plattform, wenn Sie wachsen.",
-      "intro": "Ergänzen Sie die kostenlose Plattform um spezialisierte Module, sobald Ihre Organisation sie benötigt. Add-ons werden separat erworben.",
-      "askPricing": "Preise für Add-ons anfragen",
-      "badge": "Add-on",
+      "eyebrow": "Optionale Zusatzmodule",
+      "title": "Optionale Produkte und Zusatzmodule",
+      "intro": "Keines dieser Produkte ist im Basistarif enthalten. Ergänzen Sie nur die Module, die Ihre Organisation braucht – jedes Zusatzmodul hat einen eigenen Preis.",
+      "askPricing": "Preise für Zusatzmodule anfragen",
+      "badge": "Optionales Zusatzmodul",
       "items": {
-        "crm": {
-          "name": "CRM",
-          "description": "Zentrale Spenderdaten, Interaktionsverlauf und Segmentierung."
-        },
         "recurring": {
           "name": "Regelmäßige Spenden",
           "description": "Monatliche und jährliche Spenden mit automatisiertem Einzug."
         },
         "sponsorship": {
           "name": "Sponsorship",
-          "description": "Pat:innen, Begünstigte und Fortschritts­berichte verwalten."
+          "description": "Pat:innen, Begünstigte und regelmäßige Patenschaftszahlungen verwalten."
         },
         "membership": {
           "name": "Membership",
-          "description": "Mitgliederregistrierung, Beitragseinzug und Verlängerungen."
+          "description": "Mitgliedstarife, Online-Anträge, Mitgliederdaten und regelmäßige Beiträge."
         },
         "school": {
           "name": "Schule",
@@ -359,7 +355,15 @@
         },
         "qurbani": {
           "name": "Qurbani",
-          "description": "Saisonale Qurbani-Spendenkampagnen und deren Zuteilung."
+          "description": "Saisonale Qurbani-Kampagnen – von der Online-Bestellung bis zur Zuteilung."
+        },
+        "moneypool": {
+          "name": "MoneyPool",
+          "description": "Crowdfunding-Kampagnen mit gemeinsamem Ziel, Live-Fortschritt und Übersicht über alle Beiträge."
+        },
+        "water": {
+          "name": "Water",
+          "description": "Fundraising für Brunnenprojekte, mit Spendenziel und Fortschritts­updates für jeden Brunnen."
         }
       }
     },
@@ -561,6 +565,22 @@
         ]
       }
     ],
+    "tech": {
+      "eyebrow": "Technologiepartner",
+      "title": "Die Cloud-Infrastruktur hinter Donorfit",
+      "intro": "Donorfit nutzt Dienste dieser Cloud-Anbieter, um die Plattform zu betreiben.",
+      "items": {
+        "googleCloud": {
+          "name": "Google Cloud",
+          "text": "Donorfit nutzt Dienste von Google Cloud, um die Plattform zu betreiben."
+        },
+        "azure": {
+          "name": "Microsoft Azure",
+          "text": "Donorfit nutzt Dienste von Microsoft Azure, um die Plattform zu betreiben."
+        }
+      },
+      "logoAlt": "Logo von {{name}}"
+    },
     "integrations": {
       "eyebrow": "Verfügbare Integrationen",
       "title": "Verbunden mit den Tools, auf die Sie sich bereits verlassen.",

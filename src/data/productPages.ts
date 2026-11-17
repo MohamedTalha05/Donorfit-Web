@@ -6,7 +6,7 @@
  * language-neutral data: slugs, routes and related products.
  *
  * Membership, Sponsorship and Money Pool features are taken from the
- * existing product copy in content.ts. Water Well, Qurbani and School
+ * existing product copy in content.ts. Water, Qurbani and School
  * Management features follow the product brief supplied on 2026-11-11.
  * No statistics or testimonials: every number shown in a preview is
  * labelled as example data in the UI.

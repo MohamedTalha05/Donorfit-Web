@@ -74,4 +74,4 @@ Run `npm run i18n:hyphenate` (adds invisible soft hyphens to long compound nouns
 | dashboard | Dashboard |
 | example data / sample data | Beispieldaten |
 
-**Keep untranslated:** Donorfit, the six product names (Membership, Sponsorship, Water Well, Qurbani, School Management, MoneyPool), Stripe, PayPal, SEPA, Apple Pay, Google Pay, iDEAL, Bancontact, DATEV, Salesforce, WordPress and other third-party names.
+**Keep untranslated:** Donorfit, the six product names (Membership, Sponsorship, Water, Qurbani, School Management, MoneyPool), Stripe, PayPal, SEPA, Apple Pay, Google Pay, iDEAL, Bancontact, DATEV, Salesforce, WordPress and other third-party names.

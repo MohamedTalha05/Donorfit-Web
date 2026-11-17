@@ -26,6 +26,7 @@ import {
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 import ContentPhoto from '../../components/ContentPhoto.tsx';
+import KeyFigures from '../../components/home/KeyFigures.tsx';
 const SLUG = 'for-sponsorship-orgs' as const;
 
 type SponsorshipText = SolutionText & {
@@ -138,6 +139,7 @@ export default function SponsorshipSolutionPage() {
       <Challenges text={s} variant="rows" id="spo-sol-challenges" />
       <Helps text={s} tone="soft" id="spo-sol-helps" icons={[Link2, Lock, RefreshCw]} />
       <CustomerLogoSection id="spo-sol-customers" compact />
+      <KeyFigures id="spo-sol-key-figures" className="!pt-0" />
 
       {/* Signature: sponsorship models */}
       <PSection labelledBy="spo-sol-models">

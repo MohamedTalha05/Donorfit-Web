@@ -27,7 +27,6 @@
       }
     ]
   },
-
   "platform": {
     "eyebrow": "Plattform",
     "titleBefore": "Alles, was Sie für Ihr Fundraising brauchen,",
@@ -47,8 +46,8 @@
         "description": "Spendenaufrufe mit Spendenziel, Live-Fortschritt, Meilensteinen, QR-Codes und Verdopplungsaktionen."
       },
       {
-        "title": "Spender­verwaltung",
-        "description": "Ein Profil pro Unterstützer:in mit vollständiger Spendenhistorie, Einwilligungen und Notizen."
+        "title": "Spenderportal",
+        "description": "Unterstützer:innen sehen ihre Spenden, laden Belege herunter und verwalten regelmäßige Spenden selbst."
       },
       {
         "title": "Patenschaften",
@@ -184,6 +183,15 @@
         ]
       }
     ]
+  },
+  "hosting": {
+    "titleBefore": "Gehostet in",
+    "highlight": "Frankfurt, Deutschland",
+    "body": "Donorfit wird in Frankfurt, Deutschland, gehostet – ein verlässlicher Hosting-Standort innerhalb der Europäischen Union.",
+    "city": "Frankfurt am Main",
+    "region": "Europäische Union",
+    "coords": "50,11° N, 8,68° O",
+    "graphicLabel": "Standortmarkierung für Frankfurt, Deutschland"
   },
   "integrations": {
     "eyebrow": "Integrationen",
@@ -424,7 +432,7 @@
         "alt": "Ein Schuljunge schreibt sorgfältig an seinem Pult in sein Heft"
       },
       "waterwell": {
-        "name": "Water Well",
+        "name": "Water",
         "alt": "Kinder füllen gelbe Kanister an einem Handpumpenbrunnen im Dorf"
       },
       "qurbani": {
@@ -515,6 +523,25 @@
       "contributors": "{{n}} Beitragende",
       "latest": "Neueste Beiträge",
       "anonymous": "Anonym"
+    }
+  },
+  "keyFigures": {
+    "title": "Donorfit in Zahlen",
+    "body": "Für ein stärkeres Fundraising-Erlebnis – durch Technologie, Transparenz und verlässliche Partnerschaften.",
+    "members": {
+      "value": "750+",
+      "template": "{{n}}+",
+      "label": "Aktive Mitglieder"
+    },
+    "volume": {
+      "value": "25+ Mio. €",
+      "template": "{{n}}+ Mio. €",
+      "label": "Transaktions­volumen"
+    },
+    "experience": {
+      "value": "10+",
+      "template": "{{n}}+",
+      "label": "Jahre Erfahrung"
     }
   }
 }

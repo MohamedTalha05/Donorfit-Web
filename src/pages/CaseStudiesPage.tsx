@@ -5,6 +5,7 @@ import type { CaseStudy } from '../types.ts';
 import { ArrowRight, ArrowUpRight, CheckCircle2, TrendingUp, Sparkles, Building2 } from 'lucide-react';
 import HomeLink from '../components/home/HomeLink.tsx';
 import { SOLUTION_ORDER, SOLUTION_ICONS, solutionRoute } from '../data/solutions.ts';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
 
 export default function CaseStudiesPage() {
   const { openBookDemo, openGetStarted } = useModal();
@@ -134,6 +135,9 @@ export default function CaseStudiesPage() {
           </article>
         ))}
       </section>
+
+      {/* Testimonials (site-wide) */}
+      <GeneralTestimonialSection id="case-studies-testimonials" className="!bg-transparent !py-0" />
 
       {/* Conversion Banner */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">

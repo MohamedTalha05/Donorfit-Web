@@ -102,7 +102,7 @@
             "title": "Mit weniger Aufwand berichten",
             "text": "Teilen Sie Fortschritte mit den Werkzeugen, die in jedes Produkt integriert sind.",
             "points": [
-              "Updates zu jeder Bauphase bei Water-Well-Projekten",
+              "Updates zu jeder Bauphase bei Water-Projekten",
               "Fortschrittsberichte über das Patenportal",
               "Spendenbelege aus vordefinierten Vorlagen"
             ]
@@ -226,7 +226,7 @@
         },
         {
           "question": "Mit welcher Lösung sollten wir beginnen?",
-          "answer": "Das hängt von Ihrem nächsten Vorhaben ab: MoneyPool für ein Projekt mit gemeinsamem Ziel, Water Well für Brunnenprojekte, Sponsorship für die dauerhafte Unterstützung von Begünstigten und Membership, wenn Sie Mitglieder haben. Unser Team hilft Ihnen bei der Entscheidung."
+          "answer": "Das hängt von Ihrem nächsten Vorhaben ab: MoneyPool für ein Projekt mit gemeinsamem Ziel, Water für Brunnenprojekte, Sponsorship für die dauerhafte Unterstützung von Begünstigten und Membership, wenn Sie Mitglieder haben. Unser Team hilft Ihnen bei der Entscheidung."
         },
         {
           "question": "Welche Zahlungsanbieter können wir anbinden?",
@@ -1274,7 +1274,7 @@
             "text": "Bringen Sie das Projekt näher zu den Menschen, die es finanzieren.",
             "points": [
               "Projektseiten mit Standort, Budget und Fotos",
-              "Updates zu jeder Bauphase bei Water-Well-Projekten",
+              "Updates zu jeder Bauphase bei Water-Projekten",
               "Fortschrittsberichte über das Patenportal"
             ]
           },
@@ -1338,7 +1338,7 @@
         "items": [
           {
             "title": "Fundraising-Möglichkeiten für eine Region prüfen",
-            "text": "Eine Organisation plant Wasserprojekte in einer neuen Region. Vor dem Start bespricht sie mit dem Donorfit-Team ihren Zahlungsanbieter und die Herkunft ihrer Spender:innen und richtet dann ihre erste Water-Well-Kampagne ein.",
+            "text": "Eine Organisation plant Wasserprojekte in einer neuen Region. Vor dem Start bespricht sie mit dem Donorfit-Team ihren Zahlungsanbieter und die Herkunft ihrer Spender:innen und richtet dann ihre erste Water-Kampagne ein.",
             "slug": "water-well"
           },
           {
@@ -1371,7 +1371,7 @@
           },
           {
             "title": "Projekte einrichten",
-            "text": "Legen Sie Water-Well-, Qurbani-, Sponsorship- oder MoneyPool-Kampagnen für Ihre Arbeit an."
+            "text": "Legen Sie Water-, Qurbani-, Sponsorship- oder MoneyPool-Kampagnen für Ihre Arbeit an."
           },
           {
             "title": "Updates teilen und Fortschritt verfolgen",

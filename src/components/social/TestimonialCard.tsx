@@ -3,59 +3,97 @@ import { Quote } from 'lucide-react';
 import { useI18n, useT } from '../../i18n/index.tsx';
 import type { Testimonial } from '../../data/testimonials.ts';
 
-/** One approved customer quote. Equal heights come from the parent grid (h-full + flex). */
-export default function TestimonialCard({ item, dark = false }: { item: Testimonial; dark?: boolean }) {
+/** Initials for the avatar fallback when no approved photo or logo exists. */
+const initials = (name: string) =>
+  name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0]?.toUpperCase())
+    .join('');
+
+/**
+ * One approved customer quote: turquoise heading pill, large quote, decorative quote mark,
+ * then the person (approved photo, logo or initials). Used by the spotlight carousel.
+ */
+export default function TestimonialCard({ item, dark = false }: { item: Testimonial; dark?: boolean; onSoft?: boolean }) {
   const { lang } = useI18n();
-  const tc = useT('common');
   const t = useT('social');
   const quote = item.quote[lang];
   if (!quote) return null;
   const role = item.role?.[lang];
-  const productLabel = item.product ? tc(`products.${item.product}`) : '';
+  const heading = item.heading?.[lang];
+  const area = item.product ? t(`testimonials.areas.${item.product}`) : '';
+  const meta = [role, item.organisation].filter(Boolean).join(', ');
 
   return (
     <figure
-      className={`flex h-full flex-col rounded-[1.75rem] p-7 transition-[box-shadow,transform] duration-200 hover:-translate-y-0.5 motion-reduce:transition-none motion-reduce:hover:translate-y-0 sm:p-8 ${
+      className={`relative isolate flex h-full flex-col overflow-hidden rounded-[2rem] p-7 sm:p-10 ${
         dark
-          ? 'hv-glass text-white'
-          : 'border border-neutral-200 bg-white shadow-[0_20px_50px_-36px_rgb(0_24_64/0.4)] hover:shadow-[0_28px_60px_-34px_rgb(0_24_64/0.5)]'
+          ? 'bg-navy-900 text-white ring-1 ring-white/15 shadow-[0_40px_80px_-44px_rgb(0_0_0/0.7)]'
+          : 'bg-white ring-1 ring-navy-950/[0.06] shadow-[0_40px_80px_-44px_rgb(0_24_64/0.5)]'
       }`}
     >
-      <div className="flex items-start justify-between gap-3">
-        <Quote className={`h-7 w-7 ${dark ? 'text-brand-300' : 'text-brand-500'}`} aria-hidden="true" />
+      {/* decorative quote mark */}
+      <Quote
+        aria-hidden="true"
+        className={`absolute -right-3 -top-4 -z-10 h-36 w-36 rotate-180 sm:h-44 sm:w-44 ${dark ? 'text-white/[0.06]' : 'text-brand-50'}`}
+        fill="currentColor"
+        strokeWidth={0}
+      />
+
+      <div className="flex flex-wrap items-center gap-2">
+        {heading && (
+          <span
+            className={`inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold sm:text-sm ${
+              dark ? 'bg-white/10 text-brand-200' : 'bg-brand-50 text-brand-800 ring-1 ring-brand-100'
+            }`}
+          >
+            <span aria-hidden="true" className={`h-1.5 w-1.5 rounded-full ${dark ? 'bg-brand-300' : 'bg-brand-500'}`} />
+            {heading}
+          </span>
+        )}
         {item.sample && (
           <span className="rounded-full border border-dashed border-neutral-400 px-2.5 py-0.5 text-xs font-semibold text-neutral-500">
             {t('testimonials.sample.badge')}
           </span>
         )}
       </div>
-      <blockquote className={`mt-5 flex-1 text-[17px] leading-relaxed ${dark ? 'text-white/85' : 'text-navy-950'}`}>
-        <p>{quote}</p>
+
+      <blockquote
+        className={`mt-6 flex-1 text-[1.375rem] font-bold leading-snug [text-wrap:balance] sm:text-[1.75rem] ${dark ? 'text-white' : 'text-navy-950'}`}
+      >
+        <p>“{quote}”</p>
       </blockquote>
-      <figcaption className={`mt-7 flex items-center gap-4 border-t pt-6 ${dark ? 'border-white/10' : 'border-neutral-200'}`}>
+
+      <figcaption className={`mt-8 flex items-center gap-4 border-t pt-6 ${dark ? 'border-white/10' : 'border-neutral-100'}`}>
         {item.photo ? (
-          <img src={item.photo} alt="" width={48} height={48} loading="lazy" className="h-12 w-12 shrink-0 rounded-full object-cover" />
+          <img src={item.photo} alt="" width={56} height={56} loading="lazy" decoding="async" className="h-14 w-14 shrink-0 rounded-full object-cover" />
         ) : item.logo ? (
-          <span className="flex h-12 w-16 shrink-0 items-center justify-center rounded-xl bg-white px-2 ring-1 ring-neutral-200">
-            <img src={item.logo} alt="" loading="lazy" className="max-h-8 w-auto max-w-full object-contain" />
+          <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-white p-2 ring-1 ring-neutral-200">
+            <img src={item.logo} alt="" width={40} height={40} loading="lazy" decoding="async" className="max-h-9 w-auto max-w-full object-contain" />
           </span>
-        ) : null}
-        <span className="min-w-0">
-          <span className={`block font-bold ${dark ? 'text-white' : 'text-navy-950'}`}>{item.name}</span>
-          <span className={`block text-sm ${dark ? 'text-white/65' : 'text-neutral-600'}`}>
-            {role ? `${role}, ` : ''}
-            {item.organisation}
-          </span>
-        </span>
-        {productLabel && productLabel !== `products.${item.product}` && (
+        ) : (
           <span
-            className={`ml-auto hidden shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold sm:inline ${
-              dark ? 'bg-white/10 text-brand-200' : 'bg-brand-50 text-brand-800 ring-1 ring-brand-100'
-            }`}
+            aria-hidden="true"
+            className="hv-display flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-navy-800 text-sm font-extrabold text-white shadow-[0_10px_24px_-10px_rgb(0_122_128/0.8)]"
           >
-            {productLabel}
+            {initials(item.name)}
           </span>
         )}
+        <span className="min-w-0">
+          <span className={`block break-words font-bold ${dark ? 'text-white' : 'text-navy-950'}`}>{item.name}</span>
+          {meta && <span className={`block break-words text-sm leading-snug ${dark ? 'text-white/65' : 'text-neutral-600'}`}>{meta}</span>}
+          {area && (
+            <span
+              className={`mt-2 inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold ${
+                dark ? 'bg-white/10 text-brand-200' : 'bg-brand-50 text-brand-800 ring-1 ring-brand-100'
+              }`}
+            >
+              {area}
+            </span>
+          )}
+        </span>
       </figcaption>
     </figure>
   );

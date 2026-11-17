@@ -30,6 +30,7 @@ import type { TestimonialPage } from '../data/testimonials.ts';
 
 import ContentPhoto from '../components/ContentPhoto.tsx';
 import type { ContentPhotoKey } from '../data/contentPhotos.ts';
+import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
 /** Photo shown above the "how it works" steps, matched to each feature page. */
 const WORKFLOW_PHOTOS: Record<string, ContentPhotoKey | undefined> = {
   donations: 'donationsHandover',
@@ -164,6 +165,9 @@ export default function ProductPage({ slug }: ProductPageProps) {
 
         </div>
       </section>
+
+      {/* Zero-fee message (donations page only) */}
+      {slug === 'donations' && <ZeroFeeHighlight id="donations-fees" className="!py-0" />}
 
       {/* 2. LIVE APPLICATION INTERFACE & FIELD IMPACT STRIP */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -19,7 +19,7 @@ const FEATURE_LINKS: FooterLink[] = [
   { route: '/donations', key: 'donations' },
   { route: '/payment-gateways', key: 'paymentGateways' },
   { route: '/recurring-management', key: 'recurringGiving' },
-  { route: '/donor-management', key: 'donorManagement' },
+  { route: '/donor-portal', key: 'donorPortal' },
   { route: '/reporting-and-insights', key: 'reporting' },
 ];
 

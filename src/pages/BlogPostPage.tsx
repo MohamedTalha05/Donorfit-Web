@@ -6,7 +6,7 @@ import HomeLink from '../components/home/HomeLink.tsx';
 import BlogCard from '../components/blog/BlogCard.tsx';
 import ArticleBody from '../components/blog/ArticleBody.tsx';
 import { postsFor, parseBody, relatedPosts, blogRoute, type Block, type LocalizedPost } from '../components/blog/blogContent.ts';
-import { APP_SIGNUP_URL } from '../data/links.ts';
+import { APP_SIGNUP_URL, NEW_TAB } from '../data/links.ts';
 
 const SITE = 'https://donorfit.com';
 
@@ -209,7 +209,7 @@ export default function BlogPostPage({ slug }: { slug: string }) {
               <p className="mt-3 max-w-xl text-lg leading-relaxed text-white/70">{t('ui.post.ctaText')}</p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-              <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-primary">
+              <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-primary">
                 {t('ui.post.ctaRegister')} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </a>
               <HomeLink to="/pricing" className="hv-btn hv-btn-ghost">

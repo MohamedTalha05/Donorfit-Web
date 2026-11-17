@@ -19,7 +19,7 @@
   "products": {
     "membership": "Membership",
     "sponsorship": "Sponsorship",
-    "water-well": "Water Well",
+    "water-well": "Water",
     "qurbani": "Qurbani",
     "school-management": "School Management",
     "money-pool": "MoneyPool"
@@ -41,5 +41,54 @@
     "pattern": "Bitte halten Sie sich an das vorgegebene Format.",
     "number": "Bitte geben Sie eine gültige Zahl ein.",
     "invalid": "Bitte überprüfen Sie dieses Feld."
+  },
+  "fees": {
+    "body": "Donorfit behält nichts von den Spenden ein, die Sie sammeln. Es gibt keine Donorfit-Plattformgebühr und keine Donorfit-Transaktionsgebühr – so bleibt mehr von jeder Spende für Ihr Anliegen.",
+    "platform": {
+      "label": "Plattform­gebühr",
+      "text": "Keine monatliche Plattformgebühr für die Nutzung von Donorfit."
+    },
+    "transaction": {
+      "label": "Transaktions­gebühr",
+      "text": "Donorfit zieht von keiner Spende und keiner Zahlung etwas ab."
+    },
+    "providerNote": "Zahlungsanbieter wie Stripe, PayPal oder GoCardless erheben eigene Verarbeitungsgebühren, die weiterhin anfallen können. Diese legt der verbundene Anbieter fest, nicht Donorfit – und Spender:innen können sie auf Wunsch übernehmen.",
+    "addonNote": "{{product}} ist ein Zusatzmodul mit eigenem Preis. Die 0 % gelten für die Spenden und Zahlungen, die Sie damit einnehmen.",
+    "link": "Preise ansehen",
+    "headline": "Mehr von jeder Spende behalten",
+    "zero": "0",
+    "percent": " %",
+    "receipt": {
+      "title": "Eine Spende über 100 €",
+      "example": "Beispiel",
+      "donation": "Spende",
+      "platformFee": "Donorfit-Plattformgebühr",
+      "transactionFee": "Donorfit-Transaktionsgebühr",
+      "providerFee": "Anbietergebühr",
+      "providerValue": "Legt Ihr Anbieter fest",
+      "providerCovered": "Übernimmt die spendende Person",
+      "receives": "Ihre Organisation erhält",
+      "lessProvider": "abzüglich der Anbietergebühr",
+      "cover": "Spender:in übernimmt die Anbietergebühr"
+    },
+    "flow": {
+      "donor": {
+        "title": "Spender:in gibt",
+        "text": "Eine einmalige oder regelmäßige Spende über Ihr Formular."
+      },
+      "donorfit": {
+        "title": "Donorfit",
+        "text": "Keine Plattformgebühr und keine Transaktionsgebühr."
+      },
+      "provider": {
+        "title": "Zahlungsanbieter",
+        "text": "Erhebt eine eigene Verarbeitungsgebühr, sofern die spendende Person sie nicht übernimmt."
+      },
+      "org": {
+        "title": "Ihre Organisation erhält",
+        "text": "Die Spende, abzüglich einer etwaigen Anbietergebühr."
+      },
+      "label": "So erreicht Sie eine Spende"
+    }
   }
 }

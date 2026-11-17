@@ -163,22 +163,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/recurring-management" />
   </url>
   <url>
-    <loc>https://donorfit.com/donor-management</loc>
-    <lastmod>2026-10-31</lastmod>
+    <loc>https://donorfit.com/donor-portal</loc>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-management" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-management" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-portal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-portal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-portal" />
   </url>
   <url>
-    <loc>https://donorfit.com/de/donor-management</loc>
-    <lastmod>2026-10-31</lastmod>
+    <loc>https://donorfit.com/de/donor-portal</loc>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-management" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-management" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-management" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://donorfit.com/donor-portal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://donorfit.com/de/donor-portal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://donorfit.com/donor-portal" />
   </url>
   <url>
     <loc>https://donorfit.com/campaign-management</loc>

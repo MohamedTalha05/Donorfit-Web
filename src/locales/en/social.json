@@ -9,13 +9,13 @@
     "listLabel": "Customer testimonials",
     "prev": "Previous testimonials",
     "next": "Next testimonials",
-    "devPlaceholder": "Development preview: sample cards only. This section is hidden on the live site until approved testimonials for “{{page}}” are added in src/data/testimonials.ts.",
     "sample": {
       "badge": "Sample · development only",
       "quote": "Placeholder for an approved customer quote. Replace it with real, approved wording in src/data/testimonials.ts.",
       "name": "Customer name",
       "role": "Role",
-      "organisation": "Organisation"
+      "organisation": "Organisation",
+      "heading": "Short card heading"
     },
     "pages": {
       "home": {
@@ -94,6 +94,22 @@
         "title": "What international organisations say about Donorfit",
         "body": "Feedback from organisations that fundraise across countries, currencies and languages with Donorfit."
       }
-    }
+    },
+    "general": {
+      "title": "Hear From the Organisations We Empower",
+      "body": "Discover how organisations use Donorfit to manage fundraising, support their communities, engage members and make a meaningful difference.",
+      "devPlaceholder": "Development preview: sample cards only. This section is hidden on the live site until approved quotes marked general: true are added in src/data/testimonials.ts."
+    },
+    "areas": {
+      "donations": "Online donations",
+      "membership": "Membership",
+      "sponsorship": "Sponsorship",
+      "money-pool": "MoneyPool",
+      "water-well": "Water",
+      "qurbani": "Qurbani",
+      "payments": "Payments & donors"
+    },
+    "slide": "Testimonial",
+    "slideOf": "Testimonial {{n}} of {{total}}"
   }
 }

@@ -489,8 +489,8 @@
       ]
     },
     "donor-management": {
-      "title": "Donor Management & CRM",
-      "shortDescription": "Centralize donor profiles, complete giving histories, automated communications, and relationship notes in one clean European CRM.",
+      "title": "Donor Portal",
+      "shortDescription": "A self-service portal where donors view donations, download receipts and manage recurring gifts.",
       "h1": "Centralized Donor Management Built Specifically for Nonprofits",
       "subheadline": "Say goodbye to scattered spreadsheets. Maintain rich donor histories, personalized communication records, and full GDPR compliance.",
       "heroKicker": "Connected Nonprofit CRM",

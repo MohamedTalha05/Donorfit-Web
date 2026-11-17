@@ -11,6 +11,7 @@ export type PageRoute =
   | '/recurring-giving'
   | '/recurring-management'
   | '/donor-management'
+  | '/donor-portal'
   | '/campaign-management'
   | '/reporting-and-insights'
   | '/solutions/for-ngos'

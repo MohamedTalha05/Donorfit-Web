@@ -57,18 +57,18 @@ export function MembershipPreview() {
   const k = usePreviewT('membership');
   const { int, date } = useFormat();
   const short = (iso: string) => date(iso, { day: '2-digit', month: 'short' });
-  type Status = 'active' | 'renewalDue' | 'lapsed';
+  type Status = 'active' | 'cancelling' | 'cancelled';
   const rows: [string, 'individual' | 'family' | 'student' | 'organisational', Status, string | null][] = [
-    ['Amina Khan', 'individual', 'active', '2026-03-12'],
-    ['Daniel Weber', 'family', 'active', '2026-04-02'],
-    ['Leila Haddad', 'student', 'renewalDue', '2026-11-18'],
-    ['Community Trust e.V.', 'organisational', 'active', '2026-06-30'],
-    ['Yusuf Ali', 'individual', 'lapsed', null],
+    ['Amina Khan', 'individual', 'active', '2026-12-01'],
+    ['Daniel Weber', 'family', 'active', '2026-12-06'],
+    ['Leila Haddad', 'student', 'cancelling', '2026-12-15'],
+    ['Community Trust e.V.', 'organisational', 'active', '2027-03-01'],
+    ['Yusuf Ali', 'individual', 'cancelled', null],
   ];
   const stats: [Status, number][] = [
     ['active', 412],
-    ['renewalDue', 37],
-    ['lapsed', 12],
+    ['cancelling', 9],
+    ['cancelled', 23],
   ];
   return (
     <Shell url="app.donorfit.com/membership/members" label={k('label')}>
@@ -107,9 +107,171 @@ export function MembershipPreview() {
               <span className="truncate font-medium text-navy-950">{n}</span>
               <span className="truncate text-neutral-600">{k(`plans.${plan}`)}</span>
               <span>
-                <Pill tone={st === 'active' ? 'ok' : st === 'lapsed' ? 'muted' : 'wait'}>{k(`status.${st}`)}</Pill>
+                <Pill tone={st === 'active' ? 'ok' : st === 'cancelled' ? 'muted' : 'wait'}>{k(`status.${st}`)}</Pill>
               </span>
               <span className="text-right tabular-nums text-neutral-500">{d ? short(d) : '—'}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/* ---------------- Membership: application approval queue ---------------- */
+export function MembershipApprovalsPreview() {
+  const k = usePreviewT('membership');
+  const { eur, int, date } = useFormat();
+  const short = (iso: string) => date(iso, { day: '2-digit', month: 'short' });
+  const rows: { name: string; email: string; plan: 'individual' | 'family' | 'student'; amount: number; method: 'sepa' | 'cash'; at: string; done?: boolean }[] = [
+    { name: 'Sara Demir', email: 'sara.demir@example.org', plan: 'family', amount: 18, method: 'sepa', at: '2026-11-16' },
+    { name: 'Jonas Becker', email: 'j.becker@example.org', plan: 'student', amount: 5, method: 'cash', at: '2026-11-15' },
+    { name: 'Amina Khan', email: 'amina.khan@example.org', plan: 'individual', amount: 10, method: 'sepa', at: '2026-11-14', done: true },
+  ];
+  return (
+    <Shell url="app.donorfit.com/membership/subscriptions" label={k('approvals.label')}>
+      <div className="grid gap-3 p-4 sm:p-6">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="text-base font-bold text-navy-950 sm:text-lg">{k('approvals.title')}</div>
+          <Pill tone="wait">{k('approvals.count', { count: int(3) })}</Pill>
+        </div>
+        {rows.map((r, i) => (
+          <div key={r.name} className={`rounded-xl border p-3.5 ${i === 0 ? 'border-brand-300 bg-brand-50/40' : 'border-neutral-200'}`}>
+            <div className="flex flex-wrap items-start justify-between gap-2">
+              <div className="min-w-0">
+                <div className="truncate text-sm font-semibold text-navy-950">{r.name}</div>
+                <div className="truncate text-[11px] text-neutral-500">{r.email}</div>
+              </div>
+              <Pill tone={r.done ? 'ok' : 'wait'}>{r.done ? k('approvals.approved') : k('approvals.pending')}</Pill>
+            </div>
+            <div className="mt-2.5 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-neutral-600">
+              <span>
+                {k(`plans.${r.plan}`)} · {k('approvals.perMonth', { amount: eur(r.amount) })}
+              </span>
+              <span>{k(`approvals.${r.method}`)}</span>
+              <span className="tabular-nums">
+                {k('approvals.submitted')} {short(r.at)}
+              </span>
+            </div>
+            {i === 0 && (
+              <div className="mt-3 flex flex-wrap gap-2">
+                <span className="rounded-lg bg-navy-950 px-3 py-1.5 text-[11px] font-semibold text-white">{k('approvals.approve')}</span>
+                <span className="rounded-lg border border-neutral-200 px-3 py-1.5 text-[11px] font-semibold text-neutral-600">{k('approvals.reject')}</span>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </Shell>
+  );
+}
+
+/* ---------------- Membership: member profile with activity log ---------------- */
+export function MembershipProfilePreview() {
+  const k = usePreviewT('membership');
+  const { eurCents, date } = useFormat();
+  const long = (iso: string) => date(iso, { day: 'numeric', month: 'short', year: 'numeric' });
+  const facts: [string, string][] = [
+    [k('profile.plan'), k('plans.individual')],
+    [k('profile.amount'), eurCents(10)],
+    [k('profile.cycle'), k('profile.monthly')],
+    [k('profile.next'), long('2026-12-01')],
+  ];
+  const log: [string, string | null, string][] = [
+    [k('profile.paid'), k('profile.paidDesc', { amount: eurCents(10) }), '2026-11-01'],
+    [k('profile.cycleChanged'), k('profile.cycleDesc'), '2026-10-12'],
+    [k('profile.paid'), k('profile.paidDesc', { amount: eurCents(10) }), '2026-10-01'],
+    [k('profile.registered'), null, '2026-09-14'],
+  ];
+  return (
+    <Shell url="app.donorfit.com/membership/members" label={k('profile.label')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="flex items-center gap-3">
+          <span className="hv-display flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-navy-950 text-sm font-extrabold text-white">AK</span>
+          <div className="min-w-0 flex-1">
+            <div className="truncate text-base font-bold text-navy-950">Amina Khan</div>
+            <div className="truncate text-[11px] text-neutral-500">
+              #M-001 · {k('profile.since', { date: long('2026-09-14') })}
+            </div>
+          </div>
+          <Pill tone="ok">{k('status.active')}</Pill>
+        </div>
+        <dl className="grid grid-cols-2 gap-2.5">
+          {facts.map(([l, v]) => (
+            <div key={l} className="rounded-xl border border-neutral-200 p-2.5">
+              <dt className="text-[10px] text-neutral-500">{l}</dt>
+              <dd className="mt-0.5 text-[13px] font-semibold tabular-nums text-navy-950">{v}</dd>
+            </div>
+          ))}
+        </dl>
+        <div>
+          <div className="text-xs font-bold text-navy-950">{k('profile.log')}</div>
+          <ol className="mt-2.5 space-y-0">
+            {log.map(([title, desc, d], i) => (
+              <li key={i} className="relative flex gap-3 pb-3 last:pb-0">
+                {i < log.length - 1 && <span className="absolute left-[5px] top-3.5 h-full w-px bg-brand-200" />}
+                <span className={`mt-1 h-2.5 w-2.5 shrink-0 rounded-full ${i === 0 ? 'bg-brand-500' : 'bg-brand-200'}`} />
+                <div className="flex min-w-0 flex-1 flex-wrap justify-between gap-x-3 text-[11px]">
+                  <span className="min-w-0">
+                    <span className="font-semibold text-navy-950">{title}</span>
+                    {desc && <span className="block text-neutral-500">{desc}</span>}
+                  </span>
+                  <span className="tabular-nums text-neutral-400">{long(d)}</span>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/* ---------------- Membership: subscriptions overview ---------------- */
+export function MembershipSubscriptionsPreview() {
+  const k = usePreviewT('membership');
+  const { eur, int, date } = useFormat();
+  const short = (iso: string) => date(iso, { day: '2-digit', month: 'short' });
+  const stats: [string, string, string | null][] = [
+    [k('subs.mrr'), eur(4870), null],
+    [k('subs.active'), int(412), null],
+    [k('subs.failed'), int(4), k('subs.action')],
+    [k('subs.upcoming'), int(57), k('subs.due')],
+  ];
+  const rows: [string, string, string, boolean][] = [
+    ['Daniel Weber', 'GoCardless', '2026-12-06', false],
+    ['Yasmin Okafor', 'Stripe', '2026-11-19', true],
+    ['Community Trust e.V.', 'PayPal', '2027-03-01', false],
+  ];
+  return (
+    <Shell url="app.donorfit.com/membership/subscriptions" label={k('subs.label')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="text-base font-bold text-navy-950 sm:text-lg">{k('subs.title')}</div>
+        <div className="grid grid-cols-2 gap-2.5">
+          {stats.map(([l, v, note], i) => (
+            <div key={l} className={`rounded-xl border p-3 ${i === 2 ? 'border-navy-950/15 bg-soft' : 'border-neutral-200'}`}>
+              <div className="text-[10px] text-neutral-500">{l}</div>
+              <div className="hv-display text-lg font-extrabold tabular-nums text-navy-950">{v}</div>
+              {note && <div className="text-[10px] text-neutral-500">{note}</div>}
+            </div>
+          ))}
+        </div>
+        <div className="overflow-hidden rounded-xl border border-neutral-200">
+          <div className="grid grid-cols-[1.4fr_1fr_0.9fr] bg-soft px-3.5 py-2 text-[11px] font-semibold text-neutral-500">
+            <span>{k('subs.colMember')}</span>
+            <span>{k('subs.colGateway')}</span>
+            <span className="text-right">{k('subs.colNext')}</span>
+          </div>
+          {rows.map(([n, g, d, failed]) => (
+            <div key={n} className="grid grid-cols-[1.4fr_1fr_0.9fr] items-center border-t border-neutral-100 px-3.5 py-2.5 text-xs">
+              <span className="min-w-0">
+                <span className="block truncate font-medium text-navy-950">{n}</span>
+                <span className="mt-0.5 inline-block">
+                  <Pill tone={failed ? 'warn' : 'ok'}>{failed ? k('subs.failedPill') : k('subs.activePill')}</Pill>
+                </span>
+              </span>
+              <span className="truncate text-neutral-600">{g}</span>
+              <span className="text-right tabular-nums text-neutral-500">{short(d)}</span>
             </div>
           ))}
         </div>
@@ -171,7 +333,7 @@ export function SponsorshipPreview() {
   );
 }
 
-/* ---------------- Water Well: public campaign page ---------------- */
+/* ---------------- Water: public campaign page ---------------- */
 export function WaterWellPreview() {
   const k = usePreviewT('water-well');
   const tx = useTx('products');
@@ -428,6 +590,192 @@ export function MoneyPoolPreview() {
               </span>
             ))}
           </div>
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/* ================================================================== */
+/* Donor Portal previews. Labels follow the real portal screens        */
+/* (app.donorfit.com/donorlogin); all figures are example data.        */
+/* ================================================================== */
+
+const PORTAL_URL = 'app.donorfit.com';
+
+function usePortalT() {
+  const t = useT('portal');
+  return (key: string, vars?: Record<string, string | number>) => t(`previews.${key}`, vars);
+}
+
+type PortalCause = 'water' | 'general' | 'orphans';
+
+/** Overview: welcome, total contributions, next billing run, recent donations. */
+export function DonorOverviewPreview() {
+  const k = usePortalT();
+  const { eur, eurCents, date } = useFormat();
+  const short = (iso: string) => date(iso, { day: '2-digit', month: 'short' });
+  const rows: [string, PortalCause, string, number][] = [
+    ['2026-11-01', 'water', 'SEPA', 30],
+    ['2026-10-14', 'general', 'PayPal', 50],
+    ['2026-10-01', 'water', 'SEPA', 30],
+  ];
+  return (
+    <Shell url={PORTAL_URL} label={k('label.overview')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="text-base font-bold text-navy-950 sm:text-lg">{k('welcome', { name: 'Amina' })}</div>
+        <div className="grid grid-cols-2 gap-3">
+          <div className="rounded-xl bg-navy-950 p-3.5 text-white">
+            <div className="text-[11px] text-brand-200">{k('totalContributions')}</div>
+            <div className="hv-display mt-1 text-xl font-extrabold tabular-nums">{eur(1240)}</div>
+          </div>
+          <div className="rounded-xl border border-neutral-200 p-3.5">
+            <div className="text-[11px] text-neutral-500">{k('nextBilling')}</div>
+            <div className="hv-display mt-1 text-xl font-extrabold tabular-nums text-navy-950">
+              {date('2026-12-01', { day: 'numeric', month: 'short', year: 'numeric' })}
+            </div>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-xl border border-neutral-200">
+          <div className="bg-soft px-4 py-2 text-[11px] font-semibold text-neutral-500">{k('feed')}</div>
+          {rows.map(([d, cause, method, amount]) => (
+            <div key={d + cause} className="grid grid-cols-[0.7fr_1.3fr_0.8fr_0.8fr] items-center gap-2 border-t border-neutral-100 px-4 py-2.5 text-xs">
+              <span className="tabular-nums text-neutral-500">{short(d)}</span>
+              <span className="truncate font-medium text-navy-950">{k(`causes.${cause}`)}</span>
+              <span className="truncate text-neutral-500">{method}</span>
+              <span className="text-right font-semibold tabular-nums text-navy-950">{eurCents(amount)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/** Donation list with a receipt download per donation. */
+export function DonorLedgerPreview() {
+  const k = usePortalT();
+  const { eurCents, date } = useFormat();
+  const short = (iso: string) => date(iso, { day: '2-digit', month: 'short', year: 'numeric' });
+  const rows: [string, PortalCause, number][] = [
+    ['2026-11-01', 'water', 30],
+    ['2026-10-14', 'general', 50],
+    ['2026-09-20', 'orphans', 25],
+    ['2026-09-01', 'water', 30],
+  ];
+  return (
+    <Shell url={PORTAL_URL} label={k('label.ledger')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="flex items-center justify-between gap-3">
+          <div className="text-base font-bold text-navy-950 sm:text-lg">{k('ledgerTitle')}</div>
+          <span className="flex items-center gap-1.5 rounded-lg border border-neutral-200 px-2.5 py-1.5 text-xs text-neutral-600">
+            <Filter className="h-3.5 w-3.5" /> {k('colCause')}
+          </span>
+        </div>
+        <div className="overflow-hidden rounded-xl border border-neutral-200">
+          <div className="grid grid-cols-[1fr_1.2fr_0.8fr_auto] gap-2 bg-soft px-4 py-2 text-[11px] font-semibold text-neutral-500">
+            <span>{k('colDate')}</span>
+            <span>{k('colCause')}</span>
+            <span className="text-right">{k('colAmount')}</span>
+            <span className="w-7" />
+          </div>
+          {rows.map(([d, cause, amount]) => (
+            <div key={d + cause} className="grid grid-cols-[1fr_1.2fr_0.8fr_auto] items-center gap-2 border-t border-neutral-100 px-4 py-2.5 text-xs">
+              <span className="tabular-nums text-neutral-500">{short(d)}</span>
+              <span className="min-w-0">
+                <span className="block truncate font-medium text-navy-950">{k(`causes.${cause}`)}</span>
+                <Pill tone="ok">{k('paid')}</Pill>
+              </span>
+              <span className="text-right font-semibold tabular-nums text-navy-950">{eurCents(amount)}</span>
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-brand-50 text-brand-700 ring-1 ring-brand-100" title={k('download')}>
+                <Download className="h-3.5 w-3.5" />
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/** One active recurring donation with modify / history / cancel. */
+export function DonorSubscriptionPreview() {
+  const k = usePortalT();
+  const { eurCents, date } = useFormat();
+  return (
+    <Shell url={PORTAL_URL} label={k('label.subs')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="text-base font-bold text-navy-950 sm:text-lg">{k('subsTitle')}</div>
+        <div className="rounded-xl border border-brand-200 bg-brand-50/40 p-4">
+          <div className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <div className="truncate text-sm font-bold text-navy-950">{k('causes.water')}</div>
+              <div className="mt-0.5 text-xs text-neutral-600">
+                <span className="hv-display text-lg font-extrabold tabular-nums text-navy-950">{eurCents(30)}</span> {k('perMonth')}
+              </div>
+            </div>
+            <Pill tone="ok">{k('active')}</Pill>
+          </div>
+          <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
+            <div className="rounded-lg bg-white p-2.5 ring-1 ring-neutral-200">
+              <dt className="text-[10px] text-neutral-500">{k('nextRenewal')}</dt>
+              <dd className="font-semibold tabular-nums text-navy-950">{date('2026-12-01', { day: 'numeric', month: 'short', year: 'numeric' })}</dd>
+            </div>
+            <div className="rounded-lg bg-white p-2.5 ring-1 ring-neutral-200">
+              <dt className="text-[10px] text-neutral-500">{k('paidVia')}</dt>
+              <dd className="font-semibold text-navy-950">SEPA</dd>
+            </div>
+          </dl>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <span className="rounded-lg bg-navy-950 px-3 py-1.5 text-[11px] font-semibold text-white">{k('modify')}</span>
+            <span className="rounded-lg border border-neutral-200 bg-white px-3 py-1.5 text-[11px] font-semibold text-navy-950">{k('history')}</span>
+            <span className="rounded-lg px-3 py-1.5 text-[11px] font-semibold text-neutral-500">{k('cancel')}</span>
+          </div>
+        </div>
+      </div>
+    </Shell>
+  );
+}
+
+/** Personal details + annual donation certificates by year. */
+export function DonorProfilePreview() {
+  const k = usePortalT();
+  const { date } = useFormat();
+  const years: [number, boolean][] = [
+    [2025, true],
+    [2026, false],
+  ];
+  return (
+    <Shell url={PORTAL_URL} label={k('label.profile')}>
+      <div className="grid gap-4 p-4 sm:p-6">
+        <div className="text-base font-bold text-navy-950 sm:text-lg">{k('profileTitle')}</div>
+        <div className="rounded-xl border border-neutral-200 p-3.5">
+          <div className="flex items-center justify-between gap-3">
+            <span className="text-xs font-bold text-navy-950">{k('personal')}</span>
+            <span className="text-[11px] font-semibold text-brand-700">{k('edit')}</span>
+          </div>
+          <div className="mt-2 grid gap-1 text-xs text-neutral-600">
+            <span className="font-medium text-navy-950">Amina Khan</span>
+            <span>Lindenstraße 12, 50674 Köln</span>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-xl border border-neutral-200">
+          <div className="bg-soft px-4 py-2 text-[11px] font-semibold text-neutral-500">{k('certificates')}</div>
+          {years.map(([y, ready]) => (
+            <div key={y} className="flex items-center justify-between gap-3 border-t border-neutral-100 px-4 py-2.5 text-xs">
+              <span className="font-semibold tabular-nums text-navy-950">{y}</span>
+              {ready ? (
+                <span className="flex items-center gap-2">
+                  <Pill tone="ok">{k('certReady')}</Pill>
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-brand-50 text-brand-700 ring-1 ring-brand-100">
+                    <Download className="h-3.5 w-3.5" />
+                  </span>
+                </span>
+              ) : (
+                <Pill tone="muted">{k('certFrom', { date: date(`${y + 1}-01-15`, { day: 'numeric', month: 'short', year: 'numeric' }) })}</Pill>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </Shell>

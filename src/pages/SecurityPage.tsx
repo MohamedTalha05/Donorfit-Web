@@ -15,6 +15,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import HomeLink from '../components/home/HomeLink.tsx';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
 
 const PILLARS = [
   { key: 'sovereignty', icon: Server, iconClass: 'bg-emerald-50 text-emerald-700' },
@@ -182,6 +183,9 @@ export default function SecurityPage() {
           })}
         </div>
       </section>
+
+      {/* Testimonials (site-wide) */}
+      <GeneralTestimonialSection id="security-testimonials" className="!bg-transparent !py-0" />
 
       {/* 6. SECURITY CONTACT INFORMATION */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

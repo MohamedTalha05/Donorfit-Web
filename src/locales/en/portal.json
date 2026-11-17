@@ -1,0 +1,234 @@
+{
+  "name": "Donor Portal",
+  "hero": {
+    "badge": "Donorfit Donor Portal",
+    "title": "Your Donations. Your Control.",
+    "body": "Give donors a simple and convenient way to access their donation information and manage their contributions independently. The Donorfit Donor Portal puts donors in control of their giving experience.",
+    "access": "Access Donor Portal",
+    "shotAlt": "Donorfit Donor Portal sign-in page titled Donation Tracking, with an email field, a Send verification code button and the labels Privacy Protected and Secure Query",
+    "shotCaption": "The sign-in page of the Donor Portal.",
+    "codeChip": "Sign in with a 6-digit code"
+  },
+  "what": {
+    "title": "What is the Donor Portal?",
+    "body1": "The Donor Portal is a secure, personal area where your supporters can see what they have given to your organisation, download their receipts and certificates and manage their recurring donations, without having to contact your team.",
+    "body2": "Donors sign in with their email address and a one-time verification code, so there is no password to remember. If an email address is linked to more than one organisation, the donor chooses which one to view.",
+    "facts": [
+      "Sign in with email and a 6-digit code",
+      "Receipts and annual certificates to download",
+      "Recurring donations donors can adjust themselves"
+    ]
+  },
+  "featuresTitle": "What donors can do in the portal",
+  "featuresSub": "Everything shown here is part of the Donor Portal today.",
+  "features": [
+    {
+      "title": "A personal overview",
+      "body": "After signing in, donors see a welcome page with their total contributions, the date of their next recurring payment and a feed of their recent donations.",
+      "points": [
+        "Total contributions at a glance",
+        "Date of the next recurring payment",
+        "Recent donations with status, payment method and amount",
+        "Filters by cause, duration, payment method and date"
+      ]
+    },
+    {
+      "title": "Donation history and receipts",
+      "body": "A complete list of every donation, with its transaction code, cause, payment method, amount, date and status. Donors can download a receipt for each donation.",
+      "points": [
+        "Every donation in one list",
+        "Receipt download for each donation",
+        "Search the list with the same filters as the overview",
+        "Gift Aid status, where your organisation uses it"
+      ]
+    },
+    {
+      "title": "Recurring donation management",
+      "body": "Donors see their active recurring donations with the amount, cause, payment method and next renewal date, and can change them without contacting you.",
+      "points": [
+        "Change the donation amount",
+        "Move the next donation date within the allowed range",
+        "Choose a different cause",
+        "View the recurring history or cancel"
+      ]
+    },
+    {
+      "title": "Profile and donation certificates",
+      "body": "Donors keep their personal details and address up to date. Annual donation certificates are listed by year, with a preview and a download.",
+      "points": [
+        "Update name, phone number and address",
+        "Annual donation certificates listed by year",
+        "Preview a certificate before it becomes available",
+        "The first download is the original; later downloads are marked \"Duplikat\""
+      ]
+    }
+  ],
+  "moreTitle": "Self-service, set up your way",
+  "more": [
+    {
+      "title": "Secure sign-in",
+      "text": "Donors sign in with their email address and a 6-digit verification code. No password needed."
+    },
+    {
+      "title": "More than one organisation",
+      "text": "If a donor's email is linked to several organisations, they choose which one to view."
+    },
+    {
+      "title": "Several languages",
+      "text": "Donors can switch the portal language, including English and German."
+    },
+    {
+      "title": "Your logo",
+      "text": "Your organisation's logo appears in the portal, and the portal can be served under your own domain."
+    },
+    {
+      "title": "A link in every email",
+      "text": "You can add a self-service link to the Donor Portal to the emails Donorfit sends to your donors."
+    },
+    {
+      "title": "Certificate delivery",
+      "text": "Choose whether annual certificates are available in the portal only, or sent by email and available in the portal."
+    }
+  ],
+  "stepsTitle": "How the Donor Portal works",
+  "stepsSub": "Four steps from signing in to staying informed.",
+  "steps": [
+    {
+      "title": "Access your account",
+      "description": "Donors open your portal link, enter their email address and confirm with the 6-digit code sent to them."
+    },
+    {
+      "title": "View your donations",
+      "description": "The overview and the donation list show every gift, its status and its receipt."
+    },
+    {
+      "title": "Manage your contributions",
+      "description": "Donors adjust or cancel their recurring donations and keep their personal details up to date."
+    },
+    {
+      "title": "Stay informed",
+      "description": "Receipts and annual donation certificates are ready to download, and your emails can link straight back to the portal."
+    }
+  ],
+  "donorsTitle": "Benefits for donors",
+  "donors": [
+    {
+      "title": "Convenient access",
+      "text": "Donation information is available whenever donors need it, without an email or a phone call."
+    },
+    {
+      "title": "A clear history",
+      "text": "Every donation is listed with its cause, amount, date and status."
+    },
+    {
+      "title": "Control over recurring gifts",
+      "text": "Donors change the amount, date or cause of a recurring donation, or cancel it, themselves."
+    },
+    {
+      "title": "Easy account updates",
+      "text": "Personal details and address can be corrected in a few clicks."
+    },
+    {
+      "title": "More transparency",
+      "text": "Receipts and annual certificates are always one download away."
+    }
+  ],
+  "orgsTitle": "Benefits for organisations",
+  "orgs": [
+    {
+      "title": "A self-service experience",
+      "text": "Offer donors a professional portal with your logo instead of handling every request by hand."
+    },
+    {
+      "title": "Fewer repetitive requests",
+      "text": "Requests for receipt copies, address changes and amount changes no longer go through your team."
+    },
+    {
+      "title": "Better donor engagement",
+      "text": "Donors who can see their history and impact stay connected to your work."
+    },
+    {
+      "title": "Stronger relationships",
+      "text": "Giving donors control builds trust in how your organisation handles their support."
+    },
+    {
+      "title": "Organised donation management",
+      "text": "Changes donors make in the portal update the same records your team works with."
+    }
+  ],
+  "faqTitle": "Donor Portal questions",
+  "faqs": [
+    {
+      "question": "How do donors sign in to the Donor Portal?",
+      "answer": "Donors enter their email address on the portal sign-in page and receive a 6-digit verification code. After entering the code, they see their donations. There is no password to set up or remember."
+    },
+    {
+      "question": "Where do donors find the Donor Portal?",
+      "answer": "Donors use your organisation's portal link. You can add this link to the emails Donorfit sends, and the portal can also be served under your own domain."
+    },
+    {
+      "question": "Can donors change or cancel recurring donations?",
+      "answer": "Yes. Donors can change the amount, move the next donation date within the allowed range, choose a different cause, view the recurring history or cancel a recurring donation."
+    },
+    {
+      "question": "Can donors download receipts and donation certificates?",
+      "answer": "Yes. Donors can download a receipt for each donation and their annual donation certificates. For annual certificates, the first download is the original and later downloads are marked \"Duplikat\"."
+    },
+    {
+      "question": "What if a donor gives to more than one organisation?",
+      "answer": "If the same email address is linked to several organisations using Donorfit, the donor chooses which organisation's donations to view after signing in."
+    },
+    {
+      "question": "Can donors update their personal details?",
+      "answer": "Yes. Donors can update their name, phone number and address in their profile."
+    },
+    {
+      "question": "Is the Donor Portal included in Donorfit?",
+      "answer": "A dedicated donor portal is part of the Donorfit platform. Recurring donations, and managing them in the portal, require the optional Recurring Subscription add-on."
+    }
+  ],
+  "cta": {
+    "title": "Give Your Donors More Control.",
+    "body": "Make donation management easier with a convenient self-service experience for your donors."
+  },
+  "previews": {
+    "url": "Donor Portal",
+    "welcome": "Welcome back, {{name}}!",
+    "totalContributions": "Total Contributions",
+    "nextBilling": "Next Billing Run",
+    "feed": "Recent donations",
+    "colDate": "Date",
+    "colCause": "Cause",
+    "colMethod": "Method",
+    "colAmount": "Amount",
+    "colStatus": "Status",
+    "paid": "Paid",
+    "ledgerTitle": "My donations",
+    "download": "Download receipt",
+    "subsTitle": "My active donation subscriptions",
+    "nextRenewal": "Next renewal",
+    "paidVia": "Paid via",
+    "perMonth": "per month",
+    "modify": "Modify pledge",
+    "history": "View recurring history",
+    "cancel": "Cancel",
+    "active": "Active",
+    "profileTitle": "Profile & tax certificates",
+    "personal": "Personal details",
+    "edit": "Edit",
+    "certificates": "Donation certificates",
+    "certReady": "Ready to download",
+    "certFrom": "Available from {{date}}",
+    "causes": {
+      "water": "Water well",
+      "general": "General donation",
+      "orphans": "Orphan care"
+    },
+    "label": {
+      "overview": "Donor Portal overview preview with total contributions, next billing date and recent donations",
+      "ledger": "Donor Portal donation list preview with receipt downloads",
+      "subs": "Donor Portal recurring donation preview with options to modify, view history or cancel",
+      "profile": "Donor Portal profile preview with personal details and annual donation certificates"
+    }
+  }
+}

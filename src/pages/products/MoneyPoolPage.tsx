@@ -35,6 +35,7 @@ import {
 import MoneyPoolDashboard, { DEMO, DEMO_PCT, Marker } from '../../components/product/MoneyPoolDashboard.tsx';
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 
 type TitleBody = { title: string; body: string };
 
@@ -218,6 +219,7 @@ export default function MoneyPoolPage() {
 
       {/* Customer logos */}
       <CustomerLogoSection id="mp-customers" compact />
+      <ZeroFeeHighlight id="mp-fees" addon="money-pool" className="!pt-0" />
 
       {/* ---------------------------------------------------- Dashboard */}
       <PSection tone="aqua" labelledBy="mp-dashboard">

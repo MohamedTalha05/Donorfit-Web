@@ -34,7 +34,7 @@ import {
 import { useT, useTx } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
 import BrandLogo from '../components/BrandLogo.tsx';
-import { APP_SIGNUP_URL } from '../data/links.ts';
+import { APP_SIGNUP_URL, NEW_TAB } from '../data/links.ts';
 import { PAYMENT_INTEGRATIONS, integrationPath, getIntegration, type Integration } from '../data/integrations.ts';
 import { PRODUCT_META, type ProductSlug } from '../data/productPages.ts';
 import { SOLUTION_ICONS, SOLUTION_ORDER, solutionRoute } from '../data/solutions.ts';
@@ -42,6 +42,7 @@ import { CONTAINER, PSection, SectionTitle } from '../components/product/Product
 
 import TestimonialSection from '../components/social/TestimonialSection.tsx';
 import ContentPhoto from '../components/ContentPhoto.tsx';
+import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
 /**
  * Payment methods and the providers that offer them. Source: the "offered" lists on the
  * provider integration pages (src/locales/<lang>/integrations.json → pages.<id>.offered).
@@ -171,7 +172,7 @@ export default function PaymentGatewaysPage() {
               <button type="button" onClick={scrollToGateways} className="hv-btn hv-btn-primary">
                 {t('hero.explore')} <ArrowDown className="h-4 w-4" aria-hidden="true" />
               </button>
-              <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-outline">
+              <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-outline">
                 {t('hero.start')}
               </a>
             </div>
@@ -179,6 +180,9 @@ export default function PaymentGatewaysPage() {
           <GatewayHub />
         </div>
       </section>
+
+      {/* Zero-fee message */}
+      <ZeroFeeHighlight id="pg-fees" className="!pt-0" />
 
       {/* 2. Introduction */}
       <PSection labelledBy="pg-intro">
@@ -490,7 +494,7 @@ export default function PaymentGatewaysPage() {
               <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/70">{t('cta.body')}</p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-              <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-primary">
+              <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-primary">
                 {t('cta.primary')} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </a>
               <HomeLink to="/contact" className="hv-btn hv-btn-ghost">

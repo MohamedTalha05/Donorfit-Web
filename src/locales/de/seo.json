@@ -24,9 +24,9 @@
       "title": "Wiederkehrende Zahlungen verwalten für Vereine | Donorfit",
       "description": "Wiederkehrende Spenden, Mitgliedsbeiträge und Patenschaftszahlungen über unterstützte Zahlungsanbieter organisieren – mit Donorfit."
     },
-    "/donor-management": {
-      "title": "Spenderverwaltung & CRM für Non-Profits | Donorfit",
-      "description": "Schluss mit verstreuten Tabellen: Pflegen Sie vollständige Spenderhistorien, Kommunikationsverläufe und eine DSGVO-konforme Datenhaltung."
+    "/donor-portal": {
+      "title": "Spenderportal – Spenden online verwalten | Donorfit",
+      "description": "Ein sicheres Selbstbedienungsportal für Spender:innen: Anmeldung per E-Mail und Code, Spendenhistorie, Belege und Bescheinigungen herunterladen und regelmäßige Spenden verwalten."
     },
     "/campaign-management": {
       "title": "Wirkungsvolles Management von Fundraising-Kampagnen | Donorfit",

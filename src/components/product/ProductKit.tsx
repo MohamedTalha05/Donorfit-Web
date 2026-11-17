@@ -374,7 +374,7 @@ export function Audiences({ p, dark = false, stacked = false }: { p: ProductPage
 /* FAQ                                                                 */
 /* ------------------------------------------------------------------ */
 
-export function FAQ({ p }: { p: ProductPageContent }) {
+export function FAQ({ p, title }: { p: ProductPageContent; title?: string }) {
   const t = useT('products');
   const tc = useT('common');
   const id = `${p.slug}-faq-title`;
@@ -382,7 +382,7 @@ export function FAQ({ p }: { p: ProductPageContent }) {
     <PSection labelledBy={id}>
       <div className={`${CONTAINER} grid gap-12 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-20`}>
         <div className="lg:sticky lg:top-28 lg:self-start">
-          <SectionTitle id={id} title={t('ui.faqTitle', { name: p.name })} sub={t('ui.faqSub')} />
+          <SectionTitle id={id} title={title ?? t('ui.faqTitle', { name: p.name })} sub={t('ui.faqSub')} />
           <div className="mt-6">
             <HomeLink to="/contact" className="inline-flex items-center gap-1.5 text-[15px] font-bold text-brand-700 transition-colors hover:text-brand-900">
               {tc('actions.contactTeam')} <ArrowRight className="h-4 w-4" aria-hidden="true" />

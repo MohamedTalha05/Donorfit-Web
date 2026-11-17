@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { I18nProvider, LANG_STORAGE_KEY, localizePath, parsePath, type Lang } from '../i18n/index.tsx';
-import { LEGACY_ROUTE_REDIRECTS } from '../data/solutions.ts';
-import { APP_SIGNUP_URL } from '../data/links.ts';
+import { LEGACY_ROUTE_REDIRECTS } from '../data/redirects.ts';
+import { APP_SIGNUP_URL, DEMO_BOOKING_URL, openInNewTab } from '../data/links.ts';
 
 /** Map a retired URL ("/de/solutions/ngos") to its replacement in the same language; others pass through. */
 function redirectPath(pathname: string): string {
@@ -99,9 +99,12 @@ export function ModalProvider({ children }: { children: ReactNode }) {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  const openBookDemo = (presetModule?: string) => {
-    if (presetModule) setSelectedModule(presetModule);
-    setIsBookDemoOpen(true);
+  /**
+   * "Book a Demo" opens the Calendly booking page in a new tab (the on-site demo modal is no longer used).
+   * presetModule is kept for call-site compatibility.
+   */
+  const openBookDemo = (_presetModule?: string) => {
+    openInNewTab(DEMO_BOOKING_URL);
   };
 
   const closeBookDemo = () => {
@@ -110,12 +113,12 @@ export function ModalProvider({ children }: { children: ReactNode }) {
   };
 
   /**
-   * "Get started" opens the real sign-up in the Donorfit app (same as the navbar's Sign up).
+   * "Get started" opens the real sign-up in the Donorfit app in a new tab (same as the navbar's Sign up).
    * The former on-site modal only showed a confirmation without sending anything.
    * presetModule is kept for call-site compatibility.
    */
   const openGetStarted = (_presetModule?: string) => {
-    window.location.assign(APP_SIGNUP_URL);
+    openInNewTab(APP_SIGNUP_URL);
   };
 
   const closeGetStarted = () => {

@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 import { useFormat, useT, useTx } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
-import { APP_SIGNUP_URL } from '../data/links.ts';
+import { APP_SIGNUP_URL, NEW_TAB } from '../data/links.ts';
 import { PAYMENT_INTEGRATIONS, integrationPath, getIntegration } from '../data/integrations.ts';
 import { CONTAINER, PSection, SectionTitle } from '../components/product/ProductKit.tsx';
 
@@ -165,7 +165,7 @@ export default function RecurringManagementPage() {
               <button type="button" onClick={scrollToHow} className="hv-btn hv-btn-primary">
                 {t('hero.explore')} <ArrowDown className="h-4 w-4" aria-hidden="true" />
               </button>
-              <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-outline">
+              <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-outline">
                 {t('hero.start')}
               </a>
             </div>
@@ -414,7 +414,7 @@ export default function RecurringManagementPage() {
               <p className="mt-4 max-w-xl text-lg leading-relaxed text-white/70">{t('cta.body')}</p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-              <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-primary">
+              <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-primary">
                 {t('cta.primary')} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </a>
               <HomeLink to="/contact" className="hv-btn hv-btn-ghost">

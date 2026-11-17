@@ -24,9 +24,9 @@
       "title": "Recurring Payment Management for Nonprofits | Donorfit",
       "description": "Recurring donation management for nonprofits: monthly and annual giving, recurring membership payments and sponsorship payment management with supported gateways."
     },
-    "/donor-management": {
-      "title": "Centralized Donor Management & CRM for Nonprofits | Donorfit",
-      "description": "Say goodbye to scattered spreadsheets. Maintain rich donor histories, personalized communication records, and full GDPR compliance."
+    "/donor-portal": {
+      "title": "Donor Portal – Manage Donations Online | Donorfit",
+      "description": "Give donors a secure self-service portal: sign in with email and a code, view donation history, download receipts and certificates, and manage recurring donations."
     },
     "/campaign-management": {
       "title": "High-Impact Fundraising Campaign Management | Donorfit",

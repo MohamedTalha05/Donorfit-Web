@@ -10,112 +10,160 @@
       "headline": "Simplify Membership Management for Your Organisation.",
       "subheadline": "Register members, set up plans and categories, collect dues and run renewals from one organised workspace — so your team stops chasing fees.",
       "intro": {
-        "title": "One place for every member, plan and payment",
-        "body": "Donorfit Membership replaces paper forms, invoice spreadsheets and reminder emails with a single member record. Members sign up online, choose their plan and authorise dues; your team sees who is active, who is due and who needs a reminder."
+        "title": "One workspace for plans, applications, members and payments",
+        "body": "Donorfit Membership gives your organisation a single place to run its membership programme. You define the plans people can join, publish an online application form, review each submission and turn approved applicants into members with an active subscription. Every payment, plan change and cancellation is then recorded on the member’s profile, so your team always works from the same, current information."
       },
       "problems": [
         {
-          "problem": "Annual dues are chased by hand with invoices and reminder emails.",
-          "solution": "Recurring SEPA Direct Debit or card billing collects dues automatically, with renewal reminders sent for you."
+          "problem": "Applications arrive on paper, by email and in conversation, and someone has to type each one into a list.",
+          "solution": "Applicants fill in your online form, shared as a link, a QR code or embedded on your website. Every submission lands in one approval queue."
         },
         {
-          "problem": "Member details live in several spreadsheets and quickly go out of date.",
-          "solution": "Members update their own contact details in a self-service portal, so every record stays current."
+          "problem": "Member details, plans and payment notes are spread across several spreadsheets that nobody fully trusts.",
+          "solution": "Each member has one profile with contact details, the data from their application, their subscription, receipts and an activity log."
         },
         {
-          "problem": "Student, family and organisational rates are hard to keep track of.",
-          "solution": "Configure as many membership tiers as you need, each with its own fee and renewal cycle."
+          "problem": "Monthly or annual fees are collected by hand, and it is hard to see who has paid and whose payment failed.",
+          "solution": "Subscriptions bill on a monthly or annual cycle through your connected payment gateway. Failed and upcoming billings are shown in the subscriptions overview."
         }
       ],
       "features": [
         {
-          "title": "Member registration",
-          "description": "Online sign-up forms with custom application fields and the documents your organisation needs."
+          "title": "Membership plans",
+          "description": "Create a plan for each type of membership, with a name, a code, a price, a currency, a monthly or annual billing interval and a description of what is included. Set plans active or inactive, and plans that already have payments are protected from deletion so your records stay intact."
         },
         {
-          "title": "Plans and categories",
-          "description": "Standard, student, senior, family, organisational or patron plans — annual, monthly or lifetime."
+          "title": "Payment gateways",
+          "description": "Connect the payment providers your organisation already uses, including Stripe, PayPal and GoCardless for SEPA Direct Debit, or record bank transfers. Cash is always available as a payment method without any connection."
         },
         {
-          "title": "Member records",
-          "description": "Contact details, plan, join date, status and payment history together on one profile."
+          "title": "Members directory",
+          "description": "Find any member by name, email or ID and filter the list by status: active, cancelling, cancelled or inactive. Open a profile to see everything about that person, or export the list as a CSV file."
         },
         {
-          "title": "Dues collection",
-          "description": "SEPA Direct Debit mandates (B2C and B2B) and card billing, with automatic retries for failed payments."
+          "title": "Import existing members",
+          "description": "Bring your current members across with a CSV upload. Map your columns to Donorfit’s fields, preview the records, and download a list of any rows that could not be imported. An import history keeps track of every file."
         },
         {
-          "title": "Renewal workflows",
-          "description": "Automatic renewal reminders, payment method updates and confirmation notices."
+          "title": "Email notifications and templates",
+          "description": "Choose which emails go out automatically, such as a notice for each new application, a confirmation when a membership is approved and a PDF receipt. Adjust the wording, colours and logo of each template and check the result in a live preview."
         },
         {
-          "title": "Directory and segments",
-          "description": "Filter members by status, join date, voting eligibility or regional chapter."
+          "title": "Team and roles",
+          "description": "Invite colleagues and volunteers to your workspace and decide what each role can see. A treasurer can work on payments while an intake volunteer reviews applications, without everyone having access to everything."
         }
       ],
       "steps": [
         {
-          "title": "Create your plans",
-          "description": "Define membership categories, fees and renewal cycles."
+          "title": "Connect a payment gateway",
+          "description": "Link the provider your organisation uses so your form can accept payments. Cash needs no connection."
         },
         {
-          "title": "Open registration",
-          "description": "Share your sign-up form; members choose a plan and authorise dues."
+          "title": "Create your membership plans",
+          "description": "Set up the plans people can choose, with their price and monthly or annual billing interval."
         },
         {
-          "title": "Let renewals run",
-          "description": "Donorfit sends reminders, collects dues and keeps every status up to date."
+          "title": "Build and publish your application form",
+          "description": "Pick the fields you need in the form builder, then share the link or QR code, or embed the form on your website."
+        },
+        {
+          "title": "Review applications",
+          "description": "Approve each submission to create the member and their subscription, or reject it. You can also let some submissions be approved automatically."
+        },
+        {
+          "title": "Manage members and payments",
+          "description": "Follow subscriptions, billing dates, receipts and cancellations from the members directory and each member’s profile."
         }
       ],
       "benefits": [
         {
-          "title": "Less time chasing fees",
-          "description": "Recurring billing and reminders replace manual invoices and follow-ups."
+          "title": "Less administration",
+          "description": "Online applications and recurring billing replace retyping forms and collecting fees by hand."
         },
         {
-          "title": "Reliable member lists",
-          "description": "Up-to-date lists of active, dues-paid members for general assemblies and governance."
+          "title": "Member information in order",
+          "description": "Contact details, application data, plan and payment history sit together on one profile."
         },
         {
-          "title": "A better member experience",
-          "description": "Instant receipts and a simple portal for members to manage their own details."
+          "title": "Control over who joins",
+          "description": "Review applications before they become members, or set clear rules for automatic approval."
+        },
+        {
+          "title": "Clear view of payments",
+          "description": "See active subscriptions, upcoming billings and failed payments without assembling reports."
+        },
+        {
+          "title": "A full history for each member",
+          "description": "The activity log records registrations, payments, plan changes and cancellations as they happen."
+        },
+        {
+          "title": "Work shared safely",
+          "description": "Roles let several people help with membership while each only sees the sections they need."
         }
       ],
       "audiences": [
         {
-          "title": "Associations and societies",
-          "description": "Professional bodies, clubs and cultural associations with annual dues."
+          "title": "NGOs and charities",
+          "description": "Run supporter or friends memberships with a monthly or annual contribution, and keep each supporter’s payments and history on one profile."
         },
         {
           "title": "Community organisations",
-          "description": "Masjid committees, community centres and volunteer groups with regular members."
+          "description": "Mosque committees, community centres and neighbourhood groups can replace paper registration with one online form and a clear list of current members."
         },
         {
-          "title": "Charities with supporter membership",
-          "description": "Organisations offering friends, patron or supporter schemes."
+          "title": "Associations and foundations",
+          "description": "Offer different plans for individuals, families or organisations, review each application and collect fees by SEPA Direct Debit."
+        },
+        {
+          "title": "Educational and social organisations",
+          "description": "Parents’ associations, youth groups and social clubs can collect the details they need, such as emergency contacts, as part of the application."
+        },
+        {
+          "title": "Other membership-based organisations",
+          "description": "Sports clubs, cultural societies and professional networks can use plans, forms and recurring billing in the way that fits their own rules."
         }
       ],
       "faqs": [
         {
-          "question": "Can we collect membership fees by SEPA Direct Debit?",
-          "answer": "Yes. Donorfit creates compliant SEPA Direct Debit mandates with pre-notifications and bank file exports, and also supports card billing."
+          "question": "How do we get started?",
+          "answer": "A setup guide in the dashboard takes you through three steps: connect a payment gateway, create a membership plan, and build and publish your registration form. Once the form is live you can share it and start receiving applications."
         },
         {
-          "question": "Can corporate and individual members pay different rates?",
-          "answer": "Yes. You can configure unlimited membership tiers with their own pricing, renewal cycles and application fields."
+          "question": "Can we offer more than one membership plan?",
+          "answer": "Yes. Create as many plans as you need, each with its own name, code, price, currency, billing interval and description. You can also let applicants choose more than one plan on the same form."
         },
         {
-          "question": "Can members update their own details?",
-          "answer": "Yes. Members can update contact details, download membership contribution statements and manage their status through the self-service portal."
+          "question": "How do people apply for membership?",
+          "answer": "Applicants fill in your online application form. You can share it as a direct link or QR code, or embed it on your website with an HTML snippet. The form can include personal details, address, plan choice, payment method, a signature and any extra fields you add."
         },
         {
-          "question": "Can we see who is eligible to vote at our general assembly?",
-          "answer": "Yes. Filter members by status and voting eligibility to produce a current list of active, dues-paid members."
+          "question": "Do we have to approve every application?",
+          "answer": "You decide. With manual review, every submission waits for an administrator. With conditional auto-approval, submissions are approved automatically unless a rule applies, for example when SEPA bank details need checking. Free plans can skip the approval queue."
+        },
+        {
+          "question": "Which payment methods can members use?",
+          "answer": "That depends on the gateways you connect. Donorfit supports Stripe, PayPal and GoCardless (for SEPA Direct Debit), as well as bank transfer and cash. Cash is always available without a connection."
+        },
+        {
+          "question": "Are membership fees collected automatically?",
+          "answer": "Yes. When an application is approved, Donorfit creates a subscription that bills monthly or annually through the connected gateway. Each subscription shows its next billing date, and failed billings are flagged so your team can follow up."
+        },
+        {
+          "question": "What happens when a member cancels?",
+          "answer": "You can schedule a cancellation for a future date or cancel straight away. Until the end date the member is shown as cancelling, and a scheduled cancellation can be removed if they change their mind. Each step is recorded in the member’s activity log."
+        },
+        {
+          "question": "Can we move our existing members into Donorfit?",
+          "answer": "Yes. Upload a CSV file, map its columns to Donorfit’s fields and check the preview before importing. Rows with missing or invalid data are listed separately so you can correct them."
+        },
+        {
+          "question": "Can several people in our team work in Donorfit?",
+          "answer": "Yes. Invite team members and give each one a role. A role decides which sections of the app that person can open."
         }
       ],
       "cta": {
-        "title": "Bring your members into one place",
-        "body": "Set up your plans and open registration — your first renewals can run on autopilot."
+        "title": "Start your membership programme in Donorfit",
+        "body": "Create your plans, publish your application form and keep every member and payment in one place. Get started yourself or book a demo with our team."
       }
     },
     "sponsorship": {
@@ -237,17 +285,17 @@
       }
     },
     "water-well": {
-      "name": "Water Well",
+      "name": "Water",
       "navDescription": "Fund and report on water well projects",
       "seo": {
-        "title": "Water Well Fundraising Software for NGOs & Charities | Donorfit",
+        "title": "Water: Fundraising Software for Water Well Projects | Donorfit",
         "description": "Create water well campaigns, collect donations, show fundraising targets and progress, and share project updates from survey to handover."
       },
       "headline": "Bring Clean Water Within Reach Through Digital Fundraising.",
       "subheadline": "Present each water well project, collect donations online and keep donors updated from the first survey to the day the village draws water.",
       "intro": {
         "title": "Turn every well into a project donors can follow",
-        "body": "Donorfit Water Well gives each well its own campaign: where it is, what it costs, how much has been raised and what stage the build has reached. Donors give with confidence because they can see exactly what their money is building."
+        "body": "Donorfit Water gives each well its own campaign: where it is, what it costs, how much has been raised and what stage the build has reached. Donors give with confidence because they can see exactly what their money is building."
       },
       "problems": [
         {
@@ -738,17 +786,66 @@
   },
   "sections": {
     "membership": {
-      "featuresTitle": "From sign-up to renewal",
-      "featuresSub": "Everything you need to run memberships, in the order your members experience it.",
-      "previewTitle": "Your members at a glance",
-      "previewSub": "See who is active, whose renewal is due and who has lapsed — and export an up-to-date list for your general assembly.",
+      "previewTitle": "How Donorfit Membership works",
+      "previewSub": "Five steps from setting up your programme to managing members day to day.",
       "benefitsTitle": "What changes for your organisation",
       "hero": {
         "card": "Member card",
         "status": "Active",
         "plan": "Individual plan · member since {{year}}",
         "renews": "Renews"
-      }
+      },
+      "introMore": "Donorfit takes care of the repetitive steps: applications arrive through one form, approvals follow the rules you set, and subscriptions bill on their own cycle. Your team can spend its time on members rather than on lists.",
+      "tourTitle": "What you can do with Donorfit Membership",
+      "tourSub": "The core of the product, from the first application to the next billing date.",
+      "tour": [
+        {
+          "title": "Registration forms and applications",
+          "body": "Build your membership application form in the form builder and publish it wherever people will see it. Applicants choose their plan, enter their details and pick how they want to pay, all in one go.",
+          "points": [
+            "A field library with personal details, membership plans, payment, file upload and signature fields",
+            "Conditional logic shows a field only when it is needed",
+            "Bank details for SEPA Direct Debit appear when an applicant chooses that payment method",
+            "Share by link or QR code, or embed the form on your website"
+          ]
+        },
+        {
+          "title": "Application review and approval",
+          "body": "Every submission from your forms is collected in one approval list. Check the details, then approve the applicant to create their member profile and subscription, or reject the submission.",
+          "points": [
+            "Manual review or conditional auto-approval",
+            "Hold SEPA Direct Debit registrations for a bank details check",
+            "Approve free plans automatically",
+            "Email alert to an administrator when a new application arrives"
+          ]
+        },
+        {
+          "title": "Member profiles and records",
+          "body": "Each member has a profile that brings together everything your team needs to know. Edit contact details, look up the answers from their application and follow their history over time.",
+          "points": [
+            "Contact details and postal address, editable by your team",
+            "The application data submitted with each subscription",
+            "An activity log of payments, plan changes and cancellations",
+            "Receipt history per plan, with PDF downloads"
+          ]
+        },
+        {
+          "title": "Subscriptions and recurring payments",
+          "body": "Approved members get a subscription that bills monthly or annually through your connected gateway. The subscriptions overview shows what is coming up and what needs attention.",
+          "points": [
+            "Next billing date and billing cycle for every subscription",
+            "Failed billings and billings due in the next seven days highlighted",
+            "Schedule a cancellation for a future date, or remove it again",
+            "A dashboard with recurring revenue, active members and payment channels"
+          ]
+        }
+      ],
+      "screenshotAlt": "Donorfit membership application form filled in with example data: name, email and address fields, SEPA selected as payment method with account owner and IBAN, a fixed monthly contribution of 10 euros, a payment date and a signature",
+      "screenshotCaption": "The hosted application form, shown with example data.",
+      "moreTitle": "Everything around it",
+      "moreSub": "The settings and tools that keep your membership programme running.",
+      "useCasesTitle": "Who uses Donorfit Membership",
+      "useCasesSub": "Any organisation with members who apply, join a plan and pay a regular contribution."
     },
     "sponsorship": {
       "featuresTitle": "Sponsorship for education, individuals and communities",
@@ -769,7 +866,7 @@
       "previewSub": "A campaign page that explains the project, shows the target and follows each stage of the build.",
       "stepsTitle": "From first survey to first water",
       "benefitsTitle": "Benefits for NGOs and charitable trusts",
-      "audiencesTitle": "Who uses Water Well",
+      "audiencesTitle": "Who uses Water",
       "hero": {
         "project": "Village water well",
         "of": "of {{amount}}",
@@ -1001,32 +1098,75 @@
   },
   "previews": {
     "membership": {
-      "label": "Membership dashboard preview listing members with plan, status and renewal date",
-      "title": "Members",
-      "search": "Search members…",
-      "filter": "Plan",
-      "export": "Assembly list",
+      "label": "Members directory preview listing members with their plan, status and next billing date",
+      "title": "Members Directory",
+      "search": "Search by name, email or ID",
+      "filter": "All Status",
+      "export": "Export CSV",
       "stats": {
         "active": "Active",
-        "renewalDue": "Renewal due",
-        "lapsed": "Lapsed"
+        "cancelling": "Cancelling",
+        "cancelled": "Cancelled"
       },
       "status": {
         "active": "Active",
-        "renewalDue": "Renewal due",
-        "lapsed": "Lapsed"
+        "cancelling": "Cancelling",
+        "cancelled": "Cancelled"
       },
       "cols": {
         "member": "Member",
         "plan": "Plan",
         "status": "Status",
-        "renews": "Renews"
+        "renews": "Next billing"
       },
       "plans": {
         "individual": "Individual",
         "family": "Family",
         "student": "Student",
         "organisational": "Organisational"
+      },
+      "approvals": {
+        "label": "Approval list preview with membership applications waiting for review",
+        "title": "Submissions awaiting approval",
+        "count": "{{count}} submissions",
+        "submitted": "Submitted",
+        "pending": "Awaiting approval",
+        "approved": "Approved & member created",
+        "approve": "Approve & create member",
+        "reject": "Reject",
+        "sepa": "SEPA Direct Debit",
+        "cash": "Cash",
+        "perMonth": "{{amount}} per month"
+      },
+      "profile": {
+        "label": "Member profile preview with subscription details and an activity log",
+        "since": "Member since {{date}}",
+        "plan": "Plan",
+        "amount": "Plan amount",
+        "cycle": "Billing cycle",
+        "next": "Next billing date",
+        "monthly": "Monthly",
+        "log": "Activity log",
+        "registered": "Member registered",
+        "paid": "Payment received",
+        "paidDesc": "{{amount}} via SEPA Direct Debit",
+        "cycleChanged": "Billing cycle updated",
+        "cycleDesc": "Changed to monthly"
+      },
+      "subs": {
+        "label": "Subscriptions overview preview with recurring revenue, active accounts, failed and upcoming billings",
+        "title": "Subscriptions",
+        "mrr": "Estimated MRR",
+        "active": "Active accounts",
+        "failed": "Failed billings",
+        "upcoming": "Upcoming billings",
+        "due": "Due within 7 days",
+        "action": "Action required",
+        "colMember": "Member",
+        "colGateway": "Gateway",
+        "colNext": "Next billing",
+        "failedPill": "Failed",
+        "activePill": "Active"
       }
     },
     "sponsorship": {

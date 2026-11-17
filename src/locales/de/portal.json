@@ -1,0 +1,234 @@
+{
+  "name": "Spenderportal",
+  "hero": {
+    "badge": "Donorfit Spenderportal",
+    "title": "Ihre Spenden. Ihre Kontrolle.",
+    "body": "Bieten Sie Spender:innen eine einfache und bequeme Möglichkeit, ihre Spendeninformationen abzurufen und ihre Beiträge selbstständig zu verwalten. Das Donorfit Spenderportal gibt Spender:innen die Kontrolle über ihr Spendenerlebnis.",
+    "access": "Zum Spenderportal",
+    "shotAlt": "Anmeldeseite des Donorfit Spenderportals mit dem Titel Donation Tracking, einem E-Mail-Feld, der Schaltfläche Send verification code und den Hinweisen Privacy Protected und Secure Query",
+    "shotCaption": "Die Anmeldeseite des Spenderportals.",
+    "codeChip": "Anmeldung mit 6-stelligem Code"
+  },
+  "what": {
+    "title": "Was ist das Spenderportal?",
+    "body1": "Das Spenderportal ist ein sicherer, persönlicher Bereich, in dem Ihre Unterstützer:innen sehen, was sie Ihrer Organisation gespendet haben, ihre Belege und Bescheinigungen herunterladen und ihre regelmäßigen Spenden verwalten – ohne Ihr Team kontaktieren zu müssen.",
+    "body2": "Spender:innen melden sich mit ihrer E-Mail-Adresse und einem einmaligen Bestätigungscode an, ein Passwort ist nicht nötig. Ist eine E-Mail-Adresse mit mehreren Organisationen verknüpft, wählen sie aus, welche sie ansehen möchten.",
+    "facts": [
+      "Anmeldung mit E-Mail und 6-stelligem Code",
+      "Belege und Jahresbescheinigungen zum Download",
+      "Regelmäßige Spenden selbst anpassen"
+    ]
+  },
+  "featuresTitle": "Was Spender:innen im Portal tun können",
+  "featuresSub": "Alles, was hier gezeigt wird, ist heute Teil des Spenderportals.",
+  "features": [
+    {
+      "title": "Eine persönliche Übersicht",
+      "body": "Nach der Anmeldung sehen Spender:innen eine Startseite mit ihrer Gesamtspendensumme, dem Termin der nächsten regelmäßigen Zahlung und ihren letzten Spenden.",
+      "points": [
+        "Gesamtspendensumme auf einen Blick",
+        "Termin der nächsten regelmäßigen Zahlung",
+        "Letzte Spenden mit Status, Zahlungsart und Betrag",
+        "Filter nach Zweck, Laufzeit, Zahlungsart und Datum"
+      ]
+    },
+    {
+      "title": "Spendenhistorie und Belege",
+      "body": "Eine vollständige Liste aller Spenden mit Transaktionscode, Zweck, Zahlungsart, Betrag, Datum und Status. Für jede Spende lässt sich ein Beleg herunterladen.",
+      "points": [
+        "Alle Spenden in einer Liste",
+        "Beleg-Download für jede Spende",
+        "Dieselben Filter wie in der Übersicht",
+        "Gift-Aid-Status, sofern Ihre Organisation Gift Aid nutzt"
+      ]
+    },
+    {
+      "title": "Regelmäßige Spenden verwalten",
+      "body": "Spender:innen sehen ihre aktiven regelmäßigen Spenden mit Betrag, Zweck, Zahlungsart und nächstem Termin – und können sie ändern, ohne Sie zu kontaktieren.",
+      "points": [
+        "Spendenbetrag ändern",
+        "Nächsten Spendentermin im erlaubten Zeitraum verschieben",
+        "Einen anderen Zweck wählen",
+        "Verlauf der regelmäßigen Spende ansehen oder kündigen"
+      ]
+    },
+    {
+      "title": "Profil und Spendenbescheinigungen",
+      "body": "Spender:innen halten ihre persönlichen Angaben und ihre Adresse aktuell. Jährliche Spendenbescheinigungen sind nach Jahr aufgelistet, mit Vorschau und Download.",
+      "points": [
+        "Name, Telefonnummer und Adresse aktualisieren",
+        "Jährliche Spendenbescheinigungen nach Jahr",
+        "Vorschau einer Bescheinigung, bevor sie verfügbar ist",
+        "Der erste Download ist das Original, weitere Downloads sind als „Duplikat“ gekennzeichnet"
+      ]
+    }
+  ],
+  "moreTitle": "Selbstbedienung, so wie Sie sie einrichten",
+  "more": [
+    {
+      "title": "Sichere Anmeldung",
+      "text": "Spender:innen melden sich mit E-Mail-Adresse und 6-stelligem Bestätigungscode an. Ein Passwort ist nicht nötig."
+    },
+    {
+      "title": "Mehrere Organisationen",
+      "text": "Ist eine E-Mail-Adresse mit mehreren Organisationen verknüpft, wählen Spender:innen aus, welche sie ansehen."
+    },
+    {
+      "title": "Mehrere Sprachen",
+      "text": "Spender:innen können die Sprache des Portals wechseln, unter anderem Deutsch und Englisch."
+    },
+    {
+      "title": "Ihr Logo",
+      "text": "Das Logo Ihrer Organisation erscheint im Portal, und das Portal lässt sich unter Ihrer eigenen Domain bereitstellen."
+    },
+    {
+      "title": "Ein Link in jeder E-Mail",
+      "text": "Sie können den E-Mails, die Donorfit an Ihre Spender:innen sendet, einen Link zum Spenderportal hinzufügen."
+    },
+    {
+      "title": "Versand der Bescheinigungen",
+      "text": "Legen Sie fest, ob Jahresbescheinigungen nur im Portal bereitstehen oder zusätzlich per E-Mail verschickt werden."
+    }
+  ],
+  "stepsTitle": "So funktioniert das Spenderportal",
+  "stepsSub": "Vier Schritte von der Anmeldung bis zur aktuellen Information.",
+  "steps": [
+    {
+      "title": "Konto aufrufen",
+      "description": "Spender:innen öffnen Ihren Portal-Link, geben ihre E-Mail-Adresse ein und bestätigen mit dem 6-stelligen Code, den sie erhalten."
+    },
+    {
+      "title": "Spenden ansehen",
+      "description": "Übersicht und Spendenliste zeigen jede Spende mit Status und Beleg."
+    },
+    {
+      "title": "Beiträge verwalten",
+      "description": "Spender:innen passen regelmäßige Spenden an oder kündigen sie und halten ihre Angaben aktuell."
+    },
+    {
+      "title": "Informiert bleiben",
+      "description": "Belege und Jahresbescheinigungen stehen zum Download bereit, und Ihre E-Mails können direkt zurück ins Portal führen."
+    }
+  ],
+  "donorsTitle": "Vorteile für Spender:innen",
+  "donors": [
+    {
+      "title": "Bequemer Zugang",
+      "text": "Spendeninformationen sind jederzeit abrufbar – ohne E-Mail oder Anruf."
+    },
+    {
+      "title": "Eine klare Historie",
+      "text": "Jede Spende ist mit Zweck, Betrag, Datum und Status aufgeführt."
+    },
+    {
+      "title": "Kontrolle über regelmäßige Spenden",
+      "text": "Spender:innen ändern Betrag, Termin oder Zweck einer regelmäßigen Spende oder kündigen sie selbst."
+    },
+    {
+      "title": "Einfache Kontoänderungen",
+      "text": "Persönliche Angaben und Adresse lassen sich mit wenigen Klicks korrigieren."
+    },
+    {
+      "title": "Mehr Transparenz",
+      "text": "Belege und Jahresbescheinigungen sind immer nur einen Download entfernt."
+    }
+  ],
+  "orgsTitle": "Vorteile für Organisationen",
+  "orgs": [
+    {
+      "title": "Selbstbedienung für Spender:innen",
+      "text": "Bieten Sie ein professionelles Portal mit Ihrem Logo, statt jede Anfrage von Hand zu bearbeiten."
+    },
+    {
+      "title": "Weniger wiederkehrende Anfragen",
+      "text": "Anfragen nach Belegkopien, Adress- oder Betragsänderungen laufen nicht mehr über Ihr Team."
+    },
+    {
+      "title": "Mehr Bindung",
+      "text": "Wer seine Historie und Wirkung sieht, bleibt Ihrer Arbeit verbunden."
+    },
+    {
+      "title": "Stärkere Beziehungen",
+      "text": "Kontrolle für Spender:innen stärkt das Vertrauen in den Umgang Ihrer Organisation mit ihrer Unterstützung."
+    },
+    {
+      "title": "Geordnete Spendenverwaltung",
+      "text": "Änderungen im Portal landen in denselben Datensätzen, mit denen Ihr Team arbeitet."
+    }
+  ],
+  "faqTitle": "Fragen zum Spenderportal",
+  "faqs": [
+    {
+      "question": "Wie melden sich Spender:innen im Spenderportal an?",
+      "answer": "Spender:innen geben auf der Anmeldeseite des Portals ihre E-Mail-Adresse ein und erhalten einen 6-stelligen Bestätigungscode. Nach Eingabe des Codes sehen sie ihre Spenden. Ein Passwort muss weder eingerichtet noch gemerkt werden."
+    },
+    {
+      "question": "Wo finden Spender:innen das Spenderportal?",
+      "answer": "Spender:innen nutzen den Portal-Link Ihrer Organisation. Sie können diesen Link den E-Mails hinzufügen, die Donorfit versendet, und das Portal auch unter Ihrer eigenen Domain bereitstellen."
+    },
+    {
+      "question": "Können Spender:innen regelmäßige Spenden ändern oder kündigen?",
+      "answer": "Ja. Spender:innen können den Betrag ändern, den nächsten Spendentermin im erlaubten Zeitraum verschieben, einen anderen Zweck wählen, den Verlauf ansehen oder eine regelmäßige Spende kündigen."
+    },
+    {
+      "question": "Können Spender:innen Belege und Spendenbescheinigungen herunterladen?",
+      "answer": "Ja. Spender:innen können für jede Spende einen Beleg sowie ihre jährlichen Spendenbescheinigungen herunterladen. Bei Jahresbescheinigungen ist der erste Download das Original, weitere Downloads sind als „Duplikat“ gekennzeichnet."
+    },
+    {
+      "question": "Was gilt, wenn jemand an mehrere Organisationen spendet?",
+      "answer": "Ist dieselbe E-Mail-Adresse mit mehreren Organisationen verknüpft, die Donorfit nutzen, wählen Spender:innen nach der Anmeldung aus, wessen Spenden sie ansehen möchten."
+    },
+    {
+      "question": "Können Spender:innen ihre persönlichen Angaben ändern?",
+      "answer": "Ja. Spender:innen können Name, Telefonnummer und Adresse in ihrem Profil aktualisieren."
+    },
+    {
+      "question": "Ist das Spenderportal in Donorfit enthalten?",
+      "answer": "Ein eigenes Spenderportal ist Teil der Donorfit-Plattform. Regelmäßige Spenden und ihre Verwaltung im Portal setzen das optionale Zusatzmodul Recurring Subscription voraus."
+    }
+  ],
+  "cta": {
+    "title": "Geben Sie Ihren Spender:innen mehr Kontrolle.",
+    "body": "Machen Sie die Spendenverwaltung einfacher – mit einer bequemen Selbstbedienung für Ihre Spender:innen."
+  },
+  "previews": {
+    "url": "Spenderportal",
+    "welcome": "Willkommen zurück, {{name}}!",
+    "totalContributions": "Gesamtspenden",
+    "nextBilling": "Nächste Abbuchung",
+    "feed": "Letzte Spenden",
+    "colDate": "Datum",
+    "colCause": "Zweck",
+    "colMethod": "Zahlungsart",
+    "colAmount": "Betrag",
+    "colStatus": "Status",
+    "paid": "Bezahlt",
+    "ledgerTitle": "Meine Spenden",
+    "download": "Beleg herunterladen",
+    "subsTitle": "Meine aktiven regelmäßigen Spenden",
+    "nextRenewal": "Nächster Termin",
+    "paidVia": "Bezahlt per",
+    "perMonth": "pro Monat",
+    "modify": "Spende ändern",
+    "history": "Verlauf ansehen",
+    "cancel": "Kündigen",
+    "active": "Aktiv",
+    "profileTitle": "Profil & Steuerbescheinigungen",
+    "personal": "Persönliche Angaben",
+    "edit": "Bearbeiten",
+    "certificates": "Spendenbescheinigungen",
+    "certReady": "Bereit zum Download",
+    "certFrom": "Verfügbar ab {{date}}",
+    "causes": {
+      "water": "Brunnenbau",
+      "general": "Allgemeine Spende",
+      "orphans": "Waisenhilfe"
+    },
+    "label": {
+      "overview": "Vorschau der Übersicht im Spenderportal mit Gesamtspenden, nächster Abbuchung und letzten Spenden",
+      "ledger": "Vorschau der Spendenliste im Spenderportal mit Beleg-Downloads",
+      "subs": "Vorschau einer regelmäßigen Spende im Spenderportal mit Optionen zum Ändern, Verlauf ansehen und Kündigen",
+      "profile": "Vorschau des Profils im Spenderportal mit persönlichen Angaben und jährlichen Spendenbescheinigungen"
+    }
+  }
+}

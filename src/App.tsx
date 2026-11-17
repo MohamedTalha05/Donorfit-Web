@@ -44,6 +44,7 @@ const WaterWellPage = React.lazy(() => import('./pages/products/WaterWellPage.ts
 const QurbaniPage = React.lazy(() => import('./pages/products/QurbaniPage.tsx'));
 const SchoolManagementPage = React.lazy(() => import('./pages/products/SchoolManagementPage.tsx'));
 const MoneyPoolPage = React.lazy(() => import('./pages/products/MoneyPoolPage.tsx'));
+const DonorPortalPage = React.lazy(() => import('./pages/DonorPortalPage.tsx'));
 
 function AppContent() {
   const { currentRoute } = useModal();
@@ -66,7 +67,8 @@ function AppContent() {
     if (currentRoute === '/school-management') return isHiddenProduct('school-management') ? <NotFoundPage /> : <SchoolManagementPage />;
     if (currentRoute === '/donations') return <ProductPage slug="donations" />;
     if (currentRoute === '/recurring-management') return <RecurringManagementPage />;
-    if (currentRoute === '/donor-management') return <ProductPage slug="donor-management" />;
+    // Donor Portal (formerly Donor Management; /donor-management redirects here, see LEGACY_ROUTE_REDIRECTS)
+    if (currentRoute === '/donor-portal') return <DonorPortalPage />;
     if (currentRoute === '/campaign-management') return <ProductPage slug="campaign-management" />;
     if (currentRoute === '/reporting-and-insights') return <ProductPage slug="reporting-and-insights" />;
 

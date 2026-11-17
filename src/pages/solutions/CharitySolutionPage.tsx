@@ -47,6 +47,7 @@ import {
 
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
+import KeyFigures from '../../components/home/KeyFigures.tsx';
 const SLUG = 'for-charities' as const;
 
 type CharityText = SolutionText & {
@@ -120,6 +121,7 @@ export default function CharitySolutionPage() {
       <Challenges text={s} variant="cards" id="cha-challenges" icons={[Layers, HandCoins, Clock, Eye]} />
       <Helps text={s} tone="white" id="cha-helps" icons={[FileText, Share2, ClipboardCheck]} />
       <CustomerLogoSection id="cha-customers" compact />
+      <KeyFigures id="cha-key-figures" className="!pt-0" />
 
       {/* Signature: causes a charity can fundraise for */}
       <PSection tone="navy" labelledBy="cha-causes">

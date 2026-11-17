@@ -11,7 +11,7 @@ import {
 import { useModal } from '../../context/ModalContext.tsx';
 import { useFormat, useT, useTx } from '../../i18n/index.tsx';
 import HomeLink from '../home/HomeLink.tsx';
-import { APP_SIGNUP_URL } from '../../data/links.ts';
+import { APP_SIGNUP_URL, NEW_TAB } from '../../data/links.ts';
 import { PRODUCT_META, isHiddenProduct } from '../../data/productPages.ts';
 import { SOLUTION_ICONS, SOLUTION_ORDER, solutionRoute, type SolutionDetail, type SolutionSlug, type SolutionText } from '../../data/solutions.ts';
 import { CONTAINER, PSection, SectionTitle, PRODUCT_ICONS, PRODUCT_PHOTOS } from '../product/ProductKit.tsx';
@@ -60,7 +60,7 @@ export function Breadcrumb({ slug, dark = false }: { slug: SolutionSlug; dark?: 
 export function RegisterButton({ className = '' }: { className?: string }) {
   const t = useT('solutions');
   return (
-    <a href={APP_SIGNUP_URL} className={`hv-btn hv-btn-primary ${className}`}>
+    <a href={APP_SIGNUP_URL} {...NEW_TAB} className={`hv-btn hv-btn-primary ${className}`}>
       {t('ui.register')}
       <ArrowRight className="h-4 w-4" aria-hidden="true" />
     </a>
@@ -618,13 +618,13 @@ export function SolutionCTA({
       <HomeLink to="/contact" className="hv-btn hv-btn-primary">
         {text.cta.button} <ArrowRight className="h-4 w-4" aria-hidden="true" />
       </HomeLink>
-      <a href={APP_SIGNUP_URL} className={`hv-btn ${dark ? 'hv-btn-ghost' : 'hv-btn-outline'}`}>
+      <a href={APP_SIGNUP_URL} {...NEW_TAB} className={`hv-btn ${dark ? 'hv-btn-ghost' : 'hv-btn-outline'}`}>
         {t('ui.register')}
       </a>
     </>
   ) : (
     <>
-      <a href={APP_SIGNUP_URL} className="hv-btn hv-btn-primary">
+      <a href={APP_SIGNUP_URL} {...NEW_TAB} className="hv-btn hv-btn-primary">
         {text.cta.button} <ArrowRight className="h-4 w-4" aria-hidden="true" />
       </a>
       <DemoButton slug={slug} dark={dark} />

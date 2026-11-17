@@ -9,13 +9,13 @@
     "listLabel": "Kundenstimmen",
     "prev": "Vorherige Kundenstimmen",
     "next": "Nächste Kundenstimmen",
-    "devPlaceholder": "Entwicklungsvorschau: nur Musterkarten. Dieser Abschnitt ist auf der Live-Website ausgeblendet, bis freigegebene Kundenstimmen für „{{page}}“ in src/data/testimonials.ts eingetragen sind.",
     "sample": {
       "badge": "Muster · nur Entwicklung",
       "quote": "Platzhalter für eine freigegebene Kundenstimme. Durch echten, freigegebenen Wortlaut in src/data/testimonials.ts ersetzen.",
       "name": "Name der Person",
       "role": "Funktion",
-      "organisation": "Organisation"
+      "organisation": "Organisation",
+      "heading": "Kurze Kartenüberschrift"
     },
     "pages": {
       "home": {
@@ -94,6 +94,22 @@
         "title": "Was internationale Organisationen über Donorfit sagen",
         "body": "Rückmeldungen von Organisationen, die mit Donorfit über Länder, Währungen und Sprachen hinweg Spenden sammeln."
       }
-    }
+    },
+    "general": {
+      "title": "Stimmen der Organisationen, die wir stärken",
+      "body": "Erfahren Sie, wie Organisationen mit Donorfit ihr Fundraising organisieren, ihre Gemeinschaften unterstützen, Mitglieder einbinden und etwas Bedeutendes bewirken.",
+      "devPlaceholder": "Entwicklungsvorschau: nur Beispielkarten. Dieser Bereich ist auf der Live-Website ausgeblendet, bis freigegebene Zitate mit general: true in src/data/testimonials.ts eingetragen sind."
+    },
+    "areas": {
+      "donations": "Online-Spenden",
+      "membership": "Membership",
+      "sponsorship": "Sponsorship",
+      "money-pool": "MoneyPool",
+      "water-well": "Water",
+      "qurbani": "Qurbani",
+      "payments": "Zahlungen & Spender:innen"
+    },
+    "slide": "Kundenstimme",
+    "slideOf": "Kundenstimme {{n}} von {{total}}"
   }
 }

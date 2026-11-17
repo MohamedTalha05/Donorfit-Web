@@ -17,6 +17,8 @@ import aidImg from '../assets/images/sections/solution-ngo.jpg';
 import textbooksImg from '../assets/images/sections/cta-community.jpg';
 
 import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
+import KeyFigures from '../components/home/KeyFigures.tsx';
 type Item = { title: string; text: string };
 
 /** Core values, same order as about.values.items. */
@@ -265,6 +267,10 @@ export default function AboutPage() {
 
       {/* ------------------------------------------- Customer logos */}
       <CustomerLogoSection id="ab-customers" className="pb-20 sm:pb-24" />
+      <KeyFigures id="ab-key-figures" className="!pt-0" />
+
+      {/* ---------------------------------------------- Testimonials (site-wide) */}
+      <GeneralTestimonialSection id="ab-testimonials" className="!pt-6 sm:!pt-10" />
 
       {/* ------------------------------------------------------- Values */}
       <section aria-labelledby="ab-values" className="bg-soft py-20 sm:py-28">

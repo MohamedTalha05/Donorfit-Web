@@ -33,6 +33,7 @@ import {
 import { QurbaniPreview } from '../../components/product/ProductPreviews.tsx';
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 
 /** Page-specific copy from products.json → sections.qurbani (en/de). */
 interface QurbaniSections {
@@ -183,6 +184,7 @@ export default function QurbaniPage() {
 
       {/* Customer logos */}
       <CustomerLogoSection id="qu-customers" compact />
+      <ZeroFeeHighlight id="qu-fees" addon="qurbani" className="!pt-0" />
 
       {/* ---------------------------------------------------- How it works */}
       <section id="qu-how" tabIndex={-1} aria-labelledby="qu-how-title" className="relative scroll-mt-24 bg-aqua py-20 outline-none sm:py-28">

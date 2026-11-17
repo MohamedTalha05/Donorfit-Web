@@ -10,112 +10,160 @@
       "headline": "Mitglieder­verwaltung für Ihre Organisation – ganz einfach.",
       "subheadline": "Registrieren Sie Mitglieder, richten Sie Tarife und Kategorien ein, ziehen Sie Beiträge ein und steuern Sie Verlängerungen in einem übersichtlichen Arbeitsbereich – damit Ihr Team keinen Beiträgen mehr hinterherlaufen muss.",
       "intro": {
-        "title": "Ein Ort für alle Mitglieder, Tarife und Zahlungen",
-        "body": "Donorfit Membership ersetzt Papierformulare, Rechnungstabellen und Erinnerungs-E-Mails durch einen einzigen Mitgliederdatensatz. Mitglieder melden sich online an, wählen ihren Tarif und erteilen die Einzugsermächtigung; Ihr Team sieht, wer aktiv ist, wessen Beitrag fällig ist und wer eine Erinnerung braucht."
+        "title": "Ein Arbeitsbereich für Tarife, Anträge, Mitglieder und Zahlungen",
+        "body": "Mit Donorfit Membership verwaltet Ihre Organisation ihr Mitgliedschaftsprogramm an einem Ort. Sie legen fest, welchen Tarifen man beitreten kann, veröffentlichen ein Online-Antragsformular, prüfen jede Einreichung und machen genehmigte Antragstellende zu Mitgliedern mit aktivem Abonnement. Jede Zahlung, jede Tarifänderung und jede Kündigung wird danach im Profil des Mitglieds festgehalten – so arbeitet Ihr Team immer mit denselben, aktuellen Informationen."
       },
       "problems": [
         {
-          "problem": "Jahresbeiträge werden mühsam per Rechnung und Erinnerungs-E-Mail eingefordert.",
-          "solution": "Wiederkehrender Einzug per SEPA-Lastschrift oder Karte erhebt die Beiträge automatisch – Erinnerungen zur Verlängerung werden für Sie verschickt."
+          "problem": "Anträge kommen auf Papier, per E-Mail oder im Gespräch, und jemand muss jeden einzelnen in eine Liste abtippen.",
+          "solution": "Antragstellende füllen Ihr Online-Formular aus – geteilt per Link oder QR-Code oder eingebettet in Ihre Website. Jede Einreichung landet in einer gemeinsamen Genehmigungsliste."
         },
         {
-          "problem": "Mitgliederdaten liegen in mehreren Tabellen und sind schnell veraltet.",
-          "solution": "Mitglieder aktualisieren ihre Kontaktdaten selbst im Self-Service-Portal, sodass jeder Datensatz aktuell bleibt."
+          "problem": "Mitgliederdaten, Tarife und Zahlungsnotizen verteilen sich auf mehrere Tabellen, denen niemand ganz vertraut.",
+          "solution": "Jedes Mitglied hat ein Profil mit Kontaktdaten, den Angaben aus dem Antrag, dem Abonnement, Belegen und einem Aktivitätsprotokoll."
         },
         {
-          "problem": "Tarife für Studierende, Familien und Organisationen sind schwer zu überblicken.",
-          "solution": "Richten Sie beliebig viele Mitgliedschafts­stufen ein – jede mit eigenem Beitrag und eigenem Verlängerungszyklus."
+          "problem": "Monats- oder Jahresbeiträge werden von Hand eingesammelt, und es ist schwer zu sehen, wer bezahlt hat und wessen Zahlung fehlgeschlagen ist.",
+          "solution": "Abonnements werden monatlich oder jährlich über Ihr verbundenes Zahlungs-Gateway abgerechnet. Fehlgeschlagene und anstehende Abbuchungen zeigt die Abonnement-Übersicht."
         }
       ],
       "features": [
         {
-          "title": "Mitglieder­anmeldung",
-          "description": "Online-Anmeldeformulare mit individuellen Antragsfeldern und den Unterlagen, die Ihre Organisation benötigt."
+          "title": "Mitgliedstarife",
+          "description": "Legen Sie für jede Art der Mitgliedschaft einen Tarif an – mit Name, Kürzel, Preis, Währung, monatlichem oder jährlichem Abrechnungsintervall und einer Beschreibung der Leistungen. Tarife lassen sich aktiv oder inaktiv schalten; Tarife mit bestehenden Zahlungen sind vor dem Löschen geschützt, damit Ihre Unterlagen vollständig bleiben."
         },
         {
-          "title": "Tarife und Kategorien",
-          "description": "Standard-, Studierenden-, Senioren-, Familien-, Organisations- oder Fördertarife – jährlich, monatlich oder auf Lebenszeit."
+          "title": "Zahlungs-Gateways",
+          "description": "Verbinden Sie die Zahlungsanbieter, die Ihre Organisation bereits nutzt, darunter Stripe, PayPal und GoCardless für SEPA-Lastschrift, oder erfassen Sie Banküberweisungen. Barzahlung steht immer zur Verfügung, ganz ohne Verbindung."
         },
         {
-          "title": "Mitgliederdatensätze",
-          "description": "Kontaktdaten, Tarif, Eintrittsdatum, Status und Zahlungshistorie gebündelt in einem Profil."
+          "title": "Mitgliederverzeichnis",
+          "description": "Finden Sie jedes Mitglied über Name, E-Mail oder ID und filtern Sie die Liste nach Status: aktiv, in Kündigung, gekündigt oder inaktiv. Öffnen Sie ein Profil, um alles über die Person zu sehen, oder exportieren Sie die Liste als CSV-Datei."
         },
         {
-          "title": "Beitragseinzug",
-          "description": "SEPA-Lastschrift­mandate (Basis- und Firmenlastschrift) und Kartenzahlung, mit automatischem erneutem Einzug bei fehlgeschlagenen Zahlungen."
+          "title": "Bestehende Mitglieder importieren",
+          "description": "Übernehmen Sie Ihre aktuellen Mitglieder per CSV-Upload. Ordnen Sie Ihre Spalten den Donorfit-Feldern zu, prüfen Sie die Vorschau und laden Sie eine Liste aller Zeilen herunter, die nicht importiert werden konnten. Ein Importverlauf hält jede Datei fest."
         },
         {
-          "title": "Verlängerungsabläufe",
-          "description": "Automatische Erinnerungen zur Verlängerung, Aktualisierung der Zahlungsart und Bestätigungen."
+          "title": "E-Mail-Benachrichtigungen und Vorlagen",
+          "description": "Bestimmen Sie, welche E-Mails automatisch versendet werden, etwa ein Hinweis bei jedem neuen Antrag, eine Bestätigung bei Genehmigung der Mitgliedschaft und ein PDF-Beleg. Passen Sie Text, Farben und Logo jeder Vorlage an und prüfen Sie das Ergebnis in der Live-Vorschau."
         },
         {
-          "title": "Verzeichnis und Segmente",
-          "description": "Filtern Sie Mitglieder nach Status, Eintrittsdatum, Stimmberechtigung oder Regionalgruppe."
+          "title": "Team und Rollen",
+          "description": "Laden Sie Kolleg:innen und Ehrenamtliche in Ihren Arbeitsbereich ein und legen Sie fest, was jede Rolle sehen darf. Die Kassenführung arbeitet an Zahlungen, während Ehrenamtliche Anträge prüfen – ohne dass alle auf alles zugreifen."
         }
       ],
       "steps": [
         {
-          "title": "Tarife anlegen",
-          "description": "Legen Sie Mitgliedskategorien, Beiträge und Verlängerungszyklen fest."
+          "title": "Zahlungs-Gateway verbinden",
+          "description": "Verknüpfen Sie den Anbieter Ihrer Organisation, damit Ihr Formular Zahlungen annehmen kann. Barzahlung braucht keine Verbindung."
         },
         {
-          "title": "Anmeldung öffnen",
-          "description": "Teilen Sie Ihr Anmeldeformular; Mitglieder wählen einen Tarif und erteilen die Einzugsermächtigung."
+          "title": "Mitgliedstarife anlegen",
+          "description": "Richten Sie die Tarife ein, zwischen denen man wählen kann, mit Preis und monatlichem oder jährlichem Abrechnungsintervall."
         },
         {
-          "title": "Verlängerungen laufen lassen",
-          "description": "Donorfit verschickt Erinnerungen, zieht Beiträge ein und hält jeden Status aktuell."
+          "title": "Antragsformular erstellen und veröffentlichen",
+          "description": "Wählen Sie im Formular-Builder die Felder, die Sie brauchen, und teilen Sie dann den Link oder QR-Code oder betten Sie das Formular in Ihre Website ein."
+        },
+        {
+          "title": "Anträge prüfen",
+          "description": "Genehmigen Sie eine Einreichung, um das Mitglied und sein Abonnement anzulegen, oder lehnen Sie sie ab. Einzelne Einreichungen können Sie auch automatisch genehmigen lassen."
+        },
+        {
+          "title": "Mitglieder und Zahlungen verwalten",
+          "description": "Behalten Sie Abonnements, Abbuchungstermine, Belege und Kündigungen im Mitgliederverzeichnis und im Profil jedes Mitglieds im Blick."
         }
       ],
       "benefits": [
         {
-          "title": "Weniger Aufwand beim Beitragseinzug",
-          "description": "Wiederkehrende Abrechnung und Erinnerungen ersetzen manuelle Rechnungen und Nachfassen."
+          "title": "Weniger Verwaltungsaufwand",
+          "description": "Online-Anträge und wiederkehrende Abrechnung ersetzen das Abtippen von Formularen und das Einsammeln von Beiträgen."
         },
         {
-          "title": "Verlässliche Mitgliederlisten",
-          "description": "Aktuelle Listen aktiver, beitragszahlender Mitglieder für Mitglieder­versammlungen und Gremienarbeit."
+          "title": "Geordnete Mitgliederdaten",
+          "description": "Kontaktdaten, Antragsangaben, Tarif und Zahlungshistorie stehen gemeinsam in einem Profil."
         },
         {
-          "title": "Ein besseres Mitgliedererlebnis",
-          "description": "Sofortige Belege und ein einfaches Portal, in dem Mitglieder ihre Daten selbst verwalten."
+          "title": "Kontrolle darüber, wer beitritt",
+          "description": "Prüfen Sie Anträge, bevor daraus Mitglieder werden, oder legen Sie klare Regeln für die automatische Genehmigung fest."
+        },
+        {
+          "title": "Klarer Blick auf Zahlungen",
+          "description": "Sehen Sie aktive Abonnements, anstehende Abbuchungen und fehlgeschlagene Zahlungen, ohne Berichte zusammenzustellen."
+        },
+        {
+          "title": "Vollständige Historie je Mitglied",
+          "description": "Das Aktivitätsprotokoll hält Anmeldungen, Zahlungen, Tarifänderungen und Kündigungen fest, sobald sie geschehen."
+        },
+        {
+          "title": "Sicher gemeinsam arbeiten",
+          "description": "Dank Rollen können mehrere Personen bei der Mitgliederverwaltung helfen, und jede sieht nur die Bereiche, die sie braucht."
         }
       ],
       "audiences": [
         {
-          "title": "Vereine und Verbände",
-          "description": "Berufsverbände, Clubs und Kulturvereine mit Jahresbeiträgen."
+          "title": "NGOs und gemeinnützige Organisationen",
+          "description": "Führen Sie Förder- oder Freundeskreismitgliedschaften mit monatlichem oder jährlichem Beitrag und halten Sie Zahlungen und Historie jeder Person in einem Profil fest."
         },
         {
-          "title": "Gemeinschafts­organisationen",
-          "description": "Moscheevorstände, Gemeindezentren und ehrenamtliche Gruppen mit festen Mitgliedern."
+          "title": "Gemeinschaftsorganisationen",
+          "description": "Moscheegemeinden, Gemeinschaftszentren und Nachbarschaftsgruppen ersetzen die Anmeldung auf Papier durch ein Online-Formular und eine klare Liste der aktuellen Mitglieder."
         },
         {
-          "title": "Gemeinnützige Organisationen mit Fördermitgliedschaft",
-          "description": "Organisationen mit Freundeskreis-, Förder- oder Unterstützerprogrammen."
+          "title": "Vereine und Stiftungen",
+          "description": "Bieten Sie unterschiedliche Tarife für Einzelpersonen, Familien oder Organisationen an, prüfen Sie jeden Antrag und ziehen Sie Beiträge per SEPA-Lastschrift ein."
+        },
+        {
+          "title": "Bildungs- und Sozialeinrichtungen",
+          "description": "Elternvereine, Jugendgruppen und soziale Vereine erfassen die Angaben, die sie brauchen – etwa Notfallkontakte – direkt im Antrag."
+        },
+        {
+          "title": "Weitere mitgliederbasierte Organisationen",
+          "description": "Sportvereine, Kulturvereine und Berufsnetzwerke nutzen Tarife, Formulare und wiederkehrende Abrechnung so, wie es zu ihrer eigenen Satzung passt."
         }
       ],
       "faqs": [
         {
-          "question": "Können wir Mitglieds­beiträge per SEPA-Lastschrift einziehen?",
-          "answer": "Ja. Donorfit erstellt rechtskonforme SEPA-Lastschrift­mandate mit Vorabankündigung (Pre-Notification) und Bankdatei-Export und unterstützt außerdem Kartenzahlungen."
+          "question": "Wie fangen wir an?",
+          "answer": "Eine Einrichtungshilfe im Dashboard führt Sie durch drei Schritte: Zahlungs-Gateway verbinden, einen Mitgliedstarif anlegen und Ihr Anmeldeformular erstellen und veröffentlichen. Sobald das Formular live ist, können Sie es teilen und Anträge empfangen."
         },
         {
-          "question": "Können Firmen- und Einzelmitglieder unterschiedliche Beiträge zahlen?",
-          "answer": "Ja. Sie können beliebig viele Mitgliedschafts­stufen mit eigenen Preisen, Verlängerungszyklen und Antragsfeldern einrichten."
+          "question": "Können wir mehr als einen Mitgliedstarif anbieten?",
+          "answer": "Ja. Legen Sie so viele Tarife an, wie Sie brauchen, jeweils mit eigenem Namen, Kürzel, Preis, eigener Währung, eigenem Abrechnungsintervall und eigener Beschreibung. Auf Wunsch können Antragstellende im selben Formular mehrere Tarife wählen."
         },
         {
-          "question": "Können Mitglieder ihre Daten selbst aktualisieren?",
-          "answer": "Ja. Über das Self-Service-Portal können Mitglieder ihre Kontaktdaten aktualisieren, Beitragsbescheinigungen herunterladen und ihren Status verwalten."
+          "question": "Wie beantragen Interessierte eine Mitgliedschaft?",
+          "answer": "Sie füllen Ihr Online-Antragsformular aus. Sie können es als direkten Link oder QR-Code teilen oder mit einem HTML-Snippet in Ihre Website einbetten. Das Formular kann persönliche Angaben, Adresse, Tarifwahl, Zahlungsart, eine Unterschrift und beliebige weitere Felder enthalten."
         },
         {
-          "question": "Können wir sehen, wer bei unserer Mitgliederversammlung stimmberechtigt ist?",
-          "answer": "Ja. Filtern Sie Mitglieder nach Status und Stimmberechtigung, um eine aktuelle Liste aktiver, beitragszahlender Mitglieder zu erstellen."
+          "question": "Müssen wir jeden Antrag genehmigen?",
+          "answer": "Das entscheiden Sie. Bei manueller Prüfung wartet jede Einreichung auf eine Administratorin oder einen Administrator. Bei bedingter automatischer Genehmigung werden Einreichungen automatisch genehmigt, sofern keine Regel greift – zum Beispiel, wenn SEPA-Bankdaten geprüft werden sollen. Kostenlose Tarife können die Genehmigungsliste überspringen."
+        },
+        {
+          "question": "Welche Zahlungsarten können Mitglieder nutzen?",
+          "answer": "Das hängt von den Gateways ab, die Sie verbinden. Donorfit unterstützt Stripe, PayPal und GoCardless (für SEPA-Lastschrift) sowie Banküberweisung und Barzahlung. Barzahlung ist immer ohne Verbindung verfügbar."
+        },
+        {
+          "question": "Werden Mitgliedsbeiträge automatisch eingezogen?",
+          "answer": "Ja. Wird ein Antrag genehmigt, legt Donorfit ein Abonnement an, das monatlich oder jährlich über das verbundene Gateway abgerechnet wird. Jedes Abonnement zeigt den nächsten Abbuchungstermin, und fehlgeschlagene Abbuchungen werden markiert, damit Ihr Team nachfassen kann."
+        },
+        {
+          "question": "Was passiert, wenn ein Mitglied kündigt?",
+          "answer": "Sie können eine Kündigung zu einem künftigen Datum vormerken oder sofort kündigen. Bis zum Enddatum wird das Mitglied als „in Kündigung“ geführt, und eine vorgemerkte Kündigung lässt sich wieder aufheben. Jeder Schritt wird im Aktivitätsprotokoll des Mitglieds festgehalten."
+        },
+        {
+          "question": "Können wir unsere bestehenden Mitglieder übernehmen?",
+          "answer": "Ja. Laden Sie eine CSV-Datei hoch, ordnen Sie die Spalten den Donorfit-Feldern zu und prüfen Sie die Vorschau vor dem Import. Zeilen mit fehlenden oder ungültigen Daten werden gesondert aufgeführt, damit Sie sie korrigieren können."
+        },
+        {
+          "question": "Können mehrere Personen aus unserem Team mit Donorfit arbeiten?",
+          "answer": "Ja. Laden Sie Teammitglieder ein und weisen Sie jeder Person eine Rolle zu. Die Rolle bestimmt, welche Bereiche der App sie öffnen kann."
         }
       ],
       "cta": {
-        "title": "Alle Mitglieder an einem Ort",
-        "body": "Richten Sie Ihre Tarife ein und öffnen Sie die Anmeldung – Ihre ersten Verlängerungen laufen dann automatisch."
+        "title": "Starten Sie Ihr Mitgliedschaftsprogramm mit Donorfit",
+        "body": "Legen Sie Ihre Tarife an, veröffentlichen Sie Ihr Antragsformular und behalten Sie alle Mitglieder und Zahlungen an einem Ort. Legen Sie selbst los oder buchen Sie eine Demo mit unserem Team."
       }
     },
     "sponsorship": {
@@ -237,17 +285,17 @@
       }
     },
     "water-well": {
-      "name": "Water Well",
+      "name": "Water",
       "navDescription": "Brunnenprojekte finanzieren und darüber berichten",
       "seo": {
-        "title": "Fundraising-Software für Brunnenprojekte | Donorfit",
+        "title": "Water: Fundraising-Software für Brunnenprojekte | Donorfit",
         "description": "Brunnen-Kampagnen erstellen, Spenden sammeln, Spendenziel und Fortschritt zeigen und Projekt-Updates teilen – von der Standortprüfung bis zur Übergabe."
       },
       "headline": "Sauberes Wasser in Reichweite – mit digitalem Fundraising.",
       "subheadline": "Stellen Sie jedes Brunnenprojekt vor, sammeln Sie Spenden online und halten Sie Spender:innen auf dem Laufenden – von der ersten Standortprüfung bis zu dem Tag, an dem das Dorf Wasser schöpft.",
       "intro": {
         "title": "Jeder Brunnen wird zum Projekt, das Spender:innen verfolgen können",
-        "body": "Donorfit Water Well gibt jedem Brunnen eine eigene Kampagne: wo er liegt, was er kostet, wie viel bereits gesammelt wurde und wie weit der Bau ist. Spender:innen spenden mit gutem Gefühl, weil sie genau sehen, was mit ihrem Geld entsteht."
+        "body": "Donorfit Water gibt jedem Brunnen eine eigene Kampagne: wo er liegt, was er kostet, wie viel bereits gesammelt wurde und wie weit der Bau ist. Spender:innen spenden mit gutem Gefühl, weil sie genau sehen, was mit ihrem Geld entsteht."
       },
       "problems": [
         {
@@ -738,17 +786,66 @@
   },
   "sections": {
     "membership": {
-      "featuresTitle": "Von der Anmeldung bis zur Verlängerung",
-      "featuresSub": "Alles, was Sie für die Mitglieder­verwaltung brauchen – in der Reihenfolge, in der Ihre Mitglieder es erleben.",
-      "previewTitle": "Ihre Mitglieder auf einen Blick",
-      "previewSub": "Sehen Sie, wer aktiv ist, wessen Verlängerung ansteht und wessen Mitgliedschaft ausgelaufen ist – und exportieren Sie eine aktuelle Liste für Ihre Mitgliederversammlung.",
+      "previewTitle": "So funktioniert Donorfit Membership",
+      "previewSub": "Fünf Schritte von der Einrichtung Ihres Programms bis zur täglichen Mitgliederverwaltung.",
       "benefitsTitle": "Was sich für Ihre Organisation ändert",
       "hero": {
         "card": "Mitgliedsausweis",
         "status": "Aktiv",
         "plan": "Einzelmitgliedschaft · Mitglied seit {{year}}",
         "renews": "Verlängerung"
-      }
+      },
+      "introMore": "Donorfit übernimmt die wiederkehrenden Schritte: Anträge kommen über ein Formular, Genehmigungen folgen Ihren Regeln, und Abonnements werden in ihrem eigenen Rhythmus abgerechnet. So kann sich Ihr Team um Mitglieder kümmern statt um Listen.",
+      "tourTitle": "Was Sie mit Donorfit Membership tun können",
+      "tourSub": "Der Kern des Produkts – vom ersten Antrag bis zum nächsten Abbuchungstermin.",
+      "tour": [
+        {
+          "title": "Anmeldeformulare und Anträge",
+          "body": "Erstellen Sie Ihr Antragsformular im Formular-Builder und veröffentlichen Sie es dort, wo Interessierte es sehen. Antragstellende wählen ihren Tarif, geben ihre Daten ein und bestimmen, wie sie zahlen möchten – alles in einem Schritt.",
+          "points": [
+            "Eine Feldbibliothek mit persönlichen Angaben, Mitgliedstarifen, Zahlung, Datei-Upload und Unterschrift",
+            "Bedingte Logik blendet ein Feld nur ein, wenn es gebraucht wird",
+            "Bankdaten für die SEPA-Lastschrift erscheinen, sobald diese Zahlungsart gewählt wird",
+            "Teilen per Link oder QR-Code oder Einbetten in Ihre Website"
+          ]
+        },
+        {
+          "title": "Prüfung und Genehmigung von Anträgen",
+          "body": "Alle Einreichungen aus Ihren Formularen landen in einer Genehmigungsliste. Prüfen Sie die Angaben und genehmigen Sie den Antrag, um Mitgliedsprofil und Abonnement anzulegen – oder lehnen Sie die Einreichung ab.",
+          "points": [
+            "Manuelle Prüfung oder bedingte automatische Genehmigung",
+            "SEPA-Lastschrift-Anmeldungen zur Prüfung der Bankdaten zurückhalten",
+            "Kostenlose Tarife automatisch genehmigen",
+            "E-Mail-Hinweis an die Administration bei jedem neuen Antrag"
+          ]
+        },
+        {
+          "title": "Mitgliedsprofile und Unterlagen",
+          "body": "Jedes Mitglied hat ein Profil, das alles bündelt, was Ihr Team wissen muss. Bearbeiten Sie Kontaktdaten, schlagen Sie die Antworten aus dem Antrag nach und verfolgen Sie die Historie über die Zeit.",
+          "points": [
+            "Kontaktdaten und Postanschrift, von Ihrem Team bearbeitbar",
+            "Die Antragsdaten, die mit jedem Abonnement eingereicht wurden",
+            "Ein Aktivitätsprotokoll mit Zahlungen, Tarifänderungen und Kündigungen",
+            "Belegverlauf je Tarif mit PDF-Download"
+          ]
+        },
+        {
+          "title": "Abonnements und wiederkehrende Zahlungen",
+          "body": "Genehmigte Mitglieder erhalten ein Abonnement, das monatlich oder jährlich über Ihr verbundenes Gateway abgerechnet wird. Die Abonnement-Übersicht zeigt, was ansteht und was Aufmerksamkeit braucht.",
+          "points": [
+            "Nächster Abbuchungstermin und Abrechnungszyklus für jedes Abonnement",
+            "Fehlgeschlagene Abbuchungen und Abbuchungen der nächsten sieben Tage hervorgehoben",
+            "Kündigung zu einem künftigen Datum vormerken oder wieder aufheben",
+            "Ein Dashboard mit wiederkehrenden Einnahmen, aktiven Mitgliedern und Zahlungskanälen"
+          ]
+        }
+      ],
+      "screenshotAlt": "Donorfit-Antragsformular für die Mitgliedschaft, mit Beispieldaten ausgefüllt: Name, E-Mail und Adresse, SEPA als Zahlungsart mit Kontoinhaberin und IBAN, ein fester Monatsbeitrag von 10 Euro, ein Zahlungsdatum und eine Unterschrift",
+      "screenshotCaption": "Das gehostete Antragsformular, gezeigt mit Beispieldaten.",
+      "moreTitle": "Alles, was dazugehört",
+      "moreSub": "Die Einstellungen und Werkzeuge, die Ihr Mitgliedschaftsprogramm am Laufen halten.",
+      "useCasesTitle": "Wer Donorfit Membership nutzt",
+      "useCasesSub": "Jede Organisation, deren Mitglieder einen Antrag stellen, einem Tarif beitreten und einen regelmäßigen Beitrag zahlen."
     },
     "sponsorship": {
       "featuresTitle": "Patenschaften für Bildung, Einzelpersonen und Gemeinschaften",
@@ -769,7 +866,7 @@
       "previewSub": "Eine Kampagnenseite, die das Projekt erklärt, das Ziel zeigt und jede Bauphase begleitet.",
       "stepsTitle": "Von der ersten Prüfung bis zum ersten Wasser",
       "benefitsTitle": "Vorteile für NGOs und Stiftungen",
-      "audiencesTitle": "Wer Water Well nutzt",
+      "audiencesTitle": "Wer Water nutzt",
       "hero": {
         "project": "Dorfbrunnen",
         "of": "von {{amount}}",
@@ -1001,32 +1098,75 @@
   },
   "previews": {
     "membership": {
-      "label": "Vorschau des Mitglieder-Dashboards mit Tarif, Status und Verlängerungsdatum der Mitglieder",
-      "title": "Mitglieder",
-      "search": "Mitglieder suchen …",
-      "filter": "Tarif",
-      "export": "Versammlungsliste",
+      "label": "Vorschau des Mitgliederverzeichnisses mit Tarif, Status und nächstem Abbuchungstermin der Mitglieder",
+      "title": "Mitgliederverzeichnis",
+      "search": "Nach Name, E-Mail oder ID suchen",
+      "filter": "Alle Status",
+      "export": "CSV exportieren",
       "stats": {
         "active": "Aktiv",
-        "renewalDue": "Verlängerung fällig",
-        "lapsed": "Ausgelaufen"
+        "cancelling": "In Kündigung",
+        "cancelled": "Gekündigt"
       },
       "status": {
         "active": "Aktiv",
-        "renewalDue": "Fällig",
-        "lapsed": "Ausgelaufen"
+        "cancelling": "In Kündigung",
+        "cancelled": "Gekündigt"
       },
       "cols": {
         "member": "Mitglied",
         "plan": "Tarif",
         "status": "Status",
-        "renews": "Verlängerung"
+        "renews": "Nächste Abbuchung"
       },
       "plans": {
         "individual": "Einzel",
         "family": "Familie",
         "student": "Studierende",
         "organisational": "Organisation"
+      },
+      "approvals": {
+        "label": "Vorschau der Genehmigungsliste mit Mitgliedsanträgen, die auf Prüfung warten",
+        "title": "Einreichungen zur Genehmigung",
+        "count": "{{count}} Einreichungen",
+        "submitted": "Eingereicht",
+        "pending": "Wartet auf Genehmigung",
+        "approved": "Genehmigt & Mitglied angelegt",
+        "approve": "Genehmigen & Mitglied anlegen",
+        "reject": "Ablehnen",
+        "sepa": "SEPA-Lastschrift",
+        "cash": "Bar",
+        "perMonth": "{{amount}} pro Monat"
+      },
+      "profile": {
+        "label": "Vorschau eines Mitgliedsprofils mit Abonnementdetails und Aktivitätsprotokoll",
+        "since": "Mitglied seit {{date}}",
+        "plan": "Tarif",
+        "amount": "Tarifbetrag",
+        "cycle": "Abrechnungszyklus",
+        "next": "Nächste Abbuchung",
+        "monthly": "Monatlich",
+        "log": "Aktivitätsprotokoll",
+        "registered": "Mitglied registriert",
+        "paid": "Zahlung eingegangen",
+        "paidDesc": "{{amount}} per SEPA-Lastschrift",
+        "cycleChanged": "Abrechnungszyklus geändert",
+        "cycleDesc": "Auf monatlich umgestellt"
+      },
+      "subs": {
+        "label": "Vorschau der Abonnement-Übersicht mit wiederkehrenden Einnahmen, aktiven Konten, fehlgeschlagenen und anstehenden Abbuchungen",
+        "title": "Abonnements",
+        "mrr": "Geschätzter MRR",
+        "active": "Aktive Konten",
+        "failed": "Fehlgeschlagene Abbuchungen",
+        "upcoming": "Anstehende Abbuchungen",
+        "due": "Fällig in 7 Tagen",
+        "action": "Handlung nötig",
+        "colMember": "Mitglied",
+        "colGateway": "Gateway",
+        "colNext": "Nächste Abbuchung",
+        "failedPill": "Fehlgeschlagen",
+        "activePill": "Aktiv"
       }
     },
     "sponsorship": {

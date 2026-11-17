@@ -7,6 +7,7 @@ import BrandLogo from '../components/BrandLogo.tsx';
 
 import HomeLink from '../components/home/HomeLink.tsx';
 import { PAYMENT_INTEGRATIONS as PAYMENTS, EMAIL_INTEGRATIONS as EMAIL, integrationPath, type Integration } from '../data/integrations.ts';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
 
 /** No connection status is shown: none is verified from the marketing site. */
 type Provider = Integration;
@@ -217,6 +218,9 @@ export default function IntegrationsPage() {
           </ul>
         </div>
       </section>
+
+      {/* ---------------------------------------------- Testimonials */}
+      <GeneralTestimonialSection id="in-testimonials" />
 
       {/* ------------------------------------------------------- Final CTA */}
       <section aria-labelledby="in-cta" className="px-4 pb-20 sm:px-6 sm:pb-24 lg:px-8">

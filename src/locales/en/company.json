@@ -156,7 +156,7 @@
         "platform": "Platform Information",
         "membership": "Membership Management",
         "sponsorship": "Sponsorship Campaigns",
-        "waterwell": "Water Well Fundraising",
+        "waterwell": "Water Fundraising",
         "qurbani": "Qurbani Campaigns",
         "moneypool": "MoneyPool / Crowdfunding",
         "support": "Technical Support",
@@ -331,27 +331,23 @@
       ]
     },
     "addons": {
-      "eyebrow": "Add-ons",
-      "title": "Extend your platform as you grow.",
-      "intro": "Add specialised modules to the free platform whenever your organisation needs them. Add-ons are purchased separately.",
+      "eyebrow": "Optional add-ons",
+      "title": "Optional products and add-ons",
+      "intro": "None of these products are included in the base plan. Add only the ones your organisation needs; each add-on is priced separately.",
       "askPricing": "Ask about add-on pricing",
-      "badge": "Add-on",
+      "badge": "Optional add-on",
       "items": {
-        "crm": {
-          "name": "CRM",
-          "description": "Centralised donor records, interaction history and segmentation."
-        },
         "recurring": {
           "name": "Recurring Subscription",
           "description": "Monthly and annual giving with automated collection."
         },
         "sponsorship": {
           "name": "Sponsorship",
-          "description": "Manage sponsors, beneficiaries and progress updates."
+          "description": "Manage sponsors, beneficiaries and regular sponsorship payments."
         },
         "membership": {
           "name": "Membership",
-          "description": "Member registration, dues collection and renewals."
+          "description": "Membership plans, online applications, member records and recurring dues."
         },
         "school": {
           "name": "School",
@@ -359,7 +355,15 @@
         },
         "qurbani": {
           "name": "Qurbani",
-          "description": "Seasonal Qurbani giving campaigns and allocation."
+          "description": "Seasonal Qurbani campaigns, from online orders to allocation."
+        },
+        "moneypool": {
+          "name": "MoneyPool",
+          "description": "Crowdfunding campaigns with a shared goal, live progress and contributor tracking."
+        },
+        "water": {
+          "name": "Water",
+          "description": "Fundraising for water well projects, with a goal and progress updates for each well."
         }
       }
     },
@@ -561,6 +565,22 @@
         ]
       }
     ],
+    "tech": {
+      "eyebrow": "Technology partners",
+      "title": "Cloud infrastructure behind Donorfit",
+      "intro": "Donorfit uses services from these cloud providers to run the platform.",
+      "items": {
+        "googleCloud": {
+          "name": "Google Cloud",
+          "text": "Donorfit uses Google Cloud services to run the platform."
+        },
+        "azure": {
+          "name": "Microsoft Azure",
+          "text": "Donorfit uses Microsoft Azure services to run the platform."
+        }
+      },
+      "logoAlt": "{{name}} logo"
+    },
     "integrations": {
       "eyebrow": "Available integrations",
       "title": "Built to connect with the tools you already rely on.",

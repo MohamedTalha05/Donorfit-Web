@@ -19,6 +19,8 @@ import { useT, useTx } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
 import { CONTAINER, PRODUCT_ICONS, PRODUCT_PHOTOS } from '../components/product/ProductKit.tsx';
 import { PRODUCT_META, PRODUCT_ORDER, isHiddenProduct } from '../data/productPages.ts';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
+import KeyFigures from '../components/home/KeyFigures.tsx';
 
 /** Subject values stay stable across languages; only labels are translated. */
 const SUBJECTS = ['general', 'platform', 'membership', 'sponsorship', 'waterwell', 'qurbani', 'moneypool', 'support', 'partnership', 'other'] as const;
@@ -312,6 +314,10 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      {/* ------------------------------------------------ Testimonials (site-wide) */}
+      <KeyFigures id="ct-key-figures" className="!pt-0" />
+      <GeneralTestimonialSection id="ct-testimonials" />
 
       {/* ------------------------------------------------ Find answers faster */}
       <section aria-labelledby="ct-resources" className="bg-soft py-20 sm:py-24">

@@ -90,17 +90,5 @@ export interface SolutionText {
   cta: { title: string; body: string; button: string };
 }
 
-/**
- * Old solution URLs (before 2026-11-14) → new routes. Applied by the router,
- * so bookmarks and external links keep working.
- */
-export const LEGACY_ROUTE_REDIRECTS: Record<string, string> = {
-  '/solutions/ngos': '/solutions/for-ngos',
-  '/solutions/charities': '/solutions/for-charities',
-  '/solutions/foundations': '/solutions/for-foundations',
-  '/solutions/sponsorship-organizations': '/solutions/for-sponsorship-orgs',
-  '/solutions/membership-organizations': '/solutions/for-membership-orgs',
-  '/solutions/international-organizations': '/solutions/for-international-orgs',
-  // Old recurring giving page (2026-11-14): replaced by the Recurring Management page.
-  '/recurring-giving': '/recurring-management',
-};
+/** Retired URLs (solutions, recurring giving, donor management). Moved to redirects.ts. */
+export { LEGACY_ROUTE_REDIRECTS } from './redirects.ts';

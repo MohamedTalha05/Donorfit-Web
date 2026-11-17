@@ -171,6 +171,42 @@ if (blogUrls.length) {
   fs.writeFileSync(path.join(dist, 'sitemap.xml'), sitemap.replace('</urlset>', `${entries.join('\n')}\n</urlset>`));
 }
 
+// Retired URLs (src/data/redirects.ts): GitHub Pages cannot send 301s, so each old URL gets a tiny
+// page with a canonical link to the new URL, an instant meta refresh and a JS fallback. Search engines
+// treat this as a permanent redirect; visitors land on the new page with query and hash kept.
+const redirectSource = fs.readFileSync(path.join(root, 'src', 'data', 'redirects.ts'), 'utf8');
+const { code: redirectCode } = await transform(redirectSource, { loader: 'ts', format: 'esm' });
+const { LEGACY_ROUTE_REDIRECTS } = await import(`data:text/javascript;base64,${Buffer.from(redirectCode).toString('base64')}`);
+let redirects = 0;
+for (const [from, to] of Object.entries(LEGACY_ROUTE_REDIRECTS)) {
+  for (const lang of LANGS) {
+    const src = localize(from, lang);
+    const target = `${SITE}${localize(to, lang)}`;
+    const html = `<!doctype html>
+<html lang="${lang}">
+  <head>
+    <meta charset="utf-8" />
+    <title>${lang === 'de' ? 'Seite verschoben' : 'Page moved'} | Donorfit</title>
+    <link rel="canonical" href="${target}" />
+    <meta name="robots" content="noindex, follow" />
+    <meta http-equiv="refresh" content="0; url=${target}" />
+    <script>location.replace(${JSON.stringify(localize(to, lang))} + location.search + location.hash);</script>
+  </head>
+  <body>
+    <p><a href="${target}">${target}</a></p>
+  </body>
+</html>
+`;
+    const dir = path.join(dist, ...src.split('/').filter(Boolean));
+    if (fs.existsSync(path.join(dir, 'index.html'))) continue; // never overwrite a real page
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'index.html'), html);
+    fs.writeFileSync(`${dir}.html`, html);
+    redirects++;
+  }
+}
+console.log(`prerender-routes: wrote ${redirects} redirect pages for retired URLs`);
+
 // Unknown URLs: GitHub Pages serves 404.html (status 404) — the app renders its own not-found page.
 fs.writeFileSync(path.join(dist, '404.html'), shell.replace(/<title>[\s\S]*?<\/title>/, '<title>Page not found | Donorfit</title>'));
 console.log(`prerender-routes: wrote ${written} route shells (+404.html) to dist/, including ${BLOG_POSTS.length} blog articles`);

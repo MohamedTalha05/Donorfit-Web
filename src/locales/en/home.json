@@ -27,7 +27,6 @@
       }
     ]
   },
-
   "platform": {
     "eyebrow": "Platform",
     "titleBefore": "Everything you need to fundraise,",
@@ -47,8 +46,8 @@
         "description": "Goal-based appeals with live progress, milestones, QR codes and matched giving."
       },
       {
-        "title": "Donor management",
-        "description": "One profile per supporter with full giving history, consent records and notes."
+        "title": "Donor portal",
+        "description": "Supporters view their donations, download receipts and manage recurring gifts themselves."
       },
       {
         "title": "Sponsorship",
@@ -184,6 +183,15 @@
         ]
       }
     ]
+  },
+  "hosting": {
+    "titleBefore": "Hosted in",
+    "highlight": "Frankfurt, Germany",
+    "body": "Donorfit is hosted in Frankfurt, Germany, providing a reliable hosting location within the European Union.",
+    "city": "Frankfurt am Main",
+    "region": "European Union",
+    "coords": "50.11° N, 8.68° E",
+    "graphicLabel": "Location marker for Frankfurt, Germany"
   },
   "integrations": {
     "eyebrow": "Integrations",
@@ -424,7 +432,7 @@
         "alt": "A schoolboy writing carefully in his notebook at his desk"
       },
       "waterwell": {
-        "name": "Water Well",
+        "name": "Water",
         "alt": "Children filling yellow jerrycans at a village hand-pump well"
       },
       "qurbani": {
@@ -515,6 +523,25 @@
       "contributors": "{{n}} contributors",
       "latest": "Latest contributions",
       "anonymous": "Anonymous"
+    }
+  },
+  "keyFigures": {
+    "title": "Donorfit in Numbers",
+    "body": "Building a stronger fundraising experience through technology, transparency, and trusted partnerships.",
+    "members": {
+      "value": "750+",
+      "template": "{{n}}+",
+      "label": "Active Members"
+    },
+    "volume": {
+      "value": "€25m+",
+      "template": "€{{n}}m+",
+      "label": "Transaction Volume"
+    },
+    "experience": {
+      "value": "10+",
+      "template": "{{n}}+",
+      "label": "Years of Experience"
     }
   }
 }

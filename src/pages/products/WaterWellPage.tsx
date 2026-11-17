@@ -25,6 +25,7 @@ import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
 import ContentPhoto from '../../components/ContentPhoto.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 export default function WaterWellPage() {
   const tx = useTx('products');
   const p = useProductPage('water-well');
@@ -100,6 +101,7 @@ export default function WaterWellPage() {
 
       {/* Customer logos */}
       <CustomerLogoSection id="ww-customers" compact />
+      <ZeroFeeHighlight id="ww-fees" addon="water-well" className="!pt-0" />
 
       {/* Features bento */}
       <PSection tone="aqua" labelledBy="ww-features">

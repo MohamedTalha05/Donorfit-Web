@@ -37,9 +37,9 @@ import {
 } from 'lucide-react';
 import { useModal } from '../context/ModalContext.tsx';
 import { SUCCESS_STORIES } from '../data/homepage.ts';
-import { testimonialsFor } from '../data/testimonials.ts';
+import { testimonialsFor, generalTestimonials } from '../data/testimonials.ts';
 import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
-import { TestimonialList } from '../components/social/TestimonialSection.tsx';
+import { TestimonialCarousel } from '../components/social/GeneralTestimonialSection.tsx';
 import { useT, useTx, useFormat, useI18n } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
 import ProductShowcase from '../components/home/ProductShowcase.tsx';
@@ -50,6 +50,9 @@ import IntegrationHub from '../components/home/IntegrationHub.tsx';
 import Photo from '../components/home/Photo.tsx';
 import { SECTION_PHOTOS, type SectionPhotoKey } from '../components/home/sectionPhotos.ts';
 import { SampleBadge } from '../components/home/mockKit.tsx';
+import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
+import KeyFigures from '../components/home/KeyFigures.tsx';
+import HostingLocation from '../components/home/HostingLocation.tsx';
 
 /* ------------------------------------------------------------------ */
 /* Layout primitives                                                   */
@@ -184,7 +187,7 @@ const PLATFORM_FEATURES = [
   { icon: HandCoins, to: '/donations' },
   { icon: RefreshCw, to: '/recurring-management' },
   { icon: Flag, to: '/campaign-management' },
-  { icon: Users, to: '/donor-management' },
+  { icon: Users, to: '/donor-portal' },
   { icon: HeartHandshake, to: '/sponsorship' },
   { icon: BarChart3, to: '/reporting-and-insights' },
 ];
@@ -301,7 +304,9 @@ export default function HomePage() {
   useReveal(rootRef);
   const t = useT('home');
   const { lang } = useI18n();
-  const homeTestimonials = testimonialsFor('home', lang);
+  // Home-specific quotes first; otherwise the site-wide general quotes.
+  const homeSpecific = testimonialsFor('home', lang);
+  const homeTestimonials = homeSpecific.length > 0 ? homeSpecific : generalTestimonials(lang);
   const tc = useT('common');
   const tx = useTx('home');
   const txFaqs = useTx('faqs');
@@ -416,6 +421,12 @@ export default function HomePage() {
 
       {/* 3. TRUSTED BY ------------------------------------------------ */}
       <CustomerLogoSection id="trusted-title" className="!pb-8 !pt-0" />
+
+      {/* 3b. KEY FIGURES ----------------------------------------------- */}
+      <KeyFigures id="key-figures-title" />
+
+      {/* 3c. ZERO FEES ------------------------------------------------ */}
+      <ZeroFeeHighlight variant="receipt" id="home-fees" />
 
       {/* 4. PLATFORM OVERVIEW (bento) -------------------------------- */}
       <section id="platform" aria-labelledby="platform-title" className={SECTION}>
@@ -739,6 +750,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 8b. HOSTING LOCATION ------------------------------------------ */}
+      <HostingLocation id="hosting-title" />
+
       {/* 9. INTEGRATIONS ---------------------------------------------- */}
       <section aria-labelledby="integrations-title" className={SECTION}>
         <div aria-hidden="true" className="absolute inset-x-0 top-1/2 h-96 -translate-y-1/2 bg-[radial-gradient(50%_50%_at_50%_50%,var(--color-aqua),transparent)]" />
@@ -857,7 +871,7 @@ export default function HomePage() {
             </div>
           ) : homeTestimonials.length > 0 ? (
             <div className="mt-16">
-              <TestimonialList items={homeTestimonials} dark />
+              <TestimonialCarousel items={homeTestimonials} dark />
             </div>
           ) : (
             <div data-reveal className="hv-glass relative mx-auto mt-14 max-w-3xl overflow-hidden rounded-[2rem] p-8 text-center sm:p-14">

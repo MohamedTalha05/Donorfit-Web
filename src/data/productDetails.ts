@@ -60,7 +60,8 @@ export const PRODUCT_DETAILS: Record<string, ProductStructure> = {
   },
   'donor-management': {
     id: 'donor-management',
-    slug: 'donor-management',
+    // The page itself is now the Donor Portal page; related-product cards link there.
+    slug: 'donor-portal',
     relatedProductIds: ['reporting-and-insights', 'campaign-management', 'donations'],
     mockupType: 'donormanagement',
   },

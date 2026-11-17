@@ -458,7 +458,7 @@ Use the same structure every time. It makes updates faster to write and easier t
 
 ## Use the stages of the project
 
-Many projects move through natural stages. A water well, for example, goes from survey to drilling, installation and handover. Each stage is a good moment for an update. In Donorfit [Water Well](/water-well), every well has its own campaign page where you can post updates as it moves through these stages.
+Many projects move through natural stages. A water well, for example, goes from survey to drilling, installation and handover. Each stage is a good moment for an update. In Donorfit [Water](/water-well), every well has its own campaign page where you can post updates as it moves through these stages.
 
 ![Volunteers packing food parcels at a community event](sections/campaign-food.jpg)
 
@@ -508,7 +508,7 @@ Verwenden Sie jedes Mal dieselbe Struktur. So schreiben sich Updates schneller u
 
 ## Die Phasen des Projekts nutzen
 
-Viele Projekte durchlaufen natürliche Phasen. Ein Brunnen zum Beispiel geht von der Standortprüfung über die Bohrung und die Installation bis zur Übergabe. Jede Phase ist ein guter Anlass für ein Update. In Donorfit [Water Well](/water-well) hat jeder Brunnen eine eigene Kampagnenseite, auf der Sie Updates veröffentlichen können, während er diese Phasen durchläuft.
+Viele Projekte durchlaufen natürliche Phasen. Ein Brunnen zum Beispiel geht von der Standortprüfung über die Bohrung und die Installation bis zur Übergabe. Jede Phase ist ein guter Anlass für ein Update. In Donorfit [Water](/water-well) hat jeder Brunnen eine eigene Kampagnenseite, auf der Sie Updates veröffentlichen können, während er diese Phasen durchläuft.
 
 ![Ehrenamtliche packen Lebensmittelpakete bei einer Gemeinschaftsveranstaltung](sections/campaign-food.jpg)
 

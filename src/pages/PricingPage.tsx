@@ -1,6 +1,6 @@
 import React, { useId, useMemo, useState } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { APP_SIGNUP_URL } from '../data/links.ts';
+import { APP_SIGNUP_URL, NEW_TAB } from '../data/links.ts';
 import { isHiddenProduct } from '../data/productPages.ts';
 import { useFormat, useI18n, useT, useTx } from '../i18n/index.tsx';
 import {
@@ -10,7 +10,8 @@ import {
   Check,
   ChevronDown,
   CreditCard,
-  Database,
+  PiggyBank,
+  Droplets,
   Globe2,
   GraduationCap,
   HandHeart,
@@ -27,6 +28,9 @@ import {
 } from 'lucide-react';
 
 import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
+import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
+import KeyFigures from '../components/home/KeyFigures.tsx';
 /* ------------------------------------------------------------------ *
  * Content source: https://donorfit.com/en/pricing-plan/
  * Plan features, add-on names, stats and footnotes use the reference
@@ -45,13 +49,15 @@ interface AddOn {
   product?: string;
 }
 
+/** Optional add-ons: none is included in the base plan (client brief, 2026-11-17). */
 const ADD_ONS: AddOn[] = [
-  { key: 'crm', icon: Database, href: '/donor-management' },
-  { key: 'recurring', icon: Repeat, href: '/recurring-management' },
-  { key: 'sponsorship', icon: HandHeart, href: '/sponsorship' },
   { key: 'membership', icon: IdCard, href: '/membership' },
+  { key: 'sponsorship', icon: HandHeart, href: '/sponsorship' },
+  { key: 'moneypool', icon: PiggyBank, href: '/money-pool' },
+  { key: 'water', icon: Droplets, href: '/water-well' },
+  { key: 'qurbani', icon: Moon, href: '/qurbani' },
+  { key: 'recurring', icon: Repeat, href: '/recurring-management' },
   { key: 'school', icon: GraduationCap, href: null, product: 'school-management' },
-  { key: 'qurbani', icon: Moon, href: null },
 ];
 
 /**
@@ -80,7 +86,7 @@ const BILLING_FEATURES: { key: string; icon: LucideIcon }[] = [
 
 function SignupLink({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   return (
-    <a href={APP_SIGNUP_URL} className={`btn-gradient inline-flex items-center justify-center gap-2 font-bold rounded-xl ${className}`}>
+    <a href={APP_SIGNUP_URL} {...NEW_TAB} className={`btn-gradient inline-flex items-center justify-center gap-2 font-bold rounded-xl ${className}`}>
       {children}
       <ArrowRight className="w-4 h-4" aria-hidden="true" />
     </a>
@@ -226,7 +232,10 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* 3. ADD-ONS */}
+      {/* 2b. ZERO FEES (directly after the plan) */}
+      <ZeroFeeHighlight id={`${uid}-fees`} className="!py-0" pricingLink={false} variant="receipt" />
+
+      {/* 3. OPTIONAL ADD-ONS */}
       <section aria-labelledby={`${uid}-addons`} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div className="max-w-2xl space-y-3">
@@ -258,11 +267,9 @@ export default function PricingPage() {
                 <span className="block space-y-1.5">
                   <span className="flex items-center gap-2 text-lg font-bold text-neutral-950 font-display">
                     {t(`pricing.addons.items.${addon.key}.name`)}
-                    {!addon.href && (
-                      <span className="rounded-full bg-neutral-100 px-2 py-px text-[11px] leading-4 font-semibold uppercase tracking-wide text-neutral-600 ring-1 ring-neutral-200">
-                        {t('pricing.addons.badge')}
-                      </span>
-                    )}
+                  </span>
+                  <span className="inline-flex rounded-full bg-brand-50 px-2.5 py-0.5 text-xs font-semibold text-brand-800 ring-1 ring-brand-200">
+                    {t('pricing.addons.badge')}
                   </span>
                   <span className="block text-sm text-neutral-600 leading-relaxed">{t(`pricing.addons.items.${addon.key}.description`)}</span>
                 </span>
@@ -300,6 +307,7 @@ export default function PricingPage() {
 
       {/* Customer logos */}
       <CustomerLogoSection id="pricing-customers" compact className="!py-0" />
+      <KeyFigures id={`${uid}-key-figures`} className="!py-0" />
 
       {/* 4. STATS (hidden until confirmed, see SHOW_STATS) */}
       {SHOW_STATS && <section aria-label={t('pricing.stats.ariaLabel')} className="bg-neutral-950 bg-dark-glow text-white py-16 sm:py-20 rounded-3xl mx-4 sm:mx-6 lg:mx-8 border border-neutral-800 shadow-2xl">
@@ -334,6 +342,9 @@ export default function PricingPage() {
           ))}
         </ul>
       </section>
+
+      {/* Testimonials (site-wide) */}
+      <GeneralTestimonialSection id={`${uid}-testimonials`} className="!py-0" />
 
       {/* 6. FAQ */}
       <section aria-labelledby={`${uid}-faq`} className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

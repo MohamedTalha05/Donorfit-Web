@@ -102,7 +102,7 @@
             "title": "Report back with less effort",
             "text": "Share progress using the tools built into each product.",
             "points": [
-              "Stage-by-stage updates on Water Well projects",
+              "Stage-by-stage updates on Water projects",
               "Progress reports through the sponsor portal",
               "Receipts generated from predefined templates"
             ]
@@ -226,7 +226,7 @@
         },
         {
           "question": "Which solution should we start with?",
-          "answer": "It depends on your next initiative: MoneyPool for one project with a shared goal, Water Well for well projects, Sponsorship for long-term support of beneficiaries and Membership if you have members. Our team can help you decide."
+          "answer": "It depends on your next initiative: MoneyPool for one project with a shared goal, Water for well projects, Sponsorship for long-term support of beneficiaries and Membership if you have members. Our team can help you decide."
         },
         {
           "question": "Which payment providers can we connect?",
@@ -1274,7 +1274,7 @@
             "text": "Bring the project closer to the people funding it.",
             "points": [
               "Project pages with location, budget and photos",
-              "Stage-by-stage updates on Water Well projects",
+              "Stage-by-stage updates on Water projects",
               "Progress reports through the sponsor portal"
             ]
           },
@@ -1338,7 +1338,7 @@
         "items": [
           {
             "title": "Exploring fundraising options for a region",
-            "text": "An organisation plans water projects in a new region. Before launching, it talks to the Donorfit team about its payment provider and where its donors are, then sets up its first Water Well campaign.",
+            "text": "An organisation plans water projects in a new region. Before launching, it talks to the Donorfit team about its payment provider and where its donors are, then sets up its first Water campaign.",
             "slug": "water-well"
           },
           {
@@ -1371,7 +1371,7 @@
           },
           {
             "title": "Set up your projects",
-            "text": "Create Water Well, Qurbani, Sponsorship or MoneyPool campaigns for your work."
+            "text": "Create Water, Qurbani, Sponsorship or MoneyPool campaigns for your work."
           },
           {
             "title": "Share updates and follow progress",

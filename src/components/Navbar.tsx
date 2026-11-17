@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useId } from 'react';
 import { useModal } from '../context/ModalContext.tsx';
 import BrandLogo from './BrandLogo.tsx';
 import { isHiddenProduct } from '../data/productPages.ts';
-import { APP_LOGIN_URL, APP_SIGNUP_URL } from '../data/links.ts';
+import { APP_LOGIN_URL, APP_SIGNUP_URL, NEW_TAB } from '../data/links.ts';
 import { SOLUTION_ICONS, SOLUTION_ORDER, solutionRoute } from '../data/solutions.ts';
 import { useT, useTx, type Lang } from '../i18n/index.tsx';
 import {
@@ -57,7 +57,7 @@ const RESOURCE_NAV = [
 const INTEGRATIONS = { path: '/integrations' };
 /** Pricing page route. */
 const PRICING_HREF: string | null = '/pricing';
-/** Customer app auth — full page redirects in the same tab (see src/data/links.ts). */
+/** Customer app auth — opens in a new tab so the website stays open (see src/data/links.ts). */
 const LOGIN_URL = APP_LOGIN_URL;
 const SIGNUP_URL = APP_SIGNUP_URL;
 
@@ -533,13 +533,13 @@ export default function Navbar() {
           {/* Right: account actions */}
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             <a
-              href={LOGIN_URL}
+              href={LOGIN_URL} {...NEW_TAB}
               className={`hidden rounded-full px-4 py-2 text-sm font-semibold text-navy-950 transition-colors hover:bg-brand-50 hover:text-brand-700 lg:inline-flex ${focusRing}`}
             >
               {t('login')}
             </a>
             <a
-              href={SIGNUP_URL}
+              href={SIGNUP_URL} {...NEW_TAB}
               className={`btn-gradient hidden rounded-full px-5 py-2.5 text-sm font-semibold whitespace-nowrap sm:inline-flex ${focusRing}`}
             >
               {t('signup')}
@@ -665,13 +665,13 @@ export default function Navbar() {
 
             <div className="flex flex-col gap-2 pt-3 sm:flex-row">
               <a
-                href={LOGIN_URL}
+                href={LOGIN_URL} {...NEW_TAB}
                 className={`w-full rounded-full border border-neutral-300 py-2.5 text-center text-sm font-semibold text-neutral-800 transition-colors hover:bg-neutral-50 ${focusRing}`}
               >
                 {t('login')}
               </a>
               <a
-                href={SIGNUP_URL}
+                href={SIGNUP_URL} {...NEW_TAB}
                 className={`btn-gradient w-full rounded-full py-2.5 text-center text-sm font-semibold ${focusRing}`}
               >
                 {t('signup')}

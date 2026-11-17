@@ -90,7 +90,7 @@
       "money-pool": { "title": "MoneyPool crowdfunding", "text": "Contributions to one shared project goal, each recorded and receipted individually." },
       "membership": { "title": "Membership contributions", "text": "Dues collected through recurring billing, with automatic retries for failed payments." },
       "sponsorship": { "title": "Sponsorship payments", "text": "Monthly sponsor contributions tracked per sponsorship, with automatic retries." },
-      "water-well": { "title": "Water Well projects", "text": "Donations towards each well’s fundraising target, with progress shown as they arrive." },
+      "water-well": { "title": "Water projects", "text": "Donations towards each well’s fundraising target, with progress shown as they arrive." },
       "qurbani": { "title": "Qurbani contributions", "text": "Online contributions for the animals and shares your organisation offers." }
     },
     "explore": "Explore {{name}}",

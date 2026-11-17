@@ -3,6 +3,15 @@ import { useModal } from '../context/ModalContext.tsx';
 import { Handshake, CheckCircle2, ArrowRight, Building2, ShieldCheck, Globe } from 'lucide-react';
 import { useT, useTx } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
+import googleCloudLogo from '../assets/partners/google-cloud.svg';
+import azureLogo from '../assets/partners/microsoft-azure.svg';
+import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
+
+/** Cloud providers whose services run the Donorfit platform. Official logos: src/assets/partners/CREDITS.md. */
+const TECH_PARTNERS = [
+  { key: 'googleCloud', logo: googleCloudLogo, w: 181, h: 28, displayH: '1.75rem' },
+  { key: 'azure', logo: azureLogo, w: 96, h: 96, displayH: '2.75rem' },
+] as const;
 
 interface PartnerType {
   title: string;
@@ -68,6 +77,42 @@ export default function PartnersPage() {
         </div>
       </section>
 
+      {/* Technology partners: cloud infrastructure (confirmed by the client on 2026-11-17) */}
+      <section aria-labelledby="partners-tech-title" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl space-y-3">
+          <span className="text-xs font-semibold text-brand-700 block">{t('partners.tech.eyebrow')}</span>
+          <h2 id="partners-tech-title" className="text-2xl sm:text-3xl font-extrabold tracking-tight text-neutral-950 font-display">
+            {t('partners.tech.title')}
+          </h2>
+          <p className="text-sm sm:text-base text-neutral-600 leading-relaxed">{t('partners.tech.intro')}</p>
+        </div>
+        <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 lg:max-w-4xl">
+          {TECH_PARTNERS.map((p) => {
+            const name = t(`partners.tech.items.${p.key}.name`);
+            return (
+              <li key={p.key} className="p-8 rounded-2xl bg-white border border-neutral-200 shadow-xs flex flex-col gap-5">
+                <div className="flex h-12 items-center">
+                  <img
+                    src={p.logo}
+                    alt={t('partners.tech.logoAlt', { name })}
+                    width={p.w}
+                    height={p.h}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-auto max-w-full object-contain object-left"
+                    style={{ height: p.displayH }}
+                  />
+                </div>
+                <div className="space-y-1.5">
+                  <h3 className="text-lg font-bold text-neutral-900 font-display" translate="no">{name}</h3>
+                  <p className="text-sm text-neutral-600 leading-relaxed">{t(`partners.tech.items.${p.key}.text`)}</p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
       {/* Verified Ecosystem Integrations */}
       <section id="integrations" className="scroll-mt-24 bg-neutral-900 bg-dark-glow text-white py-16 rounded-3xl mx-4 sm:mx-6 lg:mx-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
@@ -88,6 +133,9 @@ export default function PartnersPage() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials (site-wide) */}
+      <GeneralTestimonialSection id="partners-testimonials" className="!bg-transparent !py-0" />
 
       {/* Become a Partner CTA */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
