@@ -43,19 +43,17 @@
     "invalid": "Please check this field."
   },
   "fees": {
-    "body": "Donorfit takes nothing from the donations you raise. There is no Donorfit platform fee and no Donorfit transaction fee, so more of every gift stays with your cause.",
+    "body": "Donorfit charges no platform fee and covers the payment processing charges itself, so your organisation receives the full intended amount of every donation.",
     "platform": {
       "label": "Platform fee",
-      "text": "No monthly platform fee for using Donorfit."
+      "text": "Donorfit charges organisations no platform fee."
     },
     "transaction": {
-      "label": "Transaction fee",
-      "text": "Donorfit deducts nothing from each donation or payment."
+      "label": "Processing fees",
+      "text": "Payment gateway charges are covered by Donorfit and never passed on to you."
     },
-    "providerNote": "Payment providers such as Stripe, PayPal or GoCardless charge their own processing fees, which may still apply. These are set by the provider you connect, not by Donorfit, and donors can choose to cover them.",
     "addonNote": "{{product}} is an add-on module with its own price. The 0% applies to the donations and payments you collect with it.",
-    "link": "See pricing",
-    "headline": "Keep more of every donation",
+    "headline": "Keep 100% of every donation",
     "zero": "0",
     "percent": "%",
     "receipt": {
@@ -63,13 +61,9 @@
       "example": "Example",
       "donation": "Donation",
       "platformFee": "Donorfit platform fee",
-      "transactionFee": "Donorfit transaction fee",
-      "providerFee": "Payment provider fee",
-      "providerValue": "Set by your provider",
-      "providerCovered": "Covered by the donor",
+      "transactionFee": "Payment processing fee",
       "receives": "Your organisation receives",
-      "lessProvider": "minus the provider fee",
-      "cover": "Donor covers the provider fee"
+      "receivesNote": "100% of the donation"
     },
     "flow": {
       "donor": {
@@ -78,17 +72,21 @@
       },
       "donorfit": {
         "title": "Donorfit",
-        "text": "No platform fee and no transaction fee."
+        "text": "No platform fee, and processing charges are covered."
       },
       "provider": {
         "title": "Payment provider",
-        "text": "Charges its own processing fee, unless the donor covers it."
+        "text": "Processes the payment securely. Donorfit covers the processing fee."
       },
       "org": {
         "title": "Your organisation receives",
-        "text": "The donation, minus any provider fee."
+        "text": "100% of the donation."
       },
       "label": "How a donation reaches you"
-    }
+    },
+    "full": {
+      "label": "of every donation reaches your organisation"
+    },
+    "hundred": "100"
   }
 }

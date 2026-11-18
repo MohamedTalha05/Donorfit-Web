@@ -152,12 +152,12 @@
     "linksTitle": "Verwandte Lösungen"
   },
   "pricing": {
-    "title": "Einfache Plattformpreise. Transparente Zahlungsabwicklung.",
-    "body": "Donorfit ist kostenlos nutzbar. Etwaige Transaktionsgebühren des Zahlungs-Gateways legt der gewählte Zahlungsanbieter fest. Gebühren für wiederkehrende Zahlungen, Abwicklungsbedingungen und Zahlungsrhythmen können je nach Zahlungsanbieter, Zahlungsart, Land und Kontovereinbarung variieren.",
+    "title": "Kostenlose Plattform. Keine Zahlungsgebühren für Sie.",
+    "body": "Donorfit ist kostenlos nutzbar. Die Gebühren der Zahlungsanbieter übernimmt Donorfit für jede Zahlung, auch für regelmäßige Zahlungen – sie werden nicht an Ihre Organisation weitergegeben.",
     "platformTitle": "Donorfit-Plattform",
     "platformText": "Die Nutzung der Donorfit-Plattform ist kostenlos. Was enthalten ist, sehen Sie auf der Preisseite.",
     "providerTitle": "Zahlungsanbieter",
-    "providerText": "Die Transaktionsgebühren für jede Zahlung, auch für wiederkehrende Zahlungen, legt Ihr Zahlungsanbieter im Rahmen Ihrer Vereinbarung mit ihm fest.",
+    "providerText": "Die Gebühren für jede Zahlung, auch für regelmäßige Zahlungen, übernimmt Donorfit.",
     "link": "Preise ansehen"
   },
   "faq": {
@@ -199,7 +199,7 @@
       },
       {
         "question": "Sind die Transaktionsgebühren für wiederkehrende Zahlungen in Donorfit enthalten?",
-        "answer": "Nein. Donorfit ist kostenlos nutzbar, die Gebühren des Zahlungsanbieters kommen separat hinzu. Ihr Zahlungsanbieter legt die Transaktionsgebühren für jede Zahlung, auch für wiederkehrende Zahlungen, im Rahmen Ihrer Vereinbarung mit ihm fest."
+        "answer": "Ja. Donorfit übernimmt die Gebühren für jede Zahlung, auch für regelmäßige Zahlungen. Sie werden nicht an Ihre Organisation weitergegeben."
       },
       {
         "question": "Wie kann eine Organisation wiederkehrende Zahlungen aktivieren?",

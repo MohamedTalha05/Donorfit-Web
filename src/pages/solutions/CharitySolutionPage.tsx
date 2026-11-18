@@ -48,10 +48,11 @@ import {
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 import KeyFigures from '../../components/home/KeyFigures.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 const SLUG = 'for-charities' as const;
 
 type CharityText = SolutionText & {
-  hero: SolutionText['hero'] & { formTitle: string; formOther: string; formCover: string; formDonate: string };
+  hero: SolutionText['hero'] & { formTitle: string; formOther: string; formDonate: string };
   causes: { title: string; sub: string; items: { title: string; text: string; slug: ProductSlug; imageAlt: string }[] };
 };
 
@@ -108,10 +109,6 @@ export default function CharitySolutionPage() {
                 ))}
                 <span className="rounded-lg bg-soft py-2 text-center text-neutral-600 ring-1 ring-neutral-200">{s.hero.formOther}</span>
               </div>
-              <p className="mt-4 flex items-center gap-2 text-sm text-neutral-700">
-                <span className="flex h-4 w-4 items-center justify-center rounded bg-brand-600 text-[10px] text-white">✓</span>
-                {s.hero.formCover}
-              </p>
               <span className="mt-4 block rounded-full bg-brand-700 py-2.5 text-center text-sm font-bold text-white">{s.hero.formDonate}</span>
             </div>
           </div>
@@ -122,6 +119,7 @@ export default function CharitySolutionPage() {
       <Helps text={s} tone="white" id="cha-helps" icons={[FileText, Share2, ClipboardCheck]} />
       <CustomerLogoSection id="cha-customers" compact />
       <KeyFigures id="cha-key-figures" className="!pt-0" />
+      <ZeroFeeHighlight id="cha-fees" className="!pt-0" />
 
       {/* Signature: causes a charity can fundraise for */}
       <PSection tone="navy" labelledBy="cha-causes">

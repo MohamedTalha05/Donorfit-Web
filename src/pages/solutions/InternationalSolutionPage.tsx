@@ -29,6 +29,7 @@ import {
 import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx';
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 import KeyFigures from '../../components/home/KeyFigures.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 const SLUG = 'for-international-orgs' as const;
 
 type InternationalText = SolutionText & {
@@ -85,6 +86,7 @@ export default function InternationalSolutionPage() {
       <Helps text={s} id="int-helps" icons={[Images, CreditCard, Handshake]} />
       <CustomerLogoSection id="int-customers" compact />
       <KeyFigures id="int-key-figures" className="!pt-0" />
+      <ZeroFeeHighlight id="int-fees" className="!pt-0" />
 
       {/* Signature: supported payment providers (facts from src/data/integrations.ts) */}
       <PSection tone="soft" labelledBy="int-providers">

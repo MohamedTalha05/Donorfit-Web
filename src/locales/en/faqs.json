@@ -50,7 +50,31 @@
     },
     {
       "question": "How does Donorfit pricing work?",
-      "answer": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Donors can optionally cover payment processing fees so your organisation receives the full amount. Specialised add-ons such as CRM, recurring subscriptions, sponsorship, membership and Qurbani are purchased separately – see our Pricing page or contact our team for details.",
+      "answer": "Donorfit is free to use. There is no platform fee, and Donorfit covers the payment gateway processing charges, so your organisation receives the full amount of each donation. Optional add-ons such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription are purchased separately – see our Pricing page or contact our team for details.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "Is Donorfit free for organisations?",
+      "answer": "Yes. Organisations pay no platform fee and no transaction processing fees to Donorfit. Optional add-on modules are priced separately.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "Who pays the payment gateway processing charges?",
+      "answer": "Donorfit. Under its zero-fee model, Donorfit absorbs the processing charges of the payment gateways you connect, such as Stripe, PayPal and GoCardless.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "Does Donorfit deduct fees from donations?",
+      "answer": "No. Donorfit does not deduct platform or payment processing fees from the amount intended for your organisation.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "How does Donorfit sustain this model?",
+      "answer": "Donorfit is funded by optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and by exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip.",
       "category": "Pricing",
       "categoryKey": "pricing"
     }

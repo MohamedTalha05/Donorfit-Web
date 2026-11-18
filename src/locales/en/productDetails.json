@@ -375,8 +375,8 @@
           "description": "Illustrate real outcomes with custom amount buttons (e.g. €25 = School supplies for 2 students)."
         },
         {
-          "title": "Donor-Covered Processing Fees",
-          "description": "Allow supporters to optionally cover payment transaction fees, so more of each gift reaches your organisation."
+          "title": "Zero Processing Fees",
+          "description": "Donorfit covers payment processing charges, so the full amount of each gift reaches your organisation."
         },
         {
           "title": "Embedded Widgets & Full-Page Campaigns",

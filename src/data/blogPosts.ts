@@ -336,13 +336,13 @@ Sie müssen nicht alles auf einmal umstellen. Viele Organisationen beginnen mit 
 
 ## Choosing a payment provider
 
-Payments on your form are processed by a payment provider. Donorfit integrates with Stripe, PayPal, GoCardless, Mollie and Micropayment. Each provider offers different payment methods and has its own transaction fees, which you agree with the provider directly.
+Payments on your form are processed by a payment provider. Donorfit integrates with Stripe, PayPal, GoCardless, Mollie and Micropayment. Each provider offers different payment methods. Donorfit covers the providers’ processing charges, so they are not passed on to your organisation.
 
 Questions to ask when choosing:
 
 1. Which payment methods do our supporters prefer?
 2. Do we need direct debit for regular gifts?
-3. Which fees apply, and can donors choose to cover them?
+3. In which countries and currencies do our supporters give?
 4. What does the provider need from us to open an account?
 
 You can read more about each option on the [integrations page](/integrations).
@@ -389,13 +389,13 @@ Look at your form regularly. If supporters often contact you with the same quest
 
 ## Einen Zahlungsanbieter wählen
 
-Zahlungen über Ihr Formular werden von einem Zahlungsanbieter abgewickelt. Donorfit ist mit Stripe, PayPal, GoCardless, Mollie und Micropayment integriert. Jeder Anbieter bietet andere Zahlungsarten und hat eigene Transaktionsgebühren, die Sie direkt mit dem Anbieter vereinbaren.
+Zahlungen über Ihr Formular werden von einem Zahlungsanbieter abgewickelt. Donorfit ist mit Stripe, PayPal, GoCardless, Mollie und Micropayment integriert. Jeder Anbieter bietet andere Zahlungsarten. Die Gebühren der Anbieter übernimmt Donorfit – sie werden nicht an Ihre Organisation weitergegeben.
 
 Fragen für die Auswahl:
 
 1. Welche Zahlungsarten bevorzugen unsere Unterstützer:innen?
 2. Brauchen wir Lastschrift für regelmäßige Spenden?
-3. Welche Gebühren fallen an, und können Spender:innen sie übernehmen?
+3. Aus welchen Ländern und in welchen Währungen spenden unsere Unterstützer:innen?
 4. Was benötigt der Anbieter von uns, um ein Konto zu eröffnen?
 
 Mehr zu jeder Option lesen Sie auf der [Integrationsseite](/integrations).
@@ -736,20 +736,20 @@ Notieren Sie nach den Verlängerungen, was am meisten Zeit gekostet hat und wona
     featuredImage: 'sections/recurring.jpg',
     related: ['donation-form-on-your-website-checklist', 'plan-a-fundraising-campaign-supporters-can-follow'],
     en: {
-      title: 'Donorfit is free to use: how payment provider fees work',
+      title: 'Donorfit is free to use: no platform fee and no processing fees',
       excerpt:
-        'Donorfit does not charge a platform fee. When a supporter pays, the payment provider you connect charges its own transaction fees. Here is how that works in practice.',
+        'Donorfit does not charge a platform fee, and it covers the payment processing charges itself. Here is what that means for your organisation.',
       imageAlt: 'A woman holding a bank card while using a laptop',
-      seoTitle: 'Donorfit Is Free to Use: How Payment Provider Fees Work | Donorfit',
+      seoTitle: 'Donorfit Is Free: No Platform Fee, No Processing Fees | Donorfit',
       metaDescription:
-        'Donorfit is free to use with no platform fee. Learn how payment provider transaction fees work and how donors can choose to cover them.',
-      body: `We often hear the same question from organisations looking at Donorfit: what does it cost? The short answer is that Donorfit is free to use. This article explains what that means and which costs come from the payment provider you choose.
+        'Donorfit is free for organisations: no platform fee, and payment processing charges are covered by Donorfit, so you receive 100% of every donation.',
+      body: `We often hear the same question from organisations looking at Donorfit: what does it cost? The short answer is that Donorfit is free to use. This article explains what that means, including what happens to payment processing charges.
 
 ## No platform fee
 
 Donorfit does not charge a monthly platform fee or a Donorfit fee on donations. You can register for free and start setting up your donation forms and campaigns.
 
-## Transaction fees come from your payment provider
+## Processing fees are covered by Donorfit
 
 When a supporter pays, the payment is processed by a payment provider. Donorfit integrates with:
 
@@ -759,11 +759,7 @@ When a supporter pays, the payment is processed by a payment provider. Donorfit 
 - Mollie
 - Micropayment
 
-Each provider charges its own transaction fees according to its pricing and your agreement with it. These fees are set by the provider, not by Donorfit. Please check the current conditions on the provider's website before you choose.
-
-## Letting donors cover the fee
-
-Donorfit offers a cover-the-fee option. Donors can choose to add the transaction fee to their gift, so more of their donation reaches your organisation. It is always the donor's choice.
+Payment providers charge transaction fees for processing payments. Donorfit covers these charges itself, so they are not passed on to your organisation or deducted from donations. Your organisation receives the full intended amount of every gift.
 
 ## What you get
 
@@ -776,20 +772,20 @@ Which provider fits best depends on the payment methods your supporters prefer a
 > Questions about your setup? [Contact our team](/contact) and we will help you find the right starting point.`,
     },
     de: {
-      title: 'Donorfit ist kostenlos nutzbar: So funktionieren die Gebühren der Zahlungsanbieter',
+      title: 'Donorfit ist kostenlos nutzbar: keine Plattformgebühr und keine Zahlungsgebühren',
       excerpt:
-        'Donorfit erhebt keine Plattformgebühr. Wenn Unterstützer:innen zahlen, berechnet der von Ihnen verbundene Zahlungsanbieter eigene Transaktionsgebühren. So funktioniert das in der Praxis.',
+        'Donorfit erhebt keine Plattformgebühr und übernimmt die Zahlungsgebühren selbst. Das bedeutet das für Ihre Organisation.',
       imageAlt: 'Eine Frau mit Bankkarte am Laptop',
-      seoTitle: 'Donorfit kostenlos: Gebühren der Zahlungsanbieter | Donorfit Blog',
+      seoTitle: 'Donorfit kostenlos: keine Plattform- und Zahlungsgebühren | Donorfit',
       metaDescription:
-        'Donorfit ist kostenlos nutzbar, ohne Plattformgebühr. So funktionieren die Transaktionsgebühren der Anbieter und so können Spender:innen sie übernehmen.',
-      body: `Organisationen, die sich Donorfit ansehen, stellen uns oft dieselbe Frage: Was kostet das? Die kurze Antwort: Donorfit ist kostenlos nutzbar. Dieser Artikel erklärt, was das bedeutet und welche Kosten vom Zahlungsanbieter Ihrer Wahl stammen.
+        'Donorfit ist für Organisationen kostenlos: keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit – Sie erhalten 100 % jeder Spende.',
+      body: `Organisationen, die sich Donorfit ansehen, stellen uns oft dieselbe Frage: Was kostet das? Die kurze Antwort: Donorfit ist kostenlos nutzbar. Dieser Artikel erklärt, was das bedeutet – auch für die Gebühren der Zahlungsanbieter.
 
 ## Keine Plattformgebühr
 
 Donorfit erhebt weder eine monatliche Plattformgebühr noch eine Donorfit-Gebühr auf Spenden. Sie können sich kostenlos registrieren und mit der Einrichtung Ihrer Spendenformulare und Kampagnen beginnen.
 
-## Transaktionsgebühren kommen von Ihrem Zahlungsanbieter
+## Die Zahlungsgebühren übernimmt Donorfit
 
 Wenn Unterstützer:innen zahlen, wird die Zahlung von einem Zahlungsanbieter abgewickelt. Donorfit ist integriert mit:
 
@@ -799,11 +795,7 @@ Wenn Unterstützer:innen zahlen, wird die Zahlung von einem Zahlungsanbieter abg
 - Mollie
 - Micropayment
 
-Jeder Anbieter berechnet eigene Transaktionsgebühren gemäß seiner Preisgestaltung und Ihrer Vereinbarung mit ihm. Diese Gebühren legt der Anbieter fest, nicht Donorfit. Bitte prüfen Sie vor Ihrer Wahl die aktuellen Konditionen auf der Website des Anbieters.
-
-## Spender:innen die Gebühr übernehmen lassen
-
-Donorfit bietet eine Option zur Gebührenübernahme. Spender:innen können die Transaktionsgebühr freiwillig zu ihrer Spende hinzufügen, sodass mehr von ihrer Spende bei Ihrer Organisation ankommt. Die Entscheidung liegt immer bei den Spender:innen.
+Zahlungsanbieter berechnen Transaktionsgebühren für die Abwicklung von Zahlungen. Diese Gebühren übernimmt Donorfit selbst – sie werden weder an Ihre Organisation weitergegeben noch von Spenden abgezogen. Ihre Organisation erhält jede Spende in voller beabsichtigter Höhe.
 
 ## Was Sie erhalten
 

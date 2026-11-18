@@ -78,8 +78,8 @@
         "text": "WordPress, Webflow, Squarespace or custom sites."
       },
       {
-        "title": "Donors cover fees",
-        "text": "Optional fee cover so you receive the full gift."
+        "title": "No fees for you",
+        "text": "No platform fee, and processing charges are covered by Donorfit."
       },
       {
         "title": "Instant receipts",
@@ -150,8 +150,8 @@
     "title": "Every way your supporters want to give",
     "description": "Accept bank payments, cards and wallets through trusted gateways, with funds paid directly to your organisation’s bank account.",
     "points": [
-      "Donorfit is free to use; transaction charges are set by your payment provider.",
-      "Donors can choose to cover processing fees.",
+      "Donorfit is free to use and covers the payment processing charges for you.",
+      "Your organisation receives the full donation amount.",
       "Available currencies depend on your payment provider and account."
     ],
     "gatewaysLabel": "Payment gateways:",
@@ -380,11 +380,10 @@
     "sampleBadge": "Illustrative dashboard · sample data"
   },
   "donationForm": {
-    "figureLabel": "Example Donorfit donation form with monthly giving selected, suggested amounts, an option to cover fees and several payment methods",
+    "figureLabel": "Example Donorfit donation form with monthly giving selected, suggested amounts and several payment methods",
     "organisation": "Your organisation",
     "campaign": "Clean Water Appeal",
     "otherAmount": "Other amount…",
-    "coverFees": "I’d like to cover the processing fee so 100% of my gift goes to the cause.",
     "donateCta": "Donate {{amount}} monthly",
     "secure": "Secure checkout · Cancel anytime",
     "receiptTitle": "Tax receipt sent",

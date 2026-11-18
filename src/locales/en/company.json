@@ -128,7 +128,7 @@
     },
     "cost": {
       "title": "How pricing works",
-      "p1": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Donors can choose to cover payment processing fees, so that your organisation receives the full amount of their gift.",
+      "p1": "Donorfit is free to use. There is no platform fee, and Donorfit covers the payment gateway processing charges itself, so your organisation receives the full amount of every donation.",
       "p2": "Specialised add-ons such as CRM, recurring giving, sponsorship, membership and Qurbani are purchased separately, so you only pay for the modules you use. The platform supports 5 languages and 39 currencies.",
       "link": "See pricing details"
     },
@@ -208,7 +208,7 @@
         "school-management": "Manage students, administration and fees."
       },
       "learnMore": "Learn more about {{name}}",
-      "pricingNote": "Donorfit is free to use. Specialised add-ons are priced separately, and any applicable payment gateway transaction charges are determined by the selected payment provider.",
+      "pricingNote": "Donorfit is free to use, with no platform fee and no payment processing charges passed on to you. Specialised add-ons are priced separately.",
       "pricingLink": "See pricing"
     },
     "cta": {
@@ -285,14 +285,28 @@
   "pricing": {
     "hero": {
       "eyebrow": "Pricing",
-      "titleLead": "More Donations for Your Mission.",
-      "titleHighlight": "Less Spent on Fees.",
-      "intro": "Everything your nonprofit needs to collect donations, manage donors, and simplify fundraising — all in one place.",
-      "badges": [
-        "0% Donorfit platform fee",
-        "Provider charges set by your payment provider"
-      ],
-      "startFree": "Start Fundraising For Free"
+      "titleLead": "Free fundraising.",
+      "titleHighlight": "€0, with no fees on your donations.",
+      "intro": "No platform fee, no transaction fees and no processing charges passed on to you. Donorfit covers the payment gateway costs, so 100% of every donation goes to your cause.",
+      "startFree": "Sign Up for Free",
+      "stats": [
+        {
+          "value": "€0",
+          "label": "per month"
+        },
+        {
+          "value": "0%",
+          "label": "platform fee"
+        },
+        {
+          "value": "0%",
+          "label": "transaction fees"
+        },
+        {
+          "value": "100%",
+          "label": "of every donation"
+        }
+      ]
     },
     "plan": {
       "eyebrow": "Simple, transparent pricing",
@@ -300,16 +314,15 @@
       "badge": "Free to use",
       "name": "All-in-one fundraising platform, free to use",
       "perMonth": "/ month",
-      "cta": "Get Started Now",
-      "noteCoverFee": "*Option to let donors cover transaction fees so your organization receives the full amount.",
+      "cta": "Sign Up for Free",
       "noteExclusiveBefore": "*To get the exclusive features",
       "noteExclusiveLink": "contact us",
       "noteExclusiveAfter": ".",
       "includedTitle": "Everything included",
-      "seeNote": "see note",
       "features": [
         "No platform fee",
-        "No Donorfit transaction fee – payment provider charges may apply",
+        "No transaction fees – Donorfit covers payment processing charges",
+        "No hidden Donorfit charges",
         "Access basic reports and dashboards",
         "Embedded Donation Forms with customisation",
         "Multiple payment methods through your payment provider, such as PayPal, credit card, Google Pay, Apple Pay, SEPA, Bancontact, EPS and iDEAL",
@@ -317,7 +330,6 @@
         "Generate QR codes for your donation box",
         "Basic email functionality for system notifications (on/off)",
         "Predefined donation tax receipt templates for automatic generation",
-        "Flexible Cover the Fee model",
         "Access to API + webhooks for real-time integration workflows",
         "Automated reconciliation possibilities",
         "Custom email provider",
@@ -329,6 +341,42 @@
         "WhatsApp and SMS communication",
         "5 languages – 39 currencies"
       ]
+    },
+    "model": {
+      "title": "How Donorfit stays free for you",
+      "intro": "This is what happens with every donation made through Donorfit.",
+      "steps": [
+        {
+          "title": "Your donor gives {{amount}}",
+          "text": "The donor pays the amount they intend to give. Nothing is added for your organisation."
+        },
+        {
+          "title": "Donorfit covers the processing costs",
+          "text": "The payment gateway charges a processing fee for the transaction. Donorfit absorbs it."
+        },
+        {
+          "title": "You receive the full {{amount}}",
+          "text": "No platform fee and no processing fee are deducted. 100% goes to your cause."
+        }
+      ],
+      "fundingTitle": "How is Donorfit funded?",
+      "fundingText": "Through optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip.",
+      "chips": [
+        "No platform fee",
+        "No transaction fees",
+        "No processing fees passed on",
+        "No hidden Donorfit charges"
+      ]
+    },
+    "calc": {
+      "title": "See what your organisation keeps",
+      "intro": "Enter the amount you plan to raise. With Donorfit, the full amount goes to your fundraising goal.",
+      "amountLabel": "Amount you plan to raise",
+      "total": "Total raised",
+      "platform": "Donorfit platform fee",
+      "transaction": "Transaction fees charged to you",
+      "keep": "Kept for your fundraising goal",
+      "keepNote": "100% of the amount raised"
     },
     "addons": {
       "eyebrow": "Optional add-ons",
@@ -401,6 +449,22 @@
       "title": "Frequently asked questions",
       "items": [
         {
+          "q": "Is Donorfit free for organisations?",
+          "a": "Yes. Organisations pay no platform fee and no transaction processing fees to Donorfit. Optional add-on modules are priced separately."
+        },
+        {
+          "q": "Who pays the payment gateway processing charges?",
+          "a": "Donorfit. Under its zero-fee model, Donorfit absorbs the processing charges of the payment gateways you connect, such as Stripe, PayPal and GoCardless."
+        },
+        {
+          "q": "Does Donorfit deduct fees from donations?",
+          "a": "No. Donorfit does not deduct platform or payment processing fees from the amount intended for your organisation."
+        },
+        {
+          "q": "How does Donorfit sustain this model?",
+          "a": "Donorfit is funded by optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and by exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip."
+        },
+        {
           "q": "What is Donorfit and how can it benefit us?",
           "a": "Donorfit is a fundraising platform that helps nonprofits collect donations, manage donors, track interactions and personalise outreach, with less manual administration."
         },
@@ -423,8 +487,7 @@
     },
     "closing": {
       "title": "Keep more of every donation for your mission.",
-      "text": "Donorfit is free to use. Any applicable payment gateway transaction charges are determined by the selected payment provider. Start collecting donations today.",
-      "contactSales": "Contact Sales"
+      "text": "Donorfit is free to use: no platform fee, and payment processing charges are covered by Donorfit. Start collecting donations today."
     }
   },
   "security": {

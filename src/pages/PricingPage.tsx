@@ -17,7 +17,6 @@ import {
   HandHeart,
   IdCard,
   Layers,
-  MessageSquare,
   Moon,
   Receipt,
   RefreshCcw,
@@ -30,6 +29,7 @@ import {
 import CustomerLogoSection from '../components/social/CustomerLogoSection.tsx';
 import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
 import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
+import { FeeCalculator, FreeModel } from '../components/fees/FreeModel.tsx';
 import KeyFigures from '../components/home/KeyFigures.tsx';
 /* ------------------------------------------------------------------ *
  * Content source: https://donorfit.com/en/pricing-plan/
@@ -38,8 +38,6 @@ import KeyFigures from '../components/home/KeyFigures.tsx';
  * "pricing"). Add-ons link to an existing page only where one exists.
  * ------------------------------------------------------------------ */
 
-/** Index of the plan feature that carries the "*" footnote ("Flexible Cover the Fee model"). */
-const FOOTNOTE_FEATURE_INDEX = 9;
 
 interface AddOn {
   key: string;
@@ -104,7 +102,7 @@ export default function PricingPage() {
   const { locale } = useI18n();
 
   const planFeatures = tx<string[]>('pricing.plan.features');
-  const heroBadges = tx<string[]>('pricing.hero.badges');
+  const heroStats = tx<{ value: string; label: string }[]>('pricing.hero.stats');
   const pricingFaqs = tx<{ q: string; a: string }[]>('pricing.faq.items');
 
   const volumeAmount = useMemo(
@@ -142,17 +140,19 @@ export default function PricingPage() {
             {t('pricing.hero.intro')}
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-3 pt-1">
-            {heroBadges.map((badge) => (
-              <span
-                key={badge}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-neutral-200 shadow-xs text-sm font-bold text-neutral-900"
+          <dl className="home-v2 mx-auto grid max-w-3xl grid-cols-2 overflow-hidden rounded-3xl bg-white text-left shadow-[0_30px_70px_-40px_rgb(0_24_64/0.45)] ring-1 ring-brand-200 sm:grid-cols-4">
+            {heroStats.map((stat, i) => (
+              <div
+                key={stat.label}
+                className={`flex flex-col-reverse items-center gap-1 px-4 py-5 text-center sm:py-6 ${i === 0 ? 'bg-navy-950 text-white' : ''} ${i > 0 ? 'border-neutral-200 sm:border-l' : ''} ${i === 2 ? 'border-t sm:border-t-0' : ''} ${i === 3 ? 'border-l border-t sm:border-t-0' : ''} ${i === 1 ? 'border-l' : ''}`}
               >
-                <Check className="w-4 h-4 text-emerald-600 stroke-[3]" aria-hidden="true" />
-                {badge}
-              </span>
+                <dt className={`text-xs font-semibold sm:text-sm ${i === 0 ? 'text-brand-200' : 'text-neutral-600'}`}>{stat.label}</dt>
+                <dd className={`hv-display whitespace-nowrap text-3xl font-extrabold leading-none tabular-nums sm:text-4xl ${i === 0 ? 'text-white' : i === 3 ? 'text-brand-600' : 'text-navy-950'}`}>
+                  {stat.value}
+                </dd>
+              </div>
             ))}
-          </div>
+          </dl>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-3">
             <SignupLink className="px-8 py-4 text-sm sm:text-base">{t('pricing.hero.startFree')}</SignupLink>
@@ -200,7 +200,6 @@ export default function PricingPage() {
               <SignupLink className="w-full px-6 py-3.5 text-sm">{t('pricing.plan.cta')}</SignupLink>
 
               <div className="space-y-2 text-xs text-neutral-600 leading-relaxed border-t border-neutral-200/80 pt-5 mt-auto">
-                <p>{t('pricing.plan.noteCoverFee')}</p>
                 <p>
                   {t('pricing.plan.noteExclusiveBefore')}{' '}
                   <a href={localize('/contact')} onClick={goContact} className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800">
@@ -222,7 +221,6 @@ export default function PricingPage() {
                     </span>
                     <span>
                       {text}
-                      {i === FOOTNOTE_FEATURE_INDEX && <span aria-label={t('pricing.plan.seeNote')}>*</span>}
                     </span>
                   </li>
                 ))}
@@ -233,7 +231,11 @@ export default function PricingPage() {
       </section>
 
       {/* 2b. ZERO FEES (directly after the plan) */}
-      <ZeroFeeHighlight id={`${uid}-fees`} className="!py-0" pricingLink={false} variant="receipt" />
+      <ZeroFeeHighlight id={`${uid}-fees`} className="!py-0" variant="receipt" />
+
+      {/* 2c. FEE CALCULATOR + HOW THE FREE MODEL WORKS */}
+      <FeeCalculator id={`${uid}-calc`} />
+      <FreeModel id={`${uid}-model`} />
 
       {/* 3. OPTIONAL ADD-ONS */}
       <section aria-labelledby={`${uid}-addons`} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -408,14 +410,13 @@ export default function PricingPage() {
           </p>
           <div className="relative flex flex-wrap items-center justify-center gap-4 pt-2">
             <SignupLink className="px-8 py-4 text-sm sm:text-base">{t('pricing.hero.startFree')}</SignupLink>
-            <a
-              href={localize('/contact')}
-              onClick={goContact}
-              className="inline-flex items-center gap-2 px-6 py-4 bg-neutral-700 hover:bg-neutral-600 text-white font-semibold text-sm sm:text-base rounded-xl transition-colors"
+            <button
+              type="button"
+              onClick={() => openBookDemo()}
+              className="inline-flex items-center gap-2 px-6 py-4 bg-white/10 hover:bg-white/15 text-white font-semibold text-sm sm:text-base rounded-xl ring-1 ring-white/25 transition-colors cursor-pointer"
             >
-              <MessageSquare className="w-4 h-4" aria-hidden="true" />
-              {t('pricing.closing.contactSales')}
-            </a>
+              {tc('actions.bookDemo')}
+            </button>
           </div>
         </div>
       </section>

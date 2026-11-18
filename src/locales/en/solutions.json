@@ -9,7 +9,7 @@
     "explore": "Explore {{name}}",
     "seeIntegrations": "See payment integrations",
     "seePricing": "See pricing",
-    "freeNote": "Donorfit is free to use. Transaction charges are set by the payment provider you choose.",
+    "freeNote": "Donorfit is free to use. No platform fee, and payment processing charges are covered by Donorfit.",
     "exampleData": "Example data",
     "illustrative": "Illustrative example",
     "comingSoon": "Coming Soon",
@@ -199,7 +199,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
           },
           {
             "title": "Choose a solution",
@@ -218,7 +218,7 @@
       "faqs": [
         {
           "question": "What does Donorfit cost an NGO?",
-          "answer": "Donorfit is free to use. When a donor pays, the payment provider you connect charges its own transaction fees, which you agree directly with that provider."
+          "answer": "Nothing for the platform. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect, so they are not passed on to your NGO."
         },
         {
           "question": "Can we run several campaigns at the same time?",
@@ -257,7 +257,6 @@
         "imageAlt": "Volunteers collecting donated goods for people in need",
         "formTitle": "Support our winter appeal",
         "formOther": "Other",
-        "formCover": "I’ll cover the transaction fee",
         "formDonate": "Donate"
       },
       "challenges": {
@@ -309,7 +308,7 @@
             "text": "Records, receipts and newsletters are handled in one place.",
             "points": [
               "Receipts from predefined templates",
-              "An optional cover-the-fee choice for donors",
+              "No processing fees passed on to your charity",
               "Brevo or Mailchimp for your newsletter"
             ]
           }
@@ -385,8 +384,8 @@
             "text": "Created from predefined templates."
           },
           {
-            "title": "Cover-the-fee option",
-            "text": "Donors can cover the transaction fee."
+            "title": "No processing fees",
+            "text": "Donorfit covers payment processing charges."
           },
           {
             "title": "Donor portal",
@@ -434,7 +433,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
           },
           {
             "title": "Create your first cause",
@@ -453,7 +452,7 @@
       "faqs": [
         {
           "question": "Is Donorfit really free for charities?",
-          "answer": "Yes, Donorfit is free to use. Transaction charges for each payment are set by the payment provider you connect, such as Stripe, PayPal or Mollie."
+          "answer": "Yes. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect, such as Stripe or PayPal."
         },
         {
           "question": "What is the difference between a donation form and MoneyPool?",
@@ -464,8 +463,8 @@
           "answer": "Yes. You can create a campaign for a medical cause, for example with MoneyPool. Your charity remains responsible for how the funds are used and for any rules that apply to that kind of appeal."
         },
         {
-          "question": "Can donors cover the transaction fee?",
-          "answer": "Yes. You can offer donors the option to cover the transaction fee, so your charity receives more of their gift."
+          "question": "Does my charity pay transaction fees?",
+          "answer": "No. Donorfit covers the payment processing charges, so your charity receives the full amount of each gift."
         },
         {
           "question": "Does Donorfit create tax receipts?",
@@ -662,7 +661,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
           },
           {
             "title": "Set up each programme",
@@ -701,7 +700,7 @@
         },
         {
           "question": "What does it cost?",
-          "answer": "Donorfit is free to use. Transaction charges are set by the payment provider you connect."
+          "answer": "Donorfit is free to use. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect."
         }
       ],
       "cta": {
@@ -888,7 +887,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
           },
           {
             "title": "Create beneficiary profiles",
@@ -1138,7 +1137,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Transaction charges are set by the provider."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
           },
           {
             "title": "Set up plans and the sign-up form",

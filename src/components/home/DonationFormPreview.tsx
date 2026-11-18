@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lock, Check, Droplets, FileCheck2, Landmark } from 'lucide-react';
+import { Lock, Droplets, FileCheck2, Landmark } from 'lucide-react';
 import { SampleBadge } from './mockKit.tsx';
 import { useT, useFormat } from '../../i18n/index.tsx';
 
@@ -63,14 +63,6 @@ export default function DonationFormPreview() {
           <div className="flex items-center justify-between rounded-xl border border-neutral-200 px-3.5 py-2.5 text-sm text-neutral-400">
             <span>{t('donationForm.otherAmount')}</span>
             <span>EUR</span>
-          </div>
-
-          {/* Cover fees */}
-          <div className="flex items-start gap-2.5 text-xs text-neutral-600">
-            <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded bg-brand-600 text-white">
-              <Check className="h-3 w-3" strokeWidth={3} />
-            </span>
-            <span>{t('donationForm.coverFees')}</span>
           </div>
 
           {/* Methods */}

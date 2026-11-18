@@ -9,7 +9,7 @@
     "explore": "{{name}} entdecken",
     "seeIntegrations": "Zahlungsintegrationen ansehen",
     "seePricing": "Preise ansehen",
-    "freeNote": "Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren legt der Zahlungsanbieter fest, den Sie wählen.",
+    "freeNote": "Donorfit ist kostenlos nutzbar. Keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit.",
     "exampleData": "Beispieldaten",
     "illustrative": "Veranschaulichendes Beispiel",
     "comingSoon": "Demnächst verfügbar",
@@ -199,7 +199,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
           },
           {
             "title": "Lösung wählen",
@@ -218,7 +218,7 @@
       "faqs": [
         {
           "question": "Was kostet Donorfit eine NGO?",
-          "answer": "Donorfit ist kostenlos nutzbar. Wenn Spender:innen zahlen, berechnet der von Ihnen angebundene Zahlungsanbieter eigene Transaktionsgebühren, die Sie direkt mit diesem Anbieter vereinbaren."
+          "answer": "Für die Plattform nichts. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters übernimmt Donorfit – sie werden nicht an Ihre NGO weitergegeben."
         },
         {
           "question": "Können wir mehrere Kampagnen gleichzeitig führen?",
@@ -257,7 +257,6 @@
         "imageAlt": "Ehrenamtliche sammeln Sachspenden für Menschen in Not",
         "formTitle": "Unterstützen Sie unseren Winter-Spendenaufruf",
         "formOther": "Anderer Betrag",
-        "formCover": "Ich übernehme die Transaktionsgebühr",
         "formDonate": "Spenden"
       },
       "challenges": {
@@ -309,7 +308,7 @@
             "text": "Datensätze, Spendenbelege und Newsletter laufen an einem Ort.",
             "points": [
               "Spendenbelege aus vordefinierten Vorlagen",
-              "Optionale Gebührenübernahme durch Spender:innen",
+              "Keine Zahlungsgebühren für Ihre Organisation",
               "Brevo oder Mailchimp für Ihren Newsletter"
             ]
           }
@@ -385,8 +384,8 @@
             "text": "Erstellt aus vordefinierten Vorlagen."
           },
           {
-            "title": "Gebührenübernahme",
-            "text": "Spender:innen können die Transaktionsgebühr übernehmen."
+            "title": "Keine Zahlungsgebühren",
+            "text": "Donorfit übernimmt die Zahlungsgebühren."
           },
           {
             "title": "Spenderportal",
@@ -434,7 +433,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
           },
           {
             "title": "Erstes Anliegen anlegen",
@@ -453,7 +452,7 @@
       "faqs": [
         {
           "question": "Ist Donorfit für gemeinnützige Vereine wirklich kostenlos?",
-          "answer": "Ja, Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren für jede Zahlung legt der Zahlungsanbieter fest, den Sie anbinden – etwa Stripe, PayPal oder Mollie."
+          "answer": "Ja. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters wie Stripe oder PayPal übernimmt Donorfit."
         },
         {
           "question": "Was ist der Unterschied zwischen einem Spendenformular und MoneyPool?",
@@ -464,8 +463,8 @@
           "answer": "Ja. Sie können eine Kampagne für ein medizinisches Anliegen erstellen, zum Beispiel mit MoneyPool. Ihr Verein bleibt dafür verantwortlich, wie die Mittel verwendet werden und welche Regeln für diese Art von Spendenaufruf gelten."
         },
         {
-          "question": "Können Spender:innen die Transaktionsgebühr übernehmen?",
-          "answer": "Ja. Sie können Spender:innen anbieten, die Transaktionsgebühr zu übernehmen, damit Ihr Verein mehr von ihrer Spende erhält."
+          "question": "Zahlt unsere Organisation Transaktionsgebühren?",
+          "answer": "Nein. Donorfit übernimmt die Zahlungsgebühren, sodass Ihre Organisation jede Spende in voller Höhe erhält."
         },
         {
           "question": "Erstellt Donorfit Zuwendungsbestätigungen?",
@@ -662,7 +661,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
           },
           {
             "title": "Jedes Programm einrichten",
@@ -701,7 +700,7 @@
         },
         {
           "question": "Was kostet Donorfit?",
-          "answer": "Donorfit ist kostenlos nutzbar. Die Transaktionsgebühren legt der Zahlungsanbieter fest, den Sie anbinden."
+          "answer": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters übernimmt Donorfit."
         }
       ],
       "cta": {
@@ -888,7 +887,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
           },
           {
             "title": "Profile von Begünstigten anlegen",
@@ -1138,7 +1137,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Transaktionsgebühren legt der Anbieter fest."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
           },
           {
             "title": "Tarife und Anmeldeformular einrichten",

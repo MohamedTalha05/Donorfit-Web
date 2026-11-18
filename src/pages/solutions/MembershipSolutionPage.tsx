@@ -29,6 +29,7 @@ import CustomerLogoSection from '../../components/social/CustomerLogoSection.tsx
 import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 import ContentPhoto from '../../components/ContentPhoto.tsx';
 import KeyFigures from '../../components/home/KeyFigures.tsx';
+import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
 const SLUG = 'for-membership-orgs' as const;
 
 type MembershipText = SolutionText & {
@@ -114,6 +115,7 @@ export default function MembershipSolutionPage() {
       <Helps text={s} tone="navy" id="mem-sol-helps" icons={[IdCard, Wallet, Vote]} />
       <CustomerLogoSection id="mem-sol-customers" compact />
       <KeyFigures id="mem-sol-key-figures" className="!pt-0" />
+      <ZeroFeeHighlight id="mem-sol-fees" className="!pt-0" />
 
       {/* Signature: a member's year */}
       <PSection labelledBy="mem-sol-year">

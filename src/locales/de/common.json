@@ -43,19 +43,17 @@
     "invalid": "Bitte überprüfen Sie dieses Feld."
   },
   "fees": {
-    "body": "Donorfit behält nichts von den Spenden ein, die Sie sammeln. Es gibt keine Donorfit-Plattformgebühr und keine Donorfit-Transaktionsgebühr – so bleibt mehr von jeder Spende für Ihr Anliegen.",
+    "body": "Donorfit erhebt keine Plattformgebühr und übernimmt die Zahlungsgebühren selbst – so erhält Ihre Organisation jede Spende in voller beabsichtigter Höhe.",
     "platform": {
       "label": "Plattform­gebühr",
-      "text": "Keine monatliche Plattformgebühr für die Nutzung von Donorfit."
+      "text": "Donorfit erhebt von Organisationen keine Plattformgebühr."
     },
     "transaction": {
-      "label": "Transaktions­gebühr",
-      "text": "Donorfit zieht von keiner Spende und keiner Zahlung etwas ab."
+      "label": "Zahlungs­gebühren",
+      "text": "Die Gebühren der Zahlungsanbieter übernimmt Donorfit – sie werden nie an Sie weitergegeben."
     },
-    "providerNote": "Zahlungsanbieter wie Stripe, PayPal oder GoCardless erheben eigene Verarbeitungsgebühren, die weiterhin anfallen können. Diese legt der verbundene Anbieter fest, nicht Donorfit – und Spender:innen können sie auf Wunsch übernehmen.",
     "addonNote": "{{product}} ist ein Zusatzmodul mit eigenem Preis. Die 0 % gelten für die Spenden und Zahlungen, die Sie damit einnehmen.",
-    "link": "Preise ansehen",
-    "headline": "Mehr von jeder Spende behalten",
+    "headline": "Behalten Sie 100 % jeder Spende",
     "zero": "0",
     "percent": " %",
     "receipt": {
@@ -63,13 +61,9 @@
       "example": "Beispiel",
       "donation": "Spende",
       "platformFee": "Donorfit-Plattformgebühr",
-      "transactionFee": "Donorfit-Transaktionsgebühr",
-      "providerFee": "Anbietergebühr",
-      "providerValue": "Legt Ihr Anbieter fest",
-      "providerCovered": "Übernimmt die spendende Person",
+      "transactionFee": "Zahlungsgebühr",
       "receives": "Ihre Organisation erhält",
-      "lessProvider": "abzüglich der Anbietergebühr",
-      "cover": "Spender:in übernimmt die Anbietergebühr"
+      "receivesNote": "100 % der Spende"
     },
     "flow": {
       "donor": {
@@ -78,17 +72,21 @@
       },
       "donorfit": {
         "title": "Donorfit",
-        "text": "Keine Plattformgebühr und keine Transaktionsgebühr."
+        "text": "Keine Plattformgebühr, und die Zahlungsgebühren sind übernommen."
       },
       "provider": {
         "title": "Zahlungsanbieter",
-        "text": "Erhebt eine eigene Verarbeitungsgebühr, sofern die spendende Person sie nicht übernimmt."
+        "text": "Wickelt die Zahlung sicher ab. Die Zahlungsgebühr übernimmt Donorfit."
       },
       "org": {
         "title": "Ihre Organisation erhält",
-        "text": "Die Spende, abzüglich einer etwaigen Anbietergebühr."
+        "text": "100 % der Spende."
       },
       "label": "So erreicht Sie eine Spende"
-    }
+    },
+    "full": {
+      "label": "jeder Spende erreicht Ihre Organisation"
+    },
+    "hundred": "100"
   }
 }

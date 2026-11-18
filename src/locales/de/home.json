@@ -78,8 +78,8 @@
         "text": "WordPress, Webflow, Squarespace oder eigene Websites."
       },
       {
-        "title": "Gebühren übernehmen",
-        "text": "Optionale Gebühren­übernahme, damit die volle Spende ankommt."
+        "title": "Keine Gebühren für Sie",
+        "text": "Keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit."
       },
       {
         "title": "Sofortige Bestätigungen",
@@ -150,8 +150,8 @@
     "title": "Jede Zahlungsart, die Ihre Unterstützer:innen wünschen",
     "description": "Akzeptieren Sie Bankzahlungen, Karten und Wallets über bewährte Zahlungs­anbieter – die Gelder gehen direkt auf das Bankkonto Ihrer Organisation.",
     "points": [
-      "Donorfit ist kostenlos nutzbar; Transaktionsgebühren legt Ihr Zahlungsanbieter fest.",
-      "Spender:innen können die Transaktionsgebühren freiwillig übernehmen.",
+      "Donorfit ist kostenlos nutzbar und übernimmt die Zahlungsgebühren für Sie.",
+      "Ihre Organisation erhält den vollen Spendenbetrag.",
       "Verfügbare Währungen hängen von Ihrem Zahlungsanbieter und Ihrem Konto ab."
     ],
     "gatewaysLabel": "Zahlungs­anbieter:",
@@ -380,11 +380,10 @@
     "sampleBadge": "Beispielhaftes Dashboard · Beispieldaten"
   },
   "donationForm": {
-    "figureLabel": "Beispiel eines Donorfit-Spenden­formulars mit ausgewählter monatlicher Spende, Betragsvorschlägen, Option zur Gebühren­übernahme und mehreren Zahlungsarten",
+    "figureLabel": "Beispiel eines Donorfit-Spendenformulars mit ausgewählter monatlicher Spende, vorgeschlagenen Beträgen und mehreren Zahlungsarten",
     "organisation": "Ihre Organisation",
     "campaign": "Spendenaufruf: Sauberes Wasser",
     "otherAmount": "Anderer Betrag …",
-    "coverFees": "Ich übernehme die Transaktionsgebühr, damit 100 % meiner Spende dem Zweck zugutekommen.",
     "donateCta": "{{amount}} monatlich spenden",
     "secure": "Sichere Zahlung · Jederzeit kündbar",
     "receiptTitle": "Zuwendungs­bestätigung versendet",
