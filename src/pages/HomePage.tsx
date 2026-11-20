@@ -5,6 +5,7 @@ import {
   Check,
   Plus,
   ShieldCheck,
+  Sparkles,
   FileCheck2,
   DatabaseZap,
   HandCoins,
@@ -26,7 +27,6 @@ import {
   Wallet,
   Banknote,
   BadgeCheck,
-  Sparkles,
   MessageSquareQuote,
   Target,
   QrCode,
@@ -52,7 +52,9 @@ import { SECTION_PHOTOS, type SectionPhotoKey } from '../components/home/section
 import { SampleBadge } from '../components/home/mockKit.tsx';
 import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
 import KeyFigures from '../components/home/KeyFigures.tsx';
+import ZeroFeeBadge from '../components/home/ZeroFeeBadge.tsx';
 import HostingLocation from '../components/home/HostingLocation.tsx';
+import { PartnerEcosystem } from '../components/partners/PartnerLogos.tsx';
 
 /* ------------------------------------------------------------------ */
 /* Layout primitives                                                   */
@@ -346,15 +348,21 @@ export default function HomePage() {
               id="hero-title"
               data-reveal
               style={delay(80)}
-              className="mx-auto mt-8 max-w-3xl text-[2.75rem] font-extrabold leading-[0.98] sm:text-7xl lg:mx-0 lg:text-[4.25rem] xl:text-[5.25rem]"
+              className="mx-auto mt-7 max-w-3xl text-[2.5rem] font-extrabold leading-[1.02] [text-wrap:balance] sm:text-6xl lg:mx-0 lg:text-[3.6rem] xl:text-[4.1rem]"
             >
               {t('hero.titleLine1')}{' '}
               <span className="hv-gradient-text sm:block">{t('hero.titleLine2')}</span>
             </h1>
 
-            <p data-reveal style={delay(160)} className="mx-auto mt-7 max-w-xl text-lg leading-relaxed text-white/70 sm:text-xl lg:mx-0">
+            {/* 0% platform fees / 0% transaction fees, directly below the headline */}
+            <div data-reveal style={delay(120)} className="mt-7">
+              <ZeroFeeBadge />
+            </div>
+
+            <p data-reveal style={delay(160)} className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/70 sm:text-xl lg:mx-0">
               {t('hero.description')}
             </p>
+
 
             <div data-reveal style={delay(240)} className="mt-10 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center lg:justify-start">
               <button type="button" onClick={() => openGetStarted()} className="hv-btn hv-btn-primary px-8 py-4 text-base">
@@ -833,6 +841,9 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* 10b. PARTNERS: cloud & technology + payment gateways ------- */}
+      <PartnerEcosystem id="partners-title" />
 
       {/* 11. CUSTOMER STORIES ----------------------------------------- */}
       <section aria-labelledby="stories-title" className={`${SECTION} hv-dark-bg overflow-hidden text-white`}>

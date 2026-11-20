@@ -9,6 +9,7 @@ Trademarks of their respective owners, shown only to identify the providers Dono
 | gocardless.svg | https://commons.wikimedia.org/wiki/File:GoCardless-Logo.svg | Public domain (text logo) |
 | micropayment.svg | https://commons.wikimedia.org/wiki/File:Logo_Micropayment.svg | CC BY-SA 4.0 |
 | mollie.png | https://commons.wikimedia.org/wiki/File:Mollie-Logo-Black-2023.png | CC BY 4.0 |
+| payrexx.svg | Official wordmark from the header of https://www.payrexx.com (2026-11-19), single-colour dark version of the white original | Trademark of Payrexx AG |
 | brevo.png | https://commons.wikimedia.org/wiki/File:Brevo-Logo.png | CC BY-SA 4.0 |
 | mailchimp.svg | Simple Icons 13.21.0 (https://simpleicons.org/?q=mailchimp) | CC0 1.0 |
 

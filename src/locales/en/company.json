@@ -128,7 +128,7 @@
     },
     "cost": {
       "title": "How pricing works",
-      "p1": "Donorfit is free to use. There is no platform fee, and Donorfit covers the payment gateway processing charges itself, so your organisation receives the full amount of every donation.",
+      "p1": "Donorfit is free to use. Your organisation pays no platform fee and no transaction fees, so it receives the full amount of every donation. Donors can choose to support Donorfit with an optional contribution at checkout.",
       "p2": "Specialised add-ons such as CRM, recurring giving, sponsorship, membership and Qurbani are purchased separately, so you only pay for the modules you use. The platform supports 5 languages and 39 currencies.",
       "link": "See pricing details"
     },
@@ -208,7 +208,7 @@
         "school-management": "Manage students, administration and fees."
       },
       "learnMore": "Learn more about {{name}}",
-      "pricingNote": "Donorfit is free to use, with no platform fee and no payment processing charges passed on to you. Specialised add-ons are priced separately.",
+      "pricingNote": "Donorfit is free to use, with no platform fee and no transaction fees for your organisation. Specialised add-ons are priced separately.",
       "pricingLink": "See pricing"
     },
     "cta": {
@@ -287,7 +287,7 @@
       "eyebrow": "Pricing",
       "titleLead": "Free fundraising.",
       "titleHighlight": "€0, with no fees on your donations.",
-      "intro": "No platform fee, no transaction fees and no processing charges passed on to you. Donorfit covers the payment gateway costs, so 100% of every donation goes to your cause.",
+      "intro": "No platform fee, no transaction fees and no processing charges passed on to you, so 100% of every donation goes to your cause.",
       "startFree": "Sign Up for Free",
       "stats": [
         {
@@ -320,9 +320,10 @@
       "noteExclusiveAfter": ".",
       "includedTitle": "Everything included",
       "features": [
-        "No platform fee",
-        "No transaction fees – Donorfit covers payment processing charges",
-        "No hidden Donorfit charges",
+        "0% platform fees",
+        "0% transaction fees",
+        "No mandatory platform charges for organisations",
+        "Optional donor contributions support Donorfit",
         "Access basic reports and dashboards",
         "Embedded Donation Forms with customisation",
         "Multiple payment methods through your payment provider, such as PayPal, credit card, Google Pay, Apple Pay, SEPA, Bancontact, EPS and iDEAL",
@@ -348,23 +349,23 @@
       "steps": [
         {
           "title": "Your donor gives {{amount}}",
-          "text": "The donor pays the amount they intend to give. Nothing is added for your organisation."
+          "text": "The donor chooses the amount for your organisation. Nothing is added unless they decide to."
         },
         {
-          "title": "Donorfit covers the processing costs",
-          "text": "The payment gateway charges a processing fee for the transaction. Donorfit absorbs it."
+          "title": "Optional support for Donorfit",
+          "text": "At checkout, the donor can add a contribution, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees. It is never preselected."
         },
         {
           "title": "You receive the full {{amount}}",
-          "text": "No platform fee and no processing fee are deducted. 100% goes to your cause."
+          "text": "No platform fee and no transaction fees are charged to your organisation. 100% of the donation goes to your cause."
         }
       ],
       "fundingTitle": "How is Donorfit funded?",
-      "fundingText": "Through optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip.",
+      "fundingText": "Donors can choose to add a contribution at checkout, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees. Donorfit also offers optional paid add-on modules such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription. Your organisation pays no platform fee and no transaction fees.",
       "chips": [
-        "No platform fee",
-        "No transaction fees",
-        "No processing fees passed on",
+        "0% platform fees",
+        "0% transaction fees",
+        "Donor contribution is always optional",
         "No hidden Donorfit charges"
       ]
     },
@@ -450,11 +451,11 @@
       "items": [
         {
           "q": "Is Donorfit free for organisations?",
-          "a": "Yes. Organisations pay no platform fee and no transaction processing fees to Donorfit. Optional add-on modules are priced separately."
+          "a": "Yes. Organisations pay no platform fee and no transaction fees to Donorfit. Optional add-on modules are priced separately."
         },
         {
-          "q": "Who pays the payment gateway processing charges?",
-          "a": "Donorfit. Under its zero-fee model, Donorfit absorbs the processing charges of the payment gateways you connect, such as Stripe, PayPal and GoCardless."
+          "q": "Do organisations pay payment gateway fees?",
+          "a": "No. Your organisation is not charged transaction fees for donations through the payment gateways you connect, such as Stripe, PayPal and GoCardless. Donors can choose to add an optional contribution at checkout, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees."
         },
         {
           "q": "Does Donorfit deduct fees from donations?",
@@ -462,7 +463,11 @@
         },
         {
           "q": "How does Donorfit sustain this model?",
-          "a": "Donorfit is funded by optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and by exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip."
+          "a": "Donors can add an optional contribution at checkout, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees. It is never preselected, and declining it does not affect the donation. Donorfit also offers optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription."
+        },
+        {
+          "q": "Do donors have to pay the Donorfit contribution?",
+          "a": "No. The contribution is optional and is never added automatically or preselected. Donors can choose an amount or decline, and they can complete their donation either way. The contribution is paid on top of the donation and is never deducted from the amount for your organisation."
         },
         {
           "q": "What is Donorfit and how can it benefit us?",
@@ -487,7 +492,7 @@
     },
     "closing": {
       "title": "Keep more of every donation for your mission.",
-      "text": "Donorfit is free to use: no platform fee, and payment processing charges are covered by Donorfit. Start collecting donations today."
+      "text": "Donorfit is free to use: no platform fee and no transaction fees for your organisation. Start collecting donations today."
     }
   },
   "security": {
@@ -640,6 +645,10 @@
         "azure": {
           "name": "Microsoft Azure",
           "text": "Donorfit uses Microsoft Azure services to run the platform."
+        },
+        "aws": {
+          "name": "Amazon Web Services",
+          "text": "Donorfit uses Amazon Web Services (AWS) to run the platform."
         }
       },
       "logoAlt": "{{name}} logo"
@@ -654,6 +663,7 @@
         "GoCardless",
         "Mollie",
         "Micropayment",
+        "Payrexx",
         "Mailchimp & Brevo",
         "API & webhooks"
       ]

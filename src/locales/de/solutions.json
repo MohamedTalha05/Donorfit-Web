@@ -9,7 +9,7 @@
     "explore": "{{name}} entdecken",
     "seeIntegrations": "Zahlungsintegrationen ansehen",
     "seePricing": "Preise ansehen",
-    "freeNote": "Donorfit ist kostenlos nutzbar. Keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit.",
+    "freeNote": "Donorfit ist kostenlos nutzbar. Keine Plattformgebühr und keine Transaktionsgebühren für Ihre Organisation.",
     "exampleData": "Beispieldaten",
     "illustrative": "Veranschaulichendes Beispiel",
     "comingSoon": "Demnächst verfügbar",
@@ -199,7 +199,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Ihre NGO zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Lösung wählen",
@@ -218,7 +218,7 @@
       "faqs": [
         {
           "question": "Was kostet Donorfit eine NGO?",
-          "answer": "Für die Plattform nichts. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters übernimmt Donorfit – sie werden nicht an Ihre NGO weitergegeben."
+          "answer": "Für die Plattform nichts. Es gibt keine Plattformgebühr, und Ihre NGO zahlt für Zahlungen über den verbundenen Anbieter keine Transaktionsgebühren."
         },
         {
           "question": "Können wir mehrere Kampagnen gleichzeitig führen?",
@@ -308,7 +308,7 @@
             "text": "Datensätze, Spendenbelege und Newsletter laufen an einem Ort.",
             "points": [
               "Spendenbelege aus vordefinierten Vorlagen",
-              "Keine Zahlungsgebühren für Ihre Organisation",
+              "Keine Transaktionsgebühren für Ihre Organisation",
               "Brevo oder Mailchimp für Ihren Newsletter"
             ]
           }
@@ -384,8 +384,8 @@
             "text": "Erstellt aus vordefinierten Vorlagen."
           },
           {
-            "title": "Keine Zahlungsgebühren",
-            "text": "Donorfit übernimmt die Zahlungsgebühren."
+            "title": "Keine Transaktionsgebühren",
+            "text": "Ihre Organisation zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Spenderportal",
@@ -433,7 +433,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Ihre Organisation zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Erstes Anliegen anlegen",
@@ -452,7 +452,7 @@
       "faqs": [
         {
           "question": "Ist Donorfit für gemeinnützige Vereine wirklich kostenlos?",
-          "answer": "Ja. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters wie Stripe oder PayPal übernimmt Donorfit."
+          "answer": "Ja. Es gibt keine Plattformgebühr, und Ihre Organisation zahlt für Zahlungen über den verbundenen Anbieter wie Stripe oder PayPal keine Transaktionsgebühren."
         },
         {
           "question": "Was ist der Unterschied zwischen einem Spendenformular und MoneyPool?",
@@ -464,7 +464,7 @@
         },
         {
           "question": "Zahlt unsere Organisation Transaktionsgebühren?",
-          "answer": "Nein. Donorfit übernimmt die Zahlungsgebühren, sodass Ihre Organisation jede Spende in voller Höhe erhält."
+          "answer": "Nein. Ihre Organisation zahlt keine Transaktionsgebühren und erhält so jede Spende in voller Höhe."
         },
         {
           "question": "Erstellt Donorfit Zuwendungsbestätigungen?",
@@ -661,7 +661,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Ihre Stiftung zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Jedes Programm einrichten",
@@ -700,7 +700,7 @@
         },
         {
           "question": "Was kostet Donorfit?",
-          "answer": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr, und die Gebühren des verbundenen Zahlungsanbieters übernimmt Donorfit."
+          "answer": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr, und Ihre Stiftung zahlt für Zahlungen über den verbundenen Anbieter keine Transaktionsgebühren."
         }
       ],
       "cta": {
@@ -887,7 +887,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Ihre Organisation zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Profile von Begünstigten anlegen",
@@ -1137,7 +1137,7 @@
           },
           {
             "title": "Zahlungsanbieter anbinden",
-            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Die Zahlungsgebühren übernimmt Donorfit."
+            "text": "Wählen Sie einen der unterstützten Anbieter: Stripe, PayPal, GoCardless, Mollie oder Micropayment. Ihre Organisation zahlt keine Transaktionsgebühren."
           },
           {
             "title": "Tarife und Anmeldeformular einrichten",

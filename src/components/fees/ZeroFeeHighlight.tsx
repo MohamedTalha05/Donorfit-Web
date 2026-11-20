@@ -7,12 +7,11 @@ const CONTAINER = 'mx-auto max-w-7xl px-4 sm:px-6 lg:px-8';
 /**
  * Donorfit's zero-fee message. Text: common:fees.
  *
- * Business model confirmed by the client on 2026-11-18:
- * - 0% platform fee for organisations;
- * - Donorfit absorbs the payment gateway processing charges for every organisation and gateway,
- *   so they are never passed on to organisations or deducted from donations;
- * - organisations receive 100% of the intended donation amount.
- * ("Cover the Fee" was removed site-wide at the same time.)
+ * Business model (client, corrected 2026-11-19):
+ * - 0% platform fees and 0% transaction fees for organisations; nothing is deducted from donations;
+ * - donors can add an optional, never-preselected contribution at checkout that supports Donorfit and helps
+ *   cover platform and payment processing costs (paid on top of the donation);
+ * - do NOT say Donorfit absorbs all processing charges by itself.
  *
  * Two designs with the same facts:
  * - `receipt` (Home, Pricing): light card with an example €100 receipt;
@@ -318,6 +317,12 @@ function DonationReceipt() {
             <span className="text-sm text-white/70">{t('fees.receipt.receivesNote')}</span>
           </div>
         </div>
+
+        {/* The optional donor contribution is separate from the donation and never deducted from it. */}
+        <p className="mt-4 flex items-start gap-2.5 text-sm leading-relaxed text-neutral-600">
+          <HandHeart className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" aria-hidden="true" />
+          {t('fees.receipt.optional')}
+        </p>
       </div>
     </figure>
   );

@@ -50,19 +50,19 @@
     },
     {
       "question": "How does Donorfit pricing work?",
-      "answer": "Donorfit is free to use. There is no platform fee, and Donorfit covers the payment gateway processing charges, so your organisation receives the full amount of each donation. Optional add-ons such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription are purchased separately – see our Pricing page or contact our team for details.",
+      "answer": "Donorfit is free to use. There is no platform fee and there are no transaction fees for your organisation, so it receives the full amount of each donation. Donors can optionally support Donorfit with a contribution at checkout. Optional add-ons such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription are purchased separately – see our Pricing page or contact our team for details.",
       "category": "Pricing",
       "categoryKey": "pricing"
     },
     {
       "question": "Is Donorfit free for organisations?",
-      "answer": "Yes. Organisations pay no platform fee and no transaction processing fees to Donorfit. Optional add-on modules are priced separately.",
+      "answer": "Yes. Organisations pay no platform fee and no transaction fees to Donorfit. Optional add-on modules are priced separately.",
       "category": "Pricing",
       "categoryKey": "pricing"
     },
     {
-      "question": "Who pays the payment gateway processing charges?",
-      "answer": "Donorfit. Under its zero-fee model, Donorfit absorbs the processing charges of the payment gateways you connect, such as Stripe, PayPal and GoCardless.",
+      "question": "Do organisations pay payment gateway fees?",
+      "answer": "No. Your organisation is not charged transaction fees for donations through the payment gateways you connect, such as Stripe, PayPal and GoCardless. Donors can choose to add an optional contribution at checkout, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees.",
       "category": "Pricing",
       "categoryKey": "pricing"
     },
@@ -74,7 +74,13 @@
     },
     {
       "question": "How does Donorfit sustain this model?",
-      "answer": "Donorfit is funded by optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription, and by exclusive features that organisations choose to buy. The core fundraising platform stays free, Donorfit takes no fees from donations, and donors are not asked for a tip.",
+      "answer": "Donors can add an optional contribution at checkout, calculated as a percentage of their donation. If they accept, they pay the platform charges and payment gateway transaction fees. It is never preselected, and declining it does not affect the donation. Donorfit also offers optional paid add-on modules, such as Membership, Sponsorship, MoneyPool, Water, Qurbani and Recurring Subscription.",
+      "category": "Pricing",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "Do donors have to pay the Donorfit contribution?",
+      "answer": "No. The contribution is optional and is never added automatically or preselected. Donors can choose an amount or decline, and they can complete their donation either way. The contribution is paid on top of the donation and is never deducted from the amount for your organisation.",
       "category": "Pricing",
       "categoryKey": "pricing"
     }

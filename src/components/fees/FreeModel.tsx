@@ -5,9 +5,9 @@ import { useFormat, useT, useTx } from '../../i18n/index.tsx';
 /**
  * Pricing page: how the free model works (money flow + how Donorfit is funded) and a fee calculator
  * (amount raised → €0 platform fee, €0 transaction fees, 100% kept; no processing-cost estimate).
- * Facts (client, 2026-11-18): 0% platform fee, Donorfit absorbs all gateway processing charges, organisations
- * receive 100% of the intended donation. Donorfit is funded by optional paid add-ons and exclusive features;
- * there is no donor tip. Text: company:pricing.model and company:pricing.calc.
+ * Facts (client, corrected 2026-11-19): 0% platform and 0% transaction fees for organisations; donors can add an
+ * optional contribution at checkout that supports Donorfit (never preselected). Also funded by optional paid add-ons.
+ * Text: company:pricing.model and company:pricing.calc.
  */
 
 /** True once the element has entered the viewport (never resets). */

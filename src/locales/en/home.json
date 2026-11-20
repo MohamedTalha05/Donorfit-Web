@@ -1,9 +1,9 @@
 {
   "hero": {
     "badge": "Fundraising technology built for nonprofits",
-    "titleLine1": "Raise more for your mission.",
-    "titleLine2": "Spend less time on admin.",
-    "description": "Donation forms, recurring giving, campaigns and donor management in one connected platform — built for NGOs, charitable trusts, masjids and nonprofits.",
+    "titleLine1": "Everything your organisation needs",
+    "titleLine2": "to make giving go further.",
+    "description": "Give your organisation the tools to fundraise without platform or transaction fees. More resources for your mission, more opportunities to make an impact.",
     "trust": {
       "euHosted": "Hosted in the EU, GDPR-compliant",
       "taxReceipts": "Automated tax receipts",
@@ -79,7 +79,7 @@
       },
       {
         "title": "No fees for you",
-        "text": "No platform fee, and processing charges are covered by Donorfit."
+        "text": "No platform fee and no transaction fees for your organisation."
       },
       {
         "title": "Instant receipts",
@@ -150,7 +150,7 @@
     "title": "Every way your supporters want to give",
     "description": "Accept bank payments, cards and wallets through trusted gateways, with funds paid directly to your organisation’s bank account.",
     "points": [
-      "Donorfit is free to use and covers the payment processing charges for you.",
+      "Donorfit is free to use, with no platform fee and no transaction fees for your organisation.",
       "Your organisation receives the full donation amount.",
       "Available currencies depend on your payment provider and account."
     ],
@@ -542,5 +542,10 @@
       "template": "{{n}}+",
       "label": "Years of Experience"
     }
+  },
+  "zeroBanner": {
+    "platform": "Platform fees",
+    "transaction": "Transaction fees",
+    "audience": "For organisations"
   }
 }

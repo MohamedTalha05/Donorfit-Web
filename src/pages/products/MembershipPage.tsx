@@ -30,6 +30,7 @@ import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 import ContentPhoto from '../../components/ContentPhoto.tsx';
 import applicationFormShot from '../../assets/images/content/membership-application-form.webp';
 import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
+import { PaymentPartners } from '../../components/partners/PartnerLogos.tsx';
 
 /** Screenshot of the real hosted application form (sandbox-membership.donorfit.com/apply), filled with example data. */
 function ApplicationFormShot() {
@@ -154,6 +155,7 @@ export default function MembershipPage() {
       {/* Customer logos */}
       <CustomerLogoSection id="mem-customers" compact />
       <ZeroFeeHighlight id="mem-fees" addon="membership" className="!pt-0" />
+      <PaymentPartners id="mem-payments" variant="compact" className="-mt-6 pb-16 sm:-mt-10 sm:pb-24" />
 
       {/* Feature tour: each core area beside the matching screen */}
       <PSection tone="soft" labelledBy="mem-tour">

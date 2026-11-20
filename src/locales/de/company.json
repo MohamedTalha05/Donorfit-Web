@@ -128,7 +128,7 @@
     },
     "cost": {
       "title": "So funktionieren die Preise",
-      "p1": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr, und die Gebühren der Zahlungsanbieter übernimmt Donorfit selbst – so erhält Ihre Organisation jede Spende in voller Höhe.",
+      "p1": "Donorfit ist kostenlos nutzbar. Ihre Organisation zahlt weder Plattform- noch Transaktionsgebühren und erhält so jede Spende in voller Höhe. Spender:innen können Donorfit beim Bezahlen mit einem freiwilligen Beitrag unterstützen.",
       "p2": "Spezialisierte Add-ons wie CRM, regelmäßige Spenden, Patenschaften, Mitgliedschaften und Qurbani werden separat erworben – Sie zahlen also nur für die Module, die Sie nutzen. Die Plattform unterstützt 5 Sprachen und 39 Währungen.",
       "link": "Preisdetails ansehen"
     },
@@ -208,7 +208,7 @@
         "school-management": "Schüler:innen, Verwaltung und Gebühren verwalten."
       },
       "learnMore": "Mehr über {{name}} erfahren",
-      "pricingNote": "Donorfit ist kostenlos nutzbar – ohne Plattformgebühr, und Zahlungsgebühren werden nicht an Sie weitergegeben. Spezialisierte Zusatzmodule haben einen eigenen Preis.",
+      "pricingNote": "Donorfit ist kostenlos nutzbar – ohne Plattformgebühr und ohne Transaktionsgebühren für Ihre Organisation. Spezialisierte Zusatzmodule haben einen eigenen Preis.",
       "pricingLink": "Zu den Preisen"
     },
     "cta": {
@@ -287,7 +287,7 @@
       "eyebrow": "Preise",
       "titleLead": "Kostenloses Fundraising.",
       "titleHighlight": "0 €, ohne Gebühren auf Ihre Spenden.",
-      "intro": "Keine Plattformgebühr, keine Transaktionsgebühren und keine Zahlungsgebühren, die an Sie weitergegeben werden. Donorfit übernimmt die Kosten der Zahlungsanbieter – so gehen 100 % jeder Spende an Ihr Anliegen.",
+      "intro": "Keine Plattformgebühr, keine Transaktionsgebühren und keine Zahlungsgebühren, die an Sie weitergegeben werden – so gehen 100 % jeder Spende an Ihr Anliegen.",
       "startFree": "Kostenlos registrieren",
       "stats": [
         {
@@ -320,9 +320,10 @@
       "noteExclusiveAfter": ".",
       "includedTitle": "Alles inklusive",
       "features": [
-        "Keine Plattformgebühr",
-        "Keine Transaktionsgebühren – Donorfit übernimmt die Zahlungsgebühren",
-        "Keine versteckten Donorfit-Kosten",
+        "0 % Plattformgebühren",
+        "0 % Transaktionsgebühren",
+        "Keine verpflichtenden Plattformkosten für Organisationen",
+        "Freiwillige Spenderbeiträge unterstützen Donorfit",
         "Zugriff auf grundlegende Berichte und Dashboards",
         "Eingebettete Spenden­formulare mit Anpassungsmöglichkeiten",
         "Zahlreiche Zahlungsarten über Ihren Zahlungsanbieter, z. B. PayPal, Kreditkarte, Google Pay, Apple Pay, SEPA, Bancontact, EPS und iDEAL",
@@ -348,23 +349,23 @@
       "steps": [
         {
           "title": "Ihre Spender:in gibt {{amount}}",
-          "text": "Die Spender:in zahlt den Betrag, den sie geben möchte. Für Ihre Organisation kommt nichts hinzu."
+          "text": "Die Spender:in wählt den Betrag für Ihre Organisation. Es kommt nichts hinzu, außer sie entscheidet sich dafür."
         },
         {
-          "title": "Donorfit übernimmt die Zahlungskosten",
-          "text": "Der Zahlungsanbieter berechnet eine Gebühr für die Transaktion. Donorfit übernimmt sie."
+          "title": "Freiwillige Unterstützung für Donorfit",
+          "text": "Beim Bezahlen kann die Spender:in einen Beitrag hinzufügen, berechnet als Prozentsatz der Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters. Er ist nie vorausgewählt."
         },
         {
           "title": "Sie erhalten die vollen {{amount}}",
-          "text": "Weder Plattform- noch Zahlungsgebühren werden abgezogen. 100 % gehen an Ihr Anliegen."
+          "text": "Ihrer Organisation werden weder Plattform- noch Transaktionsgebühren berechnet. 100 % der Spende gehen an Ihr Anliegen."
         }
       ],
       "fundingTitle": "Wie finanziert sich Donorfit?",
-      "fundingText": "Über optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription sowie über exklusive Funktionen, die Organisationen bei Bedarf erwerben. Die Fundraising-Plattform selbst bleibt kostenlos, Donorfit behält nichts von Spenden ein, und Spender:innen werden nicht um ein Trinkgeld gebeten.",
+      "fundingText": "Spender:innen können beim Bezahlen einen Beitrag hinzufügen, berechnet als Prozentsatz ihrer Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters. Außerdem bietet Donorfit optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription. Ihre Organisation zahlt weder Plattform- noch Transaktionsgebühren.",
       "chips": [
-        "Keine Plattformgebühr",
-        "Keine Transaktionsgebühren",
-        "Keine weitergegebenen Zahlungsgebühren",
+        "0 % Plattformgebühren",
+        "0 % Transaktionsgebühren",
+        "Spenderbeitrag ist immer freiwillig",
         "Keine versteckten Donorfit-Kosten"
       ]
     },
@@ -453,8 +454,8 @@
           "a": "Ja. Organisationen zahlen Donorfit weder eine Plattformgebühr noch Transaktionsgebühren. Optionale Zusatzmodule haben einen eigenen Preis."
         },
         {
-          "q": "Wer zahlt die Gebühren der Zahlungsanbieter?",
-          "a": "Donorfit. Im Rahmen seines gebührenfreien Modells übernimmt Donorfit die Gebühren der verbundenen Zahlungsanbieter wie Stripe, PayPal und GoCardless."
+          "q": "Zahlen Organisationen Gebühren für Zahlungsanbieter?",
+          "a": "Nein. Ihrer Organisation werden für Spenden über die verbundenen Zahlungsanbieter wie Stripe, PayPal und GoCardless keine Transaktionsgebühren berechnet. Spender:innen können beim Bezahlen einen freiwilligen Beitrag hinzufügen, berechnet als Prozentsatz der Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters."
         },
         {
           "q": "Zieht Donorfit Gebühren von Spenden ab?",
@@ -462,7 +463,11 @@
         },
         {
           "q": "Wie finanziert sich Donorfit?",
-          "a": "Donorfit finanziert sich über optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription sowie über exklusive Funktionen, die Organisationen bei Bedarf erwerben. Die Fundraising-Plattform selbst bleibt kostenlos, Donorfit behält nichts von Spenden ein, und Spender:innen werden nicht um ein Trinkgeld gebeten."
+          "a": "Spender:innen können beim Bezahlen einen freiwilligen Beitrag hinzufügen, berechnet als Prozentsatz der Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters. Er ist nie vorausgewählt, und eine Ablehnung hat keinen Einfluss auf die Spende. Außerdem bietet Donorfit optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription."
+        },
+        {
+          "q": "Müssen Spender:innen den Donorfit-Beitrag zahlen?",
+          "a": "Nein. Der Beitrag ist freiwillig und wird nie automatisch hinzugefügt oder vorausgewählt. Spender:innen können einen Betrag wählen oder ablehnen und ihre Spende in jedem Fall abschließen. Der Beitrag kommt zur Spende hinzu und wird nie von dem Betrag für Ihre Organisation abgezogen."
         },
         {
           "q": "Was ist Donorfit und welchen Nutzen hat es für uns?",
@@ -487,7 +492,7 @@
     },
     "closing": {
       "title": "Behalten Sie mehr von jeder Spende für Ihre Mission.",
-      "text": "Donorfit ist kostenlos nutzbar: keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit. Sammeln Sie noch heute Spenden."
+      "text": "Donorfit ist kostenlos nutzbar: keine Plattformgebühr und keine Transaktionsgebühren für Ihre Organisation. Sammeln Sie noch heute Spenden."
     }
   },
   "security": {
@@ -640,6 +645,10 @@
         "azure": {
           "name": "Microsoft Azure",
           "text": "Donorfit nutzt Dienste von Microsoft Azure, um die Plattform zu betreiben."
+        },
+        "aws": {
+          "name": "Amazon Web Services",
+          "text": "Donorfit nutzt Amazon Web Services (AWS) für den Betrieb der Plattform."
         }
       },
       "logoAlt": "Logo von {{name}}"
@@ -654,6 +663,7 @@
         "GoCardless",
         "Mollie",
         "Micropayment",
+        "Payrexx",
         "Mailchimp & Brevo",
         "API & Webhooks"
       ]

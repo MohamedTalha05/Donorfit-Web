@@ -26,6 +26,7 @@ import TestimonialSection from '../../components/social/TestimonialSection.tsx';
 
 import ContentPhoto from '../../components/ContentPhoto.tsx';
 import ZeroFeeHighlight from '../../components/fees/ZeroFeeHighlight.tsx';
+import { PaymentPartners } from '../../components/partners/PartnerLogos.tsx';
 export default function SponsorshipPage() {
   const p = useProductPage('sponsorship');
   const photo = useProductPhoto('sponsorship');
@@ -90,6 +91,7 @@ export default function SponsorshipPage() {
       {/* Customer logos */}
       <CustomerLogoSection id="spo-customers" compact />
       <ZeroFeeHighlight id="spo-fees" addon="sponsorship" className="!pt-0" />
+      <PaymentPartners id="spo-payments" variant="compact" className="-mt-6 pb-16 sm:-mt-10 sm:pb-24" />
 
       {/* Features */}
       <PSection tone="soft" labelledBy="spo-features">

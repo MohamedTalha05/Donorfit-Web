@@ -360,6 +360,22 @@
 .hv-float { animation: hv-float 7s ease-in-out infinite; }
 .hv-float-delayed { animation: hv-float 8s ease-in-out 1.5s infinite; }
 
+/* Homepage hero zero-fee ticket (ZeroFeeBadge.tsx): decorative digit column and "%" as generated content,
+   so they stay out of the heading text. The column is 10 lines of 1em; translateY(-90%) lands on "0". */
+.zf-roll::before { content: "9\A 8\A 7\A 6\A 5\A 4\A 3\A 2\A 1\A 0"; white-space: pre; display: block; line-height: 1; }
+.zf-pct::before { content: "%"; }
+
+/* Partner logo marquee (PartnerLogos.tsx): two copies of the list, so -50% loops seamlessly. */
+@keyframes pl-marquee { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(-50%, 0, 0); } }
+.pl-marquee {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.pl-marquee-track { animation: pl-marquee 38s linear infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .pl-marquee-track { animation: none; }
+}
+
 .hv-reveal-ready [data-reveal] {
   opacity: 0;
   transform: translateY(22px);

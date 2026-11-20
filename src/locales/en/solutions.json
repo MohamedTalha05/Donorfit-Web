@@ -9,7 +9,7 @@
     "explore": "Explore {{name}}",
     "seeIntegrations": "See payment integrations",
     "seePricing": "See pricing",
-    "freeNote": "Donorfit is free to use. No platform fee, and payment processing charges are covered by Donorfit.",
+    "freeNote": "Donorfit is free to use. No platform fee and no transaction fees for your organisation.",
     "exampleData": "Example data",
     "illustrative": "Illustrative example",
     "comingSoon": "Coming Soon",
@@ -199,7 +199,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Your NGO pays no transaction fees."
           },
           {
             "title": "Choose a solution",
@@ -218,7 +218,7 @@
       "faqs": [
         {
           "question": "What does Donorfit cost an NGO?",
-          "answer": "Nothing for the platform. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect, so they are not passed on to your NGO."
+          "answer": "Nothing for the platform. There is no platform fee, and your NGO pays no transaction fees for payments through the provider you connect."
         },
         {
           "question": "Can we run several campaigns at the same time?",
@@ -308,7 +308,7 @@
             "text": "Records, receipts and newsletters are handled in one place.",
             "points": [
               "Receipts from predefined templates",
-              "No processing fees passed on to your charity",
+              "No transaction fees for your charity",
               "Brevo or Mailchimp for your newsletter"
             ]
           }
@@ -384,8 +384,8 @@
             "text": "Created from predefined templates."
           },
           {
-            "title": "No processing fees",
-            "text": "Donorfit covers payment processing charges."
+            "title": "No transaction fees",
+            "text": "Your charity pays no transaction fees."
           },
           {
             "title": "Donor portal",
@@ -433,7 +433,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Your charity pays no transaction fees."
           },
           {
             "title": "Create your first cause",
@@ -452,7 +452,7 @@
       "faqs": [
         {
           "question": "Is Donorfit really free for charities?",
-          "answer": "Yes. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect, such as Stripe or PayPal."
+          "answer": "Yes. There is no platform fee, and your charity pays no transaction fees for payments through the provider you connect, such as Stripe or PayPal."
         },
         {
           "question": "What is the difference between a donation form and MoneyPool?",
@@ -464,7 +464,7 @@
         },
         {
           "question": "Does my charity pay transaction fees?",
-          "answer": "No. Donorfit covers the payment processing charges, so your charity receives the full amount of each gift."
+          "answer": "No. Your charity pays no transaction fees, so it receives the full amount of each gift."
         },
         {
           "question": "Does Donorfit create tax receipts?",
@@ -661,7 +661,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Your foundation pays no transaction fees."
           },
           {
             "title": "Set up each programme",
@@ -700,7 +700,7 @@
         },
         {
           "question": "What does it cost?",
-          "answer": "Donorfit is free to use. There is no platform fee, and Donorfit covers the processing charges of the payment provider you connect."
+          "answer": "Donorfit is free to use. There is no platform fee, and your foundation pays no transaction fees for payments through the provider you connect."
         }
       ],
       "cta": {
@@ -887,7 +887,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Your organisation pays no transaction fees."
           },
           {
             "title": "Create beneficiary profiles",
@@ -1137,7 +1137,7 @@
           },
           {
             "title": "Connect a payment provider",
-            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Donorfit covers the processing charges."
+            "text": "Choose one of the supported providers: Stripe, PayPal, GoCardless, Mollie or Micropayment. Your organisation pays no transaction fees."
           },
           {
             "title": "Set up plans and the sign-up form",

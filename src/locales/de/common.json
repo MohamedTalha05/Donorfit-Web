@@ -43,14 +43,14 @@
     "invalid": "Bitte überprüfen Sie dieses Feld."
   },
   "fees": {
-    "body": "Donorfit erhebt keine Plattformgebühr und übernimmt die Zahlungsgebühren selbst – so erhält Ihre Organisation jede Spende in voller beabsichtigter Höhe.",
+    "body": "Ihre Organisation zahlt weder Plattform- noch Transaktionsgebühren und erhält so jede Spende in voller beabsichtigter Höhe. Spender:innen können Donorfit beim Bezahlen mit einem freiwilligen Beitrag unterstützen.",
     "platform": {
       "label": "Plattform­gebühr",
       "text": "Donorfit erhebt von Organisationen keine Plattformgebühr."
     },
     "transaction": {
-      "label": "Zahlungs­gebühren",
-      "text": "Die Gebühren der Zahlungsanbieter übernimmt Donorfit – sie werden nie an Sie weitergegeben."
+      "label": "Transaktions­gebühren",
+      "text": "Ihrer Organisation werden für Spenden keine Transaktionsgebühren berechnet."
     },
     "addonNote": "{{product}} ist ein Zusatzmodul mit eigenem Preis. Die 0 % gelten für die Spenden und Zahlungen, die Sie damit einnehmen.",
     "headline": "Behalten Sie 100 % jeder Spende",
@@ -61,9 +61,10 @@
       "example": "Beispiel",
       "donation": "Spende",
       "platformFee": "Donorfit-Plattformgebühr",
-      "transactionFee": "Zahlungsgebühr",
+      "transactionFee": "Transaktionsgebühren für Ihre Organisation",
       "receives": "Ihre Organisation erhält",
-      "receivesNote": "100 % der Spende"
+      "receivesNote": "100 % der Spende",
+      "optional": "Spender:innen können beim Bezahlen einen freiwilligen Beitrag hinzufügen. Wer zustimmt, zahlt die Plattformkosten und Transaktionsgebühren zusätzlich zur Spende."
     },
     "flow": {
       "donor": {
@@ -72,11 +73,11 @@
       },
       "donorfit": {
         "title": "Donorfit",
-        "text": "Keine Plattformgebühr, und die Zahlungsgebühren sind übernommen."
+        "text": "Keine Plattformgebühr für Sie. Spender:innen können Donorfit freiwillig unterstützen."
       },
       "provider": {
         "title": "Zahlungsanbieter",
-        "text": "Wickelt die Zahlung sicher ab. Die Zahlungsgebühr übernimmt Donorfit."
+        "text": "Wickelt die Zahlung sicher ab. Ihrer Organisation werden keine Transaktionsgebühren berechnet."
       },
       "org": {
         "title": "Ihre Organisation erhält",
@@ -88,5 +89,27 @@
       "label": "jeder Spende erreicht Ihre Organisation"
     },
     "hundred": "100"
+  },
+  "partners": {
+    "logoAlt": "{{name}}-Logo",
+    "visit": "Website von {{name}} besuchen (öffnet in neuem Tab)",
+    "ecosystem": {
+      "title": "Die Partner hinter jeder Spende",
+      "intro": "Donorfit läuft auf etablierter Cloud-Infrastruktur und verbindet sich mit den Zahlungsanbietern, die Ihre Spender:innen bereits nutzen."
+    },
+    "cloud": {
+      "title": "Cloud- & Technologiepartner",
+      "text": "Donorfit nutzt Dienste dieser Cloud-Anbieter für den Betrieb der Plattform."
+    },
+    "payments": {
+      "title": "Zahlungspartner",
+      "text": "Verbinden Sie die Anbieter Ihrer Wahl und nehmen Sie darüber Spenden an.",
+      "compactText": "Nehmen Sie Spenden über Zahlungsanbieter an, die Ihre Spender:innen bereits kennen.",
+      "more": {
+        "title": "Weitere Zahlungsarten",
+        "text": "Karten, digitale Wallets, SEPA-Lastschrift und erfasste Barzahlungen.",
+        "link": "Alle Zahlungsoptionen ansehen"
+      }
+    }
   }
 }

@@ -50,7 +50,7 @@
     },
     {
       "question": "Wie funktioniert die Preisgestaltung von Donorfit?",
-      "answer": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr, und die Gebühren der Zahlungsanbieter übernimmt Donorfit – Ihre Organisation erhält jede Spende in voller Höhe. Optionale Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
+      "answer": "Donorfit ist kostenlos nutzbar. Es gibt keine Plattformgebühr und keine Transaktionsgebühren für Ihre Organisation – sie erhält jede Spende in voller Höhe. Spender:innen können Donorfit beim Bezahlen mit einem freiwilligen Beitrag unterstützen. Optionale Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription werden separat erworben – Details finden Sie auf unserer Preisseite oder bei unserem Team.",
       "category": "Preise",
       "categoryKey": "pricing"
     },
@@ -61,8 +61,8 @@
       "categoryKey": "pricing"
     },
     {
-      "question": "Wer zahlt die Gebühren der Zahlungsanbieter?",
-      "answer": "Donorfit. Im Rahmen seines gebührenfreien Modells übernimmt Donorfit die Gebühren der verbundenen Zahlungsanbieter wie Stripe, PayPal und GoCardless.",
+      "question": "Zahlen Organisationen Gebühren für Zahlungsanbieter?",
+      "answer": "Nein. Ihrer Organisation werden für Spenden über die verbundenen Zahlungsanbieter wie Stripe, PayPal und GoCardless keine Transaktionsgebühren berechnet. Spender:innen können beim Bezahlen einen freiwilligen Beitrag hinzufügen, berechnet als Prozentsatz der Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters.",
       "category": "Preise",
       "categoryKey": "pricing"
     },
@@ -74,7 +74,13 @@
     },
     {
       "question": "Wie finanziert sich Donorfit?",
-      "answer": "Donorfit finanziert sich über optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription sowie über exklusive Funktionen, die Organisationen bei Bedarf erwerben. Die Fundraising-Plattform selbst bleibt kostenlos, Donorfit behält nichts von Spenden ein, und Spender:innen werden nicht um ein Trinkgeld gebeten.",
+      "answer": "Spender:innen können beim Bezahlen einen freiwilligen Beitrag hinzufügen, berechnet als Prozentsatz der Spende. Wer zustimmt, übernimmt damit die Plattformkosten und die Transaktionsgebühren des Zahlungsanbieters. Er ist nie vorausgewählt, und eine Ablehnung hat keinen Einfluss auf die Spende. Außerdem bietet Donorfit optionale, kostenpflichtige Zusatzmodule wie Membership, Sponsorship, MoneyPool, Water, Qurbani und Recurring Subscription.",
+      "category": "Preise",
+      "categoryKey": "pricing"
+    },
+    {
+      "question": "Müssen Spender:innen den Donorfit-Beitrag zahlen?",
+      "answer": "Nein. Der Beitrag ist freiwillig und wird nie automatisch hinzugefügt oder vorausgewählt. Spender:innen können einen Betrag wählen oder ablehnen und ihre Spende in jedem Fall abschließen. Der Beitrag kommt zur Spende hinzu und wird nie von dem Betrag für Ihre Organisation abgezogen.",
       "category": "Preise",
       "categoryKey": "pricing"
     }

@@ -152,12 +152,12 @@
     "linksTitle": "Related solutions"
   },
   "pricing": {
-    "title": "Free Platform. No Processing Fees for You.",
-    "body": "Donorfit is free to use. Donorfit covers the payment gateway processing charges for every payment, including recurring payments, so they are not passed on to your organisation.",
+    "title": "Free Platform. No Transaction Fees for You.",
+    "body": "Donorfit is free to use. Your organisation pays no platform fee and no transaction fees for any payment, including recurring payments.",
     "platformTitle": "Donorfit platform",
     "platformText": "Using the Donorfit platform is free. See the pricing page for what is included.",
     "providerTitle": "Payment provider",
-    "providerText": "Processing charges for each payment, including recurring payments, are covered by Donorfit.",
+    "providerText": "No transaction fees are charged to your organisation for any payment, including recurring payments.",
     "link": "See pricing"
   },
   "faq": {
@@ -198,8 +198,8 @@
         "answer": "No. Recurring payments depend on the payment provider, the payment method and your account configuration, and each provider decides in which countries it operates. For example, SEPA Direct Debit is used in the SEPA area and Bacs Direct Debit in the UK."
       },
       {
-        "question": "Are recurring payment transaction fees included in Donorfit?",
-        "answer": "Yes. Donorfit covers the processing charges for every payment, including recurring payments. They are not passed on to your organisation."
+        "question": "Do we pay transaction fees for recurring payments?",
+        "answer": "No. Your organisation pays no transaction fees for any payment, including recurring payments, and there is no platform fee."
       },
       {
         "question": "How can an organisation enable recurring payments?",

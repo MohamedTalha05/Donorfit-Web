@@ -43,6 +43,7 @@ import { CONTAINER, PSection, SectionTitle } from '../components/product/Product
 import TestimonialSection from '../components/social/TestimonialSection.tsx';
 import ContentPhoto from '../components/ContentPhoto.tsx';
 import ZeroFeeHighlight from '../components/fees/ZeroFeeHighlight.tsx';
+import { PaymentPartners } from '../components/partners/PartnerLogos.tsx';
 /**
  * Payment methods and the providers that offer them. Source: the "offered" lists on the
  * provider integration pages (src/locales/<lang>/integrations.json → pages.<id>.offered).
@@ -181,8 +182,11 @@ export default function PaymentGatewaysPage() {
         </div>
       </section>
 
+      {/* Payment gateway partners: full logo grid, right below the hero */}
+      <PaymentPartners id="pg-partners" variant="feature" showLink={false} className="pt-4 sm:pt-8" />
+
       {/* Zero-fee message */}
-      <ZeroFeeHighlight id="pg-fees" className="!pt-0" />
+      <ZeroFeeHighlight id="pg-fees" />
 
       {/* 2. Introduction */}
       <PSection labelledBy="pg-intro">

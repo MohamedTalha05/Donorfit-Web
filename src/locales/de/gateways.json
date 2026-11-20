@@ -27,7 +27,7 @@
       },
       {
         "title": "Kostenlos nutzbar",
-        "text": "Keine Donorfit-Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit."
+        "text": "Keine Donorfit-Plattformgebühr und keine Transaktionsgebühren für Ihre Organisation."
       }
     ]
   },
@@ -196,16 +196,16 @@
     ]
   },
   "pricing": {
-    "title": "Kostenlose Fundraising-Plattform. Keine Zahlungsgebühren für Sie.",
-    "body": "Donorfit ist kostenlos nutzbar. Die Gebühren der verbundenen Zahlungsanbieter übernimmt Donorfit – sie werden weder an Ihre Organisation weitergegeben noch von Spenden abgezogen.",
+    "title": "Kostenlose Fundraising-Plattform. Keine Transaktionsgebühren für Sie.",
+    "body": "Donorfit ist kostenlos nutzbar. Ihre Organisation zahlt für Zahlungen über die verbundenen Anbieter weder Plattform- noch Transaktionsgebühren, und von Spenden wird nichts abgezogen. Spender:innen können Donorfit beim Bezahlen mit einem freiwilligen Beitrag unterstützen.",
     "points": [
       {
         "title": "Keine Plattformgebühr bei Donorfit",
         "text": "Sie können sich ohne monatliche Plattformgebühr registrieren und Donorfit nutzen."
       },
       {
-        "title": "Zahlungsgebühren übernommen",
-        "text": "Donorfit übernimmt die Transaktionsgebühren des verbundenen Zahlungsanbieters."
+        "title": "Keine Transaktionsgebühren",
+        "text": "Ihrer Organisation werden für Zahlungen über den verbundenen Anbieter keine Transaktionsgebühren berechnet."
       },
       {
         "title": "100 % jeder Spende",
@@ -248,8 +248,8 @@
         "answer": "Internationale Spendenzahlungen hängen von Ihrem Zahlungsanbieter ab: in welchen Ländern er tätig ist, welche Währungen er unterstützt und wie Ihr Konto konfiguriert ist. Donorfit garantiert nicht, dass Zahlungen in jedem Land angenommen werden. Bitte prüfen Sie vor dem Start die Bedingungen des Zahlungsanbieters."
       },
       {
-        "question": "Sind die Transaktionsgebühren des Zahlungs-Gateways in Donorfit enthalten?",
-        "answer": "Ja. Donorfit übernimmt die Gebühren der verbundenen Zahlungsanbieter wie Stripe, PayPal und GoCardless. Sie werden nicht an Ihre Organisation weitergegeben, und es gibt keine Plattformgebühr."
+        "question": "Zahlen wir Transaktionsgebühren für Zahlungsanbieter?",
+        "answer": "Nein. Ihre Organisation zahlt für Zahlungen über die verbundenen Anbieter wie Stripe, PayPal und GoCardless keine Transaktionsgebühren, und es gibt keine Plattformgebühr. Spender:innen können Donorfit beim Bezahlen mit einem freiwilligen Beitrag unterstützen."
       },
       {
         "question": "Wie verbinde ich ein Zahlungs-Gateway mit Donorfit?",

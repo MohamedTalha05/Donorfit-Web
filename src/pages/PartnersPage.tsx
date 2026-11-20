@@ -1,17 +1,16 @@
 import React from 'react';
 import { useModal } from '../context/ModalContext.tsx';
-import { Handshake, CheckCircle2, ArrowRight, Building2, ShieldCheck, Globe } from 'lucide-react';
+import { Handshake, CheckCircle2, ArrowRight, ArrowUpRight, Building2, ShieldCheck, Globe } from 'lucide-react';
 import { useT, useTx } from '../i18n/index.tsx';
 import HomeLink from '../components/home/HomeLink.tsx';
-import googleCloudLogo from '../assets/partners/google-cloud.svg';
-import azureLogo from '../assets/partners/microsoft-azure.svg';
 import GeneralTestimonialSection from '../components/social/GeneralTestimonialSection.tsx';
+import { CLOUD_PARTNERS } from '../data/partners.ts';
+import { NEW_TAB } from '../data/links.ts';
+import { PaymentPartners } from '../components/partners/PartnerLogos.tsx';
 
-/** Cloud providers whose services run the Donorfit platform. Official logos: src/assets/partners/CREDITS.md. */
-const TECH_PARTNERS = [
-  { key: 'googleCloud', logo: googleCloudLogo, w: 181, h: 28, displayH: '1.75rem' },
-  { key: 'azure', logo: azureLogo, w: 96, h: 96, displayH: '2.75rem' },
-] as const;
+/** Cloud providers whose services run the Donorfit platform (data: src/data/partners.ts); key = company:partners.tech.items.<key>. */
+const TECH_KEYS: Record<string, string> = { 'google-cloud': 'googleCloud', azure: 'azure', aws: 'aws' };
+const TECH_PARTNERS = CLOUD_PARTNERS.map((p) => ({ ...p, key: TECH_KEYS[p.id] }));
 
 interface PartnerType {
   title: string;
@@ -23,6 +22,7 @@ export default function PartnersPage() {
   const { openBookDemo } = useModal();
   const t = useT('company');
   const tx = useTx('company');
+  const tc = useT('common');
 
   const partnerTypes = tx<PartnerType[]>('partners.types');
   const integrations = tx<string[]>('partners.integrations.items');
@@ -86,11 +86,11 @@ export default function PartnersPage() {
           </h2>
           <p className="text-sm sm:text-base text-neutral-600 leading-relaxed">{t('partners.tech.intro')}</p>
         </div>
-        <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 lg:max-w-4xl">
+        <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {TECH_PARTNERS.map((p) => {
             const name = t(`partners.tech.items.${p.key}.name`);
             return (
-              <li key={p.key} className="p-8 rounded-2xl bg-white border border-neutral-200 shadow-xs flex flex-col gap-5">
+              <li key={p.key} className="hv-lift p-8 rounded-2xl bg-white border border-neutral-200 shadow-xs flex flex-col gap-5 hover:border-brand-300">
                 <div className="flex h-12 items-center">
                   <img
                     src={p.logo}
@@ -100,18 +100,30 @@ export default function PartnersPage() {
                     loading="lazy"
                     decoding="async"
                     className="w-auto max-w-full object-contain object-left"
-                    style={{ height: p.displayH }}
+                    style={{ height: `${p.displayH * 1.08}rem` }}
                   />
                 </div>
                 <div className="space-y-1.5">
                   <h3 className="text-lg font-bold text-neutral-900 font-display" translate="no">{name}</h3>
                   <p className="text-sm text-neutral-600 leading-relaxed">{t(`partners.tech.items.${p.key}.text`)}</p>
                 </div>
+                <a
+                  href={p.url}
+                  {...NEW_TAB}
+                  aria-label={tc('partners.visit', { name })}
+                  className="mt-auto inline-flex w-fit items-center gap-1.5 text-sm font-bold text-brand-700 hover:text-brand-900"
+                >
+                  {new URL(p.url).host.replace(/^www\./, '')}
+                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+                </a>
               </li>
             );
           })}
         </ul>
       </section>
+
+      {/* Payment gateway partners (logo grid) */}
+      <PaymentPartners id="partners-payments-title" variant="feature" />
 
       {/* Verified Ecosystem Integrations */}
       <section id="integrations" className="scroll-mt-24 bg-neutral-900 bg-dark-glow text-white py-16 rounded-3xl mx-4 sm:mx-6 lg:mx-8">

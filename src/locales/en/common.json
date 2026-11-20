@@ -43,14 +43,14 @@
     "invalid": "Please check this field."
   },
   "fees": {
-    "body": "Donorfit charges no platform fee and covers the payment processing charges itself, so your organisation receives the full intended amount of every donation.",
+    "body": "Your organisation pays no platform fee and no transaction fees, so it receives the full intended amount of every donation. Donors can choose to add an optional contribution at checkout to support Donorfit.",
     "platform": {
       "label": "Platform fee",
       "text": "Donorfit charges organisations no platform fee."
     },
     "transaction": {
-      "label": "Processing fees",
-      "text": "Payment gateway charges are covered by Donorfit and never passed on to you."
+      "label": "Transaction fees",
+      "text": "Your organisation is not charged transaction fees for donations."
     },
     "addonNote": "{{product}} is an add-on module with its own price. The 0% applies to the donations and payments you collect with it.",
     "headline": "Keep 100% of every donation",
@@ -61,9 +61,10 @@
       "example": "Example",
       "donation": "Donation",
       "platformFee": "Donorfit platform fee",
-      "transactionFee": "Payment processing fee",
+      "transactionFee": "Transaction fees for your organisation",
       "receives": "Your organisation receives",
-      "receivesNote": "100% of the donation"
+      "receivesNote": "100% of the donation",
+      "optional": "Donors can add an optional contribution at checkout. If they accept, they pay the platform charges and transaction fees on top of their donation."
     },
     "flow": {
       "donor": {
@@ -72,11 +73,11 @@
       },
       "donorfit": {
         "title": "Donorfit",
-        "text": "No platform fee, and processing charges are covered."
+        "text": "No platform fee for you. Donors can add an optional contribution to support Donorfit."
       },
       "provider": {
         "title": "Payment provider",
-        "text": "Processes the payment securely. Donorfit covers the processing fee."
+        "text": "Processes the payment securely. No transaction fees are charged to your organisation."
       },
       "org": {
         "title": "Your organisation receives",
@@ -88,5 +89,27 @@
       "label": "of every donation reaches your organisation"
     },
     "hundred": "100"
+  },
+  "partners": {
+    "logoAlt": "{{name}} logo",
+    "visit": "Visit the {{name}} website (opens in a new tab)",
+    "ecosystem": {
+      "title": "The partners behind every donation",
+      "intro": "Donorfit runs on established cloud infrastructure and connects to the payment providers your donors already use."
+    },
+    "cloud": {
+      "title": "Cloud & technology partners",
+      "text": "Donorfit uses services from these cloud providers to run the platform."
+    },
+    "payments": {
+      "title": "Payment gateway partners",
+      "text": "Connect the providers you prefer and accept donations through them.",
+      "compactText": "Accept donations through payment providers your donors already know.",
+      "more": {
+        "title": "More ways to pay",
+        "text": "Cards, digital wallets, SEPA Direct Debit and recorded cash payments.",
+        "link": "See all payment options"
+      }
+    }
   }
 }

@@ -27,7 +27,7 @@
       },
       {
         "title": "Free to use",
-        "text": "No Donorfit platform fee, and processing charges are covered by Donorfit."
+        "text": "No Donorfit platform fee and no transaction fees for your organisation."
       }
     ]
   },
@@ -196,16 +196,16 @@
     ]
   },
   "pricing": {
-    "title": "Free Fundraising Platform. No Processing Fees for You.",
-    "body": "Donorfit is free to use. Donorfit covers the processing charges of the payment gateways you connect, so they are not passed on to your organisation or deducted from donations.",
+    "title": "Free Fundraising Platform. No Transaction Fees for You.",
+    "body": "Donorfit is free to use. Your organisation pays no platform fee and no transaction fees for payments through the gateways you connect, and nothing is deducted from donations. Donors can choose to support Donorfit with an optional contribution at checkout.",
     "points": [
       {
         "title": "No Donorfit platform fee",
         "text": "You can register and use Donorfit without a monthly platform fee."
       },
       {
-        "title": "Processing fees covered",
-        "text": "Donorfit covers the transaction charges of the payment provider you connect."
+        "title": "No transaction fees",
+        "text": "Your organisation is not charged transaction fees for payments through the provider you connect."
       },
       {
         "title": "100% of every donation",
@@ -248,8 +248,8 @@
         "answer": "International donation payments depend on your payment provider: which countries it serves, which currencies it supports and how your account is configured. Donorfit does not guarantee acceptance in every country. Please check the provider’s conditions before launching."
       },
       {
-        "question": "Are payment gateway transaction fees included in Donorfit?",
-        "answer": "Yes. Donorfit covers the processing charges of the payment gateways you connect, such as Stripe, PayPal and GoCardless. They are not passed on to your organisation, and there is no platform fee."
+        "question": "Do we pay transaction fees for payment gateways?",
+        "answer": "No. Your organisation pays no transaction fees for payments through the gateways you connect, such as Stripe, PayPal and GoCardless, and there is no platform fee. Donors can choose to add an optional contribution at checkout to support Donorfit."
       },
       {
         "question": "How can I connect a payment gateway to Donorfit?",

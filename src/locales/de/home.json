@@ -1,9 +1,9 @@
 {
   "hero": {
     "badge": "Fundraising-Technologie für gemeinnützige Organisationen",
-    "titleLine1": "Mehr Spenden für Ihre Mission.",
-    "titleLine2": "Weniger Zeit für Verwaltung.",
-    "description": "Spenden­formulare, regelmäßiges Spenden, Kampagnen und Spender­verwaltung in einer vernetzten Plattform – entwickelt für NGOs, Stiftungen, Moschee­gemeinden und gemeinnützige Organisationen.",
+    "titleLine1": "Alles, was Ihre Organisation braucht,",
+    "titleLine2": "damit Spenden mehr bewirken.",
+    "description": "Geben Sie Ihrer Organisation die Werkzeuge, um ohne Plattform- und Transaktionsgebühren Spenden zu sammeln. Mehr Mittel für Ihre Mission, mehr Möglichkeiten, etwas zu bewirken.",
     "trust": {
       "euHosted": "In der EU gehostet, DSGVO-konform",
       "taxReceipts": "Automatische Zuwendungs­bestätigungen",
@@ -79,7 +79,7 @@
       },
       {
         "title": "Keine Gebühren für Sie",
-        "text": "Keine Plattformgebühr, und die Zahlungsgebühren übernimmt Donorfit."
+        "text": "Keine Plattformgebühr und keine Transaktionsgebühren für Ihre Organisation."
       },
       {
         "title": "Sofortige Bestätigungen",
@@ -150,7 +150,7 @@
     "title": "Jede Zahlungsart, die Ihre Unterstützer:innen wünschen",
     "description": "Akzeptieren Sie Bankzahlungen, Karten und Wallets über bewährte Zahlungs­anbieter – die Gelder gehen direkt auf das Bankkonto Ihrer Organisation.",
     "points": [
-      "Donorfit ist kostenlos nutzbar und übernimmt die Zahlungsgebühren für Sie.",
+      "Donorfit ist kostenlos nutzbar – ohne Plattformgebühr und ohne Transaktionsgebühren für Ihre Organisation.",
       "Ihre Organisation erhält den vollen Spendenbetrag.",
       "Verfügbare Währungen hängen von Ihrem Zahlungsanbieter und Ihrem Konto ab."
     ],
@@ -542,5 +542,10 @@
       "template": "{{n}}+",
       "label": "Jahre Erfahrung"
     }
+  },
+  "zeroBanner": {
+    "platform": "Plattform­gebühren",
+    "transaction": "Transaktions­gebühren",
+    "audience": "Für Organisationen"
   }
 }

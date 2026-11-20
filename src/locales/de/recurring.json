@@ -152,12 +152,12 @@
     "linksTitle": "Verwandte Lösungen"
   },
   "pricing": {
-    "title": "Kostenlose Plattform. Keine Zahlungsgebühren für Sie.",
-    "body": "Donorfit ist kostenlos nutzbar. Die Gebühren der Zahlungsanbieter übernimmt Donorfit für jede Zahlung, auch für regelmäßige Zahlungen – sie werden nicht an Ihre Organisation weitergegeben.",
+    "title": "Kostenlose Plattform. Keine Transaktionsgebühren für Sie.",
+    "body": "Donorfit ist kostenlos nutzbar. Ihre Organisation zahlt für keine Zahlung Plattform- oder Transaktionsgebühren – auch nicht für regelmäßige Zahlungen.",
     "platformTitle": "Donorfit-Plattform",
     "platformText": "Die Nutzung der Donorfit-Plattform ist kostenlos. Was enthalten ist, sehen Sie auf der Preisseite.",
     "providerTitle": "Zahlungsanbieter",
-    "providerText": "Die Gebühren für jede Zahlung, auch für regelmäßige Zahlungen, übernimmt Donorfit.",
+    "providerText": "Ihrer Organisation werden für keine Zahlung Transaktionsgebühren berechnet, auch nicht für regelmäßige Zahlungen.",
     "link": "Preise ansehen"
   },
   "faq": {
@@ -198,8 +198,8 @@
         "answer": "Nein. Wiederkehrende Zahlungen hängen vom Zahlungsanbieter, der Zahlungsart und Ihrer Kontokonfiguration ab, und jeder Zahlungsanbieter entscheidet selbst, in welchen Ländern er tätig ist. So wird zum Beispiel die SEPA-Lastschrift im SEPA-Raum und die Bacs-Lastschrift in Großbritannien genutzt."
       },
       {
-        "question": "Sind die Transaktionsgebühren für wiederkehrende Zahlungen in Donorfit enthalten?",
-        "answer": "Ja. Donorfit übernimmt die Gebühren für jede Zahlung, auch für regelmäßige Zahlungen. Sie werden nicht an Ihre Organisation weitergegeben."
+        "question": "Zahlen wir Transaktionsgebühren für regelmäßige Zahlungen?",
+        "answer": "Nein. Ihre Organisation zahlt für keine Zahlung Transaktionsgebühren, auch nicht für regelmäßige Zahlungen, und es gibt keine Plattformgebühr."
       },
       {
         "question": "Wie kann eine Organisation wiederkehrende Zahlungen aktivieren?",
